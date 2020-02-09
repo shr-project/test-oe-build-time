@@ -25,7 +25,7 @@ git checkout -b zeus 0c393398a91713a108f319ac75337c02b7ebeaa7
 cd ..
 git clone https://github.com/meta-rust/meta-rust.git
 cd meta-rust
-git checkout -b zeus d8d77be1292064a02adcb5e72e293604b704f69b
+git checkout -b zeus 5d1ada0c97723e1526bf5599b2fa2cbb56c2c0dc
 cd ..
 
 . ./oe-init-build-env
