@@ -22,4 +22,8 @@ rm -rf poky/build/bitbake-cookerdaemon.log poky/build/cache poky/build/sstate-ca
 /usr/bin/time ./6-build-16-bb-threads.sh 2>&1 | tee 6-build-16-bb-threads.log
 grep -R "Elapsed time" poky/build/tmp/buildstats | sed 's/^.*\/\([^\/]*\/[^\/]*\):Elapsed time: \(.*\)$/\2 \1/g' | sort -n | tail -n 20 | tee 6-build-16-bb-threads.top20
 
+rm -rf poky/build/bitbake-cookerdaemon.log poky/build/cache poky/build/sstate-cache poky/build/tmp
+/usr/bin/time ./7-build-2-bb-threads.sh 2>&1 | tee 7-build-2-bb-threads.log
+grep -R "Elapsed time" poky/build/tmp/buildstats | sed 's/^.*\/\([^\/]*\/[^\/]*\):Elapsed time: \(.*\)$/\2 \1/g' | sort -n | tail -n 20 | tee 7-build-2-bb-threads.top20
+
 tail -n 5 *.log
