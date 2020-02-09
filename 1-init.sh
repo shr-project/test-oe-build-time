@@ -38,4 +38,5 @@ sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-browser/g' conf/bbla
 cat >> conf/local.conf << EOF
 IMAGE_INSTALL_append_pn-core-image-sato = " qtwebengine qtwebkit chromium-x11 firefox epiphany"
 MACHINE = "qemux86-64"
+INHERIT += "rm_work"
 EOF
