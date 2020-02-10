@@ -1,0 +1,55 @@
+SYS:	HPE ProLiant BL460c Gen9
+CPU:	40cores 80 threads from Dual E5-2698 v4 @ 2.20GHz https://ark.intel.com/content/www/us/en/ark/products/91753/intel-xeon-processor-e5-2698-v4-50m-cache-2-20-ghz.html
+RAM:	256GB RAM - 4 x 64G HPE ECC LRDIMM DDR4 2400 CL17 (HPE 809085-091)
+DISK:	RAID0 on HP P244br, 2x 1600G SATA SSDs (HPE LK1600GEYMV)
+FS:	ext4 with nobarrier and long commit interval (rw,noatime,nobarrier,commit=6000,stripe=128,data=ordered)
+OS:	Ubuntu 18.04
+
+==> 1-init.log <==
+ - 'devtool' and 'recipetool' handle common recipe tasks
+ - 'bitbake-layers' handles common layer tasks
+ - 'oe-pkgdata-util' handles common target package tasks
+28.02user 6.38system 0:43.20elapsed 79%CPU (0avgtext+0avgdata 131748maxresident)k
+6640inputs+679064outputs (14major+178147minor)pagefaults 0swaps
+
+==> 2-build-test.log <==
+NOTE: recipe m4-native-1.4.18-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 42 of 42 (/jenkins/home/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.18.bb:do_build)
+NOTE: Tasks Summary: Attempted 42 tasks of which 0 didn't need to be rerun and all succeeded.
+0.90user 0.11system 0:54.79elapsed 1%CPU (0avgtext+0avgdata 31708maxresident)k
+4720inputs+2704outputs (9major+19155minor)pagefaults 0swaps
+
+==> 3-fetch.log <==
+NOTE: recipe linux-yocto-5.2.28+gitAUTOINC+dd6019025c_992280855e-r0: task do_fetch: Succeeded
+NOTE: recipe qtwebengine-5.13.2+gitAUTOINC+556576b55f_843d70ac87-r0: task do_fetch: Succeeded
+NOTE: Tasks Summary: Attempted 530 tasks of which 0 didn't need to be rerun and all succeeded.
+6.13user 1.03system 8:59.35elapsed 1%CPU (0avgtext+0avgdata 29280maxresident)k
+8inputs+488outputs (0major+21207minor)pagefaults 0swaps
+
+==> 4-build-all-cores.log <==
+NOTE: recipe core-image-sato-1.0-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 7999 of 7999 (/jenkins/home/test-oe-build-time/poky/meta/recipes-sato/images/core-image-sato.bb:do_build)
+NOTE: Tasks Summary: Attempted 7999 tasks of which 1 didn't need to be rerun and all succeeded.
+54.16user 6.40system 2:19:46elapsed 0%CPU (0avgtext+0avgdata 29312maxresident)k
+8inputs+5112outputs (0major+49746minor)pagefaults 0swaps
+
+==> 5-build-8-bb-threads.log <==
+NOTE: recipe core-image-sato-1.0-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 7999 of 7999 (/jenkins/home/test-oe-build-time/poky/meta/recipes-sato/images/core-image-sato.bb:do_build)
+NOTE: Tasks Summary: Attempted 7999 tasks of which 1 didn't need to be rerun and all succeeded.
+57.84user 7.06system 2:33:29elapsed 0%CPU (0avgtext+0avgdata 29276maxresident)k
+8inputs+5736outputs (0major+57400minor)pagefaults 0swaps
+
+==> 6-build-16-bb-threads.log <==
+NOTE: recipe core-image-sato-1.0-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 7999 of 7999 (/jenkins/home/test-oe-build-time/poky/meta/recipes-sato/images/core-image-sato.bb:do_build)
+NOTE: Tasks Summary: Attempted 7999 tasks of which 1 didn't need to be rerun and all succeeded.
+55.96user 6.56system 2:17:39elapsed 0%CPU (0avgtext+0avgdata 29324maxresident)k
+8inputs+5120outputs (0major+50447minor)pagefaults 0swaps
+
+==> 7-build-2-bb-threads.log <==
+NOTE: recipe core-image-sato-1.0-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 7999 of 7999 (/jenkins/home/test-oe-build-time/poky/meta/recipes-sato/images/core-image-sato.bb:do_build)
+NOTE: Tasks Summary: Attempted 7999 tasks of which 1 didn't need to be rerun and all succeeded.
+57.93user 7.58system 4:50:11elapsed 0%CPU (0avgtext+0avgdata 29392maxresident)k
+8inputs+9752outputs (0major+59362minor)pagefaults 0swaps
