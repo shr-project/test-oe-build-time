@@ -1,12 +1,12 @@
 SYS:	Tower
-CPU:	AMD Ryzen 5 1600AF
+CPU:	6cores 12threads AMD Ryzen 5 1600AF
 MB:	MSI B450-A PRO MAX
 RAM:	16GB (2x8G DDR3200 HyperX Predator CL16 KHX3200C16D4/8GX
 DISK:	2TB Gigabyte Aorus NVMe Gen4
 FS:	ext4 with no journal, nobarrier (rw,noatime,nobarrier,stripe=128,data=ordered) - commit=6000 isn't used because it conflicts with no journal (https://lore.kernel.org/patchwork/patch/646499/)
 OS:	Ubuntu 19.10
 
-There is too little RAM for these builds, even with additional 32GB swap it still triggers OOMK when there
+There is too little RAM for these builds, even with additional 16GB swap it still triggers OOMK when there
 are too many bitbake threads (like the default number of cpu threads == 12)
 
 So the first build with the default values didn't finish as dmesg shows:
