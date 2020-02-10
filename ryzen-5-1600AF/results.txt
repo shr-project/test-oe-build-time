@@ -1,0 +1,48 @@
+SYS:	Tower
+CPU:	AMD Ryzen 5 1600AF
+MB:	MSI B450-A PRO MAX
+RAM:	16GB (2x8G DDR3200 HyperX Predator CL16 KHX3200C16D4/8GX
+DISK:	2TB Gigabyte Aorus NVMe Gen4
+FS:	ext4 with no journal, nobarrier (rw,noatime,nobarrier,stripe=128,data=ordered) - commit=6000 isn't used because it conflicts with no journal (https://lore.kernel.org/patchwork/patch/646499/)
+OS:	Ubuntu 19.10
+
+There is too little RAM for these builds, even with additional 32GB swap it still triggers OOMK when there
+are too many bitbake threads (like the default number of cpu threads == 12)
+
+So the first build with the default values didn't finish as dmesg shows:
+
+[Sun Feb  9 06:38:54 2020] Out of memory: Killed process 29070 (rustc) total-vm:3090468kB, anon-rss:1557008kB, file-rss:0kB, shmem-rss:0kB
+[Sun Feb  9 08:55:46 2020] Out of memory: Killed process 5441 (cc1plus) total-vm:2096512kB, anon-rss:54360kB, file-rss:0kB, shmem-rss:0kB
+[Sun Feb  9 09:01:08 2020] Out of memory: Killed process 27166 (cc1plus) total-vm:2052452kB, anon-rss:29736kB, file-rss:0kB, shmem-rss:0kB
+[Sun Feb  9 10:33:31 2020] Out of memory: Killed process 7705 (cc1plus) total-vm:2470876kB, anon-rss:2381252kB, file-rss:0kB, shmem-rss:0kB
+[Sun Feb  9 14:54:07 2020] Out of memory: Killed process 11966 (rustc) total-vm:3223600kB, anon-rss:28528kB, file-rss:0kB, shmem-rss:0kB
+[Sun Feb  9 15:15:19 2020] Out of memory: Killed process 16117 (cc1plus) total-vm:2518840kB, anon-rss:380148kB, file-rss:0kB, shmem-rss:0kB
+[Sun Feb  9 15:39:26 2020] Out of memory: Killed process 6006 (rustc) total-vm:2544412kB, anon-rss:110808kB, file-rss:0kB, shmem-rss:0kB
+
+==> 1-init.log <==
+ - 'devtool' and 'recipetool' handle common recipe tasks
+ - 'bitbake-layers' handles common layer tasks
+ - 'oe-pkgdata-util' handles common target package tasks
+20.65user 4.54system 3:13.14elapsed 13%CPU (0avgtext+0avgdata 135436maxresident)k
+19264inputs+713648outputs (64major+123551minor)pagefaults 0swaps
+
+==> 2-build-test.log <==
+NOTE: Tasks Summary: Attempted 42 tasks of which 0 didn't need to be rerun and all succeeded.
+
+Summary: There was 1 WARNING message shown.
+0.58user 0.08system 1:01.43elapsed 1%CPU (0avgtext+0avgdata 32400maxresident)k
+7072inputs+2864outputs (20major+20309minor)pagefaults 0swaps
+
+==> 3-fetch.log <==
+NOTE: Tasks Summary: Attempted 530 tasks of which 0 didn't need to be rerun and all succeeded.
+
+Summary: There were 2 WARNING messages shown.
+4.44user 0.70system 19:18.84elapsed 0%CPU (0avgtext+0avgdata 29400maxresident)k
+136inputs+1048outputs (1major+14021minor)pagefaults 0swaps
+
+==> 7-build-2-bb-threads.log <==
+NOTE: Tasks Summary: Attempted 7999 tasks of which 1 didn't need to be rerun and all succeeded.
+
+Summary: There was 1 WARNING message shown.
+41.59user 5.29system 9:39:48elapsed 0%CPU (0avgtext+0avgdata 28584maxresident)k
+113872inputs+11808outputs (4862major+22294minor)pagefaults 0swaps
