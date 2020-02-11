@@ -46,3 +46,14 @@ NOTE: Tasks Summary: Attempted 7999 tasks of which 1 didn't need to be rerun and
 Summary: There was 1 WARNING message shown.
 41.59user 5.29system 9:39:48elapsed 0%CPU (0avgtext+0avgdata 28584maxresident)k
 113872inputs+11808outputs (4862major+22294minor)pagefaults 0swaps
+
+After adding 32GB swap on the same NVMe SSD, instead of 16GB on slow HDD I was able to finish
+all-cores build without OOMK and it's even slightly faster than 2 bb threads build, but for
+price of much more significant load during the build and ssd wear due to swap.
+
+==> ryzen-5-1600AF/4-build-all-cores.log <==
+NOTE: Tasks Summary: Attempted 7999 tasks of which 1 didn't need to be rerun and all succeeded.
+
+Summary: There was 1 WARNING message shown.
+41.86user 6.44system 9:06:51elapsed 0%CPU (0avgtext+0avgdata 28808maxresident)k
+525072inputs+15480outputs (23555major+57247minor)pagefaults 0swaps
