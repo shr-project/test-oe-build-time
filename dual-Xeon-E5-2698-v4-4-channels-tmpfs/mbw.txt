@@ -1,0 +1,23 @@
+$ mbw -n 5 `expr 128 \* 1024`
+Long uses 8 bytes. Allocating 2*17179869184 elements = 274877906944 bytes of memory.
+Using 262144 bytes as blocks for memcpy block copy test.
+Getting down to business... Doing 5 runs per test.
+0	Method: MEMCPY	Elapsed: 308.39529	MiB: 131072.00000	Copy: 425.013 MiB/s
+1	Method: MEMCPY	Elapsed: 393.65559	MiB: 131072.00000	Copy: 332.961 MiB/s
+2	Method: MEMCPY	Elapsed: 297.72874	MiB: 131072.00000	Copy: 440.240 MiB/s
+3	Method: MEMCPY	Elapsed: 255.98132	MiB: 131072.00000	Copy: 512.037 MiB/s
+4	Method: MEMCPY	Elapsed: 301.64245	MiB: 131072.00000	Copy: 434.528 MiB/s
+AVG	Method: MEMCPY	Elapsed: 311.48068	MiB: 131072.00000	Copy: 420.803 MiB/s
+0	Method: DUMB	Elapsed: 448.98166	MiB: 131072.00000	Copy: 291.932 MiB/s
+1	Method: DUMB	Elapsed: 255.88733	MiB: 131072.00000	Copy: 512.225 MiB/s
+2	Method: DUMB	Elapsed: 353.58543	MiB: 131072.00000	Copy: 370.694 MiB/s
+3	Method: DUMB	Elapsed: 503.23719	MiB: 131072.00000	Copy: 260.458 MiB/s
+4	Method: DUMB	Elapsed: 251.44093	MiB: 131072.00000	Copy: 521.283 MiB/s
+AVG	Method: DUMB	Elapsed: 362.62651	MiB: 131072.00000	Copy: 361.452 MiB/s
+0	Method: MCBLOCK	Elapsed: 40.38152	MiB: 131072.00000	Copy: 3245.841 MiB/s
+1	Method: MCBLOCK	Elapsed: 31.57402	MiB: 131072.00000	Copy: 4151.261 MiB/s
+2	Method: MCBLOCK	Elapsed: 48.92269	MiB: 131072.00000	Copy: 2679.166 MiB/s
+3	Method: MCBLOCK	Elapsed: 32.25762	MiB: 131072.00000	Copy: 4063.288 MiB/s
+4	Method: MCBLOCK	Elapsed: 29.82623	MiB: 131072.00000	Copy: 4394.521 MiB/s
+AVG	Method: MCBLOCK	Elapsed: 36.59241	MiB: 131072.00000	Copy: 3581.945 MiB/s
+
