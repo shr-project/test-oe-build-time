@@ -6,6 +6,7 @@ dual-Xeon-E5-2698-v4-4-channels;2-build-test;gnu-config-native.do_fetch;0.41
 dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;gnu-config-native.do_fetch;1.17
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;gnu-config-native.do_fetch;0.49
 ryzen-5-1600AF;2-build-test;gnu-config-native.do_fetch;1.42
+threadripper-2990wx-128gb;2-build-test;gnu-config-native.do_fetch;1.23
 threadripper-3970x-64gb;2-build-test;gnu-config-native.do_fetch;0.71
 dual-Xeon-E5-2670-8-channels;2-build-test;gnu-config-native.do_populate_lic;---
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;gnu-config-native.do_populate_lic;0.23
@@ -14,6 +15,7 @@ dual-Xeon-E5-2698-v4-4-channels;2-build-test;gnu-config-native.do_populate_lic;0
 dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;gnu-config-native.do_populate_lic;0.15
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;gnu-config-native.do_populate_lic;0.15
 ryzen-5-1600AF;2-build-test;gnu-config-native.do_populate_lic;0.13
+threadripper-2990wx-128gb;2-build-test;gnu-config-native.do_populate_lic;0.11
 threadripper-3970x-64gb;2-build-test;gnu-config-native.do_populate_lic;0.10
 dual-Xeon-E5-2670-8-channels;2-build-test;gnu-config-native.do_populate_sysroot;0.37
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;gnu-config-native.do_populate_sysroot;0.42
@@ -22,6 +24,7 @@ dual-Xeon-E5-2698-v4-4-channels;2-build-test;gnu-config-native.do_populate_sysro
 dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;gnu-config-native.do_populate_sysroot;0.30
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;gnu-config-native.do_populate_sysroot;0.30
 ryzen-5-1600AF;2-build-test;gnu-config-native.do_populate_sysroot;0.25
+threadripper-2990wx-128gb;2-build-test;gnu-config-native.do_populate_sysroot;0.22
 threadripper-3970x-64gb;2-build-test;gnu-config-native.do_populate_sysroot;0.19
 dual-Xeon-E5-2670-8-channels;2-build-test;gnu-config-native.do_rm_work;0.16
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;gnu-config-native.do_rm_work;---
@@ -30,6 +33,7 @@ dual-Xeon-E5-2698-v4-4-channels;2-build-test;gnu-config-native.do_rm_work;---
 dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;gnu-config-native.do_rm_work;---
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;gnu-config-native.do_rm_work;---
 ryzen-5-1600AF;2-build-test;gnu-config-native.do_rm_work;---
+threadripper-2990wx-128gb;2-build-test;gnu-config-native.do_rm_work;---
 threadripper-3970x-64gb;2-build-test;gnu-config-native.do_rm_work;---
 dual-Xeon-E5-2670-8-channels;2-build-test;gnu-config-native.do_unpack;0.19
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;gnu-config-native.do_unpack;---
@@ -38,6 +42,7 @@ dual-Xeon-E5-2698-v4-4-channels;2-build-test;gnu-config-native.do_unpack;---
 dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;gnu-config-native.do_unpack;0.15
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;gnu-config-native.do_unpack;---
 ryzen-5-1600AF;2-build-test;gnu-config-native.do_unpack;---
+threadripper-2990wx-128gb;2-build-test;gnu-config-native.do_unpack;---
 threadripper-3970x-64gb;2-build-test;gnu-config-native.do_unpack;---
 dual-Xeon-E5-2670-8-channels;2-build-test;m4-native.do_compile;2.34
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;m4-native.do_compile;1.73
@@ -46,6 +51,7 @@ dual-Xeon-E5-2698-v4-4-channels;2-build-test;m4-native.do_compile;1.76
 dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;m4-native.do_compile;1.32
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;m4-native.do_compile;1.31
 ryzen-5-1600AF;2-build-test;m4-native.do_compile;1.37
+threadripper-2990wx-128gb;2-build-test;m4-native.do_compile;1.07
 threadripper-3970x-64gb;2-build-test;m4-native.do_compile;0.80
 dual-Xeon-E5-2670-8-channels;2-build-test;m4-native.do_configure;30.01
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;m4-native.do_configure;31.57
@@ -54,6 +60,7 @@ dual-Xeon-E5-2698-v4-4-channels;2-build-test;m4-native.do_configure;30.57
 dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;m4-native.do_configure;27.59
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;m4-native.do_configure;27.82
 ryzen-5-1600AF;2-build-test;m4-native.do_configure;19.64
+threadripper-2990wx-128gb;2-build-test;m4-native.do_configure;18.82
 threadripper-3970x-64gb;2-build-test;m4-native.do_configure;15.77
 dual-Xeon-E5-2670-8-channels;2-build-test;m4-native.do_fetch;1.04
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;m4-native.do_fetch;1.05
@@ -62,6 +69,7 @@ dual-Xeon-E5-2698-v4-4-channels;2-build-test;m4-native.do_fetch;2.74
 dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;m4-native.do_fetch;2.51
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;m4-native.do_fetch;1.70
 ryzen-5-1600AF;2-build-test;m4-native.do_fetch;2.26
+threadripper-2990wx-128gb;2-build-test;m4-native.do_fetch;1.12
 threadripper-3970x-64gb;2-build-test;m4-native.do_fetch;0.95
 dual-Xeon-E5-2670-8-channels;2-build-test;m4-native.do_install;0.67
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;m4-native.do_install;0.71
@@ -70,6 +78,7 @@ dual-Xeon-E5-2698-v4-4-channels;2-build-test;m4-native.do_install;0.73
 dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;m4-native.do_install;0.63
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;m4-native.do_install;0.62
 ryzen-5-1600AF;2-build-test;m4-native.do_install;0.47
+threadripper-2990wx-128gb;2-build-test;m4-native.do_install;0.43
 threadripper-3970x-64gb;2-build-test;m4-native.do_install;0.35
 dual-Xeon-E5-2670-8-channels;2-build-test;m4-native.do_patch;0.19
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;m4-native.do_patch;0.40
@@ -78,6 +87,7 @@ dual-Xeon-E5-2698-v4-4-channels;2-build-test;m4-native.do_patch;0.33
 dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;m4-native.do_patch;0.31
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;m4-native.do_patch;0.30
 ryzen-5-1600AF;2-build-test;m4-native.do_patch;0.22
+threadripper-2990wx-128gb;2-build-test;m4-native.do_patch;0.19
 threadripper-3970x-64gb;2-build-test;m4-native.do_patch;0.15
 dual-Xeon-E5-2670-8-channels;2-build-test;m4-native.do_populate_lic;---
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;m4-native.do_populate_lic;0.22
@@ -86,6 +96,7 @@ dual-Xeon-E5-2698-v4-4-channels;2-build-test;m4-native.do_populate_lic;0.19
 dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;m4-native.do_populate_lic;0.16
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;m4-native.do_populate_lic;0.15
 ryzen-5-1600AF;2-build-test;m4-native.do_populate_lic;0.13
+threadripper-2990wx-128gb;2-build-test;m4-native.do_populate_lic;0.13
 threadripper-3970x-64gb;2-build-test;m4-native.do_populate_lic;0.09
 dual-Xeon-E5-2670-8-channels;2-build-test;m4-native.do_populate_sysroot;0.40
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;m4-native.do_populate_sysroot;0.46
@@ -94,6 +105,7 @@ dual-Xeon-E5-2698-v4-4-channels;2-build-test;m4-native.do_populate_sysroot;0.42
 dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;m4-native.do_populate_sysroot;0.39
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;m4-native.do_populate_sysroot;0.37
 ryzen-5-1600AF;2-build-test;m4-native.do_populate_sysroot;0.28
+threadripper-2990wx-128gb;2-build-test;m4-native.do_populate_sysroot;0.24
 threadripper-3970x-64gb;2-build-test;m4-native.do_populate_sysroot;0.20
 dual-Xeon-E5-2670-8-channels;2-build-test;m4-native.do_rm_work;0.17
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;m4-native.do_rm_work;---
@@ -102,6 +114,7 @@ dual-Xeon-E5-2698-v4-4-channels;2-build-test;m4-native.do_rm_work;0.18
 dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;m4-native.do_rm_work;---
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;m4-native.do_rm_work;0.15
 ryzen-5-1600AF;2-build-test;m4-native.do_rm_work;---
+threadripper-2990wx-128gb;2-build-test;m4-native.do_rm_work;---
 threadripper-3970x-64gb;2-build-test;m4-native.do_rm_work;---
 dual-Xeon-E5-2670-8-channels;2-build-test;m4-native.do_unpack;---
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;m4-native.do_unpack;1.31
@@ -110,6 +123,7 @@ dual-Xeon-E5-2698-v4-4-channels;2-build-test;m4-native.do_unpack;---
 dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;m4-native.do_unpack;---
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;m4-native.do_unpack;---
 ryzen-5-1600AF;2-build-test;m4-native.do_unpack;0.12
+threadripper-2990wx-128gb;2-build-test;m4-native.do_unpack;---
 threadripper-3970x-64gb;2-build-test;m4-native.do_unpack;---
 dual-Xeon-E5-2670-8-channels;2-build-test;quilt-native.do_compile;1.02
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;quilt-native.do_compile;1.09
@@ -118,6 +132,7 @@ dual-Xeon-E5-2698-v4-4-channels;2-build-test;quilt-native.do_compile;1.08
 dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;quilt-native.do_compile;0.93
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;quilt-native.do_compile;0.95
 ryzen-5-1600AF;2-build-test;quilt-native.do_compile;0.65
+threadripper-2990wx-128gb;2-build-test;quilt-native.do_compile;0.55
 threadripper-3970x-64gb;2-build-test;quilt-native.do_compile;0.52
 dual-Xeon-E5-2670-8-channels;2-build-test;quilt-native.do_configure;1.32
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;quilt-native.do_configure;1.21
@@ -126,6 +141,7 @@ dual-Xeon-E5-2698-v4-4-channels;2-build-test;quilt-native.do_configure;1.17
 dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;quilt-native.do_configure;1.00
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;quilt-native.do_configure;1.06
 ryzen-5-1600AF;2-build-test;quilt-native.do_configure;0.71
+threadripper-2990wx-128gb;2-build-test;quilt-native.do_configure;0.53
 threadripper-3970x-64gb;2-build-test;quilt-native.do_configure;0.50
 dual-Xeon-E5-2670-8-channels;2-build-test;quilt-native.do_fetch;0.79
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;quilt-native.do_fetch;0.67
@@ -134,6 +150,7 @@ dual-Xeon-E5-2698-v4-4-channels;2-build-test;quilt-native.do_fetch;0.75
 dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;quilt-native.do_fetch;2.25
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;quilt-native.do_fetch;0.76
 ryzen-5-1600AF;2-build-test;quilt-native.do_fetch;1.02
+threadripper-2990wx-128gb;2-build-test;quilt-native.do_fetch;1.06
 threadripper-3970x-64gb;2-build-test;quilt-native.do_fetch;2.84
 dual-Xeon-E5-2670-8-channels;2-build-test;quilt-native.do_install;0.32
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;quilt-native.do_install;0.47
@@ -142,6 +159,7 @@ dual-Xeon-E5-2698-v4-4-channels;2-build-test;quilt-native.do_install;0.30
 dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;quilt-native.do_install;0.27
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;quilt-native.do_install;0.28
 ryzen-5-1600AF;2-build-test;quilt-native.do_install;0.19
+threadripper-2990wx-128gb;2-build-test;quilt-native.do_install;0.16
 threadripper-3970x-64gb;2-build-test;quilt-native.do_install;0.12
 dual-Xeon-E5-2670-8-channels;2-build-test;quilt-native.do_populate_lic;0.17
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;quilt-native.do_populate_lic;---
@@ -150,6 +168,7 @@ dual-Xeon-E5-2698-v4-4-channels;2-build-test;quilt-native.do_populate_lic;0.19
 dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;quilt-native.do_populate_lic;0.17
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;quilt-native.do_populate_lic;0.15
 ryzen-5-1600AF;2-build-test;quilt-native.do_populate_lic;0.12
+threadripper-2990wx-128gb;2-build-test;quilt-native.do_populate_lic;0.11
 threadripper-3970x-64gb;2-build-test;quilt-native.do_populate_lic;0.09
 dual-Xeon-E5-2670-8-channels;2-build-test;quilt-native.do_populate_sysroot;0.55
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;quilt-native.do_populate_sysroot;0.65
@@ -158,6 +177,7 @@ dual-Xeon-E5-2698-v4-4-channels;2-build-test;quilt-native.do_populate_sysroot;0.
 dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;quilt-native.do_populate_sysroot;0.50
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;quilt-native.do_populate_sysroot;0.50
 ryzen-5-1600AF;2-build-test;quilt-native.do_populate_sysroot;0.34
+threadripper-2990wx-128gb;2-build-test;quilt-native.do_populate_sysroot;0.30
 threadripper-3970x-64gb;2-build-test;quilt-native.do_populate_sysroot;0.27
 dual-Xeon-E5-2670-8-channels;2-build-test;texinfo-dummy-native.do_install;---
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;texinfo-dummy-native.do_install;0.22
@@ -166,6 +186,7 @@ dual-Xeon-E5-2698-v4-4-channels;2-build-test;texinfo-dummy-native.do_install;---
 dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;texinfo-dummy-native.do_install;---
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;texinfo-dummy-native.do_install;---
 ryzen-5-1600AF;2-build-test;texinfo-dummy-native.do_install;---
+threadripper-2990wx-128gb;2-build-test;texinfo-dummy-native.do_install;0.10
 threadripper-3970x-64gb;2-build-test;texinfo-dummy-native.do_install;0.08
 dual-Xeon-E5-2670-8-channels;2-build-test;texinfo-dummy-native.do_populate_lic;0.15
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;texinfo-dummy-native.do_populate_lic;0.19
@@ -174,6 +195,7 @@ dual-Xeon-E5-2698-v4-4-channels;2-build-test;texinfo-dummy-native.do_populate_li
 dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;texinfo-dummy-native.do_populate_lic;0.15
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;texinfo-dummy-native.do_populate_lic;0.15
 ryzen-5-1600AF;2-build-test;texinfo-dummy-native.do_populate_lic;0.13
+threadripper-2990wx-128gb;2-build-test;texinfo-dummy-native.do_populate_lic;0.12
 threadripper-3970x-64gb;2-build-test;texinfo-dummy-native.do_populate_lic;0.09
 dual-Xeon-E5-2670-8-channels;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.38
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.52
@@ -182,6 +204,7 @@ dual-Xeon-E5-2698-v4-4-channels;2-build-test;texinfo-dummy-native.do_populate_sy
 dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.36
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.34
 ryzen-5-1600AF;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.27
+threadripper-2990wx-128gb;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.27
 threadripper-3970x-64gb;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.21
 dual-Xeon-E5-2670-8-channels;2-build-test;Total;42.81
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;Total;44.63
@@ -190,4 +213,5 @@ dual-Xeon-E5-2698-v4-4-channels;2-build-test;Total;43.09
 dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;Total;39.25
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;Total;38.01
 ryzen-5-1600AF;2-build-test;Total;28.56
+threadripper-2990wx-128gb;2-build-test;Total;26.82
 threadripper-3970x-64gb;2-build-test;Total;24.39
