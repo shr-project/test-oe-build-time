@@ -1,0 +1,16 @@
+builder;method;MiB/s
+dual-Xeon-E5-2698-v4-4-channels-tmpfs;MEMCPY;420.803
+dual-Xeon-E5-2698-v4-4-channels-tmpfs;DUMB;361.452
+dual-Xeon-E5-2698-v4-4-channels-tmpfs;MCBLOCK;3581.945
+dual-Xeon-E5-2699-v3-8-channels-tmpfs;MEMCPY;2592.939
+dual-Xeon-E5-2699-v3-8-channels-tmpfs;DUMB;5437.229
+dual-Xeon-E5-2699-v3-8-channels-tmpfs;MCBLOCK;4161.497
+ryzen-5-1600AF/mbw-swap-off;MEMCPY;7489.258
+ryzen-5-1600AF/mbw-swap-off;DUMB;15901.987
+ryzen-5-1600AF/mbw-swap-off;MCBLOCK;10241.803
+ryzen-5-1600AF/mbw-swap-on-nvme;MEMCPY;217.074
+ryzen-5-1600AF/mbw-swap-on-nvme;DUMB;238.068
+ryzen-5-1600AF/mbw-swap-on-nvme;MCBLOCK;8947.648
+ryzen-5-1600AF/mbw-swap-on-rust;MEMCPY;49.090
+ryzen-5-1600AF/mbw-swap-on-rust;DUMB;49.538
+ryzen-5-1600AF/mbw-swap-on-rust;MCBLOCK;9427.107

@@ -1,0 +1,21 @@
+builder;threads;block size;total size;ops/s;MiB/s;min;avg;max;95th;sum
+dual-Xeon-E5-2698-v4-4-channels-tmpfs/sysbench-1K-1T.txt;1;1KiB;131072MiB;5480792.26;5352.34;0.00;0.00;0.55;0.00;4436.92
+dual-Xeon-E5-2698-v4-4-channels-tmpfs/sysbench-1K.txt;64;1KiB;131072MiB;8680153.57;8476.71;0.00;0.01;20.04;0.01;616755.12
+dual-Xeon-E5-2698-v4-4-channels-tmpfs/sysbench-1M-1T.txt;1;1024KiB;131072MiB;16988.74;16988.74;0.05;0.06;0.66;0.09;7674.62
+dual-Xeon-E5-2698-v4-4-channels-tmpfs/sysbench-1M.txt;64;1024KiB;131072MiB;31920.24;31920.24;0.05;1.00;16.75;2.97;131642.18
+dual-Xeon-E5-2699-v3-8-channels-tmpfs/sysbench-1K-1T.txt;1;1KiB;131072MiB;5607622.44;5476.19;0.00;0.00;0.50;0.00;4386.13
+dual-Xeon-E5-2699-v3-8-channels-tmpfs/sysbench-1K.txt;64;1KiB;131072MiB;9316025.65;9097.68;0.00;0.01;15.72;0.01;615769.95
+dual-Xeon-E5-2699-v3-8-channels-tmpfs/sysbench-1M-1T.txt;1;1024KiB;131072MiB;17208.47;17208.47;0.06;0.06;0.53;0.06;7579.28
+dual-Xeon-E5-2699-v3-8-channels-tmpfs/sysbench-1M.txt;64;1024KiB;131072MiB;51588.66;51588.66;0.06;0.74;16.81;2.61;96725.08
+ryzen-5-1600AF/mbw-swap-off/sysbench-1K-1T.txt;1;1KiB;6144MiB;6407598.52;6257.42;0.00;0.00;0.02;0.00;421.85
+ryzen-5-1600AF/mbw-swap-off/sysbench-1K.txt;64;1KiB;6144MiB;8404474.73;8207.49;0.00;0.00;84.01;0.00;29133.47
+ryzen-5-1600AF/mbw-swap-off/sysbench-1M-1T.txt;1;1024KiB;6144MiB;20452.98;20452.98;0.04;0.05;0.15;0.05;296.08
+ryzen-5-1600AF/mbw-swap-off/sysbench-1M.txt;64;1024KiB;6144MiB;35564.28;35564.28;0.04;0.69;52.32;0.61;4211.78
+ryzen-5-1600AF/mbw-swap-on-nvme/sysbench-1K-1T.txt;1;1KiB;12288MiB;6440109.12;6289.17;0.00;0.00;0.01;0.00;840.36
+ryzen-5-1600AF/mbw-swap-on-nvme/sysbench-1K.txt;64;1KiB;12288MiB;8472642.62;8274.07;0.00;0.01;87.99;0.00;74986.05
+ryzen-5-1600AF/mbw-swap-on-nvme/sysbench-1M-1T.txt;1;1024KiB;12288MiB;21343.48;21343.48;0.04;0.05;0.14;0.06;570.55
+ryzen-5-1600AF/mbw-swap-on-nvme/sysbench-1M.txt;64;1024KiB;12288MiB;33445.43;33445.43;0.04;1.38;100.34;0.69;16949.13
+ryzen-5-1600AF/mbw-swap-on-rust/sysbench-1K-1T.txt;1;1KiB;12288MiB;6462258.47;6310.80;0.00;0.00;0.02;0.00;836.98
+ryzen-5-1600AF/mbw-swap-on-rust/sysbench-1K.txt;64;1KiB;12288MiB;8486825.38;8287.92;0.00;0.01;184.01;0.00;73547.90
+ryzen-5-1600AF/mbw-swap-on-rust/sysbench-1M-1T.txt;1;1024KiB;12288MiB;22347.84;22347.84;0.04;0.04;0.14;0.05;544.59
+ryzen-5-1600AF/mbw-swap-on-rust/sysbench-1M.txt;64;1024KiB;12288MiB;36368.51;36368.51;0.04;1.25;108.26;0.70;15324.68
