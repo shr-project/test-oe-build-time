@@ -1,0 +1,94 @@
+            .-/+oossssoo+/-.               w@w-lts19-opt 
+        `:+ssssssssssssssssss+:`           ------------- 
+      -+ssssssssssssssssssyyssss+-         OS: Ubuntu 19.10 x86_64 
+    .ossssssssssssssssssdMMMNysssso.       Host: TRX40 AORUS XTREME -CF 
+   /ssssssssssshdmmNNmmyNMMMMhssssss/      Kernel: 5.3.0-29-generic 
+  +ssssssssshmydMMMMMMMNddddyssssssss+     Uptime: 8 hours, 52 mins 
+ /sssssssshNMMMyhhyyyyhmNMMMNhssssssss/    Packages: 1862 (dpkg), 8 (snap) 
+.ssssssssdMMMNhsssssssssshNMMMdssssssss.   Shell: bash 5.0.3 
++sssshhhyNMMNyssssssssssssyNMMMysssssss+   Resolution: 3840x2160 
+ossyNMMMNyMMhsssssssssssssshmmmhssssssso   DE: GNOME 3.34.1 
+ossyNMMMNyMMhsssssssssssssshmmmhssssssso   WM: GNOME Shell 
++sssshhhyNMMNyssssssssssssyNMMMysssssss+   WM Theme: Adwaita 
+.ssssssssdMMMNhsssssssssshNMMMdssssssss.   Theme: Yaru [GTK2/3] 
+ /sssssssshNMMMyhhyyyyhdNMMMNhssssssss/    Icons: Yaru [GTK2/3] 
+  +sssssssssdmydMMMMMMMMddddyssssssss+     Terminal: gnome-terminal 
+   /ssssssssssshdmNNNNmyNMMMMhssssss/      CPU: AMD Ryzen Threadripper 3970X 32- (64) @ 3.700GHz 
+    .ossssssssssssssssssdMMMNysssso.       GPU: NVIDIA GeForce RTX 2080 Ti Rev. A 
+      -+sssssssssssssssssyyyssss+-         Memory: 2386MiB / 128761MiB 
+        `:+ssssssssssssssssss+:`
+            .-/+oossssoo+/-.                                       
+
+
+Summary: There was 1 WARNING message shown.
+35.57user 4.59system 2:49:25elapsed 0%CPU (0avgtext+0avgdata 29192maxresident)k
+7800inputs+6408outputs (4major+14039minor)pagefaults 0swaps
+83.96 seconds nss-3.45-r0/do_compile
+87.42 seconds qtbase-5.13.2+gitAUTOINC+a7a24784ee-r0/do_package
+102.28 seconds qemu-system-native-4.1.0-r0/do_compile
+106.07 seconds clang-native-9.0.1-r0/do_populate_sysroot
+106.51 seconds rust-llvm-native-1.37.0-r0/do_compile
+117.25 seconds glibc-locale-2.30-r0/do_package
+120.92 seconds qtdeclarative-5.13.2+gitAUTOINC+4080025fed-r0/do_compile
+132.97 seconds webkitgtk-2.24.4-r0/do_package_write_rpm
+136.35 seconds webkitgtk-2.24.4-r0/do_package
+147.50 seconds qtwebkit-5.13.2+gitAUTOINC+ab1bd15209-r0/do_package
+153.15 seconds qtbase-5.13.2+gitAUTOINC+a7a24784ee-r0/do_configure
+266.21 seconds qtbase-5.13.2+gitAUTOINC+a7a24784ee-r0/do_compile
+354.28 seconds clang-native-9.0.1-r0/do_compile
+448.24 seconds qtwebkit-5.13.2+gitAUTOINC+ab1bd15209-r0/do_compile
+454.18 seconds webkitgtk-2.24.4-r0/do_compile
+574.63 seconds qtwebengine-5.13.2+gitAUTOINC+556576b55f_843d70ac87-r0/do_compile
+981.97 seconds firefox-68.0esr-r0/do_compile
+1279.65 seconds rust-native-1.37.0-r0/do_compile
+1843.12 seconds chromium-x11-79.0.3945.117-r0/do_compile
+10158.52 seconds  20200214003252/build_stats
+==> 1-init.log <==
+ - 'devtool' and 'recipetool' handle common recipe tasks
+ - 'bitbake-layers' handles common layer tasks
+ - 'oe-pkgdata-util' handles common target package tasks
+14.61user 2.73system 0:37.71elapsed 46%CPU (0avgtext+0avgdata 139108maxresident)k
+320inputs+679776outputs (0major+123812minor)pagefaults 0swaps
+
+==> 2-build-test.log <==
+NOTE: Tasks Summary: Attempted 42 tasks of which 0 didn't need to be rerun and all succeeded.
+
+Summary: There was 1 WARNING message shown.
+0.36user 0.04system 0:29.73elapsed 1%CPU (0avgtext+0avgdata 32344maxresident)k
+584inputs+2688outputs (0major+20553minor)pagefaults 0swaps
+
+==> 3-fetch.log <==
+NOTE: Tasks Summary: Attempted 530 tasks of which 0 didn't need to be rerun and all succeeded.
+
+Summary: There was 1 WARNING message shown.
+1.95user 0.26system 3:12.13elapsed 1%CPU (0avgtext+0avgdata 29348maxresident)k
+0inputs+432outputs (0major+13916minor)pagefaults 0swaps
+
+==> 4-build-all-cores.log <==
+NOTE: Tasks Summary: Attempted 7999 tasks of which 1 didn't need to be rerun and all succeeded.
+
+Summary: There was 1 WARNING message shown.
+37.10user 4.80system 1:26:59elapsed 0%CPU (0avgtext+0avgdata 28884maxresident)k
+16inputs+4632outputs (0major+14073minor)pagefaults 0swaps
+
+==> 5-build-8-bb-threads.log <==
+NOTE: Tasks Summary: Attempted 7999 tasks of which 1 didn't need to be rerun and all succeeded.
+
+Summary: There was 1 WARNING message shown.
+36.96user 4.77system 1:32:19elapsed 0%CPU (0avgtext+0avgdata 28836maxresident)k
+39632inputs+4848outputs (1460major+16725minor)pagefaults 0swaps
+
+==> 6-build-16-bb-threads.log <==
+NOTE: Tasks Summary: Attempted 7999 tasks of which 1 didn't need to be rerun and all succeeded.
+
+Summary: There was 1 WARNING message shown.
+37.04user 4.71system 1:27:07elapsed 0%CPU (0avgtext+0avgdata 29112maxresident)k
+10200inputs+4672outputs (2major+14023minor)pagefaults 0swaps
+
+==> 7-build-2-bb-threads.log <==
+NOTE: Tasks Summary: Attempted 7999 tasks of which 1 didn't need to be rerun and all succeeded.
+
+Summary: There was 1 WARNING message shown.
+35.57user 4.59system 2:49:25elapsed 0%CPU (0avgtext+0avgdata 29192maxresident)k
+7800inputs+6408outputs (4major+14039minor)pagefaults 0swaps
+
