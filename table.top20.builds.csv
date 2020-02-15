@@ -24,6 +24,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;adwaita-icon-theme.do_install;---
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;adwaita-icon-theme.do_install;---
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;adwaita-icon-theme.do_install;136.90
 ryzen-5-1600AF;4-build-all;adwaita-icon-theme.do_install;---
+ryzen-5-1600AF;5-build-8-bb;adwaita-icon-theme.do_install;---
 ryzen-5-1600AF;6-build-16-bb;adwaita-icon-theme.do_install;---
 ryzen-5-1600AF;7-build-2-bb;adwaita-icon-theme.do_install;---
 threadripper-2990wx-128gb;4-build-all;adwaita-icon-theme.do_install;293.77
@@ -66,6 +67,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;binutils.do_compile;---
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;binutils.do_compile;---
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;binutils.do_compile;---
 ryzen-5-1600AF;4-build-all;binutils.do_compile;---
+ryzen-5-1600AF;5-build-8-bb;binutils.do_compile;---
 ryzen-5-1600AF;6-build-16-bb;binutils.do_compile;---
 ryzen-5-1600AF;7-build-2-bb;binutils.do_compile;---
 threadripper-2990wx-128gb;4-build-all;binutils.do_compile;---
@@ -108,6 +110,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;cairo.do_configure;---
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;cairo.do_configure;---
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;cairo.do_configure;159.20
 ryzen-5-1600AF;4-build-all;cairo.do_configure;---
+ryzen-5-1600AF;5-build-8-bb;cairo.do_configure;---
 ryzen-5-1600AF;6-build-16-bb;cairo.do_configure;---
 ryzen-5-1600AF;7-build-2-bb;cairo.do_configure;---
 threadripper-2990wx-128gb;4-build-all;cairo.do_configure;---
@@ -150,6 +153,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;cargo-native.do_compile;665.49
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;cargo-native.do_compile;---
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;cargo-native.do_compile;---
 ryzen-5-1600AF;4-build-all;cargo-native.do_compile;---
+ryzen-5-1600AF;5-build-8-bb;cargo-native.do_compile;837.11
 ryzen-5-1600AF;6-build-16-bb;cargo-native.do_compile;---
 ryzen-5-1600AF;7-build-2-bb;cargo-native.do_compile;---
 threadripper-2990wx-128gb;4-build-all;cargo-native.do_compile;286.51
@@ -192,6 +196,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;cbindgen-native.do_compile;308.17
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;cbindgen-native.do_compile;---
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;cbindgen-native.do_compile;---
 ryzen-5-1600AF;4-build-all;cbindgen-native.do_compile;---
+ryzen-5-1600AF;5-build-8-bb;cbindgen-native.do_compile;---
 ryzen-5-1600AF;6-build-16-bb;cbindgen-native.do_compile;---
 ryzen-5-1600AF;7-build-2-bb;cbindgen-native.do_compile;---
 threadripper-2990wx-128gb;4-build-all;cbindgen-native.do_compile;---
@@ -234,6 +239,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;chromium-x11.do_compile;3605.65
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;chromium-x11.do_compile;5750.11
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;chromium-x11.do_compile;3102.05
 ryzen-5-1600AF;4-build-all;chromium-x11.do_compile;24719.87
+ryzen-5-1600AF;5-build-8-bb;chromium-x11.do_compile;22658.49
 ryzen-5-1600AF;6-build-16-bb;chromium-x11.do_compile;24165.89
 ryzen-5-1600AF;7-build-2-bb;chromium-x11.do_compile;13567.36
 threadripper-2990wx-128gb;4-build-all;chromium-x11.do_compile;6424.14
@@ -276,6 +282,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;clang-native.do_compile;783.47
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;clang-native.do_compile;985.59
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;clang-native.do_compile;860.37
 ryzen-5-1600AF;4-build-all;clang-native.do_compile;5932.45
+ryzen-5-1600AF;5-build-8-bb;clang-native.do_compile;5131.77
 ryzen-5-1600AF;6-build-16-bb;clang-native.do_compile;6675.66
 ryzen-5-1600AF;7-build-2-bb;clang-native.do_compile;3397.07
 threadripper-2990wx-128gb;4-build-all;clang-native.do_compile;1657.23
@@ -318,6 +325,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;clang-native.do_populate_sysroot;--
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;clang-native.do_populate_sysroot;---
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;clang-native.do_populate_sysroot;---
 ryzen-5-1600AF;4-build-all;clang-native.do_populate_sysroot;---
+ryzen-5-1600AF;5-build-8-bb;clang-native.do_populate_sysroot;---
 ryzen-5-1600AF;6-build-16-bb;clang-native.do_populate_sysroot;---
 ryzen-5-1600AF;7-build-2-bb;clang-native.do_populate_sysroot;---
 threadripper-2990wx-128gb;4-build-all;clang-native.do_populate_sysroot;---
@@ -360,6 +368,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;core-image-sato.do_rootfs;---
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;core-image-sato.do_rootfs;---
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;core-image-sato.do_rootfs;---
 ryzen-5-1600AF;4-build-all;core-image-sato.do_rootfs;---
+ryzen-5-1600AF;5-build-8-bb;core-image-sato.do_rootfs;---
 ryzen-5-1600AF;6-build-16-bb;core-image-sato.do_rootfs;---
 ryzen-5-1600AF;7-build-2-bb;core-image-sato.do_rootfs;---
 threadripper-2990wx-128gb;4-build-all;core-image-sato.do_rootfs;---
@@ -402,6 +411,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;firefox.do_compile;1825.08
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;firefox.do_compile;777.11
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;firefox.do_compile;1803.83
 ryzen-5-1600AF;4-build-all;firefox.do_compile;4117.87
+ryzen-5-1600AF;5-build-8-bb;firefox.do_compile;4246.71
 ryzen-5-1600AF;6-build-16-bb;firefox.do_compile;5503.65
 ryzen-5-1600AF;7-build-2-bb;firefox.do_compile;2074.22
 threadripper-2990wx-128gb;4-build-all;firefox.do_compile;1546.71
@@ -444,6 +454,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;gcc-runtime.do_configure;---
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;gcc-runtime.do_configure;317.12
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;gcc-runtime.do_configure;---
 ryzen-5-1600AF;4-build-all;gcc-runtime.do_configure;---
+ryzen-5-1600AF;5-build-8-bb;gcc-runtime.do_configure;---
 ryzen-5-1600AF;6-build-16-bb;gcc-runtime.do_configure;---
 ryzen-5-1600AF;7-build-2-bb;gcc-runtime.do_configure;---
 threadripper-2990wx-128gb;4-build-all;gcc-runtime.do_configure;---
@@ -486,6 +497,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;gettext-native.do_configure;---
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;gettext-native.do_configure;---
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;gettext-native.do_configure;119.34
 ryzen-5-1600AF;4-build-all;gettext-native.do_configure;---
+ryzen-5-1600AF;5-build-8-bb;gettext-native.do_configure;---
 ryzen-5-1600AF;6-build-16-bb;gettext-native.do_configure;---
 ryzen-5-1600AF;7-build-2-bb;gettext-native.do_configure;---
 threadripper-2990wx-128gb;4-build-all;gettext-native.do_configure;---
@@ -528,6 +540,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;glibc-locale.do_package;---
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;glibc-locale.do_package;420.33
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;glibc-locale.do_package;115.54
 ryzen-5-1600AF;4-build-all;glibc-locale.do_package;843.48
+ryzen-5-1600AF;5-build-8-bb;glibc-locale.do_package;---
 ryzen-5-1600AF;6-build-16-bb;glibc-locale.do_package;827.89
 ryzen-5-1600AF;7-build-2-bb;glibc-locale.do_package;---
 threadripper-2990wx-128gb;4-build-all;glibc-locale.do_package;455.07
@@ -570,6 +583,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;gn-native.do_unpack;391.96
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;gn-native.do_unpack;---
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;gn-native.do_unpack;164.57
 ryzen-5-1600AF;4-build-all;gn-native.do_unpack;---
+ryzen-5-1600AF;5-build-8-bb;gn-native.do_unpack;---
 ryzen-5-1600AF;6-build-16-bb;gn-native.do_unpack;---
 ryzen-5-1600AF;7-build-2-bb;gn-native.do_unpack;---
 threadripper-2990wx-128gb;4-build-all;gn-native.do_unpack;---
@@ -612,6 +626,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;gnome-themes-standard.do_install;93
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;gnome-themes-standard.do_install;923.57
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;gnome-themes-standard.do_install;140.70
 ryzen-5-1600AF;4-build-all;gnome-themes-standard.do_install;1143.48
+ryzen-5-1600AF;5-build-8-bb;gnome-themes-standard.do_install;951.59
 ryzen-5-1600AF;6-build-16-bb;gnome-themes-standard.do_install;907.49
 ryzen-5-1600AF;7-build-2-bb;gnome-themes-standard.do_install;232.40
 threadripper-2990wx-128gb;4-build-all;gnome-themes-standard.do_install;---
@@ -654,6 +669,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;gnutls.do_configure;---
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;gnutls.do_configure;---
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;gnutls.do_configure;---
 ryzen-5-1600AF;4-build-all;gnutls.do_configure;---
+ryzen-5-1600AF;5-build-8-bb;gnutls.do_configure;---
 ryzen-5-1600AF;6-build-16-bb;gnutls.do_configure;---
 ryzen-5-1600AF;7-build-2-bb;gnutls.do_configure;---
 threadripper-2990wx-128gb;4-build-all;gnutls.do_configure;---
@@ -696,6 +712,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;gstreamer1.0-plugins-good.do_config
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;gstreamer1.0-plugins-good.do_configure;---
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;gstreamer1.0-plugins-good.do_configure;---
 ryzen-5-1600AF;4-build-all;gstreamer1.0-plugins-good.do_configure;---
+ryzen-5-1600AF;5-build-8-bb;gstreamer1.0-plugins-good.do_configure;---
 ryzen-5-1600AF;6-build-16-bb;gstreamer1.0-plugins-good.do_configure;---
 ryzen-5-1600AF;7-build-2-bb;gstreamer1.0-plugins-good.do_configure;---
 threadripper-2990wx-128gb;4-build-all;gstreamer1.0-plugins-good.do_configure;---
@@ -738,6 +755,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;icu.do_compile;---
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;icu.do_compile;---
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;icu.do_compile;---
 ryzen-5-1600AF;4-build-all;icu.do_compile;---
+ryzen-5-1600AF;5-build-8-bb;icu.do_compile;---
 ryzen-5-1600AF;6-build-16-bb;icu.do_compile;---
 ryzen-5-1600AF;7-build-2-bb;icu.do_compile;208.74
 threadripper-2990wx-128gb;4-build-all;icu.do_compile;---
@@ -780,6 +798,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;libidn.do_configure;---
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;libidn.do_configure;---
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;libidn.do_configure;---
 ryzen-5-1600AF;4-build-all;libidn.do_configure;---
+ryzen-5-1600AF;5-build-8-bb;libidn.do_configure;---
 ryzen-5-1600AF;6-build-16-bb;libidn.do_configure;---
 ryzen-5-1600AF;7-build-2-bb;libidn.do_configure;---
 threadripper-2990wx-128gb;4-build-all;libidn.do_configure;---
@@ -822,6 +841,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;libunistring.do_configure;---
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;libunistring.do_configure;---
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;libunistring.do_configure;---
 ryzen-5-1600AF;4-build-all;libunistring.do_configure;---
+ryzen-5-1600AF;5-build-8-bb;libunistring.do_configure;---
 ryzen-5-1600AF;6-build-16-bb;libunistring.do_configure;---
 ryzen-5-1600AF;7-build-2-bb;libunistring.do_configure;---
 threadripper-2990wx-128gb;4-build-all;libunistring.do_configure;---
@@ -864,6 +884,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;nodejs-native.do_compile;---
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;nodejs-native.do_compile;---
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;nodejs-native.do_compile;---
 ryzen-5-1600AF;4-build-all;nodejs-native.do_compile;---
+ryzen-5-1600AF;5-build-8-bb;nodejs-native.do_compile;---
 ryzen-5-1600AF;6-build-16-bb;nodejs-native.do_compile;---
 ryzen-5-1600AF;7-build-2-bb;nodejs-native.do_compile;586.74
 threadripper-2990wx-128gb;4-build-all;nodejs-native.do_compile;---
@@ -906,6 +927,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;nodejs-native.do_populate_sysroot;-
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;nodejs-native.do_populate_sysroot;---
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;nodejs-native.do_populate_sysroot;---
 ryzen-5-1600AF;4-build-all;nodejs-native.do_populate_sysroot;---
+ryzen-5-1600AF;5-build-8-bb;nodejs-native.do_populate_sysroot;---
 ryzen-5-1600AF;6-build-16-bb;nodejs-native.do_populate_sysroot;---
 ryzen-5-1600AF;7-build-2-bb;nodejs-native.do_populate_sysroot;---
 threadripper-2990wx-128gb;4-build-all;nodejs-native.do_populate_sysroot;---
@@ -948,6 +970,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;nss.do_compile;---
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;nss.do_compile;---
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;nss.do_compile;131.38
 ryzen-5-1600AF;4-build-all;nss.do_compile;---
+ryzen-5-1600AF;5-build-8-bb;nss.do_compile;781.48
 ryzen-5-1600AF;6-build-16-bb;nss.do_compile;---
 ryzen-5-1600AF;7-build-2-bb;nss.do_compile;---
 threadripper-2990wx-128gb;4-build-all;nss.do_compile;288.01
@@ -990,6 +1013,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;nss-native.do_compile;---
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;nss-native.do_compile;---
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;nss-native.do_compile;---
 ryzen-5-1600AF;4-build-all;nss-native.do_compile;---
+ryzen-5-1600AF;5-build-8-bb;nss-native.do_compile;---
 ryzen-5-1600AF;6-build-16-bb;nss-native.do_compile;---
 ryzen-5-1600AF;7-build-2-bb;nss-native.do_compile;---
 threadripper-2990wx-128gb;4-build-all;nss-native.do_compile;---
@@ -1032,6 +1056,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;perl.do_configure;---
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;perl.do_configure;---
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;perl.do_configure;---
 ryzen-5-1600AF;4-build-all;perl.do_configure;---
+ryzen-5-1600AF;5-build-8-bb;perl.do_configure;---
 ryzen-5-1600AF;6-build-16-bb;perl.do_configure;---
 ryzen-5-1600AF;7-build-2-bb;perl.do_configure;---
 threadripper-2990wx-128gb;4-build-all;perl.do_configure;---
@@ -1074,6 +1099,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;python3-native.do_populate_sysroot;
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;python3-native.do_populate_sysroot;---
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;python3-native.do_populate_sysroot;---
 ryzen-5-1600AF;4-build-all;python3-native.do_populate_sysroot;---
+ryzen-5-1600AF;5-build-8-bb;python3-native.do_populate_sysroot;---
 ryzen-5-1600AF;6-build-16-bb;python3-native.do_populate_sysroot;---
 ryzen-5-1600AF;7-build-2-bb;python3-native.do_populate_sysroot;---
 threadripper-2990wx-128gb;4-build-all;python3-native.do_populate_sysroot;---
@@ -1116,6 +1142,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;qemu-system-native.do_compile;---
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;qemu-system-native.do_compile;---
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;qemu-system-native.do_compile;---
 ryzen-5-1600AF;4-build-all;qemu-system-native.do_compile;899.06
+ryzen-5-1600AF;5-build-8-bb;qemu-system-native.do_compile;1117.91
 ryzen-5-1600AF;6-build-16-bb;qemu-system-native.do_compile;867.57
 ryzen-5-1600AF;7-build-2-bb;qemu-system-native.do_compile;341.24
 threadripper-2990wx-128gb;4-build-all;qemu-system-native.do_compile;---
@@ -1158,6 +1185,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;qtbase.do_compile;506.23
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;qtbase.do_compile;1007.56
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;qtbase.do_compile;435.99
 ryzen-5-1600AF;4-build-all;qtbase.do_compile;3987.69
+ryzen-5-1600AF;5-build-8-bb;qtbase.do_compile;2586.60
 ryzen-5-1600AF;6-build-16-bb;qtbase.do_compile;3766.96
 ryzen-5-1600AF;7-build-2-bb;qtbase.do_compile;1345.32
 threadripper-2990wx-128gb;4-build-all;qtbase.do_compile;1126.82
@@ -1200,6 +1228,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;qtbase.do_configure;286.42
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;qtbase.do_configure;354.91
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;qtbase.do_configure;250.86
 ryzen-5-1600AF;4-build-all;qtbase.do_configure;833.53
+ryzen-5-1600AF;5-build-8-bb;qtbase.do_configure;---
 ryzen-5-1600AF;6-build-16-bb;qtbase.do_configure;1105.08
 ryzen-5-1600AF;7-build-2-bb;qtbase.do_configure;261.87
 threadripper-2990wx-128gb;4-build-all;qtbase.do_configure;448.44
@@ -1242,6 +1271,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;qtbase.do_package;---
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;qtbase.do_package;---
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;qtbase.do_package;---
 ryzen-5-1600AF;4-build-all;qtbase.do_package;---
+ryzen-5-1600AF;5-build-8-bb;qtbase.do_package;---
 ryzen-5-1600AF;6-build-16-bb;qtbase.do_package;---
 ryzen-5-1600AF;7-build-2-bb;qtbase.do_package;---
 threadripper-2990wx-128gb;4-build-all;qtbase.do_package;---
@@ -1284,6 +1314,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;qtbase.do_package_write_rpm;---
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;qtbase.do_package_write_rpm;283.30
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;qtbase.do_package_write_rpm;---
 ryzen-5-1600AF;4-build-all;qtbase.do_package_write_rpm;---
+ryzen-5-1600AF;5-build-8-bb;qtbase.do_package_write_rpm;---
 ryzen-5-1600AF;6-build-16-bb;qtbase.do_package_write_rpm;---
 ryzen-5-1600AF;7-build-2-bb;qtbase.do_package_write_rpm;---
 threadripper-2990wx-128gb;4-build-all;qtbase.do_package_write_rpm;---
@@ -1326,6 +1357,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;qtdeclarative.do_compile;---
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;qtdeclarative.do_compile;721.17
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;qtdeclarative.do_compile;197.72
 ryzen-5-1600AF;4-build-all;qtdeclarative.do_compile;1833.29
+ryzen-5-1600AF;5-build-8-bb;qtdeclarative.do_compile;941.82
 ryzen-5-1600AF;6-build-16-bb;qtdeclarative.do_compile;1681.40
 ryzen-5-1600AF;7-build-2-bb;qtdeclarative.do_compile;485.55
 threadripper-2990wx-128gb;4-build-all;qtdeclarative.do_compile;568.62
@@ -1368,6 +1400,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;qtlocation.do_compile;---
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;qtlocation.do_compile;---
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;qtlocation.do_compile;---
 ryzen-5-1600AF;4-build-all;qtlocation.do_compile;---
+ryzen-5-1600AF;5-build-8-bb;qtlocation.do_compile;852.68
 ryzen-5-1600AF;6-build-16-bb;qtlocation.do_compile;787.00
 ryzen-5-1600AF;7-build-2-bb;qtlocation.do_compile;---
 threadripper-2990wx-128gb;4-build-all;qtlocation.do_compile;---
@@ -1410,6 +1443,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;qtmultimedia.do_compile;---
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;qtmultimedia.do_compile;250.82
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;qtmultimedia.do_compile;---
 ryzen-5-1600AF;4-build-all;qtmultimedia.do_compile;1008.47
+ryzen-5-1600AF;5-build-8-bb;qtmultimedia.do_compile;729.71
 ryzen-5-1600AF;6-build-16-bb;qtmultimedia.do_compile;1051.59
 ryzen-5-1600AF;7-build-2-bb;qtmultimedia.do_compile;216.21
 threadripper-2990wx-128gb;4-build-all;qtmultimedia.do_compile;---
@@ -1452,6 +1486,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;qtquickcontrols2.do_compile;---
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;qtquickcontrols2.do_compile;362.27
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;qtquickcontrols2.do_compile;---
 ryzen-5-1600AF;4-build-all;qtquickcontrols2.do_compile;1233.82
+ryzen-5-1600AF;5-build-8-bb;qtquickcontrols2.do_compile;836.26
 ryzen-5-1600AF;6-build-16-bb;qtquickcontrols2.do_compile;1332.53
 ryzen-5-1600AF;7-build-2-bb;qtquickcontrols2.do_compile;---
 threadripper-2990wx-128gb;4-build-all;qtquickcontrols2.do_compile;---
@@ -1494,6 +1529,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;qtwebengine.do_compile;2283.09
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;qtwebengine.do_compile;2828.24
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;qtwebengine.do_compile;1009.87
 ryzen-5-1600AF;4-build-all;qtwebengine.do_compile;12969.35
+ryzen-5-1600AF;5-build-8-bb;qtwebengine.do_compile;18807.17
 ryzen-5-1600AF;6-build-16-bb;qtwebengine.do_compile;13250.81
 ryzen-5-1600AF;7-build-2-bb;qtwebengine.do_compile;5030.75
 threadripper-2990wx-128gb;4-build-all;qtwebengine.do_compile;3243.81
@@ -1536,6 +1572,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;qtwebengine.do_package_write_rpm;26
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;qtwebengine.do_package_write_rpm;---
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;qtwebengine.do_package_write_rpm;---
 ryzen-5-1600AF;4-build-all;qtwebengine.do_package_write_rpm;---
+ryzen-5-1600AF;5-build-8-bb;qtwebengine.do_package_write_rpm;---
 ryzen-5-1600AF;6-build-16-bb;qtwebengine.do_package_write_rpm;---
 ryzen-5-1600AF;7-build-2-bb;qtwebengine.do_package_write_rpm;---
 threadripper-2990wx-128gb;4-build-all;qtwebengine.do_package_write_rpm;---
@@ -1578,6 +1615,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;qtwebkit.do_compile;1770.33
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;qtwebkit.do_compile;2516.46
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;qtwebkit.do_compile;935.08
 ryzen-5-1600AF;4-build-all;qtwebkit.do_compile;9032.41
+ryzen-5-1600AF;5-build-8-bb;qtwebkit.do_compile;12863.69
 ryzen-5-1600AF;6-build-16-bb;qtwebkit.do_compile;9605.32
 ryzen-5-1600AF;7-build-2-bb;qtwebkit.do_compile;3514.89
 threadripper-2990wx-128gb;4-build-all;qtwebkit.do_compile;2340.51
@@ -1620,6 +1658,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;qtwebkit.do_package;274.52
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;qtwebkit.do_package;---
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;qtwebkit.do_package;---
 ryzen-5-1600AF;4-build-all;qtwebkit.do_package;---
+ryzen-5-1600AF;5-build-8-bb;qtwebkit.do_package;---
 ryzen-5-1600AF;6-build-16-bb;qtwebkit.do_package;---
 ryzen-5-1600AF;7-build-2-bb;qtwebkit.do_package;---
 threadripper-2990wx-128gb;4-build-all;qtwebkit.do_package;377.68
@@ -1662,6 +1701,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;qtwebkit.do_package_write_rpm;299.4
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;qtwebkit.do_package_write_rpm;---
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;qtwebkit.do_package_write_rpm;---
 ryzen-5-1600AF;4-build-all;qtwebkit.do_package_write_rpm;911.71
+ryzen-5-1600AF;5-build-8-bb;qtwebkit.do_package_write_rpm;1067.89
 ryzen-5-1600AF;6-build-16-bb;qtwebkit.do_package_write_rpm;---
 ryzen-5-1600AF;7-build-2-bb;qtwebkit.do_package_write_rpm;212.48
 threadripper-2990wx-128gb;4-build-all;qtwebkit.do_package_write_rpm;312.79
@@ -1704,6 +1744,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;qtxmlpatterns.do_compile;---
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;qtxmlpatterns.do_compile;335.29
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;qtxmlpatterns.do_compile;---
 ryzen-5-1600AF;4-build-all;qtxmlpatterns.do_compile;998.54
+ryzen-5-1600AF;5-build-8-bb;qtxmlpatterns.do_compile;---
 ryzen-5-1600AF;6-build-16-bb;qtxmlpatterns.do_compile;998.43
 ryzen-5-1600AF;7-build-2-bb;qtxmlpatterns.do_compile;190.52
 threadripper-2990wx-128gb;4-build-all;qtxmlpatterns.do_compile;---
@@ -1746,6 +1787,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;rust-llvm-native.do_compile;316.73
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;rust-llvm-native.do_compile;245.82
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;rust-llvm-native.do_compile;214.83
 ryzen-5-1600AF;4-build-all;rust-llvm-native.do_compile;2233.43
+ryzen-5-1600AF;5-build-8-bb;rust-llvm-native.do_compile;1726.90
 ryzen-5-1600AF;6-build-16-bb;rust-llvm-native.do_compile;1785.48
 ryzen-5-1600AF;7-build-2-bb;rust-llvm-native.do_compile;653.89
 threadripper-2990wx-128gb;4-build-all;rust-llvm-native.do_compile;386.23
@@ -1788,6 +1830,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;rust-native.do_compile;4417.03
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;rust-native.do_compile;7444.33
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;rust-native.do_compile;2024.23
 ryzen-5-1600AF;4-build-all;rust-native.do_compile;13232.38
+ryzen-5-1600AF;5-build-8-bb;rust-native.do_compile;13481.42
 ryzen-5-1600AF;6-build-16-bb;rust-native.do_compile;12757.36
 ryzen-5-1600AF;7-build-2-bb;rust-native.do_compile;2333.93
 threadripper-2990wx-128gb;4-build-all;rust-native.do_compile;5879.58
@@ -1830,6 +1873,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;sudo.do_configure;---
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;sudo.do_configure;---
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;sudo.do_configure;114.05
 ryzen-5-1600AF;4-build-all;sudo.do_configure;---
+ryzen-5-1600AF;5-build-8-bb;sudo.do_configure;---
 ryzen-5-1600AF;6-build-16-bb;sudo.do_configure;---
 ryzen-5-1600AF;7-build-2-bb;sudo.do_configure;---
 threadripper-2990wx-128gb;4-build-all;sudo.do_configure;---
@@ -1872,6 +1916,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;webkitgtk.do_compile;1741.62
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;webkitgtk.do_compile;2207.04
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;webkitgtk.do_compile;759.36
 ryzen-5-1600AF;4-build-all;webkitgtk.do_compile;9020.49
+ryzen-5-1600AF;5-build-8-bb;webkitgtk.do_compile;15631.57
 ryzen-5-1600AF;6-build-16-bb;webkitgtk.do_compile;8700.24
 ryzen-5-1600AF;7-build-2-bb;webkitgtk.do_compile;2151.20
 threadripper-2990wx-128gb;4-build-all;webkitgtk.do_compile;1980.64
@@ -1914,6 +1959,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;webkitgtk.do_package;---
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;webkitgtk.do_package;---
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;webkitgtk.do_package;---
 ryzen-5-1600AF;4-build-all;webkitgtk.do_package;---
+ryzen-5-1600AF;5-build-8-bb;webkitgtk.do_package;---
 ryzen-5-1600AF;6-build-16-bb;webkitgtk.do_package;---
 ryzen-5-1600AF;7-build-2-bb;webkitgtk.do_package;---
 threadripper-2990wx-128gb;4-build-all;webkitgtk.do_package;289.20
@@ -1956,6 +2002,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;webkitgtk.do_package_write_rpm;435.
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;webkitgtk.do_package_write_rpm;477.28
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;webkitgtk.do_package_write_rpm;---
 ryzen-5-1600AF;4-build-all;webkitgtk.do_package_write_rpm;881.69
+ryzen-5-1600AF;5-build-8-bb;webkitgtk.do_package_write_rpm;823.25
 ryzen-5-1600AF;6-build-16-bb;webkitgtk.do_package_write_rpm;874.01
 ryzen-5-1600AF;7-build-2-bb;webkitgtk.do_package_write_rpm;381.25
 threadripper-2990wx-128gb;4-build-all;webkitgtk.do_package_write_rpm;329.70
@@ -1998,6 +2045,7 @@ dual-Xeon-E5-2699-v3-8-channels;5-build-8-bb;Total;9392.89
 dual-Xeon-E5-2699-v3-8-channels;6-build-16-bb;Total;9590.77
 dual-Xeon-E5-2699-v3-8-channels;7-build-2-bb;Total;17258.88
 ryzen-5-1600AF;4-build-all;Total;32780.01
+ryzen-5-1600AF;5-build-8-bb;Total;34765.37
 ryzen-5-1600AF;6-build-16-bb;Total;33274.69
 ryzen-5-1600AF;7-build-2-bb;Total;34755.89
 threadripper-2990wx-128gb;4-build-all;Total;9191.80
