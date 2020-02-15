@@ -1,4 +1,8 @@
 builder;threads;block size;total size;ops/s;MiB/s;min;avg;max;95th;sum
+dual-Xeon-E5-2670-8-channels/sysbench-1K-1T.txt;1;1KiB;6144MiB;3750931.95;3663.02;0.00;0.00;0.17;0.00;751.58
+dual-Xeon-E5-2670-8-channels/sysbench-1K.txt;64;1KiB;6144MiB;8251441.93;8058.05;0.00;0.01;63.71;0.01;35742.88
+dual-Xeon-E5-2670-8-channels/sysbench-1M-1T.txt;1;1024KiB;6144MiB;13880.85;13880.85;0.07;0.07;0.24;0.07;436.92
+dual-Xeon-E5-2670-8-channels/sysbench-1M.txt;64;1024KiB;6144MiB;60901.80;60901.80;0.07;0.58;30.58;1.42;3541.24
 dual-Xeon-E5-2698-v4-4-channels-tmpfs/sysbench-1K-1T.txt;1;1KiB;131072MiB;5480792.26;5352.34;0.00;0.00;0.55;0.00;4436.92
 dual-Xeon-E5-2698-v4-4-channels-tmpfs/sysbench-1K.txt;64;1KiB;131072MiB;8680153.57;8476.71;0.00;0.01;20.04;0.01;616755.12
 dual-Xeon-E5-2698-v4-4-channels-tmpfs/sysbench-1M-1T.txt;1;1024KiB;131072MiB;16988.74;16988.74;0.05;0.06;0.66;0.09;7674.62
