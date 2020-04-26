@@ -1,0 +1,33 @@
+
+### Shell environment set up for builds. ###
+
+You can now run 'bitbake <target>'
+
+Common targets are:
+    core-image-minimal
+    core-image-sato
+    meta-toolchain
+    meta-ide-support
+
+You can also run generated qemu images with a command like 'runqemu qemux86'
+
+Other commonly useful commands are:
+ - 'devtool' and 'recipetool' handle common recipe tasks
+ - 'bitbake-layers' handles common layer tasks
+ - 'oe-pkgdata-util' handles common target package tasks
+WARNING: Host distribution "ubuntu-19.10" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
+ERROR:  OE-core's config sanity checker detected a potential misconfiguration.
+    Either fix the cause of this error or at your own risk disable the checker (see sanity.conf).
+    Following is the list of potential problems / advisories:
+
+    Fetcher failure for URL: 'https://www.example.com/'. URL https://www.example.com/ doesn't work.
+    Please ensure your host's network is configured correctly,
+    or set BB_NO_NETWORK = "1" to disable network access if
+    all required sources are on local disk.
+
+
+Summary: There was 1 WARNING message shown.
+Summary: There was 1 ERROR message shown, returning a non-zero exit code.
+Command exited with non-zero status 1
+0.21user 0.04system 0:00.67elapsed 38%CPU (0avgtext+0avgdata 28796maxresident)k
+9216inputs+152outputs (3major+14109minor)pagefaults 0swaps
