@@ -7,6 +7,8 @@
 git clone git://git.yoctoproject.org/poky
 cd poky
 git checkout -b zeus 73fe0e273b4e00dcb08122c4f54fc65316e2a793
+# this fix is needed to build qemu-native with newer glibc on host (e.g. ubuntu 20.04 I'm using now)
+git cherry-pick b8809d338005eeea4085692281dda20fe85dc52d
 git clone https://github.com/meta-qt5/meta-qt5.git
 cd meta-qt5
 git checkout -b zeus a582fd4c810529e9af0c81700407b1955d1391d2
