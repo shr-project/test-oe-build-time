@@ -4,7 +4,7 @@
 # Adds extra package to be built and installed in core-image-sato image
 # And sets qemux86-64 target MACHINE
 
-git clone https://git.yoctoproject.org/git/poky
+git clone git://git.yoctoproject.org/poky
 cd poky
 git checkout -b zeus 73fe0e273b4e00dcb08122c4f54fc65316e2a793
 git clone https://github.com/meta-qt5/meta-qt5.git
