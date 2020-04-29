@@ -44,47 +44,47 @@ oss[37m[0m[1myNMMMNyMMh[0m[31m[1msssssssssssssshmmmh[0m[31m[1mssssssso
  - 'devtool' and 'recipetool' handle common recipe tasks
  - 'bitbake-layers' handles common layer tasks
  - 'oe-pkgdata-util' handles common target package tasks
-16.82user 3.36system 2:02.10elapsed 16%CPU (0avgtext+0avgdata 138220maxresident)k
-20416inputs+701200outputs (69major+129958minor)pagefaults 0swaps
+16.45user 3.36system 1:08.91elapsed 28%CPU (0avgtext+0avgdata 136108maxresident)k
+20816inputs+701384outputs (70major+129430minor)pagefaults 0swaps
 
 ==> 2-build-test.log <==
 NOTE: Tasks Summary: Attempted 42 tasks of which 0 didn't need to be rerun and all succeeded.
 
 Summary: There was 1 WARNING message shown.
-0.38user 0.03system 0:29.00elapsed 1%CPU (0avgtext+0avgdata 32140maxresident)k
-1664inputs+2688outputs (7major+20916minor)pagefaults 0swaps
+0.39user 0.02system 0:29.93elapsed 1%CPU (0avgtext+0avgdata 32140maxresident)k
+1888inputs+2688outputs (9major+20725minor)pagefaults 0swaps
 
 ==> 3-fetch.log <==
 NOTE: Tasks Summary: Attempted 530 tasks of which 0 didn't need to be rerun and all succeeded.
 
 Summary: There were 4 WARNING messages shown.
-2.38user 0.38system 23:21.79elapsed 0%CPU (0avgtext+0avgdata 29200maxresident)k
-8inputs+472outputs (0major+14078minor)pagefaults 0swaps
+2.55user 0.30system 22:47.17elapsed 0%CPU (0avgtext+0avgdata 29220maxresident)k
+8inputs+480outputs (0major+14132minor)pagefaults 0swaps
 
 ==> 4-build-all-cores.log <==
 Summary: There was 1 WARNING message shown.
 Summary: There were 2 ERROR messages shown, returning a non-zero exit code.
 Command exited with non-zero status 1
-56.56user 7.45system 1:22:17elapsed 1%CPU (0avgtext+0avgdata 28892maxresident)k
-62808inputs+4640outputs (2861major+19568minor)pagefaults 0swaps
+82.56user 10.80system 1:40:17elapsed 1%CPU (0avgtext+0avgdata 28732maxresident)k
+38416inputs+4776outputs (2999major+18112minor)pagefaults 0swaps
 
 ==> 5-build-8-bb-threads.log <==
 Summary: There was 1 WARNING message shown.
 Summary: There were 2 ERROR messages shown, returning a non-zero exit code.
 Command exited with non-zero status 1
-52.41user 7.04system 1:21:56elapsed 1%CPU (0avgtext+0avgdata 28440maxresident)k
-61992inputs+5200outputs (3306major+18729minor)pagefaults 0swaps
+72.88user 9.28system 1:52:15elapsed 1%CPU (0avgtext+0avgdata 28476maxresident)k
+52712inputs+5320outputs (4388major+17729minor)pagefaults 0swaps
 
 ==> 6-build-16-bb-threads.log <==
 Summary: There was 1 WARNING message shown.
 Summary: There were 2 ERROR messages shown, returning a non-zero exit code.
 Command exited with non-zero status 1
-54.34user 10.51system 1:23:03elapsed 1%CPU (0avgtext+0avgdata 28396maxresident)k
-122224inputs+4648outputs (2804major+19868minor)pagefaults 0swaps
+79.25user 10.75system 1:43:35elapsed 1%CPU (0avgtext+0avgdata 28428maxresident)k
+60288inputs+4936outputs (4731major+18075minor)pagefaults 0swaps
 
 ==> 7-build-2-bb-threads.log <==
 Summary: There was 1 WARNING message shown.
 Summary: There were 2 ERROR messages shown, returning a non-zero exit code.
 Command exited with non-zero status 1
-43.07user 5.16system 2:39:37elapsed 0%CPU (0avgtext+0avgdata 28400maxresident)k
-37928inputs+7136outputs (2034major+16699minor)pagefaults 0swaps
+56.92user 7.08system 2:56:36elapsed 0%CPU (0avgtext+0avgdata 28372maxresident)k
+31072inputs+7448outputs (850major+18195minor)pagefaults 0swaps
