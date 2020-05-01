@@ -1,90 +1,66 @@
-[?25l[?7l[0m[31m[1m            .-/+oossssoo+/-.
-        `:+ssssssssssssssssss+:`
-      -+ssssssssssssssssssyyssss+-
-    .ossssssssssssssssss[37m[0m[1mdMMMNy[0m[31m[1msssso.
-   /sssssssssss[37m[0m[1mhdmmNNmmyNMMMMh[0m[31m[1mssssss/
-  +sssssssss[37m[0m[1mhm[0m[31m[1myd[37m[0m[1mMMMMMMMNddddy[0m[31m[1mssssssss+
- /ssssssss[37m[0m[1mhNMMM[0m[31m[1myh[37m[0m[1mhyyyyhmNMMMNh[0m[31m[1mssssssss/
-.ssssssss[37m[0m[1mdMMMNh[0m[31m[1mssssssssss[37m[0m[1mhNMMMd[0m[31m[1mssssssss.
-+ssss[37m[0m[1mhhhyNMMNy[0m[31m[1mssssssssssss[37m[0m[1myNMMMy[0m[31m[1msssssss+
-oss[37m[0m[1myNMMMNyMMh[0m[31m[1mssssssssssssss[37m[0m[1mhmmmh[0m[31m[1mssssssso
-oss[37m[0m[1myNMMMNyMMh[0m[31m[1msssssssssssssshmmmh[0m[31m[1mssssssso
-+ssss[37m[0m[1mhhhyNMMNy[0m[31m[1mssssssssssss[37m[0m[1myNMMMy[0m[31m[1msssssss+
-.ssssssss[37m[0m[1mdMMMNh[0m[31m[1mssssssssss[37m[0m[1mhNMMMd[0m[31m[1mssssssss.
- /ssssssss[37m[0m[1mhNMMM[0m[31m[1myh[37m[0m[1mhyyyyhdNMMMNh[0m[31m[1mssssssss/
-  +sssssssss[37m[0m[1mdm[0m[31m[1myd[37m[0m[1mMMMMMMMMddddy[0m[31m[1mssssssss+
-   /sssssssssss[37m[0m[1mhdmNNNNmyNMMMMh[0m[31m[1mssssss/
-    .ossssssssssssssssss[37m[0m[1mdMMMNy[0m[31m[1msssso.
-      -+sssssssssssssssss[37m[0m[1myyy[0m[31m[1mssss+-
-        `:+ssssssssssssssssss+:`
-            .-/+oossssoo+/-.[0m
-[20A[9999999D[43C[0m[1m[31m[1mw[0m@[31m[1mw-lts1910[0m 
-[43C[0m-----------[0m 
-[43C[0m[31m[1mOS[0m[0m:[0m Ubuntu 19.10 x86_64[0m 
-[43C[0m[31m[1mKernel[0m[0m:[0m 5.6.0-rc2-custom[0m 
-[43C[0m[31m[1mUptime[0m[0m:[0m 14 hours, 33 mins[0m 
-[43C[0m[31m[1mPackages[0m[0m:[0m 1964 (dpkg), 8 (snap)[0m 
-[43C[0m[31m[1mShell[0m[0m:[0m bash 5.0.3[0m 
-[43C[0m[31m[1mResolution[0m[0m:[0m 1920x1080[0m 
-[43C[0m[31m[1mDE[0m[0m:[0m GNOME 3.34.3[0m 
-[43C[0m[31m[1mWM[0m[0m:[0m GNOME Shell[0m 
-[43C[0m[31m[1mWM Theme[0m[0m:[0m Adwaita[0m 
-[43C[0m[31m[1mTheme[0m[0m:[0m Yaru [GTK2/3][0m 
-[43C[0m[31m[1mIcons[0m[0m:[0m Yaru [GTK2/3][0m 
-[43C[0m[31m[1mTerminal[0m[0m:[0m gnome-terminal[0m 
-[43C[0m[31m[1mCPU[0m[0m:[0m AMD Ryzen Threadripper 3990X 64- (128) @ 2.900GHz[0m 
-[43C[0m[31m[1mGPU[0m[0m:[0m AMD ATI Radeon RX 470/480/570/570X/580/580X/590[0m 
-[43C[0m[31m[1mMemory[0m[0m:[0m 2179MiB / 128744MiB[0m 
+w@w-lts1910 
+----------- 
+OS: Ubuntu 19.10 x86_64 
+Kernel: 5.6.8-custom 
+Uptime: 19 hours, 55 mins 
+Packages: 1990 (dpkg), 8 (snap) 
+Shell: bash 5.0.3 
+Resolution: 3840x2160, 1920x1080 
+DE: GNOME 3.34.3 
+WM: GNOME Shell 
+WM Theme: Adwaita 
+Theme: Yaru [GTK2/3] 
+Icons: Yaru [GTK2/3] 
+Terminal: gnome-terminal 
+CPU: AMD Eng Sample (128) @ 2.900GHz 
+GPU: AMD ATI Radeon RX 470/480/570/570X/580/580X/590 
+Memory: 3004MiB / 128741MiB 
 
-[43C[30m[40m   [31m[41m   [32m[42m   [33m[43m   [34m[44m   [35m[45m   [36m[46m   [37m[47m   [0m
-
-
-[?25h[?7h
 ==> 1-init.log <==
  - 'devtool' and 'recipetool' handle common recipe tasks
  - 'bitbake-layers' handles common layer tasks
  - 'oe-pkgdata-util' handles common target package tasks
-16.45user 3.36system 1:08.91elapsed 28%CPU (0avgtext+0avgdata 136108maxresident)k
-20816inputs+701384outputs (70major+129430minor)pagefaults 0swaps
+17.02user 3.29system 1:22.36elapsed 24%CPU (0avgtext+0avgdata 136348maxresident)k
+20120inputs+701624outputs (66major+129316minor)pagefaults 0swaps
 
 ==> 2-build-test.log <==
 NOTE: Tasks Summary: Attempted 42 tasks of which 0 didn't need to be rerun and all succeeded.
 
 Summary: There was 1 WARNING message shown.
-0.39user 0.02system 0:29.93elapsed 1%CPU (0avgtext+0avgdata 32140maxresident)k
-1888inputs+2688outputs (9major+20725minor)pagefaults 0swaps
+0.35user 0.05system 0:31.43elapsed 1%CPU (0avgtext+0avgdata 32088maxresident)k
+1664inputs+2688outputs (7major+20828minor)pagefaults 0swaps
 
 ==> 3-fetch.log <==
 NOTE: Tasks Summary: Attempted 530 tasks of which 0 didn't need to be rerun and all succeeded.
 
 Summary: There were 4 WARNING messages shown.
-2.55user 0.30system 22:47.17elapsed 0%CPU (0avgtext+0avgdata 29220maxresident)k
-8inputs+480outputs (0major+14132minor)pagefaults 0swaps
+2.31user 0.38system 24:05.74elapsed 0%CPU (0avgtext+0avgdata 29204maxresident)k
+8inputs+496outputs (0major+14128minor)pagefaults 0swaps
 
 ==> 4-build-all-cores.log <==
+NOTE: Tasks Summary: Attempted 7999 tasks of which 1 didn't need to be rerun and all succeeded.
+
 Summary: There was 1 WARNING message shown.
-Summary: There were 2 ERROR messages shown, returning a non-zero exit code.
-Command exited with non-zero status 1
-82.56user 10.80system 1:40:17elapsed 1%CPU (0avgtext+0avgdata 28732maxresident)k
-38416inputs+4776outputs (2999major+18112minor)pagefaults 0swaps
+80.69user 15.43system 1:45:33elapsed 1%CPU (0avgtext+0avgdata 28452maxresident)k
+83304inputs+4688outputs (3791major+19955minor)pagefaults 0swaps
 
 ==> 5-build-8-bb-threads.log <==
+NOTE: Tasks Summary: Attempted 7999 tasks of which 1 didn't need to be rerun and all succeeded.
+
 Summary: There was 1 WARNING message shown.
-Summary: There were 2 ERROR messages shown, returning a non-zero exit code.
-Command exited with non-zero status 1
-72.88user 9.28system 1:52:15elapsed 1%CPU (0avgtext+0avgdata 28476maxresident)k
-52712inputs+5320outputs (4388major+17729minor)pagefaults 0swaps
+69.21user 9.89system 1:52:14elapsed 1%CPU (0avgtext+0avgdata 28264maxresident)k
+85448inputs+5312outputs (4318major+19394minor)pagefaults 0swaps
 
 ==> 6-build-16-bb-threads.log <==
+NOTE: Tasks Summary: Attempted 7999 tasks of which 1 didn't need to be rerun and all succeeded.
+
 Summary: There was 1 WARNING message shown.
-Summary: There were 2 ERROR messages shown, returning a non-zero exit code.
-Command exited with non-zero status 1
-79.25user 10.75system 1:43:35elapsed 1%CPU (0avgtext+0avgdata 28428maxresident)k
-60288inputs+4936outputs (4731major+18075minor)pagefaults 0swaps
+75.87user 13.08system 1:45:12elapsed 1%CPU (0avgtext+0avgdata 28528maxresident)k
+129616inputs+4840outputs (5203major+20813minor)pagefaults 0swaps
 
 ==> 7-build-2-bb-threads.log <==
+NOTE: Tasks Summary: Attempted 7999 tasks of which 1 didn't need to be rerun and all succeeded.
+
 Summary: There was 1 WARNING message shown.
-Summary: There were 2 ERROR messages shown, returning a non-zero exit code.
-Command exited with non-zero status 1
-56.92user 7.08system 2:56:36elapsed 0%CPU (0avgtext+0avgdata 28372maxresident)k
-31072inputs+7448outputs (850major+18195minor)pagefaults 0swaps
+56.68user 6.95system 2:59:37elapsed 0%CPU (0avgtext+0avgdata 28096maxresident)k
+32000inputs+7504outputs (1895major+16658minor)pagefaults 0swaps
