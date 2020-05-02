@@ -1,0 +1,49 @@
+NOTE: Started PRServer with DBfile: /OE/build/luneos-master/webos-ports/cache/prserv.sqlite3, IP: 127.0.0.1, PORT: 39647, PID: 4084121
+Loading cache...done.
+Loaded 4168 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-webos-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "luneos"
+DISTRO_VERSION       = "1.0"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+WEBOS_DISTRO_RELEASE_CODENAME = "luneos-Eiskaffee"
+WEBOS_DISTRO_BUILD_ID = "jama"
+WEBOS_DISTRO_TOPDIR_REVISION = "ce93c647e1bd0c0ec89654a287f6b0fd8afa2296"
+DATETIME             = "20200429170420"
+meta-luneos          
+meta-luneui          = "jansa/master:782982149434301056a922059224845cd68327d6"
+meta-pine64-luneos   = "jansa/master:99078710cb076e3379e5f29685aa24af9762f333"
+meta-rpi-luneos      = "jansa/master:c260738e374c1c5815f0cd149b67154f58eb609e"
+meta-raspberrypi     = "jansa/master:0917b60527242d3668efc2d3b918df64b13e7b6f"
+meta-hp              
+meta-huawei          
+meta-lg              
+meta-motorola        
+meta-oneplus         
+meta-xiaomi          
+meta-android         = "jansa/master:4341749afe5b9582e5939a3708e36beca8890cd1"
+meta-qt5             = "jansa/master:d6b6838e55aae46699e4dbdc24c13bc405e94f32"
+meta-python2         = "jansa/master:2684086f91e7074324081196c8a5f9945d39650e"
+meta-filesystems     
+meta-networking      
+meta-python          
+meta-oe              = "jansa/master:c4dd2d8a868500062382dcb9c391ad9a65eec2c6"
+meta                 = "jansa/master:ba283c1c974e59af5282aaed67369f863c655d21"
+
+Initialising tasks...done.
+Sstate summary: Wanted 13 Found 13 Missed 0 Current 159 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Running task 1405 of 1405 (/OE/build/luneos-master/webos-ports/meta-qt5/recipes-qt/qt5/qtwebengine_git.bb:do_compile)
+NOTE: recipe qtwebengine-5.14.99+5.15-beta4+gitAUTOINC+e65316e96d_9e8af45a0b-r0: task do_compile: Started
+NOTE: recipe qtwebengine-5.14.99+5.15-beta4+gitAUTOINC+e65316e96d_9e8af45a0b-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 1405 tasks of which 1404 didn't need to be rerun and all succeeded.
+NOTE: Writing buildhistory
+NOTE: Writing buildhistory took: 9 seconds
+TIME: 727.31 0.50 4.43 0% 774 65293 10561 0 30672 0 bitbake -c compile qtwebengine

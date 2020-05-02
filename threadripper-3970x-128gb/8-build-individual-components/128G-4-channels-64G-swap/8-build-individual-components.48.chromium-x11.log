@@ -24,16 +24,16 @@ meta-qt5             = "zeus:a582fd4c810529e9af0c81700407b1955d1391d2"
 
 WARNING: Your host glibc verson (2.31) is newer than that in uninative (2.30). Disabling uninative so that sstate is not corrupted.
 Initialising tasks...done.
-Sstate summary: Wanted 11 Found 11 Missed 0 Current 21 (100% match, 100% complete)
+Sstate summary: Wanted 15 Found 15 Missed 0 Current 217 (100% match, 100% complete)
 NOTE: Executing Tasks
 NOTE: Setscene tasks completed
-NOTE: Running task 248 of 249 (/OE/build/test-oe-build-time/poky/meta/recipes-core/zlib/zlib_1.2.11.bb:do_configure_ptest_base)
-NOTE: recipe zlib-1.2.11-r0: task do_configure_ptest_base: Started
-NOTE: recipe zlib-1.2.11-r0: task do_configure_ptest_base: Succeeded
-NOTE: Running task 249 of 249 (/OE/build/test-oe-build-time/poky/meta/recipes-core/zlib/zlib_1.2.11.bb:do_compile)
-NOTE: recipe zlib-1.2.11-r0: task do_compile: Started
-NOTE: recipe zlib-1.2.11-r0: task do_compile: Succeeded
-NOTE: Tasks Summary: Attempted 249 tasks of which 247 didn't need to be rerun and all succeeded.
+NOTE: Running task 1912 of 1913 (/OE/build/test-oe-build-time/poky/meta-browser/recipes-browser/chromium/chromium-x11_79.0.3945.117.bb:do_add_nodejs_symlink)
+NOTE: recipe chromium-x11-79.0.3945.117-r0: task do_add_nodejs_symlink: Started
+NOTE: recipe chromium-x11-79.0.3945.117-r0: task do_add_nodejs_symlink: Succeeded
+NOTE: Running task 1913 of 1913 (/OE/build/test-oe-build-time/poky/meta-browser/recipes-browser/chromium/chromium-x11_79.0.3945.117.bb:do_compile)
+NOTE: recipe chromium-x11-79.0.3945.117-r0: task do_compile: Started
+NOTE: recipe chromium-x11-79.0.3945.117-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 1913 tasks of which 1911 didn't need to be rerun and all succeeded.
 
 Summary: There were 2 WARNING messages shown.
-TIME: 3.49 0.03 0.27 8% 32 8083 10538 0 30476 0 bitbake -c compile zlib
+TIME: 1862.57 0.79 9.25 0% 1284 118195 10544 0 30476 0 bitbake -c compile chromium-x11

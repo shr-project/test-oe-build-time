@@ -129,3 +129,6 @@ for i in */sysbench-* */*/sysbench-*; do
     lsum=`grep "sum:" $i | sed 's/.*sum: *//g'`
     echo "$i;$th;$bs;$ts;$ops;$tr;$lmin;$lavg;$lmax;$l95th;$lsum"
 done | tee -a table.mbw.sysbench.csv
+
+echo "builder;ram;channels;swap;desc;-j;PN;e;S;U;P;c;w;R;F;M" | tee table.8-build.csv
+git grep ^TIME: | sed 's#^\([^/]*\)/8-build-individual-components/\([[:digit:]]*\)G-\([[:digit:]]*\)-channels-\(.*\)-swap\([^/]*\)/8-build-individual-components.\([[:digit:]]*\).\(.*\).log:\(TIME:.*\)$#\1;\2;\3;\4;\5;\6;\7;\8#g; s#;TIME: \([^ ]*\) \([^ ]*\) \([^ ]*\) \([^ ]*\) \([^ ]*\) \([^ ]*\) \([^ ]*\) \([^ ]*\) \([^ ]*\) \(.*\)$#;\1;\2;\3;\4;\5;\6;\7;\8;\9#g' | tee -a table.8-build.csv
