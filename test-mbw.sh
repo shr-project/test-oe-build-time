@@ -1,6 +1,6 @@
 #!/bin/sh
 
-GB=128
+GB=40
 TH=64
 
 echo "$ mbw -n 5 \`expr ${GB} \* 1024\`" > mbw.txt
