@@ -1,0 +1,36 @@
+WARNING: Host distribution "ubuntu-20.04" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
+Loading cache...done.
+Loaded 2448 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.44.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "ubuntu-20.04"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.0.2"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "zeus:293c4dd4405da9c9532a223ae60367990a62fff0"
+meta-browser         = "zeus:1697014a05967ed54b294f3c4b5621df494d6551"
+meta-rust            = "zeus:7c387573a15e7ac97db738cc79db876c9bcef0b7"
+meta-oe              = "zeus:e855ecc6d35677e79780adc57b2552213c995731"
+meta-clang           = "zeus:0c393398a91713a108f319ac75337c02b7ebeaa7"
+meta-qt5             = "zeus:a582fd4c810529e9af0c81700407b1955d1391d2"
+
+WARNING: Your host glibc verson (2.31) is newer than that in uninative (2.30). Disabling uninative so that sstate is not corrupted.
+Initialising tasks...done.
+Sstate summary: Wanted 16 Found 16 Missed 0 Current 179 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Setscene tasks completed
+NOTE: Running task 1619 of 1619 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtwebengine_git.bb:do_compile)
+NOTE: recipe qtwebengine-5.13.2+gitAUTOINC+556576b55f_843d70ac87-r0: task do_compile: Started
+NOTE: recipe qtwebengine-5.13.2+gitAUTOINC+556576b55f_843d70ac87-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 1619 tasks of which 1618 didn't need to be rerun and all succeeded.
+
+Summary: There were 2 WARNING messages shown.
+TIME: 831.58 0.45 5.30 0% 686 55424 10628 3 29696 0 bitbake -c compile qtwebengine
