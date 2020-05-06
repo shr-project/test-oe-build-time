@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "=== init ==="
-echo "builder;bb;user;system;elapsed;cpu;avgtest;avgdata;maxresident;inputs;outputs;major;minor;swaps" | tee table.time.init.csv
+echo "builder;bb;user;system;elapsed;cpu;avgtest;avgdata;maxresident;inputs;outputs;major;minor;swaps" | tee results.sheet02.time.init.csv
 for i in */[123]*log; do
     builder=`dirname $i`
     task=`basename $i | sed 's/\.log//g'`
@@ -11,10 +11,10 @@ for i in */[123]*log; do
     s=`tail -n 1 $i | grep "swaps$" | sed 's/inputs+/;/g; s/outputs (/;/g; s/major+/;/g; s/minor)pagefaults /;/g; s/swaps//g'`
     # threadripper-3970x-64gb::37.60;4.64;2:52:19;0;0;0;28724:52784;6432;1771;17635;0
     echo "$builder;$task;$u;$s"
-done | tee -a table.time.init.csv
+done | tee -a results.sheet02.time.init.csv
 echo
 echo "=== builds ==="
-echo "builder;bb;user;system;elapsed;cpu;avgtest;avgdata;maxresident;inputs;outputs;major;minor;swaps" | tee table.time.build.csv
+echo "builder;bb;user;system;elapsed;cpu;avgtest;avgdata;maxresident;inputs;outputs;major;minor;swaps" | tee results.sheet03.time.build.csv
 for i in */[4567]*log; do
     builder=`dirname $i`
     bb=`basename $i | sed 's/?-build-//g; s/-bb-threads.log//g; s/all-cores.log/all/g'`
@@ -25,13 +25,14 @@ for i in */[4567]*log; do
     s=`tail -n 1 $i | grep "swaps$" | sed 's/inputs+/;/g; s/outputs (/;/g; s/major+/;/g; s/minor)pagefaults /;/g; s/swaps//g'`
     # threadripper-3970x-64gb::37.60;4.64;2:52:19;0;0;0;28724:52784;6432;1771;17635;0
     echo "$builder;$bb;$u;$s"
-done | tee -a table.time.build.csv
+done | tee -a results.sheet03.time.build.csv
 
 steps="build-test fetch builds"
+sheet=4
 for step in $steps; do
     echo
     echo "=== top20 $step ==="
-    echo "builder;step;task;time" | tee table.top20.${step}.csv
+    echo "builder;step;task;time" | tee results.sheet0${sheet}.top20.${step}.csv
     builds="*/*${step}*.top20"
     [ $step = "builds" ] && builds="*/[4567]*build*.top20"
 
@@ -47,7 +48,7 @@ for step in $steps; do
             [ -z "$time" ] && time="---"
             echo "$builder;$build;$task;$time"
         done
-    done | tee -a table.top20.${step}.csv
+    done | tee -a results.sheet0${sheet}.top20.${step}.csv
     task=Total
     for i in ${builds}; do
         builder=`dirname $i`
@@ -56,7 +57,8 @@ for step in $steps; do
         time=`grep "/build_stats$" $i | sed 's/ seconds .*$//g'`
         [ -z "$time" ] && time="---"
         echo "$builder;$build;$task;$time"
-    done | tee -a table.top20.${step}.csv
+    done | tee -a results.sheet0${sheet}.top20.${step}.csv
+    sheet=`expr $sheet + 1`
 done
 
 # Builds in columns
@@ -107,15 +109,16 @@ for step in $steps; do
         [ -z "$time" ] && time="---"
         echo -n ";$time"
     done
-} | tee table.top20s.${step}.csv
+} | tee results.sheet0${sheet}.top20s.${step}.csv
+    sheet=`expr $sheet + 1`
 done
 
 echo "=== MBW ==="
-echo "builder;method;MiB/s" | tee table.mbw.csv
-grep AVG */mbw.txt */mbw*/mbw.txt | sed 's#/mbw.txt:AVG.*Method: #;#g; s# *Elapsed:.*Copy: #;#g; s#\t *##g; s# MiB/s##g' | tee -a table.mbw.csv
+echo "builder;method;MiB/s" | tee results.sheet11.mbw.csv
+grep AVG */mbw.txt */mbw*/mbw.txt | sed 's#/mbw.txt:AVG.*Method: #;#g; s# *Elapsed:.*Copy: #;#g; s#\t *##g; s# MiB/s##g' | tee -a results.sheet11.mbw.csv
 
 echo "=== MBW Sysbench ==="
-echo "builder;threads;block size;total size;ops/s;MiB/s;min;avg;max;95th;sum" | tee table.mbw.sysbench.csv
+echo "builder;threads;block size;total size;ops/s;MiB/s;min;avg;max;95th;sum" | tee results.sheet12.mbw.sysbench.csv
 for i in */sysbench-* */*/sysbench-*; do
     th=`grep "Number of threads: " $i | sed 's/.*Number of threads: //g'`
     bs=`grep "block size: " $i | sed 's/.*block size: //g'`
@@ -128,7 +131,7 @@ for i in */sysbench-* */*/sysbench-*; do
     l95th=`grep "percentile:" $i | sed 's/.*percentile: *//g'`
     lsum=`grep "sum:" $i | sed 's/.*sum: *//g'`
     echo "$i;$th;$bs;$ts;$ops;$tr;$lmin;$lavg;$lmax;$l95th;$lsum"
-done | tee -a table.mbw.sysbench.csv
+done | tee -a results.sheet12.mbw.sysbench.csv
 
-echo "builder;ram;channels;swap;desc;-j;PN;e;S;U;P;c;w;R;F;M" | tee table.8-build.csv
-git grep ^TIME: | sed 's#^\([^/]*\)/8-build-individual-components/\([[:digit:]]*\)G-\([[:digit:]]*\)-channels-\(.*\)-swap\([^/]*\)/8-build-individual-components.\([[:digit:]]*\).\(.*\).log:\(TIME:.*\)$#\1;\2;\3;\4;\5;\6;\7;\8#g; s#;TIME: \([^ ]*\) \([^ ]*\) \([^ ]*\) \([^ ]*\) \([^ ]*\) \([^ ]*\) \([^ ]*\) \([^ ]*\) \([^ ]*\) \(.*\)$#;\1;\2;\3;\4;\5;\6;\7;\8;\9#g' | tee -a table.8-build.csv
+echo "builder;ram;channels;swap;desc;-j;PN;e;S;U;P;c;w;R;F;M" | tee results.sheet10.individual-builds.csv
+git grep ^TIME: | sed 's#^\([^/]*\)/8-build-individual-components/\([[:digit:]]*\)G-\([[:digit:]]*\)-channels-\(.*\)-swap\([^/]*\)/8-build-individual-components.\([[:digit:]]*\).\(.*\).log:\(TIME:.*\)$#\1;\2;\3;\4;\5;\6;\7;\8#g; s#;TIME: \([^ ]*\) \([^ ]*\) \([^ ]*\) \([^ ]*\) \([^ ]*\) \([^ ]*\) \([^ ]*\) \([^ ]*\) \([^ ]*\) \(.*\)$#;\1;\2;\3;\4;\5;\6;\7;\8;\9#g' | tee -a results.sheet10.individual-builds.csv
