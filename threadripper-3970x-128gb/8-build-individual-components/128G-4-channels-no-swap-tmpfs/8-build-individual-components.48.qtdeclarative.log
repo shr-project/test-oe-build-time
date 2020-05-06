@@ -24,16 +24,16 @@ meta-qt5             = "zeus:a582fd4c810529e9af0c81700407b1955d1391d2"
 
 WARNING: Your host glibc verson (2.31) is newer than that in uninative (2.30). Disabling uninative so that sstate is not corrupted.
 Initialising tasks...done.
-Sstate summary: Wanted 0 Found 0 Missed 0 Current 25 (0% match, 100% complete)
+Sstate summary: Wanted 13 Found 13 Missed 0 Current 126 (100% match, 100% complete)
 NOTE: Executing Tasks
 NOTE: Setscene tasks completed
-NOTE: Running task 166 of 210 (virtual:native:/OE/build/test-oe-build-time/poky/meta-rust/recipes-devtools/rust/rust_1.37.0.bb:do_rust_gen_targets)
-NOTE: recipe rust-native-1.37.0-r0: task do_rust_gen_targets: Started
-NOTE: recipe rust-native-1.37.0-r0: task do_rust_gen_targets: Succeeded
-NOTE: Running task 210 of 210 (virtual:native:/OE/build/test-oe-build-time/poky/meta-rust/recipes-devtools/rust/rust_1.37.0.bb:do_compile)
-NOTE: recipe rust-native-1.37.0-r0: task do_compile: Started
-NOTE: recipe rust-native-1.37.0-r0: task do_compile: Succeeded
-NOTE: Tasks Summary: Attempted 210 tasks of which 208 didn't need to be rerun and all succeeded.
+NOTE: Running task 1143 of 1144 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtdeclarative_git.bb:do_configure_ptest_base)
+NOTE: recipe qtdeclarative-5.13.2+gitAUTOINC+4080025fed-r0: task do_configure_ptest_base: Started
+NOTE: recipe qtdeclarative-5.13.2+gitAUTOINC+4080025fed-r0: task do_configure_ptest_base: Succeeded
+NOTE: Running task 1144 of 1144 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtdeclarative_git.bb:do_compile)
+NOTE: recipe qtdeclarative-5.13.2+gitAUTOINC+4080025fed-r0: task do_compile: Started
+NOTE: recipe qtdeclarative-5.13.2+gitAUTOINC+4080025fed-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 1144 tasks of which 1142 didn't need to be rerun and all succeeded.
 
 Summary: There were 2 WARNING messages shown.
-TIME: 1246.29 0.04 0.46 0% 38 13167 10547 0 30420 0 bitbake -c compile rust-native
+TIME: 124.53 0.04 0.31 0% 26 10497 10550 0 30564 0 bitbake -c compile qtdeclarative

@@ -24,16 +24,16 @@ meta-qt5             = "zeus:a582fd4c810529e9af0c81700407b1955d1391d2"
 
 WARNING: Your host glibc verson (2.31) is newer than that in uninative (2.30). Disabling uninative so that sstate is not corrupted.
 Initialising tasks...done.
-Sstate summary: Wanted 0 Found 0 Missed 0 Current 25 (0% match, 100% complete)
+Sstate summary: Wanted 15 Found 15 Missed 0 Current 217 (100% match, 100% complete)
 NOTE: Executing Tasks
 NOTE: Setscene tasks completed
-NOTE: Running task 166 of 210 (virtual:native:/OE/build/test-oe-build-time/poky/meta-rust/recipes-devtools/rust/rust_1.37.0.bb:do_rust_gen_targets)
-NOTE: recipe rust-native-1.37.0-r0: task do_rust_gen_targets: Started
-NOTE: recipe rust-native-1.37.0-r0: task do_rust_gen_targets: Succeeded
-NOTE: Running task 210 of 210 (virtual:native:/OE/build/test-oe-build-time/poky/meta-rust/recipes-devtools/rust/rust_1.37.0.bb:do_compile)
-NOTE: recipe rust-native-1.37.0-r0: task do_compile: Started
-NOTE: recipe rust-native-1.37.0-r0: task do_compile: Succeeded
-NOTE: Tasks Summary: Attempted 210 tasks of which 208 didn't need to be rerun and all succeeded.
+NOTE: Running task 1912 of 1913 (/OE/build/test-oe-build-time/poky/meta-browser/recipes-browser/chromium/chromium-x11_79.0.3945.117.bb:do_add_nodejs_symlink)
+NOTE: recipe chromium-x11-79.0.3945.117-r0: task do_add_nodejs_symlink: Started
+NOTE: recipe chromium-x11-79.0.3945.117-r0: task do_add_nodejs_symlink: Succeeded
+NOTE: Running task 1913 of 1913 (/OE/build/test-oe-build-time/poky/meta-browser/recipes-browser/chromium/chromium-x11_79.0.3945.117.bb:do_compile)
+NOTE: recipe chromium-x11-79.0.3945.117-r0: task do_compile: Started
+NOTE: recipe chromium-x11-79.0.3945.117-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 1913 tasks of which 1911 didn't need to be rerun and all succeeded.
 
 Summary: There were 2 WARNING messages shown.
-TIME: 1246.29 0.04 0.46 0% 38 13167 10547 0 30420 0 bitbake -c compile rust-native
+TIME: 2139.66 0.76 8.30 0% 774 135147 10566 0 30740 0 bitbake -c compile chromium-x11
