@@ -6,28 +6,30 @@
 
 git clone git://git.yoctoproject.org/poky
 cd poky
-git checkout -b zeus 73fe0e273b4e00dcb08122c4f54fc65316e2a793
-# this fix is needed to build qemu-native with newer glibc on host (e.g. ubuntu 20.04 I'm using now)
-git cherry-pick b8809d338005eeea4085692281dda20fe85dc52d
+git checkout -b dunfell ed3bdd7fbc633124c01008a6dc6952c9d0857019
 git clone https://github.com/meta-qt5/meta-qt5.git
 cd meta-qt5
-git checkout -b zeus a582fd4c810529e9af0c81700407b1955d1391d2
+git checkout -b dunfell fdd19517e17240b0b61765bd02fc483a1bde986f
 cd ..
 git clone https://github.com/OSSystems/meta-browser.git
 cd meta-browser
-git checkout -b zeus 1697014a05967ed54b294f3c4b5621df494d6551
+git checkout -b dunfell 5e58ff65facc27a3054a4d3f97d3329342d49afa
 cd ..
 git clone https://github.com/openembedded/meta-openembedded.git
 cd meta-openembedded
-git checkout -b zeus e855ecc6d35677e79780adc57b2552213c995731
+git checkout -b dunfell e413c1ef621688e69bb7830bb3151ed23b30b73e
 cd ..
 git clone https://github.com/kraj/meta-clang.git
 cd meta-clang
-git checkout -b zeus 0c393398a91713a108f319ac75337c02b7ebeaa7
+git checkout -b dunfell 503aa977b27be0506fb6ac21fbf9e8b049b82247
 cd ..
 git clone https://github.com/meta-rust/meta-rust.git
 cd meta-rust
-git checkout -b zeus 5d1ada0c97723e1526bf5599b2fa2cbb56c2c0dc
+git checkout -b dunfell d2ff87ca5545b8081b16ac8f53ed4295593208c6
+cd ..
+git clone git://git.openembedded.org/meta-python2
+cd meta-python2
+git checkout -b dunfell e2ef0dd8fa13d6b96e44773b09d07e4817d0a44d
 cd ..
 
 . ./oe-init-build-env
@@ -36,6 +38,7 @@ sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-clang/g' conf/bblaye
 sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-openembedded\/meta-oe/g' conf/bblayers.conf
 sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-rust/g' conf/bblayers.conf
 sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-browser/g' conf/bblayers.conf
+sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-python2/g' conf/bblayers.conf
 
 cat >> conf/local.conf << EOF
 IMAGE_INSTALL_append_pn-core-image-sato = " qtwebengine qtwebkit chromium-x11 firefox epiphany"
