@@ -1,0 +1,51 @@
+Cloning into 'poky'...
+Updating files:  56% (2747/4897)Updating files:  57% (2792/4897)Updating files:  58% (2841/4897)Updating files:  59% (2890/4897)Updating files:  60% (2939/4897)Updating files:  61% (2988/4897)Updating files:  62% (3037/4897)Updating files:  63% (3086/4897)Updating files:  64% (3135/4897)Updating files:  65% (3184/4897)Updating files:  66% (3233/4897)Updating files:  67% (3281/4897)Updating files:  68% (3330/4897)Updating files:  69% (3379/4897)Updating files:  70% (3428/4897)Updating files:  71% (3477/4897)Updating files:  72% (3526/4897)Updating files:  73% (3575/4897)Updating files:  74% (3624/4897)Updating files:  75% (3673/4897)Updating files:  76% (3722/4897)Updating files:  77% (3771/4897)Updating files:  78% (3820/4897)Updating files:  79% (3869/4897)Updating files:  80% (3918/4897)Updating files:  81% (3967/4897)Updating files:  82% (4016/4897)Updating files:  83% (4065/4897)Updating files:  84% (4114/4897)Updating files:  85% (4163/4897)Updating files:  86% (4212/4897)Updating files:  87% (4261/4897)Updating files:  88% (4310/4897)Updating files:  89% (4359/4897)Updating files:  90% (4408/4897)Updating files:  91% (4457/4897)Updating files:  92% (4506/4897)Updating files:  93% (4555/4897)Updating files:  94% (4604/4897)Updating files:  95% (4653/4897)Updating files:  96% (4702/4897)Updating files:  97% (4751/4897)Updating files:  98% (4800/4897)Updating files:  99% (4849/4897)Updating files: 100% (4897/4897)Updating files: 100% (4897/4897), done.
+Switched to a new branch 'dunfell'
+Cloning into 'meta-qt5'...
+Switched to a new branch 'dunfell'
+Cloning into 'meta-browser'...
+Switched to a new branch 'dunfell'
+Cloning into 'meta-openembedded'...
+Updating files:  46% (2607/5561)Updating files:  47% (2614/5561)Updating files:  48% (2670/5561)Updating files:  49% (2725/5561)Updating files:  50% (2781/5561)Updating files:  51% (2837/5561)Updating files:  52% (2892/5561)Updating files:  53% (2948/5561)Updating files:  54% (3003/5561)Updating files:  55% (3059/5561)Updating files:  56% (3115/5561)Updating files:  57% (3170/5561)Updating files:  58% (3226/5561)Updating files:  59% (3281/5561)Updating files:  60% (3337/5561)Updating files:  61% (3393/5561)Updating files:  62% (3448/5561)Updating files:  63% (3504/5561)Updating files:  64% (3560/5561)Updating files:  65% (3615/5561)Updating files:  66% (3671/5561)Updating files:  67% (3726/5561)Updating files:  68% (3782/5561)Updating files:  69% (3838/5561)Updating files:  70% (3893/5561)Updating files:  71% (3949/5561)Updating files:  72% (4004/5561)Updating files:  73% (4060/5561)Updating files:  74% (4116/5561)Updating files:  75% (4171/5561)Updating files:  76% (4227/5561)Updating files:  77% (4282/5561)Updating files:  78% (4338/5561)Updating files:  79% (4394/5561)Updating files:  80% (4449/5561)Updating files:  81% (4505/5561)Updating files:  82% (4561/5561)Updating files:  83% (4616/5561)Updating files:  84% (4672/5561)Updating files:  84% (4691/5561)Updating files:  85% (4727/5561)Updating files:  86% (4783/5561)Updating files:  87% (4839/5561)Updating files:  88% (4894/5561)Updating files:  89% (4950/5561)Updating files:  90% (5005/5561)Updating files:  91% (5061/5561)Updating files:  92% (5117/5561)Updating files:  93% (5172/5561)Updating files:  94% (5228/5561)Updating files:  95% (5283/5561)Updating files:  96% (5339/5561)Updating files:  97% (5395/5561)Updating files:  98% (5450/5561)Updating files:  99% (5506/5561)Updating files: 100% (5561/5561)Updating files: 100% (5561/5561), done.
+Switched to a new branch 'dunfell'
+Cloning into 'meta-clang'...
+Switched to a new branch 'dunfell'
+Cloning into 'meta-rust'...
+Switched to a new branch 'dunfell'
+Cloning into 'meta-python2'...
+Switched to a new branch 'dunfell'
+You had no conf/local.conf file. This configuration file has therefore been
+created for you with some default values. You may wish to edit it to, for
+example, select a different MACHINE (target hardware). See conf/local.conf
+for more information as common configuration options are commented.
+
+You had no conf/bblayers.conf file. This configuration file has therefore been
+created for you with some default values. To add additional metadata layers
+into your configuration please add entries to conf/bblayers.conf.
+
+The Yocto Project has extensive documentation about OE including a reference
+manual which can be found at:
+    http://yoctoproject.org/documentation
+
+For more information about OpenEmbedded see their website:
+    http://www.openembedded.org/
+
+
+### Shell environment set up for builds. ###
+
+You can now run 'bitbake <target>'
+
+Common targets are:
+    core-image-minimal
+    core-image-sato
+    meta-toolchain
+    meta-ide-support
+
+You can also run generated qemu images with a command like 'runqemu qemux86'
+
+Other commonly useful commands are:
+ - 'devtool' and 'recipetool' handle common recipe tasks
+ - 'bitbake-layers' handles common layer tasks
+ - 'oe-pkgdata-util' handles common target package tasks
+15.24user 6.32system 1:18.99elapsed 27%CPU (0avgtext+0avgdata 148032maxresident)k
+160inputs+714680outputs (0major+125312minor)pagefaults 0swaps
