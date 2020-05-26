@@ -1,0 +1,38 @@
+WARNING: Host distribution "ubuntu-20.04" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
+Loading cache...done.
+Loaded 3114 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:ed3bdd7fbc633124c01008a6dc6952c9d0857019"
+meta-python2         = "dunfell:e2ef0dd8fa13d6b96e44773b09d07e4817d0a44d"
+meta-browser         = "dunfell:986d7cfe31625a2b800e807f4fa02517af959a22"
+meta-rust            = "dunfell:d2ff87ca5545b8081b16ac8f53ed4295593208c6"
+meta-oe              = "dunfell:e413c1ef621688e69bb7830bb3151ed23b30b73e"
+meta-clang           = "dunfell:503aa977b27be0506fb6ac21fbf9e8b049b82247"
+meta-qt5             = "dunfell:fdd19517e17240b0b61765bd02fc483a1bde986f"
+
+Initialising tasks...done.
+Sstate summary: Wanted 0 Found 0 Missed 0 Current 61 (0% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Running task 248 of 281 (virtual:native:/OE/build/test-oe-build-time/poky/meta-rust/recipes-devtools/rust/rust_1.43.0.bb:do_rust_gen_targets)
+NOTE: recipe rust-native-1.43.0-r0: task do_rust_gen_targets: Started
+NOTE: recipe rust-native-1.43.0-r0: task do_rust_gen_targets: Succeeded
+NOTE: Running task 281 of 281 (virtual:native:/OE/build/test-oe-build-time/poky/meta-rust/recipes-devtools/rust/rust_1.43.0.bb:do_compile)
+NOTE: recipe rust-native-1.43.0-r0: task do_compile: Started
+NOTE: recipe rust-native-1.43.0-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 281 tasks of which 279 didn't need to be rerun and all succeeded.
+
+Summary: There was 1 WARNING message shown.
+TIME: 900.21 0.06 0.45 0% 37 14102 10549 0 30476 0 bitbake -c compile rust-native
