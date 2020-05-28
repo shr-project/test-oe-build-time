@@ -25,7 +25,7 @@ git checkout -b dunfell 503aa977b27be0506fb6ac21fbf9e8b049b82247
 cd ..
 git clone https://github.com/meta-rust/meta-rust.git
 cd meta-rust
-git checkout -b dunfell d2ff87ca5545b8081b16ac8f53ed4295593208c6
+git checkout -b dunfell 7f235b6f8973cc5269448375f2a8f9867bb2a369
 cd ..
 git clone git://git.openembedded.org/meta-python2
 cd meta-python2
@@ -51,6 +51,17 @@ fi
 if ! grep meta-python2 conf/bblayers.conf ; then
   sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-python2/g' conf/bblayers.conf
 fi
+
+# Needed to build firefox
+echo 'HOSTTOOLS += "python python2.7"' >> conf/bblayers.conf
+cat >> conf/local.conf << EOF
+RUST_VERSION = "1.37.0"
+PREFERRED_VERSION_rust-native ?= "\${RUST_VERSION}"
+PREFERRED_VERSION_rust-cross-\${TARGET_ARCH} ?= "\${RUST_VERSION}"
+PREFERRED_VERSION_rust-llvm-native ?= "\${RUST_VERSION}"
+PREFERRED_VERSION_libstd-rs ?= "\${RUST_VERSION}"
+PREFERRED_VERSION_cargo-native ?= "\${RUST_VERSION}"
+EOF
 
 cat >> conf/local.conf << EOF
 IMAGE_INSTALL_append_pn-core-image-sato = " qtwebengine qtwebkit chromium-x11 firefox epiphany"
