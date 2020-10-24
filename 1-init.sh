@@ -6,30 +6,30 @@
 
 git clone git://git.yoctoproject.org/poky
 cd poky
-git checkout -b dunfell ed3bdd7fbc633124c01008a6dc6952c9d0857019
+git checkout -b gatesgarth 4e4a302e37ac06543e9983773cdb4caf7728330d
 git clone https://github.com/meta-qt5/meta-qt5.git
 cd meta-qt5
-git checkout -b dunfell fdd19517e17240b0b61765bd02fc483a1bde986f
+git checkout -b gatesgarth 8d5672cc6ca327576a814d35dfb5d59ab24043cb
 cd ..
 git clone https://github.com/OSSystems/meta-browser.git
 cd meta-browser
-git checkout -b dunfell 5e58ff65facc27a3054a4d3f97d3329342d49afa
+git checkout -b gatesgarth 5e07a7897945dd91d75169975178005d9d9aa200
 cd ..
 git clone https://github.com/openembedded/meta-openembedded.git
 cd meta-openembedded
-git checkout -b dunfell e413c1ef621688e69bb7830bb3151ed23b30b73e
+git checkout -b gatesgarth 1a53121ff54732648a4ee1e96643106d4d36c524
 cd ..
 git clone https://github.com/kraj/meta-clang.git
 cd meta-clang
-git checkout -b dunfell 503aa977b27be0506fb6ac21fbf9e8b049b82247
+git checkout -b gatesgarth 6b224af8d109c5b5be23444423fc98246c94c055
 cd ..
 git clone https://github.com/meta-rust/meta-rust.git
 cd meta-rust
-git checkout -b dunfell 7f235b6f8973cc5269448375f2a8f9867bb2a369
+git checkout -b gatesgarth 53bfa324891966a2daf5d36dc13d4a43725aebed
 cd ..
 git clone git://git.openembedded.org/meta-python2
 cd meta-python2
-git checkout -b dunfell e2ef0dd8fa13d6b96e44773b09d07e4817d0a44d
+git checkout -b gatesgarth 27d2aebdb4d78a608798a4f617d9bcfcbe4a635b
 cd ..
 
 . ./oe-init-build-env
@@ -55,7 +55,7 @@ fi
 # Needed to build firefox
 echo 'HOSTTOOLS += "python python2.7"' >> conf/bblayers.conf
 cat >> conf/local.conf << EOF
-RUST_VERSION = "1.37.0"
+RUST_VERSION = "1.46.0"
 PREFERRED_VERSION_rust-native ?= "\${RUST_VERSION}"
 PREFERRED_VERSION_rust-cross-\${TARGET_ARCH} ?= "\${RUST_VERSION}"
 PREFERRED_VERSION_rust-llvm-native ?= "\${RUST_VERSION}"
