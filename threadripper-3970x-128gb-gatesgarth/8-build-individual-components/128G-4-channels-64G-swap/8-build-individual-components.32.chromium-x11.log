@@ -1,0 +1,38 @@
+WARNING: Host distribution "ubuntu-20.10" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
+Loading cache...done.
+Loaded 3228 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.48.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.2"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "gatesgarth:4e4a302e37ac06543e9983773cdb4caf7728330d"
+meta-python2         = "gatesgarth:27d2aebdb4d78a608798a4f617d9bcfcbe4a635b"
+meta-browser         = "gatesgarth:5e07a7897945dd91d75169975178005d9d9aa200"
+meta-rust            = "gatesgarth:53bfa324891966a2daf5d36dc13d4a43725aebed"
+meta-oe              = "gatesgarth:1a53121ff54732648a4ee1e96643106d4d36c524"
+meta-clang           = "gatesgarth:6b224af8d109c5b5be23444423fc98246c94c055"
+meta-qt5             = "gatesgarth:8d5672cc6ca327576a814d35dfb5d59ab24043cb"
+
+Initialising tasks...done.
+Sstate summary: Wanted 36 Found 36 Missed 0 Current 447 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Running task 2259 of 2260 (/OE/build/test-oe-build-time/poky/meta-browser/recipes-browser/chromium/chromium-x11_85.0.4183.102.bb:do_add_nodejs_symlink)
+NOTE: recipe chromium-x11-85.0.4183.102-r0: task do_add_nodejs_symlink: Started
+NOTE: recipe chromium-x11-85.0.4183.102-r0: task do_add_nodejs_symlink: Succeeded
+NOTE: Running task 2260 of 2260 (/OE/build/test-oe-build-time/poky/meta-browser/recipes-browser/chromium/chromium-x11_85.0.4183.102.bb:do_compile)
+NOTE: recipe chromium-x11-85.0.4183.102-r0: task do_compile: Started
+NOTE: recipe chromium-x11-85.0.4183.102-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 2260 tasks of which 2258 didn't need to be rerun and all succeeded.
+
+Summary: There was 1 WARNING message shown.
+TIME: 3206.09 1.05 8.74 0% 1568 147756 18602 0 29928 0 bitbake -c compile chromium-x11
