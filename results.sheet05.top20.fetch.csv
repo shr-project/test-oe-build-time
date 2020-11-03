@@ -1,4 +1,5 @@
 builder;step;task;time
+VM-20t-157G;3-fetch;binutils.do_fetch;1087.36
 VM-20t-98G;3-fetch;binutils.do_fetch;80.05
 dual-Xeon-E5-2670-8-channels;3-fetch;binutils.do_fetch;331.45
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;binutils.do_fetch;611.72
@@ -18,6 +19,7 @@ threadripper-3970x-64gb;3-fetch;binutils.do_fetch;813.44
 threadripper-3990x-128gb;3-fetch;binutils.do_fetch;537.37
 threadripper-3990x-256gb;3-fetch;binutils.do_fetch;537.83
 vSphere-VM-28t-55G;3-fetch;binutils.do_fetch;483.68
+VM-20t-157G;3-fetch;binutils.do_fetch;---
 VM-20t-98G;3-fetch;binutils.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;binutils.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;binutils.do_fetch;---
@@ -37,6 +39,7 @@ threadripper-3970x-64gb;3-fetch;binutils.do_fetch;---
 threadripper-3990x-128gb;3-fetch;binutils.do_fetch;---
 threadripper-3990x-256gb;3-fetch;binutils.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;binutils.do_fetch;---
+VM-20t-157G;3-fetch;binutils.do_fetch;---
 VM-20t-98G;3-fetch;binutils.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;binutils.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;binutils.do_fetch;---
@@ -56,6 +59,7 @@ threadripper-3970x-64gb;3-fetch;binutils.do_fetch;---
 threadripper-3990x-128gb;3-fetch;binutils.do_fetch;---
 threadripper-3990x-256gb;3-fetch;binutils.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;binutils.do_fetch;---
+VM-20t-157G;3-fetch;binutils-cross-x86_64.do_fetch;968.47
 VM-20t-98G;3-fetch;binutils-cross-x86_64.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;binutils-cross-x86_64.do_fetch;260.91
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;binutils-cross-x86_64.do_fetch;496.93
@@ -75,6 +79,7 @@ threadripper-3970x-64gb;3-fetch;binutils-cross-x86_64.do_fetch;621.12
 threadripper-3990x-128gb;3-fetch;binutils-cross-x86_64.do_fetch;528.63
 threadripper-3990x-256gb;3-fetch;binutils-cross-x86_64.do_fetch;528.07
 vSphere-VM-28t-55G;3-fetch;binutils-cross-x86_64.do_fetch;349.63
+VM-20t-157G;3-fetch;binutils-cross-x86_64.do_fetch;---
 VM-20t-98G;3-fetch;binutils-cross-x86_64.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;binutils-cross-x86_64.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;binutils-cross-x86_64.do_fetch;---
@@ -94,6 +99,7 @@ threadripper-3970x-64gb;3-fetch;binutils-cross-x86_64.do_fetch;---
 threadripper-3990x-128gb;3-fetch;binutils-cross-x86_64.do_fetch;---
 threadripper-3990x-256gb;3-fetch;binutils-cross-x86_64.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;binutils-cross-x86_64.do_fetch;---
+VM-20t-157G;3-fetch;binutils-cross-x86_64.do_fetch;---
 VM-20t-98G;3-fetch;binutils-cross-x86_64.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;binutils-cross-x86_64.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;binutils-cross-x86_64.do_fetch;---
@@ -113,6 +119,7 @@ threadripper-3970x-64gb;3-fetch;binutils-cross-x86_64.do_fetch;---
 threadripper-3990x-128gb;3-fetch;binutils-cross-x86_64.do_fetch;---
 threadripper-3990x-256gb;3-fetch;binutils-cross-x86_64.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;binutils-cross-x86_64.do_fetch;---
+VM-20t-157G;3-fetch;binutils-native.do_fetch;975.85
 VM-20t-98G;3-fetch;binutils-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;binutils-native.do_fetch;270.75
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;binutils-native.do_fetch;520.16
@@ -132,6 +139,7 @@ threadripper-3970x-64gb;3-fetch;binutils-native.do_fetch;649.13
 threadripper-3990x-128gb;3-fetch;binutils-native.do_fetch;529.74
 threadripper-3990x-256gb;3-fetch;binutils-native.do_fetch;529.84
 vSphere-VM-28t-55G;3-fetch;binutils-native.do_fetch;368.81
+VM-20t-157G;3-fetch;binutils-native.do_fetch;---
 VM-20t-98G;3-fetch;binutils-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;binutils-native.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;binutils-native.do_fetch;---
@@ -151,6 +159,7 @@ threadripper-3970x-64gb;3-fetch;binutils-native.do_fetch;---
 threadripper-3990x-128gb;3-fetch;binutils-native.do_fetch;---
 threadripper-3990x-256gb;3-fetch;binutils-native.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;binutils-native.do_fetch;---
+VM-20t-157G;3-fetch;binutils-native.do_fetch;---
 VM-20t-98G;3-fetch;binutils-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;binutils-native.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;binutils-native.do_fetch;---
@@ -170,6 +179,7 @@ threadripper-3970x-64gb;3-fetch;binutils-native.do_fetch;---
 threadripper-3990x-128gb;3-fetch;binutils-native.do_fetch;---
 threadripper-3990x-256gb;3-fetch;binutils-native.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;binutils-native.do_fetch;---
+VM-20t-157G;3-fetch;cairo.do_fetch;---
 VM-20t-98G;3-fetch;cairo.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;cairo.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;cairo.do_fetch;259.83
@@ -189,6 +199,7 @@ threadripper-3970x-64gb;3-fetch;cairo.do_fetch;---
 threadripper-3990x-128gb;3-fetch;cairo.do_fetch;121.73
 threadripper-3990x-256gb;3-fetch;cairo.do_fetch;120.34
 vSphere-VM-28t-55G;3-fetch;cairo.do_fetch;161.78
+VM-20t-157G;3-fetch;cairo-native.do_fetch;---
 VM-20t-98G;3-fetch;cairo-native.do_fetch;83.06
 dual-Xeon-E5-2670-8-channels;3-fetch;cairo-native.do_fetch;122.44
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;cairo-native.do_fetch;327.95
@@ -208,6 +219,7 @@ threadripper-3970x-64gb;3-fetch;cairo-native.do_fetch;---
 threadripper-3990x-128gb;3-fetch;cairo-native.do_fetch;127.30
 threadripper-3990x-256gb;3-fetch;cairo-native.do_fetch;125.55
 vSphere-VM-28t-55G;3-fetch;cairo-native.do_fetch;247.84
+VM-20t-157G;3-fetch;cbindgen-native.do_fetch;160.46
 VM-20t-98G;3-fetch;cbindgen-native.do_fetch;184.12
 dual-Xeon-E5-2670-8-channels;3-fetch;cbindgen-native.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;cbindgen-native.do_fetch;---
@@ -227,6 +239,7 @@ threadripper-3970x-64gb;3-fetch;cbindgen-native.do_fetch;---
 threadripper-3990x-128gb;3-fetch;cbindgen-native.do_fetch;---
 threadripper-3990x-256gb;3-fetch;cbindgen-native.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;cbindgen-native.do_fetch;---
+VM-20t-157G;3-fetch;chromium-x11.do_fetch;52.73
 VM-20t-98G;3-fetch;chromium-x11.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;chromium-x11.do_fetch;193.46
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;chromium-x11.do_fetch;---
@@ -246,6 +259,7 @@ threadripper-3970x-64gb;3-fetch;chromium-x11.do_fetch;---
 threadripper-3990x-128gb;3-fetch;chromium-x11.do_fetch;---
 threadripper-3990x-256gb;3-fetch;chromium-x11.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;chromium-x11.do_fetch;---
+VM-20t-157G;3-fetch;cmake-native.do_fetch;---
 VM-20t-98G;3-fetch;cmake-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;cmake-native.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;cmake-native.do_fetch;---
@@ -265,6 +279,7 @@ threadripper-3970x-64gb;3-fetch;cmake-native.do_fetch;---
 threadripper-3990x-128gb;3-fetch;cmake-native.do_fetch;---
 threadripper-3990x-256gb;3-fetch;cmake-native.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;cmake-native.do_fetch;---
+VM-20t-157G;3-fetch;cross-localedef-native.do_fetch;---
 VM-20t-98G;3-fetch;cross-localedef-native.do_fetch;57.84
 dual-Xeon-E5-2670-8-channels;3-fetch;cross-localedef-native.do_fetch;176.53
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;cross-localedef-native.do_fetch;352.12
@@ -284,6 +299,7 @@ threadripper-3970x-64gb;3-fetch;cross-localedef-native.do_fetch;443.15
 threadripper-3990x-128gb;3-fetch;cross-localedef-native.do_fetch;285.32
 threadripper-3990x-256gb;3-fetch;cross-localedef-native.do_fetch;227.27
 vSphere-VM-28t-55G;3-fetch;cross-localedef-native.do_fetch;174.41
+VM-20t-157G;3-fetch;cross-localedef-native.do_fetch;---
 VM-20t-98G;3-fetch;cross-localedef-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;cross-localedef-native.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;cross-localedef-native.do_fetch;---
@@ -303,6 +319,7 @@ threadripper-3970x-64gb;3-fetch;cross-localedef-native.do_fetch;---
 threadripper-3990x-128gb;3-fetch;cross-localedef-native.do_fetch;---
 threadripper-3990x-256gb;3-fetch;cross-localedef-native.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;cross-localedef-native.do_fetch;---
+VM-20t-157G;3-fetch;cross-localedef-native.do_fetch;---
 VM-20t-98G;3-fetch;cross-localedef-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;cross-localedef-native.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;cross-localedef-native.do_fetch;---
@@ -322,6 +339,7 @@ threadripper-3970x-64gb;3-fetch;cross-localedef-native.do_fetch;---
 threadripper-3990x-128gb;3-fetch;cross-localedef-native.do_fetch;---
 threadripper-3990x-256gb;3-fetch;cross-localedef-native.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;cross-localedef-native.do_fetch;---
+VM-20t-157G;3-fetch;db.do_fetch;---
 VM-20t-98G;3-fetch;db.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;db.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;db.do_fetch;---
@@ -341,6 +359,7 @@ threadripper-3970x-64gb;3-fetch;db.do_fetch;---
 threadripper-3990x-128gb;3-fetch;db.do_fetch;---
 threadripper-3990x-256gb;3-fetch;db.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;db.do_fetch;---
+VM-20t-157G;3-fetch;db-native.do_fetch;---
 VM-20t-98G;3-fetch;db-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;db-native.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;db-native.do_fetch;---
@@ -360,6 +379,7 @@ threadripper-3970x-64gb;3-fetch;db-native.do_fetch;---
 threadripper-3990x-128gb;3-fetch;db-native.do_fetch;---
 threadripper-3990x-256gb;3-fetch;db-native.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;db-native.do_fetch;---
+VM-20t-157G;3-fetch;dnf.do_fetch;---
 VM-20t-98G;3-fetch;dnf.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;dnf.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;dnf.do_fetch;---
@@ -379,6 +399,7 @@ threadripper-3970x-64gb;3-fetch;dnf.do_fetch;---
 threadripper-3990x-128gb;3-fetch;dnf.do_fetch;---
 threadripper-3990x-256gb;3-fetch;dnf.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;dnf.do_fetch;---
+VM-20t-157G;3-fetch;dnf.do_fetch;---
 VM-20t-98G;3-fetch;dnf.do_fetch;53.66
 dual-Xeon-E5-2670-8-channels;3-fetch;dnf.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;dnf.do_fetch;---
@@ -398,6 +419,7 @@ threadripper-3970x-64gb;3-fetch;dnf.do_fetch;---
 threadripper-3990x-128gb;3-fetch;dnf.do_fetch;---
 threadripper-3990x-256gb;3-fetch;dnf.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;dnf.do_fetch;---
+VM-20t-157G;3-fetch;dnf-native.do_fetch;---
 VM-20t-98G;3-fetch;dnf-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;dnf-native.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;dnf-native.do_fetch;---
@@ -417,6 +439,7 @@ threadripper-3970x-64gb;3-fetch;dnf-native.do_fetch;---
 threadripper-3990x-128gb;3-fetch;dnf-native.do_fetch;---
 threadripper-3990x-256gb;3-fetch;dnf-native.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;dnf-native.do_fetch;---
+VM-20t-157G;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
 VM-20t-98G;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
@@ -436,6 +459,7 @@ threadripper-3970x-64gb;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
 threadripper-3990x-128gb;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
 threadripper-3990x-256gb;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
+VM-20t-157G;3-fetch;e2fsprogs.do_fetch;---
 VM-20t-98G;3-fetch;e2fsprogs.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;e2fsprogs.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;e2fsprogs.do_fetch;---
@@ -455,6 +479,7 @@ threadripper-3970x-64gb;3-fetch;e2fsprogs.do_fetch;---
 threadripper-3990x-128gb;3-fetch;e2fsprogs.do_fetch;---
 threadripper-3990x-256gb;3-fetch;e2fsprogs.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;e2fsprogs.do_fetch;---
+VM-20t-157G;3-fetch;e2fsprogs.do_fetch;---
 VM-20t-98G;3-fetch;e2fsprogs.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;e2fsprogs.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;e2fsprogs.do_fetch;---
@@ -474,6 +499,7 @@ threadripper-3970x-64gb;3-fetch;e2fsprogs.do_fetch;---
 threadripper-3990x-128gb;3-fetch;e2fsprogs.do_fetch;---
 threadripper-3990x-256gb;3-fetch;e2fsprogs.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;e2fsprogs.do_fetch;---
+VM-20t-157G;3-fetch;e2fsprogs.do_fetch;---
 VM-20t-98G;3-fetch;e2fsprogs.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;e2fsprogs.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;e2fsprogs.do_fetch;---
@@ -493,6 +519,7 @@ threadripper-3970x-64gb;3-fetch;e2fsprogs.do_fetch;---
 threadripper-3990x-128gb;3-fetch;e2fsprogs.do_fetch;---
 threadripper-3990x-256gb;3-fetch;e2fsprogs.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;e2fsprogs.do_fetch;---
+VM-20t-157G;3-fetch;firefox.do_fetch;---
 VM-20t-98G;3-fetch;firefox.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;firefox.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;firefox.do_fetch;---
@@ -512,6 +539,7 @@ threadripper-3970x-64gb;3-fetch;firefox.do_fetch;258.78
 threadripper-3990x-128gb;3-fetch;firefox.do_fetch;---
 threadripper-3990x-256gb;3-fetch;firefox.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;firefox.do_fetch;---
+VM-20t-157G;3-fetch;gcc-source-10.2.0.do_fetch;---
 VM-20t-98G;3-fetch;gcc-source-10.2.0.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;gcc-source-10.2.0.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;gcc-source-10.2.0.do_fetch;---
@@ -531,6 +559,7 @@ threadripper-3970x-64gb;3-fetch;gcc-source-10.2.0.do_fetch;---
 threadripper-3990x-128gb;3-fetch;gcc-source-10.2.0.do_fetch;---
 threadripper-3990x-256gb;3-fetch;gcc-source-10.2.0.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;gcc-source-10.2.0.do_fetch;---
+VM-20t-157G;3-fetch;gcc-source-9.2.0.do_fetch;---
 VM-20t-98G;3-fetch;gcc-source-9.2.0.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;gcc-source-9.2.0.do_fetch;130.84
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;gcc-source-9.2.0.do_fetch;341.33
@@ -550,6 +579,7 @@ threadripper-3970x-64gb;3-fetch;gcc-source-9.2.0.do_fetch;737.94
 threadripper-3990x-128gb;3-fetch;gcc-source-9.2.0.do_fetch;---
 threadripper-3990x-256gb;3-fetch;gcc-source-9.2.0.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;gcc-source-9.2.0.do_fetch;240.14
+VM-20t-157G;3-fetch;glibc.do_fetch;67.15
 VM-20t-98G;3-fetch;glibc.do_fetch;100.64
 dual-Xeon-E5-2670-8-channels;3-fetch;glibc.do_fetch;192.09
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;glibc.do_fetch;394.94
@@ -569,6 +599,7 @@ threadripper-3970x-64gb;3-fetch;glibc.do_fetch;498.10
 threadripper-3990x-128gb;3-fetch;glibc.do_fetch;287.92
 threadripper-3990x-256gb;3-fetch;glibc.do_fetch;231.08
 vSphere-VM-28t-55G;3-fetch;glibc.do_fetch;251.09
+VM-20t-157G;3-fetch;glibc.do_fetch;---
 VM-20t-98G;3-fetch;glibc.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;glibc.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;glibc.do_fetch;---
@@ -588,6 +619,7 @@ threadripper-3970x-64gb;3-fetch;glibc.do_fetch;---
 threadripper-3990x-128gb;3-fetch;glibc.do_fetch;---
 threadripper-3990x-256gb;3-fetch;glibc.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;glibc.do_fetch;---
+VM-20t-157G;3-fetch;glibc.do_fetch;---
 VM-20t-98G;3-fetch;glibc.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;glibc.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;glibc.do_fetch;---
@@ -607,6 +639,7 @@ threadripper-3970x-64gb;3-fetch;glibc.do_fetch;---
 threadripper-3990x-128gb;3-fetch;glibc.do_fetch;---
 threadripper-3990x-256gb;3-fetch;glibc.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;glibc.do_fetch;---
+VM-20t-157G;3-fetch;gn-native.do_fetch;86.97
 VM-20t-98G;3-fetch;gn-native.do_fetch;61.62
 dual-Xeon-E5-2670-8-channels;3-fetch;gn-native.do_fetch;222.30
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;gn-native.do_fetch;---
@@ -626,6 +659,7 @@ threadripper-3970x-64gb;3-fetch;gn-native.do_fetch;---
 threadripper-3990x-128gb;3-fetch;gn-native.do_fetch;---
 threadripper-3990x-256gb;3-fetch;gn-native.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;gn-native.do_fetch;---
+VM-20t-157G;3-fetch;icu-native.do_fetch;---
 VM-20t-98G;3-fetch;icu-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;icu-native.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;icu-native.do_fetch;---
@@ -645,6 +679,7 @@ threadripper-3970x-64gb;3-fetch;icu-native.do_fetch;---
 threadripper-3990x-128gb;3-fetch;icu-native.do_fetch;---
 threadripper-3990x-256gb;3-fetch;icu-native.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;icu-native.do_fetch;150.60
+VM-20t-157G;3-fetch;iso-codes.do_fetch;---
 VM-20t-98G;3-fetch;iso-codes.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;iso-codes.do_fetch;94.35
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;iso-codes.do_fetch;278.24
@@ -664,6 +699,7 @@ threadripper-3970x-64gb;3-fetch;iso-codes.do_fetch;292.19
 threadripper-3990x-128gb;3-fetch;iso-codes.do_fetch;80.05
 threadripper-3990x-256gb;3-fetch;iso-codes.do_fetch;80.47
 vSphere-VM-28t-55G;3-fetch;iso-codes.do_fetch;168.29
+VM-20t-157G;3-fetch;iso-codes.do_fetch;---
 VM-20t-98G;3-fetch;iso-codes.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;iso-codes.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;iso-codes.do_fetch;---
@@ -683,6 +719,7 @@ threadripper-3970x-64gb;3-fetch;iso-codes.do_fetch;---
 threadripper-3990x-128gb;3-fetch;iso-codes.do_fetch;---
 threadripper-3990x-256gb;3-fetch;iso-codes.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;iso-codes.do_fetch;---
+VM-20t-157G;3-fetch;iso-codes.do_fetch;---
 VM-20t-98G;3-fetch;iso-codes.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;iso-codes.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;iso-codes.do_fetch;---
@@ -702,6 +739,7 @@ threadripper-3970x-64gb;3-fetch;iso-codes.do_fetch;---
 threadripper-3990x-128gb;3-fetch;iso-codes.do_fetch;---
 threadripper-3990x-256gb;3-fetch;iso-codes.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;iso-codes.do_fetch;---
+VM-20t-157G;3-fetch;libgit2-native.do_fetch;---
 VM-20t-98G;3-fetch;libgit2-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;libgit2-native.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;libgit2-native.do_fetch;---
@@ -721,6 +759,7 @@ threadripper-3970x-64gb;3-fetch;libgit2-native.do_fetch;262.05
 threadripper-3990x-128gb;3-fetch;libgit2-native.do_fetch;---
 threadripper-3990x-256gb;3-fetch;libgit2-native.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;libgit2-native.do_fetch;---
+VM-20t-157G;3-fetch;libsolv.do_fetch;---
 VM-20t-98G;3-fetch;libsolv.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;libsolv.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;libsolv.do_fetch;---
@@ -740,6 +779,7 @@ threadripper-3970x-64gb;3-fetch;libsolv.do_fetch;---
 threadripper-3990x-128gb;3-fetch;libsolv.do_fetch;---
 threadripper-3990x-256gb;3-fetch;libsolv.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;libsolv.do_fetch;---
+VM-20t-157G;3-fetch;libtirpc.do_fetch;---
 VM-20t-98G;3-fetch;libtirpc.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;libtirpc.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;libtirpc.do_fetch;---
@@ -759,6 +799,7 @@ threadripper-3970x-64gb;3-fetch;libtirpc.do_fetch;---
 threadripper-3990x-128gb;3-fetch;libtirpc.do_fetch;---
 threadripper-3990x-256gb;3-fetch;libtirpc.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;libtirpc.do_fetch;---
+VM-20t-157G;3-fetch;libtirpc-native.do_fetch;---
 VM-20t-98G;3-fetch;libtirpc-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;libtirpc-native.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;libtirpc-native.do_fetch;---
@@ -778,6 +819,7 @@ threadripper-3970x-64gb;3-fetch;libtirpc-native.do_fetch;---
 threadripper-3990x-128gb;3-fetch;libtirpc-native.do_fetch;---
 threadripper-3990x-256gb;3-fetch;libtirpc-native.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;libtirpc-native.do_fetch;---
+VM-20t-157G;3-fetch;libxml2.do_fetch;44.49
 VM-20t-98G;3-fetch;libxml2.do_fetch;88.81
 dual-Xeon-E5-2670-8-channels;3-fetch;libxml2.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;libxml2.do_fetch;---
@@ -797,6 +839,7 @@ threadripper-3970x-64gb;3-fetch;libxml2.do_fetch;---
 threadripper-3990x-128gb;3-fetch;libxml2.do_fetch;---
 threadripper-3990x-256gb;3-fetch;libxml2.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;libxml2.do_fetch;---
+VM-20t-157G;3-fetch;libxml2-native.do_fetch;---
 VM-20t-98G;3-fetch;libxml2-native.do_fetch;59.77
 dual-Xeon-E5-2670-8-channels;3-fetch;libxml2-native.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;libxml2-native.do_fetch;---
@@ -816,6 +859,7 @@ threadripper-3970x-64gb;3-fetch;libxml2-native.do_fetch;---
 threadripper-3990x-128gb;3-fetch;libxml2-native.do_fetch;---
 threadripper-3990x-256gb;3-fetch;libxml2-native.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;libxml2-native.do_fetch;---
+VM-20t-157G;3-fetch;linux-yocto.do_fetch;2480.81
 VM-20t-98G;3-fetch;linux-yocto.do_fetch;156.37
 dual-Xeon-E5-2670-8-channels;3-fetch;linux-yocto.do_fetch;363.22
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;linux-yocto.do_fetch;643.10
@@ -835,6 +879,7 @@ threadripper-3970x-64gb;3-fetch;linux-yocto.do_fetch;821.63
 threadripper-3990x-128gb;3-fetch;linux-yocto.do_fetch;1423.45
 threadripper-3990x-256gb;3-fetch;linux-yocto.do_fetch;1425.42
 vSphere-VM-28t-55G;3-fetch;linux-yocto.do_fetch;426.74
+VM-20t-157G;3-fetch;linux-yocto.do_fetch;---
 VM-20t-98G;3-fetch;linux-yocto.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;linux-yocto.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;linux-yocto.do_fetch;---
@@ -854,6 +899,7 @@ threadripper-3970x-64gb;3-fetch;linux-yocto.do_fetch;---
 threadripper-3990x-128gb;3-fetch;linux-yocto.do_fetch;---
 threadripper-3990x-256gb;3-fetch;linux-yocto.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;linux-yocto.do_fetch;---
+VM-20t-157G;3-fetch;linux-yocto.do_fetch;---
 VM-20t-98G;3-fetch;linux-yocto.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;linux-yocto.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;linux-yocto.do_fetch;---
@@ -873,6 +919,7 @@ threadripper-3970x-64gb;3-fetch;linux-yocto.do_fetch;---
 threadripper-3990x-128gb;3-fetch;linux-yocto.do_fetch;---
 threadripper-3990x-256gb;3-fetch;linux-yocto.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;linux-yocto.do_fetch;---
+VM-20t-157G;3-fetch;llvm-project-source-10.0.0.do_fetch;---
 VM-20t-98G;3-fetch;llvm-project-source-10.0.0.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;llvm-project-source-10.0.0.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;llvm-project-source-10.0.0.do_fetch;---
@@ -892,6 +939,7 @@ threadripper-3970x-64gb;3-fetch;llvm-project-source-10.0.0.do_fetch;---
 threadripper-3990x-128gb;3-fetch;llvm-project-source-10.0.0.do_fetch;---
 threadripper-3990x-256gb;3-fetch;llvm-project-source-10.0.0.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;llvm-project-source-10.0.0.do_fetch;---
+VM-20t-157G;3-fetch;llvm-project-source-11.0.0.do_fetch;---
 VM-20t-98G;3-fetch;llvm-project-source-11.0.0.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;llvm-project-source-11.0.0.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;llvm-project-source-11.0.0.do_fetch;---
@@ -911,6 +959,7 @@ threadripper-3970x-64gb;3-fetch;llvm-project-source-11.0.0.do_fetch;---
 threadripper-3990x-128gb;3-fetch;llvm-project-source-11.0.0.do_fetch;---
 threadripper-3990x-256gb;3-fetch;llvm-project-source-11.0.0.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;llvm-project-source-11.0.0.do_fetch;---
+VM-20t-157G;3-fetch;llvm-project-source-9.0.1.do_fetch;353.18
 VM-20t-98G;3-fetch;llvm-project-source-9.0.1.do_fetch;428.68
 dual-Xeon-E5-2670-8-channels;3-fetch;llvm-project-source-9.0.1.do_fetch;482.89
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;llvm-project-source-9.0.1.do_fetch;867.16
@@ -930,6 +979,27 @@ threadripper-3970x-64gb;3-fetch;llvm-project-source-9.0.1.do_fetch;907.83
 threadripper-3990x-128gb;3-fetch;llvm-project-source-9.0.1.do_fetch;372.94
 threadripper-3990x-256gb;3-fetch;llvm-project-source-9.0.1.do_fetch;372.79
 vSphere-VM-28t-55G;3-fetch;llvm-project-source-9.0.1.do_fetch;743.57
+VM-20t-157G;3-fetch;puzzles.do_fetch;43.33
+VM-20t-98G;3-fetch;puzzles.do_fetch;---
+dual-Xeon-E5-2670-8-channels;3-fetch;puzzles.do_fetch;---
+dual-Xeon-E5-2698-v3-4-channels;3-fetch;puzzles.do_fetch;---
+dual-Xeon-E5-2698-v4-4-channels-no-journal;3-fetch;puzzles.do_fetch;---
+dual-Xeon-E5-2698-v4-4-channels-tmpfs;3-fetch;puzzles.do_fetch;---
+dual-Xeon-E5-2698-v4-4-channels;3-fetch;puzzles.do_fetch;---
+dual-Xeon-E5-2699-v3-8-channels-tmpfs;3-fetch;puzzles.do_fetch;---
+dual-Xeon-E5-2699-v3-8-channels;3-fetch;puzzles.do_fetch;---
+dual-Xeon-Gold-6258R;3-fetch;puzzles.do_fetch;---
+ryzen-5-1600AF;3-fetch;puzzles.do_fetch;---
+threadripper-2990wx-128gb;3-fetch;puzzles.do_fetch;---
+threadripper-3970x-128gb-dunfell;3-fetch;puzzles.do_fetch;---
+threadripper-3970x-128gb-gatesgarth;3-fetch;puzzles.do_fetch;---
+threadripper-3970x-128gb-optane;3-fetch;puzzles.do_fetch;---
+threadripper-3970x-128gb;3-fetch;puzzles.do_fetch;---
+threadripper-3970x-64gb;3-fetch;puzzles.do_fetch;---
+threadripper-3990x-128gb;3-fetch;puzzles.do_fetch;---
+threadripper-3990x-256gb;3-fetch;puzzles.do_fetch;---
+vSphere-VM-28t-55G;3-fetch;puzzles.do_fetch;---
+VM-20t-157G;3-fetch;qemu-system-native.do_fetch;---
 VM-20t-98G;3-fetch;qemu-system-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;qemu-system-native.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;qemu-system-native.do_fetch;---
@@ -949,6 +1019,7 @@ threadripper-3970x-64gb;3-fetch;qemu-system-native.do_fetch;---
 threadripper-3990x-128gb;3-fetch;qemu-system-native.do_fetch;---
 threadripper-3990x-256gb;3-fetch;qemu-system-native.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;qemu-system-native.do_fetch;---
+VM-20t-157G;3-fetch;qtbase.do_fetch;99.60
 VM-20t-98G;3-fetch;qtbase.do_fetch;271.42
 dual-Xeon-E5-2670-8-channels;3-fetch;qtbase.do_fetch;285.65
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;qtbase.do_fetch;545.09
@@ -968,6 +1039,7 @@ threadripper-3970x-64gb;3-fetch;qtbase.do_fetch;447.30
 threadripper-3990x-128gb;3-fetch;qtbase.do_fetch;175.49
 threadripper-3990x-256gb;3-fetch;qtbase.do_fetch;169.09
 vSphere-VM-28t-55G;3-fetch;qtbase.do_fetch;486.58
+VM-20t-157G;3-fetch;qtbase.do_fetch;---
 VM-20t-98G;3-fetch;qtbase.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;qtbase.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;qtbase.do_fetch;---
@@ -987,6 +1059,7 @@ threadripper-3970x-64gb;3-fetch;qtbase.do_fetch;---
 threadripper-3990x-128gb;3-fetch;qtbase.do_fetch;---
 threadripper-3990x-256gb;3-fetch;qtbase.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;qtbase.do_fetch;---
+VM-20t-157G;3-fetch;qtbase.do_fetch;---
 VM-20t-98G;3-fetch;qtbase.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;qtbase.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;qtbase.do_fetch;---
@@ -1006,6 +1079,7 @@ threadripper-3970x-64gb;3-fetch;qtbase.do_fetch;---
 threadripper-3990x-128gb;3-fetch;qtbase.do_fetch;---
 threadripper-3990x-256gb;3-fetch;qtbase.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;qtbase.do_fetch;---
+VM-20t-157G;3-fetch;qtbase-native.do_fetch;112.02
 VM-20t-98G;3-fetch;qtbase-native.do_fetch;270.41
 dual-Xeon-E5-2670-8-channels;3-fetch;qtbase-native.do_fetch;279.87
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;qtbase-native.do_fetch;554.40
@@ -1025,6 +1099,7 @@ threadripper-3970x-64gb;3-fetch;qtbase-native.do_fetch;434.08
 threadripper-3990x-128gb;3-fetch;qtbase-native.do_fetch;175.63
 threadripper-3990x-256gb;3-fetch;qtbase-native.do_fetch;169.31
 vSphere-VM-28t-55G;3-fetch;qtbase-native.do_fetch;457.09
+VM-20t-157G;3-fetch;qtbase-native.do_fetch;---
 VM-20t-98G;3-fetch;qtbase-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;qtbase-native.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;qtbase-native.do_fetch;---
@@ -1044,6 +1119,7 @@ threadripper-3970x-64gb;3-fetch;qtbase-native.do_fetch;---
 threadripper-3990x-128gb;3-fetch;qtbase-native.do_fetch;---
 threadripper-3990x-256gb;3-fetch;qtbase-native.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;qtbase-native.do_fetch;---
+VM-20t-157G;3-fetch;qtbase-native.do_fetch;---
 VM-20t-98G;3-fetch;qtbase-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;qtbase-native.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;qtbase-native.do_fetch;---
@@ -1063,6 +1139,7 @@ threadripper-3970x-64gb;3-fetch;qtbase-native.do_fetch;---
 threadripper-3990x-128gb;3-fetch;qtbase-native.do_fetch;---
 threadripper-3990x-256gb;3-fetch;qtbase-native.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;qtbase-native.do_fetch;---
+VM-20t-157G;3-fetch;qtdeclarative.do_fetch;---
 VM-20t-98G;3-fetch;qtdeclarative.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;qtdeclarative.do_fetch;152.04
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;qtdeclarative.do_fetch;372.38
@@ -1082,6 +1159,7 @@ threadripper-3970x-64gb;3-fetch;qtdeclarative.do_fetch;263.34
 threadripper-3990x-128gb;3-fetch;qtdeclarative.do_fetch;89.36
 threadripper-3990x-256gb;3-fetch;qtdeclarative.do_fetch;82.28
 vSphere-VM-28t-55G;3-fetch;qtdeclarative.do_fetch;278.12
+VM-20t-157G;3-fetch;qtdeclarative-native.do_fetch;---
 VM-20t-98G;3-fetch;qtdeclarative-native.do_fetch;57.19
 dual-Xeon-E5-2670-8-channels;3-fetch;qtdeclarative-native.do_fetch;190.46
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;qtdeclarative-native.do_fetch;415.96
@@ -1101,6 +1179,7 @@ threadripper-3970x-64gb;3-fetch;qtdeclarative-native.do_fetch;340.55
 threadripper-3990x-128gb;3-fetch;qtdeclarative-native.do_fetch;94.63
 threadripper-3990x-256gb;3-fetch;qtdeclarative-native.do_fetch;87.25
 vSphere-VM-28t-55G;3-fetch;qtdeclarative-native.do_fetch;342.76
+VM-20t-157G;3-fetch;qtlocation.do_fetch;99.68
 VM-20t-98G;3-fetch;qtlocation.do_fetch;337.86
 dual-Xeon-E5-2670-8-channels;3-fetch;qtlocation.do_fetch;230.90
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;qtlocation.do_fetch;596.41
@@ -1120,6 +1199,7 @@ threadripper-3970x-64gb;3-fetch;qtlocation.do_fetch;472.70
 threadripper-3990x-128gb;3-fetch;qtlocation.do_fetch;258.76
 threadripper-3990x-256gb;3-fetch;qtlocation.do_fetch;195.57
 vSphere-VM-28t-55G;3-fetch;qtlocation.do_fetch;462.43
+VM-20t-157G;3-fetch;qtlocation.do_fetch;---
 VM-20t-98G;3-fetch;qtlocation.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;qtlocation.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;qtlocation.do_fetch;---
@@ -1139,6 +1219,7 @@ threadripper-3970x-64gb;3-fetch;qtlocation.do_fetch;---
 threadripper-3990x-128gb;3-fetch;qtlocation.do_fetch;---
 threadripper-3990x-256gb;3-fetch;qtlocation.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;qtlocation.do_fetch;---
+VM-20t-157G;3-fetch;qtlocation.do_fetch;---
 VM-20t-98G;3-fetch;qtlocation.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;qtlocation.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;qtlocation.do_fetch;---
@@ -1158,6 +1239,7 @@ threadripper-3970x-64gb;3-fetch;qtlocation.do_fetch;---
 threadripper-3990x-128gb;3-fetch;qtlocation.do_fetch;---
 threadripper-3990x-256gb;3-fetch;qtlocation.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;qtlocation.do_fetch;---
+VM-20t-157G;3-fetch;qtmultimedia.do_fetch;---
 VM-20t-98G;3-fetch;qtmultimedia.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;qtmultimedia.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;qtmultimedia.do_fetch;---
@@ -1177,6 +1259,7 @@ threadripper-3970x-64gb;3-fetch;qtmultimedia.do_fetch;---
 threadripper-3990x-128gb;3-fetch;qtmultimedia.do_fetch;---
 threadripper-3990x-256gb;3-fetch;qtmultimedia.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;qtmultimedia.do_fetch;---
+VM-20t-157G;3-fetch;qtquickcontrols2.do_fetch;---
 VM-20t-98G;3-fetch;qtquickcontrols2.do_fetch;270.56
 dual-Xeon-E5-2670-8-channels;3-fetch;qtquickcontrols2.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;qtquickcontrols2.do_fetch;---
@@ -1196,6 +1279,7 @@ threadripper-3970x-64gb;3-fetch;qtquickcontrols2.do_fetch;---
 threadripper-3990x-128gb;3-fetch;qtquickcontrols2.do_fetch;---
 threadripper-3990x-256gb;3-fetch;qtquickcontrols2.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;qtquickcontrols2.do_fetch;---
+VM-20t-157G;3-fetch;qtwebengine.do_fetch;326.20
 VM-20t-98G;3-fetch;qtwebengine.do_fetch;513.42
 dual-Xeon-E5-2670-8-channels;3-fetch;qtwebengine.do_fetch;431.80
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;qtwebengine.do_fetch;806.75
@@ -1215,6 +1299,7 @@ threadripper-3970x-64gb;3-fetch;qtwebengine.do_fetch;864.10
 threadripper-3990x-128gb;3-fetch;qtwebengine.do_fetch;1009.19
 threadripper-3990x-256gb;3-fetch;qtwebengine.do_fetch;988.77
 vSphere-VM-28t-55G;3-fetch;qtwebengine.do_fetch;626.39
+VM-20t-157G;3-fetch;qtwebengine.do_fetch;---
 VM-20t-98G;3-fetch;qtwebengine.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;qtwebengine.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;qtwebengine.do_fetch;---
@@ -1234,6 +1319,7 @@ threadripper-3970x-64gb;3-fetch;qtwebengine.do_fetch;---
 threadripper-3990x-128gb;3-fetch;qtwebengine.do_fetch;---
 threadripper-3990x-256gb;3-fetch;qtwebengine.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;qtwebengine.do_fetch;---
+VM-20t-157G;3-fetch;qtwebengine.do_fetch;---
 VM-20t-98G;3-fetch;qtwebengine.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;qtwebengine.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;qtwebengine.do_fetch;---
@@ -1253,6 +1339,7 @@ threadripper-3970x-64gb;3-fetch;qtwebengine.do_fetch;---
 threadripper-3990x-128gb;3-fetch;qtwebengine.do_fetch;---
 threadripper-3990x-256gb;3-fetch;qtwebengine.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;qtwebengine.do_fetch;---
+VM-20t-157G;3-fetch;qtwebkit.do_fetch;60.68
 VM-20t-98G;3-fetch;qtwebkit.do_fetch;242.74
 dual-Xeon-E5-2670-8-channels;3-fetch;qtwebkit.do_fetch;155.68
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;qtwebkit.do_fetch;456.26
@@ -1272,6 +1359,7 @@ threadripper-3970x-64gb;3-fetch;qtwebkit.do_fetch;266.82
 threadripper-3990x-128gb;3-fetch;qtwebkit.do_fetch;147.02
 threadripper-3990x-256gb;3-fetch;qtwebkit.do_fetch;103.77
 vSphere-VM-28t-55G;3-fetch;qtwebkit.do_fetch;274.93
+VM-20t-157G;3-fetch;rpm.do_fetch;167.12
 VM-20t-98G;3-fetch;rpm.do_fetch;72.92
 dual-Xeon-E5-2670-8-channels;3-fetch;rpm.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;rpm.do_fetch;---
@@ -1291,6 +1379,7 @@ threadripper-3970x-64gb;3-fetch;rpm.do_fetch;---
 threadripper-3990x-128gb;3-fetch;rpm.do_fetch;107.15
 threadripper-3990x-256gb;3-fetch;rpm.do_fetch;89.95
 vSphere-VM-28t-55G;3-fetch;rpm.do_fetch;---
+VM-20t-157G;3-fetch;rpm.do_fetch;---
 VM-20t-98G;3-fetch;rpm.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;rpm.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;rpm.do_fetch;---
@@ -1310,6 +1399,7 @@ threadripper-3970x-64gb;3-fetch;rpm.do_fetch;---
 threadripper-3990x-128gb;3-fetch;rpm.do_fetch;---
 threadripper-3990x-256gb;3-fetch;rpm.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;rpm.do_fetch;---
+VM-20t-157G;3-fetch;rpm-native.do_fetch;140.89
 VM-20t-98G;3-fetch;rpm-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;rpm-native.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;rpm-native.do_fetch;---
@@ -1329,6 +1419,7 @@ threadripper-3970x-64gb;3-fetch;rpm-native.do_fetch;---
 threadripper-3990x-128gb;3-fetch;rpm-native.do_fetch;105.64
 threadripper-3990x-256gb;3-fetch;rpm-native.do_fetch;87.83
 vSphere-VM-28t-55G;3-fetch;rpm-native.do_fetch;---
+VM-20t-157G;3-fetch;rpm-native.do_fetch;---
 VM-20t-98G;3-fetch;rpm-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;rpm-native.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;rpm-native.do_fetch;---
@@ -1348,6 +1439,7 @@ threadripper-3970x-64gb;3-fetch;rpm-native.do_fetch;---
 threadripper-3990x-128gb;3-fetch;rpm-native.do_fetch;---
 threadripper-3990x-256gb;3-fetch;rpm-native.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;rpm-native.do_fetch;---
+VM-20t-157G;3-fetch;rust-native.do_fetch;---
 VM-20t-98G;3-fetch;rust-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;rust-native.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;rust-native.do_fetch;272.23
@@ -1367,6 +1459,27 @@ threadripper-3970x-64gb;3-fetch;rust-native.do_fetch;---
 threadripper-3990x-128gb;3-fetch;rust-native.do_fetch;---
 threadripper-3990x-256gb;3-fetch;rust-native.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;rust-native.do_fetch;---
+VM-20t-157G;3-fetch;vulkan-loader.do_fetch;57.66
+VM-20t-98G;3-fetch;vulkan-loader.do_fetch;---
+dual-Xeon-E5-2670-8-channels;3-fetch;vulkan-loader.do_fetch;---
+dual-Xeon-E5-2698-v3-4-channels;3-fetch;vulkan-loader.do_fetch;---
+dual-Xeon-E5-2698-v4-4-channels-no-journal;3-fetch;vulkan-loader.do_fetch;---
+dual-Xeon-E5-2698-v4-4-channels-tmpfs;3-fetch;vulkan-loader.do_fetch;---
+dual-Xeon-E5-2698-v4-4-channels;3-fetch;vulkan-loader.do_fetch;---
+dual-Xeon-E5-2699-v3-8-channels-tmpfs;3-fetch;vulkan-loader.do_fetch;---
+dual-Xeon-E5-2699-v3-8-channels;3-fetch;vulkan-loader.do_fetch;---
+dual-Xeon-Gold-6258R;3-fetch;vulkan-loader.do_fetch;---
+ryzen-5-1600AF;3-fetch;vulkan-loader.do_fetch;---
+threadripper-2990wx-128gb;3-fetch;vulkan-loader.do_fetch;---
+threadripper-3970x-128gb-dunfell;3-fetch;vulkan-loader.do_fetch;---
+threadripper-3970x-128gb-gatesgarth;3-fetch;vulkan-loader.do_fetch;---
+threadripper-3970x-128gb-optane;3-fetch;vulkan-loader.do_fetch;---
+threadripper-3970x-128gb;3-fetch;vulkan-loader.do_fetch;---
+threadripper-3970x-64gb;3-fetch;vulkan-loader.do_fetch;---
+threadripper-3990x-128gb;3-fetch;vulkan-loader.do_fetch;---
+threadripper-3990x-256gb;3-fetch;vulkan-loader.do_fetch;---
+vSphere-VM-28t-55G;3-fetch;vulkan-loader.do_fetch;---
+VM-20t-157G;3-fetch;vulkan-loader.do_fetch;---
 VM-20t-98G;3-fetch;vulkan-loader.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;vulkan-loader.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;vulkan-loader.do_fetch;---
@@ -1386,6 +1499,7 @@ threadripper-3970x-64gb;3-fetch;vulkan-loader.do_fetch;---
 threadripper-3990x-128gb;3-fetch;vulkan-loader.do_fetch;---
 threadripper-3990x-256gb;3-fetch;vulkan-loader.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;vulkan-loader.do_fetch;---
+VM-20t-157G;3-fetch;vulkan-loader.do_fetch;---
 VM-20t-98G;3-fetch;vulkan-loader.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;vulkan-loader.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;vulkan-loader.do_fetch;---
@@ -1405,6 +1519,7 @@ threadripper-3970x-64gb;3-fetch;vulkan-loader.do_fetch;---
 threadripper-3990x-128gb;3-fetch;vulkan-loader.do_fetch;---
 threadripper-3990x-256gb;3-fetch;vulkan-loader.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;vulkan-loader.do_fetch;---
+VM-20t-157G;3-fetch;webkitgtk.do_fetch;---
 VM-20t-98G;3-fetch;webkitgtk.do_fetch;---
 dual-Xeon-E5-2670-8-channels;3-fetch;webkitgtk.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;webkitgtk.do_fetch;---
@@ -1424,6 +1539,7 @@ threadripper-3970x-64gb;3-fetch;webkitgtk.do_fetch;385.94
 threadripper-3990x-128gb;3-fetch;webkitgtk.do_fetch;---
 threadripper-3990x-256gb;3-fetch;webkitgtk.do_fetch;---
 vSphere-VM-28t-55G;3-fetch;webkitgtk.do_fetch;---
+VM-20t-157G;3-fetch;Total;2666.28
 VM-20t-98G;3-fetch;Total;705.61
 dual-Xeon-E5-2670-8-channels;3-fetch;Total;514.62
 dual-Xeon-E5-2698-v3-4-channels;3-fetch;Total;944.40
