@@ -21,7 +21,7 @@
 
 cd poky
 . ./oe-init-build-env
-cat >> conf/local.conf << EOF
+cat > conf/auto.conf << EOF
 BB_NUMBER_THREADS = "\${@oe.utils.cpu_count()}"
 PARALLEL_MAKE = "-j \${@oe.utils.cpu_count()}"
 EOF
