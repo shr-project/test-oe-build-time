@@ -1,0 +1,36 @@
+SYS:	PC
+CPU:	AMD Ryzen 9 5950X 16-Core Processor (with SMT, 32 threads)
+MB:	ROG STRIX X570-F GAMING
+RAM:	32GB (2x16GB Corsair VENGEANCE LPX DDR4 @ 3200MHz)
+DISK:	Samsung SSD 970 EVO 1TB (nvme)
+FS:	ext4 (rw,relatime)
+OS:	Ubuntu 20.04
+
+
+==> 1-init.log <==
+  /mnt/tmp/test-oe-build-time/poky/meta-openembedded/meta-oe \
+  /mnt/tmp/test-oe-build-time/poky/meta-rust \
+  /mnt/tmp/test-oe-build-time/poky/meta-browser \
+0.11user 0.02system 0:00.13elapsed 103%CPU (0avgtext+0avgdata 41672maxresident)k
+0inputs+4032outputs (0major+11464minor)pagefaults 0swaps
+
+==> 2-build-test.log <==
+NOTE: Tasks Summary: Attempted 42 tasks of which 0 didn't need to be rerun and all succeeded.
+
+Summary: There were 2 WARNING messages shown.
+0.21user 0.03system 0:27.48elapsed 0%CPU (0avgtext+0avgdata 28912maxresident)k
+0inputs+168outputs (0major+13723minor)pagefaults 0swaps
+
+==> 3-fetch.log <==
+NOTE: Tasks Summary: Attempted 530 tasks of which 0 didn't need to be rerun and all succeeded.
+
+Summary: There were 2 WARNING messages shown.
+0.50user 0.08system 0:19.17elapsed 3%CPU (0avgtext+0avgdata 30772maxresident)k
+0inputs+416outputs (0major+14319minor)pagefaults 0swaps
+
+==> 4-build-all-cores.log <==
+NOTE: Tasks Summary: Attempted 7999 tasks of which 1 didn't need to be rerun and all succeeded.
+
+Summary: There were 2 WARNING messages shown.
+34.86user 5.30system 3:17:45elapsed 0%CPU (0avgtext+0avgdata 43400maxresident)k
+247256inputs+6168outputs (19935major+66878minor)pagefaults 0swaps
