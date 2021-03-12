@@ -33,22 +33,22 @@ git checkout -b gatesgarth 27d2aebdb4d78a608798a4f617d9bcfcbe4a635b
 cd ..
 
 . ./oe-init-build-env
-if ! grep meta-qt5 conf/bblayers.conf ; then
+if ! grep -q meta-qt5 conf/bblayers.conf ; then
   sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-qt5/g' conf/bblayers.conf
 fi
-if ! grep meta-clang conf/bblayers.conf ; then
+if ! grep -q meta-clang conf/bblayers.conf ; then
   sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-clang/g' conf/bblayers.conf
 fi
-if ! grep meta-oe conf/bblayers.conf ; then
+if ! grep -q meta-oe conf/bblayers.conf ; then
   sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-openembedded\/meta-oe/g' conf/bblayers.conf
 fi
-if ! grep meta-rust conf/bblayers.conf ; then
+if ! grep -q meta-rust conf/bblayers.conf ; then
   sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-rust/g' conf/bblayers.conf
 fi
-if ! grep meta-browser conf/bblayers.conf ; then
+if ! grep -q meta-browser conf/bblayers.conf ; then
   sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-browser/g' conf/bblayers.conf
 fi
-if ! grep meta-python2 conf/bblayers.conf ; then
+if ! grep -q meta-python2 conf/bblayers.conf ; then
   sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-python2/g' conf/bblayers.conf
 fi
 
