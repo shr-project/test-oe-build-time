@@ -6,30 +6,32 @@
 
 git clone git://git.yoctoproject.org/poky
 cd poky
-git checkout -b gatesgarth 4e4a302e37ac06543e9983773cdb4caf7728330d
+git checkout -b hardknott ffc36f351f47e59beff8240e56cdc8648188ef19
 git clone https://github.com/meta-qt5/meta-qt5.git
 cd meta-qt5
-git checkout -b gatesgarth 8d5672cc6ca327576a814d35dfb5d59ab24043cb
+git checkout -b hardknott 324843cb1a2feb5f5c7b0064ca33edaa605cb749
 cd ..
-git clone https://github.com/OSSystems/meta-browser.git
+# temporarily use my fork with fix for newer meta-rust and split for meta-firefox and meta-chromium
+# git clone https://github.com/OSSystems/meta-browser.git
+git clone https://github.com/shr-project/meta-browser.git
 cd meta-browser
-git checkout -b gatesgarth 5e07a7897945dd91d75169975178005d9d9aa200
+git checkout -b hardknott 4e17167735f3ad7119548872108c4bafa3d38f07
 cd ..
 git clone https://github.com/openembedded/meta-openembedded.git
 cd meta-openembedded
-git checkout -b gatesgarth 1a53121ff54732648a4ee1e96643106d4d36c524
+git checkout -b hardknott 589aa162cead42acdd7e8dbd7c0243b95e341f19
 cd ..
 git clone https://github.com/kraj/meta-clang.git
 cd meta-clang
-git checkout -b gatesgarth 6b224af8d109c5b5be23444423fc98246c94c055
+git checkout -b hardknott 3fbc916a7987f15f874f40f9e5b531eb72bffc7a
 cd ..
 git clone https://github.com/meta-rust/meta-rust.git
 cd meta-rust
-git checkout -b gatesgarth 53bfa324891966a2daf5d36dc13d4a43725aebed
+git checkout -b hardknott 9a035fe27262bb23676da9f9f583e3ee39b0a377
 cd ..
 git clone git://git.openembedded.org/meta-python2
 cd meta-python2
-git checkout -b gatesgarth 27d2aebdb4d78a608798a4f617d9bcfcbe4a635b
+git checkout -b hardknott 044015255944fd8db139caec8981f2957f8e2604
 cd ..
 
 . ./oe-init-build-env
@@ -46,22 +48,12 @@ if ! grep -q meta-rust conf/bblayers.conf ; then
   sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-rust/g' conf/bblayers.conf
 fi
 if ! grep -q meta-browser conf/bblayers.conf ; then
-  sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-browser/g' conf/bblayers.conf
+  sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-browser\/meta-firefox/g' conf/bblayers.conf
+  sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-browser\/meta-chromium/g' conf/bblayers.conf
 fi
-if ! grep meta-python2 conf/bblayers.conf ; then
+if ! grep -q meta-python2 conf/bblayers.conf ; then
   sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-python2/g' conf/bblayers.conf
 fi
-
-# Needed to build firefox
-echo 'HOSTTOOLS += "python python2.7"' >> conf/bblayers.conf
-cat >> conf/local.conf << EOF
-RUST_VERSION = "1.46.0"
-PREFERRED_VERSION_rust-native ?= "\${RUST_VERSION}"
-PREFERRED_VERSION_rust-cross-\${TARGET_ARCH} ?= "\${RUST_VERSION}"
-PREFERRED_VERSION_rust-llvm-native ?= "\${RUST_VERSION}"
-PREFERRED_VERSION_libstd-rs ?= "\${RUST_VERSION}"
-PREFERRED_VERSION_cargo-native ?= "\${RUST_VERSION}"
-EOF
 
 cat >> conf/local.conf << EOF
 IMAGE_INSTALL_append_pn-core-image-sato = " qtwebengine qtwebkit chromium-x11 firefox epiphany"
