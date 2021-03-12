@@ -1,6 +1,8 @@
 builder;step;task;time
 VM-20t-157G;2-build-test;gnu-config-native.do_fetch;5.01
 VM-20t-98G;2-build-test;gnu-config-native.do_fetch;1.65
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;gnu-config-native.do_fetch;---
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;gnu-config-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels;2-build-test;gnu-config-native.do_fetch;0.42
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;gnu-config-native.do_fetch;0.45
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;gnu-config-native.do_fetch;0.43
@@ -10,6 +12,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;gnu-config-native.do_fetch;1.
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;gnu-config-native.do_fetch;0.49
 dual-Xeon-Gold-6258R;2-build-test;gnu-config-native.do_fetch;1.50
 ryzen-5-1600AF;2-build-test;gnu-config-native.do_fetch;1.42
+ryzen-9-5950x;2-build-test;gnu-config-native.do_fetch;---
 threadripper-2990wx-128gb;2-build-test;gnu-config-native.do_fetch;1.23
 threadripper-3970x-128gb-dunfell;2-build-test;gnu-config-native.do_fetch;---
 threadripper-3970x-128gb-gatesgarth;2-build-test;gnu-config-native.do_fetch;---
@@ -21,6 +24,8 @@ threadripper-3990x-256gb;2-build-test;gnu-config-native.do_fetch;0.65
 vSphere-VM-28t-55G;2-build-test;gnu-config-native.do_fetch;0.69
 VM-20t-157G;2-build-test;gnu-config-native.do_install;0.22
 VM-20t-98G;2-build-test;gnu-config-native.do_install;---
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;gnu-config-native.do_install;---
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;gnu-config-native.do_install;---
 dual-Xeon-E5-2670-8-channels;2-build-test;gnu-config-native.do_install;---
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;gnu-config-native.do_install;---
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;gnu-config-native.do_install;---
@@ -30,6 +35,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;gnu-config-native.do_install;
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;gnu-config-native.do_install;---
 dual-Xeon-Gold-6258R;2-build-test;gnu-config-native.do_install;---
 ryzen-5-1600AF;2-build-test;gnu-config-native.do_install;---
+ryzen-9-5950x;2-build-test;gnu-config-native.do_install;---
 threadripper-2990wx-128gb;2-build-test;gnu-config-native.do_install;---
 threadripper-3970x-128gb-dunfell;2-build-test;gnu-config-native.do_install;---
 threadripper-3970x-128gb-gatesgarth;2-build-test;gnu-config-native.do_install;---
@@ -41,6 +47,8 @@ threadripper-3990x-256gb;2-build-test;gnu-config-native.do_install;---
 vSphere-VM-28t-55G;2-build-test;gnu-config-native.do_install;---
 VM-20t-157G;2-build-test;gnu-config-native.do_populate_lic;---
 VM-20t-98G;2-build-test;gnu-config-native.do_populate_lic;0.97
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;gnu-config-native.do_populate_lic;0.19
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;gnu-config-native.do_populate_lic;0.16
 dual-Xeon-E5-2670-8-channels;2-build-test;gnu-config-native.do_populate_lic;---
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;gnu-config-native.do_populate_lic;0.19
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;gnu-config-native.do_populate_lic;0.23
@@ -50,6 +58,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;gnu-config-native.do_populate
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;gnu-config-native.do_populate_lic;0.15
 dual-Xeon-Gold-6258R;2-build-test;gnu-config-native.do_populate_lic;0.07
 ryzen-5-1600AF;2-build-test;gnu-config-native.do_populate_lic;0.13
+ryzen-9-5950x;2-build-test;gnu-config-native.do_populate_lic;0.08
 threadripper-2990wx-128gb;2-build-test;gnu-config-native.do_populate_lic;0.11
 threadripper-3970x-128gb-dunfell;2-build-test;gnu-config-native.do_populate_lic;---
 threadripper-3970x-128gb-gatesgarth;2-build-test;gnu-config-native.do_populate_lic;---
@@ -61,6 +70,8 @@ threadripper-3990x-256gb;2-build-test;gnu-config-native.do_populate_lic;0.09
 vSphere-VM-28t-55G;2-build-test;gnu-config-native.do_populate_lic;0.27
 VM-20t-157G;2-build-test;gnu-config-native.do_populate_sysroot;0.47
 VM-20t-98G;2-build-test;gnu-config-native.do_populate_sysroot;1.76
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;gnu-config-native.do_populate_sysroot;0.35
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;gnu-config-native.do_populate_sysroot;0.32
 dual-Xeon-E5-2670-8-channels;2-build-test;gnu-config-native.do_populate_sysroot;0.37
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;gnu-config-native.do_populate_sysroot;0.36
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;gnu-config-native.do_populate_sysroot;0.42
@@ -70,6 +81,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;gnu-config-native.do_populate
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;gnu-config-native.do_populate_sysroot;0.30
 dual-Xeon-Gold-6258R;2-build-test;gnu-config-native.do_populate_sysroot;0.13
 ryzen-5-1600AF;2-build-test;gnu-config-native.do_populate_sysroot;0.25
+ryzen-9-5950x;2-build-test;gnu-config-native.do_populate_sysroot;0.14
 threadripper-2990wx-128gb;2-build-test;gnu-config-native.do_populate_sysroot;0.22
 threadripper-3970x-128gb-dunfell;2-build-test;gnu-config-native.do_populate_sysroot;---
 threadripper-3970x-128gb-gatesgarth;2-build-test;gnu-config-native.do_populate_sysroot;---
@@ -81,6 +93,8 @@ threadripper-3990x-256gb;2-build-test;gnu-config-native.do_populate_sysroot;0.19
 vSphere-VM-28t-55G;2-build-test;gnu-config-native.do_populate_sysroot;0.58
 VM-20t-157G;2-build-test;gnu-config-native.do_rm_work;---
 VM-20t-98G;2-build-test;gnu-config-native.do_rm_work;---
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;gnu-config-native.do_rm_work;---
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;gnu-config-native.do_rm_work;0.16
 dual-Xeon-E5-2670-8-channels;2-build-test;gnu-config-native.do_rm_work;0.16
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;gnu-config-native.do_rm_work;---
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;gnu-config-native.do_rm_work;---
@@ -90,6 +104,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;gnu-config-native.do_rm_work;
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;gnu-config-native.do_rm_work;---
 dual-Xeon-Gold-6258R;2-build-test;gnu-config-native.do_rm_work;---
 ryzen-5-1600AF;2-build-test;gnu-config-native.do_rm_work;---
+ryzen-9-5950x;2-build-test;gnu-config-native.do_rm_work;---
 threadripper-2990wx-128gb;2-build-test;gnu-config-native.do_rm_work;---
 threadripper-3970x-128gb-dunfell;2-build-test;gnu-config-native.do_rm_work;---
 threadripper-3970x-128gb-gatesgarth;2-build-test;gnu-config-native.do_rm_work;---
@@ -101,6 +116,8 @@ threadripper-3990x-256gb;2-build-test;gnu-config-native.do_rm_work;---
 vSphere-VM-28t-55G;2-build-test;gnu-config-native.do_rm_work;---
 VM-20t-157G;2-build-test;gnu-config-native.do_unpack;---
 VM-20t-98G;2-build-test;gnu-config-native.do_unpack;1.30
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;gnu-config-native.do_unpack;---
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;gnu-config-native.do_unpack;---
 dual-Xeon-E5-2670-8-channels;2-build-test;gnu-config-native.do_unpack;0.19
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;gnu-config-native.do_unpack;---
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;gnu-config-native.do_unpack;---
@@ -110,6 +127,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;gnu-config-native.do_unpack;0
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;gnu-config-native.do_unpack;---
 dual-Xeon-Gold-6258R;2-build-test;gnu-config-native.do_unpack;---
 ryzen-5-1600AF;2-build-test;gnu-config-native.do_unpack;---
+ryzen-9-5950x;2-build-test;gnu-config-native.do_unpack;---
 threadripper-2990wx-128gb;2-build-test;gnu-config-native.do_unpack;---
 threadripper-3970x-128gb-dunfell;2-build-test;gnu-config-native.do_unpack;---
 threadripper-3970x-128gb-gatesgarth;2-build-test;gnu-config-native.do_unpack;---
@@ -121,6 +139,8 @@ threadripper-3990x-256gb;2-build-test;gnu-config-native.do_unpack;---
 vSphere-VM-28t-55G;2-build-test;gnu-config-native.do_unpack;---
 VM-20t-157G;2-build-test;gnu-config-native.do_fetch;---
 VM-20t-98G;2-build-test;gnu-config-native.do_fetch;---
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;gnu-config-native.do_fetch;---
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;gnu-config-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels;2-build-test;gnu-config-native.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;gnu-config-native.do_fetch;---
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;gnu-config-native.do_fetch;---
@@ -130,6 +150,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;gnu-config-native.do_fetch;--
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;gnu-config-native.do_fetch;---
 dual-Xeon-Gold-6258R;2-build-test;gnu-config-native.do_fetch;---
 ryzen-5-1600AF;2-build-test;gnu-config-native.do_fetch;---
+ryzen-9-5950x;2-build-test;gnu-config-native.do_fetch;---
 threadripper-2990wx-128gb;2-build-test;gnu-config-native.do_fetch;---
 threadripper-3970x-128gb-dunfell;2-build-test;gnu-config-native.do_fetch;2.13
 threadripper-3970x-128gb-gatesgarth;2-build-test;gnu-config-native.do_fetch;---
@@ -141,6 +162,8 @@ threadripper-3990x-256gb;2-build-test;gnu-config-native.do_fetch;---
 vSphere-VM-28t-55G;2-build-test;gnu-config-native.do_fetch;---
 VM-20t-157G;2-build-test;gnu-config-native.do_populate_sysroot;---
 VM-20t-98G;2-build-test;gnu-config-native.do_populate_sysroot;---
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;gnu-config-native.do_populate_sysroot;---
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;gnu-config-native.do_populate_sysroot;---
 dual-Xeon-E5-2670-8-channels;2-build-test;gnu-config-native.do_populate_sysroot;---
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;gnu-config-native.do_populate_sysroot;---
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;gnu-config-native.do_populate_sysroot;---
@@ -150,6 +173,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;gnu-config-native.do_populate
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;gnu-config-native.do_populate_sysroot;---
 dual-Xeon-Gold-6258R;2-build-test;gnu-config-native.do_populate_sysroot;---
 ryzen-5-1600AF;2-build-test;gnu-config-native.do_populate_sysroot;---
+ryzen-9-5950x;2-build-test;gnu-config-native.do_populate_sysroot;---
 threadripper-2990wx-128gb;2-build-test;gnu-config-native.do_populate_sysroot;---
 threadripper-3970x-128gb-dunfell;2-build-test;gnu-config-native.do_populate_sysroot;0.18
 threadripper-3970x-128gb-gatesgarth;2-build-test;gnu-config-native.do_populate_sysroot;---
@@ -161,6 +185,8 @@ threadripper-3990x-256gb;2-build-test;gnu-config-native.do_populate_sysroot;---
 vSphere-VM-28t-55G;2-build-test;gnu-config-native.do_populate_sysroot;---
 VM-20t-157G;2-build-test;gnu-config-native.do_fetch;---
 VM-20t-98G;2-build-test;gnu-config-native.do_fetch;---
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;gnu-config-native.do_fetch;---
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;gnu-config-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels;2-build-test;gnu-config-native.do_fetch;---
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;gnu-config-native.do_fetch;---
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;gnu-config-native.do_fetch;---
@@ -170,6 +196,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;gnu-config-native.do_fetch;--
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;gnu-config-native.do_fetch;---
 dual-Xeon-Gold-6258R;2-build-test;gnu-config-native.do_fetch;---
 ryzen-5-1600AF;2-build-test;gnu-config-native.do_fetch;---
+ryzen-9-5950x;2-build-test;gnu-config-native.do_fetch;---
 threadripper-2990wx-128gb;2-build-test;gnu-config-native.do_fetch;---
 threadripper-3970x-128gb-dunfell;2-build-test;gnu-config-native.do_fetch;---
 threadripper-3970x-128gb-gatesgarth;2-build-test;gnu-config-native.do_fetch;1.83
@@ -181,6 +208,8 @@ threadripper-3990x-256gb;2-build-test;gnu-config-native.do_fetch;---
 vSphere-VM-28t-55G;2-build-test;gnu-config-native.do_fetch;---
 VM-20t-157G;2-build-test;gnu-config-native.do_populate_lic;---
 VM-20t-98G;2-build-test;gnu-config-native.do_populate_lic;---
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;gnu-config-native.do_populate_lic;---
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;gnu-config-native.do_populate_lic;---
 dual-Xeon-E5-2670-8-channels;2-build-test;gnu-config-native.do_populate_lic;---
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;gnu-config-native.do_populate_lic;---
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;gnu-config-native.do_populate_lic;---
@@ -190,6 +219,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;gnu-config-native.do_populate
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;gnu-config-native.do_populate_lic;---
 dual-Xeon-Gold-6258R;2-build-test;gnu-config-native.do_populate_lic;---
 ryzen-5-1600AF;2-build-test;gnu-config-native.do_populate_lic;---
+ryzen-9-5950x;2-build-test;gnu-config-native.do_populate_lic;---
 threadripper-2990wx-128gb;2-build-test;gnu-config-native.do_populate_lic;---
 threadripper-3970x-128gb-dunfell;2-build-test;gnu-config-native.do_populate_lic;---
 threadripper-3970x-128gb-gatesgarth;2-build-test;gnu-config-native.do_populate_lic;0.10
@@ -201,6 +231,8 @@ threadripper-3990x-256gb;2-build-test;gnu-config-native.do_populate_lic;---
 vSphere-VM-28t-55G;2-build-test;gnu-config-native.do_populate_lic;---
 VM-20t-157G;2-build-test;gnu-config-native.do_populate_sysroot;---
 VM-20t-98G;2-build-test;gnu-config-native.do_populate_sysroot;---
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;gnu-config-native.do_populate_sysroot;---
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;gnu-config-native.do_populate_sysroot;---
 dual-Xeon-E5-2670-8-channels;2-build-test;gnu-config-native.do_populate_sysroot;---
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;gnu-config-native.do_populate_sysroot;---
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;gnu-config-native.do_populate_sysroot;---
@@ -210,6 +242,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;gnu-config-native.do_populate
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;gnu-config-native.do_populate_sysroot;---
 dual-Xeon-Gold-6258R;2-build-test;gnu-config-native.do_populate_sysroot;---
 ryzen-5-1600AF;2-build-test;gnu-config-native.do_populate_sysroot;---
+ryzen-9-5950x;2-build-test;gnu-config-native.do_populate_sysroot;---
 threadripper-2990wx-128gb;2-build-test;gnu-config-native.do_populate_sysroot;---
 threadripper-3970x-128gb-dunfell;2-build-test;gnu-config-native.do_populate_sysroot;---
 threadripper-3970x-128gb-gatesgarth;2-build-test;gnu-config-native.do_populate_sysroot;0.17
@@ -221,6 +254,8 @@ threadripper-3990x-256gb;2-build-test;gnu-config-native.do_populate_sysroot;---
 vSphere-VM-28t-55G;2-build-test;gnu-config-native.do_populate_sysroot;---
 VM-20t-157G;2-build-test;m4-native.do_compile;2.56
 VM-20t-98G;2-build-test;m4-native.do_compile;4.03
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;m4-native.do_compile;1.49
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;m4-native.do_compile;1.61
 dual-Xeon-E5-2670-8-channels;2-build-test;m4-native.do_compile;2.34
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;m4-native.do_compile;1.53
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;m4-native.do_compile;1.73
@@ -230,6 +265,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;m4-native.do_compile;1.32
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;m4-native.do_compile;1.31
 dual-Xeon-Gold-6258R;2-build-test;m4-native.do_compile;0.93
 ryzen-5-1600AF;2-build-test;m4-native.do_compile;1.37
+ryzen-9-5950x;2-build-test;m4-native.do_compile;0.78
 threadripper-2990wx-128gb;2-build-test;m4-native.do_compile;1.07
 threadripper-3970x-128gb-dunfell;2-build-test;m4-native.do_compile;0.85
 threadripper-3970x-128gb-gatesgarth;2-build-test;m4-native.do_compile;0.89
@@ -241,6 +277,8 @@ threadripper-3990x-256gb;2-build-test;m4-native.do_compile;0.77
 vSphere-VM-28t-55G;2-build-test;m4-native.do_compile;2.15
 VM-20t-157G;2-build-test;m4-native.do_configure;57.03
 VM-20t-98G;2-build-test;m4-native.do_configure;131.59
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;m4-native.do_configure;28.20
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;m4-native.do_configure;29.16
 dual-Xeon-E5-2670-8-channels;2-build-test;m4-native.do_configure;30.01
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;m4-native.do_configure;29.86
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;m4-native.do_configure;31.57
@@ -250,6 +288,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;m4-native.do_configure;27.59
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;m4-native.do_configure;27.82
 dual-Xeon-Gold-6258R;2-build-test;m4-native.do_configure;12.85
 ryzen-5-1600AF;2-build-test;m4-native.do_configure;19.64
+ryzen-9-5950x;2-build-test;m4-native.do_configure;14.02
 threadripper-2990wx-128gb;2-build-test;m4-native.do_configure;18.82
 threadripper-3970x-128gb-dunfell;2-build-test;m4-native.do_configure;15.99
 threadripper-3970x-128gb-gatesgarth;2-build-test;m4-native.do_configure;15.57
@@ -261,6 +300,8 @@ threadripper-3990x-256gb;2-build-test;m4-native.do_configure;15.82
 vSphere-VM-28t-55G;2-build-test;m4-native.do_configure;41.77
 VM-20t-157G;2-build-test;m4-native.do_deploy_source_date_epoch;---
 VM-20t-98G;2-build-test;m4-native.do_deploy_source_date_epoch;---
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;m4-native.do_deploy_source_date_epoch;---
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;m4-native.do_deploy_source_date_epoch;---
 dual-Xeon-E5-2670-8-channels;2-build-test;m4-native.do_deploy_source_date_epoch;---
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;m4-native.do_deploy_source_date_epoch;---
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;m4-native.do_deploy_source_date_epoch;---
@@ -270,6 +311,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;m4-native.do_deploy_source_da
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;m4-native.do_deploy_source_date_epoch;---
 dual-Xeon-Gold-6258R;2-build-test;m4-native.do_deploy_source_date_epoch;---
 ryzen-5-1600AF;2-build-test;m4-native.do_deploy_source_date_epoch;---
+ryzen-9-5950x;2-build-test;m4-native.do_deploy_source_date_epoch;---
 threadripper-2990wx-128gb;2-build-test;m4-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-dunfell;2-build-test;m4-native.do_deploy_source_date_epoch;0.10
 threadripper-3970x-128gb-gatesgarth;2-build-test;m4-native.do_deploy_source_date_epoch;---
@@ -281,6 +323,8 @@ threadripper-3990x-256gb;2-build-test;m4-native.do_deploy_source_date_epoch;---
 vSphere-VM-28t-55G;2-build-test;m4-native.do_deploy_source_date_epoch;---
 VM-20t-157G;2-build-test;m4-native.do_fetch;1.02
 VM-20t-98G;2-build-test;m4-native.do_fetch;1.03
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;m4-native.do_fetch;---
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;m4-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels;2-build-test;m4-native.do_fetch;1.04
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;m4-native.do_fetch;1.12
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;m4-native.do_fetch;1.05
@@ -290,6 +334,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;m4-native.do_fetch;2.51
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;m4-native.do_fetch;1.70
 dual-Xeon-Gold-6258R;2-build-test;m4-native.do_fetch;0.51
 ryzen-5-1600AF;2-build-test;m4-native.do_fetch;2.26
+ryzen-9-5950x;2-build-test;m4-native.do_fetch;---
 threadripper-2990wx-128gb;2-build-test;m4-native.do_fetch;1.12
 threadripper-3970x-128gb-dunfell;2-build-test;m4-native.do_fetch;2.08
 threadripper-3970x-128gb-gatesgarth;2-build-test;m4-native.do_fetch;2.38
@@ -301,6 +346,8 @@ threadripper-3990x-256gb;2-build-test;m4-native.do_fetch;0.46
 vSphere-VM-28t-55G;2-build-test;m4-native.do_fetch;2.43
 VM-20t-157G;2-build-test;m4-native.do_install;1.05
 VM-20t-98G;2-build-test;m4-native.do_install;2.17
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;m4-native.do_install;0.63
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;m4-native.do_install;0.61
 dual-Xeon-E5-2670-8-channels;2-build-test;m4-native.do_install;0.67
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;m4-native.do_install;0.69
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;m4-native.do_install;0.71
@@ -310,6 +357,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;m4-native.do_install;0.63
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;m4-native.do_install;0.62
 dual-Xeon-Gold-6258R;2-build-test;m4-native.do_install;0.26
 ryzen-5-1600AF;2-build-test;m4-native.do_install;0.47
+ryzen-9-5950x;2-build-test;m4-native.do_install;0.29
 threadripper-2990wx-128gb;2-build-test;m4-native.do_install;0.43
 threadripper-3970x-128gb-dunfell;2-build-test;m4-native.do_install;0.35
 threadripper-3970x-128gb-gatesgarth;2-build-test;m4-native.do_install;0.35
@@ -321,6 +369,8 @@ threadripper-3990x-256gb;2-build-test;m4-native.do_install;0.34
 vSphere-VM-28t-55G;2-build-test;m4-native.do_install;0.99
 VM-20t-157G;2-build-test;m4-native.do_patch;0.38
 VM-20t-98G;2-build-test;m4-native.do_patch;1.51
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;m4-native.do_patch;0.30
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;m4-native.do_patch;0.29
 dual-Xeon-E5-2670-8-channels;2-build-test;m4-native.do_patch;0.19
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;m4-native.do_patch;0.34
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;m4-native.do_patch;0.40
@@ -330,6 +380,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;m4-native.do_patch;0.31
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;m4-native.do_patch;0.30
 dual-Xeon-Gold-6258R;2-build-test;m4-native.do_patch;0.12
 ryzen-5-1600AF;2-build-test;m4-native.do_patch;0.22
+ryzen-9-5950x;2-build-test;m4-native.do_patch;0.12
 threadripper-2990wx-128gb;2-build-test;m4-native.do_patch;0.19
 threadripper-3970x-128gb-dunfell;2-build-test;m4-native.do_patch;0.15
 threadripper-3970x-128gb-gatesgarth;2-build-test;m4-native.do_patch;0.14
@@ -341,6 +392,8 @@ threadripper-3990x-256gb;2-build-test;m4-native.do_patch;0.15
 vSphere-VM-28t-55G;2-build-test;m4-native.do_patch;0.40
 VM-20t-157G;2-build-test;m4-native.do_populate_lic;0.24
 VM-20t-98G;2-build-test;m4-native.do_populate_lic;1.21
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;m4-native.do_populate_lic;0.19
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;m4-native.do_populate_lic;0.18
 dual-Xeon-E5-2670-8-channels;2-build-test;m4-native.do_populate_lic;---
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;m4-native.do_populate_lic;0.21
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;m4-native.do_populate_lic;0.22
@@ -350,6 +403,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;m4-native.do_populate_lic;0.1
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;m4-native.do_populate_lic;0.15
 dual-Xeon-Gold-6258R;2-build-test;m4-native.do_populate_lic;0.07
 ryzen-5-1600AF;2-build-test;m4-native.do_populate_lic;0.13
+ryzen-9-5950x;2-build-test;m4-native.do_populate_lic;0.08
 threadripper-2990wx-128gb;2-build-test;m4-native.do_populate_lic;0.13
 threadripper-3970x-128gb-dunfell;2-build-test;m4-native.do_populate_lic;0.11
 threadripper-3970x-128gb-gatesgarth;2-build-test;m4-native.do_populate_lic;0.10
@@ -361,6 +415,8 @@ threadripper-3990x-256gb;2-build-test;m4-native.do_populate_lic;0.10
 vSphere-VM-28t-55G;2-build-test;m4-native.do_populate_lic;0.31
 VM-20t-157G;2-build-test;m4-native.do_populate_sysroot;0.50
 VM-20t-98G;2-build-test;m4-native.do_populate_sysroot;2.64
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;m4-native.do_populate_sysroot;0.38
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;m4-native.do_populate_sysroot;0.35
 dual-Xeon-E5-2670-8-channels;2-build-test;m4-native.do_populate_sysroot;0.40
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;m4-native.do_populate_sysroot;0.43
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;m4-native.do_populate_sysroot;0.46
@@ -370,6 +426,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;m4-native.do_populate_sysroot
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;m4-native.do_populate_sysroot;0.37
 dual-Xeon-Gold-6258R;2-build-test;m4-native.do_populate_sysroot;0.14
 ryzen-5-1600AF;2-build-test;m4-native.do_populate_sysroot;0.28
+ryzen-9-5950x;2-build-test;m4-native.do_populate_sysroot;0.16
 threadripper-2990wx-128gb;2-build-test;m4-native.do_populate_sysroot;0.24
 threadripper-3970x-128gb-dunfell;2-build-test;m4-native.do_populate_sysroot;0.20
 threadripper-3970x-128gb-gatesgarth;2-build-test;m4-native.do_populate_sysroot;0.21
@@ -381,6 +438,8 @@ threadripper-3990x-256gb;2-build-test;m4-native.do_populate_sysroot;0.21
 vSphere-VM-28t-55G;2-build-test;m4-native.do_populate_sysroot;0.58
 VM-20t-157G;2-build-test;m4-native.do_rm_work;---
 VM-20t-98G;2-build-test;m4-native.do_rm_work;---
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;m4-native.do_rm_work;0.19
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;m4-native.do_rm_work;0.19
 dual-Xeon-E5-2670-8-channels;2-build-test;m4-native.do_rm_work;0.17
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;m4-native.do_rm_work;---
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;m4-native.do_rm_work;---
@@ -390,6 +449,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;m4-native.do_rm_work;---
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;m4-native.do_rm_work;0.15
 dual-Xeon-Gold-6258R;2-build-test;m4-native.do_rm_work;---
 ryzen-5-1600AF;2-build-test;m4-native.do_rm_work;---
+ryzen-9-5950x;2-build-test;m4-native.do_rm_work;0.06
 threadripper-2990wx-128gb;2-build-test;m4-native.do_rm_work;---
 threadripper-3970x-128gb-dunfell;2-build-test;m4-native.do_rm_work;---
 threadripper-3970x-128gb-gatesgarth;2-build-test;m4-native.do_rm_work;---
@@ -401,6 +461,8 @@ threadripper-3990x-256gb;2-build-test;m4-native.do_rm_work;---
 vSphere-VM-28t-55G;2-build-test;m4-native.do_rm_work;---
 VM-20t-157G;2-build-test;m4-native.do_unpack;0.26
 VM-20t-98G;2-build-test;m4-native.do_unpack;---
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;m4-native.do_unpack;0.16
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;m4-native.do_unpack;0.16
 dual-Xeon-E5-2670-8-channels;2-build-test;m4-native.do_unpack;---
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;m4-native.do_unpack;0.18
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;m4-native.do_unpack;1.31
@@ -410,6 +472,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;m4-native.do_unpack;---
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;m4-native.do_unpack;---
 dual-Xeon-Gold-6258R;2-build-test;m4-native.do_unpack;0.08
 ryzen-5-1600AF;2-build-test;m4-native.do_unpack;0.12
+ryzen-9-5950x;2-build-test;m4-native.do_unpack;0.07
 threadripper-2990wx-128gb;2-build-test;m4-native.do_unpack;---
 threadripper-3970x-128gb-dunfell;2-build-test;m4-native.do_unpack;0.16
 threadripper-3970x-128gb-gatesgarth;2-build-test;m4-native.do_unpack;---
@@ -421,6 +484,8 @@ threadripper-3990x-256gb;2-build-test;m4-native.do_unpack;0.09
 vSphere-VM-28t-55G;2-build-test;m4-native.do_unpack;0.27
 VM-20t-157G;2-build-test;quilt-native.do_compile;1.14
 VM-20t-98G;2-build-test;quilt-native.do_compile;3.78
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;quilt-native.do_compile;0.98
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;quilt-native.do_compile;0.81
 dual-Xeon-E5-2670-8-channels;2-build-test;quilt-native.do_compile;1.02
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;quilt-native.do_compile;1.29
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;quilt-native.do_compile;1.09
@@ -430,6 +495,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;quilt-native.do_compile;0.93
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;quilt-native.do_compile;0.95
 dual-Xeon-Gold-6258R;2-build-test;quilt-native.do_compile;0.28
 ryzen-5-1600AF;2-build-test;quilt-native.do_compile;0.65
+ryzen-9-5950x;2-build-test;quilt-native.do_compile;0.33
 threadripper-2990wx-128gb;2-build-test;quilt-native.do_compile;0.55
 threadripper-3970x-128gb-dunfell;2-build-test;quilt-native.do_compile;0.36
 threadripper-3970x-128gb-gatesgarth;2-build-test;quilt-native.do_compile;0.33
@@ -441,6 +507,8 @@ threadripper-3990x-256gb;2-build-test;quilt-native.do_compile;0.43
 vSphere-VM-28t-55G;2-build-test;quilt-native.do_compile;1.24
 VM-20t-157G;2-build-test;quilt-native.do_configure;1.72
 VM-20t-98G;2-build-test;quilt-native.do_configure;5.04
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;quilt-native.do_configure;1.04
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;quilt-native.do_configure;0.97
 dual-Xeon-E5-2670-8-channels;2-build-test;quilt-native.do_configure;1.32
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;quilt-native.do_configure;1.15
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;quilt-native.do_configure;1.21
@@ -450,6 +518,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;quilt-native.do_configure;1.0
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;quilt-native.do_configure;1.06
 dual-Xeon-Gold-6258R;2-build-test;quilt-native.do_configure;0.36
 ryzen-5-1600AF;2-build-test;quilt-native.do_configure;0.71
+ryzen-9-5950x;2-build-test;quilt-native.do_configure;0.40
 threadripper-2990wx-128gb;2-build-test;quilt-native.do_configure;0.53
 threadripper-3970x-128gb-dunfell;2-build-test;quilt-native.do_configure;0.46
 threadripper-3970x-128gb-gatesgarth;2-build-test;quilt-native.do_configure;0.44
@@ -461,6 +530,8 @@ threadripper-3990x-256gb;2-build-test;quilt-native.do_configure;0.48
 vSphere-VM-28t-55G;2-build-test;quilt-native.do_configure;1.37
 VM-20t-157G;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 VM-20t-98G;2-build-test;quilt-native.do_deploy_source_date_epoch;---
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;quilt-native.do_deploy_source_date_epoch;---
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 dual-Xeon-E5-2670-8-channels;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;quilt-native.do_deploy_source_date_epoch;---
@@ -470,6 +541,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;quilt-native.do_deploy_source
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 dual-Xeon-Gold-6258R;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 ryzen-5-1600AF;2-build-test;quilt-native.do_deploy_source_date_epoch;---
+ryzen-9-5950x;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 threadripper-2990wx-128gb;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-dunfell;2-build-test;quilt-native.do_deploy_source_date_epoch;0.10
 threadripper-3970x-128gb-gatesgarth;2-build-test;quilt-native.do_deploy_source_date_epoch;0.10
@@ -481,6 +553,8 @@ threadripper-3990x-256gb;2-build-test;quilt-native.do_deploy_source_date_epoch;-
 vSphere-VM-28t-55G;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 VM-20t-157G;2-build-test;quilt-native.do_fetch;5.71
 VM-20t-98G;2-build-test;quilt-native.do_fetch;5.73
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;quilt-native.do_fetch;---
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;quilt-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels;2-build-test;quilt-native.do_fetch;0.79
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;quilt-native.do_fetch;0.79
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;quilt-native.do_fetch;0.67
@@ -490,6 +564,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;quilt-native.do_fetch;2.25
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;quilt-native.do_fetch;0.76
 dual-Xeon-Gold-6258R;2-build-test;quilt-native.do_fetch;1.01
 ryzen-5-1600AF;2-build-test;quilt-native.do_fetch;1.02
+ryzen-9-5950x;2-build-test;quilt-native.do_fetch;---
 threadripper-2990wx-128gb;2-build-test;quilt-native.do_fetch;1.06
 threadripper-3970x-128gb-dunfell;2-build-test;quilt-native.do_fetch;0.81
 threadripper-3970x-128gb-gatesgarth;2-build-test;quilt-native.do_fetch;2.89
@@ -501,6 +576,8 @@ threadripper-3990x-256gb;2-build-test;quilt-native.do_fetch;1.55
 vSphere-VM-28t-55G;2-build-test;quilt-native.do_fetch;0.87
 VM-20t-157G;2-build-test;quilt-native.do_install;0.32
 VM-20t-98G;2-build-test;quilt-native.do_install;1.30
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;quilt-native.do_install;0.29
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;quilt-native.do_install;0.27
 dual-Xeon-E5-2670-8-channels;2-build-test;quilt-native.do_install;0.32
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;quilt-native.do_install;0.69
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;quilt-native.do_install;0.47
@@ -510,6 +587,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;quilt-native.do_install;0.27
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;quilt-native.do_install;0.28
 dual-Xeon-Gold-6258R;2-build-test;quilt-native.do_install;0.10
 ryzen-5-1600AF;2-build-test;quilt-native.do_install;0.19
+ryzen-9-5950x;2-build-test;quilt-native.do_install;0.10
 threadripper-2990wx-128gb;2-build-test;quilt-native.do_install;0.16
 threadripper-3970x-128gb-dunfell;2-build-test;quilt-native.do_install;0.12
 threadripper-3970x-128gb-gatesgarth;2-build-test;quilt-native.do_install;---
@@ -521,6 +599,8 @@ threadripper-3990x-256gb;2-build-test;quilt-native.do_install;0.12
 vSphere-VM-28t-55G;2-build-test;quilt-native.do_install;0.42
 VM-20t-157G;2-build-test;quilt-native.do_populate_lic;0.23
 VM-20t-98G;2-build-test;quilt-native.do_populate_lic;1.18
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;quilt-native.do_populate_lic;0.19
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;quilt-native.do_populate_lic;0.16
 dual-Xeon-E5-2670-8-channels;2-build-test;quilt-native.do_populate_lic;0.17
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;quilt-native.do_populate_lic;0.21
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;quilt-native.do_populate_lic;---
@@ -530,6 +610,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;quilt-native.do_populate_lic;
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;quilt-native.do_populate_lic;0.15
 dual-Xeon-Gold-6258R;2-build-test;quilt-native.do_populate_lic;0.07
 ryzen-5-1600AF;2-build-test;quilt-native.do_populate_lic;0.12
+ryzen-9-5950x;2-build-test;quilt-native.do_populate_lic;0.07
 threadripper-2990wx-128gb;2-build-test;quilt-native.do_populate_lic;0.11
 threadripper-3970x-128gb-dunfell;2-build-test;quilt-native.do_populate_lic;0.10
 threadripper-3970x-128gb-gatesgarth;2-build-test;quilt-native.do_populate_lic;0.10
@@ -541,6 +622,8 @@ threadripper-3990x-256gb;2-build-test;quilt-native.do_populate_lic;0.09
 vSphere-VM-28t-55G;2-build-test;quilt-native.do_populate_lic;0.28
 VM-20t-157G;2-build-test;quilt-native.do_populate_sysroot;0.73
 VM-20t-98G;2-build-test;quilt-native.do_populate_sysroot;4.26
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;quilt-native.do_populate_sysroot;0.49
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;quilt-native.do_populate_sysroot;0.59
 dual-Xeon-E5-2670-8-channels;2-build-test;quilt-native.do_populate_sysroot;0.55
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;quilt-native.do_populate_sysroot;0.53
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;quilt-native.do_populate_sysroot;0.65
@@ -550,6 +633,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;quilt-native.do_populate_sysr
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;quilt-native.do_populate_sysroot;0.50
 dual-Xeon-Gold-6258R;2-build-test;quilt-native.do_populate_sysroot;0.20
 ryzen-5-1600AF;2-build-test;quilt-native.do_populate_sysroot;0.34
+ryzen-9-5950x;2-build-test;quilt-native.do_populate_sysroot;0.19
 threadripper-2990wx-128gb;2-build-test;quilt-native.do_populate_sysroot;0.30
 threadripper-3970x-128gb-dunfell;2-build-test;quilt-native.do_populate_sysroot;0.25
 threadripper-3970x-128gb-gatesgarth;2-build-test;quilt-native.do_populate_sysroot;0.25
@@ -559,8 +643,33 @@ threadripper-3970x-64gb;2-build-test;quilt-native.do_populate_sysroot;0.27
 threadripper-3990x-128gb;2-build-test;quilt-native.do_populate_sysroot;0.29
 threadripper-3990x-256gb;2-build-test;quilt-native.do_populate_sysroot;0.31
 vSphere-VM-28t-55G;2-build-test;quilt-native.do_populate_sysroot;0.82
+VM-20t-157G;2-build-test;quilt-native.do_rm_work;---
+VM-20t-98G;2-build-test;quilt-native.do_rm_work;---
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;quilt-native.do_rm_work;0.16
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;quilt-native.do_rm_work;---
+dual-Xeon-E5-2670-8-channels;2-build-test;quilt-native.do_rm_work;---
+dual-Xeon-E5-2698-v3-4-channels;2-build-test;quilt-native.do_rm_work;---
+dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;quilt-native.do_rm_work;---
+dual-Xeon-E5-2698-v4-4-channels-tmpfs;2-build-test;quilt-native.do_rm_work;---
+dual-Xeon-E5-2698-v4-4-channels;2-build-test;quilt-native.do_rm_work;---
+dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;quilt-native.do_rm_work;---
+dual-Xeon-E5-2699-v3-8-channels;2-build-test;quilt-native.do_rm_work;---
+dual-Xeon-Gold-6258R;2-build-test;quilt-native.do_rm_work;---
+ryzen-5-1600AF;2-build-test;quilt-native.do_rm_work;---
+ryzen-9-5950x;2-build-test;quilt-native.do_rm_work;---
+threadripper-2990wx-128gb;2-build-test;quilt-native.do_rm_work;---
+threadripper-3970x-128gb-dunfell;2-build-test;quilt-native.do_rm_work;---
+threadripper-3970x-128gb-gatesgarth;2-build-test;quilt-native.do_rm_work;---
+threadripper-3970x-128gb-optane;2-build-test;quilt-native.do_rm_work;---
+threadripper-3970x-128gb;2-build-test;quilt-native.do_rm_work;---
+threadripper-3970x-64gb;2-build-test;quilt-native.do_rm_work;---
+threadripper-3990x-128gb;2-build-test;quilt-native.do_rm_work;---
+threadripper-3990x-256gb;2-build-test;quilt-native.do_rm_work;---
+vSphere-VM-28t-55G;2-build-test;quilt-native.do_rm_work;---
 VM-20t-157G;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 VM-20t-98G;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 dual-Xeon-E5-2670-8-channels;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
@@ -570,6 +679,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;texinfo-dummy-native.do_deplo
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 dual-Xeon-Gold-6258R;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 ryzen-5-1600AF;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
+ryzen-9-5950x;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 threadripper-2990wx-128gb;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-dunfell;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-gatesgarth;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;0.09
@@ -581,6 +691,8 @@ threadripper-3990x-256gb;2-build-test;texinfo-dummy-native.do_deploy_source_date
 vSphere-VM-28t-55G;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 VM-20t-157G;2-build-test;texinfo-dummy-native.do_install;0.27
 VM-20t-98G;2-build-test;texinfo-dummy-native.do_install;---
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;texinfo-dummy-native.do_install;0.16
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;texinfo-dummy-native.do_install;0.15
 dual-Xeon-E5-2670-8-channels;2-build-test;texinfo-dummy-native.do_install;---
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;texinfo-dummy-native.do_install;---
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;texinfo-dummy-native.do_install;0.22
@@ -590,6 +702,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;texinfo-dummy-native.do_insta
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;texinfo-dummy-native.do_install;---
 dual-Xeon-Gold-6258R;2-build-test;texinfo-dummy-native.do_install;---
 ryzen-5-1600AF;2-build-test;texinfo-dummy-native.do_install;---
+ryzen-9-5950x;2-build-test;texinfo-dummy-native.do_install;0.05
 threadripper-2990wx-128gb;2-build-test;texinfo-dummy-native.do_install;0.10
 threadripper-3970x-128gb-dunfell;2-build-test;texinfo-dummy-native.do_install;---
 threadripper-3970x-128gb-gatesgarth;2-build-test;texinfo-dummy-native.do_install;---
@@ -601,6 +714,8 @@ threadripper-3990x-256gb;2-build-test;texinfo-dummy-native.do_install;---
 vSphere-VM-28t-55G;2-build-test;texinfo-dummy-native.do_install;---
 VM-20t-157G;2-build-test;texinfo-dummy-native.do_populate_lic;---
 VM-20t-98G;2-build-test;texinfo-dummy-native.do_populate_lic;0.96
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;texinfo-dummy-native.do_populate_lic;0.18
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;texinfo-dummy-native.do_populate_lic;0.16
 dual-Xeon-E5-2670-8-channels;2-build-test;texinfo-dummy-native.do_populate_lic;0.15
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;texinfo-dummy-native.do_populate_lic;0.17
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;texinfo-dummy-native.do_populate_lic;0.19
@@ -610,6 +725,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;texinfo-dummy-native.do_popul
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;texinfo-dummy-native.do_populate_lic;0.15
 dual-Xeon-Gold-6258R;2-build-test;texinfo-dummy-native.do_populate_lic;0.07
 ryzen-5-1600AF;2-build-test;texinfo-dummy-native.do_populate_lic;0.13
+ryzen-9-5950x;2-build-test;texinfo-dummy-native.do_populate_lic;0.07
 threadripper-2990wx-128gb;2-build-test;texinfo-dummy-native.do_populate_lic;0.12
 threadripper-3970x-128gb-dunfell;2-build-test;texinfo-dummy-native.do_populate_lic;---
 threadripper-3970x-128gb-gatesgarth;2-build-test;texinfo-dummy-native.do_populate_lic;0.10
@@ -621,6 +737,8 @@ threadripper-3990x-256gb;2-build-test;texinfo-dummy-native.do_populate_lic;0.09
 vSphere-VM-28t-55G;2-build-test;texinfo-dummy-native.do_populate_lic;0.26
 VM-20t-157G;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.52
 VM-20t-98G;2-build-test;texinfo-dummy-native.do_populate_sysroot;3.43
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.41
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.42
 dual-Xeon-E5-2670-8-channels;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.38
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.44
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.52
@@ -630,6 +748,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;texinfo-dummy-native.do_popul
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.34
 dual-Xeon-Gold-6258R;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.16
 ryzen-5-1600AF;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.27
+ryzen-9-5950x;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.17
 threadripper-2990wx-128gb;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.27
 threadripper-3970x-128gb-dunfell;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.18
 threadripper-3970x-128gb-gatesgarth;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.17
@@ -639,8 +758,33 @@ threadripper-3970x-64gb;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.
 threadripper-3990x-128gb;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.24
 threadripper-3990x-256gb;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.23
 vSphere-VM-28t-55G;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.66
+VM-20t-157G;2-build-test;texinfo-dummy-native.do_rm_work;---
+VM-20t-98G;2-build-test;texinfo-dummy-native.do_rm_work;---
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;texinfo-dummy-native.do_rm_work;---
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;texinfo-dummy-native.do_rm_work;---
+dual-Xeon-E5-2670-8-channels;2-build-test;texinfo-dummy-native.do_rm_work;---
+dual-Xeon-E5-2698-v3-4-channels;2-build-test;texinfo-dummy-native.do_rm_work;---
+dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;texinfo-dummy-native.do_rm_work;---
+dual-Xeon-E5-2698-v4-4-channels-tmpfs;2-build-test;texinfo-dummy-native.do_rm_work;---
+dual-Xeon-E5-2698-v4-4-channels;2-build-test;texinfo-dummy-native.do_rm_work;---
+dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;texinfo-dummy-native.do_rm_work;---
+dual-Xeon-E5-2699-v3-8-channels;2-build-test;texinfo-dummy-native.do_rm_work;---
+dual-Xeon-Gold-6258R;2-build-test;texinfo-dummy-native.do_rm_work;---
+ryzen-5-1600AF;2-build-test;texinfo-dummy-native.do_rm_work;---
+ryzen-9-5950x;2-build-test;texinfo-dummy-native.do_rm_work;0.05
+threadripper-2990wx-128gb;2-build-test;texinfo-dummy-native.do_rm_work;---
+threadripper-3970x-128gb-dunfell;2-build-test;texinfo-dummy-native.do_rm_work;---
+threadripper-3970x-128gb-gatesgarth;2-build-test;texinfo-dummy-native.do_rm_work;---
+threadripper-3970x-128gb-optane;2-build-test;texinfo-dummy-native.do_rm_work;---
+threadripper-3970x-128gb;2-build-test;texinfo-dummy-native.do_rm_work;---
+threadripper-3970x-64gb;2-build-test;texinfo-dummy-native.do_rm_work;---
+threadripper-3990x-128gb;2-build-test;texinfo-dummy-native.do_rm_work;---
+threadripper-3990x-256gb;2-build-test;texinfo-dummy-native.do_rm_work;---
+vSphere-VM-28t-55G;2-build-test;texinfo-dummy-native.do_rm_work;---
 VM-20t-157G;2-build-test;Total;78.42
 VM-20t-98G;2-build-test;Total;178.14
+dual-Xeon-E5-2630-v4-ubuntu-18.04;2-build-test;Total;38.43
+dual-Xeon-E5-2630-v4-ubuntu-20.04;2-build-test;Total;40.19
 dual-Xeon-E5-2670-8-channels;2-build-test;Total;42.81
 dual-Xeon-E5-2698-v3-4-channels;2-build-test;Total;42.47
 dual-Xeon-E5-2698-v4-4-channels-no-journal;2-build-test;Total;44.63
@@ -650,6 +794,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs;2-build-test;Total;39.25
 dual-Xeon-E5-2699-v3-8-channels;2-build-test;Total;38.01
 dual-Xeon-Gold-6258R;2-build-test;Total;19.04
 ryzen-5-1600AF;2-build-test;Total;28.56
+ryzen-9-5950x;2-build-test;Total;18.97
 threadripper-2990wx-128gb;2-build-test;Total;26.82
 threadripper-3970x-128gb-dunfell;2-build-test;Total;22.74
 threadripper-3970x-128gb-gatesgarth;2-build-test;Total;24.87
