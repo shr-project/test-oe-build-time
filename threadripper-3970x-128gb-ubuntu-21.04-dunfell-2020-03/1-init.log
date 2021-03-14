@@ -1,0 +1,270 @@
+Cloning into 'poky'...
+Switched to a new branch 'dunfell'
+Removing meta/recipes-extended/libtirpc/libtirpc/0001-xdr_float-do-not-include-bits-endian.h.patch
+[dunfell 4357896322] libtirpc: upgrade 1.2.5 -> 1.2.6
+ Author: zhengruoqin <zhengrq.fnst@cn.fujitsu.com>
+ Date: Tue Apr 21 00:21:57 2020 +0800
+ 2 files changed, 3 insertions(+), 39 deletions(-)
+ delete mode 100644 meta/recipes-extended/libtirpc/libtirpc/0001-xdr_float-do-not-include-bits-endian.h.patch
+ rename meta/recipes-extended/libtirpc/{libtirpc_1.2.5.bb => libtirpc_1.2.6.bb} (74%)
+[dunfell ed0456c1a5] libtirpc: remove extra "-fcommon" from CFLAGS
+ Author: Richard Leitner <richard.leitner@skidata.com>
+ Date: Wed May 6 09:24:30 2020 +0200
+ 1 file changed, 2 deletions(-)
+[dunfell 19df7e9405] gdbm: add patch to fix link failure against gcc 10
+ Author: Richard Leitner <richard.leitner@skidata.com>
+ Date: Tue May 5 12:38:05 2020 +0200
+ 2 files changed, 48 insertions(+), 2 deletions(-)
+ create mode 100644 meta/recipes-support/gdbm/files/gdbm-fix-link-failure-against-gcc-10.patch
+[dunfell 8537d5426a] xcb-proto: backport fix for python gcd function
+ Author: Richard Leitner <richard.leitner@skidata.com>
+ Date: Fri Oct 30 14:45:51 2020 +0100
+ 2 files changed, 42 insertions(+), 1 deletion(-)
+ create mode 100644 meta/recipes-graphics/xorg-proto/xcb-proto/0001-xcbgen-use-math-gcd-for-python-3-5.patch
+[dunfell 334bfa79be] dtc: update to 1.6.0
+ Author: Richard Leitner <richard.leitner@skidata.com>
+ Date: Wed May 6 12:45:38 2020 +0200
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ rename meta/recipes-kernel/dtc/{dtc_1.5.1.bb => dtc_1.6.0.bb} (81%)
+[dunfell dab29b1ba8] site: Make sys_siglist default to no
+ Author: Khem Raj <raj.khem@gmail.com>
+ Date: Tue Jul 21 15:10:09 2020 -0700
+ 3 files changed, 7 insertions(+), 8 deletions(-)
+Removing meta/recipes-devtools/libcomps/libcomps/0001-Make-__comps_objmrtree_all-static-inline.patch
+[dunfell 3833fb2d78] libcomps: update to 0.1.15
+ Author: Richard Leitner <richard.leitner@skidata.com>
+ Date: Wed May 6 09:24:31 2020 +0200
+ 4 files changed, 15 insertions(+), 47 deletions(-)
+ delete mode 100644 meta/recipes-devtools/libcomps/libcomps/0001-Make-__comps_objmrtree_all-static-inline.patch
+ rename meta/recipes-devtools/libcomps/libcomps/{0001-Do-not-set-PYTHON_INSTALL_DIR-by-running-python.patch => 0002-Do-not-set-PYTHON_INSTALL_DIR-by-running-python.patch} (85%)
+ rename meta/recipes-devtools/libcomps/{libcomps_git.bb => libcomps_0.1.15.bb} (74%)
+[dunfell 6fc41938e4] binutils: add patch to fix issues with gcc 10
+ Author: Richard Leitner <richard.leitner@skidata.com>
+ Date: Wed May 6 11:09:42 2020 +0200
+ 2 files changed, 62 insertions(+)
+ create mode 100644 meta/recipes-devtools/binutils/binutils/0017-binutils-drop-redundant-program_name-definition-fno-.patch
+[dunfell bd72bae084] pseudo: Fix attr errors due to incorrect library resolution issues
+ Author: Richard Purdie <richard.purdie@linuxfoundation.org>
+ Date: Mon Jun 22 17:56:14 2020 +0100
+ 2 files changed, 55 insertions(+)
+ create mode 100644 meta/recipes-devtools/pseudo/files/xattr_version.patch
+Removing meta/recipes-devtools/pseudo/files/xattr_version.patch
+Removing meta/recipes-devtools/pseudo/files/toomanyfiles.patch
+Removing meta/recipes-devtools/pseudo/files/seccomp.patch
+Removing meta/recipes-devtools/pseudo/files/moreretries.patch
+Removing meta/recipes-devtools/pseudo/files/0006-xattr-adjust-for-attr-2.4.48-release.patch
+Removing meta/recipes-devtools/pseudo/files/0001-realpath.c-Remove-trailing-slashes.patch
+Removing meta/recipes-devtools/pseudo/files/0001-pseudo_ipc.h-Fix-enum-typedef.patch
+Removing meta/recipes-devtools/pseudo/files/0001-pseudo-On-a-DB-fixup-remove-files-that-do-not-exist-.patch
+Removing meta/recipes-devtools/pseudo/files/0001-maketables-wrappers-use-Python-3.patch
+Removing meta/recipes-devtools/pseudo/files/0001-Add-statx.patch
+[dunfell 30d1dc544d] pseudo: Switch to oe-core branch in git repo
+ Author: Richard Purdie <richard.purdie@linuxfoundation.org>
+ Date: Fri Jun 26 11:47:12 2020 +0100
+ 11 files changed, 14 insertions(+), 630 deletions(-)
+ delete mode 100644 meta/recipes-devtools/pseudo/files/0001-Add-statx.patch
+ delete mode 100644 meta/recipes-devtools/pseudo/files/0001-maketables-wrappers-use-Python-3.patch
+ delete mode 100644 meta/recipes-devtools/pseudo/files/0001-pseudo-On-a-DB-fixup-remove-files-that-do-not-exist-.patch
+ delete mode 100644 meta/recipes-devtools/pseudo/files/0001-pseudo_ipc.h-Fix-enum-typedef.patch
+ delete mode 100644 meta/recipes-devtools/pseudo/files/0001-realpath.c-Remove-trailing-slashes.patch
+ delete mode 100644 meta/recipes-devtools/pseudo/files/0006-xattr-adjust-for-attr-2.4.48-release.patch
+ delete mode 100644 meta/recipes-devtools/pseudo/files/moreretries.patch
+ delete mode 100644 meta/recipes-devtools/pseudo/files/seccomp.patch
+ delete mode 100644 meta/recipes-devtools/pseudo/files/toomanyfiles.patch
+ delete mode 100644 meta/recipes-devtools/pseudo/files/xattr_version.patch
+ rewrite meta/recipes-devtools/pseudo/pseudo_git.bb (68%)
+[dunfell c790b5f82d] pseudo: merge in fixes for setfacl issue
+ Author: Richard Purdie <richard.purdie@linuxfoundation.org>
+ Date: Fri Jun 26 11:49:53 2020 +0100
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[dunfell 29f8228650] pseudo: Update to add OFC fcntl lock updates
+ Author: Richard Purdie <richard.purdie@linuxfoundation.org>
+ Date: Mon Jul 20 11:27:32 2020 +0100
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[dunfell fd879ae273] pseudo: fix renaming to self
+ Author: Joe Slater <joe.slater@windriver.com>
+ Date: Wed Aug 26 11:58:57 2020 -0700
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[dunfell 59ad9422ca] pseudo: Ignore mismatched inodes from the db
+ Author: Richard Purdie <richard.purdie@linuxfoundation.org>
+ Date: Tue Sep 22 14:07:48 2020 +0100
+ 2 files changed, 52 insertions(+)
+ create mode 100644 meta/recipes-devtools/pseudo/files/delete_mismatches.patch
+[dunfell e4c6da0af5] pseudo: Add support for ignoring paths from the pseudo DB
+ Author: Richard Purdie <richard.purdie@linuxfoundation.org>
+ Date: Thu Sep 24 00:02:04 2020 +0100
+ 2 files changed, 299 insertions(+)
+ create mode 100644 meta/recipes-devtools/pseudo/files/add_ignore_paths.patch
+[dunfell edeb12d5a8] pseudo: Abort on mismatch patch
+ Author: Richard Purdie <richard.purdie@linuxfoundation.org>
+ Date: Tue Sep 29 17:57:38 2020 +0100
+ 2 files changed, 65 insertions(+)
+ create mode 100644 meta/recipes-devtools/pseudo/files/abort_on_mismatch.patch
+[dunfell d2d9b3d9a5] psuedo: Add tracking of linked files for fds
+ Author: Richard Purdie <richard.purdie@linuxfoundation.org>
+ Date: Wed Sep 30 14:36:20 2020 +0100
+ 2 files changed, 156 insertions(+)
+ create mode 100644 meta/recipes-devtools/pseudo/files/track_link_fds.patch
+[dunfell a00ea6d42e] pseudo: Fix xattr segfault
+ Author: Richard Purdie <richard.purdie@linuxfoundation.org>
+ Date: Thu Oct 1 18:20:06 2020 +0100
+ 2 files changed, 41 insertions(+)
+ create mode 100644 meta/recipes-devtools/pseudo/files/xattr_fix.patch
+[dunfell b284e362f1] pseudo: Add may unlink patch
+ Author: Richard Purdie <richard.purdie@linuxfoundation.org>
+ Date: Sat Oct 3 12:02:36 2020 +0100
+ 2 files changed, 38 insertions(+)
+ create mode 100644 meta/recipes-devtools/pseudo/files/mayunlink.patch
+[dunfell 74d26601d6] pseudo: Add pathfix patch
+ Author: Richard Purdie <richard.purdie@linuxfoundation.org>
+ Date: Sat Oct 3 17:27:10 2020 +0100
+ 2 files changed, 26 insertions(+)
+ create mode 100644 meta/recipes-devtools/pseudo/files/pathfix.patch
+[dunfell e3f262bffc] pseudo: Fix statx function usage
+ Author: Richard Purdie <richard.purdie@linuxfoundation.org>
+ Date: Wed Oct 7 17:16:15 2020 +0100
+ 2 files changed, 57 insertions(+)
+ create mode 100644 meta/recipes-devtools/pseudo/files/statxfix.patch
+Removing meta/recipes-devtools/pseudo/files/xattr_fix.patch
+Removing meta/recipes-devtools/pseudo/files/track_link_fds.patch
+Removing meta/recipes-devtools/pseudo/files/statxfix.patch
+Removing meta/recipes-devtools/pseudo/files/pathfix.patch
+Removing meta/recipes-devtools/pseudo/files/mayunlink.patch
+Removing meta/recipes-devtools/pseudo/files/delete_mismatches.patch
+Removing meta/recipes-devtools/pseudo/files/add_ignore_paths.patch
+Removing meta/recipes-devtools/pseudo/files/abort_on_mismatch.patch
+[dunfell 249d3023a4] pseudo: Update to account for patches merged on branch
+ Author: Richard Purdie <richard.purdie@linuxfoundation.org>
+ Date: Thu Oct 8 15:08:59 2020 +0100
+ 9 files changed, 1 insertion(+), 735 deletions(-)
+ delete mode 100644 meta/recipes-devtools/pseudo/files/abort_on_mismatch.patch
+ delete mode 100644 meta/recipes-devtools/pseudo/files/add_ignore_paths.patch
+ delete mode 100644 meta/recipes-devtools/pseudo/files/delete_mismatches.patch
+ delete mode 100644 meta/recipes-devtools/pseudo/files/mayunlink.patch
+ delete mode 100644 meta/recipes-devtools/pseudo/files/pathfix.patch
+ delete mode 100644 meta/recipes-devtools/pseudo/files/statxfix.patch
+ delete mode 100644 meta/recipes-devtools/pseudo/files/track_link_fds.patch
+ delete mode 100644 meta/recipes-devtools/pseudo/files/xattr_fix.patch
+[dunfell 010e088995] pseudo: Upgrade to include mkostemp64 wrapper
+ Author: Richard Purdie <richard.purdie@linuxfoundation.org>
+ Date: Fri Oct 9 11:49:59 2020 +0100
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[dunfell 1cb7edc536] pseudo: Simplify pseudo_client_ignore_path_chroot()
+ Author: Peter Kjellerstedt <peter.kjellerstedt@axis.com>
+ Date: Tue Dec 1 19:11:47 2020 +0100
+ 3 files changed, 121 insertions(+)
+ create mode 100644 meta/recipes-devtools/pseudo/files/0002-pseudo_client-Lessen-indentation-of-pseudo_client_ig.patch
+ create mode 100644 meta/recipes-devtools/pseudo/files/0003-pseudo_client-Simplify-pseudo_client_ignore_path_chr.patch
+[dunfell 5e70e0edec] pseudo: Update to print PSEUDO_LOGFILE in abort message on path mismatches
+ Author: Tomasz Dziendzielski <tomasz.dziendzielski@gmail.com>
+ Date: Wed Dec 2 11:29:46 2020 +0100
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Removing meta/recipes-devtools/pseudo/files/0003-pseudo_client-Simplify-pseudo_client_ignore_path_chr.patch
+Removing meta/recipes-devtools/pseudo/files/0002-pseudo_client-Lessen-indentation-of-pseudo_client_ig.patch
+[dunfell e542b2efb8] pseudo: Drop patches merged into upstream branch
+ Author: Richard Purdie <richard.purdie@linuxfoundation.org>
+ Date: Wed Dec 16 16:54:26 2020 +0000
+ 3 files changed, 1 insertion(+), 122 deletions(-)
+ delete mode 100644 meta/recipes-devtools/pseudo/files/0002-pseudo_client-Lessen-indentation-of-pseudo_client_ig.patch
+ delete mode 100644 meta/recipes-devtools/pseudo/files/0003-pseudo_client-Simplify-pseudo_client_ignore_path_chr.patch
+[dunfell 70c19cd142] pseudo: Add lchmod wrapper
+ Author: Richard Purdie <richard.purdie@linuxfoundation.org>
+ Date: Wed Jan 6 22:31:25 2021 +0000
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[dunfell 4e26cf5299] pseudo: Update for arm host and memleak fixes/cleanup
+ Author: Richard Purdie <richard.purdie@linuxfoundation.org>
+ Date: Sat Jan 9 09:14:00 2021 +0000
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[dunfell df19b08109] pseudo: Update to include passwd and file renaming fixes
+ Author: Richard Purdie <richard.purdie@linuxfoundation.org>
+ Date: Thu Jan 28 21:28:23 2021 +0000
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[dunfell b7e285792c] pseudo: Update to work with glibc 2.33
+ Author: Richard Purdie <richard.purdie@linuxfoundation.org>
+ Date: Wed Feb 3 23:41:16 2021 +0000
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[dunfell f2c8af4693] pseudo: Update for rename and faccessat fixes
+ Author: Richard Purdie <richard.purdie@linuxfoundation.org>
+ Date: Fri Feb 12 15:32:38 2021 +0000
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[dunfell 036e498fb0] pseudo: Update to include fixes for glibc 2.33
+ Author: Richard Purdie <richard.purdie@linuxfoundation.org>
+ Date: Mon Feb 15 20:52:57 2021 +0000
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[dunfell ba8bf8641a] sstatesig: Log timestamps for hashequiv in reprodubile builds for do_package
+ Author: Richard Purdie <richard.purdie@linuxfoundation.org>
+ Date: Wed Jan 29 17:28:46 2020 +0000
+ 1 file changed, 6 insertions(+)
+Auto-merging meta/classes/populate_sdk_base.bbclass
+Auto-merging meta/classes/image_types_wic.bbclass
+Auto-merging meta/classes/base.bbclass
+Auto-merging meta/classes/archiver.bbclass
+[dunfell 7c73c5f03b] base/bitbake.conf: Enable pseudo path filtering
+ Author: Richard Purdie <richard.purdie@linuxfoundation.org>
+ Date: Thu Sep 24 22:44:43 2020 +0100
+ 7 files changed, 22 insertions(+), 6 deletions(-)
+[dunfell 9f336581f3] bitbake.conf: Extend PSEUDO_IGNORE_PATHS to ${COREBASE}/meta
+ Author: Richard Purdie <richard.purdie@linuxfoundation.org>
+ Date: Wed Oct 7 23:08:45 2020 +0100
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Auto-merging meta/classes/base.bbclass
+[dunfell fa4d02d24b] base.bbclass: use os.path.normpath instead of just comparing WORKDIR and S as strings
+ Date: Fri Oct 9 14:58:12 2020 +0200
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+Auto-merging meta/recipes-devtools/qemu/qemu.inc
+[dunfell 046a99053b] qemu: Backport patch to avoid assertion fails on icache line size
+ Author: Andrei Gherzan <andrei.gherzan@huawei.com>
+ Date: Sat Feb 20 01:12:55 2021 +0000
+ 2 files changed, 49 insertions(+)
+ create mode 100644 meta/recipes-devtools/qemu/qemu/0012-util-cacheinfo-fix-crash-when-compiling-with-uClibc.patch
+Cloning into 'meta-qt5'...
+Switched to a new branch 'dunfell'
+Cloning into 'meta-browser'...
+Switched to a new branch 'dunfell'
+Cloning into 'meta-openembedded'...
+Switched to a new branch 'dunfell'
+Cloning into 'meta-clang'...
+Switched to a new branch 'dunfell'
+Cloning into 'meta-rust'...
+Switched to a new branch 'dunfell'
+.git/rebase-apply/patch:48: trailing whitespace.
+ 
+warning: 1 line adds whitespace errors.
+Applying: rust-llvm-1.37.0: fix build with gcc-10
+Cloning into 'meta-python2'...
+Switched to a new branch 'dunfell'
+You had no conf/local.conf file. This configuration file has therefore been
+created for you with some default values. You may wish to edit it to, for
+example, select a different MACHINE (target hardware). See conf/local.conf
+for more information as common configuration options are commented.
+
+You had no conf/bblayers.conf file. This configuration file has therefore been
+created for you with some default values. To add additional metadata layers
+into your configuration please add entries to conf/bblayers.conf.
+
+The Yocto Project has extensive documentation about OE including a reference
+manual which can be found at:
+    http://yoctoproject.org/documentation
+
+For more information about OpenEmbedded see their website:
+    http://www.openembedded.org/
+
+
+### Shell environment set up for builds. ###
+
+You can now run 'bitbake <target>'
+
+Common targets are:
+    core-image-minimal
+    core-image-sato
+    meta-toolchain
+    meta-ide-support
+
+You can also run generated qemu images with a command like 'runqemu qemux86'
+
+Other commonly useful commands are:
+ - 'devtool' and 'recipetool' handle common recipe tasks
+ - 'bitbake-layers' handles common layer tasks
+ - 'oe-pkgdata-util' handles common target package tasks
+23.42user 7.08system 1:12.46elapsed 42%CPU (0avgtext+0avgdata 336184maxresident)k
+3192inputs+918528outputs (3major+255380minor)pagefaults 0swaps
