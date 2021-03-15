@@ -1,0 +1,50 @@
+fatal: destination path 'poky' already exists and is not an empty directory.
+fatal: A branch named 'zeus' already exists.
+Auto-merging meta/recipes-devtools/qemu/qemu.inc
+The previous cherry-pick is now empty, possibly due to conflict resolution.
+If you wish to commit it anyway, use:
+
+    git commit --allow-empty
+
+Otherwise, please use 'git cherry-pick --skip'
+On branch zeus
+You are currently cherry-picking commit b8809d3380.
+  (all conflicts fixed: run "git cherry-pick --continue")
+  (use "git cherry-pick --skip" to skip this patch)
+  (use "git cherry-pick --abort" to cancel the cherry-pick operation)
+
+nothing to commit, working tree clean
+fatal: destination path 'meta-qt5' already exists and is not an empty directory.
+fatal: A branch named 'zeus' already exists.
+fatal: destination path 'meta-browser' already exists and is not an empty directory.
+fatal: A branch named 'zeus' already exists.
+fatal: destination path 'meta-openembedded' already exists and is not an empty directory.
+fatal: A branch named 'zeus' already exists.
+fatal: destination path 'meta-clang' already exists and is not an empty directory.
+fatal: A branch named 'zeus' already exists.
+fatal: destination path 'meta-rust' already exists and is not an empty directory.
+fatal: A branch named 'zeus' already exists.
+
+### Shell environment set up for builds. ###
+
+You can now run 'bitbake <target>'
+
+Common targets are:
+    core-image-minimal
+    core-image-sato
+    meta-toolchain
+    meta-ide-support
+
+You can also run generated qemu images with a command like 'runqemu qemux86'
+
+Other commonly useful commands are:
+ - 'devtool' and 'recipetool' handle common recipe tasks
+ - 'bitbake-layers' handles common layer tasks
+ - 'oe-pkgdata-util' handles common target package tasks
+  /home/w/te/test-oe-build-time/poky/meta-qt5 \
+  /home/w/te/test-oe-build-time/poky/meta-clang \
+  /home/w/te/test-oe-build-time/poky/meta-openembedded/meta-oe \
+  /home/w/te/test-oe-build-time/poky/meta-rust \
+  /home/w/te/test-oe-build-time/poky/meta-browser \
+0.12user 0.08system 0:00.16elapsed 119%CPU (0avgtext+0avgdata 42768maxresident)k
+0inputs+4032outputs (0major+11446minor)pagefaults 0swaps
