@@ -36,7 +36,7 @@ for step in $steps; do
     builds="*/*${step}*.top20"
     [ $step = "builds" ] && builds="*/[4567]*build*.top20"
 
-    tasks=`grep -v '/build_stats$' ${builds} | sed 's/^.* seconds //g' | sort -u`
+    tasks=`grep -v '/build_stats$' ${builds} | sed 's/^.* seconds //g' | sed 's#-[^-/]*-[^-/]*/#.#g' | sort -u`
     for t in $tasks; do
         # m4-native-1.4.18-r0/do_configure
         task=`echo $t | sed "s#-[^-/]*-[^-/]*/#.#g"`
@@ -70,7 +70,7 @@ for step in $steps; do
     builds="*/*${step}*.top20"
     [ $step = "builds" ] && builds="*/[4567]*build*.top20"
 
-    tasks=`grep -v '/build_stats$' ${builds} | sed 's/^.* seconds //g' | sort -u`
+    tasks=`grep -v '/build_stats$' ${builds} | sed 's/^.* seconds //g' | sed 's#-[^-/]*-[^-/]*/#.#g' | sort -u`
 
     echo -n "task"
     for i in ${builds}; do
