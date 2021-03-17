@@ -3,7 +3,7 @@
 Tests build time on non-trivial OE build.
 
 Uses hardcoded git revisions of each layer, to make it reproducible.
-The baseline is latest revision in Yocto 3.0 Zeus.
+The baseline is latest revision in Yocto 3.3 Hardknott as of 2021-03-15.
 
 === Scripts ===
 
@@ -132,8 +132,4 @@ append "tail -n 5 *.log" from your directory which should show all times
 and build summaries.
 
 === Results ===
-.csv and .ods is in the repository. The same is also imported in google docs:
-https://docs.google.com/spreadsheets/d/1qtpACcUO0T1bhHPZxDQFvtYEesNTTfxuvFYFdU8kyjI/edit?usp=sharing
-
-and the html version:
-https://docs.google.com/spreadsheets/d/e/2PACX-1vSQmFvqik7MRumLafiZgwjE3IMLLcQY-71F3zNz9GuG8uzRb5FIp97uUqq6Qh3qWXQEWRK7Y9Hv2nXt/pubhtml#
+For results see "results" branch in this repository.

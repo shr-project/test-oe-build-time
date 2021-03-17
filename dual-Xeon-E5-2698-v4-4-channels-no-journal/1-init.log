@@ -1,49 +1,0 @@
-Cloning into 'poky'...
-Checking out files:  54% (2649/4897)   Checking out files:  55% (2694/4897)   Checking out files:  56% (2743/4897)   Checking out files:  57% (2792/4897)   Checking out files:  58% (2841/4897)   Checking out files:  59% (2890/4897)   Checking out files:  60% (2939/4897)   Checking out files:  61% (2988/4897)   Checking out files:  62% (3037/4897)   Checking out files:  63% (3086/4897)   Checking out files:  64% (3135/4897)   Checking out files:  65% (3184/4897)   Checking out files:  66% (3233/4897)   Checking out files:  67% (3281/4897)   Checking out files:  68% (3330/4897)   Checking out files:  69% (3379/4897)   Checking out files:  70% (3428/4897)   Checking out files:  71% (3477/4897)   Checking out files:  72% (3526/4897)   Checking out files:  73% (3575/4897)   Checking out files:  74% (3624/4897)   Checking out files:  75% (3673/4897)   Checking out files:  76% (3722/4897)   Checking out files:  77% (3771/4897)   Checking out files:  78% (3820/4897)   Checking out files:  79% (3869/4897)   Checking out files:  80% (3918/4897)   Checking out files:  81% (3967/4897)   Checking out files:  82% (4016/4897)   Checking out files:  83% (4065/4897)   Checking out files:  84% (4114/4897)   Checking out files:  85% (4163/4897)   Checking out files:  86% (4212/4897)   Checking out files:  87% (4261/4897)   Checking out files:  88% (4310/4897)   Checking out files:  89% (4359/4897)   Checking out files:  90% (4408/4897)   Checking out files:  91% (4457/4897)   Checking out files:  92% (4506/4897)   Checking out files:  93% (4555/4897)   Checking out files:  94% (4604/4897)   Checking out files:  95% (4653/4897)   Checking out files:  96% (4702/4897)   Checking out files:  97% (4751/4897)   Checking out files:  98% (4800/4897)   Checking out files:  99% (4849/4897)   Checking out files: 100% (4897/4897)   Checking out files: 100% (4897/4897), done.
-Switched to a new branch 'zeus'
-Cloning into 'meta-qt5'...
-Switched to a new branch 'zeus'
-Cloning into 'meta-browser'...
-Switched to a new branch 'zeus'
-Cloning into 'meta-openembedded'...
-Checking out files:  67% (3755/5531)   Checking out files:  68% (3762/5531)   Checking out files:  69% (3817/5531)   Checking out files:  70% (3872/5531)   Checking out files:  71% (3928/5531)   Checking out files:  72% (3983/5531)   Checking out files:  73% (4038/5531)   Checking out files:  74% (4093/5531)   Checking out files:  75% (4149/5531)   Checking out files:  76% (4204/5531)   Checking out files:  77% (4259/5531)   Checking out files:  78% (4315/5531)   Checking out files:  79% (4370/5531)   Checking out files:  80% (4425/5531)   Checking out files:  81% (4481/5531)   Checking out files:  82% (4536/5531)   Checking out files:  83% (4591/5531)   Checking out files:  84% (4647/5531)   Checking out files:  85% (4702/5531)   Checking out files:  86% (4757/5531)   Checking out files:  87% (4812/5531)   Checking out files:  88% (4868/5531)   Checking out files:  89% (4923/5531)   Checking out files:  90% (4978/5531)   Checking out files:  91% (5034/5531)   Checking out files:  92% (5089/5531)   Checking out files:  93% (5144/5531)   Checking out files:  94% (5200/5531)   Checking out files:  95% (5255/5531)   Checking out files:  96% (5310/5531)   Checking out files:  97% (5366/5531)   Checking out files:  98% (5421/5531)   Checking out files:  99% (5476/5531)   Checking out files: 100% (5531/5531)   Checking out files: 100% (5531/5531), done.
-Switched to a new branch 'zeus'
-Cloning into 'meta-clang'...
-Switched to a new branch 'zeus'
-Cloning into 'meta-rust'...
-Switched to a new branch 'zeus'
-You had no conf/local.conf file. This configuration file has therefore been
-created for you with some default values. You may wish to edit it to, for
-example, select a different MACHINE (target hardware). See conf/local.conf
-for more information as common configuration options are commented.
-
-You had no conf/bblayers.conf file. This configuration file has therefore been
-created for you with some default values. To add additional metadata layers
-into your configuration please add entries to conf/bblayers.conf.
-
-The Yocto Project has extensive documentation about OE including a reference
-manual which can be found at:
-    http://yoctoproject.org/documentation
-
-For more information about OpenEmbedded see their website:
-    http://www.openembedded.org/
-
-
-### Shell environment set up for builds. ###
-
-You can now run 'bitbake <target>'
-
-Common targets are:
-    core-image-minimal
-    core-image-sato
-    meta-toolchain
-    meta-ide-support
-
-You can also run generated qemu images with a command like 'runqemu qemux86'
-
-Other commonly useful commands are:
- - 'devtool' and 'recipetool' handle common recipe tasks
- - 'bitbake-layers' handles common layer tasks
- - 'oe-pkgdata-util' handles common target package tasks
-30.46user 11.10system 1:09.03elapsed 60%CPU (0avgtext+0avgdata 131132maxresident)k
-7560inputs+723176outputs (14major+176985minor)pagefaults 0swaps
