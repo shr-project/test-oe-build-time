@@ -1,0 +1,36 @@
+WARNING: Host distribution "ubuntu-21.04" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
+Loading cache...done.
+Loaded 3297 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.49.2"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.2+snapshot-ffc36f351f47e59beff8240e56cdc8648188ef19"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "hardknott:ffc36f351f47e59beff8240e56cdc8648188ef19"
+meta-python2         = "hardknott:044015255944fd8db139caec8981f2957f8e2604"
+meta-chromium        
+meta-firefox         = "hardknott:4e17167735f3ad7119548872108c4bafa3d38f07"
+meta-rust            = "hardknott:9a035fe27262bb23676da9f9f583e3ee39b0a377"
+meta-oe              = "hardknott:589aa162cead42acdd7e8dbd7c0243b95e341f19"
+meta-clang           = "hardknott:3fbc916a7987f15f874f40f9e5b531eb72bffc7a"
+meta-qt5             = "hardknott:324843cb1a2feb5f5c7b0064ca33edaa605cb749"
+
+Initialising tasks...done.
+Sstate summary: Wanted 92 Local 92 Network 0 Missed 0 Current 345 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Running task 2061 of 2061 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtwebengine_git.bb:do_compile)
+NOTE: recipe qtwebengine-5.15.2+gitAUTOINC+5537ff4437_f5a93d251c-r0: task do_compile: Started
+NOTE: recipe qtwebengine-5.15.2+gitAUTOINC+5537ff4437_f5a93d251c-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 2061 tasks of which 2060 didn't need to be rerun and all succeeded.
+
+Summary: There was 1 WARNING message shown.
+TIME: 784.61 0.49 4.34 0% 802 64190 12178 0 33220 0 bitbake -c compile qtwebengine
