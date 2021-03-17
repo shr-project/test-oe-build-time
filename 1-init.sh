@@ -6,24 +6,22 @@
 
 git clone git://git.yoctoproject.org/poky
 cd poky
-git checkout -b hardknott ffc36f351f47e59beff8240e56cdc8648188ef19
+git checkout -b hardknott 3cda6c0bd175282903079dea4affb3fcd290f137
 git clone https://github.com/meta-qt5/meta-qt5.git
 cd meta-qt5
-git checkout -b hardknott 324843cb1a2feb5f5c7b0064ca33edaa605cb749
+git checkout -b hardknott a00af3eae082b772469d9dd21b2371dd4d237684
 cd ..
-# temporarily use my fork with fix for newer meta-rust and split for meta-firefox and meta-chromium
-# git clone https://github.com/OSSystems/meta-browser.git
-git clone https://github.com/shr-project/meta-browser.git
+git clone https://github.com/OSSystems/meta-browser.git
 cd meta-browser
-git checkout -b hardknott 4e17167735f3ad7119548872108c4bafa3d38f07
+git checkout -b hardknott bdde7ca1fed0e29441d94ad6af8319b6df48063a
 cd ..
 git clone https://github.com/openembedded/meta-openembedded.git
 cd meta-openembedded
-git checkout -b hardknott 589aa162cead42acdd7e8dbd7c0243b95e341f19
+git checkout -b hardknott 36bb7d02a0f189768b380747a2349406ceffacbf
 cd ..
 git clone https://github.com/kraj/meta-clang.git
 cd meta-clang
-git checkout -b hardknott 3fbc916a7987f15f874f40f9e5b531eb72bffc7a
+git checkout -b hardknott e8a0bada69637ff7a767d387b803a42123aead0b
 cd ..
 git clone https://github.com/meta-rust/meta-rust.git
 cd meta-rust
@@ -31,7 +29,7 @@ git checkout -b hardknott 9a035fe27262bb23676da9f9f583e3ee39b0a377
 cd ..
 git clone git://git.openembedded.org/meta-python2
 cd meta-python2
-git checkout -b hardknott 044015255944fd8db139caec8981f2957f8e2604
+git checkout -b hardknott 5f4db648e00cf1c41e0999d3b184a02cde225143
 cd ..
 
 . ./oe-init-build-env
