@@ -1,0 +1,56 @@
+From 232ab2860f8826f920b8ca12d34e728f84320792 Mon Sep 17 00:00:00 2001
+From: Martin Jansa <Martin.Jansa@gmail.com>
+Date: Mon, 29 Mar 2021 12:47:58 +0200
+Subject: [PATCH] meta-clang: update dunfell branch to work with hardknott
+
+Signed-off-by: Martin Jansa <Martin.Jansa@gmail.com>
+---
+ conf/layer.conf                              | 2 +-
+ recipes-core/busybox/busybox_1.31.%.bbappend | 9 ---------
+ recipes-graphics/mesa/mesa_%.bbappend        | 4 ++--
+ 3 files changed, 3 insertions(+), 12 deletions(-)
+ delete mode 100644 recipes-core/busybox/busybox_1.31.%.bbappend
+
+diff --git a/conf/layer.conf b/conf/layer.conf
+index c0a422f..0e56d82 100644
+--- a/conf/layer.conf
++++ b/conf/layer.conf
+@@ -7,7 +7,7 @@ BBFILES += "${LAYERDIR}/recipes*/*/*.bb ${LAYERDIR}/recipes*/*/*.bbappend"
+ BBFILE_COLLECTIONS += "clang-layer"
+ BBFILE_PATTERN_clang-layer := "^${LAYERDIR}/"
+ BBFILE_PRIORITY_clang-layer = "7"
+-LAYERSERIES_COMPAT_clang-layer = "zeus dunfell"
++LAYERSERIES_COMPAT_clang-layer = "hardknott zeus dunfell"
+ LAYERDEPENDS_clang-layer = "core"
+ 
+ BBFILES_DYNAMIC += " \
+diff --git a/recipes-core/busybox/busybox_1.31.%.bbappend b/recipes-core/busybox/busybox_1.31.%.bbappend
+deleted file mode 100644
+index f26df7e..0000000
+--- a/recipes-core/busybox/busybox_1.31.%.bbappend
++++ /dev/null
+@@ -1,9 +0,0 @@
+-FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"
+-SRC_URI_append_toolchain-clang = "\
+-    file://0001-Turn-ptr_to_globals-and-bb_errno-to-be-non-const.patch \
+-"
+-
+-# networking/tls_pstm_sqr_comba.c:514:4: error: inline assembly requires more registers than available
+-#                        SQRADD2(*tmpx++, *tmpy--);
+-#                        ^
+-TOOLCHAIN_x86 = "gcc"
+diff --git a/recipes-graphics/mesa/mesa_%.bbappend b/recipes-graphics/mesa/mesa_%.bbappend
+index ce9c2fa..21ad421 100644
+--- a/recipes-graphics/mesa/mesa_%.bbappend
++++ b/recipes-graphics/mesa/mesa_%.bbappend
+@@ -6,5 +6,5 @@ EXTRA_OEMASON_append_toolchain-clang_x86-64 = " -Dasm=false"
+ 
+ export YOCTO_ALTERNATE_EXE_PATH = "${STAGING_LIBDIR}/llvm-config"
+ 
+-PACKAGECONFIG[gallium-llvm] = "-Dllvm=true -Dshared-llvm=true, -Dllvm=false, clang clang-native \
+-${@'elfutils' if ${GALLIUMDRIVERS_LLVM33_ENABLED} else ''}"
++#PACKAGECONFIG[gallium-llvm] = "-Dllvm=true -Dshared-llvm=true, -Dllvm=false, clang clang-native \
++#${@'elfutils' if ${GALLIUMDRIVERS_LLVM33_ENABLED} else ''}"
+-- 
+2.30.2
+

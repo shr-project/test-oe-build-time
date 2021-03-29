@@ -1,0 +1,168 @@
+From 9d594dea5dd91873395226b347dd3a103662db20 Mon Sep 17 00:00:00 2001
+From: Martin Jansa <Martin.Jansa@gmail.com>
+Date: Sun, 28 Mar 2021 21:00:56 +0200
+Subject: [PATCH] 1-init.sh: allow to build chromium-81* with latest meta-clang
+ with clang-12
+
+Signed-off-by: Martin Jansa <Martin.Jansa@gmail.com>
+---
+ ...-81-version-compatible-with-clang-12.patch | 122 ++++++++++++++++++
+ 1-init.sh                                     |   6 +-
+ 2 files changed, 125 insertions(+), 3 deletions(-)
+ create mode 100644 0001-chromium-make-81-version-compatible-with-clang-12.patch
+
+diff --git a/0001-chromium-make-81-version-compatible-with-clang-12.patch b/0001-chromium-make-81-version-compatible-with-clang-12.patch
+new file mode 100644
+index 0000000..34e69d9
+--- /dev/null
++++ b/0001-chromium-make-81-version-compatible-with-clang-12.patch
+@@ -0,0 +1,122 @@
++From 169527d7065632b4fa9a1b5bea2d98b1b1ddde91 Mon Sep 17 00:00:00 2001
++From: Martin Jansa <Martin.Jansa@gmail.com>
++Date: Sun, 28 Mar 2021 20:58:43 +0200
++Subject: [PATCH] chromium: make 81 version compatible with clang-12
++
++Signed-off-by: Martin Jansa <Martin.Jansa@gmail.com>
++---
++ conf/layer.conf                               |  2 +-
++ recipes-browser/chromium/chromium-gn.inc      |  2 ++
++ ...-IWYU-uint32_t-is-defined-in-cstdint.patch | 32 +++++++++++++++++
++ ...compile-error-emitted-by-trunk-clang.patch | 35 +++++++++++++++++++
++ 4 files changed, 70 insertions(+), 1 deletion(-)
++ create mode 100644 recipes-browser/chromium/files/0001-IWYU-uint32_t-is-defined-in-cstdint.patch
++ create mode 100644 recipes-browser/chromium/files/0002-perfetto-Fix-compile-error-emitted-by-trunk-clang.patch
++
++diff --git a/conf/layer.conf b/conf/layer.conf
++index 52595c5..9858d2c 100644
++--- a/conf/layer.conf
+++++ b/conf/layer.conf
++@@ -110,6 +110,6 @@ BBFILE_PATTERN_browser-layer := "^${LAYERDIR}/"
++ BBFILE_PRIORITY_browser-layer = "7"
++ 
++ LAYERVERSION_browser-layer = "1"
++-LAYERSERIES_COMPAT_browser-layer = "thud warrior zeus dunfell"
+++LAYERSERIES_COMPAT_browser-layer = "thud warrior zeus hardknott dunfell"
++ 
++ LAYERDEPENDS_browser-layer = "clang-layer core openembedded-layer"
++diff --git a/recipes-browser/chromium/chromium-gn.inc b/recipes-browser/chromium/chromium-gn.inc
++index f589462..ad1e98e 100644
++--- a/recipes-browser/chromium/chromium-gn.inc
+++++ b/recipes-browser/chromium/chromium-gn.inc
++@@ -22,6 +22,8 @@ SRC_URI += " \
++         file://include_string.patch \
++         file://chromium-Move-CharAllocator-definition-to-a-header-f.patch \
++         file://0003-Fix-sandbox-Aw-snap-for-syscalls-403-and-407.patch \
+++        file://0001-IWYU-uint32_t-is-defined-in-cstdint.patch \
+++        file://0002-perfetto-Fix-compile-error-emitted-by-trunk-clang.patch \
++ "
++ 
++ SRC_URI_append_libc-musl = "\
++diff --git a/recipes-browser/chromium/files/0001-IWYU-uint32_t-is-defined-in-cstdint.patch b/recipes-browser/chromium/files/0001-IWYU-uint32_t-is-defined-in-cstdint.patch
++new file mode 100644
++index 0000000..2637396
++--- /dev/null
+++++ b/recipes-browser/chromium/files/0001-IWYU-uint32_t-is-defined-in-cstdint.patch
++@@ -0,0 +1,32 @@
+++From 6aecf51bf9d10bb89c49fe80a250fe7f8e289454 Mon Sep 17 00:00:00 2001
+++From: Stephan Hartmann <stha09@googlemail.com>
+++Date: Thu, 7 May 2020 16:08:25 +0000
+++Subject: [PATCH 1/2] IWYU: uint32_t is defined in cstdint
+++
+++This is required for gcc-10.
+++
+++Change-Id: I6659a14f885011941887702171f6e49b8740f049
+++Reviewed-on: https://chromium-review.googlesource.com/c/chromium/src/+/2174486
+++Reviewed-by: Michael Spang <spang@chromium.org>
+++Commit-Queue: Robert Kroeger <rjkroege@chromium.org>
+++Cr-Commit-Position: refs/heads/master@{#766427}
+++---
+++ ui/gfx/linux/drm_util_linux.h | 2 ++
+++ 1 file changed, 2 insertions(+)
+++
+++diff --git a/ui/gfx/linux/drm_util_linux.h b/ui/gfx/linux/drm_util_linux.h
+++index 86ff2eb206..25aa65f417 100644
+++--- a/ui/gfx/linux/drm_util_linux.h
++++++ b/ui/gfx/linux/drm_util_linux.h
+++@@ -5,6 +5,8 @@
+++ #ifndef UI_GFX_LINUX_DRM_UTIL_LINUX_H_
+++ #define UI_GFX_LINUX_DRM_UTIL_LINUX_H_
+++ 
++++#include <cstdint>
++++
+++ #include "ui/gfx/buffer_types.h"
+++ 
+++ namespace ui {
+++-- 
+++2.30.2
+++
++diff --git a/recipes-browser/chromium/files/0002-perfetto-Fix-compile-error-emitted-by-trunk-clang.patch b/recipes-browser/chromium/files/0002-perfetto-Fix-compile-error-emitted-by-trunk-clang.patch
++new file mode 100644
++index 0000000..4abd856
++--- /dev/null
+++++ b/recipes-browser/chromium/files/0002-perfetto-Fix-compile-error-emitted-by-trunk-clang.patch
++@@ -0,0 +1,35 @@
+++From fb180a37f5be930e325684fb3d540701e3f9e0fc Mon Sep 17 00:00:00 2001
+++From: Nico Weber <thakis@chromium.org>
+++Date: Sat, 8 Feb 2020 21:26:53 -0500
+++Subject: [PATCH 2/2] perfetto: Fix compile error emitted by trunk clang
+++
+++../../third_party/perfetto/src/tracing/core/virtual_destructors.cc:33:35:
+++error: destructor cannot be declared using a type alias
+++    'perfetto::TracingService::ConsumerEndpoint' (aka
+++    'perfetto::ConsumerEndpoint') of the class name
+++TracingService::ConsumerEndpoint::~ConsumerEndpoint() = default;
+++
+++Bug: chromium:1050372
+++Change-Id: Icc1a8cca06b72ee3322924dc0825ebb62086f730
+++---
+++ third_party/perfetto/src/tracing/core/virtual_destructors.cc | 4 ++--
+++ 1 file changed, 2 insertions(+), 2 deletions(-)
+++
+++diff --git a/third_party/perfetto/src/tracing/core/virtual_destructors.cc b/third_party/perfetto/src/tracing/core/virtual_destructors.cc
+++index 75fc806a57..2f8bb3cef7 100644
+++--- a/third_party/perfetto/src/tracing/core/virtual_destructors.cc
++++++ b/third_party/perfetto/src/tracing/core/virtual_destructors.cc
+++@@ -30,8 +30,8 @@ namespace perfetto {
+++ Consumer::~Consumer() = default;
+++ Producer::~Producer() = default;
+++ TracingService::~TracingService() = default;
+++-TracingService::ConsumerEndpoint::~ConsumerEndpoint() = default;
+++-TracingService::ProducerEndpoint::~ProducerEndpoint() = default;
++++ConsumerEndpoint::~ConsumerEndpoint() = default;
++++ProducerEndpoint::~ProducerEndpoint() = default;
+++ SharedMemory::~SharedMemory() = default;
+++ SharedMemory::Factory::~Factory() = default;
+++ SharedMemoryArbiter::~SharedMemoryArbiter() = default;
+++-- 
+++2.30.2
+++
++-- 
++2.30.2
++
+diff --git a/1-init.sh b/1-init.sh
+index 1aa7ac1..7afcf44 100755
+--- a/1-init.sh
++++ b/1-init.sh
+@@ -13,7 +13,8 @@ git checkout -b hardknott a00af3eae082b772469d9dd21b2371dd4d237684
+ cd ..
+ git clone https://github.com/OSSystems/meta-browser.git
+ cd meta-browser
+-git checkout -b hardknott bdde7ca1fed0e29441d94ad6af8319b6df48063a
++git checkout -b dunfell 5e58ff65facc27a3054a4d3f97d3329342d49afa
++git am ../../0001-chromium-make-81-version-compatible-with-clang-12.patch
+ cd ..
+ git clone https://github.com/openembedded/meta-openembedded.git
+ cd meta-openembedded
+@@ -46,8 +47,7 @@ if ! grep -q meta-rust conf/bblayers.conf ; then
+   sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-rust/g' conf/bblayers.conf
+ fi
+ if ! grep -q meta-browser conf/bblayers.conf ; then
+-  sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-browser\/meta-firefox/g' conf/bblayers.conf
+-  sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-browser\/meta-chromium/g' conf/bblayers.conf
++  sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-browser/g' conf/bblayers.conf
+ fi
+ if ! grep -q meta-python2 conf/bblayers.conf ; then
+   sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-python2/g' conf/bblayers.conf
+-- 
+2.30.2
+
