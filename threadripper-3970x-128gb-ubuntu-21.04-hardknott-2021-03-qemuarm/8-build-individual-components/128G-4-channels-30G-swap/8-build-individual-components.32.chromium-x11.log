@@ -1,0 +1,39 @@
+WARNING: Host distribution "ubuntu-21.04" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
+Loading cache...done.
+Loaded 3290 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.49.2"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "arm-poky-linux-gnueabi"
+MACHINE              = "qemuarm"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.2+snapshot-3cda6c0bd175282903079dea4affb3fcd290f137"
+TUNE_FEATURES        = "arm armv7ve vfp thumb neon callconvention-hard"
+TARGET_FPU           = "hard"
+meta                 
+meta-poky            
+meta-yocto-bsp       = "hardknott:3cda6c0bd175282903079dea4affb3fcd290f137"
+meta-python2         = "hardknott:5f4db648e00cf1c41e0999d3b184a02cde225143"
+meta-chromium        
+meta-firefox         = "hardknott:bdde7ca1fed0e29441d94ad6af8319b6df48063a"
+meta-rust            = "hardknott:9a035fe27262bb23676da9f9f583e3ee39b0a377"
+meta-oe              = "hardknott:36bb7d02a0f189768b380747a2349406ceffacbf"
+meta-clang           = "hardknott:e8a0bada69637ff7a767d387b803a42123aead0b"
+meta-qt5             = "hardknott:a00af3eae082b772469d9dd21b2371dd4d237684"
+
+Initialising tasks...done.
+Sstate summary: Wanted 26 Local 26 Network 0 Missed 0 Current 457 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Running task 2258 of 2259 (/OE/build/test-oe-build-time/poky/meta-browser/meta-chromium/recipes-browser/chromium/chromium-x11_89.0.4389.90.bb:do_add_nodejs_symlink)
+NOTE: recipe chromium-x11-89.0.4389.90-r0: task do_add_nodejs_symlink: Started
+NOTE: recipe chromium-x11-89.0.4389.90-r0: task do_add_nodejs_symlink: Succeeded
+NOTE: Running task 2259 of 2259 (/OE/build/test-oe-build-time/poky/meta-browser/meta-chromium/recipes-browser/chromium/chromium-x11_89.0.4389.90.bb:do_compile)
+NOTE: recipe chromium-x11-89.0.4389.90-r0: task do_compile: Started
+NOTE: recipe chromium-x11-89.0.4389.90-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 2259 tasks of which 2257 didn't need to be rerun and all succeeded.
+
+Summary: There was 1 WARNING message shown.
+TIME: 4220.95 0.99 9.32 0% 1257 166092 12179 0 33176 0 bitbake -c compile chromium-x11

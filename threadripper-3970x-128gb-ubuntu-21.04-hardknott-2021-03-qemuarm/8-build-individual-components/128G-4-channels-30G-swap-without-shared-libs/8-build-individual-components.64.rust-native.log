@@ -1,0 +1,39 @@
+WARNING: Host distribution "ubuntu-21.04" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
+Loading cache...done.
+Loaded 3290 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.49.2"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "arm-poky-linux-gnueabi"
+MACHINE              = "qemuarm"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.2+snapshot-3cda6c0bd175282903079dea4affb3fcd290f137"
+TUNE_FEATURES        = "arm armv7ve vfp thumb neon callconvention-hard"
+TARGET_FPU           = "hard"
+meta                 
+meta-poky            
+meta-yocto-bsp       = "hardknott:3cda6c0bd175282903079dea4affb3fcd290f137"
+meta-python2         = "hardknott:5f4db648e00cf1c41e0999d3b184a02cde225143"
+meta-chromium        
+meta-firefox         = "hardknott:bdde7ca1fed0e29441d94ad6af8319b6df48063a"
+meta-rust            = "hardknott:9a035fe27262bb23676da9f9f583e3ee39b0a377"
+meta-oe              = "hardknott:36bb7d02a0f189768b380747a2349406ceffacbf"
+meta-clang           = "hardknott:89733fd2d9dc30caea9d9991d5e38e46ad58d8b8"
+meta-qt5             = "hardknott:a00af3eae082b772469d9dd21b2371dd4d237684"
+
+Initialising tasks...done.
+Sstate summary: Wanted 0 Local 0 Network 0 Missed 0 Current 61 (0% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Running task 248 of 281 (virtual:native:/OE/build/test-oe-build-time/poky/meta-rust/recipes-devtools/rust/rust_1.49.0.bb:do_rust_gen_targets)
+NOTE: recipe rust-native-1.49.0-r0: task do_rust_gen_targets: Started
+NOTE: recipe rust-native-1.49.0-r0: task do_rust_gen_targets: Succeeded
+NOTE: Running task 281 of 281 (virtual:native:/OE/build/test-oe-build-time/poky/meta-rust/recipes-devtools/rust/rust_1.49.0.bb:do_compile)
+NOTE: recipe rust-native-1.49.0-r0: task do_compile: Started
+NOTE: recipe rust-native-1.49.0-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 281 tasks of which 279 didn't need to be rerun and all succeeded.
+
+Summary: There was 1 WARNING message shown.
+TIME: 602.41 0.04 0.40 0% 40 13294 12176 0 33228 0 bitbake -c compile rust-native
