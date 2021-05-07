@@ -1,0 +1,185 @@
+
+### Shell environment set up for builds. ###
+
+You can now run 'bitbake <target>'
+
+Common targets are:
+    core-image-minimal
+    core-image-full-cmdline
+    core-image-sato
+    core-image-weston
+    meta-toolchain
+    meta-ide-support
+
+You can also run generated qemu images with a command like 'runqemu qemux86'
+
+Other commonly useful commands are:
+ - 'devtool' and 'recipetool' handle common recipe tasks
+ - 'bitbake-layers' handles common layer tasks
+ - 'oe-pkgdata-util' handles common target package tasks
+Loading cache...done.
+Loaded 0 entries from dependency cache.
+Parsing recipes...done.
+Parsing of 2127 .bb files complete (0 cached, 2127 parsed). 3290 targets, 376 skipped, 0 masked, 0 errors.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.49.2"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "ubuntu-18.04"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.2+snapshot-3cda6c0bd175282903079dea4affb3fcd290f137"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "hardknott:3cda6c0bd175282903079dea4affb3fcd290f137"
+meta-python2         = "hardknott:5f4db648e00cf1c41e0999d3b184a02cde225143"
+meta-chromium        
+meta-firefox         = "hardknott:bdde7ca1fed0e29441d94ad6af8319b6df48063a"
+meta-rust            = "hardknott:9a035fe27262bb23676da9f9f583e3ee39b0a377"
+meta-oe              = "hardknott:36bb7d02a0f189768b380747a2349406ceffacbf"
+meta-clang           = "hardknott:e8a0bada69637ff7a767d387b803a42123aead0b"
+meta-qt5             = "hardknott:a00af3eae082b772469d9dd21b2371dd4d237684"
+
+NOTE: Fetching uninative binary shim http://downloads.yoctoproject.org/releases/uninative/3.0/x86_64-nativesdk-libc.tar.xz;sha256sum=5ec5a9276046e7eceeac749a18b175667384e1f445cd4526300a41404d985a5b (will check PREMIRRORS first)
+Initialising tasks...done.
+Sstate summary: Wanted 12 Local 0 Network 0 Missed 12 Current 0 (0% match, 0% complete)
+NOTE: Executing Tasks
+NOTE: Running task 1 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.66.bb:do_fetch)
+NOTE: Running task 2 of 46 (virtual:native:/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb:do_fetch)
+NOTE: Running task 3 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb:do_fetch)
+NOTE: Running task 4 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.18.bb:do_fetch)
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_fetch: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_fetch: Succeeded
+NOTE: Running task 5 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb:do_prepare_recipe_sysroot)
+NOTE: Running task 6 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb:do_unpack)
+NOTE: recipe quilt-native-0.66-r0: task do_fetch: Started
+NOTE: recipe m4-native-1.4.18-r0: task do_fetch: Started
+NOTE: recipe gnu-config-native-20210125+gitAUTOINC+6faca61810-r0: task do_fetch: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_prepare_recipe_sysroot: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_unpack: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_prepare_recipe_sysroot: Succeeded
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_unpack: Succeeded
+NOTE: recipe quilt-native-0.66-r0: task do_fetch: Succeeded
+NOTE: Running task 7 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.66.bb:do_prepare_recipe_sysroot)
+NOTE: Running task 8 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.66.bb:do_unpack)
+NOTE: recipe quilt-native-0.66-r0: task do_unpack: Started
+NOTE: recipe quilt-native-0.66-r0: task do_prepare_recipe_sysroot: Started
+NOTE: recipe quilt-native-0.66-r0: task do_prepare_recipe_sysroot: Succeeded
+NOTE: recipe quilt-native-0.66-r0: task do_unpack: Succeeded
+NOTE: Running task 9 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.66.bb:do_patch)
+NOTE: recipe quilt-native-0.66-r0: task do_patch: Started
+NOTE: recipe quilt-native-0.66-r0: task do_patch: Succeeded
+NOTE: Running task 10 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.66.bb:do_populate_lic)
+NOTE: Running task 11 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.66.bb:do_deploy_source_date_epoch)
+NOTE: recipe quilt-native-0.66-r0: task do_deploy_source_date_epoch: Started
+NOTE: recipe quilt-native-0.66-r0: task do_populate_lic: Started
+NOTE: recipe quilt-native-0.66-r0: task do_populate_lic: Succeeded
+NOTE: recipe quilt-native-0.66-r0: task do_deploy_source_date_epoch: Succeeded
+NOTE: Running task 12 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.66.bb:do_configure)
+NOTE: recipe quilt-native-0.66-r0: task do_configure: Started
+NOTE: recipe quilt-native-0.66-r0: task do_configure: Succeeded
+NOTE: Running task 13 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.66.bb:do_compile)
+NOTE: recipe quilt-native-0.66-r0: task do_compile: Started
+NOTE: recipe quilt-native-0.66-r0: task do_compile: Succeeded
+NOTE: Running task 14 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.66.bb:do_install)
+NOTE: recipe quilt-native-0.66-r0: task do_install: Started
+NOTE: recipe quilt-native-0.66-r0: task do_install: Succeeded
+NOTE: Running task 15 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.66.bb:do_populate_sysroot)
+NOTE: recipe quilt-native-0.66-r0: task do_populate_sysroot: Started
+NOTE: recipe quilt-native-0.66-r0: task do_populate_sysroot: Succeeded
+NOTE: Running task 16 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.66.bb:do_rm_work)
+NOTE: Running task 17 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb:do_patch)
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_patch: Started
+NOTE: recipe quilt-native-0.66-r0: task do_rm_work: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_patch: Succeeded
+NOTE: Running task 18 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb:do_populate_lic)
+NOTE: Running task 19 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb:do_deploy_source_date_epoch)
+NOTE: recipe quilt-native-0.66-r0: task do_rm_work: Succeeded
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_populate_lic: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_deploy_source_date_epoch: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_populate_lic: Succeeded
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_deploy_source_date_epoch: Succeeded
+NOTE: Running task 20 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb:do_configure)
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_configure: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_configure: Succeeded
+NOTE: Running task 21 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb:do_compile)
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_compile: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_compile: Succeeded
+NOTE: Running task 22 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb:do_install)
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_install: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_install: Succeeded
+NOTE: Running task 23 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb:do_populate_sysroot)
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_populate_sysroot: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_populate_sysroot: Succeeded
+NOTE: Running task 24 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb:do_rm_work)
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_rm_work: Started
+NOTE: recipe m4-native-1.4.18-r0: task do_fetch: Succeeded
+NOTE: Running task 25 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.18.bb:do_unpack)
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_rm_work: Succeeded
+NOTE: recipe m4-native-1.4.18-r0: task do_unpack: Started
+NOTE: recipe m4-native-1.4.18-r0: task do_unpack: Succeeded
+NOTE: Running task 26 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.18.bb:do_patch)
+NOTE: recipe m4-native-1.4.18-r0: task do_patch: Started
+NOTE: recipe m4-native-1.4.18-r0: task do_patch: Succeeded
+NOTE: Running task 27 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.18.bb:do_populate_lic)
+NOTE: Running task 28 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.18.bb:do_deploy_source_date_epoch)
+NOTE: recipe m4-native-1.4.18-r0: task do_populate_lic: Started
+NOTE: recipe m4-native-1.4.18-r0: task do_deploy_source_date_epoch: Started
+NOTE: recipe m4-native-1.4.18-r0: task do_populate_lic: Succeeded
+NOTE: recipe m4-native-1.4.18-r0: task do_deploy_source_date_epoch: Succeeded
+NOTE: recipe gnu-config-native-20210125+gitAUTOINC+6faca61810-r0: task do_fetch: Succeeded
+NOTE: Running task 29 of 46 (virtual:native:/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb:do_prepare_recipe_sysroot)
+NOTE: Running task 30 of 46 (virtual:native:/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb:do_unpack)
+NOTE: recipe gnu-config-native-20210125+gitAUTOINC+6faca61810-r0: task do_prepare_recipe_sysroot: Started
+NOTE: recipe gnu-config-native-20210125+gitAUTOINC+6faca61810-r0: task do_unpack: Started
+NOTE: recipe gnu-config-native-20210125+gitAUTOINC+6faca61810-r0: task do_prepare_recipe_sysroot: Succeeded
+NOTE: recipe gnu-config-native-20210125+gitAUTOINC+6faca61810-r0: task do_unpack: Succeeded
+NOTE: Running task 31 of 46 (virtual:native:/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb:do_patch)
+NOTE: recipe gnu-config-native-20210125+gitAUTOINC+6faca61810-r0: task do_patch: Started
+NOTE: recipe gnu-config-native-20210125+gitAUTOINC+6faca61810-r0: task do_patch: Succeeded
+NOTE: Running task 32 of 46 (virtual:native:/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb:do_populate_lic)
+NOTE: Running task 33 of 46 (virtual:native:/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb:do_deploy_source_date_epoch)
+NOTE: recipe gnu-config-native-20210125+gitAUTOINC+6faca61810-r0: task do_populate_lic: Started
+NOTE: recipe gnu-config-native-20210125+gitAUTOINC+6faca61810-r0: task do_deploy_source_date_epoch: Started
+NOTE: recipe gnu-config-native-20210125+gitAUTOINC+6faca61810-r0: task do_populate_lic: Succeeded
+NOTE: recipe gnu-config-native-20210125+gitAUTOINC+6faca61810-r0: task do_deploy_source_date_epoch: Succeeded
+NOTE: Running task 34 of 46 (virtual:native:/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb:do_configure)
+NOTE: recipe gnu-config-native-20210125+gitAUTOINC+6faca61810-r0: task do_configure: Started
+NOTE: recipe gnu-config-native-20210125+gitAUTOINC+6faca61810-r0: task do_configure: Succeeded
+NOTE: Running noexec task 35 of 46 (virtual:native:/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb:do_compile)
+NOTE: Running task 36 of 46 (virtual:native:/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb:do_install)
+NOTE: recipe gnu-config-native-20210125+gitAUTOINC+6faca61810-r0: task do_install: Started
+NOTE: recipe gnu-config-native-20210125+gitAUTOINC+6faca61810-r0: task do_install: Succeeded
+NOTE: Running task 37 of 46 (virtual:native:/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb:do_populate_sysroot)
+NOTE: recipe gnu-config-native-20210125+gitAUTOINC+6faca61810-r0: task do_populate_sysroot: Started
+NOTE: recipe gnu-config-native-20210125+gitAUTOINC+6faca61810-r0: task do_populate_sysroot: Succeeded
+NOTE: Running task 38 of 46 (virtual:native:/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb:do_rm_work)
+NOTE: Running task 39 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.18.bb:do_prepare_recipe_sysroot)
+NOTE: recipe m4-native-1.4.18-r0: task do_prepare_recipe_sysroot: Started
+NOTE: recipe m4-native-1.4.18-r0: task do_prepare_recipe_sysroot: Succeeded
+NOTE: Running task 40 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.18.bb:do_configure)
+NOTE: recipe gnu-config-native-20210125+gitAUTOINC+6faca61810-r0: task do_rm_work: Started
+NOTE: recipe gnu-config-native-20210125+gitAUTOINC+6faca61810-r0: task do_rm_work: Succeeded
+NOTE: recipe m4-native-1.4.18-r0: task do_configure: Started
+NOTE: recipe m4-native-1.4.18-r0: task do_configure: Succeeded
+NOTE: Running task 41 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.18.bb:do_compile)
+NOTE: recipe m4-native-1.4.18-r0: task do_compile: Started
+NOTE: recipe m4-native-1.4.18-r0: task do_compile: Succeeded
+NOTE: Running task 42 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.18.bb:do_install)
+NOTE: recipe m4-native-1.4.18-r0: task do_install: Started
+NOTE: recipe m4-native-1.4.18-r0: task do_install: Succeeded
+NOTE: Running task 43 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.18.bb:do_populate_sysroot)
+NOTE: recipe m4-native-1.4.18-r0: task do_populate_sysroot: Started
+NOTE: recipe m4-native-1.4.18-r0: task do_populate_sysroot: Succeeded
+NOTE: Running task 44 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.18.bb:do_rm_work)
+NOTE: recipe m4-native-1.4.18-r0: task do_rm_work: Started
+NOTE: recipe m4-native-1.4.18-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 45 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.18.bb:do_rm_work_all)
+NOTE: Running noexec task 46 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.18.bb:do_build)
+NOTE: Tasks Summary: Attempted 46 tasks of which 0 didn't need to be rerun and all succeeded.
+0.30user 0.03system 0:41.36elapsed 0%CPU (0avgtext+0avgdata 30844maxresident)k
+0inputs+2792outputs (0major+18766minor)pagefaults 0swaps

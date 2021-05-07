@@ -1,0 +1,55 @@
+SYS:	frosteyes - nova workstation
+CPU:	16 cores - 32 threads AMD Ryzen 9 5950X 16-Core Processor
+MB:	Asus ROG CROSSHAIR VIII HERO, BIOS 3204
+RAM:	128GB (4x32G DDR4-3600 CL 16-18-18-38 Crucial Ballistix BL2K32G36C16U4B @ 3600MHz MHz)
+DISK:	1TB Corsair Force PCIe Gen.4 MP600 M.2 NVMe SSD
+OS:	Gentoo (running Ubuntu 18.04 in docker)
+
+==> 1-init.log <==
+ - 'devtool' and 'recipetool' handle common recipe tasks
+ - 'bitbake-layers' handles common layer tasks
+ - 'oe-pkgdata-util' handles common target package tasks
+12.15user 2.95system 1:39.67elapsed 15%CPU (0avgtext+0avgdata 140672maxresident)k
+0inputs+701056outputs (0major+141704minor)pagefaults 0swaps
+
+==> 2-build-test.log <==
+NOTE: Running noexec task 45 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.18.bb:do_rm_work_all)
+NOTE: Running noexec task 46 of 46 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.18.bb:do_build)
+NOTE: Tasks Summary: Attempted 46 tasks of which 0 didn't need to be rerun and all succeeded.
+0.30user 0.03system 0:41.36elapsed 0%CPU (0avgtext+0avgdata 30844maxresident)k
+0inputs+2792outputs (0major+18766minor)pagefaults 0swaps
+
+==> 3-fetch.log <==
+NOTE: Tasks Summary: Attempted 565 tasks of which 0 didn't need to be rerun and all succeeded.
+
+Summary: There was 1 WARNING message shown.
+2.81user 0.26system 37:22.59elapsed 0%CPU (0avgtext+0avgdata 28768maxresident)k
+0inputs+656outputs (0major+12952minor)pagefaults 0swaps
+
+==> 4-build-all-cores.log <==
+NOTE: recipe core-image-sato-1.0-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 9045 of 9045 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-sato/images/core-image-sato.bb:do_build)
+NOTE: Tasks Summary: Attempted 9045 tasks of which 0 didn't need to be rerun and all succeeded.
+38.66user 3.54system 3:41:26elapsed 0%CPU (0avgtext+0avgdata 28900maxresident)k
+8inputs+6048outputs (0major+13159minor)pagefaults 0swaps
+
+==> 5-build-8-bb-threads.log <==
+NOTE: recipe core-image-sato-1.0-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 9045 of 9045 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-sato/images/core-image-sato.bb:do_build)
+NOTE: Tasks Summary: Attempted 9045 tasks of which 0 didn't need to be rerun and all succeeded.
+36.81user 3.56system 3:46:40elapsed 0%CPU (0avgtext+0avgdata 29196maxresident)k
+8488inputs+6328outputs (13major+13112minor)pagefaults 0swaps
+
+==> 6-build-16-bb-threads.log <==
+NOTE: recipe core-image-sato-1.0-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 9045 of 9045 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-sato/images/core-image-sato.bb:do_build)
+NOTE: Tasks Summary: Attempted 9045 tasks of which 0 didn't need to be rerun and all succeeded.
+39.07user 3.68system 3:42:59elapsed 0%CPU (0avgtext+0avgdata 29040maxresident)k
+6888inputs+6008outputs (10major+13110minor)pagefaults 0swaps
+
+==> 7-build-2-bb-threads.log <==
+NOTE: recipe core-image-sato-1.0-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 9045 of 9045 (/home/yocto/oe-test/test-oe-build-time/poky/meta/recipes-sato/images/core-image-sato.bb:do_build)
+NOTE: Tasks Summary: Attempted 9045 tasks of which 0 didn't need to be rerun and all succeeded.
+30.30user 2.79system 4:29:35elapsed 0%CPU (0avgtext+0avgdata 28952maxresident)k
+688inputs+6744outputs (15major+13035minor)pagefaults 0swaps
