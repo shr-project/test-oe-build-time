@@ -1,6 +1,7 @@
 builder;step;task;time
 VM-20t-157G-zeus;2-build-test;gnu-config-native.do_fetch;---
 VM-20t-98G-zeus;2-build-test;gnu-config-native.do_fetch;---
+dual-Epyc-7763;2-build-test;gnu-config-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;gnu-config-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;gnu-config-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;gnu-config-native.do_fetch;---
@@ -12,6 +13,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;gnu-config-native.do_fet
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;gnu-config-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;gnu-config-native.do_fetch;---
 ryzen-5-1600AF-zeus;2-build-test;gnu-config-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;gnu-config-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;gnu-config-native.do_fetch;---
 ryzen-9-5950x-zeus;2-build-test;gnu-config-native.do_fetch;---
 threadripper-2990wx-128gb-zeus;2-build-test;gnu-config-native.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;gnu-config-native.do_fetch;---
@@ -28,6 +31,7 @@ threadripper-3990x-256gb-zeus;2-build-test;gnu-config-native.do_fetch;---
 vSphere-VM-28t-55G-zeus;2-build-test;gnu-config-native.do_fetch;---
 VM-20t-157G-zeus;2-build-test;gnu-config-native.do_install;---
 VM-20t-98G-zeus;2-build-test;gnu-config-native.do_install;---
+dual-Epyc-7763;2-build-test;gnu-config-native.do_install;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;gnu-config-native.do_install;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;gnu-config-native.do_install;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;gnu-config-native.do_install;---
@@ -39,6 +43,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;gnu-config-native.do_ins
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;gnu-config-native.do_install;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;gnu-config-native.do_install;---
 ryzen-5-1600AF-zeus;2-build-test;gnu-config-native.do_install;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;gnu-config-native.do_install;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;gnu-config-native.do_install;---
 ryzen-9-5950x-zeus;2-build-test;gnu-config-native.do_install;---
 threadripper-2990wx-128gb-zeus;2-build-test;gnu-config-native.do_install;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;gnu-config-native.do_install;---
@@ -55,6 +61,7 @@ threadripper-3990x-256gb-zeus;2-build-test;gnu-config-native.do_install;---
 vSphere-VM-28t-55G-zeus;2-build-test;gnu-config-native.do_install;---
 VM-20t-157G-zeus;2-build-test;gnu-config-native.do_populate_lic;---
 VM-20t-98G-zeus;2-build-test;gnu-config-native.do_populate_lic;---
+dual-Epyc-7763;2-build-test;gnu-config-native.do_populate_lic;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;gnu-config-native.do_populate_lic;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;gnu-config-native.do_populate_lic;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;gnu-config-native.do_populate_lic;---
@@ -66,6 +73,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;gnu-config-native.do_pop
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;gnu-config-native.do_populate_lic;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;gnu-config-native.do_populate_lic;---
 ryzen-5-1600AF-zeus;2-build-test;gnu-config-native.do_populate_lic;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;gnu-config-native.do_populate_lic;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;gnu-config-native.do_populate_lic;---
 ryzen-9-5950x-zeus;2-build-test;gnu-config-native.do_populate_lic;---
 threadripper-2990wx-128gb-zeus;2-build-test;gnu-config-native.do_populate_lic;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;gnu-config-native.do_populate_lic;---
@@ -82,6 +91,7 @@ threadripper-3990x-256gb-zeus;2-build-test;gnu-config-native.do_populate_lic;---
 vSphere-VM-28t-55G-zeus;2-build-test;gnu-config-native.do_populate_lic;---
 VM-20t-157G-zeus;2-build-test;gnu-config-native.do_populate_sysroot;---
 VM-20t-98G-zeus;2-build-test;gnu-config-native.do_populate_sysroot;---
+dual-Epyc-7763;2-build-test;gnu-config-native.do_populate_sysroot;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;gnu-config-native.do_populate_sysroot;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;gnu-config-native.do_populate_sysroot;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;gnu-config-native.do_populate_sysroot;---
@@ -93,6 +103,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;gnu-config-native.do_pop
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;gnu-config-native.do_populate_sysroot;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;gnu-config-native.do_populate_sysroot;---
 ryzen-5-1600AF-zeus;2-build-test;gnu-config-native.do_populate_sysroot;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;gnu-config-native.do_populate_sysroot;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;gnu-config-native.do_populate_sysroot;---
 ryzen-9-5950x-zeus;2-build-test;gnu-config-native.do_populate_sysroot;---
 threadripper-2990wx-128gb-zeus;2-build-test;gnu-config-native.do_populate_sysroot;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;gnu-config-native.do_populate_sysroot;---
@@ -109,6 +121,7 @@ threadripper-3990x-256gb-zeus;2-build-test;gnu-config-native.do_populate_sysroot
 vSphere-VM-28t-55G-zeus;2-build-test;gnu-config-native.do_populate_sysroot;---
 VM-20t-157G-zeus;2-build-test;gnu-config-native.do_rm_work;---
 VM-20t-98G-zeus;2-build-test;gnu-config-native.do_rm_work;---
+dual-Epyc-7763;2-build-test;gnu-config-native.do_rm_work;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;gnu-config-native.do_rm_work;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;gnu-config-native.do_rm_work;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;gnu-config-native.do_rm_work;---
@@ -120,6 +133,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;gnu-config-native.do_rm_
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;gnu-config-native.do_rm_work;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;gnu-config-native.do_rm_work;---
 ryzen-5-1600AF-zeus;2-build-test;gnu-config-native.do_rm_work;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;gnu-config-native.do_rm_work;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;gnu-config-native.do_rm_work;---
 ryzen-9-5950x-zeus;2-build-test;gnu-config-native.do_rm_work;---
 threadripper-2990wx-128gb-zeus;2-build-test;gnu-config-native.do_rm_work;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;gnu-config-native.do_rm_work;---
@@ -136,6 +151,7 @@ threadripper-3990x-256gb-zeus;2-build-test;gnu-config-native.do_rm_work;---
 vSphere-VM-28t-55G-zeus;2-build-test;gnu-config-native.do_rm_work;---
 VM-20t-157G-zeus;2-build-test;gnu-config-native.do_unpack;---
 VM-20t-98G-zeus;2-build-test;gnu-config-native.do_unpack;---
+dual-Epyc-7763;2-build-test;gnu-config-native.do_unpack;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;gnu-config-native.do_unpack;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;gnu-config-native.do_unpack;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;gnu-config-native.do_unpack;---
@@ -147,6 +163,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;gnu-config-native.do_unp
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;gnu-config-native.do_unpack;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;gnu-config-native.do_unpack;---
 ryzen-5-1600AF-zeus;2-build-test;gnu-config-native.do_unpack;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;gnu-config-native.do_unpack;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;gnu-config-native.do_unpack;---
 ryzen-9-5950x-zeus;2-build-test;gnu-config-native.do_unpack;---
 threadripper-2990wx-128gb-zeus;2-build-test;gnu-config-native.do_unpack;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;gnu-config-native.do_unpack;---
@@ -163,6 +181,7 @@ threadripper-3990x-256gb-zeus;2-build-test;gnu-config-native.do_unpack;---
 vSphere-VM-28t-55G-zeus;2-build-test;gnu-config-native.do_unpack;---
 VM-20t-157G-zeus;2-build-test;m4-native.do_compile;---
 VM-20t-98G-zeus;2-build-test;m4-native.do_compile;---
+dual-Epyc-7763;2-build-test;m4-native.do_compile;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;m4-native.do_compile;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;m4-native.do_compile;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;m4-native.do_compile;---
@@ -174,6 +193,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;m4-native.do_compile;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;m4-native.do_compile;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;m4-native.do_compile;---
 ryzen-5-1600AF-zeus;2-build-test;m4-native.do_compile;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;m4-native.do_compile;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;m4-native.do_compile;---
 ryzen-9-5950x-zeus;2-build-test;m4-native.do_compile;---
 threadripper-2990wx-128gb-zeus;2-build-test;m4-native.do_compile;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_compile;---
@@ -190,6 +211,7 @@ threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_compile;---
 vSphere-VM-28t-55G-zeus;2-build-test;m4-native.do_compile;---
 VM-20t-157G-zeus;2-build-test;m4-native.do_configure;---
 VM-20t-98G-zeus;2-build-test;m4-native.do_configure;---
+dual-Epyc-7763;2-build-test;m4-native.do_configure;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;m4-native.do_configure;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;m4-native.do_configure;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;m4-native.do_configure;---
@@ -201,6 +223,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;m4-native.do_configure;-
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;m4-native.do_configure;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;m4-native.do_configure;---
 ryzen-5-1600AF-zeus;2-build-test;m4-native.do_configure;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;m4-native.do_configure;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;m4-native.do_configure;---
 ryzen-9-5950x-zeus;2-build-test;m4-native.do_configure;---
 threadripper-2990wx-128gb-zeus;2-build-test;m4-native.do_configure;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_configure;---
@@ -217,6 +241,7 @@ threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_configure;---
 vSphere-VM-28t-55G-zeus;2-build-test;m4-native.do_configure;---
 VM-20t-157G-zeus;2-build-test;m4-native.do_deploy_source_date_epoch;---
 VM-20t-98G-zeus;2-build-test;m4-native.do_deploy_source_date_epoch;---
+dual-Epyc-7763;2-build-test;m4-native.do_deploy_source_date_epoch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;m4-native.do_deploy_source_date_epoch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;m4-native.do_deploy_source_date_epoch;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;m4-native.do_deploy_source_date_epoch;---
@@ -228,6 +253,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;m4-native.do_deploy_sour
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;m4-native.do_deploy_source_date_epoch;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;m4-native.do_deploy_source_date_epoch;---
 ryzen-5-1600AF-zeus;2-build-test;m4-native.do_deploy_source_date_epoch;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;m4-native.do_deploy_source_date_epoch;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;m4-native.do_deploy_source_date_epoch;---
 ryzen-9-5950x-zeus;2-build-test;m4-native.do_deploy_source_date_epoch;---
 threadripper-2990wx-128gb-zeus;2-build-test;m4-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_deploy_source_date_epoch;---
@@ -244,6 +271,7 @@ threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_deploy_source_date_epoch
 vSphere-VM-28t-55G-zeus;2-build-test;m4-native.do_deploy_source_date_epoch;---
 VM-20t-157G-zeus;2-build-test;m4-native.do_fetch;---
 VM-20t-98G-zeus;2-build-test;m4-native.do_fetch;---
+dual-Epyc-7763;2-build-test;m4-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;m4-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;m4-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;m4-native.do_fetch;---
@@ -255,6 +283,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;m4-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;m4-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;m4-native.do_fetch;---
 ryzen-5-1600AF-zeus;2-build-test;m4-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;m4-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;m4-native.do_fetch;---
 ryzen-9-5950x-zeus;2-build-test;m4-native.do_fetch;---
 threadripper-2990wx-128gb-zeus;2-build-test;m4-native.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_fetch;---
@@ -271,6 +301,7 @@ threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_fetch;---
 vSphere-VM-28t-55G-zeus;2-build-test;m4-native.do_fetch;---
 VM-20t-157G-zeus;2-build-test;m4-native.do_install;---
 VM-20t-98G-zeus;2-build-test;m4-native.do_install;---
+dual-Epyc-7763;2-build-test;m4-native.do_install;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;m4-native.do_install;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;m4-native.do_install;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;m4-native.do_install;---
@@ -282,6 +313,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;m4-native.do_install;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;m4-native.do_install;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;m4-native.do_install;---
 ryzen-5-1600AF-zeus;2-build-test;m4-native.do_install;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;m4-native.do_install;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;m4-native.do_install;---
 ryzen-9-5950x-zeus;2-build-test;m4-native.do_install;---
 threadripper-2990wx-128gb-zeus;2-build-test;m4-native.do_install;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_install;---
@@ -298,6 +331,7 @@ threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_install;---
 vSphere-VM-28t-55G-zeus;2-build-test;m4-native.do_install;---
 VM-20t-157G-zeus;2-build-test;m4-native.do_patch;---
 VM-20t-98G-zeus;2-build-test;m4-native.do_patch;---
+dual-Epyc-7763;2-build-test;m4-native.do_patch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;m4-native.do_patch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;m4-native.do_patch;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;m4-native.do_patch;---
@@ -309,6 +343,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;m4-native.do_patch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;m4-native.do_patch;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;m4-native.do_patch;---
 ryzen-5-1600AF-zeus;2-build-test;m4-native.do_patch;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;m4-native.do_patch;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;m4-native.do_patch;---
 ryzen-9-5950x-zeus;2-build-test;m4-native.do_patch;---
 threadripper-2990wx-128gb-zeus;2-build-test;m4-native.do_patch;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_patch;---
@@ -325,6 +361,7 @@ threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_patch;---
 vSphere-VM-28t-55G-zeus;2-build-test;m4-native.do_patch;---
 VM-20t-157G-zeus;2-build-test;m4-native.do_populate_lic;---
 VM-20t-98G-zeus;2-build-test;m4-native.do_populate_lic;---
+dual-Epyc-7763;2-build-test;m4-native.do_populate_lic;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;m4-native.do_populate_lic;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;m4-native.do_populate_lic;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;m4-native.do_populate_lic;---
@@ -336,6 +373,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;m4-native.do_populate_li
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;m4-native.do_populate_lic;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;m4-native.do_populate_lic;---
 ryzen-5-1600AF-zeus;2-build-test;m4-native.do_populate_lic;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;m4-native.do_populate_lic;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;m4-native.do_populate_lic;---
 ryzen-9-5950x-zeus;2-build-test;m4-native.do_populate_lic;---
 threadripper-2990wx-128gb-zeus;2-build-test;m4-native.do_populate_lic;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_populate_lic;---
@@ -352,6 +391,7 @@ threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_populate_lic;---
 vSphere-VM-28t-55G-zeus;2-build-test;m4-native.do_populate_lic;---
 VM-20t-157G-zeus;2-build-test;m4-native.do_populate_sysroot;---
 VM-20t-98G-zeus;2-build-test;m4-native.do_populate_sysroot;---
+dual-Epyc-7763;2-build-test;m4-native.do_populate_sysroot;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;m4-native.do_populate_sysroot;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;m4-native.do_populate_sysroot;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;m4-native.do_populate_sysroot;---
@@ -363,6 +403,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;m4-native.do_populate_sy
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;m4-native.do_populate_sysroot;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;m4-native.do_populate_sysroot;---
 ryzen-5-1600AF-zeus;2-build-test;m4-native.do_populate_sysroot;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;m4-native.do_populate_sysroot;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;m4-native.do_populate_sysroot;---
 ryzen-9-5950x-zeus;2-build-test;m4-native.do_populate_sysroot;---
 threadripper-2990wx-128gb-zeus;2-build-test;m4-native.do_populate_sysroot;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_populate_sysroot;---
@@ -379,6 +421,7 @@ threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_populate_sysroot;---
 vSphere-VM-28t-55G-zeus;2-build-test;m4-native.do_populate_sysroot;---
 VM-20t-157G-zeus;2-build-test;m4-native.do_rm_work;---
 VM-20t-98G-zeus;2-build-test;m4-native.do_rm_work;---
+dual-Epyc-7763;2-build-test;m4-native.do_rm_work;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;m4-native.do_rm_work;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;m4-native.do_rm_work;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;m4-native.do_rm_work;---
@@ -390,6 +433,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;m4-native.do_rm_work;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;m4-native.do_rm_work;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;m4-native.do_rm_work;---
 ryzen-5-1600AF-zeus;2-build-test;m4-native.do_rm_work;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;m4-native.do_rm_work;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;m4-native.do_rm_work;---
 ryzen-9-5950x-zeus;2-build-test;m4-native.do_rm_work;---
 threadripper-2990wx-128gb-zeus;2-build-test;m4-native.do_rm_work;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_rm_work;---
@@ -406,6 +451,7 @@ threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_rm_work;---
 vSphere-VM-28t-55G-zeus;2-build-test;m4-native.do_rm_work;---
 VM-20t-157G-zeus;2-build-test;m4-native.do_unpack;---
 VM-20t-98G-zeus;2-build-test;m4-native.do_unpack;---
+dual-Epyc-7763;2-build-test;m4-native.do_unpack;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;m4-native.do_unpack;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;m4-native.do_unpack;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;m4-native.do_unpack;---
@@ -417,6 +463,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;m4-native.do_unpack;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;m4-native.do_unpack;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;m4-native.do_unpack;---
 ryzen-5-1600AF-zeus;2-build-test;m4-native.do_unpack;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;m4-native.do_unpack;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;m4-native.do_unpack;---
 ryzen-9-5950x-zeus;2-build-test;m4-native.do_unpack;---
 threadripper-2990wx-128gb-zeus;2-build-test;m4-native.do_unpack;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_unpack;---
@@ -433,6 +481,7 @@ threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_unpack;---
 vSphere-VM-28t-55G-zeus;2-build-test;m4-native.do_unpack;---
 VM-20t-157G-zeus;2-build-test;quilt-native.do_compile;---
 VM-20t-98G-zeus;2-build-test;quilt-native.do_compile;---
+dual-Epyc-7763;2-build-test;quilt-native.do_compile;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;quilt-native.do_compile;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;quilt-native.do_compile;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;quilt-native.do_compile;---
@@ -444,6 +493,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;quilt-native.do_compile;
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;quilt-native.do_compile;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;quilt-native.do_compile;---
 ryzen-5-1600AF-zeus;2-build-test;quilt-native.do_compile;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;quilt-native.do_compile;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;quilt-native.do_compile;---
 ryzen-9-5950x-zeus;2-build-test;quilt-native.do_compile;---
 threadripper-2990wx-128gb-zeus;2-build-test;quilt-native.do_compile;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;quilt-native.do_compile;---
@@ -460,6 +511,7 @@ threadripper-3990x-256gb-zeus;2-build-test;quilt-native.do_compile;---
 vSphere-VM-28t-55G-zeus;2-build-test;quilt-native.do_compile;---
 VM-20t-157G-zeus;2-build-test;quilt-native.do_configure;---
 VM-20t-98G-zeus;2-build-test;quilt-native.do_configure;---
+dual-Epyc-7763;2-build-test;quilt-native.do_configure;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;quilt-native.do_configure;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;quilt-native.do_configure;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;quilt-native.do_configure;---
@@ -471,6 +523,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;quilt-native.do_configur
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;quilt-native.do_configure;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;quilt-native.do_configure;---
 ryzen-5-1600AF-zeus;2-build-test;quilt-native.do_configure;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;quilt-native.do_configure;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;quilt-native.do_configure;---
 ryzen-9-5950x-zeus;2-build-test;quilt-native.do_configure;---
 threadripper-2990wx-128gb-zeus;2-build-test;quilt-native.do_configure;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;quilt-native.do_configure;---
@@ -487,6 +541,7 @@ threadripper-3990x-256gb-zeus;2-build-test;quilt-native.do_configure;---
 vSphere-VM-28t-55G-zeus;2-build-test;quilt-native.do_configure;---
 VM-20t-157G-zeus;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 VM-20t-98G-zeus;2-build-test;quilt-native.do_deploy_source_date_epoch;---
+dual-Epyc-7763;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;quilt-native.do_deploy_source_date_epoch;---
@@ -498,6 +553,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;quilt-native.do_deploy_s
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 ryzen-5-1600AF-zeus;2-build-test;quilt-native.do_deploy_source_date_epoch;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;quilt-native.do_deploy_source_date_epoch;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 ryzen-9-5950x-zeus;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 threadripper-2990wx-128gb-zeus;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;quilt-native.do_deploy_source_date_epoch;---
@@ -514,6 +571,7 @@ threadripper-3990x-256gb-zeus;2-build-test;quilt-native.do_deploy_source_date_ep
 vSphere-VM-28t-55G-zeus;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 VM-20t-157G-zeus;2-build-test;quilt-native.do_fetch;---
 VM-20t-98G-zeus;2-build-test;quilt-native.do_fetch;---
+dual-Epyc-7763;2-build-test;quilt-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;quilt-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;quilt-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;quilt-native.do_fetch;---
@@ -525,6 +583,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;quilt-native.do_fetch;--
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;quilt-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;quilt-native.do_fetch;---
 ryzen-5-1600AF-zeus;2-build-test;quilt-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;quilt-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;quilt-native.do_fetch;---
 ryzen-9-5950x-zeus;2-build-test;quilt-native.do_fetch;---
 threadripper-2990wx-128gb-zeus;2-build-test;quilt-native.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;quilt-native.do_fetch;---
@@ -541,6 +601,7 @@ threadripper-3990x-256gb-zeus;2-build-test;quilt-native.do_fetch;---
 vSphere-VM-28t-55G-zeus;2-build-test;quilt-native.do_fetch;---
 VM-20t-157G-zeus;2-build-test;quilt-native.do_install;---
 VM-20t-98G-zeus;2-build-test;quilt-native.do_install;---
+dual-Epyc-7763;2-build-test;quilt-native.do_install;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;quilt-native.do_install;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;quilt-native.do_install;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;quilt-native.do_install;---
@@ -552,6 +613,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;quilt-native.do_install;
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;quilt-native.do_install;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;quilt-native.do_install;---
 ryzen-5-1600AF-zeus;2-build-test;quilt-native.do_install;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;quilt-native.do_install;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;quilt-native.do_install;---
 ryzen-9-5950x-zeus;2-build-test;quilt-native.do_install;---
 threadripper-2990wx-128gb-zeus;2-build-test;quilt-native.do_install;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;quilt-native.do_install;---
@@ -568,6 +631,7 @@ threadripper-3990x-256gb-zeus;2-build-test;quilt-native.do_install;---
 vSphere-VM-28t-55G-zeus;2-build-test;quilt-native.do_install;---
 VM-20t-157G-zeus;2-build-test;quilt-native.do_populate_lic;---
 VM-20t-98G-zeus;2-build-test;quilt-native.do_populate_lic;---
+dual-Epyc-7763;2-build-test;quilt-native.do_populate_lic;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;quilt-native.do_populate_lic;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;quilt-native.do_populate_lic;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;quilt-native.do_populate_lic;---
@@ -579,6 +643,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;quilt-native.do_populate
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;quilt-native.do_populate_lic;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;quilt-native.do_populate_lic;---
 ryzen-5-1600AF-zeus;2-build-test;quilt-native.do_populate_lic;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;quilt-native.do_populate_lic;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;quilt-native.do_populate_lic;---
 ryzen-9-5950x-zeus;2-build-test;quilt-native.do_populate_lic;---
 threadripper-2990wx-128gb-zeus;2-build-test;quilt-native.do_populate_lic;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;quilt-native.do_populate_lic;---
@@ -595,6 +661,7 @@ threadripper-3990x-256gb-zeus;2-build-test;quilt-native.do_populate_lic;---
 vSphere-VM-28t-55G-zeus;2-build-test;quilt-native.do_populate_lic;---
 VM-20t-157G-zeus;2-build-test;quilt-native.do_populate_sysroot;---
 VM-20t-98G-zeus;2-build-test;quilt-native.do_populate_sysroot;---
+dual-Epyc-7763;2-build-test;quilt-native.do_populate_sysroot;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;quilt-native.do_populate_sysroot;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;quilt-native.do_populate_sysroot;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;quilt-native.do_populate_sysroot;---
@@ -606,6 +673,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;quilt-native.do_populate
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;quilt-native.do_populate_sysroot;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;quilt-native.do_populate_sysroot;---
 ryzen-5-1600AF-zeus;2-build-test;quilt-native.do_populate_sysroot;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;quilt-native.do_populate_sysroot;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;quilt-native.do_populate_sysroot;---
 ryzen-9-5950x-zeus;2-build-test;quilt-native.do_populate_sysroot;---
 threadripper-2990wx-128gb-zeus;2-build-test;quilt-native.do_populate_sysroot;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;quilt-native.do_populate_sysroot;---
@@ -622,6 +691,7 @@ threadripper-3990x-256gb-zeus;2-build-test;quilt-native.do_populate_sysroot;---
 vSphere-VM-28t-55G-zeus;2-build-test;quilt-native.do_populate_sysroot;---
 VM-20t-157G-zeus;2-build-test;quilt-native.do_rm_work;---
 VM-20t-98G-zeus;2-build-test;quilt-native.do_rm_work;---
+dual-Epyc-7763;2-build-test;quilt-native.do_rm_work;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;quilt-native.do_rm_work;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;quilt-native.do_rm_work;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;quilt-native.do_rm_work;---
@@ -633,6 +703,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;quilt-native.do_rm_work;
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;quilt-native.do_rm_work;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;quilt-native.do_rm_work;---
 ryzen-5-1600AF-zeus;2-build-test;quilt-native.do_rm_work;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;quilt-native.do_rm_work;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;quilt-native.do_rm_work;---
 ryzen-9-5950x-zeus;2-build-test;quilt-native.do_rm_work;---
 threadripper-2990wx-128gb-zeus;2-build-test;quilt-native.do_rm_work;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;quilt-native.do_rm_work;---
@@ -649,6 +721,7 @@ threadripper-3990x-256gb-zeus;2-build-test;quilt-native.do_rm_work;---
 vSphere-VM-28t-55G-zeus;2-build-test;quilt-native.do_rm_work;---
 VM-20t-157G-zeus;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 VM-20t-98G-zeus;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
+dual-Epyc-7763;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
@@ -660,6 +733,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;texinfo-dummy-native.do_
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 ryzen-5-1600AF-zeus;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 ryzen-9-5950x-zeus;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 threadripper-2990wx-128gb-zeus;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
@@ -676,6 +751,7 @@ threadripper-3990x-256gb-zeus;2-build-test;texinfo-dummy-native.do_deploy_source
 vSphere-VM-28t-55G-zeus;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 VM-20t-157G-zeus;2-build-test;texinfo-dummy-native.do_install;---
 VM-20t-98G-zeus;2-build-test;texinfo-dummy-native.do_install;---
+dual-Epyc-7763;2-build-test;texinfo-dummy-native.do_install;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;texinfo-dummy-native.do_install;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;texinfo-dummy-native.do_install;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;texinfo-dummy-native.do_install;---
@@ -687,6 +763,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;texinfo-dummy-native.do_
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;texinfo-dummy-native.do_install;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;texinfo-dummy-native.do_install;---
 ryzen-5-1600AF-zeus;2-build-test;texinfo-dummy-native.do_install;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;texinfo-dummy-native.do_install;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;texinfo-dummy-native.do_install;---
 ryzen-9-5950x-zeus;2-build-test;texinfo-dummy-native.do_install;---
 threadripper-2990wx-128gb-zeus;2-build-test;texinfo-dummy-native.do_install;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;texinfo-dummy-native.do_install;---
@@ -703,6 +781,7 @@ threadripper-3990x-256gb-zeus;2-build-test;texinfo-dummy-native.do_install;---
 vSphere-VM-28t-55G-zeus;2-build-test;texinfo-dummy-native.do_install;---
 VM-20t-157G-zeus;2-build-test;texinfo-dummy-native.do_populate_lic;---
 VM-20t-98G-zeus;2-build-test;texinfo-dummy-native.do_populate_lic;---
+dual-Epyc-7763;2-build-test;texinfo-dummy-native.do_populate_lic;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;texinfo-dummy-native.do_populate_lic;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;texinfo-dummy-native.do_populate_lic;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;texinfo-dummy-native.do_populate_lic;---
@@ -714,6 +793,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;texinfo-dummy-native.do_
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;texinfo-dummy-native.do_populate_lic;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;texinfo-dummy-native.do_populate_lic;---
 ryzen-5-1600AF-zeus;2-build-test;texinfo-dummy-native.do_populate_lic;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;texinfo-dummy-native.do_populate_lic;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;texinfo-dummy-native.do_populate_lic;---
 ryzen-9-5950x-zeus;2-build-test;texinfo-dummy-native.do_populate_lic;---
 threadripper-2990wx-128gb-zeus;2-build-test;texinfo-dummy-native.do_populate_lic;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;texinfo-dummy-native.do_populate_lic;---
@@ -730,6 +811,7 @@ threadripper-3990x-256gb-zeus;2-build-test;texinfo-dummy-native.do_populate_lic;
 vSphere-VM-28t-55G-zeus;2-build-test;texinfo-dummy-native.do_populate_lic;---
 VM-20t-157G-zeus;2-build-test;texinfo-dummy-native.do_populate_sysroot;---
 VM-20t-98G-zeus;2-build-test;texinfo-dummy-native.do_populate_sysroot;---
+dual-Epyc-7763;2-build-test;texinfo-dummy-native.do_populate_sysroot;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;texinfo-dummy-native.do_populate_sysroot;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;texinfo-dummy-native.do_populate_sysroot;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;texinfo-dummy-native.do_populate_sysroot;---
@@ -741,6 +823,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;texinfo-dummy-native.do_
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;texinfo-dummy-native.do_populate_sysroot;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;texinfo-dummy-native.do_populate_sysroot;---
 ryzen-5-1600AF-zeus;2-build-test;texinfo-dummy-native.do_populate_sysroot;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;texinfo-dummy-native.do_populate_sysroot;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;texinfo-dummy-native.do_populate_sysroot;---
 ryzen-9-5950x-zeus;2-build-test;texinfo-dummy-native.do_populate_sysroot;---
 threadripper-2990wx-128gb-zeus;2-build-test;texinfo-dummy-native.do_populate_sysroot;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;texinfo-dummy-native.do_populate_sysroot;---
@@ -757,6 +841,7 @@ threadripper-3990x-256gb-zeus;2-build-test;texinfo-dummy-native.do_populate_sysr
 vSphere-VM-28t-55G-zeus;2-build-test;texinfo-dummy-native.do_populate_sysroot;---
 VM-20t-157G-zeus;2-build-test;texinfo-dummy-native.do_rm_work;---
 VM-20t-98G-zeus;2-build-test;texinfo-dummy-native.do_rm_work;---
+dual-Epyc-7763;2-build-test;texinfo-dummy-native.do_rm_work;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;texinfo-dummy-native.do_rm_work;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;texinfo-dummy-native.do_rm_work;---
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;texinfo-dummy-native.do_rm_work;---
@@ -768,6 +853,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;texinfo-dummy-native.do_
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;texinfo-dummy-native.do_rm_work;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;texinfo-dummy-native.do_rm_work;---
 ryzen-5-1600AF-zeus;2-build-test;texinfo-dummy-native.do_rm_work;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;texinfo-dummy-native.do_rm_work;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;texinfo-dummy-native.do_rm_work;---
 ryzen-9-5950x-zeus;2-build-test;texinfo-dummy-native.do_rm_work;---
 threadripper-2990wx-128gb-zeus;2-build-test;texinfo-dummy-native.do_rm_work;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;texinfo-dummy-native.do_rm_work;---
@@ -784,6 +871,7 @@ threadripper-3990x-256gb-zeus;2-build-test;texinfo-dummy-native.do_rm_work;---
 vSphere-VM-28t-55G-zeus;2-build-test;texinfo-dummy-native.do_rm_work;---
 VM-20t-157G-zeus;2-build-test;Total;78.42
 VM-20t-98G-zeus;2-build-test;Total;178.14
+dual-Epyc-7763;2-build-test;Total;21.10
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;Total;38.43
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;Total;40.19
 dual-Xeon-E5-2670-8-channels-zeus;2-build-test;Total;42.81
@@ -795,6 +883,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;Total;39.25
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;Total;38.01
 dual-Xeon-Gold-6258R-zeus;2-build-test;Total;19.04
 ryzen-5-1600AF-zeus;2-build-test;Total;28.56
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;Total;20.11
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;Total;17.47
 ryzen-9-5950x-zeus;2-build-test;Total;18.97
 threadripper-2990wx-128gb-zeus;2-build-test;Total;26.82
 threadripper-3970x-128gb-optane-zeus;2-build-test;Total;22.58

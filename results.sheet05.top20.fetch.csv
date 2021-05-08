@@ -1,6 +1,7 @@
 builder;step;task;time
 VM-20t-157G-zeus;3-fetch;binutils-cross-arm.do_fetch;---
 VM-20t-98G-zeus;3-fetch;binutils-cross-arm.do_fetch;---
+dual-Epyc-7763;3-fetch;binutils-cross-arm.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;binutils-cross-arm.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;binutils-cross-arm.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;binutils-cross-arm.do_fetch;---
@@ -12,6 +13,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;binutils-cross-arm.do_fetch;-
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;binutils-cross-arm.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;binutils-cross-arm.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;binutils-cross-arm.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;binutils-cross-arm.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;binutils-cross-arm.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;binutils-cross-arm.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;binutils-cross-arm.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;binutils-cross-arm.do_fetch;---
@@ -28,6 +31,7 @@ threadripper-3990x-256gb-zeus;3-fetch;binutils-cross-arm.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;binutils-cross-arm.do_fetch;---
 VM-20t-157G-zeus;3-fetch;binutils-cross-x86_64.do_fetch;---
 VM-20t-98G-zeus;3-fetch;binutils-cross-x86_64.do_fetch;---
+dual-Epyc-7763;3-fetch;binutils-cross-x86_64.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;binutils-cross-x86_64.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;binutils-cross-x86_64.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;binutils-cross-x86_64.do_fetch;---
@@ -39,6 +43,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;binutils-cross-x86_64.do_fetc
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;binutils-cross-x86_64.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;binutils-cross-x86_64.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;binutils-cross-x86_64.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;binutils-cross-x86_64.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;binutils-cross-x86_64.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;binutils-cross-x86_64.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;binutils-cross-x86_64.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;binutils-cross-x86_64.do_fetch;---
@@ -55,6 +61,7 @@ threadripper-3990x-256gb-zeus;3-fetch;binutils-cross-x86_64.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;binutils-cross-x86_64.do_fetch;---
 VM-20t-157G-zeus;3-fetch;binutils.do_fetch;---
 VM-20t-98G-zeus;3-fetch;binutils.do_fetch;---
+dual-Epyc-7763;3-fetch;binutils.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;binutils.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;binutils.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;binutils.do_fetch;---
@@ -66,6 +73,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;binutils.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;binutils.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;binutils.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;binutils.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;binutils.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;binutils.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;binutils.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;binutils.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;binutils.do_fetch;---
@@ -82,6 +91,7 @@ threadripper-3990x-256gb-zeus;3-fetch;binutils.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;binutils.do_fetch;---
 VM-20t-157G-zeus;3-fetch;binutils-native.do_fetch;---
 VM-20t-98G-zeus;3-fetch;binutils-native.do_fetch;---
+dual-Epyc-7763;3-fetch;binutils-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;binutils-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;binutils-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;binutils-native.do_fetch;---
@@ -93,6 +103,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;binutils-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;binutils-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;binutils-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;binutils-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;binutils-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;binutils-native.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;binutils-native.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;binutils-native.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;binutils-native.do_fetch;---
@@ -109,6 +121,7 @@ threadripper-3990x-256gb-zeus;3-fetch;binutils-native.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;binutils-native.do_fetch;---
 VM-20t-157G-zeus;3-fetch;brotli-native.do_fetch;---
 VM-20t-98G-zeus;3-fetch;brotli-native.do_fetch;---
+dual-Epyc-7763;3-fetch;brotli-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;brotli-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;brotli-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;brotli-native.do_fetch;---
@@ -120,6 +133,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;brotli-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;brotli-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;brotli-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;brotli-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;brotli-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;brotli-native.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;brotli-native.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;brotli-native.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;brotli-native.do_fetch;---
@@ -136,6 +151,7 @@ threadripper-3990x-256gb-zeus;3-fetch;brotli-native.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;brotli-native.do_fetch;---
 VM-20t-157G-zeus;3-fetch;busybox.do_fetch;---
 VM-20t-98G-zeus;3-fetch;busybox.do_fetch;---
+dual-Epyc-7763;3-fetch;busybox.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;busybox.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;busybox.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;busybox.do_fetch;---
@@ -147,6 +163,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;busybox.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;busybox.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;busybox.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;busybox.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;busybox.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;busybox.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;busybox.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;busybox.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;busybox.do_fetch;---
@@ -163,6 +181,7 @@ threadripper-3990x-256gb-zeus;3-fetch;busybox.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;busybox.do_fetch;---
 VM-20t-157G-zeus;3-fetch;cairo.do_fetch;---
 VM-20t-98G-zeus;3-fetch;cairo.do_fetch;---
+dual-Epyc-7763;3-fetch;cairo.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;cairo.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;cairo.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;cairo.do_fetch;---
@@ -174,6 +193,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;cairo.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;cairo.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;cairo.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;cairo.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;cairo.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;cairo.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;cairo.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;cairo.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;cairo.do_fetch;---
@@ -190,6 +211,7 @@ threadripper-3990x-256gb-zeus;3-fetch;cairo.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;cairo.do_fetch;---
 VM-20t-157G-zeus;3-fetch;cairo-native.do_fetch;---
 VM-20t-98G-zeus;3-fetch;cairo-native.do_fetch;---
+dual-Epyc-7763;3-fetch;cairo-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;cairo-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;cairo-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;cairo-native.do_fetch;---
@@ -201,6 +223,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;cairo-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;cairo-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;cairo-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;cairo-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;cairo-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;cairo-native.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;cairo-native.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;cairo-native.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;cairo-native.do_fetch;---
@@ -217,6 +241,7 @@ threadripper-3990x-256gb-zeus;3-fetch;cairo-native.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;cairo-native.do_fetch;---
 VM-20t-157G-zeus;3-fetch;cbindgen-native.do_fetch;---
 VM-20t-98G-zeus;3-fetch;cbindgen-native.do_fetch;---
+dual-Epyc-7763;3-fetch;cbindgen-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;cbindgen-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;cbindgen-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;cbindgen-native.do_fetch;---
@@ -228,6 +253,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;cbindgen-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;cbindgen-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;cbindgen-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;cbindgen-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;cbindgen-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;cbindgen-native.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;cbindgen-native.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;cbindgen-native.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;cbindgen-native.do_fetch;---
@@ -244,6 +271,7 @@ threadripper-3990x-256gb-zeus;3-fetch;cbindgen-native.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;cbindgen-native.do_fetch;---
 VM-20t-157G-zeus;3-fetch;chromium-x11.do_fetch;---
 VM-20t-98G-zeus;3-fetch;chromium-x11.do_fetch;---
+dual-Epyc-7763;3-fetch;chromium-x11.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;chromium-x11.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;chromium-x11.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;chromium-x11.do_fetch;---
@@ -255,6 +283,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;chromium-x11.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;chromium-x11.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;chromium-x11.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;chromium-x11.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;chromium-x11.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;chromium-x11.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;chromium-x11.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;chromium-x11.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;chromium-x11.do_fetch;---
@@ -271,6 +301,7 @@ threadripper-3990x-256gb-zeus;3-fetch;chromium-x11.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;chromium-x11.do_fetch;---
 VM-20t-157G-zeus;3-fetch;cmake-native.do_fetch;---
 VM-20t-98G-zeus;3-fetch;cmake-native.do_fetch;---
+dual-Epyc-7763;3-fetch;cmake-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;cmake-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;cmake-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;cmake-native.do_fetch;---
@@ -282,6 +313,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;cmake-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;cmake-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;cmake-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;cmake-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;cmake-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;cmake-native.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;cmake-native.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;cmake-native.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;cmake-native.do_fetch;---
@@ -298,6 +331,7 @@ threadripper-3990x-256gb-zeus;3-fetch;cmake-native.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;cmake-native.do_fetch;---
 VM-20t-157G-zeus;3-fetch;cross-localedef-native.do_fetch;---
 VM-20t-98G-zeus;3-fetch;cross-localedef-native.do_fetch;---
+dual-Epyc-7763;3-fetch;cross-localedef-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;cross-localedef-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;cross-localedef-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;cross-localedef-native.do_fetch;---
@@ -309,6 +343,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;cross-localedef-native.do_fet
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;cross-localedef-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;cross-localedef-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;cross-localedef-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;cross-localedef-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;cross-localedef-native.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;cross-localedef-native.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;cross-localedef-native.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;cross-localedef-native.do_fetch;---
@@ -325,6 +361,7 @@ threadripper-3990x-256gb-zeus;3-fetch;cross-localedef-native.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;cross-localedef-native.do_fetch;---
 VM-20t-157G-zeus;3-fetch;db.do_fetch;---
 VM-20t-98G-zeus;3-fetch;db.do_fetch;---
+dual-Epyc-7763;3-fetch;db.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;db.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;db.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;db.do_fetch;---
@@ -336,6 +373,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;db.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;db.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;db.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;db.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;db.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;db.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;db.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;db.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;db.do_fetch;---
@@ -352,6 +391,7 @@ threadripper-3990x-256gb-zeus;3-fetch;db.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;db.do_fetch;---
 VM-20t-157G-zeus;3-fetch;db-native.do_fetch;---
 VM-20t-98G-zeus;3-fetch;db-native.do_fetch;---
+dual-Epyc-7763;3-fetch;db-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;db-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;db-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;db-native.do_fetch;---
@@ -363,6 +403,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;db-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;db-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;db-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;db-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;db-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;db-native.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;db-native.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;db-native.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;db-native.do_fetch;---
@@ -379,6 +421,7 @@ threadripper-3990x-256gb-zeus;3-fetch;db-native.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;db-native.do_fetch;---
 VM-20t-157G-zeus;3-fetch;distcc.do_fetch;---
 VM-20t-98G-zeus;3-fetch;distcc.do_fetch;---
+dual-Epyc-7763;3-fetch;distcc.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;distcc.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;distcc.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;distcc.do_fetch;---
@@ -390,6 +433,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;distcc.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;distcc.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;distcc.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;distcc.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;distcc.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;distcc.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;distcc.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;distcc.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;distcc.do_fetch;---
@@ -406,6 +451,7 @@ threadripper-3990x-256gb-zeus;3-fetch;distcc.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;distcc.do_fetch;---
 VM-20t-157G-zeus;3-fetch;dnf.do_fetch;---
 VM-20t-98G-zeus;3-fetch;dnf.do_fetch;---
+dual-Epyc-7763;3-fetch;dnf.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;dnf.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;dnf.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;dnf.do_fetch;---
@@ -417,6 +463,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;dnf.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;dnf.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;dnf.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;dnf.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;dnf.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;dnf.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;dnf.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;dnf.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;dnf.do_fetch;---
@@ -433,6 +481,7 @@ threadripper-3990x-256gb-zeus;3-fetch;dnf.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;dnf.do_fetch;---
 VM-20t-157G-zeus;3-fetch;dnf-native.do_fetch;---
 VM-20t-98G-zeus;3-fetch;dnf-native.do_fetch;---
+dual-Epyc-7763;3-fetch;dnf-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;dnf-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;dnf-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;dnf-native.do_fetch;---
@@ -444,6 +493,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;dnf-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;dnf-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;dnf-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;dnf-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;dnf-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;dnf-native.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;dnf-native.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;dnf-native.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;dnf-native.do_fetch;---
@@ -460,6 +511,7 @@ threadripper-3990x-256gb-zeus;3-fetch;dnf-native.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;dnf-native.do_fetch;---
 VM-20t-157G-zeus;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
 VM-20t-98G-zeus;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
+dual-Epyc-7763;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
@@ -471,6 +523,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;docbook-xsl-stylesheets-nativ
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
@@ -487,6 +541,7 @@ threadripper-3990x-256gb-zeus;3-fetch;docbook-xsl-stylesheets-native.do_fetch;--
 vSphere-VM-28t-55G-zeus;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
 VM-20t-157G-zeus;3-fetch;e2fsprogs.do_fetch;---
 VM-20t-98G-zeus;3-fetch;e2fsprogs.do_fetch;---
+dual-Epyc-7763;3-fetch;e2fsprogs.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;e2fsprogs.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;e2fsprogs.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;e2fsprogs.do_fetch;---
@@ -498,6 +553,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;e2fsprogs.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;e2fsprogs.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;e2fsprogs.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;e2fsprogs.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;e2fsprogs.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;e2fsprogs.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;e2fsprogs.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;e2fsprogs.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;e2fsprogs.do_fetch;---
@@ -514,6 +571,7 @@ threadripper-3990x-256gb-zeus;3-fetch;e2fsprogs.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;e2fsprogs.do_fetch;---
 VM-20t-157G-zeus;3-fetch;elfutils.do_fetch;---
 VM-20t-98G-zeus;3-fetch;elfutils.do_fetch;---
+dual-Epyc-7763;3-fetch;elfutils.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;elfutils.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;elfutils.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;elfutils.do_fetch;---
@@ -525,6 +583,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;elfutils.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;elfutils.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;elfutils.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;elfutils.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;elfutils.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;elfutils.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;elfutils.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;elfutils.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;elfutils.do_fetch;---
@@ -541,6 +601,7 @@ threadripper-3990x-256gb-zeus;3-fetch;elfutils.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;elfutils.do_fetch;---
 VM-20t-157G-zeus;3-fetch;firefox.do_fetch;---
 VM-20t-98G-zeus;3-fetch;firefox.do_fetch;---
+dual-Epyc-7763;3-fetch;firefox.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;firefox.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;firefox.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;firefox.do_fetch;---
@@ -552,6 +613,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;firefox.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;firefox.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;firefox.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;firefox.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;firefox.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;firefox.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;firefox.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;firefox.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;firefox.do_fetch;---
@@ -568,6 +631,7 @@ threadripper-3990x-256gb-zeus;3-fetch;firefox.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;firefox.do_fetch;---
 VM-20t-157G-zeus;3-fetch;gcc-source-10.2.0.do_fetch;---
 VM-20t-98G-zeus;3-fetch;gcc-source-10.2.0.do_fetch;---
+dual-Epyc-7763;3-fetch;gcc-source-10.2.0.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;gcc-source-10.2.0.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;gcc-source-10.2.0.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;gcc-source-10.2.0.do_fetch;---
@@ -579,6 +643,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;gcc-source-10.2.0.do_fetch;--
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;gcc-source-10.2.0.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;gcc-source-10.2.0.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;gcc-source-10.2.0.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;gcc-source-10.2.0.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;gcc-source-10.2.0.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;gcc-source-10.2.0.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;gcc-source-10.2.0.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;gcc-source-10.2.0.do_fetch;---
@@ -595,6 +661,7 @@ threadripper-3990x-256gb-zeus;3-fetch;gcc-source-10.2.0.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;gcc-source-10.2.0.do_fetch;---
 VM-20t-157G-zeus;3-fetch;gcc-source-9.2.0.do_fetch;---
 VM-20t-98G-zeus;3-fetch;gcc-source-9.2.0.do_fetch;---
+dual-Epyc-7763;3-fetch;gcc-source-9.2.0.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;gcc-source-9.2.0.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;gcc-source-9.2.0.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;gcc-source-9.2.0.do_fetch;---
@@ -606,6 +673,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;gcc-source-9.2.0.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;gcc-source-9.2.0.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;gcc-source-9.2.0.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;gcc-source-9.2.0.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;gcc-source-9.2.0.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;gcc-source-9.2.0.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;gcc-source-9.2.0.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;gcc-source-9.2.0.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;gcc-source-9.2.0.do_fetch;---
@@ -622,6 +691,7 @@ threadripper-3990x-256gb-zeus;3-fetch;gcc-source-9.2.0.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;gcc-source-9.2.0.do_fetch;---
 VM-20t-157G-zeus;3-fetch;gcc-source-9.3.0.do_fetch;---
 VM-20t-98G-zeus;3-fetch;gcc-source-9.3.0.do_fetch;---
+dual-Epyc-7763;3-fetch;gcc-source-9.3.0.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;gcc-source-9.3.0.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;gcc-source-9.3.0.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;gcc-source-9.3.0.do_fetch;---
@@ -633,6 +703,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;gcc-source-9.3.0.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;gcc-source-9.3.0.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;gcc-source-9.3.0.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;gcc-source-9.3.0.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;gcc-source-9.3.0.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;gcc-source-9.3.0.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;gcc-source-9.3.0.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;gcc-source-9.3.0.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;gcc-source-9.3.0.do_fetch;---
@@ -649,6 +721,7 @@ threadripper-3990x-256gb-zeus;3-fetch;gcc-source-9.3.0.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;gcc-source-9.3.0.do_fetch;---
 VM-20t-157G-zeus;3-fetch;glibc.do_fetch;---
 VM-20t-98G-zeus;3-fetch;glibc.do_fetch;---
+dual-Epyc-7763;3-fetch;glibc.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;glibc.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;glibc.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;glibc.do_fetch;---
@@ -660,6 +733,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;glibc.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;glibc.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;glibc.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;glibc.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;glibc.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;glibc.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;glibc.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;glibc.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;glibc.do_fetch;---
@@ -676,6 +751,7 @@ threadripper-3990x-256gb-zeus;3-fetch;glibc.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;glibc.do_fetch;---
 VM-20t-157G-zeus;3-fetch;glslang-native.do_fetch;---
 VM-20t-98G-zeus;3-fetch;glslang-native.do_fetch;---
+dual-Epyc-7763;3-fetch;glslang-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;glslang-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;glslang-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;glslang-native.do_fetch;---
@@ -687,6 +763,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;glslang-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;glslang-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;glslang-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;glslang-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;glslang-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;glslang-native.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;glslang-native.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;glslang-native.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;glslang-native.do_fetch;---
@@ -703,6 +781,7 @@ threadripper-3990x-256gb-zeus;3-fetch;glslang-native.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;glslang-native.do_fetch;---
 VM-20t-157G-zeus;3-fetch;gn-native.do_fetch;---
 VM-20t-98G-zeus;3-fetch;gn-native.do_fetch;---
+dual-Epyc-7763;3-fetch;gn-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;gn-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;gn-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;gn-native.do_fetch;---
@@ -714,6 +793,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;gn-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;gn-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;gn-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;gn-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;gn-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;gn-native.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;gn-native.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;gn-native.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;gn-native.do_fetch;---
@@ -730,6 +811,7 @@ threadripper-3990x-256gb-zeus;3-fetch;gn-native.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;gn-native.do_fetch;---
 VM-20t-157G-zeus;3-fetch;icu.do_fetch;---
 VM-20t-98G-zeus;3-fetch;icu.do_fetch;---
+dual-Epyc-7763;3-fetch;icu.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;icu.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;icu.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;icu.do_fetch;---
@@ -741,6 +823,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;icu.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;icu.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;icu.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;icu.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;icu.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;icu.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;icu.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;icu.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;icu.do_fetch;---
@@ -757,6 +841,7 @@ threadripper-3990x-256gb-zeus;3-fetch;icu.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;icu.do_fetch;---
 VM-20t-157G-zeus;3-fetch;icu-native.do_fetch;---
 VM-20t-98G-zeus;3-fetch;icu-native.do_fetch;---
+dual-Epyc-7763;3-fetch;icu-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;icu-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;icu-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;icu-native.do_fetch;---
@@ -768,6 +853,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;icu-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;icu-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;icu-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;icu-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;icu-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;icu-native.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;icu-native.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;icu-native.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;icu-native.do_fetch;---
@@ -784,6 +871,7 @@ threadripper-3990x-256gb-zeus;3-fetch;icu-native.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;icu-native.do_fetch;---
 VM-20t-157G-zeus;3-fetch;iso-codes.do_fetch;---
 VM-20t-98G-zeus;3-fetch;iso-codes.do_fetch;---
+dual-Epyc-7763;3-fetch;iso-codes.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;iso-codes.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;iso-codes.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;iso-codes.do_fetch;---
@@ -795,6 +883,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;iso-codes.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;iso-codes.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;iso-codes.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;iso-codes.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;iso-codes.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;iso-codes.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;iso-codes.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;iso-codes.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;iso-codes.do_fetch;---
@@ -811,6 +901,7 @@ threadripper-3990x-256gb-zeus;3-fetch;iso-codes.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;iso-codes.do_fetch;---
 VM-20t-157G-zeus;3-fetch;libgit2-native.do_fetch;---
 VM-20t-98G-zeus;3-fetch;libgit2-native.do_fetch;---
+dual-Epyc-7763;3-fetch;libgit2-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;libgit2-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;libgit2-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;libgit2-native.do_fetch;---
@@ -822,6 +913,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;libgit2-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;libgit2-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;libgit2-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;libgit2-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;libgit2-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;libgit2-native.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;libgit2-native.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;libgit2-native.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;libgit2-native.do_fetch;---
@@ -838,6 +931,7 @@ threadripper-3990x-256gb-zeus;3-fetch;libgit2-native.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;libgit2-native.do_fetch;---
 VM-20t-157G-zeus;3-fetch;libsolv.do_fetch;---
 VM-20t-98G-zeus;3-fetch;libsolv.do_fetch;---
+dual-Epyc-7763;3-fetch;libsolv.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;libsolv.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;libsolv.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;libsolv.do_fetch;---
@@ -849,6 +943,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;libsolv.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;libsolv.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;libsolv.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;libsolv.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;libsolv.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;libsolv.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;libsolv.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;libsolv.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;libsolv.do_fetch;---
@@ -865,6 +961,7 @@ threadripper-3990x-256gb-zeus;3-fetch;libsolv.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;libsolv.do_fetch;---
 VM-20t-157G-zeus;3-fetch;libtirpc.do_fetch;---
 VM-20t-98G-zeus;3-fetch;libtirpc.do_fetch;---
+dual-Epyc-7763;3-fetch;libtirpc.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;libtirpc.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;libtirpc.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;libtirpc.do_fetch;---
@@ -876,6 +973,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;libtirpc.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;libtirpc.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;libtirpc.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;libtirpc.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;libtirpc.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;libtirpc.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;libtirpc.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;libtirpc.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;libtirpc.do_fetch;---
@@ -892,6 +991,7 @@ threadripper-3990x-256gb-zeus;3-fetch;libtirpc.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;libtirpc.do_fetch;---
 VM-20t-157G-zeus;3-fetch;libtirpc-native.do_fetch;---
 VM-20t-98G-zeus;3-fetch;libtirpc-native.do_fetch;---
+dual-Epyc-7763;3-fetch;libtirpc-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;libtirpc-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;libtirpc-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;libtirpc-native.do_fetch;---
@@ -903,6 +1003,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;libtirpc-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;libtirpc-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;libtirpc-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;libtirpc-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;libtirpc-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;libtirpc-native.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;libtirpc-native.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;libtirpc-native.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;libtirpc-native.do_fetch;---
@@ -919,6 +1021,7 @@ threadripper-3990x-256gb-zeus;3-fetch;libtirpc-native.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;libtirpc-native.do_fetch;---
 VM-20t-157G-zeus;3-fetch;libtool.do_fetch;---
 VM-20t-98G-zeus;3-fetch;libtool.do_fetch;---
+dual-Epyc-7763;3-fetch;libtool.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;libtool.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;libtool.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;libtool.do_fetch;---
@@ -930,6 +1033,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;libtool.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;libtool.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;libtool.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;libtool.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;libtool.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;libtool.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;libtool.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;libtool.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;libtool.do_fetch;---
@@ -946,6 +1051,7 @@ threadripper-3990x-256gb-zeus;3-fetch;libtool.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;libtool.do_fetch;---
 VM-20t-157G-zeus;3-fetch;libxml2.do_fetch;---
 VM-20t-98G-zeus;3-fetch;libxml2.do_fetch;---
+dual-Epyc-7763;3-fetch;libxml2.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;libxml2.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;libxml2.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;libxml2.do_fetch;---
@@ -957,6 +1063,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;libxml2.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;libxml2.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;libxml2.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;libxml2.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;libxml2.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;libxml2.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;libxml2.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;libxml2.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;libxml2.do_fetch;---
@@ -973,6 +1081,7 @@ threadripper-3990x-256gb-zeus;3-fetch;libxml2.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;libxml2.do_fetch;---
 VM-20t-157G-zeus;3-fetch;libxml2-native.do_fetch;---
 VM-20t-98G-zeus;3-fetch;libxml2-native.do_fetch;---
+dual-Epyc-7763;3-fetch;libxml2-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;libxml2-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;libxml2-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;libxml2-native.do_fetch;---
@@ -984,6 +1093,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;libxml2-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;libxml2-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;libxml2-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;libxml2-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;libxml2-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;libxml2-native.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;libxml2-native.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;libxml2-native.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;libxml2-native.do_fetch;---
@@ -1000,6 +1111,7 @@ threadripper-3990x-256gb-zeus;3-fetch;libxml2-native.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;libxml2-native.do_fetch;---
 VM-20t-157G-zeus;3-fetch;linux-yocto.do_fetch;---
 VM-20t-98G-zeus;3-fetch;linux-yocto.do_fetch;---
+dual-Epyc-7763;3-fetch;linux-yocto.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;linux-yocto.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;linux-yocto.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;linux-yocto.do_fetch;---
@@ -1011,6 +1123,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;linux-yocto.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;linux-yocto.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;linux-yocto.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;linux-yocto.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;linux-yocto.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;linux-yocto.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;linux-yocto.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;linux-yocto.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;linux-yocto.do_fetch;---
@@ -1027,6 +1141,7 @@ threadripper-3990x-256gb-zeus;3-fetch;linux-yocto.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;linux-yocto.do_fetch;---
 VM-20t-157G-zeus;3-fetch;llvm-project-source-10.0.0.do_fetch;---
 VM-20t-98G-zeus;3-fetch;llvm-project-source-10.0.0.do_fetch;---
+dual-Epyc-7763;3-fetch;llvm-project-source-10.0.0.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;llvm-project-source-10.0.0.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;llvm-project-source-10.0.0.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;llvm-project-source-10.0.0.do_fetch;---
@@ -1038,6 +1153,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;llvm-project-source-10.0.0.do
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;llvm-project-source-10.0.0.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;llvm-project-source-10.0.0.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;llvm-project-source-10.0.0.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;llvm-project-source-10.0.0.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;llvm-project-source-10.0.0.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;llvm-project-source-10.0.0.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;llvm-project-source-10.0.0.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;llvm-project-source-10.0.0.do_fetch;---
@@ -1054,6 +1171,7 @@ threadripper-3990x-256gb-zeus;3-fetch;llvm-project-source-10.0.0.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;llvm-project-source-10.0.0.do_fetch;---
 VM-20t-157G-zeus;3-fetch;llvm-project-source-10.0.1.do_fetch;---
 VM-20t-98G-zeus;3-fetch;llvm-project-source-10.0.1.do_fetch;---
+dual-Epyc-7763;3-fetch;llvm-project-source-10.0.1.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;llvm-project-source-10.0.1.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;llvm-project-source-10.0.1.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;llvm-project-source-10.0.1.do_fetch;---
@@ -1065,6 +1183,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;llvm-project-source-10.0.1.do
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;llvm-project-source-10.0.1.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;llvm-project-source-10.0.1.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;llvm-project-source-10.0.1.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;llvm-project-source-10.0.1.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;llvm-project-source-10.0.1.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;llvm-project-source-10.0.1.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;llvm-project-source-10.0.1.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;llvm-project-source-10.0.1.do_fetch;---
@@ -1081,6 +1201,7 @@ threadripper-3990x-256gb-zeus;3-fetch;llvm-project-source-10.0.1.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;llvm-project-source-10.0.1.do_fetch;---
 VM-20t-157G-zeus;3-fetch;llvm-project-source-11.0.0.do_fetch;---
 VM-20t-98G-zeus;3-fetch;llvm-project-source-11.0.0.do_fetch;---
+dual-Epyc-7763;3-fetch;llvm-project-source-11.0.0.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;llvm-project-source-11.0.0.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;llvm-project-source-11.0.0.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;llvm-project-source-11.0.0.do_fetch;---
@@ -1092,6 +1213,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;llvm-project-source-11.0.0.do
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;llvm-project-source-11.0.0.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;llvm-project-source-11.0.0.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;llvm-project-source-11.0.0.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;llvm-project-source-11.0.0.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;llvm-project-source-11.0.0.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;llvm-project-source-11.0.0.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;llvm-project-source-11.0.0.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;llvm-project-source-11.0.0.do_fetch;---
@@ -1108,6 +1231,7 @@ threadripper-3990x-256gb-zeus;3-fetch;llvm-project-source-11.0.0.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;llvm-project-source-11.0.0.do_fetch;---
 VM-20t-157G-zeus;3-fetch;llvm-project-source-12.0.0.do_fetch;---
 VM-20t-98G-zeus;3-fetch;llvm-project-source-12.0.0.do_fetch;---
+dual-Epyc-7763;3-fetch;llvm-project-source-12.0.0.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;llvm-project-source-12.0.0.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;llvm-project-source-12.0.0.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;llvm-project-source-12.0.0.do_fetch;---
@@ -1119,6 +1243,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;llvm-project-source-12.0.0.do
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;llvm-project-source-12.0.0.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;llvm-project-source-12.0.0.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;llvm-project-source-12.0.0.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;llvm-project-source-12.0.0.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;llvm-project-source-12.0.0.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;llvm-project-source-12.0.0.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;llvm-project-source-12.0.0.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;llvm-project-source-12.0.0.do_fetch;---
@@ -1135,6 +1261,7 @@ threadripper-3990x-256gb-zeus;3-fetch;llvm-project-source-12.0.0.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;llvm-project-source-12.0.0.do_fetch;---
 VM-20t-157G-zeus;3-fetch;llvm-project-source-9.0.1.do_fetch;---
 VM-20t-98G-zeus;3-fetch;llvm-project-source-9.0.1.do_fetch;---
+dual-Epyc-7763;3-fetch;llvm-project-source-9.0.1.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;llvm-project-source-9.0.1.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;llvm-project-source-9.0.1.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;llvm-project-source-9.0.1.do_fetch;---
@@ -1146,6 +1273,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;llvm-project-source-9.0.1.do_
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;llvm-project-source-9.0.1.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;llvm-project-source-9.0.1.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;llvm-project-source-9.0.1.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;llvm-project-source-9.0.1.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;llvm-project-source-9.0.1.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;llvm-project-source-9.0.1.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;llvm-project-source-9.0.1.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;llvm-project-source-9.0.1.do_fetch;---
@@ -1162,6 +1291,7 @@ threadripper-3990x-256gb-zeus;3-fetch;llvm-project-source-9.0.1.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;llvm-project-source-9.0.1.do_fetch;---
 VM-20t-157G-zeus;3-fetch;mdadm.do_fetch;---
 VM-20t-98G-zeus;3-fetch;mdadm.do_fetch;---
+dual-Epyc-7763;3-fetch;mdadm.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;mdadm.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;mdadm.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;mdadm.do_fetch;---
@@ -1173,6 +1303,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;mdadm.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;mdadm.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;mdadm.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;mdadm.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;mdadm.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;mdadm.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;mdadm.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;mdadm.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;mdadm.do_fetch;---
@@ -1189,6 +1321,7 @@ threadripper-3990x-256gb-zeus;3-fetch;mdadm.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;mdadm.do_fetch;---
 VM-20t-157G-zeus;3-fetch;ncurses.do_fetch;---
 VM-20t-98G-zeus;3-fetch;ncurses.do_fetch;---
+dual-Epyc-7763;3-fetch;ncurses.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;ncurses.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;ncurses.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;ncurses.do_fetch;---
@@ -1200,6 +1333,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;ncurses.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;ncurses.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;ncurses.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;ncurses.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;ncurses.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;ncurses.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;ncurses.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;ncurses.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;ncurses.do_fetch;---
@@ -1216,6 +1351,7 @@ threadripper-3990x-256gb-zeus;3-fetch;ncurses.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;ncurses.do_fetch;---
 VM-20t-157G-zeus;3-fetch;puzzles.do_fetch;---
 VM-20t-98G-zeus;3-fetch;puzzles.do_fetch;---
+dual-Epyc-7763;3-fetch;puzzles.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;puzzles.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;puzzles.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;puzzles.do_fetch;---
@@ -1227,6 +1363,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;puzzles.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;puzzles.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;puzzles.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;puzzles.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;puzzles.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;puzzles.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;puzzles.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;puzzles.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;puzzles.do_fetch;---
@@ -1243,6 +1381,7 @@ threadripper-3990x-256gb-zeus;3-fetch;puzzles.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;puzzles.do_fetch;---
 VM-20t-157G-zeus;3-fetch;python3.do_fetch;---
 VM-20t-98G-zeus;3-fetch;python3.do_fetch;---
+dual-Epyc-7763;3-fetch;python3.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;python3.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;python3.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;python3.do_fetch;---
@@ -1254,6 +1393,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;python3.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;python3.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;python3.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;python3.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;python3.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;python3.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;python3.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;python3.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;python3.do_fetch;---
@@ -1270,6 +1411,7 @@ threadripper-3990x-256gb-zeus;3-fetch;python3.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;python3.do_fetch;---
 VM-20t-157G-zeus;3-fetch;qemu-system-native.do_fetch;---
 VM-20t-98G-zeus;3-fetch;qemu-system-native.do_fetch;---
+dual-Epyc-7763;3-fetch;qemu-system-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;qemu-system-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;qemu-system-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;qemu-system-native.do_fetch;---
@@ -1281,6 +1423,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;qemu-system-native.do_fetch;-
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;qemu-system-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;qemu-system-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;qemu-system-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;qemu-system-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;qemu-system-native.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;qemu-system-native.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;qemu-system-native.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;qemu-system-native.do_fetch;---
@@ -1297,6 +1441,7 @@ threadripper-3990x-256gb-zeus;3-fetch;qemu-system-native.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;qemu-system-native.do_fetch;---
 VM-20t-157G-zeus;3-fetch;qtbase.do_fetch;---
 VM-20t-98G-zeus;3-fetch;qtbase.do_fetch;---
+dual-Epyc-7763;3-fetch;qtbase.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;qtbase.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;qtbase.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;qtbase.do_fetch;---
@@ -1308,6 +1453,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;qtbase.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;qtbase.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;qtbase.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;qtbase.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;qtbase.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;qtbase.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;qtbase.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;qtbase.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;qtbase.do_fetch;---
@@ -1324,6 +1471,7 @@ threadripper-3990x-256gb-zeus;3-fetch;qtbase.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;qtbase.do_fetch;---
 VM-20t-157G-zeus;3-fetch;qtbase-native.do_fetch;---
 VM-20t-98G-zeus;3-fetch;qtbase-native.do_fetch;---
+dual-Epyc-7763;3-fetch;qtbase-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;qtbase-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;qtbase-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;qtbase-native.do_fetch;---
@@ -1335,6 +1483,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;qtbase-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;qtbase-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;qtbase-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;qtbase-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;qtbase-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;qtbase-native.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;qtbase-native.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;qtbase-native.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;qtbase-native.do_fetch;---
@@ -1351,6 +1501,7 @@ threadripper-3990x-256gb-zeus;3-fetch;qtbase-native.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;qtbase-native.do_fetch;---
 VM-20t-157G-zeus;3-fetch;qtdeclarative.do_fetch;---
 VM-20t-98G-zeus;3-fetch;qtdeclarative.do_fetch;---
+dual-Epyc-7763;3-fetch;qtdeclarative.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;qtdeclarative.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;qtdeclarative.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;qtdeclarative.do_fetch;---
@@ -1362,6 +1513,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;qtdeclarative.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;qtdeclarative.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;qtdeclarative.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;qtdeclarative.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;qtdeclarative.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;qtdeclarative.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;qtdeclarative.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;qtdeclarative.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;qtdeclarative.do_fetch;---
@@ -1378,6 +1531,7 @@ threadripper-3990x-256gb-zeus;3-fetch;qtdeclarative.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;qtdeclarative.do_fetch;---
 VM-20t-157G-zeus;3-fetch;qtdeclarative-native.do_fetch;---
 VM-20t-98G-zeus;3-fetch;qtdeclarative-native.do_fetch;---
+dual-Epyc-7763;3-fetch;qtdeclarative-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;qtdeclarative-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;qtdeclarative-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;qtdeclarative-native.do_fetch;---
@@ -1389,6 +1543,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;qtdeclarative-native.do_fetch
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;qtdeclarative-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;qtdeclarative-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;qtdeclarative-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;qtdeclarative-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;qtdeclarative-native.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;qtdeclarative-native.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;qtdeclarative-native.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;qtdeclarative-native.do_fetch;---
@@ -1405,6 +1561,7 @@ threadripper-3990x-256gb-zeus;3-fetch;qtdeclarative-native.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;qtdeclarative-native.do_fetch;---
 VM-20t-157G-zeus;3-fetch;qtlocation.do_fetch;---
 VM-20t-98G-zeus;3-fetch;qtlocation.do_fetch;---
+dual-Epyc-7763;3-fetch;qtlocation.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;qtlocation.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;qtlocation.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;qtlocation.do_fetch;---
@@ -1416,6 +1573,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;qtlocation.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;qtlocation.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;qtlocation.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;qtlocation.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;qtlocation.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;qtlocation.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;qtlocation.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;qtlocation.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;qtlocation.do_fetch;---
@@ -1432,6 +1591,7 @@ threadripper-3990x-256gb-zeus;3-fetch;qtlocation.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;qtlocation.do_fetch;---
 VM-20t-157G-zeus;3-fetch;qtmultimedia.do_fetch;---
 VM-20t-98G-zeus;3-fetch;qtmultimedia.do_fetch;---
+dual-Epyc-7763;3-fetch;qtmultimedia.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;qtmultimedia.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;qtmultimedia.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;qtmultimedia.do_fetch;---
@@ -1443,6 +1603,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;qtmultimedia.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;qtmultimedia.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;qtmultimedia.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;qtmultimedia.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;qtmultimedia.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;qtmultimedia.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;qtmultimedia.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;qtmultimedia.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;qtmultimedia.do_fetch;---
@@ -1459,6 +1621,7 @@ threadripper-3990x-256gb-zeus;3-fetch;qtmultimedia.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;qtmultimedia.do_fetch;---
 VM-20t-157G-zeus;3-fetch;qtquickcontrols2.do_fetch;---
 VM-20t-98G-zeus;3-fetch;qtquickcontrols2.do_fetch;---
+dual-Epyc-7763;3-fetch;qtquickcontrols2.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;qtquickcontrols2.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;qtquickcontrols2.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;qtquickcontrols2.do_fetch;---
@@ -1470,6 +1633,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;qtquickcontrols2.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;qtquickcontrols2.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;qtquickcontrols2.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;qtquickcontrols2.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;qtquickcontrols2.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;qtquickcontrols2.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;qtquickcontrols2.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;qtquickcontrols2.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;qtquickcontrols2.do_fetch;---
@@ -1486,6 +1651,7 @@ threadripper-3990x-256gb-zeus;3-fetch;qtquickcontrols2.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;qtquickcontrols2.do_fetch;---
 VM-20t-157G-zeus;3-fetch;qtwebengine.do_fetch;---
 VM-20t-98G-zeus;3-fetch;qtwebengine.do_fetch;---
+dual-Epyc-7763;3-fetch;qtwebengine.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;qtwebengine.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;qtwebengine.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;qtwebengine.do_fetch;---
@@ -1497,6 +1663,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;qtwebengine.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;qtwebengine.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;qtwebengine.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;qtwebengine.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;qtwebengine.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;qtwebengine.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;qtwebengine.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;qtwebengine.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;qtwebengine.do_fetch;---
@@ -1513,6 +1681,7 @@ threadripper-3990x-256gb-zeus;3-fetch;qtwebengine.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;qtwebengine.do_fetch;---
 VM-20t-157G-zeus;3-fetch;qtwebkit.do_fetch;---
 VM-20t-98G-zeus;3-fetch;qtwebkit.do_fetch;---
+dual-Epyc-7763;3-fetch;qtwebkit.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;qtwebkit.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;qtwebkit.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;qtwebkit.do_fetch;---
@@ -1524,6 +1693,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;qtwebkit.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;qtwebkit.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;qtwebkit.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;qtwebkit.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;qtwebkit.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;qtwebkit.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;qtwebkit.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;qtwebkit.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;qtwebkit.do_fetch;---
@@ -1540,6 +1711,7 @@ threadripper-3990x-256gb-zeus;3-fetch;qtwebkit.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;qtwebkit.do_fetch;---
 VM-20t-157G-zeus;3-fetch;rpm.do_fetch;---
 VM-20t-98G-zeus;3-fetch;rpm.do_fetch;---
+dual-Epyc-7763;3-fetch;rpm.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;rpm.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;rpm.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;rpm.do_fetch;---
@@ -1551,6 +1723,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;rpm.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;rpm.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;rpm.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;rpm.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;rpm.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;rpm.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;rpm.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;rpm.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;rpm.do_fetch;---
@@ -1567,6 +1741,7 @@ threadripper-3990x-256gb-zeus;3-fetch;rpm.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;rpm.do_fetch;---
 VM-20t-157G-zeus;3-fetch;rpm-native.do_fetch;---
 VM-20t-98G-zeus;3-fetch;rpm-native.do_fetch;---
+dual-Epyc-7763;3-fetch;rpm-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;rpm-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;rpm-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;rpm-native.do_fetch;---
@@ -1578,6 +1753,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;rpm-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;rpm-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;rpm-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;rpm-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;rpm-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;rpm-native.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;rpm-native.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;rpm-native.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;rpm-native.do_fetch;---
@@ -1594,6 +1771,7 @@ threadripper-3990x-256gb-zeus;3-fetch;rpm-native.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;rpm-native.do_fetch;---
 VM-20t-157G-zeus;3-fetch;rust-native.do_fetch;---
 VM-20t-98G-zeus;3-fetch;rust-native.do_fetch;---
+dual-Epyc-7763;3-fetch;rust-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;rust-native.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;rust-native.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;rust-native.do_fetch;---
@@ -1605,6 +1783,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;rust-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;rust-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;rust-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;rust-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;rust-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;rust-native.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;rust-native.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;rust-native.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;rust-native.do_fetch;---
@@ -1619,8 +1799,39 @@ threadripper-3970x-64gb-zeus;3-fetch;rust-native.do_fetch;---
 threadripper-3990x-128gb-zeus;3-fetch;rust-native.do_fetch;---
 threadripper-3990x-256gb-zeus;3-fetch;rust-native.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;rust-native.do_fetch;---
+VM-20t-157G-zeus;3-fetch;spirv-tools-native.do_fetch;---
+VM-20t-98G-zeus;3-fetch;spirv-tools-native.do_fetch;---
+dual-Epyc-7763;3-fetch;spirv-tools-native.do_fetch;---
+dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;spirv-tools-native.do_fetch;---
+dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;spirv-tools-native.do_fetch;---
+dual-Xeon-E5-2670-8-channels-zeus;3-fetch;spirv-tools-native.do_fetch;---
+dual-Xeon-E5-2698-v3-4-channels-zeus;3-fetch;spirv-tools-native.do_fetch;---
+dual-Xeon-E5-2698-v4-4-channels-no-journal-zeus;3-fetch;spirv-tools-native.do_fetch;---
+dual-Xeon-E5-2698-v4-4-channels-tmpfs-zeus;3-fetch;spirv-tools-native.do_fetch;---
+dual-Xeon-E5-2698-v4-4-channels-zeus;3-fetch;spirv-tools-native.do_fetch;---
+dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;spirv-tools-native.do_fetch;---
+dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;spirv-tools-native.do_fetch;---
+dual-Xeon-Gold-6258R-zeus;3-fetch;spirv-tools-native.do_fetch;---
+ryzen-5-1600AF-zeus;3-fetch;spirv-tools-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;spirv-tools-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;spirv-tools-native.do_fetch;---
+ryzen-9-5950x-zeus;3-fetch;spirv-tools-native.do_fetch;---
+threadripper-2990wx-128gb-zeus;3-fetch;spirv-tools-native.do_fetch;---
+threadripper-3970x-128gb-optane-zeus;3-fetch;spirv-tools-native.do_fetch;---
+threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;3-fetch;spirv-tools-native.do_fetch;---
+threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;3-fetch;spirv-tools-native.do_fetch;---
+threadripper-3970x-128gb-ubuntu-20.10-gatesgarth-2020-10;3-fetch;spirv-tools-native.do_fetch;---
+threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;3-fetch;spirv-tools-native.do_fetch;---
+threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;3-fetch;spirv-tools-native.do_fetch;---
+threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;3-fetch;spirv-tools-native.do_fetch;---
+threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;3-fetch;spirv-tools-native.do_fetch;---
+threadripper-3970x-64gb-zeus;3-fetch;spirv-tools-native.do_fetch;---
+threadripper-3990x-128gb-zeus;3-fetch;spirv-tools-native.do_fetch;---
+threadripper-3990x-256gb-zeus;3-fetch;spirv-tools-native.do_fetch;---
+vSphere-VM-28t-55G-zeus;3-fetch;spirv-tools-native.do_fetch;---
 VM-20t-157G-zeus;3-fetch;tcp-wrappers.do_fetch;---
 VM-20t-98G-zeus;3-fetch;tcp-wrappers.do_fetch;---
+dual-Epyc-7763;3-fetch;tcp-wrappers.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;tcp-wrappers.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;tcp-wrappers.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;tcp-wrappers.do_fetch;---
@@ -1632,6 +1843,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;tcp-wrappers.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;tcp-wrappers.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;tcp-wrappers.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;tcp-wrappers.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;tcp-wrappers.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;tcp-wrappers.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;tcp-wrappers.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;tcp-wrappers.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;tcp-wrappers.do_fetch;---
@@ -1648,6 +1861,7 @@ threadripper-3990x-256gb-zeus;3-fetch;tcp-wrappers.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;tcp-wrappers.do_fetch;---
 VM-20t-157G-zeus;3-fetch;vulkan-loader.do_fetch;---
 VM-20t-98G-zeus;3-fetch;vulkan-loader.do_fetch;---
+dual-Epyc-7763;3-fetch;vulkan-loader.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;vulkan-loader.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;vulkan-loader.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;vulkan-loader.do_fetch;---
@@ -1659,6 +1873,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;vulkan-loader.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;vulkan-loader.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;vulkan-loader.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;vulkan-loader.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;vulkan-loader.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;vulkan-loader.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;vulkan-loader.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;vulkan-loader.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;vulkan-loader.do_fetch;---
@@ -1675,6 +1891,7 @@ threadripper-3990x-256gb-zeus;3-fetch;vulkan-loader.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;vulkan-loader.do_fetch;---
 VM-20t-157G-zeus;3-fetch;webkitgtk.do_fetch;---
 VM-20t-98G-zeus;3-fetch;webkitgtk.do_fetch;---
+dual-Epyc-7763;3-fetch;webkitgtk.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;webkitgtk.do_fetch;---
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;webkitgtk.do_fetch;---
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;webkitgtk.do_fetch;---
@@ -1686,6 +1903,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;webkitgtk.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;webkitgtk.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;webkitgtk.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;webkitgtk.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;webkitgtk.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;webkitgtk.do_fetch;---
 ryzen-9-5950x-zeus;3-fetch;webkitgtk.do_fetch;---
 threadripper-2990wx-128gb-zeus;3-fetch;webkitgtk.do_fetch;---
 threadripper-3970x-128gb-optane-zeus;3-fetch;webkitgtk.do_fetch;---
@@ -1702,6 +1921,7 @@ threadripper-3990x-256gb-zeus;3-fetch;webkitgtk.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;webkitgtk.do_fetch;---
 VM-20t-157G-zeus;3-fetch;Total;2666.28
 VM-20t-98G-zeus;3-fetch;Total;705.61
+dual-Epyc-7763;3-fetch;Total;197.02
 dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;Total;8.46
 dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;Total;42.50
 dual-Xeon-E5-2670-8-channels-zeus;3-fetch;Total;514.62
@@ -1713,6 +1933,8 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;Total;766.71
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;Total;864.86
 dual-Xeon-Gold-6258R-zeus;3-fetch;Total;1781.53
 ryzen-5-1600AF-zeus;3-fetch;Total;1124.56
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;Total;2224.03
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;Total;4624.87
 ryzen-9-5950x-zeus;3-fetch;Total;4.94
 threadripper-2990wx-128gb-zeus;3-fetch;Total;234.49
 threadripper-3970x-128gb-optane-zeus;3-fetch;Total;184.61
