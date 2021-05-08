@@ -36,15 +36,18 @@ for step in $steps; do
     builds="*/*${step}*.top20"
     [ $step = "builds" ] && builds="*/[4567]*build*.top20"
 
-    tasks=`grep -v '/build_stats$' ${builds} | sed 's/^.* seconds //g' | sed 's#-[^-/]*-[^-/]*/#.#g' | sort -u`
+    tasks=`grep -v '/build_stats$' ${builds} | sed 's/^.* seconds //g' | sed 's#-[^-/]*-[^-/]*/#-PV-PR/#g' | sort -u`
     for t in $tasks; do
-        # m4-native-1.4.18-r0/do_configure
+        # t=m4-native-PV-PR.do_configure, but the results have m4-native-1.4.18-r0/do_configure
+        # tasks=m4-native.do_configure to collapse different versions used in different OE releases
         task=`echo $t | sed "s#-[^-/]*-[^-/]*/#.#g"`
+        # back to m4-native-[^-/]*-[^-/]*/do_configure format
+        task_regex=`echo $t | sed 's#PV#[^-/]*#g; s#PR#[^-/]*#g'`
         for i in ${builds}; do
             builder=`dirname $i`
             build=`basename $i | sed 's/\.top20//g; s/?-build-//g; s/-threads//g; s/all-cores/all/g'`
             # 0.95 seconds m4-native-1.4.18-r0/do_fetch
-            time=`grep " $t$" $i | sed 's/ seconds .*$//g'`
+            time=`grep " $task_regex$" $i | sed 's/ seconds .*$//g'`
             [ -z "$time" ] && time="---"
             echo "$builder;$build;$task;$time"
         done
@@ -70,7 +73,7 @@ for step in $steps; do
     builds="*/*${step}*.top20"
     [ $step = "builds" ] && builds="*/[4567]*build*.top20"
 
-    tasks=`grep -v '/build_stats$' ${builds} | sed 's/^.* seconds //g' | sed 's#-[^-/]*-[^-/]*/#.#g' | sort -u`
+    tasks=`grep -v '/build_stats$' ${builds} | sed 's/^.* seconds //g' | sed 's#-[^-/]*-[^-/]*/#-PV-PR/#g' | sort -u`
 
     echo -n "task"
     for i in ${builds}; do
@@ -86,14 +89,17 @@ for step in $steps; do
 
     echo
     for t in $tasks; do
-        # m4-native-1.4.18-r0/do_configure
+        # t=m4-native-PV-PR.do_configure, but the results have m4-native-1.4.18-r0/do_configure
+        # tasks=m4-native.do_configure to collapse different versions used in different OE releases
         task=`echo $t | sed "s#-[^-/]*-[^-/]*/#.#g"`
+        # back to m4-native-[^-/]*-[^-/]*/do_configure format
+        task_regex=`echo $t | sed 's#PV#[^-/]*#g; s#PR#[^-/]*#g'`
         echo -n "$task"
         for i in ${builds}; do
             builder=`dirname $i`
             build=`basename $i | sed 's/\.top20//g; s/?-build-//g; s/-threads//g; s/all-cores/all/g'`
             # 0.95 seconds m4-native-1.4.18-r0/do_fetch
-            time=`grep " $t$" $i | sed 's/ seconds .*$//g'`
+            time=`grep " $task_regex$" $i | sed 's/ seconds .*$//g'`
             [ -z "$time" ] && time="---"
             echo -n ";$time"
         done
