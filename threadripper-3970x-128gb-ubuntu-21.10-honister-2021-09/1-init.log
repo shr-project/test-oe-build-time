@@ -4,6 +4,158 @@ Cloning into 'meta-qt5'...
 Switched to a new branch 'honister'
 Cloning into 'meta-browser'...
 Switched to a new branch 'honister'
+--2021-09-02 15:29:08--  https://github.com/OSSystems/meta-browser/commit/871033462f905c096374ce6f1d1dd3baf89d0847.patch
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 11099 (11K) [text/plain]
+Saving to: ‘871033462f905c096374ce6f1d1dd3baf89d0847.patch’
+
+     0K ..........                                            100% 9.85M=0.001s
+
+2021-09-02 15:29:08 (9.85 MB/s) - ‘871033462f905c096374ce6f1d1dd3baf89d0847.patch’ saved [11099/11099]
+
+.git/rebase-apply/patch:63: trailing whitespace.
+ 
+.git/rebase-apply/patch:80: trailing whitespace.
+ 
+.git/rebase-apply/patch:103: trailing whitespace.
+ 
+.git/rebase-apply/patch:108: trailing whitespace.
+ 
+.git/rebase-apply/patch:123: trailing whitespace.
+ 
+warning: squelched 16 whitespace errors
+warning: 21 lines add whitespace errors.
+Applying: Add patch to fix build in latest oe/gcc11 environment
+--2021-09-02 15:29:08--  https://github.com/OSSystems/meta-browser/pull/553/commits/927ccad3766489a87b5f3da15acc8e64ffa0358e.patch
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github.com/OSSystems/meta-browser/commit/927ccad3766489a87b5f3da15acc8e64ffa0358e.patch [following]
+--2021-09-02 15:29:08--  https://github.com/OSSystems/meta-browser/commit/927ccad3766489a87b5f3da15acc8e64ffa0358e.patch
+Reusing existing connection to github.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1182 (1.2K) [text/plain]
+Saving to: ‘927ccad3766489a87b5f3da15acc8e64ffa0358e.patch’
+
+     0K .                                                     100% 8.55M=0s
+
+2021-09-02 15:29:08 (8.55 MB/s) - ‘927ccad3766489a87b5f3da15acc8e64ffa0358e.patch’ saved [1182/1182]
+
+Applying: meta-firefox: remove dependency on rust-layer
+--2021-09-02 15:29:08--  https://github.com/OSSystems/meta-browser/pull/553/commits/6ef08fdfe1daaa7c4502868b30294fe0be4788ee.patch
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github.com/OSSystems/meta-browser/commit/6ef08fdfe1daaa7c4502868b30294fe0be4788ee.patch [following]
+--2021-09-02 15:29:09--  https://github.com/OSSystems/meta-browser/commit/6ef08fdfe1daaa7c4502868b30294fe0be4788ee.patch
+Reusing existing connection to github.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2225 (2.2K) [text/plain]
+Saving to: ‘6ef08fdfe1daaa7c4502868b30294fe0be4788ee.patch’
+
+     0K ..                                                    100% 49.5M=0s
+
+2021-09-02 15:29:09 (49.5 MB/s) - ‘6ef08fdfe1daaa7c4502868b30294fe0be4788ee.patch’ saved [2225/2225]
+
+Applying: firefox: add explicit dependency on gtk+3
+--2021-09-02 15:29:09--  https://github.com/OSSystems/meta-browser/pull/553/commits/37eb6560de8aecef7091c16becd110fa5a2b8249.patch
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github.com/OSSystems/meta-browser/commit/37eb6560de8aecef7091c16becd110fa5a2b8249.patch [following]
+--2021-09-02 15:29:09--  https://github.com/OSSystems/meta-browser/commit/37eb6560de8aecef7091c16becd110fa5a2b8249.patch
+Reusing existing connection to github.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4126 (4.0K) [text/plain]
+Saving to: ‘37eb6560de8aecef7091c16becd110fa5a2b8249.patch’
+
+     0K ....                                                  100% 6.65M=0.001s
+
+2021-09-02 15:29:10 (6.65 MB/s) - ‘37eb6560de8aecef7091c16becd110fa5a2b8249.patch’ saved [4126/4126]
+
+.git/rebase-apply/patch:31: trailing whitespace.
+ 
+.git/rebase-apply/patch:40: trailing whitespace.
+ 
+.git/rebase-apply/patch:46: trailing whitespace.
+ 
+warning: 3 lines add whitespace errors.
+Applying: firefox: fix build with glibc-2.34
+--2021-09-02 15:29:10--  https://github.com/OSSystems/meta-browser/pull/553/commits/39f5dff52587b07b0a1be88b55f713454266525a.patch
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github.com/OSSystems/meta-browser/commit/39f5dff52587b07b0a1be88b55f713454266525a.patch [following]
+--2021-09-02 15:29:10--  https://github.com/OSSystems/meta-browser/commit/39f5dff52587b07b0a1be88b55f713454266525a.patch
+Reusing existing connection to github.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4123 (4.0K) [text/plain]
+Saving to: ‘39f5dff52587b07b0a1be88b55f713454266525a.patch’
+
+     0K ....                                                  100% 6.63M=0.001s
+
+2021-09-02 15:29:10 (6.63 MB/s) - ‘39f5dff52587b07b0a1be88b55f713454266525a.patch’ saved [4123/4123]
+
+.git/rebase-apply/patch:47: trailing whitespace.
+ 
+.git/rebase-apply/patch:64: trailing whitespace.
+ 
+warning: 2 lines add whitespace errors.
+Applying: firefox: fix build with glibc-2.34 II
+--2021-09-02 15:29:10--  https://github.com/OSSystems/meta-browser/pull/553/commits/f1e11805e2fe163ae73977ef8afaa8921a2ba038.patch
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github.com/OSSystems/meta-browser/commit/f1e11805e2fe163ae73977ef8afaa8921a2ba038.patch [following]
+--2021-09-02 15:29:11--  https://github.com/OSSystems/meta-browser/commit/f1e11805e2fe163ae73977ef8afaa8921a2ba038.patch
+Reusing existing connection to github.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3446 (3.4K) [text/plain]
+Saving to: ‘f1e11805e2fe163ae73977ef8afaa8921a2ba038.patch’
+
+     0K ...                                                   100% 74.9M=0s
+
+2021-09-02 15:29:11 (74.9 MB/s) - ‘f1e11805e2fe163ae73977ef8afaa8921a2ba038.patch’ saved [3446/3446]
+
+.git/rebase-apply/patch:39: trailing whitespace.
+ 
+.git/rebase-apply/patch:43: trailing whitespace.
+ 
+.git/rebase-apply/patch:46: space before tab in indent.
+ 	  code_pair_t pair = { supp_codes[i], sid };
+.git/rebase-apply/patch:47: space before tab in indent.
+ 	  subset_enc_supp_codes.push (pair);
+.git/rebase-apply/patch:48: space before tab in indent.
+ 	}
+warning: 5 lines add whitespace errors.
+Applying: firefox: fix build with -Werror,-Wunused-but-set-variable
+--2021-09-02 15:29:11--  https://github.com/OSSystems/meta-browser/pull/553/commits/b7fc5af15ee4dd80936c2bda1f0ecd683acd5257.patch
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github.com/OSSystems/meta-browser/commit/b7fc5af15ee4dd80936c2bda1f0ecd683acd5257.patch [following]
+--2021-09-02 15:29:11--  https://github.com/OSSystems/meta-browser/commit/b7fc5af15ee4dd80936c2bda1f0ecd683acd5257.patch
+Reusing existing connection to github.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4863 (4.7K) [text/plain]
+Saving to: ‘b7fc5af15ee4dd80936c2bda1f0ecd683acd5257.patch’
+
+     0K ....                                                  100% 7.89M=0.001s
+
+2021-09-02 15:29:11 (7.89 MB/s) - ‘b7fc5af15ee4dd80936c2bda1f0ecd683acd5257.patch’ saved [4863/4863]
+
+.git/rebase-apply/patch:50: trailing whitespace.
+ 
+.git/rebase-apply/patch:53: trailing whitespace.
+ 
+.git/rebase-apply/patch:55: trailing whitespace.
+ 
+.git/rebase-apply/patch:55: new blank line at EOF.
++
+warning: 4 lines add whitespace errors.
+Applying: firefox: fix build with gcc-11
 Cloning into 'meta-openembedded'...
 Switched to a new branch 'honister'
 Cloning into 'meta-clang'...
@@ -45,5 +197,5 @@ Other commonly useful commands are:
  - 'devtool' and 'recipetool' handle common recipe tasks
  - 'bitbake-layers' handles common layer tasks
  - 'oe-pkgdata-util' handles common target package tasks
-20.28user 7.55system 1:19.73elapsed 34%CPU (0avgtext+0avgdata 342380maxresident)k
-160inputs+739696outputs (28major+181794minor)pagefaults 0swaps
+20.60user 6.81system 1:13.62elapsed 37%CPU (0avgtext+0avgdata 349536maxresident)k
+1248inputs+745704outputs (29major+192326minor)pagefaults 0swaps
