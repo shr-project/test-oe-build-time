@@ -22,6 +22,9 @@ for p in 927ccad3766489a87b5f3da15acc8e64ffa0358e 6ef08fdfe1daaa7c4502868b30294f
   wget https://github.com/OSSystems/meta-browser/pull/553/commits/$p.patch
   git am $p.patch
 done
+# https://github.com/OSSystems/meta-browser/pull/555
+wget https://github.com/OSSystems/meta-browser/commit/b01500171df422e63d0a10b3287bf65a230125b8.patch
+git am b01500171df422e63d0a10b3287bf65a230125b8.patch
 cd ..
 git clone https://github.com/openembedded/meta-openembedded.git
 cd meta-openembedded
