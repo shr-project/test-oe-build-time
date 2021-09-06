@@ -14,9 +14,9 @@ cd ..
 git clone https://github.com/OSSystems/meta-browser.git
 cd meta-browser
 git checkout -b honister a7d78e7d86869c3e9c9dbcc5be8774f54a03e13a
-# https://github.com/OSSystems/meta-browser/pull/551
-wget https://github.com/OSSystems/meta-browser/commit/871033462f905c096374ce6f1d1dd3baf89d0847.patch
-git am 871033462f905c096374ce6f1d1dd3baf89d0847.patch
+# https://github.com/OSSystems/meta-browser/pull/554
+wget https://github.com/OSSystems/meta-browser/commit/bf2ff922ad8c103bffc8bae7c77a504d4ee31924.patch
+git am bf2ff922ad8c103bffc8bae7c77a504d4ee31924.patch
 # https://github.com/OSSystems/meta-browser/pull/553
 for p in 927ccad3766489a87b5f3da15acc8e64ffa0358e 6ef08fdfe1daaa7c4502868b30294fe0be4788ee 37eb6560de8aecef7091c16becd110fa5a2b8249 39f5dff52587b07b0a1be88b55f713454266525a f1e11805e2fe163ae73977ef8afaa8921a2ba038 b7fc5af15ee4dd80936c2bda1f0ecd683acd5257; do
   wget https://github.com/OSSystems/meta-browser/pull/553/commits/$p.patch
