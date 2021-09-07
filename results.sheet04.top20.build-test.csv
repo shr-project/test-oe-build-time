@@ -1,4 +1,35 @@
 builder;step;task;time
+VM-20t-157G-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+VM-20t-98G-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+dual-Epyc-7763;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+dual-Xeon-E5-2670-8-channels-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+dual-Xeon-E5-2698-v3-4-channels-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+dual-Xeon-E5-2698-v4-4-channels-no-journal-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+dual-Xeon-E5-2698-v4-4-channels-tmpfs-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+dual-Xeon-Gold-6258R-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+ryzen-5-1600AF-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+ryzen-9-5950x-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+threadripper-2990wx-128gb-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+threadripper-3970x-128gb-optane-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+threadripper-3970x-128gb-ubuntu-20.10-gatesgarth-2020-10;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;gettext-minimal-native.do_populate_sysroot;0.15
+threadripper-3970x-64gb-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+threadripper-3990x-128gb-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+threadripper-3990x-256gb-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+vSphere-VM-28t-55G-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
 VM-20t-157G-zeus;2-build-test;gnu-config-native.do_fetch;5.01
 VM-20t-98G-zeus;2-build-test;gnu-config-native.do_fetch;1.65
 dual-Epyc-7763;2-build-test;gnu-config-native.do_fetch;---
@@ -25,6 +56,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;gnu-config-na
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;gnu-config-native.do_fetch;2.79
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;gnu-config-native.do_fetch;---
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;gnu-config-native.do_fetch;3.39
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;gnu-config-native.do_fetch;2.84
 threadripper-3970x-64gb-zeus;2-build-test;gnu-config-native.do_fetch;0.71
 threadripper-3990x-128gb-zeus;2-build-test;gnu-config-native.do_fetch;2.20
 threadripper-3990x-256gb-zeus;2-build-test;gnu-config-native.do_fetch;0.65
@@ -55,6 +87,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;gnu-config-na
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;gnu-config-native.do_install;---
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;gnu-config-native.do_install;---
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;gnu-config-native.do_install;---
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;gnu-config-native.do_install;---
 threadripper-3970x-64gb-zeus;2-build-test;gnu-config-native.do_install;---
 threadripper-3990x-128gb-zeus;2-build-test;gnu-config-native.do_install;---
 threadripper-3990x-256gb-zeus;2-build-test;gnu-config-native.do_install;---
@@ -85,6 +118,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;gnu-config-na
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;gnu-config-native.do_populate_lic;---
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;gnu-config-native.do_populate_lic;0.09
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;gnu-config-native.do_populate_lic;---
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;gnu-config-native.do_populate_lic;---
 threadripper-3970x-64gb-zeus;2-build-test;gnu-config-native.do_populate_lic;0.10
 threadripper-3990x-128gb-zeus;2-build-test;gnu-config-native.do_populate_lic;0.10
 threadripper-3990x-256gb-zeus;2-build-test;gnu-config-native.do_populate_lic;0.09
@@ -115,6 +149,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;gnu-config-na
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;gnu-config-native.do_populate_sysroot;0.17
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;gnu-config-native.do_populate_sysroot;0.17
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;gnu-config-native.do_populate_sysroot;0.17
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;gnu-config-native.do_populate_sysroot;0.16
 threadripper-3970x-64gb-zeus;2-build-test;gnu-config-native.do_populate_sysroot;0.19
 threadripper-3990x-128gb-zeus;2-build-test;gnu-config-native.do_populate_sysroot;0.20
 threadripper-3990x-256gb-zeus;2-build-test;gnu-config-native.do_populate_sysroot;0.19
@@ -145,6 +180,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;gnu-config-na
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;gnu-config-native.do_rm_work;---
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;gnu-config-native.do_rm_work;---
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;gnu-config-native.do_rm_work;---
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;gnu-config-native.do_rm_work;---
 threadripper-3970x-64gb-zeus;2-build-test;gnu-config-native.do_rm_work;---
 threadripper-3990x-128gb-zeus;2-build-test;gnu-config-native.do_rm_work;---
 threadripper-3990x-256gb-zeus;2-build-test;gnu-config-native.do_rm_work;---
@@ -175,6 +211,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;gnu-config-na
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;gnu-config-native.do_unpack;0.10
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;gnu-config-native.do_unpack;0.11
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;gnu-config-native.do_unpack;0.10
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;gnu-config-native.do_unpack;---
 threadripper-3970x-64gb-zeus;2-build-test;gnu-config-native.do_unpack;---
 threadripper-3990x-128gb-zeus;2-build-test;gnu-config-native.do_unpack;---
 threadripper-3990x-256gb-zeus;2-build-test;gnu-config-native.do_unpack;---
@@ -205,6 +242,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;m4-native.do_
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;m4-native.do_compile;0.79
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;m4-native.do_compile;0.83
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;m4-native.do_compile;0.83
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;m4-native.do_compile;2.02
 threadripper-3970x-64gb-zeus;2-build-test;m4-native.do_compile;0.80
 threadripper-3990x-128gb-zeus;2-build-test;m4-native.do_compile;0.81
 threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_compile;0.77
@@ -235,6 +273,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;m4-native.do_
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;m4-native.do_configure;14.39
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;m4-native.do_configure;14.40
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;m4-native.do_configure;14.34
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;m4-native.do_configure;17.72
 threadripper-3970x-64gb-zeus;2-build-test;m4-native.do_configure;15.77
 threadripper-3990x-128gb-zeus;2-build-test;m4-native.do_configure;15.85
 threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_configure;15.82
@@ -265,6 +304,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;m4-native.do_
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;m4-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;m4-native.do_deploy_source_date_epoch;0.09
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;m4-native.do_deploy_source_date_epoch;---
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;m4-native.do_deploy_source_date_epoch;---
 threadripper-3970x-64gb-zeus;2-build-test;m4-native.do_deploy_source_date_epoch;---
 threadripper-3990x-128gb-zeus;2-build-test;m4-native.do_deploy_source_date_epoch;---
 threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_deploy_source_date_epoch;---
@@ -295,6 +335,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;m4-native.do_
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;m4-native.do_fetch;1.38
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;m4-native.do_fetch;---
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;m4-native.do_fetch;1.97
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;m4-native.do_fetch;2.01
 threadripper-3970x-64gb-zeus;2-build-test;m4-native.do_fetch;0.95
 threadripper-3990x-128gb-zeus;2-build-test;m4-native.do_fetch;0.48
 threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_fetch;0.46
@@ -325,6 +366,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;m4-native.do_
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;m4-native.do_install;0.36
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;m4-native.do_install;0.34
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;m4-native.do_install;0.35
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;m4-native.do_install;0.42
 threadripper-3970x-64gb-zeus;2-build-test;m4-native.do_install;0.35
 threadripper-3990x-128gb-zeus;2-build-test;m4-native.do_install;0.36
 threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_install;0.34
@@ -355,6 +397,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;m4-native.do_
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;m4-native.do_patch;0.15
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;m4-native.do_patch;0.14
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;m4-native.do_patch;0.15
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;m4-native.do_patch;0.09
 threadripper-3970x-64gb-zeus;2-build-test;m4-native.do_patch;0.15
 threadripper-3990x-128gb-zeus;2-build-test;m4-native.do_patch;0.16
 threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_patch;0.15
@@ -385,6 +428,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;m4-native.do_
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;m4-native.do_populate_lic;---
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;m4-native.do_populate_lic;0.09
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;m4-native.do_populate_lic;---
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;m4-native.do_populate_lic;0.09
 threadripper-3970x-64gb-zeus;2-build-test;m4-native.do_populate_lic;0.09
 threadripper-3990x-128gb-zeus;2-build-test;m4-native.do_populate_lic;0.10
 threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_populate_lic;0.10
@@ -415,6 +459,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;m4-native.do_
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;m4-native.do_populate_sysroot;0.19
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;m4-native.do_populate_sysroot;0.20
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;m4-native.do_populate_sysroot;0.20
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;m4-native.do_populate_sysroot;0.20
 threadripper-3970x-64gb-zeus;2-build-test;m4-native.do_populate_sysroot;0.20
 threadripper-3990x-128gb-zeus;2-build-test;m4-native.do_populate_sysroot;0.21
 threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_populate_sysroot;0.21
@@ -445,6 +490,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;m4-native.do_
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;m4-native.do_rm_work;---
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;m4-native.do_rm_work;---
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;m4-native.do_rm_work;---
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;m4-native.do_rm_work;---
 threadripper-3970x-64gb-zeus;2-build-test;m4-native.do_rm_work;---
 threadripper-3990x-128gb-zeus;2-build-test;m4-native.do_rm_work;---
 threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_rm_work;---
@@ -475,6 +521,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;m4-native.do_
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;m4-native.do_unpack;0.09
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;m4-native.do_unpack;0.13
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;m4-native.do_unpack;0.10
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;m4-native.do_unpack;0.11
 threadripper-3970x-64gb-zeus;2-build-test;m4-native.do_unpack;---
 threadripper-3990x-128gb-zeus;2-build-test;m4-native.do_unpack;0.09
 threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_unpack;0.09
@@ -505,6 +552,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;quilt-native.
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;quilt-native.do_compile;0.34
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;quilt-native.do_compile;0.33
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;quilt-native.do_compile;0.34
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;quilt-native.do_compile;0.34
 threadripper-3970x-64gb-zeus;2-build-test;quilt-native.do_compile;0.52
 threadripper-3990x-128gb-zeus;2-build-test;quilt-native.do_compile;0.52
 threadripper-3990x-256gb-zeus;2-build-test;quilt-native.do_compile;0.43
@@ -535,6 +583,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;quilt-native.
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;quilt-native.do_configure;0.48
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;quilt-native.do_configure;0.49
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;quilt-native.do_configure;0.51
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;quilt-native.do_configure;0.50
 threadripper-3970x-64gb-zeus;2-build-test;quilt-native.do_configure;0.50
 threadripper-3990x-128gb-zeus;2-build-test;quilt-native.do_configure;0.49
 threadripper-3990x-256gb-zeus;2-build-test;quilt-native.do_configure;0.48
@@ -565,6 +614,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;quilt-native.
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;quilt-native.do_deploy_source_date_epoch;0.09
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;quilt-native.do_deploy_source_date_epoch;0.09
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;quilt-native.do_deploy_source_date_epoch;0.10
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;quilt-native.do_deploy_source_date_epoch;0.09
 threadripper-3970x-64gb-zeus;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 threadripper-3990x-128gb-zeus;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 threadripper-3990x-256gb-zeus;2-build-test;quilt-native.do_deploy_source_date_epoch;---
@@ -595,6 +645,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;quilt-native.
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;quilt-native.do_fetch;0.92
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;quilt-native.do_fetch;---
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;quilt-native.do_fetch;0.94
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;quilt-native.do_fetch;1.20
 threadripper-3970x-64gb-zeus;2-build-test;quilt-native.do_fetch;2.84
 threadripper-3990x-128gb-zeus;2-build-test;quilt-native.do_fetch;1.31
 threadripper-3990x-256gb-zeus;2-build-test;quilt-native.do_fetch;1.55
@@ -625,6 +676,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;quilt-native.
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;quilt-native.do_install;0.10
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;quilt-native.do_install;0.10
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;quilt-native.do_install;0.10
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;quilt-native.do_install;0.10
 threadripper-3970x-64gb-zeus;2-build-test;quilt-native.do_install;0.12
 threadripper-3990x-128gb-zeus;2-build-test;quilt-native.do_install;0.12
 threadripper-3990x-256gb-zeus;2-build-test;quilt-native.do_install;0.12
@@ -655,6 +707,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;quilt-native.
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;quilt-native.do_populate_lic;---
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;quilt-native.do_populate_lic;0.09
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;quilt-native.do_populate_lic;---
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;quilt-native.do_populate_lic;0.09
 threadripper-3970x-64gb-zeus;2-build-test;quilt-native.do_populate_lic;0.09
 threadripper-3990x-128gb-zeus;2-build-test;quilt-native.do_populate_lic;0.10
 threadripper-3990x-256gb-zeus;2-build-test;quilt-native.do_populate_lic;0.09
@@ -685,6 +738,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;quilt-native.
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;quilt-native.do_populate_sysroot;0.25
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;quilt-native.do_populate_sysroot;0.25
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;quilt-native.do_populate_sysroot;0.25
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;quilt-native.do_populate_sysroot;0.25
 threadripper-3970x-64gb-zeus;2-build-test;quilt-native.do_populate_sysroot;0.27
 threadripper-3990x-128gb-zeus;2-build-test;quilt-native.do_populate_sysroot;0.29
 threadripper-3990x-256gb-zeus;2-build-test;quilt-native.do_populate_sysroot;0.31
@@ -715,6 +769,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;quilt-native.
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;quilt-native.do_rm_work;---
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;quilt-native.do_rm_work;---
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;quilt-native.do_rm_work;---
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;quilt-native.do_rm_work;---
 threadripper-3970x-64gb-zeus;2-build-test;quilt-native.do_rm_work;---
 threadripper-3990x-128gb-zeus;2-build-test;quilt-native.do_rm_work;---
 threadripper-3990x-256gb-zeus;2-build-test;quilt-native.do_rm_work;---
@@ -745,6 +800,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;texinfo-dummy
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;0.10
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;0.10
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;0.09
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 threadripper-3970x-64gb-zeus;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 threadripper-3990x-128gb-zeus;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 threadripper-3990x-256gb-zeus;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
@@ -775,6 +831,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;texinfo-dummy
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;texinfo-dummy-native.do_install;---
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;texinfo-dummy-native.do_install;---
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;texinfo-dummy-native.do_install;---
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;texinfo-dummy-native.do_install;---
 threadripper-3970x-64gb-zeus;2-build-test;texinfo-dummy-native.do_install;0.08
 threadripper-3990x-128gb-zeus;2-build-test;texinfo-dummy-native.do_install;---
 threadripper-3990x-256gb-zeus;2-build-test;texinfo-dummy-native.do_install;---
@@ -805,6 +862,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;texinfo-dummy
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;texinfo-dummy-native.do_populate_lic;0.09
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;texinfo-dummy-native.do_populate_lic;---
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;texinfo-dummy-native.do_populate_lic;0.09
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;texinfo-dummy-native.do_populate_lic;---
 threadripper-3970x-64gb-zeus;2-build-test;texinfo-dummy-native.do_populate_lic;0.09
 threadripper-3990x-128gb-zeus;2-build-test;texinfo-dummy-native.do_populate_lic;0.10
 threadripper-3990x-256gb-zeus;2-build-test;texinfo-dummy-native.do_populate_lic;0.09
@@ -835,6 +893,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;texinfo-dummy
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.17
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.17
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.18
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.18
 threadripper-3970x-64gb-zeus;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.21
 threadripper-3990x-128gb-zeus;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.24
 threadripper-3990x-256gb-zeus;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.23
@@ -865,6 +924,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;texinfo-dummy
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;texinfo-dummy-native.do_rm_work;---
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;texinfo-dummy-native.do_rm_work;---
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;texinfo-dummy-native.do_rm_work;---
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;texinfo-dummy-native.do_rm_work;---
 threadripper-3970x-64gb-zeus;2-build-test;texinfo-dummy-native.do_rm_work;---
 threadripper-3990x-128gb-zeus;2-build-test;texinfo-dummy-native.do_rm_work;---
 threadripper-3990x-256gb-zeus;2-build-test;texinfo-dummy-native.do_rm_work;---
@@ -895,6 +955,7 @@ threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;Total;20.54
 threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;Total;21.56
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;Total;20.44
 threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;Total;22.26
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;Total;26.21
 threadripper-3970x-64gb-zeus;2-build-test;Total;24.39
 threadripper-3990x-128gb-zeus;2-build-test;Total;23.33
 threadripper-3990x-256gb-zeus;2-build-test;Total;23.26
