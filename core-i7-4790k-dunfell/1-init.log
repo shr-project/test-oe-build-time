@@ -1,0 +1,53 @@
+'poky'에 복제합니다...
+새로 만든 'dunfell' 브랜치로 전환합니다
+'meta-qt5'에 복제합니다...
+새로 만든 'dunfell' 브랜치로 전환합니다
+'meta-browser'에 복제합니다...
+새로 만든 'dunfell' 브랜치로 전환합니다
+'meta-openembedded'에 복제합니다...
+새로 만든 'dunfell' 브랜치로 전환합니다
+'meta-clang'에 복제합니다...
+새로 만든 'dunfell' 브랜치로 전환합니다
+'meta-rust'에 복제합니다...
+새로 만든 'dunfell' 브랜치로 전환합니다
+.git/rebase-apply/patch:63: trailing whitespace.
+ 
+warning: 1번 줄에서 공백 오류를 추가합니다.
+적용하는 중: rust-llvm-1.37.0: fix build with gcc-10 and undo incompatible changes from meta-rust
+'meta-python2'에 복제합니다...
+새로 만든 'dunfell' 브랜치로 전환합니다
+You had no conf/local.conf file. This configuration file has therefore been
+created for you with some default values. You may wish to edit it to, for
+example, select a different MACHINE (target hardware). See conf/local.conf
+for more information as common configuration options are commented.
+
+You had no conf/bblayers.conf file. This configuration file has therefore been
+created for you with some default values. To add additional metadata layers
+into your configuration please add entries to conf/bblayers.conf.
+
+The Yocto Project has extensive documentation about OE including a reference
+manual which can be found at:
+    http://yoctoproject.org/documentation
+
+For more information about OpenEmbedded see their website:
+    http://www.openembedded.org/
+
+
+### Shell environment set up for builds. ###
+
+You can now run 'bitbake <target>'
+
+Common targets are:
+    core-image-minimal
+    core-image-sato
+    meta-toolchain
+    meta-ide-support
+
+You can also run generated qemu images with a command like 'runqemu qemux86'
+
+Other commonly useful commands are:
+ - 'devtool' and 'recipetool' handle common recipe tasks
+ - 'bitbake-layers' handles common layer tasks
+ - 'oe-pkgdata-util' handles common target package tasks
+28.39user 8.89system 2:20.04elapsed 26%CPU (0avgtext+0avgdata 168892maxresident)k
+30216inputs+800176outputs (57major+102648minor)pagefaults 0swaps
