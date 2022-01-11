@@ -1,0 +1,163 @@
+SYS:	Tower
+CPU:	4cores 8threads from Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz
+MB:	ASUS Z97-PRO
+RAM:	32GB (4x8GB DDR3-1600 UDIMM Crucial CT102464BA160B)
+DISK:	400GB Intel SSDPEDMW400G4, 32GB SWAP
+FS:	xfs with defaults
+OS:	Debian 10
+
+I executed test.sh, 8-build-individual-components.sh, and test-mbw.sh with GB=10.
+
+==> 1-init.log <==
+ - 'devtool' and 'recipetool' handle common recipe tasks
+ - 'bitbake-layers' handles common layer tasks
+ - 'oe-pkgdata-util' handles common target package tasks
+28.39user 8.89system 2:20.04elapsed 26%CPU (0avgtext+0avgdata 168892maxresident)k
+30216inputs+800176outputs (57major+102648minor)pagefaults 0swaps
+
+==> 2-build-test.log <==
+NOTE: recipe m4-native-1.4.18-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 46 of 46 (/home/hwang/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.18.bb:do_build)
+NOTE: Tasks Summary: Attempted 46 tasks of which 0 didn't need to be rerun and all succeeded.
+0.47user 0.04system 1:28.80elapsed 0%CPU (0avgtext+0avgdata 39292maxresident)k
+13648inputs+2744outputs (33major+21036minor)pagefaults 0swaps
+
+==> 3-fetch.log <==
+NOTE: Tasks Summary: Attempted 561 tasks of which 0 didn't need to be rerun and all succeeded.
+
+Summary: There were 5 WARNING messages shown.
+9.58user 1.39system 1:21:59elapsed 0%CPU (0avgtext+0avgdata 36924maxresident)k
+40inputs+808outputs (0major+14369minor)pagefaults 0swaps
+
+==> 4-build-all-cores.log <==
+NOTE: Tasks Summary: Attempted 9030 tasks of which 1 didn't need to be rerun and all succeeded.
+
+Summary: There were 3 WARNING messages shown.
+44.22user 4.91system 12:06:36elapsed 0%CPU (0avgtext+0avgdata 36664maxresident)k
+27264inputs+7920outputs (2089major+16205minor)pagefaults 0swaps
+
+==> 5-build-8-bb-threads.log <==
+NOTE: Tasks Summary: Attempted 9030 tasks of which 1 didn't need to be rerun and all succeeded.
+
+Summary: There were 3 WARNING messages shown.
+44.77user 4.60system 12:08:56elapsed 0%CPU (0avgtext+0avgdata 36128maxresident)k
+42008inputs+7952outputs (2099major+15744minor)pagefaults 0swaps
+
+==> 6-build-16-bb-threads.log <==
+NOTE: Tasks Summary: Attempted 9030 tasks of which 1 didn't need to be rerun and all succeeded.
+
+Summary: There were 3 WARNING messages shown.
+44.65user 5.05system 12:10:45elapsed 0%CPU (0avgtext+0avgdata 36304maxresident)k
+36616inputs+7368outputs (2146major+15534minor)pagefaults 0swaps
+
+==> 7-build-2-bb-threads.log <==
+NOTE: Tasks Summary: Attempted 9030 tasks of which 1 didn't need to be rerun and all succeeded.
+
+Summary: There were 3 WARNING messages shown.
+42.60user 4.74system 12:27:00elapsed 0%CPU (0avgtext+0avgdata 36360maxresident)k
+27216inputs+7640outputs (684major+14857minor)pagefaults 0swaps
+
+==> 8-build-individual-components.4.chromium-x11.log <==
+Bitbake still alive (10000s)
+Bitbake still alive (15000s)
+NOTE: recipe chromium-x11-81.0.4044.138-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 2230 tasks of which 2228 didn't need to be rerun and all succeeded.
+TIME: 18467.00 1.45 11.90 0% 23 204853 11221 9 36740 0 bitbake -c compile chromium-x11
+
+==> 8-build-individual-components.4.qtbase.log <==
+NOTE: Running task 1331 of 1331 (/home/hwang/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtbase_git.bb:do_compile)
+NOTE: recipe qtbase-5.14.2+gitAUTOINC+3a6d8df521-r0: task do_compile: Started
+NOTE: recipe qtbase-5.14.2+gitAUTOINC+3a6d8df521-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 1331 tasks of which 1329 didn't need to be rerun and all succeeded.
+TIME: 1805.46 0.09 0.79 0% 1 20708 11224 0 36948 0 bitbake -c compile qtbase
+
+==> 8-build-individual-components.4.qtdeclarative.log <==
+NOTE: Running task 1344 of 1344 (/home/hwang/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtdeclarative_git.bb:do_compile)
+NOTE: recipe qtdeclarative-5.14.2+gitAUTOINC+23a000f9a1-r0: task do_compile: Started
+NOTE: recipe qtdeclarative-5.14.2+gitAUTOINC+23a000f9a1-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 1344 tasks of which 1342 didn't need to be rerun and all succeeded.
+TIME: 495.64 0.08 0.42 0% 5 15263 11235 0 37052 0 bitbake -c compile qtdeclarative
+
+==> 8-build-individual-components.4.qtwebengine.log <==
+NOTE: recipe qtwebengine-5.14.2+gitAUTOINC+35aa6c30f0_6c9be50c2d-r0: task do_compile: Started
+Bitbake still alive (5000s)
+NOTE: recipe qtwebengine-5.14.2+gitAUTOINC+35aa6c30f0_6c9be50c2d-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 1878 tasks of which 1877 didn't need to be rerun and all succeeded.
+TIME: 5421.27 0.44 4.56 0% 10 82938 11267 0 36856 0 bitbake -c compile qtwebengine
+
+==> 8-build-individual-components.4.rust-native.log <==
+NOTE: Running task 281 of 281 (virtual:native:/home/hwang/test-oe-build-time/poky/meta-rust/recipes-devtools/rust/rust_1.37.0.bb:do_compile)
+NOTE: recipe rust-native-1.37.0-r0: task do_compile: Started
+NOTE: recipe rust-native-1.37.0-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 281 tasks of which 279 didn't need to be rerun and all succeeded.
+TIME: 1845.54 0.13 0.67 0% 2 17476 11227 0 36756 0 bitbake -c compile rust-native
+
+==> 8-build-individual-components.6.chromium-x11.log <==
+Bitbake still alive (10000s)
+Bitbake still alive (15000s)
+NOTE: recipe chromium-x11-81.0.4044.138-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 2230 tasks of which 2228 didn't need to be rerun and all succeeded.
+TIME: 16815.78 1.19 11.21 0% 6 158595 11221 0 36708 0 bitbake -c compile chromium-x11
+
+==> 8-build-individual-components.6.qtbase.log <==
+NOTE: Running task 1331 of 1331 (/home/hwang/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtbase_git.bb:do_compile)
+NOTE: recipe qtbase-5.14.2+gitAUTOINC+3a6d8df521-r0: task do_compile: Started
+NOTE: recipe qtbase-5.14.2+gitAUTOINC+3a6d8df521-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 1331 tasks of which 1329 didn't need to be rerun and all succeeded.
+TIME: 1713.39 0.10 0.75 0% 1 20326 11250 0 37228 0 bitbake -c compile qtbase
+
+==> 8-build-individual-components.6.qtdeclarative.log <==
+NOTE: Running task 1344 of 1344 (/home/hwang/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtdeclarative_git.bb:do_compile)
+NOTE: recipe qtdeclarative-5.14.2+gitAUTOINC+23a000f9a1-r0: task do_compile: Started
+NOTE: recipe qtdeclarative-5.14.2+gitAUTOINC+23a000f9a1-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 1344 tasks of which 1342 didn't need to be rerun and all succeeded.
+TIME: 453.70 0.07 0.45 0% 3 15585 11249 0 36796 0 bitbake -c compile qtdeclarative
+
+==> 8-build-individual-components.6.qtwebengine.log <==
+NOTE: Running task 1878 of 1878 (/home/hwang/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtwebengine_git.bb:do_compile)
+NOTE: recipe qtwebengine-5.14.2+gitAUTOINC+35aa6c30f0_6c9be50c2d-r0: task do_compile: Started
+NOTE: recipe qtwebengine-5.14.2+gitAUTOINC+35aa6c30f0_6c9be50c2d-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 1878 tasks of which 1877 didn't need to be rerun and all succeeded.
+TIME: 4977.48 0.43 4.40 0% 17 66546 11237 0 36900 0 bitbake -c compile qtwebengine
+
+==> 8-build-individual-components.6.rust-native.log <==
+NOTE: Running task 281 of 281 (virtual:native:/home/hwang/test-oe-build-time/poky/meta-rust/recipes-devtools/rust/rust_1.37.0.bb:do_compile)
+NOTE: recipe rust-native-1.37.0-r0: task do_compile: Started
+NOTE: recipe rust-native-1.37.0-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 281 tasks of which 279 didn't need to be rerun and all succeeded.
+TIME: 1746.05 0.07 0.70 0% 1 17172 11236 0 36868 0 bitbake -c compile rust-native
+
+==> 8-build-individual-components.8.chromium-x11.log <==
+Bitbake still alive (10000s)
+Bitbake still alive (15000s)
+NOTE: recipe chromium-x11-81.0.4044.138-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 2230 tasks of which 2228 didn't need to be rerun and all succeeded.
+TIME: 15384.30 1.06 10.86 0% 10 149492 11286 0 36900 0 bitbake -c compile chromium-x11
+
+==> 8-build-individual-components.8.qtbase.log <==
+NOTE: Running task 1331 of 1331 (/home/hwang/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtbase_git.bb:do_compile)
+NOTE: recipe qtbase-5.14.2+gitAUTOINC+3a6d8df521-r0: task do_compile: Started
+NOTE: recipe qtbase-5.14.2+gitAUTOINC+3a6d8df521-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 1331 tasks of which 1329 didn't need to be rerun and all succeeded.
+TIME: 1649.93 0.12 0.72 0% 4 20029 11223 0 36932 0 bitbake -c compile qtbase
+
+==> 8-build-individual-components.8.qtdeclarative.log <==
+NOTE: Running task 1344 of 1344 (/home/hwang/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtdeclarative_git.bb:do_compile)
+NOTE: recipe qtdeclarative-5.14.2+gitAUTOINC+23a000f9a1-r0: task do_compile: Started
+NOTE: recipe qtdeclarative-5.14.2+gitAUTOINC+23a000f9a1-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 1344 tasks of which 1342 didn't need to be rerun and all succeeded.
+TIME: 417.25 0.09 0.39 0% 3 15122 11248 0 37132 0 bitbake -c compile qtdeclarative
+
+==> 8-build-individual-components.8.qtwebengine.log <==
+NOTE: Running task 1878 of 1878 (/home/hwang/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtwebengine_git.bb:do_compile)
+NOTE: recipe qtwebengine-5.14.2+gitAUTOINC+35aa6c30f0_6c9be50c2d-r0: task do_compile: Started
+NOTE: recipe qtwebengine-5.14.2+gitAUTOINC+35aa6c30f0_6c9be50c2d-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 1878 tasks of which 1877 didn't need to be rerun and all succeeded.
+TIME: 4564.15 0.41 4.21 0% 5 63408 11266 0 36884 0 bitbake -c compile qtwebengine
+
+==> 8-build-individual-components.8.rust-native.log <==
+NOTE: Running task 281 of 281 (virtual:native:/home/hwang/test-oe-build-time/poky/meta-rust/recipes-devtools/rust/rust_1.37.0.bb:do_compile)
+NOTE: recipe rust-native-1.37.0-r0: task do_compile: Started
+NOTE: recipe rust-native-1.37.0-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 281 tasks of which 279 didn't need to be rerun and all succeeded.
+TIME: 1697.10 0.07 0.70 0% 2 17259 11227 0 36712 0 bitbake -c compile rust-native

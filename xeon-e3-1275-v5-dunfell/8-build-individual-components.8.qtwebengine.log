@@ -1,0 +1,32 @@
+Loading cache...done.
+Loaded 3164 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.6"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:d20ef1f5a5de7820b3e9b7f539b51f94954e9cd5"
+meta-python2         = "dunfell:ed4876c1a2f0808073fa7dfb32ef1ccb907ad5de"
+meta-browser         = "dunfell:5e58ff65facc27a3054a4d3f97d3329342d49afa"
+meta-rust            = "dunfell:a15ed510d98749d5670850857968136295e7a22f"
+meta-oe              = "dunfell:346681e7bf9c78008a845fc89031be4fd4ceb3a1"
+meta-clang           = "dunfell:e63d6f9abba5348e2183089d6ef5ea384d7ae8d8"
+meta-qt5             = "dunfell:b4d24d70aca75791902df5cd59a4f4a54aa4a125"
+
+Initialising tasks...done.
+Sstate summary: Wanted 82 Found 82 Missed 0 Current 319 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Running task 1878 of 1878 (/home/hwang/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtwebengine_git.bb:do_compile)
+NOTE: recipe qtwebengine-5.14.2+gitAUTOINC+35aa6c30f0_6c9be50c2d-r0: task do_compile: Started
+NOTE: recipe qtwebengine-5.14.2+gitAUTOINC+35aa6c30f0_6c9be50c2d-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 1878 tasks of which 1877 didn't need to be rerun and all succeeded.
+TIME: 4742.39 0.31 4.08 0% 5 64399 9712 0 28256 0 bitbake -c compile qtwebengine

@@ -1,0 +1,38 @@
+Loading cache...done.
+Loaded 3164 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.1.6"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "dunfell:d20ef1f5a5de7820b3e9b7f539b51f94954e9cd5"
+meta-python2         = "dunfell:ed4876c1a2f0808073fa7dfb32ef1ccb907ad5de"
+meta-browser         = "dunfell:5e58ff65facc27a3054a4d3f97d3329342d49afa"
+meta-rust            = "dunfell:a15ed510d98749d5670850857968136295e7a22f"
+meta-oe              = "dunfell:346681e7bf9c78008a845fc89031be4fd4ceb3a1"
+meta-clang           = "dunfell:e63d6f9abba5348e2183089d6ef5ea384d7ae8d8"
+meta-qt5             = "dunfell:b4d24d70aca75791902df5cd59a4f4a54aa4a125"
+
+Initialising tasks...done.
+Sstate summary: Wanted 36 Found 36 Missed 0 Current 443 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Running task 2229 of 2230 (/home/hwang/test-oe-build-time/poky/meta-browser/recipes-browser/chromium/chromium-x11_81.0.4044.138.bb:do_add_nodejs_symlink)
+NOTE: recipe chromium-x11-81.0.4044.138-r0: task do_add_nodejs_symlink: Started
+NOTE: recipe chromium-x11-81.0.4044.138-r0: task do_add_nodejs_symlink: Succeeded
+NOTE: Running task 2230 of 2230 (/home/hwang/test-oe-build-time/poky/meta-browser/recipes-browser/chromium/chromium-x11_81.0.4044.138.bb:do_compile)
+NOTE: recipe chromium-x11-81.0.4044.138-r0: task do_compile: Started
+Bitbake still alive (5000s)
+Bitbake still alive (10000s)
+Bitbake still alive (15000s)
+NOTE: recipe chromium-x11-81.0.4044.138-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 2230 tasks of which 2228 didn't need to be rerun and all succeeded.
+TIME: 19286.38 1.33 12.16 0% 25 207183 9718 0 28764 0 bitbake -c compile chromium-x11
