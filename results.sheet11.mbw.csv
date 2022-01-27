@@ -1,4 +1,7 @@
 builder;method;MiB/s
+core-i7-4790k-dunfell;MEMCPY;6835.766
+core-i7-4790k-dunfell;DUMB;10545.366
+core-i7-4790k-dunfell;MCBLOCK;15233.430
 dual-Xeon-E5-2670-8-channels-zeus;MEMCPY;3875.187
 dual-Xeon-E5-2670-8-channels-zeus;DUMB;2151.123
 dual-Xeon-E5-2670-8-channels-zeus;MCBLOCK;5709.891
@@ -20,6 +23,9 @@ threadripper-3970x-128gb-mbw-2666-zeus;MCBLOCK;12874.890
 threadripper-3970x-128gb-mbw-3200-zeus;MEMCPY;11691.667
 threadripper-3970x-128gb-mbw-3200-zeus;DUMB;18496.687
 threadripper-3970x-128gb-mbw-3200-zeus;MCBLOCK;14861.955
+xeon-e3-1275-v5-dunfell;MEMCPY;7855.294
+xeon-e3-1275-v5-dunfell;DUMB;12037.464
+xeon-e3-1275-v5-dunfell;MCBLOCK;14187.585
 VM-20t-157G-zeus/mbw;MEMCPY;3531.415
 VM-20t-157G-zeus/mbw;DUMB;2008.844
 VM-20t-157G-zeus/mbw;MCBLOCK;2233.423
