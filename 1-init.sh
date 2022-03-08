@@ -7,6 +7,11 @@
 git clone git://git.yoctoproject.org/poky
 cd poky
 git checkout -b honister b978f7c3a028ff4cc61de79d296723b5f873651d
+# to fix build on Ubuntu-22.04
+git cherry-pick 81f47730b3fdc9cc996b80c7c5482c00d27a848a 5c24982cc935488535251237f9e2fd097a134112
+# | configure: error: raw selected, but required raw.h header file not available
+# | WARNING: /OE/build/test-oe-build-time/poky/build/tmp/work/x86_64-linux/util-linux-native/2.37.2-r0/temp/run.do_configure.27707:289 exit 1 from 'exit 1'
+git cherry-pick 3e1026ef31efabe43b7e821e23f42981ce3e04bf
 git clone https://github.com/meta-qt5/meta-qt5.git
 cd meta-qt5
 git checkout -b honister 2a38fca150f065f869ed530fffe1a07beec80692
@@ -25,6 +30,8 @@ done
 # https://github.com/OSSystems/meta-browser/pull/555
 wget https://github.com/OSSystems/meta-browser/commit/b01500171df422e63d0a10b3287bf65a230125b8.patch
 git am b01500171df422e63d0a10b3287bf65a230125b8.patch
+# to fix build on Ubuntu-22.04 with python3-3.10
+git am ../../0001-chromium-fix-compatibility-with-python3-3.10.patch
 cd ..
 git clone https://github.com/openembedded/meta-openembedded.git
 cd meta-openembedded
