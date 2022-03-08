@@ -6,44 +6,28 @@
 
 git clone git://git.yoctoproject.org/poky
 cd poky
-git checkout -b honister b978f7c3a028ff4cc61de79d296723b5f873651d
-# to fix build on Ubuntu-22.04
-git cherry-pick 81f47730b3fdc9cc996b80c7c5482c00d27a848a 5c24982cc935488535251237f9e2fd097a134112
-# | configure: error: raw selected, but required raw.h header file not available
-# | WARNING: /OE/build/test-oe-build-time/poky/build/tmp/work/x86_64-linux/util-linux-native/2.37.2-r0/temp/run.do_configure.27707:289 exit 1 from 'exit 1'
-git cherry-pick 3e1026ef31efabe43b7e821e23f42981ce3e04bf
+git checkout -b honister 0fbf414b39f1ce3a055c5baeba755a05c438ec0d
 git clone https://github.com/meta-qt5/meta-qt5.git
 cd meta-qt5
-git checkout -b honister 2a38fca150f065f869ed530fffe1a07beec80692
+git checkout -b honister d38470c2632d6626c0a6c0f91a519589f9f1ae55
 cd ..
 git clone https://github.com/OSSystems/meta-browser.git
 cd meta-browser
-git checkout -b honister a7d78e7d86869c3e9c9dbcc5be8774f54a03e13a
-# https://github.com/OSSystems/meta-browser/pull/554
-wget https://github.com/OSSystems/meta-browser/commit/bf2ff922ad8c103bffc8bae7c77a504d4ee31924.patch
-git am bf2ff922ad8c103bffc8bae7c77a504d4ee31924.patch
-# https://github.com/OSSystems/meta-browser/pull/553
-for p in 927ccad3766489a87b5f3da15acc8e64ffa0358e 6ef08fdfe1daaa7c4502868b30294fe0be4788ee 37eb6560de8aecef7091c16becd110fa5a2b8249 39f5dff52587b07b0a1be88b55f713454266525a f1e11805e2fe163ae73977ef8afaa8921a2ba038 b7fc5af15ee4dd80936c2bda1f0ecd683acd5257; do
-  wget https://github.com/OSSystems/meta-browser/pull/553/commits/$p.patch
-  git am $p.patch
-done
-# https://github.com/OSSystems/meta-browser/pull/555
-wget https://github.com/OSSystems/meta-browser/commit/b01500171df422e63d0a10b3287bf65a230125b8.patch
-git am b01500171df422e63d0a10b3287bf65a230125b8.patch
+git checkout -b honister 3ae42a6e38b30da250276baed329cd999de84487
 # to fix build on Ubuntu-22.04 with python3-3.10
 git am ../../0001-chromium-fix-compatibility-with-python3-3.10.patch
 cd ..
 git clone https://github.com/openembedded/meta-openembedded.git
 cd meta-openembedded
-git checkout -b honister 967fe6730c6b0ab9fa8f350adef7bffea0aeb67b
+git checkout -b honister 0fb490a08ce30b47a5ccd2fdc3448b08e0d9e4e9
 cd ..
 git clone https://github.com/kraj/meta-clang.git
 cd meta-clang
-git checkout -b honister 5187604e18b970e486b88e6f2eba6a454ef4f7ef
+git checkout -b honister 088904d40231d9e099c2f5039cd3c2bc47d332d1
 cd ..
 git clone git://git.openembedded.org/meta-python2
 cd meta-python2
-git checkout -b honister f522fa70f93a9339f3b9991082af69a09fde675a
+git checkout -b honister 5243d509aebff378c1ae9d3dff6a29cfdc0dee1f
 cd ..
 
 . ./oe-init-build-env
