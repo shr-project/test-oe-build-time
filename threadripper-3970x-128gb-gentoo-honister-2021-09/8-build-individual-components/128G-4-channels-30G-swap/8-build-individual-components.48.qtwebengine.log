@@ -1,0 +1,39 @@
+WARNING: /OE/build/test-oe-build-time/poky/bitbake/lib/bb/server/process.py:664: DeprecationWarning: setDaemon() is deprecated, set the daemon attribute instead
+  self.t.setDaemon(True)
+
+WARNING: Host distribution "gentoo-2.8" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
+Loading cache...done.
+Loaded 3328 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.51.1"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "gentoo-2.8"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.3+snapshot-b6660f7a5d9b26e3885a2919fa5f4cbbfc9e996d"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "honister:b6660f7a5d9b26e3885a2919fa5f4cbbfc9e996d"
+meta-python2         = "honister:f522fa70f93a9339f3b9991082af69a09fde675a"
+meta-chromium        
+meta-firefox         = "honister:81b8f9301c8a50f24b941a63831a31acff264710"
+meta-oe              = "honister:967fe6730c6b0ab9fa8f350adef7bffea0aeb67b"
+meta-clang           = "honister:5187604e18b970e486b88e6f2eba6a454ef4f7ef"
+meta-qt5             = "honister:2a38fca150f065f869ed530fffe1a07beec80692"
+
+WARNING: Your host glibc version (2.35) is newer than that in uninative (2.34). Disabling uninative so that sstate is not corrupted.
+Initialising tasks...done.
+Sstate summary: Wanted 16 Local 16 Network 0 Missed 0 Current 427 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Running task 2080 of 2080 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtwebengine_git.bb:do_compile)
+NOTE: recipe qtwebengine-5.15.4+gitAUTOINC+be49f438d6_6c7b4ffb3f-r0: task do_compile: Started
+NOTE: recipe qtwebengine-5.15.4+gitAUTOINC+be49f438d6_6c7b4ffb3f-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 2080 tasks of which 2079 didn't need to be rerun and all succeeded.
+
+Summary: There were 3 WARNING messages shown.
+TIME: 1101.31 0.61 10.78 1% 6007 85187 11479 0 38964 0 bitbake -c compile qtwebengine

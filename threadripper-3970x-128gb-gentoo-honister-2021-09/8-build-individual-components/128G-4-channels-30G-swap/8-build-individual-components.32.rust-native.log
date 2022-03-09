@@ -1,0 +1,42 @@
+WARNING: /OE/build/test-oe-build-time/poky/bitbake/lib/bb/server/process.py:664: DeprecationWarning: setDaemon() is deprecated, set the daemon attribute instead
+  self.t.setDaemon(True)
+
+WARNING: Host distribution "gentoo-2.8" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
+Loading cache...done.
+Loaded 3328 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.51.1"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "gentoo-2.8"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.3+snapshot-b6660f7a5d9b26e3885a2919fa5f4cbbfc9e996d"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "honister:b6660f7a5d9b26e3885a2919fa5f4cbbfc9e996d"
+meta-python2         = "honister:f522fa70f93a9339f3b9991082af69a09fde675a"
+meta-chromium        
+meta-firefox         = "honister:81b8f9301c8a50f24b941a63831a31acff264710"
+meta-oe              = "honister:967fe6730c6b0ab9fa8f350adef7bffea0aeb67b"
+meta-clang           = "honister:5187604e18b970e486b88e6f2eba6a454ef4f7ef"
+meta-qt5             = "honister:2a38fca150f065f869ed530fffe1a07beec80692"
+
+WARNING: Your host glibc version (2.35) is newer than that in uninative (2.34). Disabling uninative so that sstate is not corrupted.
+Initialising tasks...done.
+Sstate summary: Wanted 0 Local 0 Network 0 Missed 0 Current 65 (0% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Running task 266 of 299 (virtual:native:/OE/build/test-oe-build-time/poky/meta/recipes-devtools/rust/rust_1.54.0.bb:do_rust_gen_targets)
+NOTE: recipe rust-native-1.54.0-r0: task do_rust_gen_targets: Started
+NOTE: recipe rust-native-1.54.0-r0: task do_rust_gen_targets: Succeeded
+NOTE: Running task 299 of 299 (virtual:native:/OE/build/test-oe-build-time/poky/meta/recipes-devtools/rust/rust_1.54.0.bb:do_compile)
+NOTE: recipe rust-native-1.54.0-r0: task do_compile: Started
+NOTE: recipe rust-native-1.54.0-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 299 tasks of which 297 didn't need to be rerun and all succeeded.
+
+Summary: There were 3 WARNING messages shown.
+TIME: 486.52 0.08 1.31 0% 366 14585 11439 0 38940 0 bitbake -c compile rust-native
