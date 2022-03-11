@@ -13,9 +13,7 @@ git checkout -b honister 74c27fa59b329f1210d39e8cd2904acf30d10838
 cd ..
 git clone https://github.com/OSSystems/meta-browser.git
 cd meta-browser
-git checkout -b honister 3ae42a6e38b30da250276baed329cd999de84487
-# to fix build on Ubuntu-22.04 with python3-3.10
-git am ../../0001-chromium-fix-compatibility-with-python3-3.10.patch
+git checkout -b honister ccbdc01df693d675d75d01ab798cc5c377466ac2
 cd ..
 git clone https://github.com/openembedded/meta-openembedded.git
 cd meta-openembedded
