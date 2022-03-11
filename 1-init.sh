@@ -9,7 +9,7 @@ cd poky
 git checkout -b honister 0fbf414b39f1ce3a055c5baeba755a05c438ec0d
 git clone https://github.com/meta-qt5/meta-qt5.git
 cd meta-qt5
-git checkout -b honister d38470c2632d6626c0a6c0f91a519589f9f1ae55
+git checkout -b honister 74c27fa59b329f1210d39e8cd2904acf30d10838
 cd ..
 git clone https://github.com/OSSystems/meta-browser.git
 cd meta-browser
