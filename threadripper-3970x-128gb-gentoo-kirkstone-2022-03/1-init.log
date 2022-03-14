@@ -1,0 +1,81 @@
+Cloning into 'poky'...
+Switched to a new branch 'kirkstone'
+[kirkstone f33a27197e] libsdl2: Add libunwind-native to the libsdl2-native DEPENDS
+ Author: Carlos Rafael Giani <crg7475@mailbox.org>
+ Date: Fri Mar 4 08:55:07 2022 +0100
+ 1 file changed, 2 insertions(+)
+Cloning into 'meta-qt5'...
+Switched to a new branch 'kirkstone'
+Cloning into 'meta-browser'...
+Switched to a new branch 'kirkstone'
+--2022-03-13 09:47:39--  https://github.com/OSSystems/meta-browser/commit/df743dd5e9a660b64e750800747e68445914ee8f.patch
+Resolving github.com... 140.82.121.3
+Connecting to github.com|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 25412 (25K) [text/plain]
+Saving to: ‘df743dd5e9a660b64e750800747e68445914ee8f.patch’
+
+     0K .......... .......... ....                            100% 1.73M=0.01s
+
+2022-03-13 09:47:39 (1.73 MB/s) - ‘df743dd5e9a660b64e750800747e68445914ee8f.patch’ saved [25412/25412]
+
+Applying: firefox: use rust-common-without-python3native
+--2022-03-13 09:47:40--  https://github.com/OSSystems/meta-browser/commit/dfeb4defc8b939714ccce797c30245ae4b3ede93.patch
+Resolving github.com... 140.82.121.4
+Connecting to github.com|140.82.121.4|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3189 (3.1K) [text/plain]
+Saving to: ‘dfeb4defc8b939714ccce797c30245ae4b3ede93.patch’
+
+     0K ...                                                   100% 57.7M=0s
+
+2022-03-13 09:47:40 (57.7 MB/s) - ‘dfeb4defc8b939714ccce797c30245ae4b3ede93.patch’ saved [3189/3189]
+
+.git/rebase-apply/patch:30: trailing whitespace.
+ 
+warning: 1 line adds whitespace errors.
+Applying: firefox: fix build with wayland-1.20
+Cloning into 'meta-openembedded'...
+Updating files:  91% (5517/6007)Updating files:  92% (5527/6007)Updating files:  93% (5587/6007)Updating files:  94% (5647/6007)Updating files:  95% (5707/6007)Updating files:  96% (5767/6007)Updating files:  97% (5827/6007)Updating files:  98% (5887/6007)Updating files:  99% (5947/6007)Updating files: 100% (6007/6007)Updating files: 100% (6007/6007), done.
+Switched to a new branch 'kirkstone'
+Cloning into 'meta-clang'...
+Switched to a new branch 'kirkstone'
+Cloning into 'meta-python2'...
+Switched to a new branch 'kirkstone'
+You had no conf/local.conf file. This configuration file has therefore been
+created for you with some default values. You may wish to edit it to, for
+example, select a different MACHINE (target hardware). See conf/local.conf
+for more information as common configuration options are commented.
+
+You had no conf/bblayers.conf file. This configuration file has therefore been
+created for you with some default values. To add additional metadata layers
+into your configuration please add entries to conf/bblayers.conf.
+
+The Yocto Project has extensive documentation about OE including a reference
+manual which can be found at:
+    https://docs.yoctoproject.org
+
+For more information about OpenEmbedded see the website:
+    https://www.openembedded.org/
+
+
+### Shell environment set up for builds. ###
+
+You can now run 'bitbake <target>'
+
+Common targets are:
+    core-image-minimal
+    core-image-full-cmdline
+    core-image-sato
+    core-image-weston
+    meta-toolchain
+    meta-ide-support
+
+You can also run generated qemu images with a command like 'runqemu qemux86'
+
+Other commonly useful commands are:
+ - 'devtool' and 'recipetool' handle common recipe tasks
+ - 'bitbake-layers' handles common layer tasks
+ - 'oe-pkgdata-util' handles common target package tasks
+37.91user 8.77system 1:38.37elapsed 47%CPU (0avgtext+0avgdata 352144maxresident)k
+1376inputs+764848outputs (13major+193612minor)pagefaults 0swaps

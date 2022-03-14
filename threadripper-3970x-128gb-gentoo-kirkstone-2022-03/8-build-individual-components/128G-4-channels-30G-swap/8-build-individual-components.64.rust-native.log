@@ -1,0 +1,38 @@
+WARNING: Host distribution "gentoo-2.8" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
+Loading cache...done.
+Loaded 3432 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.53.1"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.4+snapshot-8a4c53ee762c1ee02ba282d265e12e733c81ce82"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "kirkstone:8a4c53ee762c1ee02ba282d265e12e733c81ce82"
+meta-python2         = "kirkstone:f02882e2aa9279ca7becca8d0cedbffe88b5a253"
+meta-chromium        
+meta-firefox         = "kirkstone:9531c0e522032d0d0086cb2511be32bb5e94a148"
+meta-oe              = "kirkstone:a3f218e9db0caeb544d834a0f3f374aac7d0e4f3"
+meta-clang           = "kirkstone:8efb230dd73cfd19e575ff42fea979d977b05c97"
+meta-qt5             = "kirkstone:4837db1d965c51e4a2c5971e6a126c896e5b401a"
+
+Initialising tasks...done.
+Sstate summary: Wanted 35 Local 35 Mirrors 0 Missed 0 Current 28 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Running task 287 of 290 (virtual:native:/OE/build/test-oe-build-time/poky/meta/recipes-devtools/rust/rust_1.59.0.bb:do_rust_gen_targets)
+NOTE: recipe rust-native-1.59.0-r0: task do_rust_gen_targets: Started
+NOTE: recipe rust-native-1.59.0-r0: task do_rust_gen_targets: Succeeded
+NOTE: Running task 290 of 290 (virtual:native:/OE/build/test-oe-build-time/poky/meta/recipes-devtools/rust/rust_1.59.0.bb:do_compile)
+NOTE: recipe rust-native-1.59.0-r0: task do_compile: Started
+NOTE: recipe rust-native-1.59.0-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 290 tasks of which 288 didn't need to be rerun and all succeeded.
+
+Summary: There was 1 WARNING message.
+TIME: 481.85 0.08 1.34 0% 382 14952 11444 0 39080 0 bitbake -c compile rust-native
