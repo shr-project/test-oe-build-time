@@ -1,0 +1,148 @@
+WARNING: Host distribution "gentoo-2.8" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
+Loading cache...done.
+Loaded 3340 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.52.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.4.2"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "honister:0fbf414b39f1ce3a055c5baeba755a05c438ec0d"
+meta-python2         = "honister:5243d509aebff378c1ae9d3dff6a29cfdc0dee1f"
+meta-chromium        
+meta-firefox         = "honister:edb6ba144d723d1af0aa30bbedf90f42f2d2b5b2"
+meta-oe              = "honister:0fb490a08ce30b47a5ccd2fdc3448b08e0d9e4e9"
+meta-clang           = "honister:088904d40231d9e099c2f5039cd3c2bc47d332d1"
+meta-qt5             = "honister:74c27fa59b329f1210d39e8cd2904acf30d10838"
+
+Initialising tasks...done.
+Sstate summary: Wanted 7 Local 0 Network 0 Missed 7 Current 436 (0% match, 98% complete)
+NOTE: Executing Tasks
+NOTE: Running task 1413 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtdeclarative_git.bb:do_compile_ptest_base)
+NOTE: recipe qtdeclarative-5.15.3+gitAUTOINC+32b37e20f7-r0: task do_compile_ptest_base: Started
+NOTE: recipe qtdeclarative-5.15.3+gitAUTOINC+32b37e20f7-r0: task do_compile_ptest_base: Succeeded
+NOTE: Running task 2042 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtdeclarative_git.bb:do_install)
+NOTE: recipe qtdeclarative-5.15.3+gitAUTOINC+32b37e20f7-r0: task do_install: Started
+NOTE: recipe qtdeclarative-5.15.3+gitAUTOINC+32b37e20f7-r0: task do_install: Succeeded
+NOTE: Running task 2043 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtdeclarative_git.bb:do_install_ptest_base)
+NOTE: recipe qtdeclarative-5.15.3+gitAUTOINC+32b37e20f7-r0: task do_install_ptest_base: Started
+NOTE: recipe qtdeclarative-5.15.3+gitAUTOINC+32b37e20f7-r0: task do_install_ptest_base: Succeeded
+NOTE: Running task 2044 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtdeclarative_git.bb:do_populate_sysroot)
+NOTE: recipe qtdeclarative-5.15.3+gitAUTOINC+32b37e20f7-r0: task do_populate_sysroot: Started
+NOTE: recipe qtdeclarative-5.15.3+gitAUTOINC+32b37e20f7-r0: task do_populate_sysroot: Succeeded
+NOTE: Running task 2045 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtxmlpatterns_git.bb:do_prepare_recipe_sysroot)
+NOTE: Running task 2046 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtquickcontrols_git.bb:do_prepare_recipe_sysroot)
+NOTE: Running task 2047 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtwebsockets_git.bb:do_prepare_recipe_sysroot)
+NOTE: Running task 2048 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtquickcontrols2_git.bb:do_prepare_recipe_sysroot)
+NOTE: recipe qtxmlpatterns-5.15.3+gitAUTOINC+4d471ba94c-r0: task do_prepare_recipe_sysroot: Started
+NOTE: recipe qtquickcontrols-5.15.3+gitAUTOINC+31b940bd0c-r0: task do_prepare_recipe_sysroot: Started
+NOTE: recipe qtwebsockets-5.15.3+gitAUTOINC+428f9cb79d-r0: task do_prepare_recipe_sysroot: Started
+NOTE: recipe qtquickcontrols2-5.15.3+gitAUTOINC+30cd2468bd-r0: task do_prepare_recipe_sysroot: Started
+NOTE: recipe qtxmlpatterns-5.15.3+gitAUTOINC+4d471ba94c-r0: task do_prepare_recipe_sysroot: Succeeded
+NOTE: Running task 2049 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtxmlpatterns_git.bb:do_configure)
+NOTE: recipe qtquickcontrols-5.15.3+gitAUTOINC+31b940bd0c-r0: task do_prepare_recipe_sysroot: Succeeded
+NOTE: Running task 2050 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtquickcontrols_git.bb:do_configure)
+NOTE: recipe qtwebsockets-5.15.3+gitAUTOINC+428f9cb79d-r0: task do_prepare_recipe_sysroot: Succeeded
+NOTE: Running task 2051 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtwebsockets_git.bb:do_configure)
+NOTE: recipe qtquickcontrols2-5.15.3+gitAUTOINC+30cd2468bd-r0: task do_prepare_recipe_sysroot: Succeeded
+NOTE: Running task 2052 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtquickcontrols2_git.bb:do_configure)
+NOTE: recipe qtxmlpatterns-5.15.3+gitAUTOINC+4d471ba94c-r0: task do_configure: Started
+NOTE: recipe qtquickcontrols-5.15.3+gitAUTOINC+31b940bd0c-r0: task do_configure: Started
+NOTE: recipe qtwebsockets-5.15.3+gitAUTOINC+428f9cb79d-r0: task do_configure: Started
+NOTE: recipe qtquickcontrols2-5.15.3+gitAUTOINC+30cd2468bd-r0: task do_configure: Started
+NOTE: recipe qtxmlpatterns-5.15.3+gitAUTOINC+4d471ba94c-r0: task do_configure: Succeeded
+NOTE: Running task 2053 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtxmlpatterns_git.bb:do_configure_ptest_base)
+NOTE: recipe qtquickcontrols-5.15.3+gitAUTOINC+31b940bd0c-r0: task do_configure: Succeeded
+NOTE: Running task 2054 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtquickcontrols_git.bb:do_compile)
+NOTE: recipe qtwebsockets-5.15.3+gitAUTOINC+428f9cb79d-r0: task do_configure: Succeeded
+NOTE: Running task 2055 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtwebsockets_git.bb:do_compile)
+NOTE: recipe qtquickcontrols2-5.15.3+gitAUTOINC+30cd2468bd-r0: task do_configure: Succeeded
+NOTE: Running task 2056 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtquickcontrols2_git.bb:do_compile)
+NOTE: recipe qtxmlpatterns-5.15.3+gitAUTOINC+4d471ba94c-r0: task do_configure_ptest_base: Started
+NOTE: recipe qtxmlpatterns-5.15.3+gitAUTOINC+4d471ba94c-r0: task do_configure_ptest_base: Succeeded
+NOTE: Running task 2057 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtxmlpatterns_git.bb:do_compile)
+NOTE: recipe qtquickcontrols-5.15.3+gitAUTOINC+31b940bd0c-r0: task do_compile: Started
+NOTE: recipe qtwebsockets-5.15.3+gitAUTOINC+428f9cb79d-r0: task do_compile: Started
+NOTE: recipe qtquickcontrols2-5.15.3+gitAUTOINC+30cd2468bd-r0: task do_compile: Started
+NOTE: recipe qtxmlpatterns-5.15.3+gitAUTOINC+4d471ba94c-r0: task do_compile: Started
+NOTE: recipe qtquickcontrols-5.15.3+gitAUTOINC+31b940bd0c-r0: task do_compile: Succeeded
+NOTE: Running task 2058 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtquickcontrols_git.bb:do_install)
+NOTE: recipe qtwebsockets-5.15.3+gitAUTOINC+428f9cb79d-r0: task do_compile: Succeeded
+NOTE: Running task 2059 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtwebsockets_git.bb:do_install)
+NOTE: recipe qtquickcontrols-5.15.3+gitAUTOINC+31b940bd0c-r0: task do_install: Started
+NOTE: recipe qtwebsockets-5.15.3+gitAUTOINC+428f9cb79d-r0: task do_install: Started
+NOTE: recipe qtwebsockets-5.15.3+gitAUTOINC+428f9cb79d-r0: task do_install: Succeeded
+NOTE: Running task 2060 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtwebsockets_git.bb:do_populate_sysroot)
+NOTE: recipe qtwebsockets-5.15.3+gitAUTOINC+428f9cb79d-r0: task do_populate_sysroot: Started
+NOTE: recipe qtquickcontrols-5.15.3+gitAUTOINC+31b940bd0c-r0: task do_install: Succeeded
+NOTE: Running task 2061 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtquickcontrols_git.bb:do_populate_sysroot)
+NOTE: recipe qtquickcontrols-5.15.3+gitAUTOINC+31b940bd0c-r0: task do_populate_sysroot: Started
+NOTE: recipe qtwebsockets-5.15.3+gitAUTOINC+428f9cb79d-r0: task do_populate_sysroot: Succeeded
+NOTE: Running task 2062 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtwebchannel_git.bb:do_prepare_recipe_sysroot)
+NOTE: recipe qtwebchannel-5.15.3+gitAUTOINC+30faac50ff-r0: task do_prepare_recipe_sysroot: Started
+NOTE: recipe qtquickcontrols-5.15.3+gitAUTOINC+31b940bd0c-r0: task do_populate_sysroot: Succeeded
+NOTE: recipe qtwebchannel-5.15.3+gitAUTOINC+30faac50ff-r0: task do_prepare_recipe_sysroot: Succeeded
+NOTE: Running task 2063 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtwebchannel_git.bb:do_configure)
+NOTE: recipe qtwebchannel-5.15.3+gitAUTOINC+30faac50ff-r0: task do_configure: Started
+NOTE: recipe qtwebchannel-5.15.3+gitAUTOINC+30faac50ff-r0: task do_configure: Succeeded
+NOTE: Running task 2064 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtwebchannel_git.bb:do_compile)
+NOTE: recipe qtwebchannel-5.15.3+gitAUTOINC+30faac50ff-r0: task do_compile: Started
+NOTE: recipe qtwebchannel-5.15.3+gitAUTOINC+30faac50ff-r0: task do_compile: Succeeded
+NOTE: Running task 2065 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtwebchannel_git.bb:do_install)
+NOTE: recipe qtwebchannel-5.15.3+gitAUTOINC+30faac50ff-r0: task do_install: Started
+NOTE: recipe qtwebchannel-5.15.3+gitAUTOINC+30faac50ff-r0: task do_install: Succeeded
+NOTE: Running task 2066 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtwebchannel_git.bb:do_populate_sysroot)
+NOTE: recipe qtwebchannel-5.15.3+gitAUTOINC+30faac50ff-r0: task do_populate_sysroot: Started
+NOTE: recipe qtwebchannel-5.15.3+gitAUTOINC+30faac50ff-r0: task do_populate_sysroot: Succeeded
+NOTE: recipe qtxmlpatterns-5.15.3+gitAUTOINC+4d471ba94c-r0: task do_compile: Succeeded
+NOTE: Running task 2067 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtxmlpatterns_git.bb:do_compile_ptest_base)
+NOTE: recipe qtxmlpatterns-5.15.3+gitAUTOINC+4d471ba94c-r0: task do_compile_ptest_base: Started
+NOTE: recipe qtquickcontrols2-5.15.3+gitAUTOINC+30cd2468bd-r0: task do_compile: Succeeded
+NOTE: Running task 2068 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtquickcontrols2_git.bb:do_install)
+NOTE: recipe qtquickcontrols2-5.15.3+gitAUTOINC+30cd2468bd-r0: task do_install: Started
+NOTE: recipe qtquickcontrols2-5.15.3+gitAUTOINC+30cd2468bd-r0: task do_install: Succeeded
+NOTE: Running task 2069 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtquickcontrols2_git.bb:do_populate_sysroot)
+NOTE: recipe qtquickcontrols2-5.15.3+gitAUTOINC+30cd2468bd-r0: task do_populate_sysroot: Started
+NOTE: recipe qtquickcontrols2-5.15.3+gitAUTOINC+30cd2468bd-r0: task do_populate_sysroot: Succeeded
+NOTE: recipe qtxmlpatterns-5.15.3+gitAUTOINC+4d471ba94c-r0: task do_compile_ptest_base: Succeeded
+NOTE: Running task 2070 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtxmlpatterns_git.bb:do_install)
+NOTE: recipe qtxmlpatterns-5.15.3+gitAUTOINC+4d471ba94c-r0: task do_install: Started
+NOTE: recipe qtxmlpatterns-5.15.3+gitAUTOINC+4d471ba94c-r0: task do_install: Succeeded
+NOTE: Running task 2071 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtxmlpatterns_git.bb:do_install_ptest_base)
+NOTE: recipe qtxmlpatterns-5.15.3+gitAUTOINC+4d471ba94c-r0: task do_install_ptest_base: Started
+NOTE: recipe qtxmlpatterns-5.15.3+gitAUTOINC+4d471ba94c-r0: task do_install_ptest_base: Succeeded
+NOTE: Running task 2072 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtxmlpatterns_git.bb:do_populate_sysroot)
+NOTE: recipe qtxmlpatterns-5.15.3+gitAUTOINC+4d471ba94c-r0: task do_populate_sysroot: Started
+NOTE: recipe qtxmlpatterns-5.15.3+gitAUTOINC+4d471ba94c-r0: task do_populate_sysroot: Succeeded
+NOTE: Running task 2073 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtlocation_git.bb:do_prepare_recipe_sysroot)
+NOTE: recipe qtlocation-5.15.3+gitAUTOINC+9909253b0f_d3101bbc22-r0: task do_prepare_recipe_sysroot: Started
+NOTE: recipe qtlocation-5.15.3+gitAUTOINC+9909253b0f_d3101bbc22-r0: task do_prepare_recipe_sysroot: Succeeded
+NOTE: Running task 2074 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtlocation_git.bb:do_configure)
+NOTE: recipe qtlocation-5.15.3+gitAUTOINC+9909253b0f_d3101bbc22-r0: task do_configure: Started
+NOTE: recipe qtlocation-5.15.3+gitAUTOINC+9909253b0f_d3101bbc22-r0: task do_configure: Succeeded
+NOTE: Running task 2075 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtlocation_git.bb:do_compile)
+NOTE: recipe qtlocation-5.15.3+gitAUTOINC+9909253b0f_d3101bbc22-r0: task do_compile: Started
+NOTE: recipe qtlocation-5.15.3+gitAUTOINC+9909253b0f_d3101bbc22-r0: task do_compile: Succeeded
+NOTE: Running task 2076 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtlocation_git.bb:do_install)
+NOTE: recipe qtlocation-5.15.3+gitAUTOINC+9909253b0f_d3101bbc22-r0: task do_install: Started
+NOTE: recipe qtlocation-5.15.3+gitAUTOINC+9909253b0f_d3101bbc22-r0: task do_install: Succeeded
+NOTE: Running task 2077 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtlocation_git.bb:do_populate_sysroot)
+NOTE: recipe qtlocation-5.15.3+gitAUTOINC+9909253b0f_d3101bbc22-r0: task do_populate_sysroot: Started
+NOTE: recipe qtlocation-5.15.3+gitAUTOINC+9909253b0f_d3101bbc22-r0: task do_populate_sysroot: Succeeded
+NOTE: Running task 2078 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtwebengine_git.bb:do_prepare_recipe_sysroot)
+NOTE: recipe qtwebengine-5.15.8+gitAUTOINC+73e76f9e86_48a205f9e0-r0: task do_prepare_recipe_sysroot: Started
+NOTE: recipe qtwebengine-5.15.8+gitAUTOINC+73e76f9e86_48a205f9e0-r0: task do_prepare_recipe_sysroot: Succeeded
+NOTE: Running task 2079 of 2079 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtwebengine_git.bb:do_configure)
+NOTE: recipe qtwebengine-5.15.8+gitAUTOINC+73e76f9e86_48a205f9e0-r0: task do_configure: Started
+NOTE: recipe qtwebengine-5.15.8+gitAUTOINC+73e76f9e86_48a205f9e0-r0: task do_configure: Succeeded
+NOTE: Tasks Summary: Attempted 2079 tasks of which 2040 didn't need to be rerun and all succeeded.
+
+Summary: There was 1 WARNING message shown.

@@ -1,0 +1,50 @@
+Cloning into 'poky'...
+Switched to a new branch 'honister'
+Cloning into 'meta-qt5'...
+Switched to a new branch 'honister'
+Cloning into 'meta-browser'...
+Switched to a new branch 'honister'
+Applying: chromium: fix compatibility with python3-3.10
+Cloning into 'meta-openembedded'...
+Switched to a new branch 'honister'
+Cloning into 'meta-clang'...
+Switched to a new branch 'honister'
+Cloning into 'meta-python2'...
+Switched to a new branch 'honister'
+You had no conf/local.conf file. This configuration file has therefore been
+created for you with some default values. You may wish to edit it to, for
+example, select a different MACHINE (target hardware). See conf/local.conf
+for more information as common configuration options are commented.
+
+You had no conf/bblayers.conf file. This configuration file has therefore been
+created for you with some default values. To add additional metadata layers
+into your configuration please add entries to conf/bblayers.conf.
+
+The Yocto Project has extensive documentation about OE including a reference
+manual which can be found at:
+    https://docs.yoctoproject.org
+
+For more information about OpenEmbedded see their website:
+    https://www.openembedded.org/
+
+
+### Shell environment set up for builds. ###
+
+You can now run 'bitbake <target>'
+
+Common targets are:
+    core-image-minimal
+    core-image-full-cmdline
+    core-image-sato
+    core-image-weston
+    meta-toolchain
+    meta-ide-support
+
+You can also run generated qemu images with a command like 'runqemu qemux86'
+
+Other commonly useful commands are:
+ - 'devtool' and 'recipetool' handle common recipe tasks
+ - 'bitbake-layers' handles common layer tasks
+ - 'oe-pkgdata-util' handles common target package tasks
+38.34user 7.01system 1:09.75elapsed 65%CPU (0avgtext+0avgdata 362460maxresident)k
+10576inputs+809336outputs (62major+203359minor)pagefaults 0swaps

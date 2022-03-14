@@ -1,0 +1,64 @@
+WARNING: Host distribution "gentoo-2.8" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
+Loading cache...done.
+Loaded 3340 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.52.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.4.2"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "honister:0fbf414b39f1ce3a055c5baeba755a05c438ec0d"
+meta-python2         = "honister:5243d509aebff378c1ae9d3dff6a29cfdc0dee1f"
+meta-chromium        
+meta-firefox         = "honister:edb6ba144d723d1af0aa30bbedf90f42f2d2b5b2"
+meta-oe              = "honister:0fb490a08ce30b47a5ccd2fdc3448b08e0d9e4e9"
+meta-clang           = "honister:088904d40231d9e099c2f5039cd3c2bc47d332d1"
+meta-qt5             = "honister:74c27fa59b329f1210d39e8cd2904acf30d10838"
+
+Initialising tasks...done.
+Sstate summary: Wanted 2 Local 0 Network 0 Missed 2 Current 297 (0% match, 99% complete)
+NOTE: Executing Tasks
+NOTE: Running task 1374 of 1394 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtbase_git.bb:do_compile_ptest_base)
+NOTE: Running task 1385 of 1394 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtdeclarative_git.bb:do_fetch)
+NOTE: recipe qtbase-5.15.3+gitAUTOINC+c95f96550f-r0: task do_compile_ptest_base: Started
+NOTE: recipe qtdeclarative-5.15.3+gitAUTOINC+32b37e20f7-r0: task do_fetch: Started
+NOTE: recipe qtdeclarative-5.15.3+gitAUTOINC+32b37e20f7-r0: task do_fetch: Succeeded
+NOTE: Running task 1386 of 1394 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtdeclarative_git.bb:do_unpack)
+NOTE: recipe qtdeclarative-5.15.3+gitAUTOINC+32b37e20f7-r0: task do_unpack: Started
+NOTE: recipe qtdeclarative-5.15.3+gitAUTOINC+32b37e20f7-r0: task do_unpack: Succeeded
+NOTE: Running task 1387 of 1394 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtdeclarative_git.bb:do_patch)
+NOTE: recipe qtdeclarative-5.15.3+gitAUTOINC+32b37e20f7-r0: task do_patch: Started
+NOTE: recipe qtbase-5.15.3+gitAUTOINC+c95f96550f-r0: task do_compile_ptest_base: Succeeded
+NOTE: Running task 1388 of 1394 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtbase_git.bb:do_install)
+NOTE: recipe qtdeclarative-5.15.3+gitAUTOINC+32b37e20f7-r0: task do_patch: Succeeded
+NOTE: Running task 1389 of 1394 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtdeclarative_git.bb:do_deploy_source_date_epoch)
+NOTE: Running task 1390 of 1394 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtdeclarative_git.bb:do_generate_qt_config_file)
+NOTE: recipe qtdeclarative-5.15.3+gitAUTOINC+32b37e20f7-r0: task do_deploy_source_date_epoch: Started
+NOTE: recipe qtdeclarative-5.15.3+gitAUTOINC+32b37e20f7-r0: task do_generate_qt_config_file: Started
+NOTE: recipe qtbase-5.15.3+gitAUTOINC+c95f96550f-r0: task do_install: Started
+NOTE: recipe qtdeclarative-5.15.3+gitAUTOINC+32b37e20f7-r0: task do_generate_qt_config_file: Succeeded
+NOTE: recipe qtdeclarative-5.15.3+gitAUTOINC+32b37e20f7-r0: task do_deploy_source_date_epoch: Succeeded
+NOTE: recipe qtbase-5.15.3+gitAUTOINC+c95f96550f-r0: task do_install: Succeeded
+NOTE: Running task 1391 of 1394 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtbase_git.bb:do_install_ptest_base)
+NOTE: recipe qtbase-5.15.3+gitAUTOINC+c95f96550f-r0: task do_install_ptest_base: Started
+NOTE: recipe qtbase-5.15.3+gitAUTOINC+c95f96550f-r0: task do_install_ptest_base: Succeeded
+NOTE: Running task 1392 of 1394 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtbase_git.bb:do_populate_sysroot)
+NOTE: recipe qtbase-5.15.3+gitAUTOINC+c95f96550f-r0: task do_populate_sysroot: Started
+NOTE: recipe qtbase-5.15.3+gitAUTOINC+c95f96550f-r0: task do_populate_sysroot: Succeeded
+NOTE: Running task 1393 of 1394 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtdeclarative_git.bb:do_prepare_recipe_sysroot)
+NOTE: recipe qtdeclarative-5.15.3+gitAUTOINC+32b37e20f7-r0: task do_prepare_recipe_sysroot: Started
+NOTE: recipe qtdeclarative-5.15.3+gitAUTOINC+32b37e20f7-r0: task do_prepare_recipe_sysroot: Succeeded
+NOTE: Running task 1394 of 1394 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtdeclarative_git.bb:do_configure)
+NOTE: recipe qtdeclarative-5.15.3+gitAUTOINC+32b37e20f7-r0: task do_configure: Started
+NOTE: recipe qtdeclarative-5.15.3+gitAUTOINC+32b37e20f7-r0: task do_configure: Succeeded
+NOTE: Tasks Summary: Attempted 1394 tasks of which 1383 didn't need to be rerun and all succeeded.
+
+Summary: There was 1 WARNING message shown.

@@ -1,0 +1,38 @@
+WARNING: Host distribution "gentoo-2.8" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
+Loading cache...done.
+Loaded 3340 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.52.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "3.4.2"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "honister:0fbf414b39f1ce3a055c5baeba755a05c438ec0d"
+meta-python2         = "honister:5243d509aebff378c1ae9d3dff6a29cfdc0dee1f"
+meta-chromium        
+meta-firefox         = "honister:794e7ca4d195085dce9cd121b87543a3482b6765"
+meta-oe              = "honister:0fb490a08ce30b47a5ccd2fdc3448b08e0d9e4e9"
+meta-clang           = "honister:088904d40231d9e099c2f5039cd3c2bc47d332d1"
+meta-qt5             = "honister:74c27fa59b329f1210d39e8cd2904acf30d10838"
+
+Initialising tasks...done.
+Sstate summary: Wanted 15 Local 3 Network 0 Missed 12 Current 510 (20% match, 97% complete)
+NOTE: Executing Tasks
+NOTE: Running task 2448 of 2449 (/OE/build/test-oe-build-time/poky/meta-browser/meta-chromium/recipes-browser/chromium/chromium-x11_92.0.4515.159.bb:do_add_nodejs_symlink)
+NOTE: recipe chromium-x11-92.0.4515.159-r0: task do_add_nodejs_symlink: Started
+NOTE: recipe chromium-x11-92.0.4515.159-r0: task do_add_nodejs_symlink: Succeeded
+NOTE: Running task 2449 of 2449 (/OE/build/test-oe-build-time/poky/meta-browser/meta-chromium/recipes-browser/chromium/chromium-x11_92.0.4515.159.bb:do_compile)
+NOTE: recipe chromium-x11-92.0.4515.159-r0: task do_compile: Started
+NOTE: recipe chromium-x11-92.0.4515.159-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 2449 tasks of which 2447 didn't need to be rerun and all succeeded.
+
+Summary: There was 1 WARNING message shown.
+
