@@ -4,8 +4,10 @@
 # other tasks running in parallel, so that 3990x with 128G RAM doesn't
 # end swapping
 
+export LC_ALL=C
+
 THREADS=`cat /proc/cpuinfo  | grep ^processor | wc -l`
-COMPONENTS="qtbase qtdeclarative qtwebengine rust-native chromium-x11"
+COMPONENTS="qtbase qtdeclarative qtwebengine rust-native chromium-x11 nodejs"
 
 cd poky
 . ./oe-init-build-env
@@ -20,7 +22,9 @@ export TIME_STR="TIME: %e %S %U %P %c %w %R %F %M %x %C"
 for i in ${COMPONENTS}; do
     bitbake -c cleansstate $i;
     bitbake -c configure $i;
+    echo "8-build-individual-components.${THREADS}.$i start: `date`" | tee -a ../../start-stop.log
     /usr/bin/time -f "$TIME_STR" bitbake -c compile $i 2>&1 | tee ../../8-build-individual-components.${THREADS}.$i.log
+    echo "8-build-individual-components.${THREADS}.$i stop: `date`" | tee -a ../../start-stop.log
 done
 
 THREADS=`expr ${THREADS} / 2`
@@ -32,7 +36,9 @@ EOF
 for i in ${COMPONENTS}; do
     bitbake -c cleansstate $i;
     bitbake -c configure $i;
+    echo "8-build-individual-components.${THREADS}.$i start: `date`" | tee -a ../../start-stop.log
     /usr/bin/time -f "$TIME_STR" bitbake -c compile $i 2>&1 | tee ../../8-build-individual-components.${THREADS}.$i.log
+    echo "8-build-individual-components.${THREADS}.$i stop: `date`" | tee -a ../../start-stop.log
 done
 
 # And this one might be interesting for 3990x with just 96 instead
@@ -48,5 +54,7 @@ EOF
 for i in ${COMPONENTS}; do
     bitbake -c cleansstate $i;
     bitbake -c configure $i;
+    echo "8-build-individual-components.${THREADS}.$i start: `date`" | tee -a ../../start-stop.log
     /usr/bin/time -f "$TIME_STR" bitbake -c compile $i 2>&1 | tee ../../8-build-individual-components.${THREADS}.$i.log
+    echo "8-build-individual-components.${THREADS}.$i stop: `date`" | tee -a ../../start-stop.log
 done
