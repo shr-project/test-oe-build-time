@@ -84,6 +84,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;adwaita-icon-them
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;adwaita-icon-theme.do_install;353.35
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;adwaita-icon-theme.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;adwaita-icon-theme.do_install;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;adwaita-icon-theme.do_install;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;adwaita-icon-theme.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;adwaita-icon-theme.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;adwaita-icon-theme.do_install;350.33
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;adwaita-icon-theme.do_install;331.28
@@ -124,6 +126,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;adwaita-icon-
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;adwaita-icon-theme.do_install;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;adwaita-icon-theme.do_install;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;adwaita-icon-theme.do_install;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;adwaita-icon-theme.do_install;---
 threadripper-3970x-64gb-zeus;4-build-all;adwaita-icon-theme.do_install;188.20
 threadripper-3970x-64gb-zeus;6-build-16-bb;adwaita-icon-theme.do_install;274.93
 threadripper-3970x-64gb-zeus;7-build-2-bb;adwaita-icon-theme.do_install;---
@@ -228,6 +231,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;binutils.do_compi
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;binutils.do_compile;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;binutils.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;binutils.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;binutils.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;binutils.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;binutils.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;binutils.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;binutils.do_compile;---
@@ -268,6 +273,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;binutils.do_c
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;binutils.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;binutils.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;binutils.do_compile;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;binutils.do_compile;---
 threadripper-3970x-64gb-zeus;4-build-all;binutils.do_compile;145.24
 threadripper-3970x-64gb-zeus;6-build-16-bb;binutils.do_compile;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;binutils.do_compile;---
@@ -372,6 +378,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;binutils-native.d
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;binutils-native.do_compile;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;binutils-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;binutils-native.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;binutils-native.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;binutils-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;binutils-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;binutils-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;binutils-native.do_compile;---
@@ -412,6 +420,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;binutils-nati
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;binutils-native.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;binutils-native.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;binutils-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;binutils-native.do_compile;---
 threadripper-3970x-64gb-zeus;4-build-all;binutils-native.do_compile;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;binutils-native.do_compile;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;binutils-native.do_compile;---
@@ -516,6 +525,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;cairo.do_configur
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;cairo.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;cairo.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;cairo.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;cairo.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;cairo.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;cairo.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;cairo.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;cairo.do_configure;---
@@ -556,6 +567,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;cairo.do_conf
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;cairo.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;cairo.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;cairo.do_configure;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;cairo.do_configure;---
 threadripper-3970x-64gb-zeus;4-build-all;cairo.do_configure;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;cairo.do_configure;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;cairo.do_configure;---
@@ -660,6 +672,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;cargo-native.do_c
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;cargo-native.do_compile;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;cargo-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;cargo-native.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;cargo-native.do_compile;246.90
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;cargo-native.do_compile;245.28
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;cargo-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;cargo-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;cargo-native.do_compile;---
@@ -700,6 +714,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;cargo-native.
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;cargo-native.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;cargo-native.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;cargo-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;cargo-native.do_compile;---
 threadripper-3970x-64gb-zeus;4-build-all;cargo-native.do_compile;278.29
 threadripper-3970x-64gb-zeus;6-build-16-bb;cargo-native.do_compile;256.21
 threadripper-3970x-64gb-zeus;7-build-2-bb;cargo-native.do_compile;---
@@ -804,6 +819,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;cbindgen-native.d
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;cbindgen-native.do_compile;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;cbindgen-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;cbindgen-native.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;cbindgen-native.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;cbindgen-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;cbindgen-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;cbindgen-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;cbindgen-native.do_compile;---
@@ -844,6 +861,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;cbindgen-nati
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;cbindgen-native.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;cbindgen-native.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;cbindgen-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;cbindgen-native.do_compile;---
 threadripper-3970x-64gb-zeus;4-build-all;cbindgen-native.do_compile;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;cbindgen-native.do_compile;141.22
 threadripper-3970x-64gb-zeus;7-build-2-bb;cbindgen-native.do_compile;---
@@ -948,6 +966,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;chromium-x11.do_c
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;chromium-x11.do_compile;5274.80
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;chromium-x11.do_compile;3452.20
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;chromium-x11.do_compile;5035.05
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;chromium-x11.do_compile;3611.04
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;chromium-x11.do_compile;3704.75
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;chromium-x11.do_compile;3521.22
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;chromium-x11.do_compile;5099.24
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;chromium-x11.do_compile;5068.49
@@ -988,6 +1008,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;chromium-x11.
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;chromium-x11.do_compile;3785.78
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;chromium-x11.do_compile;4990.54
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;chromium-x11.do_compile;2787.85
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;chromium-x11.do_compile;3915.04
 threadripper-3970x-64gb-zeus;4-build-all;chromium-x11.do_compile;4087.97
 threadripper-3970x-64gb-zeus;6-build-16-bb;chromium-x11.do_compile;4030.35
 threadripper-3970x-64gb-zeus;7-build-2-bb;chromium-x11.do_compile;1880.14
@@ -1092,6 +1113,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;chromium-x11.do_r
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;chromium-x11.do_rm_work;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;chromium-x11.do_rm_work;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;chromium-x11.do_rm_work;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;chromium-x11.do_rm_work;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;chromium-x11.do_rm_work;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;chromium-x11.do_rm_work;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;chromium-x11.do_rm_work;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;chromium-x11.do_rm_work;---
@@ -1132,6 +1155,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;chromium-x11.
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;chromium-x11.do_rm_work;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;chromium-x11.do_rm_work;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;chromium-x11.do_rm_work;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;chromium-x11.do_rm_work;---
 threadripper-3970x-64gb-zeus;4-build-all;chromium-x11.do_rm_work;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;chromium-x11.do_rm_work;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;chromium-x11.do_rm_work;---
@@ -1236,6 +1260,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;chromium-x11.do_u
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;chromium-x11.do_unpack;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;chromium-x11.do_unpack;124.67
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;chromium-x11.do_unpack;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;chromium-x11.do_unpack;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;chromium-x11.do_unpack;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;chromium-x11.do_unpack;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;chromium-x11.do_unpack;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;chromium-x11.do_unpack;---
@@ -1276,6 +1302,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;chromium-x11.
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;chromium-x11.do_unpack;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;chromium-x11.do_unpack;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;chromium-x11.do_unpack;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;chromium-x11.do_unpack;---
 threadripper-3970x-64gb-zeus;4-build-all;chromium-x11.do_unpack;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;chromium-x11.do_unpack;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;chromium-x11.do_unpack;---
@@ -1380,6 +1407,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;clang-native.do_c
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;clang-native.do_compile;829.61
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;clang-native.do_compile;638.32
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;clang-native.do_compile;1089.45
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;clang-native.do_compile;910.91
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;clang-native.do_compile;937.25
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;clang-native.do_compile;827.39
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;clang-native.do_compile;839.48
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;clang-native.do_compile;836.63
@@ -1420,6 +1449,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;clang-native.
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;clang-native.do_compile;618.25
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;clang-native.do_compile;594.89
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;clang-native.do_compile;521.43
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;clang-native.do_compile;707.89
 threadripper-3970x-64gb-zeus;4-build-all;clang-native.do_compile;824.90
 threadripper-3970x-64gb-zeus;6-build-16-bb;clang-native.do_compile;652.57
 threadripper-3970x-64gb-zeus;7-build-2-bb;clang-native.do_compile;361.62
@@ -1524,6 +1554,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;clang-native.do_i
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;clang-native.do_install;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;clang-native.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;clang-native.do_install;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;clang-native.do_install;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;clang-native.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;clang-native.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;clang-native.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;clang-native.do_install;---
@@ -1564,6 +1596,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;clang-native.
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;clang-native.do_install;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;clang-native.do_install;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;clang-native.do_install;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;clang-native.do_install;---
 threadripper-3970x-64gb-zeus;4-build-all;clang-native.do_install;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;clang-native.do_install;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;clang-native.do_install;---
@@ -1668,6 +1701,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;clang-native.do_p
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;clang-native.do_populate_sysroot;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;clang-native.do_populate_sysroot;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;clang-native.do_populate_sysroot;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;clang-native.do_populate_sysroot;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;clang-native.do_populate_sysroot;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;clang-native.do_populate_sysroot;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;clang-native.do_populate_sysroot;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;clang-native.do_populate_sysroot;---
@@ -1708,6 +1743,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;clang-native.
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;clang-native.do_populate_sysroot;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;clang-native.do_populate_sysroot;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;clang-native.do_populate_sysroot;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;clang-native.do_populate_sysroot;---
 threadripper-3970x-64gb-zeus;4-build-all;clang-native.do_populate_sysroot;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;clang-native.do_populate_sysroot;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;clang-native.do_populate_sysroot;98.93
@@ -1812,6 +1848,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;connman.do_prepar
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;connman.do_prepare_recipe_sysroot;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;connman.do_prepare_recipe_sysroot;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;connman.do_prepare_recipe_sysroot;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;connman.do_prepare_recipe_sysroot;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;connman.do_prepare_recipe_sysroot;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;connman.do_prepare_recipe_sysroot;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;connman.do_prepare_recipe_sysroot;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;connman.do_prepare_recipe_sysroot;---
@@ -1852,6 +1890,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;connman.do_pr
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;connman.do_prepare_recipe_sysroot;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;connman.do_prepare_recipe_sysroot;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;connman.do_prepare_recipe_sysroot;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;connman.do_prepare_recipe_sysroot;---
 threadripper-3970x-64gb-zeus;4-build-all;connman.do_prepare_recipe_sysroot;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;connman.do_prepare_recipe_sysroot;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;connman.do_prepare_recipe_sysroot;---
@@ -1956,6 +1995,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;connman-gnome.do_
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;connman-gnome.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;connman-gnome.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;connman-gnome.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;connman-gnome.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;connman-gnome.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;connman-gnome.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;connman-gnome.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;connman-gnome.do_configure;---
@@ -1996,6 +2037,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;connman-gnome
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;connman-gnome.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;connman-gnome.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;connman-gnome.do_configure;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;connman-gnome.do_configure;---
 threadripper-3970x-64gb-zeus;4-build-all;connman-gnome.do_configure;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;connman-gnome.do_configure;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;connman-gnome.do_configure;---
@@ -2100,6 +2142,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;core-image-sato.d
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;core-image-sato.do_rootfs;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;core-image-sato.do_rootfs;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;core-image-sato.do_rootfs;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;core-image-sato.do_rootfs;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;core-image-sato.do_rootfs;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;core-image-sato.do_rootfs;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;core-image-sato.do_rootfs;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;core-image-sato.do_rootfs;---
@@ -2140,6 +2184,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;core-image-sa
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;core-image-sato.do_rootfs;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;core-image-sato.do_rootfs;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;core-image-sato.do_rootfs;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;core-image-sato.do_rootfs;---
 threadripper-3970x-64gb-zeus;4-build-all;core-image-sato.do_rootfs;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;core-image-sato.do_rootfs;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;core-image-sato.do_rootfs;---
@@ -2244,6 +2289,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;curl.do_configure
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;curl.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;curl.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;curl.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;curl.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;curl.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;curl.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;curl.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;curl.do_configure;---
@@ -2284,6 +2331,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;curl.do_confi
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;curl.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;curl.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;curl.do_configure;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;curl.do_configure;---
 threadripper-3970x-64gb-zeus;4-build-all;curl.do_configure;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;curl.do_configure;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;curl.do_configure;---
@@ -2388,6 +2436,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;distcc.do_configu
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;distcc.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;distcc.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;distcc.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;distcc.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;distcc.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;distcc.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;distcc.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;distcc.do_configure;---
@@ -2428,6 +2478,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;distcc.do_con
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;distcc.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;distcc.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;distcc.do_configure;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;distcc.do_configure;---
 threadripper-3970x-64gb-zeus;4-build-all;distcc.do_configure;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;distcc.do_configure;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;distcc.do_configure;---
@@ -2532,6 +2583,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;epiphany.do_packa
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;epiphany.do_package_write_rpm;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;epiphany.do_package_write_rpm;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;epiphany.do_package_write_rpm;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;epiphany.do_package_write_rpm;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;epiphany.do_package_write_rpm;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;epiphany.do_package_write_rpm;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;epiphany.do_package_write_rpm;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;epiphany.do_package_write_rpm;---
@@ -2572,6 +2625,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;epiphany.do_p
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;epiphany.do_package_write_rpm;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;epiphany.do_package_write_rpm;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;epiphany.do_package_write_rpm;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;epiphany.do_package_write_rpm;---
 threadripper-3970x-64gb-zeus;4-build-all;epiphany.do_package_write_rpm;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;epiphany.do_package_write_rpm;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;epiphany.do_package_write_rpm;---
@@ -2676,6 +2730,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;firefox.do_compil
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;firefox.do_compile;1926.86
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;firefox.do_compile;639.54
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;firefox.do_compile;1699.08
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;firefox.do_compile;986.77
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;firefox.do_compile;1240.83
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;firefox.do_compile;971.97
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;firefox.do_compile;1661.78
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;firefox.do_compile;1694.62
@@ -2716,6 +2772,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;firefox.do_co
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;firefox.do_compile;1650.93
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;firefox.do_compile;1615.60
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;firefox.do_compile;816.68
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;firefox.do_compile;1895.13
 threadripper-3970x-64gb-zeus;4-build-all;firefox.do_compile;1317.14
 threadripper-3970x-64gb-zeus;6-build-16-bb;firefox.do_compile;1346.85
 threadripper-3970x-64gb-zeus;7-build-2-bb;firefox.do_compile;1008.38
@@ -2820,6 +2877,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;firefox.do_config
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;firefox.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;firefox.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;firefox.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;firefox.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;firefox.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;firefox.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;firefox.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;firefox.do_configure;---
@@ -2860,6 +2919,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;firefox.do_co
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;firefox.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;firefox.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;firefox.do_configure;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;firefox.do_configure;---
 threadripper-3970x-64gb-zeus;4-build-all;firefox.do_configure;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;firefox.do_configure;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;firefox.do_configure;---
@@ -2964,6 +3024,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;firefox.do_unpack
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;firefox.do_unpack;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;firefox.do_unpack;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;firefox.do_unpack;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;firefox.do_unpack;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;firefox.do_unpack;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;firefox.do_unpack;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;firefox.do_unpack;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;firefox.do_unpack;---
@@ -3004,6 +3066,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;firefox.do_un
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;firefox.do_unpack;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;firefox.do_unpack;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;firefox.do_unpack;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;firefox.do_unpack;---
 threadripper-3970x-64gb-zeus;4-build-all;firefox.do_unpack;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;firefox.do_unpack;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;firefox.do_unpack;---
@@ -3108,6 +3171,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;gcc.do_compile;77
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;gcc.do_compile;749.84
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;gcc.do_compile;414.35
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;gcc.do_compile;828.61
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;gcc.do_compile;1098.75
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;gcc.do_compile;1131.53
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;gcc.do_compile;995.80
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;gcc.do_compile;915.95
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;gcc.do_compile;942.33
@@ -3148,6 +3213,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;gcc.do_compil
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;gcc.do_compile;235.46
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;gcc.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;gcc.do_compile;125.84
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;gcc.do_compile;1023.62
 threadripper-3970x-64gb-zeus;4-build-all;gcc.do_compile;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;gcc.do_compile;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;gcc.do_compile;---
@@ -3252,6 +3318,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;gcc-cross-x86_64.
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;gcc-cross-x86_64.do_compile;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;gcc-cross-x86_64.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;gcc-cross-x86_64.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;gcc-cross-x86_64.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;gcc-cross-x86_64.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;gcc-cross-x86_64.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;gcc-cross-x86_64.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;gcc-cross-x86_64.do_compile;---
@@ -3292,6 +3360,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;gcc-cross-x86
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;gcc-cross-x86_64.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;gcc-cross-x86_64.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;gcc-cross-x86_64.do_compile;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;gcc-cross-x86_64.do_compile;---
 threadripper-3970x-64gb-zeus;4-build-all;gcc-cross-x86_64.do_compile;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;gcc-cross-x86_64.do_compile;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;gcc-cross-x86_64.do_compile;---
@@ -3396,6 +3465,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;gcc-cross-x86_64.
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;gcc-cross-x86_64.do_gcc_stash_builddir;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;gcc-cross-x86_64.do_gcc_stash_builddir;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;gcc-cross-x86_64.do_gcc_stash_builddir;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;gcc-cross-x86_64.do_gcc_stash_builddir;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;gcc-cross-x86_64.do_gcc_stash_builddir;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;gcc-cross-x86_64.do_gcc_stash_builddir;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;gcc-cross-x86_64.do_gcc_stash_builddir;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;gcc-cross-x86_64.do_gcc_stash_builddir;---
@@ -3436,6 +3507,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;gcc-cross-x86
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;gcc-cross-x86_64.do_gcc_stash_builddir;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;gcc-cross-x86_64.do_gcc_stash_builddir;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;gcc-cross-x86_64.do_gcc_stash_builddir;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;gcc-cross-x86_64.do_gcc_stash_builddir;---
 threadripper-3970x-64gb-zeus;4-build-all;gcc-cross-x86_64.do_gcc_stash_builddir;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;gcc-cross-x86_64.do_gcc_stash_builddir;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;gcc-cross-x86_64.do_gcc_stash_builddir;---
@@ -3540,6 +3612,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;gcc-runtime.do_co
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;gcc-runtime.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;gcc-runtime.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;gcc-runtime.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;gcc-runtime.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;gcc-runtime.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;gcc-runtime.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;gcc-runtime.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;gcc-runtime.do_configure;---
@@ -3580,6 +3654,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;gcc-runtime.d
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;gcc-runtime.do_configure;201.87
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;gcc-runtime.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;gcc-runtime.do_configure;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;gcc-runtime.do_configure;---
 threadripper-3970x-64gb-zeus;4-build-all;gcc-runtime.do_configure;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;gcc-runtime.do_configure;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;gcc-runtime.do_configure;---
@@ -3684,6 +3759,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;gettext.do_compil
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;gettext.do_compile;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;gettext.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;gettext.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;gettext.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;gettext.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;gettext.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;gettext.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;gettext.do_compile;---
@@ -3724,6 +3801,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;gettext.do_co
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;gettext.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;gettext.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;gettext.do_compile;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;gettext.do_compile;---
 threadripper-3970x-64gb-zeus;4-build-all;gettext.do_compile;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;gettext.do_compile;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;gettext.do_compile;---
@@ -3828,6 +3906,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;gettext.do_config
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;gettext.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;gettext.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;gettext.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;gettext.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;gettext.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;gettext.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;gettext.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;gettext.do_configure;---
@@ -3868,6 +3948,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;gettext.do_co
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;gettext.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;gettext.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;gettext.do_configure;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;gettext.do_configure;---
 threadripper-3970x-64gb-zeus;4-build-all;gettext.do_configure;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;gettext.do_configure;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;gettext.do_configure;---
@@ -3972,6 +4053,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;gettext-native.do
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;gettext-native.do_compile;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;gettext-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;gettext-native.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;gettext-native.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;gettext-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;gettext-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;gettext-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;gettext-native.do_compile;---
@@ -4012,6 +4095,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;gettext-nativ
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;gettext-native.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;gettext-native.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;gettext-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;gettext-native.do_compile;---
 threadripper-3970x-64gb-zeus;4-build-all;gettext-native.do_compile;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;gettext-native.do_compile;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;gettext-native.do_compile;---
@@ -4116,6 +4200,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;gettext-native.do
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;gettext-native.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;gettext-native.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;gettext-native.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;gettext-native.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;gettext-native.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;gettext-native.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;gettext-native.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;gettext-native.do_configure;---
@@ -4156,6 +4242,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;gettext-nativ
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;gettext-native.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;gettext-native.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;gettext-native.do_configure;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;gettext-native.do_configure;---
 threadripper-3970x-64gb-zeus;4-build-all;gettext-native.do_configure;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;gettext-native.do_configure;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;gettext-native.do_configure;---
@@ -4260,6 +4347,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;gettext-native.do
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;gettext-native.do_install;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;gettext-native.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;gettext-native.do_install;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;gettext-native.do_install;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;gettext-native.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;gettext-native.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;gettext-native.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;gettext-native.do_install;---
@@ -4300,6 +4389,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;gettext-nativ
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;gettext-native.do_install;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;gettext-native.do_install;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;gettext-native.do_install;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;gettext-native.do_install;---
 threadripper-3970x-64gb-zeus;4-build-all;gettext-native.do_install;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;gettext-native.do_install;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;gettext-native.do_install;---
@@ -4404,6 +4494,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;glibc.do_compile;
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;glibc.do_compile;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;glibc.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;glibc.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;glibc.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;glibc.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;glibc.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;glibc.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;glibc.do_compile;---
@@ -4444,6 +4536,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;glibc.do_comp
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;glibc.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;glibc.do_compile;302.27
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;glibc.do_compile;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;glibc.do_compile;---
 threadripper-3970x-64gb-zeus;4-build-all;glibc.do_compile;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;glibc.do_compile;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;glibc.do_compile;---
@@ -4548,6 +4641,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;glibc.do_install;
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;glibc.do_install;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;glibc.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;glibc.do_install;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;glibc.do_install;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;glibc.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;glibc.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;glibc.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;glibc.do_install;---
@@ -4588,6 +4683,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;glibc.do_inst
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;glibc.do_install;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;glibc.do_install;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;glibc.do_install;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;glibc.do_install;---
 threadripper-3970x-64gb-zeus;4-build-all;glibc.do_install;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;glibc.do_install;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;glibc.do_install;---
@@ -4692,6 +4788,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;glibc-locale.do_p
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;glibc-locale.do_package;645.84
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;glibc-locale.do_package;147.90
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;glibc-locale.do_package;647.83
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;glibc-locale.do_package;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;glibc-locale.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;glibc-locale.do_package;237.37
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;glibc-locale.do_package;498.95
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;glibc-locale.do_package;509.00
@@ -4732,6 +4830,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;glibc-locale.
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;glibc-locale.do_package;199.99
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;glibc-locale.do_package;271.63
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;glibc-locale.do_package;91.20
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;glibc-locale.do_package;199.70
 threadripper-3970x-64gb-zeus;4-build-all;glibc-locale.do_package;301.78
 threadripper-3970x-64gb-zeus;6-build-16-bb;glibc-locale.do_package;308.95
 threadripper-3970x-64gb-zeus;7-build-2-bb;glibc-locale.do_package;120.05
@@ -4836,6 +4935,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;glibc-locale.do_p
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;glibc-locale.do_package_write_rpm;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;glibc-locale.do_package_write_rpm;195.51
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;glibc-locale.do_package_write_rpm;554.41
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;glibc-locale.do_package_write_rpm;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;glibc-locale.do_package_write_rpm;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;glibc-locale.do_package_write_rpm;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;glibc-locale.do_package_write_rpm;263.38
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;glibc-locale.do_package_write_rpm;---
@@ -4876,6 +4977,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;glibc-locale.
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;glibc-locale.do_package_write_rpm;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;glibc-locale.do_package_write_rpm;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;glibc-locale.do_package_write_rpm;157.24
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;glibc-locale.do_package_write_rpm;---
 threadripper-3970x-64gb-zeus;4-build-all;glibc-locale.do_package_write_rpm;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;glibc-locale.do_package_write_rpm;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;glibc-locale.do_package_write_rpm;---
@@ -4980,6 +5082,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;gmp.do_configure;
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;gmp.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;gmp.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;gmp.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;gmp.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;gmp.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;gmp.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;gmp.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;gmp.do_configure;---
@@ -5020,6 +5124,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;gmp.do_config
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;gmp.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;gmp.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;gmp.do_configure;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;gmp.do_configure;---
 threadripper-3970x-64gb-zeus;4-build-all;gmp.do_configure;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;gmp.do_configure;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;gmp.do_configure;---
@@ -5124,6 +5229,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;gn-native.do_rm_w
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;gn-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;gn-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;gn-native.do_rm_work;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;gn-native.do_rm_work;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;gn-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;gn-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;gn-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;gn-native.do_rm_work;---
@@ -5164,6 +5271,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;gn-native.do_
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;gn-native.do_rm_work;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;gn-native.do_rm_work;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;gn-native.do_rm_work;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;gn-native.do_rm_work;---
 threadripper-3970x-64gb-zeus;4-build-all;gn-native.do_rm_work;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;gn-native.do_rm_work;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;gn-native.do_rm_work;---
@@ -5268,6 +5376,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;gn-native.do_unpa
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;gn-native.do_unpack;347.75
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;gn-native.do_unpack;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;gn-native.do_unpack;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;gn-native.do_unpack;247.89
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;gn-native.do_unpack;252.97
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;gn-native.do_unpack;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;gn-native.do_unpack;295.43
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;gn-native.do_unpack;317.40
@@ -5308,6 +5418,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;gn-native.do_
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;gn-native.do_unpack;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;gn-native.do_unpack;252.70
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;gn-native.do_unpack;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;gn-native.do_unpack;229.19
 threadripper-3970x-64gb-zeus;4-build-all;gn-native.do_unpack;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;gn-native.do_unpack;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;gn-native.do_unpack;---
@@ -5412,6 +5523,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;gnome-themes-extr
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;gnome-themes-extra.do_install;553.19
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;gnome-themes-extra.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;gnome-themes-extra.do_install;514.36
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;gnome-themes-extra.do_install;255.75
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;gnome-themes-extra.do_install;338.14
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;gnome-themes-extra.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;gnome-themes-extra.do_install;606.63
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;gnome-themes-extra.do_install;592.88
@@ -5452,6 +5565,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;gnome-themes-
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;gnome-themes-extra.do_install;505.82
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;gnome-themes-extra.do_install;589.46
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;gnome-themes-extra.do_install;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;gnome-themes-extra.do_install;262.94
 threadripper-3970x-64gb-zeus;4-build-all;gnome-themes-extra.do_install;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;gnome-themes-extra.do_install;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;gnome-themes-extra.do_install;---
@@ -5556,6 +5670,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;gnome-themes-stan
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;gnome-themes-standard.do_install;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;gnome-themes-standard.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;gnome-themes-standard.do_install;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;gnome-themes-standard.do_install;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;gnome-themes-standard.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;gnome-themes-standard.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;gnome-themes-standard.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;gnome-themes-standard.do_install;---
@@ -5596,6 +5712,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;gnome-themes-
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;gnome-themes-standard.do_install;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;gnome-themes-standard.do_install;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;gnome-themes-standard.do_install;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;gnome-themes-standard.do_install;---
 threadripper-3970x-64gb-zeus;4-build-all;gnome-themes-standard.do_install;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;gnome-themes-standard.do_install;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;gnome-themes-standard.do_install;---
@@ -5700,6 +5817,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;gnutls.do_configu
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;gnutls.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;gnutls.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;gnutls.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;gnutls.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;gnutls.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;gnutls.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;gnutls.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;gnutls.do_configure;---
@@ -5740,6 +5859,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;gnutls.do_con
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;gnutls.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;gnutls.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;gnutls.do_configure;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;gnutls.do_configure;---
 threadripper-3970x-64gb-zeus;4-build-all;gnutls.do_configure;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;gnutls.do_configure;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;gnutls.do_configure;---
@@ -5844,6 +5964,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;gnutls-native.do_
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;gnutls-native.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;gnutls-native.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;gnutls-native.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;gnutls-native.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;gnutls-native.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;gnutls-native.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;gnutls-native.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;gnutls-native.do_configure;---
@@ -5884,6 +6006,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;gnutls-native
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;gnutls-native.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;gnutls-native.do_configure;268.47
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;gnutls-native.do_configure;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;gnutls-native.do_configure;---
 threadripper-3970x-64gb-zeus;4-build-all;gnutls-native.do_configure;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;gnutls-native.do_configure;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;gnutls-native.do_configure;---
@@ -5988,6 +6111,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;gstreamer1.0-plug
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;gstreamer1.0-plugins-bad.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;gstreamer1.0-plugins-bad.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;gstreamer1.0-plugins-bad.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;gstreamer1.0-plugins-bad.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;gstreamer1.0-plugins-bad.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;gstreamer1.0-plugins-bad.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;gstreamer1.0-plugins-bad.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;gstreamer1.0-plugins-bad.do_configure;---
@@ -6028,6 +6153,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;gstreamer1.0-
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;gstreamer1.0-plugins-bad.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;gstreamer1.0-plugins-bad.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;gstreamer1.0-plugins-bad.do_configure;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;gstreamer1.0-plugins-bad.do_configure;---
 threadripper-3970x-64gb-zeus;4-build-all;gstreamer1.0-plugins-bad.do_configure;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;gstreamer1.0-plugins-bad.do_configure;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;gstreamer1.0-plugins-bad.do_configure;---
@@ -6132,6 +6258,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;gstreamer1.0-plug
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;gstreamer1.0-plugins-good.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;gstreamer1.0-plugins-good.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;gstreamer1.0-plugins-good.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;gstreamer1.0-plugins-good.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;gstreamer1.0-plugins-good.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;gstreamer1.0-plugins-good.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;gstreamer1.0-plugins-good.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;gstreamer1.0-plugins-good.do_configure;---
@@ -6172,6 +6300,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;gstreamer1.0-
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;gstreamer1.0-plugins-good.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;gstreamer1.0-plugins-good.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;gstreamer1.0-plugins-good.do_configure;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;gstreamer1.0-plugins-good.do_configure;---
 threadripper-3970x-64gb-zeus;4-build-all;gstreamer1.0-plugins-good.do_configure;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;gstreamer1.0-plugins-good.do_configure;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;gstreamer1.0-plugins-good.do_configure;---
@@ -6276,6 +6405,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;gtk+3.do_compile;
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;gtk+3.do_compile;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;gtk+3.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;gtk+3.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;gtk+3.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;gtk+3.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;gtk+3.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;gtk+3.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;gtk+3.do_compile;---
@@ -6316,6 +6447,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;gtk+3.do_comp
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;gtk+3.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;gtk+3.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;gtk+3.do_compile;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;gtk+3.do_compile;---
 threadripper-3970x-64gb-zeus;4-build-all;gtk+3.do_compile;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;gtk+3.do_compile;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;gtk+3.do_compile;---
@@ -6420,6 +6552,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;gtk+3-native.do_c
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;gtk+3-native.do_compile;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;gtk+3-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;gtk+3-native.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;gtk+3-native.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;gtk+3-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;gtk+3-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;gtk+3-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;gtk+3-native.do_compile;---
@@ -6460,6 +6594,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;gtk+3-native.
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;gtk+3-native.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;gtk+3-native.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;gtk+3-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;gtk+3-native.do_compile;---
 threadripper-3970x-64gb-zeus;4-build-all;gtk+3-native.do_compile;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;gtk+3-native.do_compile;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;gtk+3-native.do_compile;---
@@ -6564,6 +6699,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;icu.do_compile;--
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;icu.do_compile;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;icu.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;icu.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;icu.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;icu.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;icu.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;icu.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;icu.do_compile;---
@@ -6604,6 +6741,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;icu.do_compil
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;icu.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;icu.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;icu.do_compile;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;icu.do_compile;---
 threadripper-3970x-64gb-zeus;4-build-all;icu.do_compile;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;icu.do_compile;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;icu.do_compile;---
@@ -6708,6 +6846,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;l3afpad.do_config
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;l3afpad.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;l3afpad.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;l3afpad.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;l3afpad.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;l3afpad.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;l3afpad.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;l3afpad.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;l3afpad.do_configure;---
@@ -6748,6 +6888,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;l3afpad.do_co
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;l3afpad.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;l3afpad.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;l3afpad.do_configure;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;l3afpad.do_configure;---
 threadripper-3970x-64gb-zeus;4-build-all;l3afpad.do_configure;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;l3afpad.do_configure;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;l3afpad.do_configure;---
@@ -6852,6 +6993,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;libarchive-native
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;libarchive-native.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;libarchive-native.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;libarchive-native.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;libarchive-native.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;libarchive-native.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;libarchive-native.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;libarchive-native.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;libarchive-native.do_configure;---
@@ -6892,6 +7035,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;libarchive-na
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;libarchive-native.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;libarchive-native.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;libarchive-native.do_configure;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;libarchive-native.do_configure;---
 threadripper-3970x-64gb-zeus;4-build-all;libarchive-native.do_configure;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;libarchive-native.do_configure;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;libarchive-native.do_configure;---
@@ -6996,6 +7140,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;libidn.do_configu
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;libidn.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;libidn.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;libidn.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;libidn.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;libidn.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;libidn.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;libidn.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;libidn.do_configure;---
@@ -7036,6 +7182,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;libidn.do_con
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;libidn.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;libidn.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;libidn.do_configure;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;libidn.do_configure;---
 threadripper-3970x-64gb-zeus;4-build-all;libidn.do_configure;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;libidn.do_configure;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;libidn.do_configure;---
@@ -7140,6 +7287,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;librsvg.do_compil
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;librsvg.do_compile;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;librsvg.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;librsvg.do_compile;352.43
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;librsvg.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;librsvg.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;librsvg.do_compile;221.65
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;librsvg.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;librsvg.do_compile;---
@@ -7180,6 +7329,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;librsvg.do_co
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;librsvg.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;librsvg.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;librsvg.do_compile;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;librsvg.do_compile;---
 threadripper-3970x-64gb-zeus;4-build-all;librsvg.do_compile;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;librsvg.do_compile;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;librsvg.do_compile;---
@@ -7284,6 +7434,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;libsdl2-native.do
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;libsdl2-native.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;libsdl2-native.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;libsdl2-native.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;libsdl2-native.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;libsdl2-native.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;libsdl2-native.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;libsdl2-native.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;libsdl2-native.do_configure;---
@@ -7324,6 +7476,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;libsdl2-nativ
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;libsdl2-native.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;libsdl2-native.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;libsdl2-native.do_configure;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;libsdl2-native.do_configure;---
 threadripper-3970x-64gb-zeus;4-build-all;libsdl2-native.do_configure;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;libsdl2-native.do_configure;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;libsdl2-native.do_configure;---
@@ -7428,6 +7581,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;libunistring.do_c
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;libunistring.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;libunistring.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;libunistring.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;libunistring.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;libunistring.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;libunistring.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;libunistring.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;libunistring.do_configure;---
@@ -7468,6 +7623,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;libunistring.
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;libunistring.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;libunistring.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;libunistring.do_configure;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;libunistring.do_configure;---
 threadripper-3970x-64gb-zeus;4-build-all;libunistring.do_configure;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;libunistring.do_configure;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;libunistring.do_configure;---
@@ -7572,6 +7728,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;linux-yocto.do_co
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;linux-yocto.do_compile;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;linux-yocto.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;linux-yocto.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;linux-yocto.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;linux-yocto.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;linux-yocto.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;linux-yocto.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;linux-yocto.do_compile;---
@@ -7612,6 +7770,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;linux-yocto.d
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;linux-yocto.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;linux-yocto.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;linux-yocto.do_compile;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;linux-yocto.do_compile;---
 threadripper-3970x-64gb-zeus;4-build-all;linux-yocto.do_compile;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;linux-yocto.do_compile;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;linux-yocto.do_compile;---
@@ -7716,6 +7875,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;linux-yocto.do_co
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;linux-yocto.do_compile_kernelmodules;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;linux-yocto.do_compile_kernelmodules;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;linux-yocto.do_compile_kernelmodules;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;linux-yocto.do_compile_kernelmodules;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;linux-yocto.do_compile_kernelmodules;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;linux-yocto.do_compile_kernelmodules;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;linux-yocto.do_compile_kernelmodules;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;linux-yocto.do_compile_kernelmodules;---
@@ -7756,6 +7917,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;linux-yocto.d
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;linux-yocto.do_compile_kernelmodules;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;linux-yocto.do_compile_kernelmodules;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;linux-yocto.do_compile_kernelmodules;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;linux-yocto.do_compile_kernelmodules;---
 threadripper-3970x-64gb-zeus;4-build-all;linux-yocto.do_compile_kernelmodules;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;linux-yocto.do_compile_kernelmodules;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;linux-yocto.do_compile_kernelmodules;---
@@ -7860,6 +8022,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;linux-yocto.do_ke
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;linux-yocto.do_kernel_configcheck;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;linux-yocto.do_kernel_configcheck;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;linux-yocto.do_kernel_configcheck;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;linux-yocto.do_kernel_configcheck;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;linux-yocto.do_kernel_configcheck;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;linux-yocto.do_kernel_configcheck;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;linux-yocto.do_kernel_configcheck;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;linux-yocto.do_kernel_configcheck;---
@@ -7900,6 +8064,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;linux-yocto.d
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;linux-yocto.do_kernel_configcheck;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;linux-yocto.do_kernel_configcheck;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;linux-yocto.do_kernel_configcheck;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;linux-yocto.do_kernel_configcheck;---
 threadripper-3970x-64gb-zeus;4-build-all;linux-yocto.do_kernel_configcheck;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;linux-yocto.do_kernel_configcheck;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;linux-yocto.do_kernel_configcheck;---
@@ -8004,6 +8169,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;matchbox-keyboard
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;matchbox-keyboard.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;matchbox-keyboard.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;matchbox-keyboard.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;matchbox-keyboard.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;matchbox-keyboard.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;matchbox-keyboard.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;matchbox-keyboard.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;matchbox-keyboard.do_configure;---
@@ -8044,6 +8211,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;matchbox-keyb
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;matchbox-keyboard.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;matchbox-keyboard.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;matchbox-keyboard.do_configure;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;matchbox-keyboard.do_configure;---
 threadripper-3970x-64gb-zeus;4-build-all;matchbox-keyboard.do_configure;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;matchbox-keyboard.do_configure;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;matchbox-keyboard.do_configure;---
@@ -8148,6 +8316,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;mesa.do_compile;-
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;mesa.do_compile;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;mesa.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;mesa.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;mesa.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;mesa.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;mesa.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;mesa.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;mesa.do_compile;---
@@ -8188,6 +8358,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;mesa.do_compi
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;mesa.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;mesa.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;mesa.do_compile;92.60
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;mesa.do_compile;---
 threadripper-3970x-64gb-zeus;4-build-all;mesa.do_compile;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;mesa.do_compile;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;mesa.do_compile;---
@@ -8292,6 +8463,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;modutils-initscri
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;modutils-initscripts.do_package_qa;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;modutils-initscripts.do_package_qa;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;modutils-initscripts.do_package_qa;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;modutils-initscripts.do_package_qa;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;modutils-initscripts.do_package_qa;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;modutils-initscripts.do_package_qa;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;modutils-initscripts.do_package_qa;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;modutils-initscripts.do_package_qa;---
@@ -8332,6 +8505,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;modutils-init
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;modutils-initscripts.do_package_qa;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;modutils-initscripts.do_package_qa;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;modutils-initscripts.do_package_qa;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;modutils-initscripts.do_package_qa;---
 threadripper-3970x-64gb-zeus;4-build-all;modutils-initscripts.do_package_qa;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;modutils-initscripts.do_package_qa;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;modutils-initscripts.do_package_qa;---
@@ -8436,6 +8610,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;nodejs-native.do_
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;nodejs-native.do_compile;762.59
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;nodejs-native.do_compile;434.54
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;nodejs-native.do_compile;795.59
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;nodejs-native.do_compile;521.84
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;nodejs-native.do_compile;522.56
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;nodejs-native.do_compile;436.94
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;nodejs-native.do_compile;739.23
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;nodejs-native.do_compile;752.65
@@ -8476,6 +8652,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;nodejs-native
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;nodejs-native.do_compile;289.80
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;nodejs-native.do_compile;384.80
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;nodejs-native.do_compile;379.25
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;nodejs-native.do_compile;421.37
 threadripper-3970x-64gb-zeus;4-build-all;nodejs-native.do_compile;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;nodejs-native.do_compile;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;nodejs-native.do_compile;---
@@ -8580,6 +8757,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;nodejs-native.do_
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;nodejs-native.do_populate_sysroot;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;nodejs-native.do_populate_sysroot;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;nodejs-native.do_populate_sysroot;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;nodejs-native.do_populate_sysroot;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;nodejs-native.do_populate_sysroot;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;nodejs-native.do_populate_sysroot;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;nodejs-native.do_populate_sysroot;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;nodejs-native.do_populate_sysroot;---
@@ -8620,6 +8799,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;nodejs-native
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;nodejs-native.do_populate_sysroot;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;nodejs-native.do_populate_sysroot;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;nodejs-native.do_populate_sysroot;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;nodejs-native.do_populate_sysroot;---
 threadripper-3970x-64gb-zeus;4-build-all;nodejs-native.do_populate_sysroot;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;nodejs-native.do_populate_sysroot;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;nodejs-native.do_populate_sysroot;---
@@ -8724,6 +8904,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;nss.do_compile;27
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;nss.do_compile;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;nss.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;nss.do_compile;422.34
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;nss.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;nss.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;nss.do_compile;195.94
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;nss.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;nss.do_compile;---
@@ -8764,6 +8946,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;nss.do_compil
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;nss.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;nss.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;nss.do_compile;98.64
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;nss.do_compile;198.06
 threadripper-3970x-64gb-zeus;4-build-all;nss.do_compile;155.41
 threadripper-3970x-64gb-zeus;6-build-16-bb;nss.do_compile;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;nss.do_compile;---
@@ -8868,6 +9051,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;nss-native.do_com
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;nss-native.do_compile;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;nss-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;nss-native.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;nss-native.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;nss-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;nss-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;nss-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;nss-native.do_compile;---
@@ -8908,6 +9093,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;nss-native.do
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;nss-native.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;nss-native.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;nss-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;nss-native.do_compile;---
 threadripper-3970x-64gb-zeus;4-build-all;nss-native.do_compile;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;nss-native.do_compile;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;nss-native.do_compile;---
@@ -9012,6 +9198,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;perl.do_configure
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;perl.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;perl.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;perl.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;perl.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;perl.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;perl.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;perl.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;perl.do_configure;---
@@ -9052,6 +9240,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;perl.do_confi
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;perl.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;perl.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;perl.do_configure;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;perl.do_configure;---
 threadripper-3970x-64gb-zeus;4-build-all;perl.do_configure;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;perl.do_configure;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;perl.do_configure;---
@@ -9156,6 +9345,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;perl.do_package;-
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;perl.do_package;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;perl.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;perl.do_package;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;perl.do_package;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;perl.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;perl.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;perl.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;perl.do_package;---
@@ -9196,6 +9387,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;perl.do_packa
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;perl.do_package;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;perl.do_package;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;perl.do_package;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;perl.do_package;---
 threadripper-3970x-64gb-zeus;4-build-all;perl.do_package;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;perl.do_package;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;perl.do_package;---
@@ -9300,6 +9492,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;perl.do_package_w
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;perl.do_package_write_rpm;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;perl.do_package_write_rpm;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;perl.do_package_write_rpm;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;perl.do_package_write_rpm;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;perl.do_package_write_rpm;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;perl.do_package_write_rpm;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;perl.do_package_write_rpm;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;perl.do_package_write_rpm;---
@@ -9340,6 +9534,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;perl.do_packa
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;perl.do_package_write_rpm;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;perl.do_package_write_rpm;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;perl.do_package_write_rpm;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;perl.do_package_write_rpm;---
 threadripper-3970x-64gb-zeus;4-build-all;perl.do_package_write_rpm;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;perl.do_package_write_rpm;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;perl.do_package_write_rpm;---
@@ -9444,6 +9639,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;perl-native.do_po
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;perl-native.do_populate_sysroot;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;perl-native.do_populate_sysroot;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;perl-native.do_populate_sysroot;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;perl-native.do_populate_sysroot;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;perl-native.do_populate_sysroot;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;perl-native.do_populate_sysroot;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;perl-native.do_populate_sysroot;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;perl-native.do_populate_sysroot;---
@@ -9484,6 +9681,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;perl-native.d
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;perl-native.do_populate_sysroot;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;perl-native.do_populate_sysroot;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;perl-native.do_populate_sysroot;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;perl-native.do_populate_sysroot;---
 threadripper-3970x-64gb-zeus;4-build-all;perl-native.do_populate_sysroot;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;perl-native.do_populate_sysroot;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;perl-native.do_populate_sysroot;---
@@ -9588,6 +9786,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;puzzles.do_config
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;puzzles.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;puzzles.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;puzzles.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;puzzles.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;puzzles.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;puzzles.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;puzzles.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;puzzles.do_configure;---
@@ -9628,6 +9828,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;puzzles.do_co
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;puzzles.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;puzzles.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;puzzles.do_configure;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;puzzles.do_configure;---
 threadripper-3970x-64gb-zeus;4-build-all;puzzles.do_configure;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;puzzles.do_configure;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;puzzles.do_configure;---
@@ -9647,6 +9848,153 @@ xeon-e3-1275-v5-dunfell;4-build-all;puzzles.do_configure;---
 xeon-e3-1275-v5-dunfell;5-build-8-bb;puzzles.do_configure;---
 xeon-e3-1275-v5-dunfell;6-build-16-bb;puzzles.do_configure;---
 xeon-e3-1275-v5-dunfell;7-build-2-bb;puzzles.do_configure;---
+VM-20t-157G-zeus;4-build-all;python-native.do_compile;---
+VM-20t-157G-zeus;5-build-8-bb;python-native.do_compile;---
+VM-20t-157G-zeus;6-build-16-bb;python-native.do_compile;---
+VM-20t-157G-zeus;7-build-2-bb;python-native.do_compile;---
+VM-20t-98G-zeus;4-build-all;python-native.do_compile;---
+VM-20t-98G-zeus;5-build-8-bb;python-native.do_compile;---
+VM-20t-98G-zeus;6-build-16-bb;python-native.do_compile;---
+VM-20t-98G-zeus;7-build-2-bb;python-native.do_compile;---
+core-i7-4790k-dunfell;4-build-all;python-native.do_compile;---
+core-i7-4790k-dunfell;5-build-8-bb;python-native.do_compile;---
+core-i7-4790k-dunfell;6-build-16-bb;python-native.do_compile;---
+core-i7-4790k-dunfell;7-build-2-bb;python-native.do_compile;---
+dual-Epyc-7763;4-build-all;python-native.do_compile;---
+dual-Epyc-7763;5-build-8-bb;python-native.do_compile;---
+dual-Epyc-7763;6-build-16-bb;python-native.do_compile;---
+dual-Epyc-7763;7-build-2-bb;python-native.do_compile;---
+dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;4-build-all;python-native.do_compile;---
+dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;5-build-8-bb;python-native.do_compile;---
+dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;6-build-16-bb;python-native.do_compile;---
+dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;7-build-2-bb;python-native.do_compile;---
+dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;4-build-all;python-native.do_compile;---
+dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;5-build-8-bb;python-native.do_compile;---
+dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;6-build-16-bb;python-native.do_compile;---
+dual-Xeon-E5-2670-8-channels-zeus;4-build-all;python-native.do_compile;---
+dual-Xeon-E5-2670-8-channels-zeus;5-build-8-bb;python-native.do_compile;---
+dual-Xeon-E5-2670-8-channels-zeus;6-build-16-bb;python-native.do_compile;---
+dual-Xeon-E5-2670-8-channels-zeus;7-build-2-bb;python-native.do_compile;---
+dual-Xeon-E5-2698-v3-4-channels-zeus;4-build-all;python-native.do_compile;---
+dual-Xeon-E5-2698-v3-4-channels-zeus;5-build-8-bb;python-native.do_compile;---
+dual-Xeon-E5-2698-v3-4-channels-zeus;6-build-16-bb;python-native.do_compile;---
+dual-Xeon-E5-2698-v3-4-channels-zeus;7-build-2-bb;python-native.do_compile;---
+dual-Xeon-E5-2698-v4-4-channels-no-journal-zeus;4-build-all;python-native.do_compile;---
+dual-Xeon-E5-2698-v4-4-channels-no-journal-zeus;5-build-8-bb;python-native.do_compile;---
+dual-Xeon-E5-2698-v4-4-channels-no-journal-zeus;6-build-16-bb;python-native.do_compile;---
+dual-Xeon-E5-2698-v4-4-channels-no-journal-zeus;7-build-2-bb;python-native.do_compile;---
+dual-Xeon-E5-2698-v4-4-channels-tmpfs-zeus;4-build-all;python-native.do_compile;---
+dual-Xeon-E5-2698-v4-4-channels-tmpfs-zeus;5-build-8-bb;python-native.do_compile;---
+dual-Xeon-E5-2698-v4-4-channels-tmpfs-zeus;6-build-16-bb;python-native.do_compile;---
+dual-Xeon-E5-2698-v4-4-channels-tmpfs-zeus;7-build-2-bb;python-native.do_compile;---
+dual-Xeon-E5-2698-v4-4-channels-zeus;4-build-all;python-native.do_compile;---
+dual-Xeon-E5-2698-v4-4-channels-zeus;5-build-8-bb;python-native.do_compile;---
+dual-Xeon-E5-2698-v4-4-channels-zeus;6-build-16-bb;python-native.do_compile;---
+dual-Xeon-E5-2698-v4-4-channels-zeus;7-build-2-bb;python-native.do_compile;---
+dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;4-build-all;python-native.do_compile;---
+dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;5-build-8-bb;python-native.do_compile;---
+dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;6-build-16-bb;python-native.do_compile;---
+dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;7-build-2-bb;python-native.do_compile;---
+dual-Xeon-E5-2699-v3-8-channels-zeus;4-build-all;python-native.do_compile;---
+dual-Xeon-E5-2699-v3-8-channels-zeus;5-build-8-bb;python-native.do_compile;---
+dual-Xeon-E5-2699-v3-8-channels-zeus;6-build-16-bb;python-native.do_compile;---
+dual-Xeon-E5-2699-v3-8-channels-zeus;7-build-2-bb;python-native.do_compile;---
+dual-Xeon-Gold-6258R-zeus;4-build-all;python-native.do_compile;---
+dual-Xeon-Gold-6258R-zeus;5-build-8-bb;python-native.do_compile;---
+dual-Xeon-Gold-6258R-zeus;6-build-16-bb;python-native.do_compile;---
+dual-Xeon-Gold-6258R-zeus;7-build-2-bb;python-native.do_compile;---
+ryzen-5-1600AF-zeus;4-build-all;python-native.do_compile;---
+ryzen-5-1600AF-zeus;5-build-8-bb;python-native.do_compile;---
+ryzen-5-1600AF-zeus;6-build-16-bb;python-native.do_compile;---
+ryzen-5-1600AF-zeus;7-build-2-bb;python-native.do_compile;---
+ryzen-9-5950x-128gb-docker-hardknott;4-build-all;python-native.do_compile;---
+ryzen-9-5950x-128gb-docker-hardknott;5-build-8-bb;python-native.do_compile;---
+ryzen-9-5950x-128gb-docker-hardknott;6-build-16-bb;python-native.do_compile;---
+ryzen-9-5950x-128gb-docker-hardknott;7-build-2-bb;python-native.do_compile;---
+ryzen-9-5950x-128gb-docker-zeus;4-build-all;python-native.do_compile;---
+ryzen-9-5950x-128gb-docker-zeus;5-build-8-bb;python-native.do_compile;---
+ryzen-9-5950x-128gb-docker-zeus;6-build-16-bb;python-native.do_compile;---
+ryzen-9-5950x-128gb-docker-zeus;7-build-2-bb;python-native.do_compile;---
+ryzen-9-5950x-zeus;4-build-all;python-native.do_compile;---
+threadripper-2990wx-128gb-zeus;4-build-all;python-native.do_compile;---
+threadripper-2990wx-128gb-zeus;5-build-8-bb;python-native.do_compile;---
+threadripper-2990wx-128gb-zeus;6-build-16-bb;python-native.do_compile;---
+threadripper-2990wx-128gb-zeus;7-build-2-bb;python-native.do_compile;---
+threadripper-3970x-128gb-gentoo-honister-2021-09;4-build-all;python-native.do_compile;---
+threadripper-3970x-128gb-gentoo-honister-2021-09;5-build-8-bb;python-native.do_compile;---
+threadripper-3970x-128gb-gentoo-honister-2021-09;6-build-16-bb;python-native.do_compile;---
+threadripper-3970x-128gb-gentoo-honister-2021-09;7-build-2-bb;python-native.do_compile;---
+threadripper-3970x-128gb-gentoo-honister-2022-03;4-build-all;python-native.do_compile;---
+threadripper-3970x-128gb-gentoo-honister-2022-03;5-build-8-bb;python-native.do_compile;---
+threadripper-3970x-128gb-gentoo-honister-2022-03;6-build-16-bb;python-native.do_compile;---
+threadripper-3970x-128gb-gentoo-honister-2022-03;7-build-2-bb;python-native.do_compile;---
+threadripper-3970x-128gb-gentoo-kirkstone-2022-03;4-build-all;python-native.do_compile;---
+threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;python-native.do_compile;---
+threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;python-native.do_compile;---
+threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;python-native.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;python-native.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;python-native.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;python-native.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;python-native.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;python-native.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;python-native.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;7-build-2-bb;python-native.do_compile;---
+threadripper-3970x-128gb-optane-zeus;4-build-all;python-native.do_compile;---
+threadripper-3970x-128gb-optane-zeus;5-build-8-bb;python-native.do_compile;---
+threadripper-3970x-128gb-optane-zeus;6-build-16-bb;python-native.do_compile;---
+threadripper-3970x-128gb-optane-zeus;7-build-2-bb;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;4-build-all;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;5-build-8-bb;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;6-build-16-bb;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;7-build-2-bb;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;4-build-all;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;5-build-8-bb;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;6-build-16-bb;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;7-build-2-bb;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-20.10-gatesgarth-2020-10;4-build-all;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-20.10-gatesgarth-2020-10;5-build-8-bb;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-20.10-gatesgarth-2020-10;6-build-16-bb;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-20.10-gatesgarth-2020-10;7-build-2-bb;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;4-build-all;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;5-build-8-bb;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;6-build-16-bb;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;7-build-2-bb;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;4-build-all;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;5-build-8-bb;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;6-build-16-bb;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;7-build-2-bb;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;4-build-all;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;5-build-8-bb;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;6-build-16-bb;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;7-build-2-bb;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;4-build-all;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;5-build-8-bb;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;6-build-16-bb;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;7-build-2-bb;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;python-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;python-native.do_compile;301.24
+threadripper-3970x-64gb-zeus;4-build-all;python-native.do_compile;---
+threadripper-3970x-64gb-zeus;6-build-16-bb;python-native.do_compile;---
+threadripper-3970x-64gb-zeus;7-build-2-bb;python-native.do_compile;---
+threadripper-3990x-128gb-zeus;4-build-all;python-native.do_compile;---
+threadripper-3990x-128gb-zeus;5-build-8-bb;python-native.do_compile;---
+threadripper-3990x-128gb-zeus;6-build-16-bb;python-native.do_compile;---
+threadripper-3990x-128gb-zeus;7-build-2-bb;python-native.do_compile;---
+threadripper-3990x-256gb-zeus;4-build-all;python-native.do_compile;---
+threadripper-3990x-256gb-zeus;5-build-8-bb;python-native.do_compile;---
+threadripper-3990x-256gb-zeus;6-build-16-bb;python-native.do_compile;---
+threadripper-3990x-256gb-zeus;7-build-2-bb;python-native.do_compile;---
+vSphere-VM-28t-55G-zeus;4-build-all;python-native.do_compile;---
+vSphere-VM-28t-55G-zeus;5-build-8-bb;python-native.do_compile;---
+vSphere-VM-28t-55G-zeus;6-build-16-bb;python-native.do_compile;---
+vSphere-VM-28t-55G-zeus;7-build-2-bb;python-native.do_compile;---
+xeon-e3-1275-v5-dunfell;4-build-all;python-native.do_compile;---
+xeon-e3-1275-v5-dunfell;5-build-8-bb;python-native.do_compile;---
+xeon-e3-1275-v5-dunfell;6-build-16-bb;python-native.do_compile;---
+xeon-e3-1275-v5-dunfell;7-build-2-bb;python-native.do_compile;---
 VM-20t-157G-zeus;4-build-all;python-native.do_configure;---
 VM-20t-157G-zeus;5-build-8-bb;python-native.do_configure;---
 VM-20t-157G-zeus;6-build-16-bb;python-native.do_configure;---
@@ -9732,6 +10080,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;python-native.do_
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;python-native.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;python-native.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;python-native.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;python-native.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;python-native.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;python-native.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;python-native.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;python-native.do_configure;---
@@ -9772,6 +10122,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;python-native
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;python-native.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;python-native.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;python-native.do_configure;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;python-native.do_configure;---
 threadripper-3970x-64gb-zeus;4-build-all;python-native.do_configure;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;python-native.do_configure;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;python-native.do_configure;---
@@ -9876,6 +10227,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;python-native.do_
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;python-native.do_populate_sysroot;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;python-native.do_populate_sysroot;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;python-native.do_populate_sysroot;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;python-native.do_populate_sysroot;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;python-native.do_populate_sysroot;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;python-native.do_populate_sysroot;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;python-native.do_populate_sysroot;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;python-native.do_populate_sysroot;---
@@ -9916,6 +10269,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;python-native
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;python-native.do_populate_sysroot;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;python-native.do_populate_sysroot;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;python-native.do_populate_sysroot;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;python-native.do_populate_sysroot;---
 threadripper-3970x-64gb-zeus;4-build-all;python-native.do_populate_sysroot;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;python-native.do_populate_sysroot;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;python-native.do_populate_sysroot;---
@@ -10020,6 +10374,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;python3.do_packag
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;python3.do_package;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;python3.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;python3.do_package;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;python3.do_package;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;python3.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;python3.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;python3.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;python3.do_package;---
@@ -10060,6 +10416,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;python3.do_pa
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;python3.do_package;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;python3.do_package;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;python3.do_package;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;python3.do_package;---
 threadripper-3970x-64gb-zeus;4-build-all;python3.do_package;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;python3.do_package;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;python3.do_package;---
@@ -10164,6 +10521,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;python3-native.do
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;python3-native.do_populate_sysroot;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;python3-native.do_populate_sysroot;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;python3-native.do_populate_sysroot;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;python3-native.do_populate_sysroot;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;python3-native.do_populate_sysroot;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;python3-native.do_populate_sysroot;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;python3-native.do_populate_sysroot;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;python3-native.do_populate_sysroot;---
@@ -10204,6 +10563,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;python3-nativ
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;python3-native.do_populate_sysroot;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;python3-native.do_populate_sysroot;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;python3-native.do_populate_sysroot;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;python3-native.do_populate_sysroot;---
 threadripper-3970x-64gb-zeus;4-build-all;python3-native.do_populate_sysroot;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;python3-native.do_populate_sysroot;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;python3-native.do_populate_sysroot;---
@@ -10308,6 +10668,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;qemu-system-nativ
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;qemu-system-native.do_compile;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;qemu-system-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;qemu-system-native.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;qemu-system-native.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;qemu-system-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;qemu-system-native.do_compile;181.87
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;qemu-system-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;qemu-system-native.do_compile;---
@@ -10348,6 +10710,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;qemu-system-n
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;qemu-system-native.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;qemu-system-native.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;qemu-system-native.do_compile;86.82
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;qemu-system-native.do_compile;---
 threadripper-3970x-64gb-zeus;4-build-all;qemu-system-native.do_compile;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;qemu-system-native.do_compile;138.79
 threadripper-3970x-64gb-zeus;7-build-2-bb;qemu-system-native.do_compile;103.81
@@ -10452,6 +10815,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;qemu-system-nativ
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;qemu-system-native.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;qemu-system-native.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;qemu-system-native.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;qemu-system-native.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;qemu-system-native.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;qemu-system-native.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;qemu-system-native.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;qemu-system-native.do_configure;---
@@ -10492,6 +10857,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;qemu-system-n
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;qemu-system-native.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;qemu-system-native.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;qemu-system-native.do_configure;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;qemu-system-native.do_configure;---
 threadripper-3970x-64gb-zeus;4-build-all;qemu-system-native.do_configure;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;qemu-system-native.do_configure;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;qemu-system-native.do_configure;---
@@ -10596,6 +10962,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;qtbase.do_compile
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;qtbase.do_compile;929.43
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;qtbase.do_compile;246.08
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;qtbase.do_compile;818.01
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;qtbase.do_compile;527.53
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;qtbase.do_compile;531.23
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;qtbase.do_compile;517.59
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;qtbase.do_compile;960.28
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;qtbase.do_compile;943.42
@@ -10636,6 +11004,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;qtbase.do_com
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;qtbase.do_compile;427.81
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;qtbase.do_compile;689.67
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;qtbase.do_compile;235.19
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;qtbase.do_compile;499.60
 threadripper-3970x-64gb-zeus;4-build-all;qtbase.do_compile;721.75
 threadripper-3970x-64gb-zeus;6-build-16-bb;qtbase.do_compile;723.55
 threadripper-3970x-64gb-zeus;7-build-2-bb;qtbase.do_compile;280.38
@@ -10740,6 +11109,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;qtbase.do_configu
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;qtbase.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;qtbase.do_configure;173.87
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;qtbase.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;qtbase.do_configure;227.77
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;qtbase.do_configure;229.65
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;qtbase.do_configure;208.82
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;qtbase.do_configure;278.77
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;qtbase.do_configure;---
@@ -10780,6 +11151,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;qtbase.do_con
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;qtbase.do_configure;225.28
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;qtbase.do_configure;313.93
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;qtbase.do_configure;171.53
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;qtbase.do_configure;226.85
 threadripper-3970x-64gb-zeus;4-build-all;qtbase.do_configure;187.87
 threadripper-3970x-64gb-zeus;6-build-16-bb;qtbase.do_configure;197.96
 threadripper-3970x-64gb-zeus;7-build-2-bb;qtbase.do_configure;155.20
@@ -10884,6 +11256,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;qtbase.do_package
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;qtbase.do_package;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;qtbase.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;qtbase.do_package;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;qtbase.do_package;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;qtbase.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;qtbase.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;qtbase.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;qtbase.do_package;---
@@ -10924,6 +11298,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;qtbase.do_pac
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;qtbase.do_package;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;qtbase.do_package;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;qtbase.do_package;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;qtbase.do_package;---
 threadripper-3970x-64gb-zeus;4-build-all;qtbase.do_package;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;qtbase.do_package;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;qtbase.do_package;90.32
@@ -11028,6 +11403,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;qtbase.do_package
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;qtbase.do_package_write_rpm;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;qtbase.do_package_write_rpm;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;qtbase.do_package_write_rpm;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;qtbase.do_package_write_rpm;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;qtbase.do_package_write_rpm;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;qtbase.do_package_write_rpm;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;qtbase.do_package_write_rpm;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;qtbase.do_package_write_rpm;---
@@ -11068,6 +11445,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;qtbase.do_pac
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;qtbase.do_package_write_rpm;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;qtbase.do_package_write_rpm;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;qtbase.do_package_write_rpm;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;qtbase.do_package_write_rpm;---
 threadripper-3970x-64gb-zeus;4-build-all;qtbase.do_package_write_rpm;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;qtbase.do_package_write_rpm;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;qtbase.do_package_write_rpm;---
@@ -11172,6 +11550,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;qtdeclarative.do_
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;qtdeclarative.do_compile;572.59
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;qtdeclarative.do_compile;237.72
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;qtdeclarative.do_compile;396.90
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;qtdeclarative.do_compile;354.32
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;qtdeclarative.do_compile;351.99
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;qtdeclarative.do_compile;289.07
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;qtdeclarative.do_compile;433.51
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;qtdeclarative.do_compile;407.93
@@ -11212,6 +11592,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;qtdeclarative
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;qtdeclarative.do_compile;228.75
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;qtdeclarative.do_compile;467.80
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;qtdeclarative.do_compile;120.36
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;qtdeclarative.do_compile;273.79
 threadripper-3970x-64gb-zeus;4-build-all;qtdeclarative.do_compile;362.20
 threadripper-3970x-64gb-zeus;6-build-16-bb;qtdeclarative.do_compile;358.98
 threadripper-3970x-64gb-zeus;7-build-2-bb;qtdeclarative.do_compile;122.45
@@ -11316,6 +11697,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;qtdeclarative.do_
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;qtdeclarative.do_package;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;qtdeclarative.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;qtdeclarative.do_package;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;qtdeclarative.do_package;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;qtdeclarative.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;qtdeclarative.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;qtdeclarative.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;qtdeclarative.do_package;---
@@ -11356,6 +11739,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;qtdeclarative
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;qtdeclarative.do_package;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;qtdeclarative.do_package;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;qtdeclarative.do_package;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;qtdeclarative.do_package;---
 threadripper-3970x-64gb-zeus;4-build-all;qtdeclarative.do_package;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;qtdeclarative.do_package;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;qtdeclarative.do_package;---
@@ -11460,6 +11844,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;qtdeclarative-nat
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;qtdeclarative-native.do_compile;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;qtdeclarative-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;qtdeclarative-native.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;qtdeclarative-native.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;qtdeclarative-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;qtdeclarative-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;qtdeclarative-native.do_compile;267.41
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;qtdeclarative-native.do_compile;---
@@ -11500,6 +11886,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;qtdeclarative
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;qtdeclarative-native.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;qtdeclarative-native.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;qtdeclarative-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;qtdeclarative-native.do_compile;---
 threadripper-3970x-64gb-zeus;4-build-all;qtdeclarative-native.do_compile;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;qtdeclarative-native.do_compile;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;qtdeclarative-native.do_compile;---
@@ -11604,6 +11991,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;qtlocation.do_com
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;qtlocation.do_compile;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;qtlocation.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;qtlocation.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;qtlocation.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;qtlocation.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;qtlocation.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;qtlocation.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;qtlocation.do_compile;---
@@ -11644,6 +12033,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;qtlocation.do
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;qtlocation.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;qtlocation.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;qtlocation.do_compile;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;qtlocation.do_compile;---
 threadripper-3970x-64gb-zeus;4-build-all;qtlocation.do_compile;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;qtlocation.do_compile;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;qtlocation.do_compile;---
@@ -11748,6 +12138,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;qtmultimedia.do_c
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;qtmultimedia.do_compile;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;qtmultimedia.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;qtmultimedia.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;qtmultimedia.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;qtmultimedia.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;qtmultimedia.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;qtmultimedia.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;qtmultimedia.do_compile;---
@@ -11788,6 +12180,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;qtmultimedia.
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;qtmultimedia.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;qtmultimedia.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;qtmultimedia.do_compile;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;qtmultimedia.do_compile;---
 threadripper-3970x-64gb-zeus;4-build-all;qtmultimedia.do_compile;151.27
 threadripper-3970x-64gb-zeus;6-build-16-bb;qtmultimedia.do_compile;142.44
 threadripper-3970x-64gb-zeus;7-build-2-bb;qtmultimedia.do_compile;---
@@ -11892,6 +12285,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;qtquickcontrols.d
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;qtquickcontrols.do_compile;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;qtquickcontrols.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;qtquickcontrols.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;qtquickcontrols.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;qtquickcontrols.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;qtquickcontrols.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;qtquickcontrols.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;qtquickcontrols.do_compile;---
@@ -11932,6 +12327,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;qtquickcontro
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;qtquickcontrols.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;qtquickcontrols.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;qtquickcontrols.do_compile;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;qtquickcontrols.do_compile;---
 threadripper-3970x-64gb-zeus;4-build-all;qtquickcontrols.do_compile;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;qtquickcontrols.do_compile;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;qtquickcontrols.do_compile;---
@@ -12036,6 +12432,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;qtquickcontrols2.
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;qtquickcontrols2.do_compile;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;qtquickcontrols2.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;qtquickcontrols2.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;qtquickcontrols2.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;qtquickcontrols2.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;qtquickcontrols2.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;qtquickcontrols2.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;qtquickcontrols2.do_compile;---
@@ -12076,6 +12474,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;qtquickcontro
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;qtquickcontrols2.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;qtquickcontrols2.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;qtquickcontrols2.do_compile;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;qtquickcontrols2.do_compile;---
 threadripper-3970x-64gb-zeus;4-build-all;qtquickcontrols2.do_compile;185.68
 threadripper-3970x-64gb-zeus;6-build-16-bb;qtquickcontrols2.do_compile;193.38
 threadripper-3970x-64gb-zeus;7-build-2-bb;qtquickcontrols2.do_compile;---
@@ -12180,6 +12579,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;qtsensors.do_comp
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;qtsensors.do_compile;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;qtsensors.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;qtsensors.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;qtsensors.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;qtsensors.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;qtsensors.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;qtsensors.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;qtsensors.do_compile;---
@@ -12220,6 +12621,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;qtsensors.do_
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;qtsensors.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;qtsensors.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;qtsensors.do_compile;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;qtsensors.do_compile;---
 threadripper-3970x-64gb-zeus;4-build-all;qtsensors.do_compile;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;qtsensors.do_compile;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;qtsensors.do_compile;---
@@ -12324,6 +12726,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;qtwebengine.do_co
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;qtwebengine.do_compile;2875.43
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;qtwebengine.do_compile;2241.16
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;qtwebengine.do_compile;2840.61
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;qtwebengine.do_compile;2427.86
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;qtwebengine.do_compile;2513.43
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;qtwebengine.do_compile;2384.85
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;qtwebengine.do_compile;2912.35
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;qtwebengine.do_compile;2835.30
@@ -12364,6 +12768,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;qtwebengine.d
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;qtwebengine.do_compile;2292.91
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;qtwebengine.do_compile;2424.38
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;qtwebengine.do_compile;1118.15
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;qtwebengine.do_compile;2369.75
 threadripper-3970x-64gb-zeus;4-build-all;qtwebengine.do_compile;2710.93
 threadripper-3970x-64gb-zeus;6-build-16-bb;qtwebengine.do_compile;2570.37
 threadripper-3970x-64gb-zeus;7-build-2-bb;qtwebengine.do_compile;610.23
@@ -12468,6 +12873,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;qtwebengine.do_pa
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;qtwebengine.do_package;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;qtwebengine.do_package;210.31
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;qtwebengine.do_package;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;qtwebengine.do_package;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;qtwebengine.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;qtwebengine.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;qtwebengine.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;qtwebengine.do_package;---
@@ -12508,6 +12915,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;qtwebengine.d
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;qtwebengine.do_package;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;qtwebengine.do_package;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;qtwebengine.do_package;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;qtwebengine.do_package;---
 threadripper-3970x-64gb-zeus;4-build-all;qtwebengine.do_package;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;qtwebengine.do_package;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;qtwebengine.do_package;---
@@ -12612,6 +13020,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;qtwebengine.do_pa
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;qtwebengine.do_package_write_rpm;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;qtwebengine.do_package_write_rpm;148.34
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;qtwebengine.do_package_write_rpm;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;qtwebengine.do_package_write_rpm;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;qtwebengine.do_package_write_rpm;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;qtwebengine.do_package_write_rpm;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;qtwebengine.do_package_write_rpm;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;qtwebengine.do_package_write_rpm;---
@@ -12652,6 +13062,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;qtwebengine.d
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;qtwebengine.do_package_write_rpm;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;qtwebengine.do_package_write_rpm;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;qtwebengine.do_package_write_rpm;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;qtwebengine.do_package_write_rpm;---
 threadripper-3970x-64gb-zeus;4-build-all;qtwebengine.do_package_write_rpm;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;qtwebengine.do_package_write_rpm;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;qtwebengine.do_package_write_rpm;---
@@ -12756,6 +13167,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;qtwebengine.do_un
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;qtwebengine.do_unpack;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;qtwebengine.do_unpack;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;qtwebengine.do_unpack;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;qtwebengine.do_unpack;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;qtwebengine.do_unpack;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;qtwebengine.do_unpack;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;qtwebengine.do_unpack;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;qtwebengine.do_unpack;---
@@ -12796,6 +13209,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;qtwebengine.d
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;qtwebengine.do_unpack;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;qtwebengine.do_unpack;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;qtwebengine.do_unpack;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;qtwebengine.do_unpack;---
 threadripper-3970x-64gb-zeus;4-build-all;qtwebengine.do_unpack;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;qtwebengine.do_unpack;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;qtwebengine.do_unpack;---
@@ -12900,6 +13314,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;qtwebkit.do_compi
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;qtwebkit.do_compile;1745.09
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;qtwebkit.do_compile;598.94
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;qtwebkit.do_compile;1809.56
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;qtwebkit.do_compile;877.63
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;qtwebkit.do_compile;934.00
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;qtwebkit.do_compile;852.28
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;qtwebkit.do_compile;1995.11
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;qtwebkit.do_compile;1727.36
@@ -12940,6 +13356,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;qtwebkit.do_c
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;qtwebkit.do_compile;904.40
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;qtwebkit.do_compile;1435.72
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;qtwebkit.do_compile;415.54
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;qtwebkit.do_compile;1633.50
 threadripper-3970x-64gb-zeus;4-build-all;qtwebkit.do_compile;2827.39
 threadripper-3970x-64gb-zeus;6-build-16-bb;qtwebkit.do_compile;2809.77
 threadripper-3970x-64gb-zeus;7-build-2-bb;qtwebkit.do_compile;454.47
@@ -13044,6 +13461,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;qtwebkit.do_packa
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;qtwebkit.do_package;327.04
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;qtwebkit.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;qtwebkit.do_package;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;qtwebkit.do_package;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;qtwebkit.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;qtwebkit.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;qtwebkit.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;qtwebkit.do_package;---
@@ -13084,6 +13503,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;qtwebkit.do_p
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;qtwebkit.do_package;378.59
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;qtwebkit.do_package;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;qtwebkit.do_package;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;qtwebkit.do_package;198.88
 threadripper-3970x-64gb-zeus;4-build-all;qtwebkit.do_package;146.64
 threadripper-3970x-64gb-zeus;6-build-16-bb;qtwebkit.do_package;148.56
 threadripper-3970x-64gb-zeus;7-build-2-bb;qtwebkit.do_package;147.79
@@ -13188,6 +13608,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;qtwebkit.do_packa
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;qtwebkit.do_package_write_rpm;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;qtwebkit.do_package_write_rpm;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;qtwebkit.do_package_write_rpm;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;qtwebkit.do_package_write_rpm;219.88
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;qtwebkit.do_package_write_rpm;340.55
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;qtwebkit.do_package_write_rpm;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;qtwebkit.do_package_write_rpm;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;qtwebkit.do_package_write_rpm;299.65
@@ -13228,6 +13650,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;qtwebkit.do_p
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;qtwebkit.do_package_write_rpm;250.87
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;qtwebkit.do_package_write_rpm;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;qtwebkit.do_package_write_rpm;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;qtwebkit.do_package_write_rpm;224.66
 threadripper-3970x-64gb-zeus;4-build-all;qtwebkit.do_package_write_rpm;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;qtwebkit.do_package_write_rpm;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;qtwebkit.do_package_write_rpm;91.32
@@ -13332,6 +13755,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;qtwebsockets.do_c
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;qtwebsockets.do_compile;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;qtwebsockets.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;qtwebsockets.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;qtwebsockets.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;qtwebsockets.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;qtwebsockets.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;qtwebsockets.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;qtwebsockets.do_compile;---
@@ -13372,6 +13797,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;qtwebsockets.
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;qtwebsockets.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;qtwebsockets.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;qtwebsockets.do_compile;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;qtwebsockets.do_compile;---
 threadripper-3970x-64gb-zeus;4-build-all;qtwebsockets.do_compile;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;qtwebsockets.do_compile;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;qtwebsockets.do_compile;---
@@ -13476,6 +13902,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;qtxmlpatterns.do_
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;qtxmlpatterns.do_compile;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;qtxmlpatterns.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;qtxmlpatterns.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;qtxmlpatterns.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;qtxmlpatterns.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;qtxmlpatterns.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;qtxmlpatterns.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;qtxmlpatterns.do_compile;---
@@ -13516,6 +13944,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;qtxmlpatterns
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;qtxmlpatterns.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;qtxmlpatterns.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;qtxmlpatterns.do_compile;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;qtxmlpatterns.do_compile;---
 threadripper-3970x-64gb-zeus;4-build-all;qtxmlpatterns.do_compile;162.62
 threadripper-3970x-64gb-zeus;6-build-16-bb;qtxmlpatterns.do_compile;159.51
 threadripper-3970x-64gb-zeus;7-build-2-bb;qtxmlpatterns.do_compile;---
@@ -13620,6 +14049,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;ruby-native.do_co
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;ruby-native.do_compile;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;ruby-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;ruby-native.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;ruby-native.do_compile;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;ruby-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;ruby-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;ruby-native.do_compile;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;ruby-native.do_compile;---
@@ -13660,6 +14091,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;ruby-native.d
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;ruby-native.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;ruby-native.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;ruby-native.do_compile;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;ruby-native.do_compile;---
 threadripper-3970x-64gb-zeus;4-build-all;ruby-native.do_compile;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;ruby-native.do_compile;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;ruby-native.do_compile;---
@@ -13764,6 +14196,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;ruby-native.do_co
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;ruby-native.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;ruby-native.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;ruby-native.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;ruby-native.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;ruby-native.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;ruby-native.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;ruby-native.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;ruby-native.do_configure;---
@@ -13804,6 +14238,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;ruby-native.d
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;ruby-native.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;ruby-native.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;ruby-native.do_configure;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;ruby-native.do_configure;---
 threadripper-3970x-64gb-zeus;4-build-all;ruby-native.do_configure;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;ruby-native.do_configure;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;ruby-native.do_configure;---
@@ -13908,6 +14343,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;rust-llvm-native.
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;rust-llvm-native.do_compile;440.08
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;rust-llvm-native.do_compile;244.83
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;rust-llvm-native.do_compile;482.07
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;rust-llvm-native.do_compile;231.58
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;rust-llvm-native.do_compile;237.56
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;rust-llvm-native.do_compile;247.03
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;rust-llvm-native.do_compile;411.22
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;rust-llvm-native.do_compile;408.64
@@ -13948,6 +14385,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;rust-llvm-nat
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;rust-llvm-native.do_compile;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;rust-llvm-native.do_compile;329.18
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;rust-llvm-native.do_compile;147.30
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;rust-llvm-native.do_compile;---
 threadripper-3970x-64gb-zeus;4-build-all;rust-llvm-native.do_compile;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;rust-llvm-native.do_compile;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;rust-llvm-native.do_compile;108.97
@@ -14052,6 +14490,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;rust-native.do_co
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;rust-native.do_compile;1365.47
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;rust-native.do_compile;482.03
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;rust-native.do_compile;1470.42
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;rust-native.do_compile;528.45
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;rust-native.do_compile;532.41
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;rust-native.do_compile;719.07
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;rust-native.do_compile;1274.18
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;rust-native.do_compile;1290.35
@@ -14092,6 +14532,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;rust-native.d
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;rust-native.do_compile;638.74
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;rust-native.do_compile;1055.41
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;rust-native.do_compile;500.17
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;rust-native.do_compile;562.14
 threadripper-3970x-64gb-zeus;4-build-all;rust-native.do_compile;3017.92
 threadripper-3970x-64gb-zeus;6-build-16-bb;rust-native.do_compile;2858.43
 threadripper-3970x-64gb-zeus;7-build-2-bb;rust-native.do_compile;1286.91
@@ -14196,6 +14637,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;rust-native.do_in
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;rust-native.do_install;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;rust-native.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;rust-native.do_install;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;rust-native.do_install;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;rust-native.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;rust-native.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;rust-native.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;rust-native.do_install;---
@@ -14236,6 +14679,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;rust-native.d
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;rust-native.do_install;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;rust-native.do_install;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;rust-native.do_install;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;rust-native.do_install;---
 threadripper-3970x-64gb-zeus;4-build-all;rust-native.do_install;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;rust-native.do_install;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;rust-native.do_install;---
@@ -14340,6 +14784,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;rust-native.do_rm
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;rust-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;rust-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;rust-native.do_rm_work;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;rust-native.do_rm_work;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;rust-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;rust-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;rust-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;rust-native.do_rm_work;---
@@ -14380,6 +14826,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;rust-native.d
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;rust-native.do_rm_work;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;rust-native.do_rm_work;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;rust-native.do_rm_work;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;rust-native.do_rm_work;---
 threadripper-3970x-64gb-zeus;4-build-all;rust-native.do_rm_work;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;rust-native.do_rm_work;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;rust-native.do_rm_work;---
@@ -14484,6 +14931,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;sato-screenshot.d
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;sato-screenshot.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;sato-screenshot.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;sato-screenshot.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;sato-screenshot.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;sato-screenshot.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;sato-screenshot.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;sato-screenshot.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;sato-screenshot.do_configure;---
@@ -14524,6 +14973,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;sato-screensh
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;sato-screenshot.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;sato-screenshot.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;sato-screenshot.do_configure;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;sato-screenshot.do_configure;---
 threadripper-3970x-64gb-zeus;4-build-all;sato-screenshot.do_configure;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;sato-screenshot.do_configure;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;sato-screenshot.do_configure;---
@@ -14628,6 +15078,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;settings-daemon.d
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;settings-daemon.do_package;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;settings-daemon.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;settings-daemon.do_package;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;settings-daemon.do_package;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;settings-daemon.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;settings-daemon.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;settings-daemon.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;settings-daemon.do_package;---
@@ -14668,6 +15120,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;settings-daem
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;settings-daemon.do_package;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;settings-daemon.do_package;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;settings-daemon.do_package;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;settings-daemon.do_package;---
 threadripper-3970x-64gb-zeus;4-build-all;settings-daemon.do_package;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;settings-daemon.do_package;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;settings-daemon.do_package;---
@@ -14772,6 +15225,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;sudo.do_configure
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;sudo.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;sudo.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;sudo.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;sudo.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;sudo.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;sudo.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;sudo.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;sudo.do_configure;---
@@ -14812,6 +15267,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;sudo.do_confi
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;sudo.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;sudo.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;sudo.do_configure;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;sudo.do_configure;---
 threadripper-3970x-64gb-zeus;4-build-all;sudo.do_configure;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;sudo.do_configure;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;sudo.do_configure;---
@@ -14916,6 +15372,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;webkitgtk.do_comp
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;webkitgtk.do_compile;2752.49
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;webkitgtk.do_compile;673.41
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;webkitgtk.do_compile;3430.64
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;webkitgtk.do_compile;2077.08
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;webkitgtk.do_compile;2141.69
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;webkitgtk.do_compile;1711.32
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;webkitgtk.do_compile;2972.92
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;webkitgtk.do_compile;3459.12
@@ -14956,6 +15414,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;webkitgtk.do_
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;webkitgtk.do_compile;1519.74
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;webkitgtk.do_compile;1964.09
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;webkitgtk.do_compile;628.76
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;webkitgtk.do_compile;948.44
 threadripper-3970x-64gb-zeus;4-build-all;webkitgtk.do_compile;3965.83
 threadripper-3970x-64gb-zeus;6-build-16-bb;webkitgtk.do_compile;4172.06
 threadripper-3970x-64gb-zeus;7-build-2-bb;webkitgtk.do_compile;499.22
@@ -15060,6 +15519,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;webkitgtk.do_inst
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;webkitgtk.do_install;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;webkitgtk.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;webkitgtk.do_install;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;webkitgtk.do_install;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;webkitgtk.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;webkitgtk.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;webkitgtk.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;webkitgtk.do_install;---
@@ -15100,6 +15561,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;webkitgtk.do_
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;webkitgtk.do_install;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;webkitgtk.do_install;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;webkitgtk.do_install;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;webkitgtk.do_install;---
 threadripper-3970x-64gb-zeus;4-build-all;webkitgtk.do_install;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;webkitgtk.do_install;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;webkitgtk.do_install;---
@@ -15204,6 +15666,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;webkitgtk.do_pack
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;webkitgtk.do_package;570.78
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;webkitgtk.do_package;122.33
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;webkitgtk.do_package;398.51
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;webkitgtk.do_package;325.12
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;webkitgtk.do_package;380.50
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;webkitgtk.do_package;398.62
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;webkitgtk.do_package;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;webkitgtk.do_package;393.42
@@ -15244,6 +15708,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;webkitgtk.do_
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;webkitgtk.do_package;381.48
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;webkitgtk.do_package;410.35
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;webkitgtk.do_package;85.67
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;webkitgtk.do_package;---
 threadripper-3970x-64gb-zeus;4-build-all;webkitgtk.do_package;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;webkitgtk.do_package;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;webkitgtk.do_package;148.26
@@ -15348,6 +15813,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;webkitgtk.do_pack
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;webkitgtk.do_package_write_rpm;300.33
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;webkitgtk.do_package_write_rpm;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;webkitgtk.do_package_write_rpm;351.41
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;webkitgtk.do_package_write_rpm;307.46
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;webkitgtk.do_package_write_rpm;303.90
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;webkitgtk.do_package_write_rpm;338.86
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;webkitgtk.do_package_write_rpm;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;webkitgtk.do_package_write_rpm;345.35
@@ -15388,6 +15855,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;webkitgtk.do_
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;webkitgtk.do_package_write_rpm;225.18
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;webkitgtk.do_package_write_rpm;304.00
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;webkitgtk.do_package_write_rpm;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;webkitgtk.do_package_write_rpm;---
 threadripper-3970x-64gb-zeus;4-build-all;webkitgtk.do_package_write_rpm;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;webkitgtk.do_package_write_rpm;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;webkitgtk.do_package_write_rpm;134.42
@@ -15492,6 +15960,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;xf86-video-vmware
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;xf86-video-vmware.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;xf86-video-vmware.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;xf86-video-vmware.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;xf86-video-vmware.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;xf86-video-vmware.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;xf86-video-vmware.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;xf86-video-vmware.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;xf86-video-vmware.do_configure;---
@@ -15532,6 +16002,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;xf86-video-vm
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;xf86-video-vmware.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;xf86-video-vmware.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;xf86-video-vmware.do_configure;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;xf86-video-vmware.do_configure;---
 threadripper-3970x-64gb-zeus;4-build-all;xf86-video-vmware.do_configure;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;xf86-video-vmware.do_configure;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;xf86-video-vmware.do_configure;---
@@ -15636,6 +16107,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;xinit.do_configur
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;xinit.do_configure;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;xinit.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;xinit.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;xinit.do_configure;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;xinit.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;xinit.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;xinit.do_configure;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;xinit.do_configure;---
@@ -15676,6 +16149,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;xinit.do_conf
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;xinit.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;xinit.do_configure;---
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;xinit.do_configure;---
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;xinit.do_configure;---
 threadripper-3970x-64gb-zeus;4-build-all;xinit.do_configure;---
 threadripper-3970x-64gb-zeus;6-build-16-bb;xinit.do_configure;---
 threadripper-3970x-64gb-zeus;7-build-2-bb;xinit.do_configure;---
@@ -15780,6 +16254,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;5-build-8-bb;Total;8504.01
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;6-build-16-bb;Total;7938.04
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;7-build-2-bb;Total;14298.36
 threadripper-3970x-128gb-gentoo-langdale-2022-05;4-build-all;Total;7666.01
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.mdadm.raid0;Total;7628.27
+threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb.rcraid.raid0;Total;7727.52
 threadripper-3970x-128gb-gentoo-langdale-2022-05;5-build-8-bb;Total;7630.52
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb.error;Total;7506.17
 threadripper-3970x-128gb-gentoo-langdale-2022-05;6-build-16-bb;Total;7513.95
@@ -15820,6 +16296,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;4-build-all;Total;7289.55
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;5-build-8-bb;Total;7296.67
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;6-build-16-bb;Total;7045.24
 threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;7-build-2-bb;Total;11847.39
+threadripper-3970x-128gb-ubuntu-22.04-langdale-2022-05;5-build-8-bb.rcraid.raid0.error;Total;6819.53
 threadripper-3970x-64gb-zeus;4-build-all;Total;6018.16
 threadripper-3970x-64gb-zeus;6-build-16-bb;Total;5984.95
 threadripper-3970x-64gb-zeus;7-build-2-bb;Total;10332.07
