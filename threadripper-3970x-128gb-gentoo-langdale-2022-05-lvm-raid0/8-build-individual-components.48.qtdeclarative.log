@@ -1,0 +1,38 @@
+WARNING: Host distribution "gentoo-2.8" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
+Loading cache...done.
+Loaded 3569 entries from dependency cache.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "2.0.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "4.1+snapshot-bd66a18eaa463c2eab291fea68039bf0d61c7b8b"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "master:bd66a18eaa463c2eab291fea68039bf0d61c7b8b"
+meta-python2         = "langdale:f02882e2aa9279ca7becca8d0cedbffe88b5a253"
+meta-chromium        
+meta-firefox         = "langdale:11a6ddf004f1cd3ba9ff4537b7eda548fe56614c"
+meta-oe              = "langdale:1fa8cfed01b3088dc33e0958e83f1162ffc1b91b"
+meta-clang           = "langdale:85d956d95401479ca666139e31f662f60c156d5f"
+meta-qt5             = "langdale:d89d44e021e4f805791c4d8711fd5875674bb3d6"
+
+Initialising tasks...done.
+Sstate summary: Wanted 176 Local 176 Mirrors 0 Missed 0 Current 135 (100% match, 100% complete)
+NOTE: Executing Tasks
+NOTE: Running task 1454 of 1455 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtdeclarative_git.bb:do_configure_ptest_base)
+NOTE: recipe qtdeclarative-5.15.3+gitAUTOINC+32b37e20f7-r0: task do_configure_ptest_base: Started
+NOTE: recipe qtdeclarative-5.15.3+gitAUTOINC+32b37e20f7-r0: task do_configure_ptest_base: Succeeded
+NOTE: Running task 1455 of 1455 (/OE/build/test-oe-build-time/poky/meta-qt5/recipes-qt/qt5/qtdeclarative_git.bb:do_compile)
+NOTE: recipe qtdeclarative-5.15.3+gitAUTOINC+32b37e20f7-r0: task do_compile: Started
+NOTE: recipe qtdeclarative-5.15.3+gitAUTOINC+32b37e20f7-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 1455 tasks of which 1453 didn't need to be rerun and all succeeded.
+
+Summary: There was 1 WARNING message.
+TIME: 130.86 0.07 0.53 0% 140 15733 11297 0 36856 0 bitbake -c compile qtdeclarative
