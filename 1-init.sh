@@ -13,10 +13,7 @@ git checkout -b langdale 6b29b21775558eea1a3ef3007133f08849b61b00
 cd ..
 git clone https://github.com/OSSystems/meta-browser.git
 cd meta-browser
-git checkout -b langdale 726f2e831c62a4fa894fcfd93c283065845c8b18
-# To fix build with rust-1.60 add pending patch from PR
-wget https://github.com/OSSystems/meta-browser/pull/638/commits/c4cc1810020ec2d395a718742bf05dbbc88fbc6d.patch
-git am c4cc1810020ec2d395a718742bf05dbbc88fbc6d.patch
+git checkout -b langdale e232c2e21b96dc092d9af8bea4b3a528e7a46dd6
 cd ..
 git clone https://github.com/openembedded/meta-openembedded.git
 cd meta-openembedded
