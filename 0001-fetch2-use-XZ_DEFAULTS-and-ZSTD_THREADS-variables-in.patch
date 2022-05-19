@@ -1,0 +1,64 @@
+From 998bb06b0386557c3b1cc1a118dadd5b77e2b19c Mon Sep 17 00:00:00 2001
+From: Martin Jansa <Martin.Jansa@gmail.com>
+Date: Thu, 19 May 2022 20:56:39 +0200
+Subject: [PATCH] fetch2: use XZ_DEFAULTS and ZSTD_THREADS variables in
+ do_unpack
+
+* ideally we should support pzstd like sstate.bbclass does, maybe
+  by allowing to define whole ZSTD_CMD variable in bitbake.conf instead
+  of checking pzstd existence every time we unpack
+
+* but I'll leave that to later, now I'm just interested to see if XZ_DEFAULTS
+  makes any difference on build time as there are some big .xz source
+  archives included in my test build:
+  1.4G chromium-101*.tar.xz
+  303M firefox
+  54M+130M rustc
+  120M qemu
+  118M linux
+  79M gcc
+
+Signed-off-by: Martin Jansa <Martin.Jansa@gmail.com>
+---
+ bitbake/lib/bb/fetch2/__init__.py | 12 ++++++++----
+ 1 file changed, 8 insertions(+), 4 deletions(-)
+
+diff --git a/bitbake/lib/bb/fetch2/__init__.py b/bitbake/lib/bb/fetch2/__init__.py
+index ac557176d7..6913d20e1d 100644
+--- a/bitbake/lib/bb/fetch2/__init__.py
++++ b/bitbake/lib/bb/fetch2/__init__.py
+@@ -1474,6 +1474,10 @@ class FetchMethod(object):
+         cmd = None
+ 
+         if unpack:
++            xz_cmd = 'xz -dc %s' % data.getVar('XZ_DEFAULTS')
++            zstd_cmd = 'zstd --decompress --stdout -T%s' % (data.getVar('ZSTD_THREADS') or '2')
++            # sstate.bbclass will use pzstd if available
++            # pzstd_cmd = 'pstd --decompress --stdout -p %s' % (data.getVar('ZSTD_THREADS') or '2')
+             tar_cmd = 'tar --extract --no-same-owner'
+             if 'striplevel' in urldata.parm:
+                 tar_cmd += ' --strip-components=%s' %  urldata.parm['striplevel']
+@@ -1488,9 +1492,9 @@ class FetchMethod(object):
+             elif file.endswith('.bz2'):
+                 cmd = 'bzip2 -dc %s > %s' % (file, efile)
+             elif file.endswith('.txz') or file.endswith('.tar.xz'):
+-                cmd = 'xz -dc %s | %s -f -' % (file, tar_cmd)
++                cmd = '%s %s | %s -f -' % (xz_cmd, file, tar_cmd)
+             elif file.endswith('.xz'):
+-                cmd = 'xz -dc %s > %s' % (file, efile)
++                cmd = '%s %s > %s' % (xz_cmd, file, efile)
+             elif file.endswith('.tar.lz'):
+                 cmd = 'lzip -dc %s | %s -f -' % (file, tar_cmd)
+             elif file.endswith('.lz'):
+@@ -1500,9 +1504,9 @@ class FetchMethod(object):
+             elif file.endswith('.7z'):
+                 cmd = '7za x -y %s 1>/dev/null' % file
+             elif file.endswith('.tzst') or file.endswith('.tar.zst'):
+-                cmd = 'zstd --decompress --stdout %s | %s -f -' % (file, tar_cmd)
++                cmd = '%s %s | %s -f -' % (zstd_cmd, file, tar_cmd)
+             elif file.endswith('.zst'):
+-                cmd = 'zstd --decompress --stdout %s > %s' % (file, efile)
++                cmd = '%s %s > %s' % (zstd_cmd, file, efile)
+             elif file.endswith('.zip') or file.endswith('.jar'):
+                 try:
+                     dos = bb.utils.to_boolean(urldata.parm.get('dos'), False)
