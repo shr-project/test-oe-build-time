@@ -9,7 +9,7 @@ cd poky
 git checkout -b langdale bd66a18eaa463c2eab291fea68039bf0d61c7b8b
 git clone https://github.com/meta-qt5/meta-qt5.git
 cd meta-qt5
-git checkout -b langdale 6b29b21775558eea1a3ef3007133f08849b61b00
+git checkout -b langdale 283dd73e3cda0161970d5fb5f0b757f7b32bcf63
 cd ..
 git clone https://github.com/OSSystems/meta-browser.git
 cd meta-browser
