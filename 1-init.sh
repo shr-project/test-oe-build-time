@@ -10,6 +10,9 @@ git checkout -b kirkstone 8a4c53ee762c1ee02ba282d265e12e733c81ce82
 # to fix libsdl2-native build on gentoo with libunwind installed
 git cherry-pick 0d6b4a93e58f72e17fe0839d3f337efafded1277
 git clone https://github.com/meta-qt5/meta-qt5.git
+# fix spirv-tools change branch
+wget -O df6d96cc5e376c15a7c3416f3aaf306db3c15f42.patch http://cgit.openembedded.org/openembedded-core/patch/meta/recipes-graphics/spir/spirv-tools_1.3.204.1.bb?id=df6d96cc5e376c15a7c3416f3aaf306db3c15f42
+git am df6d96cc5e376c15a7c3416f3aaf306db3c15f42.patch
 cd meta-qt5
 git checkout -b kirkstone 4837db1d965c51e4a2c5971e6a126c896e5b401a
 cd ..
