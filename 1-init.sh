@@ -6,22 +6,22 @@
 
 git clone git://git.yoctoproject.org/poky
 cd poky
-git checkout -b langdale bd66a18eaa463c2eab291fea68039bf0d61c7b8b
+git checkout -b langdale b9223d27bdebd1356b3ece4c8735f561c947d47d
 git clone https://github.com/meta-qt5/meta-qt5.git
 cd meta-qt5
-git checkout -b langdale 283dd73e3cda0161970d5fb5f0b757f7b32bcf63
+git checkout -b langdale d466c12ed432f6d811dac6a80528a637ef5c658d
 cd ..
 git clone https://github.com/OSSystems/meta-browser.git
 cd meta-browser
-git checkout -b langdale e232c2e21b96dc092d9af8bea4b3a528e7a46dd6
+git checkout -b langdale 1f3ccca5678d7cbb221645227ec403aa767c16dd
 cd ..
 git clone https://github.com/openembedded/meta-openembedded.git
 cd meta-openembedded
-git checkout -b langdale 1fa8cfed01b3088dc33e0958e83f1162ffc1b91b
+git checkout -b langdale 2eb39477a784673baefa59640909b827ebb689b2
 cd ..
 git clone https://github.com/kraj/meta-clang.git
 cd meta-clang
-git checkout -b langdale 85d956d95401479ca666139e31f662f60c156d5f
+git checkout -b langdale da301d7c6627a5a1ee541a646aba22dc993109d9
 cd ..
 git clone git://git.openembedded.org/meta-python2
 cd meta-python2
