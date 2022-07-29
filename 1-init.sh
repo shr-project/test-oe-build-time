@@ -6,11 +6,11 @@
 
 git clone git://git.yoctoproject.org/poky
 cd poky
-git checkout -b dunfell d20ef1f5a5de7820b3e9b7f539b51f94954e9cd5
+git checkout -b dunfell d695bd0d3dc66f2111a25c6922f617be2d991071
 
 git clone https://github.com/meta-qt5/meta-qt5.git
 cd meta-qt5
-git checkout -b dunfell b4d24d70aca75791902df5cd59a4f4a54aa4a125
+git checkout -b dunfell 5ef3a0ffd3324937252790266e2b2e64d33ef34f
 cd ..
 git clone https://github.com/OSSystems/meta-browser.git
 cd meta-browser
@@ -18,11 +18,11 @@ git checkout -b dunfell 5e58ff65facc27a3054a4d3f97d3329342d49afa
 cd ..
 git clone https://github.com/openembedded/meta-openembedded.git
 cd meta-openembedded
-git checkout -b dunfell 346681e7bf9c78008a845fc89031be4fd4ceb3a1
+git checkout -b dunfell 52cee67833d1975a5bd52e4556c4cd312425a017
 cd ..
 git clone https://github.com/kraj/meta-clang.git
 cd meta-clang
-git checkout -b dunfell e63d6f9abba5348e2183089d6ef5ea384d7ae8d8
+git checkout -b dunfell 3bb001d3f364bbf6588fed04b9ee2c7e74a0beba
 cd ..
 git clone https://github.com/meta-rust/meta-rust.git
 cd meta-rust
@@ -33,7 +33,7 @@ git am ../../0001-rust-llvm-1.37.0-fix-build-with-gcc-10.patch
 cd ..
 git clone git://git.openembedded.org/meta-python2
 cd meta-python2
-git checkout -b dunfell ed4876c1a2f0808073fa7dfb32ef1ccb907ad5de
+git checkout -b dunfell b901080cf57d9a7f5476ab4d96e56c30db8170a8
 cd ..
 
 . ./oe-init-build-env

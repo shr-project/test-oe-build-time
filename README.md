@@ -3,7 +3,11 @@
 Tests build time on non-trivial OE build.
 
 Uses hardcoded git revisions of each layer, to make it reproducible.
-The baseline is latest revision in Yocto 3.1 Dunfell as of 2021-03-15.
+The original baseline used by most of the results is latest revision
+in Yocto 3.1 Dunfell as of 2021-03-15, but there were multiple upgrades
+and separate branches for newer Yocto releases to compare against this
+baseline (and also to allow building on newer host distribution without
+too many patches applied on top of these revisions from 2021-03-15)
 
 === Scripts ===
 
