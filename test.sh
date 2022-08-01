@@ -32,6 +32,7 @@ for BUILD in 2-build-test 3-fetch 4-build-all-cores 5-build-8-bb-threads 6-build
   echo "${BUILD} stop:  `date`"    | tee -a ${OUT}/${BUILD}.log
   echo "${BUILD} stop:  `date`"    | tee -a ${OUT}/start-stop.log
   grep -R "Elapsed time" poky/build/tmp/buildstats | sed 's/^.*\/\([^\/]*\/[^\/]*\):Elapsed time: \(.*\)$/\2 \1/g' | sort -n | tail -n 20 | tee ${OUT}/${BUILD}.top20
+  mv poky/build/tmp/buildstats ${OUT}/buildstats-${BUILD}
 done
 
 tail -n 5 *.log
