@@ -7,6 +7,9 @@
 git clone git://git.yoctoproject.org/poky
 cd poky
 git checkout -b kirkstone e4b5c35fd430e1aec8218b4ae4ab51b2b919eec6
+# add /proc/pressure collection in buildstats
+git cherry-pick ac162116b3 45f1e9d953 4678581ea0 6958024ed2 48a6d84de1
+
 git clone https://github.com/meta-qt5/meta-qt5.git
 cd meta-qt5
 git checkout -b kirkstone 5b71df60e523423b9df6793de9387f87a149ac42
