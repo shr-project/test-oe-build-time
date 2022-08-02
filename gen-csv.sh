@@ -6,9 +6,9 @@ for i in */[123]*log; do
     builder=`dirname $i`
     task=`basename $i | sed 's/\.log//g'`
     # 37.60user 4.64system 2:52:19elapsed 0%CPU (0avgtext+0avgdata 28724maxresident)k
-    u=`tail -n 2 $i | grep "user " | sed 's/user /;/g; s/system /;/g; s/elapsed /;/g; s/%CPU (/;/g; s/avgtext+/;/g; s/avgdata /;/g; s/maxresident)k//g'`
+    u=`tail -n 5 $i | grep "user " | sed 's/user /;/g; s/system /;/g; s/elapsed /;/g; s/%CPU (/;/g; s/avgtext+/;/g; s/avgdata /;/g; s/maxresident)k//g'`
     # 52784inputs+6432outputs (1771major+17635minor)pagefaults 0swaps
-    s=`tail -n 1 $i | grep "swaps$" | sed 's/inputs+/;/g; s/outputs (/;/g; s/major+/;/g; s/minor)pagefaults /;/g; s/swaps//g'`
+    s=`tail -n 5 $i | grep "swaps$" | sed 's/inputs+/;/g; s/outputs (/;/g; s/major+/;/g; s/minor)pagefaults /;/g; s/swaps//g'`
     # threadripper-3970x-64gb::37.60;4.64;2:52:19;0;0;0;28724:52784;6432;1771;17635;0
     echo "$builder;$task;$u;$s"
 done | tee -a results.sheet02.time.init.csv
@@ -20,9 +20,9 @@ for i in */[4567]*log; do
     bb=`basename $i | sed 's/?-build-//g; s/-bb-threads.log//g; s/all-cores.log/all/g'`
 
     # 37.60user 4.64system 2:52:19elapsed 0%CPU (0avgtext+0avgdata 28724maxresident)k
-    u=`tail -n 2 $i | grep "user " | sed 's/user /;/g; s/system /;/g; s/elapsed /;/g; s/%CPU (/;/g; s/avgtext+/;/g; s/avgdata /;/g; s/maxresident)k//g'`
+    u=`tail -n 5 $i | grep "user " | sed 's/user /;/g; s/system /;/g; s/elapsed /;/g; s/%CPU (/;/g; s/avgtext+/;/g; s/avgdata /;/g; s/maxresident)k//g'`
     # 52784inputs+6432outputs (1771major+17635minor)pagefaults 0swaps
-    s=`tail -n 1 $i | grep "swaps$" | sed 's/inputs+/;/g; s/outputs (/;/g; s/major+/;/g; s/minor)pagefaults /;/g; s/swaps//g'`
+    s=`tail -n 5 $i | grep "swaps$" | sed 's/inputs+/;/g; s/outputs (/;/g; s/major+/;/g; s/minor)pagefaults /;/g; s/swaps//g'`
     # threadripper-3970x-64gb::37.60;4.64;2:52:19;0;0;0;28724:52784;6432;1771;17635;0
     echo "$builder;$bb;$u;$s"
 done | tee -a results.sheet03.time.build.csv

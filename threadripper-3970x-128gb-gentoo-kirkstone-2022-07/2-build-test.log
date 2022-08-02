@@ -1,0 +1,223 @@
+2-build-test start: Sun Jul 31 23:09:14 CEST 2022
+
+### Shell environment set up for builds. ###
+
+You can now run 'bitbake <target>'
+
+Common targets are:
+    core-image-minimal
+    core-image-full-cmdline
+    core-image-sato
+    core-image-weston
+    meta-toolchain
+    meta-ide-support
+
+You can also run generated qemu images with a command like 'runqemu qemux86'
+
+Other commonly useful commands are:
+ - 'devtool' and 'recipetool' handle common recipe tasks
+ - 'bitbake-layers' handles common layer tasks
+ - 'oe-pkgdata-util' handles common target package tasks
+/OE/build/test-oe-build-time/poky/bitbake/lib/bb/cooker.py:16: DeprecationWarning: module 'sre_constants' is deprecated
+  import sre_constants
+WARNING: Host distribution "gentoo-2.8" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
+Loading cache...done.
+Loaded 0 entries from dependency cache.
+Parsing recipes...done.
+Parsing of 2246 .bb files complete (0 cached, 2246 parsed). 3565 targets, 385 skipped, 0 masked, 0 errors.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "2.0.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "gentoo-2.8"
+TARGET_SYS           = "x86_64-poky-linux"
+MACHINE              = "qemux86-64"
+DISTRO               = "poky"
+DISTRO_VERSION       = "4.0.2"
+TUNE_FEATURES        = "m64 core2"
+TARGET_FPU           = ""
+meta                 
+meta-poky            
+meta-yocto-bsp       = "kirkstone:a4bb96df76127b5ba939728aa8b8392775dc3c5a"
+meta-python2         = "kirkstone:f02882e2aa9279ca7becca8d0cedbffe88b5a253"
+meta-chromium        
+meta-firefox         = "kirkstone:1f3ccca5678d7cbb221645227ec403aa767c16dd"
+meta-oe              = "kirkstone:a47ef046619d639dfbd3be2a13ef6d5b40fd40a1"
+meta-clang           = "kirkstone:d669d873edf68dc7440bb07096737203bb7ec505"
+meta-qt5             = "kirkstone:5b71df60e523423b9df6793de9387f87a149ac42"
+
+Initialising tasks...done.
+Sstate summary: Wanted 15 Local 0 Mirrors 0 Missed 15 Current 0 (0% match, 0% complete)
+NOTE: Executing Tasks
+NOTE: Running task 1 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.67.bb:do_fetch)
+NOTE: Running task 2 of 57 (virtual:native:/OE/build/test-oe-build-time/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb:do_fetch)
+NOTE: Running task 3 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb:do_fetch)
+NOTE: Running task 4 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-core/gettext/gettext-minimal-native_0.21.bb:do_fetch)
+NOTE: Running task 5 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.19.bb:do_fetch)
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_fetch: Started
+NOTE: recipe gettext-minimal-native-0.21-r0: task do_fetch: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_fetch: Succeeded
+NOTE: recipe gettext-minimal-native-0.21-r0: task do_fetch: Succeeded
+NOTE: Running task 6 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb:do_prepare_recipe_sysroot)
+NOTE: Running task 7 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb:do_unpack)
+NOTE: recipe quilt-native-0.67-r0: task do_fetch: Started
+NOTE: recipe m4-native-1.4.19-r0: task do_fetch: Started
+NOTE: Running task 8 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-core/gettext/gettext-minimal-native_0.21.bb:do_prepare_recipe_sysroot)
+NOTE: Running task 9 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-core/gettext/gettext-minimal-native_0.21.bb:do_unpack)
+NOTE: recipe m4-native-1.4.19-r0: task do_fetch: Succeeded
+NOTE: recipe quilt-native-0.67-r0: task do_fetch: Succeeded
+NOTE: Running task 10 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.19.bb:do_unpack)
+NOTE: Running task 11 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.67.bb:do_prepare_recipe_sysroot)
+NOTE: recipe gnu-config-native-20211108+gitAUTOINC+191bcb948f-r0: task do_fetch: Started
+NOTE: Running task 12 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.67.bb:do_unpack)
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_prepare_recipe_sysroot: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_unpack: Started
+NOTE: recipe gettext-minimal-native-0.21-r0: task do_prepare_recipe_sysroot: Started
+NOTE: recipe gettext-minimal-native-0.21-r0: task do_unpack: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_prepare_recipe_sysroot: Succeeded
+NOTE: recipe gnu-config-native-20211108+gitAUTOINC+191bcb948f-r0: task do_fetch: Succeeded
+NOTE: recipe gettext-minimal-native-0.21-r0: task do_prepare_recipe_sysroot: Succeeded
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_unpack: Succeeded
+NOTE: Running task 13 of 57 (virtual:native:/OE/build/test-oe-build-time/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb:do_prepare_recipe_sysroot)
+NOTE: Running task 14 of 57 (virtual:native:/OE/build/test-oe-build-time/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb:do_unpack)
+NOTE: recipe quilt-native-0.67-r0: task do_prepare_recipe_sysroot: Started
+NOTE: recipe m4-native-1.4.19-r0: task do_unpack: Started
+NOTE: recipe quilt-native-0.67-r0: task do_unpack: Started
+NOTE: recipe gettext-minimal-native-0.21-r0: task do_unpack: Succeeded
+NOTE: recipe quilt-native-0.67-r0: task do_prepare_recipe_sysroot: Succeeded
+NOTE: recipe quilt-native-0.67-r0: task do_unpack: Succeeded
+NOTE: Running task 15 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.67.bb:do_patch)
+NOTE: recipe m4-native-1.4.19-r0: task do_unpack: Succeeded
+NOTE: recipe gnu-config-native-20211108+gitAUTOINC+191bcb948f-r0: task do_prepare_recipe_sysroot: Started
+NOTE: recipe gnu-config-native-20211108+gitAUTOINC+191bcb948f-r0: task do_unpack: Started
+NOTE: recipe gnu-config-native-20211108+gitAUTOINC+191bcb948f-r0: task do_prepare_recipe_sysroot: Succeeded
+NOTE: recipe quilt-native-0.67-r0: task do_patch: Started
+NOTE: recipe quilt-native-0.67-r0: task do_patch: Succeeded
+NOTE: Running task 16 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.67.bb:do_populate_lic)
+NOTE: Running task 17 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.67.bb:do_deploy_source_date_epoch)
+NOTE: recipe quilt-native-0.67-r0: task do_populate_lic: Started
+NOTE: recipe quilt-native-0.67-r0: task do_deploy_source_date_epoch: Started
+NOTE: recipe gnu-config-native-20211108+gitAUTOINC+191bcb948f-r0: task do_unpack: Succeeded
+NOTE: recipe quilt-native-0.67-r0: task do_populate_lic: Succeeded
+NOTE: recipe quilt-native-0.67-r0: task do_deploy_source_date_epoch: Succeeded
+NOTE: Running task 18 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.67.bb:do_configure)
+NOTE: recipe quilt-native-0.67-r0: task do_configure: Started
+NOTE: recipe quilt-native-0.67-r0: task do_configure: Succeeded
+NOTE: Running task 19 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.67.bb:do_compile)
+NOTE: recipe quilt-native-0.67-r0: task do_compile: Started
+NOTE: recipe quilt-native-0.67-r0: task do_compile: Succeeded
+NOTE: Running task 20 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.67.bb:do_install)
+NOTE: recipe quilt-native-0.67-r0: task do_install: Started
+NOTE: recipe quilt-native-0.67-r0: task do_install: Succeeded
+NOTE: Running task 21 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.67.bb:do_populate_sysroot)
+NOTE: recipe quilt-native-0.67-r0: task do_populate_sysroot: Started
+NOTE: recipe quilt-native-0.67-r0: task do_populate_sysroot: Succeeded
+NOTE: Running task 22 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.67.bb:do_rm_work)
+NOTE: Running task 23 of 57 (virtual:native:/OE/build/test-oe-build-time/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb:do_patch)
+NOTE: Running task 24 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb:do_patch)
+NOTE: Running task 25 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-core/gettext/gettext-minimal-native_0.21.bb:do_patch)
+NOTE: Running task 26 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.19.bb:do_patch)
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_patch: Started
+NOTE: recipe gettext-minimal-native-0.21-r0: task do_patch: Started
+NOTE: recipe quilt-native-0.67-r0: task do_rm_work: Started
+NOTE: recipe m4-native-1.4.19-r0: task do_patch: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_patch: Succeeded
+NOTE: recipe gettext-minimal-native-0.21-r0: task do_patch: Succeeded
+NOTE: Running task 27 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb:do_populate_lic)
+NOTE: Running task 28 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-core/gettext/gettext-minimal-native_0.21.bb:do_populate_lic)
+NOTE: Running task 29 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb:do_deploy_source_date_epoch)
+NOTE: Running task 30 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-core/gettext/gettext-minimal-native_0.21.bb:do_deploy_source_date_epoch)
+NOTE: recipe gnu-config-native-20211108+gitAUTOINC+191bcb948f-r0: task do_patch: Started
+NOTE: recipe gnu-config-native-20211108+gitAUTOINC+191bcb948f-r0: task do_patch: Succeeded
+NOTE: Running task 31 of 57 (virtual:native:/OE/build/test-oe-build-time/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb:do_populate_lic)
+NOTE: Running task 32 of 57 (virtual:native:/OE/build/test-oe-build-time/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb:do_deploy_source_date_epoch)
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_populate_lic: Started
+NOTE: recipe gettext-minimal-native-0.21-r0: task do_populate_lic: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_deploy_source_date_epoch: Started
+NOTE: recipe gettext-minimal-native-0.21-r0: task do_deploy_source_date_epoch: Started
+NOTE: recipe quilt-native-0.67-r0: task do_rm_work: Succeeded
+NOTE: recipe m4-native-1.4.19-r0: task do_patch: Succeeded
+NOTE: Running task 33 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.19.bb:do_populate_lic)
+NOTE: Running task 34 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.19.bb:do_deploy_source_date_epoch)
+NOTE: recipe gnu-config-native-20211108+gitAUTOINC+191bcb948f-r0: task do_deploy_source_date_epoch: Started
+NOTE: recipe gnu-config-native-20211108+gitAUTOINC+191bcb948f-r0: task do_populate_lic: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_populate_lic: Succeeded
+NOTE: recipe gettext-minimal-native-0.21-r0: task do_populate_lic: Succeeded
+NOTE: recipe m4-native-1.4.19-r0: task do_populate_lic: Started
+NOTE: recipe m4-native-1.4.19-r0: task do_deploy_source_date_epoch: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_deploy_source_date_epoch: Succeeded
+NOTE: recipe gettext-minimal-native-0.21-r0: task do_deploy_source_date_epoch: Succeeded
+NOTE: Running task 35 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb:do_configure)
+NOTE: Running task 36 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-core/gettext/gettext-minimal-native_0.21.bb:do_configure)
+NOTE: recipe gnu-config-native-20211108+gitAUTOINC+191bcb948f-r0: task do_populate_lic: Succeeded
+NOTE: recipe m4-native-1.4.19-r0: task do_populate_lic: Succeeded
+NOTE: recipe gettext-minimal-native-0.21-r0: task do_configure: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_configure: Started
+NOTE: recipe gnu-config-native-20211108+gitAUTOINC+191bcb948f-r0: task do_deploy_source_date_epoch: Succeeded
+NOTE: Running task 37 of 57 (virtual:native:/OE/build/test-oe-build-time/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb:do_configure)
+NOTE: recipe m4-native-1.4.19-r0: task do_deploy_source_date_epoch: Succeeded
+NOTE: recipe gettext-minimal-native-0.21-r0: task do_configure: Succeeded
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_configure: Succeeded
+NOTE: Running task 38 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb:do_compile)
+NOTE: Running task 39 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-core/gettext/gettext-minimal-native_0.21.bb:do_compile)
+NOTE: recipe gnu-config-native-20211108+gitAUTOINC+191bcb948f-r0: task do_configure: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_compile: Started
+NOTE: recipe gettext-minimal-native-0.21-r0: task do_compile: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_compile: Succeeded
+NOTE: recipe gettext-minimal-native-0.21-r0: task do_compile: Succeeded
+NOTE: Running task 40 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb:do_install)
+NOTE: Running task 41 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-core/gettext/gettext-minimal-native_0.21.bb:do_install)
+NOTE: recipe gnu-config-native-20211108+gitAUTOINC+191bcb948f-r0: task do_configure: Succeeded
+NOTE: Running noexec task 42 of 57 (virtual:native:/OE/build/test-oe-build-time/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb:do_compile)
+NOTE: Running task 43 of 57 (virtual:native:/OE/build/test-oe-build-time/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb:do_install)
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_install: Started
+NOTE: recipe gettext-minimal-native-0.21-r0: task do_install: Started
+NOTE: recipe gnu-config-native-20211108+gitAUTOINC+191bcb948f-r0: task do_install: Started
+NOTE: recipe gettext-minimal-native-0.21-r0: task do_install: Succeeded
+NOTE: Running task 44 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-core/gettext/gettext-minimal-native_0.21.bb:do_populate_sysroot)
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_install: Succeeded
+NOTE: Running task 45 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb:do_populate_sysroot)
+NOTE: recipe gnu-config-native-20211108+gitAUTOINC+191bcb948f-r0: task do_install: Succeeded
+NOTE: Running task 46 of 57 (virtual:native:/OE/build/test-oe-build-time/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb:do_populate_sysroot)
+NOTE: recipe gettext-minimal-native-0.21-r0: task do_populate_sysroot: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_populate_sysroot: Started
+NOTE: recipe gnu-config-native-20211108+gitAUTOINC+191bcb948f-r0: task do_populate_sysroot: Started
+NOTE: recipe gettext-minimal-native-0.21-r0: task do_populate_sysroot: Succeeded
+NOTE: Running task 47 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-core/gettext/gettext-minimal-native_0.21.bb:do_rm_work)
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_populate_sysroot: Succeeded
+NOTE: Running task 48 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb:do_rm_work)
+NOTE: recipe gettext-minimal-native-0.21-r0: task do_rm_work: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_rm_work: Started
+NOTE: recipe gnu-config-native-20211108+gitAUTOINC+191bcb948f-r0: task do_populate_sysroot: Succeeded
+NOTE: Running task 49 of 57 (virtual:native:/OE/build/test-oe-build-time/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb:do_rm_work)
+NOTE: Running task 50 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.19.bb:do_prepare_recipe_sysroot)
+NOTE: recipe gettext-minimal-native-0.21-r0: task do_rm_work: Succeeded
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_rm_work: Succeeded
+NOTE: recipe m4-native-1.4.19-r0: task do_prepare_recipe_sysroot: Started
+NOTE: recipe m4-native-1.4.19-r0: task do_prepare_recipe_sysroot: Succeeded
+NOTE: recipe gnu-config-native-20211108+gitAUTOINC+191bcb948f-r0: task do_rm_work: Started
+NOTE: Running task 51 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.19.bb:do_configure)
+NOTE: recipe m4-native-1.4.19-r0: task do_configure: Started
+NOTE: recipe gnu-config-native-20211108+gitAUTOINC+191bcb948f-r0: task do_rm_work: Succeeded
+NOTE: recipe m4-native-1.4.19-r0: task do_configure: Succeeded
+NOTE: Running task 52 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.19.bb:do_compile)
+NOTE: recipe m4-native-1.4.19-r0: task do_compile: Started
+NOTE: recipe m4-native-1.4.19-r0: task do_compile: Succeeded
+NOTE: Running task 53 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.19.bb:do_install)
+NOTE: recipe m4-native-1.4.19-r0: task do_install: Started
+NOTE: recipe m4-native-1.4.19-r0: task do_install: Succeeded
+NOTE: Running task 54 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.19.bb:do_populate_sysroot)
+NOTE: recipe m4-native-1.4.19-r0: task do_populate_sysroot: Started
+NOTE: recipe m4-native-1.4.19-r0: task do_populate_sysroot: Succeeded
+NOTE: Running task 55 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.19.bb:do_rm_work)
+NOTE: recipe m4-native-1.4.19-r0: task do_rm_work: Started
+NOTE: recipe m4-native-1.4.19-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 56 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.19.bb:do_rm_work_all)
+NOTE: Running noexec task 57 of 57 (/OE/build/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.19.bb:do_build)
+NOTE: Tasks Summary: Attempted 57 tasks of which 0 didn't need to be rerun and all succeeded.
+
+Summary: There was 1 WARNING message.
+1.31user 0.06system 0:54.88elapsed 2%CPU (0avgtext+0avgdata 52500maxresident)k
+5936inputs+5736outputs (15major+22956minor)pagefaults 0swaps
+2-build-test stop: Sun Jul 31 23:10:09 CEST 2022
