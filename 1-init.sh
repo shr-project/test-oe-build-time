@@ -29,7 +29,7 @@ cd meta-rust
 git checkout -b dunfell 53c9aabda3bb3813cd86002cbabb112d0989a4b2
 # rust-llvm-native
 # there is no matching fix for 1.37.0 in meta-rust and we would need to upgrade into 1.43.0
-git am ../../0001-rust-llvm-1.37.0-fix-build-with-gcc-10.patch
+git am ../../0001-rust-llvm-1.37.0-fix-build-with-gcc-10-gcc-12-and-un.patch
 cd ..
 git clone git://git.openembedded.org/meta-python2
 cd meta-python2

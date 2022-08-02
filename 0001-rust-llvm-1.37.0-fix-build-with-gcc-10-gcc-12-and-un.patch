@@ -1,0 +1,186 @@
+From 99cd70aa66af9d3d230de5aee01f6d97059bc0e7 Mon Sep 17 00:00:00 2001
+From: Martin Jansa <Martin.Jansa@gmail.com>
+Date: Sat, 13 Mar 2021 18:36:16 +0100
+Subject: [PATCH] rust-llvm-1.37.0: fix build with gcc-10, gcc-12 and undo
+ incompatible changes from meta-rust
+
+* drop RISCV from rust-llvm as it's only experimental in this version
+
+* drop changelog-seen from rust.inc as it was added with 1.49.0 version, but is not supported in 1.37.0
+    Finished dev [unoptimized] target(s) in 25.17s
+running: /OE/build/test-oe-build-time/poky/build/tmp/work/x86_64-linux/rust-native/1.37.0-r0/rustc-1.37.0-src/build/bootstrap/debug/bootstrap -j 64 build --verbose
+failed to parse TOML configuration 'config.toml': unknown field `changelog-seen`, expected one of `build`, `install`, `llvm`, `rust`, `target`, `dist`
+Traceback (most recent call last):
+  File "/OE/build/test-oe-build-time/poky/build/tmp/work/x86_64-linux/rust-native/1.37.0-r0/rustc-1.37.0-src/src/bootstrap/bootstrap.py", line 864, in <module>
+    main()
+  File "/OE/build/test-oe-build-time/poky/build/tmp/work/x86_64-linux/rust-native/1.37.0-r0/rustc-1.37.0-src/src/bootstrap/bootstrap.py", line 847, in main
+    bootstrap(help_triggered)
+  File "/OE/build/test-oe-build-time/poky/build/tmp/work/x86_64-linux/rust-native/1.37.0-r0/rustc-1.37.0-src/src/bootstrap/bootstrap.py", line 833, in bootstrap
+    run(args, env=env, verbose=build.verbose)
+  File "/OE/build/test-oe-build-time/poky/build/tmp/work/x86_64-linux/rust-native/1.37.0-r0/rustc-1.37.0-src/src/bootstrap/bootstrap.py", line 141, in run
+    raise RuntimeError(err)
+RuntimeError: failed to run: /OE/build/test-oe-build-time/poky/build/tmp/work/x86_64-linux/rust-native/1.37.0-r0/rustc-1.37.0-src/build/bootstrap/debug/bootstrap -j 64 build --verbose
+
+* similarly drop embed-bitcode as it's also not compatible with 1.37.0
+  | Caused by:
+  |   process didn't exit successfully: `rustc - --crate-name ___ --print=file-names -L /OE/build/test-oe-build-time/poky/build/tmp/work/core2-64-poky-linux/libstd-rs/1.37.0-r0/recipe-sysroot/usr/lib/rust --remap-path-prefix=/OE/build/test-oe-build-time/poky/build/tmp/work/core2-64-poky-linux/libstd-rs/1.37.0-r0=/usr/src/debug/libstd-rs/1.37.0-r0 -Cembed-bitcode=yes -L /OE/build/test-oe-build-time/poky/build/tmp/work/core2-64-poky-linux/libstd-rs/1.37.0-r0/recipe-sysroot/usr/lib -C link-arg=-Wl,-soname,libstd.so --target x86_64-poky-linux --crate-type bin --crate-type rlib --crate-type dylib --crate-type cdylib --crate-type staticlib --crate-type proc-macro` (exit code: 1)
+  | --- stderr
+  | error: unknown codegen option: `embed-bitcode`
+
+Signed-off-by: Martin Jansa <Martin.Jansa@gmail.com>
+---
+ recipes-devtools/rust/libstd-rs.inc           |  2 -
+ .../0001-Fix-build-with-gcc-10.patch          | 42 ++++++++++++++++
+ .../0002-Fix-build-with-gcc-12.patch          | 49 +++++++++++++++++++
+ recipes-devtools/rust/rust-llvm_1.37.0.bb     | 11 +++++
+ recipes-devtools/rust/rust.inc                |  1 -
+ 5 files changed, 102 insertions(+), 3 deletions(-)
+ create mode 100644 recipes-devtools/rust/rust-llvm/0001-Fix-build-with-gcc-10.patch
+ create mode 100644 recipes-devtools/rust/rust-llvm/0002-Fix-build-with-gcc-12.patch
+
+diff --git a/recipes-devtools/rust/libstd-rs.inc b/recipes-devtools/rust/libstd-rs.inc
+index 1bf2dab..071ebaa 100644
+--- a/recipes-devtools/rust/libstd-rs.inc
++++ b/recipes-devtools/rust/libstd-rs.inc
+@@ -12,8 +12,6 @@ DEPENDS_append_libc-musl = " libunwind"
+ DEPENDS_remove_riscv32 = "libunwind"
+ DEPENDS_remove_riscv64 = "libunwind"
+ 
+-# Embed bitcode in order to allow compiling both with and without LTO
+-RUSTFLAGS += "-Cembed-bitcode=yes"
+ # Needed so cargo can find libbacktrace
+ RUSTFLAGS += "-L ${STAGING_LIBDIR} -C link-arg=-Wl,-soname,libstd.so"
+ 
+diff --git a/recipes-devtools/rust/rust-llvm/0001-Fix-build-with-gcc-10.patch b/recipes-devtools/rust/rust-llvm/0001-Fix-build-with-gcc-10.patch
+new file mode 100644
+index 0000000..3cac677
+--- /dev/null
++++ b/recipes-devtools/rust/rust-llvm/0001-Fix-build-with-gcc-10.patch
+@@ -0,0 +1,42 @@
++From d149a7564646879ac837b299afe9a29b96df32d8 Mon Sep 17 00:00:00 2001
++From: Than McIntosh <thanm@google.com>
++Date: Fri, 19 Jul 2019 13:13:54 +0000
++Subject: [PATCH] Fix build with gcc-10
++
++Merging r366572:
++
++------------------------------------------------------------------------
++r366572 | thanm | 2019-07-19 06:13:54 -0700 (Fri, 19 Jul 2019) | 12 lines
++
++[NFC] include cstdint/string prior to using uint8_t/string
++
++Summary: include proper header prior to use of uint8_t typedef
++and std::string.
++
++Subscribers: llvm-commits
++
++Reviewers: cherry
++
++Tags: #llvm
++
++Differential Revision: https://reviews.llvm.org/D64937
++------------------------------------------------------------------------
++
++Signed-off-by: Martin Jansa <Martin.Jansa@gmail.com>
++---
++ include/llvm/Demangle/MicrosoftDemangleNodes.h | 2 ++
++ 1 file changed, 2 insertions(+)
++
++diff --git a/include/llvm/Demangle/MicrosoftDemangleNodes.h b/include/llvm/Demangle/MicrosoftDemangleNodes.h
++index 9e3478e..efd5533 100644
++--- a/include/llvm/Demangle/MicrosoftDemangleNodes.h
+++++ b/include/llvm/Demangle/MicrosoftDemangleNodes.h
++@@ -4,6 +4,8 @@
++ #include "llvm/Demangle/Compiler.h"
++ #include "llvm/Demangle/StringView.h"
++ #include <array>
+++#include <cstdint>
+++#include <string>
++ 
++ class OutputStream;
++ 
+diff --git a/recipes-devtools/rust/rust-llvm/0002-Fix-build-with-gcc-12.patch b/recipes-devtools/rust/rust-llvm/0002-Fix-build-with-gcc-12.patch
+new file mode 100644
+index 0000000..2c6ade3
+--- /dev/null
++++ b/recipes-devtools/rust/rust-llvm/0002-Fix-build-with-gcc-12.patch
+@@ -0,0 +1,49 @@
++From 2f4573b931721d440a68893e64913bd1eb55d468 Mon Sep 17 00:00:00 2001
++From: Martin Jansa <Martin.Jansa@gmail.com>
++Date: Tue, 2 Aug 2022 08:58:13 +0200
++Subject: [PATCH] Fix build with gcc-12
++MIME-Version: 1.0
++Content-Type: text/plain; charset=UTF-8
++Content-Transfer-Encoding: 8bit
++
++* fixes:
++FAILED: utils/benchmark/src/CMakeFiles/benchmark.dir/benchmark_register.cc.o
++/OE/build/test-oe-build-time/poky/build/tmp/hosttools/g++  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Iutils/benchmark/src -I/OE/build/test-oe-build-time/poky/build/tmp/work/x86_64-linux/rust-llvm-native/1.37.0-r0/rustc-1.37.0-src/src/llvm-project/llvm/utils/benchmark/src -Iinclude -I/OE/build/test-oe-build-time/poky/build/tmp/work/x86_64-linux/rust-llvm-native/1.37.0-r0/rustc-1.37.0-src/src/llvm-project/llvm/include -I/OE/build/test-oe-build-time/poky/build/tmp/work/x86_64-linux/rust-llvm-native/1.37.0-r0/rustc-1.37.0-src/src/llvm-project/llvm/utils/benchmark/include -I/OE/build/test-oe-build-time/poky/build/tmp/work/x86_64-linux/rust-llvm-native/1.37.0-r0/rustc-1.37.0-src/src/llvm-project/llvm/utils/benchmark/src/../include -isystem/OE/build/test-oe-build-time/poky/build/tmp/work/x86_64-linux/rust-llvm-native/1.37.0-r0/recipe-sysroot-native/usr/include -O2 -pipe -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -fno-exceptions  -Wstrict-aliasing -DNDEBUG -MD -MT utils/benchmark/src/CMakeFiles/benchmark.dir/benchmark_register.cc.o -MF utils/benchmark/src/CMakeFiles/benchmark.dir/benchmark_register.cc.o.d -o utils/benchmark/src/CMakeFiles/benchmark.dir/benchmark_register.cc.o -c /OE/build/test-oe-build-time/poky/build/tmp/work/x86_64-linux/rust-llvm-native/1.37.0-r0/rustc-1.37.0-src/src/llvm-project/llvm/utils/benchmark/src/benchmark_register.cc
++In file included from /OE/build/test-oe-build-time/poky/build/tmp/work/x86_64-linux/rust-llvm-native/1.37.0-r0/rustc-1.37.0-src/src/llvm-project/llvm/utils/benchmark/src/benchmark_register.cc:15:
++/OE/build/test-oe-build-time/poky/build/tmp/work/x86_64-linux/rust-llvm-native/1.37.0-r0/rustc-1.37.0-src/src/llvm-project/llvm/utils/benchmark/src/benchmark_register.h: In function ‘void AddRange(std::vector<T>*, T, T, int)’:
++/OE/build/test-oe-build-time/poky/build/tmp/work/x86_64-linux/rust-llvm-native/1.37.0-r0/rustc-1.37.0-src/src/llvm-project/llvm/utils/benchmark/src/benchmark_register.h:17:30: error: ‘numeric_limits’ is not a member of ‘std’
++   17 |   static const T kmax = std::numeric_limits<T>::max();
++      |                              ^~~~~~~~~~~~~~
++/OE/build/test-oe-build-time/poky/build/tmp/work/x86_64-linux/rust-llvm-native/1.37.0-r0/rustc-1.37.0-src/src/llvm-project/llvm/utils/benchmark/src/benchmark_register.h:17:46: error: expected primary-expression before ‘>’ token
++   17 |   static const T kmax = std::numeric_limits<T>::max();
++      |                                              ^
++/OE/build/test-oe-build-time/poky/build/tmp/work/x86_64-linux/rust-llvm-native/1.37.0-r0/rustc-1.37.0-src/src/llvm-project/llvm/utils/benchmark/src/benchmark_register.h:17:49: error: ‘::max’ has not been declared; did you mean ‘std::max’?
++   17 |   static const T kmax = std::numeric_limits<T>::max();
++      |                                                 ^~~
++      |                                                 std::max
++In file included from /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/include/g++-v12/algorithm:61,
++                 from /OE/build/test-oe-build-time/poky/build/tmp/work/x86_64-linux/rust-llvm-native/1.37.0-r0/rustc-1.37.0-src/src/llvm-project/llvm/utils/benchmark/include/benchmark/benchmark.h:175,
++                 from /OE/build/test-oe-build-time/poky/build/tmp/work/x86_64-linux/rust-llvm-native/1.37.0-r0/rustc-1.37.0-src/src/llvm-project/llvm/utils/benchmark/src/internal_macros.h:4,
++                 from /OE/build/test-oe-build-time/poky/build/tmp/work/x86_64-linux/rust-llvm-native/1.37.0-r0/rustc-1.37.0-src/src/llvm-project/llvm/utils/benchmark/src/check.h:8,
++                 from /OE/build/test-oe-build-time/poky/build/tmp/work/x86_64-linux/rust-llvm-native/1.37.0-r0/rustc-1.37.0-src/src/llvm-project/llvm/utils/benchmark/src/benchmark_register.h:6:
++/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.1/include/g++-v12/bits/stl_algo.h:5756:5: note: ‘std::max’ declared here
++ 5756 |     max(initializer_list<_Tp> __l, _Compare __comp)
++      |     ^~~
++
++Signed-off-by: Martin Jansa <Martin.Jansa@gmail.com>
++---
++ utils/benchmark/src/benchmark_register.h | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/utils/benchmark/src/benchmark_register.h b/utils/benchmark/src/benchmark_register.h
++index 0705e21..4caa5ad 100644
++--- a/utils/benchmark/src/benchmark_register.h
+++++ b/utils/benchmark/src/benchmark_register.h
++@@ -1,6 +1,7 @@
++ #ifndef BENCHMARK_REGISTER_H
++ #define BENCHMARK_REGISTER_H
++ 
+++#include <limits>
++ #include <vector>
++ 
++ #include "check.h"
+diff --git a/recipes-devtools/rust/rust-llvm_1.37.0.bb b/recipes-devtools/rust/rust-llvm_1.37.0.bb
+index a40201c..88109c3 100644
+--- a/recipes-devtools/rust/rust-llvm_1.37.0.bb
++++ b/recipes-devtools/rust/rust-llvm_1.37.0.bb
+@@ -1,2 +1,13 @@
+ require rust-source-${PV}.inc
+ require rust-llvm-ncsa.inc
++
++# Fix build with gcc-10
++SRC_URI += "file://0001-Fix-build-with-gcc-10.patch"
++
++# Fix build with gcc-11
++SRC_URI += "file://0002-Fix-build-with-gcc-12.patch"
++
++# remove RISCV, because with 1.37.0 version it needs to be passed
++# in LLVM_EXPERIMENTAL_TARGETS_TO_BUILD, not LLVM_TARGETS_TO_BUILD
++# EXTRA_OECMAKE_remove = ";RISCV"
++EXTRA_OECMAKE_append = " -DLLVM_TARGETS_TO_BUILD='ARM;AArch64;Mips;PowerPC;X86'"
+diff --git a/recipes-devtools/rust/rust.inc b/recipes-devtools/rust/rust.inc
+index 9dd9979..81fcb01 100644
+--- a/recipes-devtools/rust/rust.inc
++++ b/recipes-devtools/rust/rust.inc
+@@ -474,7 +474,6 @@ python do_configure() {
+     config.set("install", "mandir",  e(d.getVar("D", True) + d.getVar("mandir", True)))
+ 
+     with open("config.toml", "w") as f:
+-        f.write('changelog-seen = 2\n\n')
+         config.write(f)
+ 
+     # set up ${WORKDIR}/cargo_home
