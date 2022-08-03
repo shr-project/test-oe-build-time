@@ -23,7 +23,7 @@ cd poky
 . ./oe-init-build-env
 cat >> conf/local.conf << EOF
 BB_NUMBER_THREADS = "\${@oe.utils.cpu_count()}"
-PARALLEL_MAKE = "-j \${@oe.utils.cpu_count()}"
+PARALLEL_MAKE = "-j \${@oe.utils.cpu_count()} -l \${@oe.utils.cpu_count()}"
 EOF
 
 rm -rf bitbake-cookerdaemon.log cache sstate-cache tmp
