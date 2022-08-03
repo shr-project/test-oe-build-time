@@ -25,6 +25,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;gettex
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;gettext-minimal-native.do_deploy_source_date_epoch;0.25
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;gettext-minimal-native.do_deploy_source_date_epoch;0.23
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;gettext-minimal-native.do_deploy_source_date_epoch;---
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;gettext-minimal-native.do_deploy_source_date_epoch;0.23
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;gettext-minimal-native.do_deploy_source_date_epoch;0.22
 threadripper-3970x-128gb-optane-zeus;2-build-test;gettext-minimal-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;gettext-minimal-native.do_deploy_source_date_epoch;---
@@ -66,6 +67,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;gettex
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;gettext-minimal-native.do_populate_sysroot;0.40
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;gettext-minimal-native.do_populate_sysroot;0.37
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;gettext-minimal-native.do_populate_sysroot;0.21
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;gettext-minimal-native.do_populate_sysroot;0.38
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;gettext-minimal-native.do_populate_sysroot;0.35
 threadripper-3970x-128gb-optane-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;gettext-minimal-native.do_populate_sysroot;---
@@ -107,6 +109,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;gnu-co
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;gnu-config-native.do_deploy_source_date_epoch;0.24
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;gnu-config-native.do_deploy_source_date_epoch;0.23
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;gnu-config-native.do_deploy_source_date_epoch;---
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;gnu-config-native.do_deploy_source_date_epoch;0.23
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;gnu-config-native.do_deploy_source_date_epoch;0.22
 threadripper-3970x-128gb-optane-zeus;2-build-test;gnu-config-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;gnu-config-native.do_deploy_source_date_epoch;---
@@ -148,6 +151,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;gnu-co
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;gnu-config-native.do_fetch;12.39
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;gnu-config-native.do_fetch;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;gnu-config-native.do_fetch;1.62
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;gnu-config-native.do_fetch;---
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;gnu-config-native.do_fetch;2.13
 threadripper-3970x-128gb-optane-zeus;2-build-test;gnu-config-native.do_fetch;0.63
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;gnu-config-native.do_fetch;2.13
@@ -189,6 +193,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;gnu-co
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;gnu-config-native.do_install;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;gnu-config-native.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;gnu-config-native.do_install;---
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;gnu-config-native.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;gnu-config-native.do_install;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;gnu-config-native.do_install;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;gnu-config-native.do_install;---
@@ -230,6 +235,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;gnu-co
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;gnu-config-native.do_populate_lic;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;gnu-config-native.do_populate_lic;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;gnu-config-native.do_populate_lic;---
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;gnu-config-native.do_populate_lic;---
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;gnu-config-native.do_populate_lic;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;gnu-config-native.do_populate_lic;0.09
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;gnu-config-native.do_populate_lic;---
@@ -271,6 +277,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;gnu-co
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;gnu-config-native.do_populate_sysroot;0.40
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;gnu-config-native.do_populate_sysroot;0.38
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;gnu-config-native.do_populate_sysroot;0.22
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;gnu-config-native.do_populate_sysroot;0.38
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;gnu-config-native.do_populate_sysroot;0.36
 threadripper-3970x-128gb-optane-zeus;2-build-test;gnu-config-native.do_populate_sysroot;0.18
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;gnu-config-native.do_populate_sysroot;0.18
@@ -312,6 +319,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;gnu-co
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;gnu-config-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;gnu-config-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;gnu-config-native.do_rm_work;---
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;gnu-config-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;gnu-config-native.do_rm_work;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;gnu-config-native.do_rm_work;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;gnu-config-native.do_rm_work;---
@@ -353,6 +361,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;gnu-co
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;gnu-config-native.do_unpack;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;gnu-config-native.do_unpack;0.40
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;gnu-config-native.do_unpack;0.23
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;gnu-config-native.do_unpack;0.40
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;gnu-config-native.do_unpack;0.37
 threadripper-3970x-128gb-optane-zeus;2-build-test;gnu-config-native.do_unpack;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;gnu-config-native.do_unpack;---
@@ -394,6 +403,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;m4-nat
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;m4-native.do_compile;2.40
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;m4-native.do_compile;2.56
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;m4-native.do_compile;2.31
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;m4-native.do_compile;2.59
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;m4-native.do_compile;2.80
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_compile;0.81
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;m4-native.do_compile;0.85
@@ -435,6 +445,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;m4-nat
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;m4-native.do_configure;18.99
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;m4-native.do_configure;19.57
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;m4-native.do_configure;17.53
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;m4-native.do_configure;19.52
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;m4-native.do_configure;18.62
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_configure;15.78
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;m4-native.do_configure;15.99
@@ -476,6 +487,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;m4-nat
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;m4-native.do_deploy_source_date_epoch;0.25
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;m4-native.do_deploy_source_date_epoch;0.23
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;m4-native.do_deploy_source_date_epoch;0.13
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;m4-native.do_deploy_source_date_epoch;0.24
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;m4-native.do_deploy_source_date_epoch;0.22
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;m4-native.do_deploy_source_date_epoch;0.10
@@ -517,6 +529,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;m4-nat
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;m4-native.do_fetch;1.69
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;m4-native.do_fetch;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;m4-native.do_fetch;1.45
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;m4-native.do_fetch;---
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;m4-native.do_fetch;1.58
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_fetch;0.47
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;m4-native.do_fetch;2.08
@@ -558,6 +571,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;m4-nat
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;m4-native.do_install;0.52
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;m4-native.do_install;0.53
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;m4-native.do_install;0.39
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;m4-native.do_install;0.52
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;m4-native.do_install;0.51
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_install;0.35
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;m4-native.do_install;0.35
@@ -599,6 +613,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;m4-nat
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;m4-native.do_patch;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;m4-native.do_patch;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;m4-native.do_patch;---
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;m4-native.do_patch;---
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;m4-native.do_patch;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_patch;0.15
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;m4-native.do_patch;0.15
@@ -640,6 +655,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;m4-nat
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;m4-native.do_populate_lic;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;m4-native.do_populate_lic;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;m4-native.do_populate_lic;---
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;m4-native.do_populate_lic;---
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;m4-native.do_populate_lic;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_populate_lic;0.10
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;m4-native.do_populate_lic;0.11
@@ -681,6 +697,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;m4-nat
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;m4-native.do_populate_sysroot;0.44
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;m4-native.do_populate_sysroot;0.42
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;m4-native.do_populate_sysroot;0.24
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;m4-native.do_populate_sysroot;0.42
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;m4-native.do_populate_sysroot;0.39
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_populate_sysroot;0.20
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;m4-native.do_populate_sysroot;0.20
@@ -722,6 +739,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;m4-nat
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;m4-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;m4-native.do_rm_work;0.18
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;m4-native.do_rm_work;0.12
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;m4-native.do_rm_work;0.18
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;m4-native.do_rm_work;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_rm_work;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;m4-native.do_rm_work;---
@@ -763,6 +781,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;m4-nat
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;m4-native.do_unpack;0.23
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;m4-native.do_unpack;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;m4-native.do_unpack;---
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;m4-native.do_unpack;---
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;m4-native.do_unpack;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_unpack;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;m4-native.do_unpack;0.16
@@ -804,6 +823,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;quilt-
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;quilt-native.do_compile;0.31
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;quilt-native.do_compile;0.35
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;quilt-native.do_compile;0.24
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;quilt-native.do_compile;0.34
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;quilt-native.do_compile;0.31
 threadripper-3970x-128gb-optane-zeus;2-build-test;quilt-native.do_compile;0.51
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;quilt-native.do_compile;0.36
@@ -845,6 +865,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;quilt-
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;quilt-native.do_configure;0.72
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;quilt-native.do_configure;0.74
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;quilt-native.do_configure;0.51
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;quilt-native.do_configure;0.72
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;quilt-native.do_configure;0.67
 threadripper-3970x-128gb-optane-zeus;2-build-test;quilt-native.do_configure;0.49
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;quilt-native.do_configure;0.46
@@ -886,6 +907,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;quilt-
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;quilt-native.do_deploy_source_date_epoch;0.25
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;quilt-native.do_deploy_source_date_epoch;0.23
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;quilt-native.do_deploy_source_date_epoch;0.13
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;quilt-native.do_deploy_source_date_epoch;0.23
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;quilt-native.do_deploy_source_date_epoch;0.22
 threadripper-3970x-128gb-optane-zeus;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;quilt-native.do_deploy_source_date_epoch;0.10
@@ -927,6 +949,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;quilt-
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;quilt-native.do_fetch;1.27
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;quilt-native.do_fetch;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;quilt-native.do_fetch;1.15
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;quilt-native.do_fetch;---
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;quilt-native.do_fetch;1.65
 threadripper-3970x-128gb-optane-zeus;2-build-test;quilt-native.do_fetch;1.04
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;quilt-native.do_fetch;0.81
@@ -968,6 +991,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;quilt-
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;quilt-native.do_install;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;quilt-native.do_install;0.23
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;quilt-native.do_install;0.14
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;quilt-native.do_install;0.23
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;quilt-native.do_install;0.22
 threadripper-3970x-128gb-optane-zeus;2-build-test;quilt-native.do_install;0.13
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;quilt-native.do_install;0.12
@@ -1009,6 +1033,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;quilt-
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;quilt-native.do_populate_lic;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;quilt-native.do_populate_lic;0.18
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;quilt-native.do_populate_lic;---
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;quilt-native.do_populate_lic;0.18
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;quilt-native.do_populate_lic;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;quilt-native.do_populate_lic;0.10
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;quilt-native.do_populate_lic;0.10
@@ -1050,6 +1075,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;quilt-
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;quilt-native.do_populate_sysroot;0.52
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;quilt-native.do_populate_sysroot;0.54
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;quilt-native.do_populate_sysroot;0.32
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;quilt-native.do_populate_sysroot;0.55
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;quilt-native.do_populate_sysroot;0.47
 threadripper-3970x-128gb-optane-zeus;2-build-test;quilt-native.do_populate_sysroot;0.26
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;quilt-native.do_populate_sysroot;0.25
@@ -1091,6 +1117,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;quilt-
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;quilt-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;quilt-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;quilt-native.do_rm_work;---
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;quilt-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;quilt-native.do_rm_work;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;quilt-native.do_rm_work;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;quilt-native.do_rm_work;---
@@ -1132,6 +1159,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;texinf
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;0.24
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;0.23
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;0.12
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;0.22
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
@@ -1173,6 +1201,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;texinf
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;texinfo-dummy-native.do_install;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;texinfo-dummy-native.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;texinfo-dummy-native.do_install;---
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;texinfo-dummy-native.do_install;---
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;texinfo-dummy-native.do_install;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;texinfo-dummy-native.do_install;0.08
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;texinfo-dummy-native.do_install;---
@@ -1214,6 +1243,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;texinf
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;texinfo-dummy-native.do_patch;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;texinfo-dummy-native.do_patch;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;texinfo-dummy-native.do_patch;---
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;texinfo-dummy-native.do_patch;---
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;texinfo-dummy-native.do_patch;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;texinfo-dummy-native.do_patch;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;texinfo-dummy-native.do_patch;---
@@ -1255,6 +1285,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;texinf
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;texinfo-dummy-native.do_populate_lic;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;texinfo-dummy-native.do_populate_lic;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;texinfo-dummy-native.do_populate_lic;---
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;texinfo-dummy-native.do_populate_lic;---
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;texinfo-dummy-native.do_populate_lic;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;texinfo-dummy-native.do_populate_lic;0.09
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;texinfo-dummy-native.do_populate_lic;---
@@ -1296,6 +1327,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;texinf
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.39
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.39
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.22
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.39
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.36
 threadripper-3970x-128gb-optane-zeus;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.22
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.18
@@ -1337,6 +1369,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;texinf
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;texinfo-dummy-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;texinfo-dummy-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;texinfo-dummy-native.do_rm_work;---
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;texinfo-dummy-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;texinfo-dummy-native.do_rm_work;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;texinfo-dummy-native.do_rm_work;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;texinfo-dummy-native.do_rm_work;---
@@ -1378,6 +1411,7 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;Total;
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;Total;41.88
 threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;Total;32.53
 threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;Total;27.09
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;Total;33.01
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;Total;33.44
 threadripper-3970x-128gb-optane-zeus;2-build-test;Total;22.58
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;Total;22.74

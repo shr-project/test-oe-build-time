@@ -1,0 +1,51 @@
+1-init start: 2022-08-03T13:28:19+02:00
+Cloning into 'poky'...
+Switched to a new branch 'langdale'
+Cloning into 'meta-qt5'...
+Switched to a new branch 'langdale'
+Cloning into 'meta-browser'...
+Switched to a new branch 'langdale'
+Cloning into 'meta-openembedded'...
+Switched to a new branch 'langdale'
+Cloning into 'meta-clang'...
+Switched to a new branch 'langdale'
+Cloning into 'meta-python2'...
+Switched to a new branch 'langdale'
+You had no conf/local.conf file. This configuration file has therefore been
+created for you with some default values. You may wish to edit it to, for
+example, select a different MACHINE (target hardware). See conf/local.conf
+for more information as common configuration options are commented.
+
+You had no conf/bblayers.conf file. This configuration file has therefore been
+created for you with some default values. To add additional metadata layers
+into your configuration please add entries to conf/bblayers.conf.
+
+The Yocto Project has extensive documentation about OE including a reference
+manual which can be found at:
+    https://docs.yoctoproject.org
+
+For more information about OpenEmbedded see the website:
+    https://www.openembedded.org/
+
+
+### Shell environment set up for builds. ###
+
+You can now run 'bitbake <target>'
+
+Common targets are:
+    core-image-minimal
+    core-image-full-cmdline
+    core-image-sato
+    core-image-weston
+    meta-toolchain
+    meta-ide-support
+
+You can also run generated qemu images with a command like 'runqemu qemux86-64'.
+
+Other commonly useful commands are:
+ - 'devtool' and 'recipetool' handle common recipe tasks
+ - 'bitbake-layers' handles common layer tasks
+ - 'oe-pkgdata-util' handles common target package tasks
+35.50user 9.32system 2:13.29elapsed 33%CPU (0avgtext+0avgdata 383032maxresident)k
+1720inputs+781104outputs (11major+195640minor)pagefaults 0swaps
+1-init stop:  2022-08-03T13:30:32+02:00
