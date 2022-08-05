@@ -8,7 +8,7 @@ git clone git://git.yoctoproject.org/poky
 cd poky
 git checkout -b dunfell d695bd0d3dc66f2111a25c6922f617be2d991071
 # add /proc/pressure collection in buildstats
-git cherry-pick ac162116b3 45f1e9d953 4678581ea0 6958024ed2 48a6d84de1
+git cherry-pick ac162116b3 45f1e9d953 1125adc33b 4678581ea0 6958024ed2 48a6d84de1
 
 git clone https://github.com/meta-qt5/meta-qt5.git
 cd meta-qt5
