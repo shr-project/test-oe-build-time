@@ -144,21 +144,21 @@ threadripper-3970x-128gb-gentoo-kirkstone-2022-03;128;4;30G;;64;qtbase;273.51;0.
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;128;4;30G;;64;qtdeclarative;143.44;0.08;1.33;0%;384;16998;11512;0;39180
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;128;4;30G;;64;qtwebengine;1053.70;0.65;11.18;1%;5932;77369;14735;2268;39008
 threadripper-3970x-128gb-gentoo-kirkstone-2022-03;128;4;30G;;64;rust-native;481.85;0.08;1.34;0%;382;14952;11444;0;39080
-threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0/8-build-individual-components.32.chromium-x11.log:TIME: 2616.40 1.12 12.60 0% 4391 181317 11307 0 36860 0 bitbake -c compile chromium-x11
-threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0/8-build-individual-components.32.qtbase.log:TIME: 255.28 0.06 0.58 0% 205 17305 11323 0 36832 0 bitbake -c compile qtbase
-threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0/8-build-individual-components.32.qtdeclarative.log:TIME: 133.54 0.06 0.51 0% 135 16418 11318 0 37228 0 bitbake -c compile qtdeclarative
-threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0/8-build-individual-components.32.qtwebengine.log:TIME: 1212.30 0.55 5.95 0% 1903 91586 11308 0 36848 0 bitbake -c compile qtwebengine
-threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0/8-build-individual-components.32.rust-native.log:TIME: 424.02 0.08 0.54 0% 146 14218 11305 0 36764 0 bitbake -c compile rust-native
-threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0/8-build-individual-components.48.chromium-x11.log:TIME: 2422.99 1.09 13.23 0% 10077 155934 11303 0 36956 0 bitbake -c compile chromium-x11
-threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0/8-build-individual-components.48.qtbase.log:TIME: 249.05 0.07 0.58 0% 149 16282 11308 0 36832 0 bitbake -c compile qtbase
-threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0/8-build-individual-components.48.qtdeclarative.log:TIME: 130.86 0.07 0.53 0% 140 15733 11297 0 36856 0 bitbake -c compile qtdeclarative
-threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0/8-build-individual-components.48.qtwebengine.log:TIME: 1069.52 0.54 6.48 0% 3801 82832 11316 0 36860 0 bitbake -c compile qtwebengine
-threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0/8-build-individual-components.48.rust-native.log:TIME: 424.43 0.06 0.56 0% 154 14197 11300 0 37188 0 bitbake -c compile rust-native
-threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0/8-build-individual-components.64.chromium-x11.log:TIME: 2233.64 1.12 13.12 0% 7018 136527 11298 0 36808 0 bitbake -c compile chromium-x11
-threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0/8-build-individual-components.64.qtbase.log:TIME: 238.46 0.07 0.58 0% 136 17250 11304 0 36892 0 bitbake -c compile qtbase
-threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0/8-build-individual-components.64.qtdeclarative.log:TIME: 128.67 0.06 0.52 0% 132 15178 11328 0 36812 0 bitbake -c compile qtdeclarative
-threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0/8-build-individual-components.64.qtwebengine.log:TIME: 976.86 0.60 6.36 0% 3746 72082 11307 0 37056 0 bitbake -c compile qtwebengine
-threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0/8-build-individual-components.64.rust-native.log:TIME: 423.83 0.05 0.57 0% 147 14123 11301 0 36752 0 bitbake -c compile rust-native
+threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0;128;4;48G;;32;chromium-x11;2616.40;1.12;12.60;0%;4391;181317;11307;0;36860
+threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0;128;4;48G;;32;qtbase;255.28;0.06;0.58;0%;205;17305;11323;0;36832
+threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0;128;4;48G;;32;qtdeclarative;133.54;0.06;0.51;0%;135;16418;11318;0;37228
+threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0;128;4;48G;;32;qtwebengine;1212.30;0.55;5.95;0%;1903;91586;11308;0;36848
+threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0;128;4;48G;;32;rust-native;424.02;0.08;0.54;0%;146;14218;11305;0;36764
+threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0;128;4;48G;;48;chromium-x11;2422.99;1.09;13.23;0%;10077;155934;11303;0;36956
+threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0;128;4;48G;;48;qtbase;249.05;0.07;0.58;0%;149;16282;11308;0;36832
+threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0;128;4;48G;;48;qtdeclarative;130.86;0.07;0.53;0%;140;15733;11297;0;36856
+threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0;128;4;48G;;48;qtwebengine;1069.52;0.54;6.48;0%;3801;82832;11316;0;36860
+threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0;128;4;48G;;48;rust-native;424.43;0.06;0.56;0%;154;14197;11300;0;37188
+threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0;128;4;48G;;64;chromium-x11;2233.64;1.12;13.12;0%;7018;136527;11298;0;36808
+threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0;128;4;48G;;64;qtbase;238.46;0.07;0.58;0%;136;17250;11304;0;36892
+threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0;128;4;48G;;64;qtdeclarative;128.67;0.06;0.52;0%;132;15178;11328;0;36812
+threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0;128;4;48G;;64;qtwebengine;976.86;0.60;6.36;0%;3746;72082;11307;0;37056
+threadripper-3970x-128gb-gentoo-langdale-2022-05-lvm-raid0;128;4;48G;;64;rust-native;423.83;0.05;0.57;0%;147;14123;11301;0;36752
 threadripper-3970x-128gb-gentoo-langdale-2022-05;128;4;30G;;32;chromium-x11;2657.23;1.08;12.41;0%;3697;181085;11359;0;37520
 threadripper-3970x-128gb-gentoo-langdale-2022-05;128;4;30G;;32;qtbase;249.09;0.06;0.56;0%;152;16002;11319;0;37340
 threadripper-3970x-128gb-gentoo-langdale-2022-05;128;4;30G;;32;qtdeclarative;134.42;0.07;0.52;0%;139;15078;11329;0;37040
