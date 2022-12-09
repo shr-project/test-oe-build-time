@@ -1,0 +1,44 @@
+1-init start: 2022-12-07T08:08:22+00:00
+fatal: destination path 'poky' already exists and is not an empty directory.
+fatal: A branch named 'kirkstone' already exists.
+Auto-merging meta/lib/buildstats.py
+CONFLICT (content): Merge conflict in meta/lib/buildstats.py
+error: could not apply ac162116b3... buildstats.py: enable collection of /proc/pressure data
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git cherry-pick --continue".
+hint: You can instead skip this commit with "git cherry-pick --skip".
+hint: To abort and get back to the state before "git cherry-pick",
+hint: run "git cherry-pick --abort".
+fatal: destination path 'meta-qt5' already exists and is not an empty directory.
+fatal: A branch named 'kirkstone' already exists.
+fatal: destination path 'meta-browser' already exists and is not an empty directory.
+fatal: A branch named 'kirkstone' already exists.
+fatal: destination path 'meta-openembedded' already exists and is not an empty directory.
+fatal: A branch named 'kirkstone' already exists.
+fatal: destination path 'meta-clang' already exists and is not an empty directory.
+fatal: A branch named 'kirkstone' already exists.
+fatal: destination path 'meta-python2' already exists and is not an empty directory.
+fatal: A branch named 'kirkstone' already exists.
+
+### Shell environment set up for builds. ###
+
+You can now run 'bitbake <target>'
+
+Common targets are:
+    core-image-minimal
+    core-image-full-cmdline
+    core-image-sato
+    core-image-weston
+    meta-toolchain
+    meta-ide-support
+
+You can also run generated qemu images with a command like 'runqemu qemux86'
+
+Other commonly useful commands are:
+ - 'devtool' and 'recipetool' handle common recipe tasks
+ - 'bitbake-layers' handles common layer tasks
+ - 'oe-pkgdata-util' handles common target package tasks
+0.03user 0.01system 0:00.06elapsed 80%CPU (0avgtext+0avgdata 13768maxresident)k
+22360inputs+4360outputs (98major+6010minor)pagefaults 0swaps
+1-init stop:  2022-12-07T08:08:22+00:00
