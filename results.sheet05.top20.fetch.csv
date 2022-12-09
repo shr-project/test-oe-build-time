@@ -14,6 +14,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;binutils.do_fetch;525.28
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;binutils.do_fetch;476.43
 dual-Xeon-Gold-6258R-zeus;3-fetch;binutils.do_fetch;511.58
 ryzen-5-1600AF-zeus;3-fetch;binutils.do_fetch;736.87
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;binutils.do_fetch;2723.73
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;binutils.do_fetch;3860.18
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;binutils.do_fetch;1498.20
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;binutils.do_fetch;1630.70
@@ -57,6 +58,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;binutils-cross-arm.do_fetch;-
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;binutils-cross-arm.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;binutils-cross-arm.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;binutils-cross-arm.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;binutils-cross-arm.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;binutils-cross-arm.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;binutils-cross-arm.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;binutils-cross-arm.do_fetch;---
@@ -100,6 +102,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;binutils-cross-x86_64.do_fetc
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;binutils-cross-x86_64.do_fetch;420.24
 dual-Xeon-Gold-6258R-zeus;3-fetch;binutils-cross-x86_64.do_fetch;501.30
 ryzen-5-1600AF-zeus;3-fetch;binutils-cross-x86_64.do_fetch;564.47
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;binutils-cross-x86_64.do_fetch;2582.15
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;binutils-cross-x86_64.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;binutils-cross-x86_64.do_fetch;1118.53
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;binutils-cross-x86_64.do_fetch;1292.56
@@ -143,6 +146,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;binutils-native.do_fetch;472.
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;binutils-native.do_fetch;428.20
 dual-Xeon-Gold-6258R-zeus;3-fetch;binutils-native.do_fetch;504.47
 ryzen-5-1600AF-zeus;3-fetch;binutils-native.do_fetch;570.45
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;binutils-native.do_fetch;2763.00
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;binutils-native.do_fetch;4008.08
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;binutils-native.do_fetch;1149.79
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;binutils-native.do_fetch;1338.44
@@ -186,6 +190,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;brotli-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;brotli-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;brotli-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;brotli-native.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;brotli-native.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;brotli-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;brotli-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;brotli-native.do_fetch;---
@@ -229,6 +234,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;busybox.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;busybox.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;busybox.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;busybox.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;busybox.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;busybox.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;busybox.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;busybox.do_fetch;---
@@ -272,6 +278,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;c-ares-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;c-ares-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;c-ares-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;c-ares-native.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;c-ares-native.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;c-ares-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;c-ares-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;c-ares-native.do_fetch;---
@@ -315,6 +322,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;cairo.do_fetch;213.49
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;cairo.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;cairo.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;cairo.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;cairo.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;cairo.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;cairo.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;cairo.do_fetch;---
@@ -358,6 +366,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;cairo-native.do_fetch;251.27
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;cairo-native.do_fetch;219.73
 dual-Xeon-Gold-6258R-zeus;3-fetch;cairo-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;cairo-native.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;cairo-native.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;cairo-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;cairo-native.do_fetch;469.10
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;cairo-native.do_fetch;471.57
@@ -401,6 +410,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;cargo-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;cargo-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;cargo-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;cargo-native.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;cargo-native.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;cargo-native.do_fetch;542.70
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;cargo-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;cargo-native.do_fetch;---
@@ -444,6 +454,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;cbindgen-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;cbindgen-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;cbindgen-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;cbindgen-native.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;cbindgen-native.do_fetch;143.70
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;cbindgen-native.do_fetch;311.14
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;cbindgen-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;cbindgen-native.do_fetch;---
@@ -487,6 +498,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;chromium-x11.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;chromium-x11.do_fetch;287.03
 dual-Xeon-Gold-6258R-zeus;3-fetch;chromium-x11.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;chromium-x11.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;chromium-x11.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;chromium-x11.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;chromium-x11.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;chromium-x11.do_fetch;---
@@ -530,6 +542,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;cmake-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;cmake-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;cmake-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;cmake-native.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;cmake-native.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;cmake-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;cmake-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;cmake-native.do_fetch;---
@@ -573,6 +586,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;cross-localedef-native.do_fet
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;cross-localedef-native.do_fetch;346.43
 dual-Xeon-Gold-6258R-zeus;3-fetch;cross-localedef-native.do_fetch;247.19
 ryzen-5-1600AF-zeus;3-fetch;cross-localedef-native.do_fetch;322.32
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;cross-localedef-native.do_fetch;1258.36
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;cross-localedef-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;cross-localedef-native.do_fetch;817.18
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;cross-localedef-native.do_fetch;958.14
@@ -616,6 +630,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;db.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;db.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;db.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;db.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;db.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;db.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;db.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;db.do_fetch;---
@@ -659,6 +674,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;db-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;db-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;db-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;db-native.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;db-native.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;db-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;db-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;db-native.do_fetch;---
@@ -702,6 +718,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;distcc.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;distcc.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;distcc.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;distcc.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;distcc.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;distcc.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;distcc.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;distcc.do_fetch;---
@@ -745,6 +762,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;dnf.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;dnf.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;dnf.do_fetch;80.71
 ryzen-5-1600AF-zeus;3-fetch;dnf.do_fetch;186.60
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;dnf.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;dnf.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;dnf.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;dnf.do_fetch;366.47
@@ -788,6 +806,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;dnf-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;dnf-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;dnf-native.do_fetch;78.66
 ryzen-5-1600AF-zeus;3-fetch;dnf-native.do_fetch;113.77
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;dnf-native.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;dnf-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;dnf-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;dnf-native.do_fetch;---
@@ -831,6 +850,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;docbook-xsl-stylesheets-nativ
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;docbook-xsl-stylesheets-native.do_fetch;78.25
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;docbook-xsl-stylesheets-native.do_fetch;---
@@ -874,6 +894,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;dtc-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;dtc-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;dtc-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;dtc-native.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;dtc-native.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;dtc-native.do_fetch;147.94
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;dtc-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;dtc-native.do_fetch;---
@@ -917,6 +938,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;e2fsprogs.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;e2fsprogs.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;e2fsprogs.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;e2fsprogs.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;e2fsprogs.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;e2fsprogs.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;e2fsprogs.do_fetch;566.96
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;e2fsprogs.do_fetch;542.00
@@ -960,6 +982,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;elfutils.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;elfutils.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;elfutils.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;elfutils.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;elfutils.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;elfutils.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;elfutils.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;elfutils.do_fetch;---
@@ -1003,6 +1026,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;firefox.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;firefox.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;firefox.do_fetch;462.20
 ryzen-5-1600AF-zeus;3-fetch;firefox.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;firefox.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;firefox.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;firefox.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;firefox.do_fetch;---
@@ -1046,6 +1070,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;gcc-source-10.2.0.do_fetch;--
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;gcc-source-10.2.0.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;gcc-source-10.2.0.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;gcc-source-10.2.0.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;gcc-source-10.2.0.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;gcc-source-10.2.0.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;gcc-source-10.2.0.do_fetch;484.58
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;gcc-source-10.2.0.do_fetch;---
@@ -1089,6 +1114,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;gcc-source-11.3.0.do_fetch;--
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;gcc-source-11.3.0.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;gcc-source-11.3.0.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;gcc-source-11.3.0.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;gcc-source-11.3.0.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;gcc-source-11.3.0.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;gcc-source-11.3.0.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;gcc-source-11.3.0.do_fetch;---
@@ -1132,6 +1158,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;gcc-source-12.1.0.do_fetch;--
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;gcc-source-12.1.0.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;gcc-source-12.1.0.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;gcc-source-12.1.0.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;gcc-source-12.1.0.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;gcc-source-12.1.0.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;gcc-source-12.1.0.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;gcc-source-12.1.0.do_fetch;---
@@ -1175,6 +1202,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;gcc-source-9.2.0.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;gcc-source-9.2.0.do_fetch;256.05
 dual-Xeon-Gold-6258R-zeus;3-fetch;gcc-source-9.2.0.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;gcc-source-9.2.0.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;gcc-source-9.2.0.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;gcc-source-9.2.0.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;gcc-source-9.2.0.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;gcc-source-9.2.0.do_fetch;448.98
@@ -1218,6 +1246,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;gcc-source-9.3.0.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;gcc-source-9.3.0.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;gcc-source-9.3.0.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;gcc-source-9.3.0.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;gcc-source-9.3.0.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;gcc-source-9.3.0.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;gcc-source-9.3.0.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;gcc-source-9.3.0.do_fetch;---
@@ -1261,6 +1290,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;glibc.do_fetch;344.65
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;glibc.do_fetch;364.80
 dual-Xeon-Gold-6258R-zeus;3-fetch;glibc.do_fetch;251.67
 ryzen-5-1600AF-zeus;3-fetch;glibc.do_fetch;401.40
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;glibc.do_fetch;124.45
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;glibc.do_fetch;339.87
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;glibc.do_fetch;964.31
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;glibc.do_fetch;1071.78
@@ -1304,6 +1334,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;glslang-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;glslang-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;glslang-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;glslang-native.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;glslang-native.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;glslang-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;glslang-native.do_fetch;640.27
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;glslang-native.do_fetch;---
@@ -1347,6 +1378,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;gn-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;gn-native.do_fetch;311.52
 dual-Xeon-Gold-6258R-zeus;3-fetch;gn-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;gn-native.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;gn-native.do_fetch;79.25
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;gn-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;gn-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;gn-native.do_fetch;---
@@ -1390,6 +1422,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;icu.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;icu.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;icu.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;icu.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;icu.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;icu.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;icu.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;icu.do_fetch;---
@@ -1433,6 +1466,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;icu-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;icu-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;icu-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;icu-native.do_fetch;127.22
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;icu-native.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;icu-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;icu-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;icu-native.do_fetch;---
@@ -1476,6 +1510,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;iso-codes.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;iso-codes.do_fetch;192.77
 dual-Xeon-Gold-6258R-zeus;3-fetch;iso-codes.do_fetch;83.24
 ryzen-5-1600AF-zeus;3-fetch;iso-codes.do_fetch;207.91
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;iso-codes.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;iso-codes.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;iso-codes.do_fetch;641.65
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;iso-codes.do_fetch;613.95
@@ -1519,6 +1554,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;libgit2-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;libgit2-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;libgit2-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;libgit2-native.do_fetch;74.15
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;libgit2-native.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;libgit2-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;libgit2-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;libgit2-native.do_fetch;605.46
@@ -1562,6 +1598,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;libhandy.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;libhandy.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;libhandy.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;libhandy.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;libhandy.do_fetch;172.56
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;libhandy.do_fetch;150.05
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;libhandy.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;libhandy.do_fetch;---
@@ -1590,6 +1627,94 @@ threadripper-3990x-128gb-zeus;3-fetch;libhandy.do_fetch;---
 threadripper-3990x-256gb-zeus;3-fetch;libhandy.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;libhandy.do_fetch;---
 xeon-e3-1275-v5-dunfell;3-fetch;libhandy.do_fetch;---
+VM-20t-157G-zeus;3-fetch;libjpeg-turbo.do_fetch;---
+VM-20t-98G-zeus;3-fetch;libjpeg-turbo.do_fetch;---
+core-i7-4790k-dunfell;3-fetch;libjpeg-turbo.do_fetch;---
+dual-Epyc-7763;3-fetch;libjpeg-turbo.do_fetch;---
+dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;libjpeg-turbo.do_fetch;---
+dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;libjpeg-turbo.do_fetch;---
+dual-Xeon-E5-2670-8-channels-zeus;3-fetch;libjpeg-turbo.do_fetch;---
+dual-Xeon-E5-2698-v3-4-channels-zeus;3-fetch;libjpeg-turbo.do_fetch;---
+dual-Xeon-E5-2698-v4-4-channels-no-journal-zeus;3-fetch;libjpeg-turbo.do_fetch;---
+dual-Xeon-E5-2698-v4-4-channels-tmpfs-zeus;3-fetch;libjpeg-turbo.do_fetch;---
+dual-Xeon-E5-2698-v4-4-channels-zeus;3-fetch;libjpeg-turbo.do_fetch;---
+dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;libjpeg-turbo.do_fetch;---
+dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;libjpeg-turbo.do_fetch;---
+dual-Xeon-Gold-6258R-zeus;3-fetch;libjpeg-turbo.do_fetch;---
+ryzen-5-1600AF-zeus;3-fetch;libjpeg-turbo.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;libjpeg-turbo.do_fetch;75.42
+ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;libjpeg-turbo.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;libjpeg-turbo.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;libjpeg-turbo.do_fetch;---
+ryzen-9-5950x-zeus;3-fetch;libjpeg-turbo.do_fetch;---
+threadripper-2990wx-128gb-zeus;3-fetch;libjpeg-turbo.do_fetch;---
+threadripper-3970x-128gb-gentoo-dunfell-2022-07;3-fetch;libjpeg-turbo.do_fetch;---
+threadripper-3970x-128gb-gentoo-honister-2021-09;3-fetch;libjpeg-turbo.do_fetch;---
+threadripper-3970x-128gb-gentoo-honister-2022-03;3-fetch;libjpeg-turbo.do_fetch;---
+threadripper-3970x-128gb-gentoo-kirkstone-2022-03;3-fetch;libjpeg-turbo.do_fetch;---
+threadripper-3970x-128gb-gentoo-kirkstone-2022-07;3-fetch;libjpeg-turbo.do_fetch;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;3-fetch;libjpeg-turbo.do_fetch;---
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;3-fetch;libjpeg-turbo.do_fetch;---
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-reg-cpu-pressure;3-fetch;libjpeg-turbo.do_fetch;---
+threadripper-3970x-128gb-gentoo-langdale-2022-07;3-fetch;libjpeg-turbo.do_fetch;---
+threadripper-3970x-128gb-optane-zeus;3-fetch;libjpeg-turbo.do_fetch;---
+threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;3-fetch;libjpeg-turbo.do_fetch;---
+threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;3-fetch;libjpeg-turbo.do_fetch;---
+threadripper-3970x-128gb-ubuntu-20.10-gatesgarth-2020-10;3-fetch;libjpeg-turbo.do_fetch;---
+threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;3-fetch;libjpeg-turbo.do_fetch;---
+threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;3-fetch;libjpeg-turbo.do_fetch;---
+threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;3-fetch;libjpeg-turbo.do_fetch;---
+threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;3-fetch;libjpeg-turbo.do_fetch;---
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;3-fetch;libjpeg-turbo.do_fetch;---
+threadripper-3970x-64gb-zeus;3-fetch;libjpeg-turbo.do_fetch;---
+threadripper-3990x-128gb-zeus;3-fetch;libjpeg-turbo.do_fetch;---
+threadripper-3990x-256gb-zeus;3-fetch;libjpeg-turbo.do_fetch;---
+vSphere-VM-28t-55G-zeus;3-fetch;libjpeg-turbo.do_fetch;---
+xeon-e3-1275-v5-dunfell;3-fetch;libjpeg-turbo.do_fetch;---
+VM-20t-157G-zeus;3-fetch;libpng-native.do_fetch;---
+VM-20t-98G-zeus;3-fetch;libpng-native.do_fetch;---
+core-i7-4790k-dunfell;3-fetch;libpng-native.do_fetch;---
+dual-Epyc-7763;3-fetch;libpng-native.do_fetch;---
+dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;libpng-native.do_fetch;---
+dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;libpng-native.do_fetch;---
+dual-Xeon-E5-2670-8-channels-zeus;3-fetch;libpng-native.do_fetch;---
+dual-Xeon-E5-2698-v3-4-channels-zeus;3-fetch;libpng-native.do_fetch;---
+dual-Xeon-E5-2698-v4-4-channels-no-journal-zeus;3-fetch;libpng-native.do_fetch;---
+dual-Xeon-E5-2698-v4-4-channels-tmpfs-zeus;3-fetch;libpng-native.do_fetch;---
+dual-Xeon-E5-2698-v4-4-channels-zeus;3-fetch;libpng-native.do_fetch;---
+dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;libpng-native.do_fetch;---
+dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;libpng-native.do_fetch;---
+dual-Xeon-Gold-6258R-zeus;3-fetch;libpng-native.do_fetch;---
+ryzen-5-1600AF-zeus;3-fetch;libpng-native.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;libpng-native.do_fetch;49.43
+ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;libpng-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;libpng-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;libpng-native.do_fetch;---
+ryzen-9-5950x-zeus;3-fetch;libpng-native.do_fetch;---
+threadripper-2990wx-128gb-zeus;3-fetch;libpng-native.do_fetch;---
+threadripper-3970x-128gb-gentoo-dunfell-2022-07;3-fetch;libpng-native.do_fetch;---
+threadripper-3970x-128gb-gentoo-honister-2021-09;3-fetch;libpng-native.do_fetch;---
+threadripper-3970x-128gb-gentoo-honister-2022-03;3-fetch;libpng-native.do_fetch;---
+threadripper-3970x-128gb-gentoo-kirkstone-2022-03;3-fetch;libpng-native.do_fetch;---
+threadripper-3970x-128gb-gentoo-kirkstone-2022-07;3-fetch;libpng-native.do_fetch;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;3-fetch;libpng-native.do_fetch;---
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;3-fetch;libpng-native.do_fetch;---
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-reg-cpu-pressure;3-fetch;libpng-native.do_fetch;---
+threadripper-3970x-128gb-gentoo-langdale-2022-07;3-fetch;libpng-native.do_fetch;---
+threadripper-3970x-128gb-optane-zeus;3-fetch;libpng-native.do_fetch;---
+threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;3-fetch;libpng-native.do_fetch;---
+threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;3-fetch;libpng-native.do_fetch;---
+threadripper-3970x-128gb-ubuntu-20.10-gatesgarth-2020-10;3-fetch;libpng-native.do_fetch;---
+threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;3-fetch;libpng-native.do_fetch;---
+threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;3-fetch;libpng-native.do_fetch;---
+threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;3-fetch;libpng-native.do_fetch;---
+threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;3-fetch;libpng-native.do_fetch;---
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;3-fetch;libpng-native.do_fetch;---
+threadripper-3970x-64gb-zeus;3-fetch;libpng-native.do_fetch;---
+threadripper-3990x-128gb-zeus;3-fetch;libpng-native.do_fetch;---
+threadripper-3990x-256gb-zeus;3-fetch;libpng-native.do_fetch;---
+vSphere-VM-28t-55G-zeus;3-fetch;libpng-native.do_fetch;---
+xeon-e3-1275-v5-dunfell;3-fetch;libpng-native.do_fetch;---
 VM-20t-157G-zeus;3-fetch;libsolv.do_fetch;---
 VM-20t-98G-zeus;3-fetch;libsolv.do_fetch;---
 core-i7-4790k-dunfell;3-fetch;libsolv.do_fetch;---
@@ -1605,6 +1730,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;libsolv.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;libsolv.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;libsolv.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;libsolv.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;libsolv.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;libsolv.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;libsolv.do_fetch;456.60
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;libsolv.do_fetch;421.59
@@ -1648,6 +1774,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;libtirpc.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;libtirpc.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;libtirpc.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;libtirpc.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;libtirpc.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;libtirpc.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;libtirpc.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;libtirpc.do_fetch;---
@@ -1691,6 +1818,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;libtirpc-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;libtirpc-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;libtirpc-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;libtirpc-native.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;libtirpc-native.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;libtirpc-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;libtirpc-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;libtirpc-native.do_fetch;---
@@ -1734,6 +1862,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;libtool.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;libtool.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;libtool.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;libtool.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;libtool.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;libtool.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;libtool.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;libtool.do_fetch;---
@@ -1777,6 +1906,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;libxml2.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;libxml2.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;libxml2.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;libxml2.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;libxml2.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;libxml2.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;libxml2.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;libxml2.do_fetch;---
@@ -1820,6 +1950,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;libxml2-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;libxml2-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;libxml2-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;libxml2-native.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;libxml2-native.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;libxml2-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;libxml2-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;libxml2-native.do_fetch;---
@@ -1863,6 +1994,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;linux-libc-headers.do_fetch;-
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;linux-libc-headers.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;linux-libc-headers.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;linux-libc-headers.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;linux-libc-headers.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;linux-libc-headers.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;linux-libc-headers.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;linux-libc-headers.do_fetch;---
@@ -1906,6 +2038,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;linux-yocto.do_fetch;680.50
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;linux-yocto.do_fetch;573.08
 dual-Xeon-Gold-6258R-zeus;3-fetch;linux-yocto.do_fetch;1764.72
 ryzen-5-1600AF-zeus;3-fetch;linux-yocto.do_fetch;834.65
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;linux-yocto.do_fetch;885.01
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;linux-yocto.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;linux-yocto.do_fetch;1735.50
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;linux-yocto.do_fetch;4183.50
@@ -1949,6 +2082,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;llvm-project-source-10.0.0.do
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;llvm-project-source-10.0.0.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;llvm-project-source-10.0.0.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;llvm-project-source-10.0.0.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;llvm-project-source-10.0.0.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;llvm-project-source-10.0.0.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;llvm-project-source-10.0.0.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;llvm-project-source-10.0.0.do_fetch;---
@@ -1992,6 +2126,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;llvm-project-source-10.0.1.do
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;llvm-project-source-10.0.1.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;llvm-project-source-10.0.1.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;llvm-project-source-10.0.1.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;llvm-project-source-10.0.1.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;llvm-project-source-10.0.1.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;llvm-project-source-10.0.1.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;llvm-project-source-10.0.1.do_fetch;---
@@ -2035,6 +2170,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;llvm-project-source-11.0.0.do
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;llvm-project-source-11.0.0.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;llvm-project-source-11.0.0.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;llvm-project-source-11.0.0.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;llvm-project-source-11.0.0.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;llvm-project-source-11.0.0.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;llvm-project-source-11.0.0.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;llvm-project-source-11.0.0.do_fetch;---
@@ -2078,6 +2214,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;llvm-project-source-12.0.0.do
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;llvm-project-source-12.0.0.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;llvm-project-source-12.0.0.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;llvm-project-source-12.0.0.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;llvm-project-source-12.0.0.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;llvm-project-source-12.0.0.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;llvm-project-source-12.0.0.do_fetch;1002.52
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;llvm-project-source-12.0.0.do_fetch;---
@@ -2121,6 +2258,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;llvm-project-source-13.0.0.do
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;llvm-project-source-13.0.0.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;llvm-project-source-13.0.0.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;llvm-project-source-13.0.0.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;llvm-project-source-13.0.0.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;llvm-project-source-13.0.0.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;llvm-project-source-13.0.0.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;llvm-project-source-13.0.0.do_fetch;---
@@ -2164,6 +2302,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;llvm-project-source-14.0.0.do
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;llvm-project-source-14.0.0.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;llvm-project-source-14.0.0.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;llvm-project-source-14.0.0.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;llvm-project-source-14.0.0.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;llvm-project-source-14.0.0.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;llvm-project-source-14.0.0.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;llvm-project-source-14.0.0.do_fetch;---
@@ -2207,6 +2346,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;llvm-project-source-14.0.3.do
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;llvm-project-source-14.0.3.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;llvm-project-source-14.0.3.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;llvm-project-source-14.0.3.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;llvm-project-source-14.0.3.do_fetch;453.78
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;llvm-project-source-14.0.3.do_fetch;869.45
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;llvm-project-source-14.0.3.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;llvm-project-source-14.0.3.do_fetch;---
@@ -2250,6 +2390,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;llvm-project-source-14.0.6.do
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;llvm-project-source-14.0.6.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;llvm-project-source-14.0.6.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;llvm-project-source-14.0.6.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;llvm-project-source-14.0.6.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;llvm-project-source-14.0.6.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;llvm-project-source-14.0.6.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;llvm-project-source-14.0.6.do_fetch;---
@@ -2293,6 +2434,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;llvm-project-source-9.0.1.do_
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;llvm-project-source-9.0.1.do_fetch;784.22
 dual-Xeon-Gold-6258R-zeus;3-fetch;llvm-project-source-9.0.1.do_fetch;442.19
 ryzen-5-1600AF-zeus;3-fetch;llvm-project-source-9.0.1.do_fetch;179.28
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;llvm-project-source-9.0.1.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;llvm-project-source-9.0.1.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;llvm-project-source-9.0.1.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;llvm-project-source-9.0.1.do_fetch;981.43
@@ -2336,6 +2478,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;mdadm.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;mdadm.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;mdadm.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;mdadm.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;mdadm.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;mdadm.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;mdadm.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;mdadm.do_fetch;---
@@ -2379,6 +2522,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;mesa-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;mesa-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;mesa-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;mesa-native.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;mesa-native.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;mesa-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;mesa-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;mesa-native.do_fetch;---
@@ -2422,6 +2566,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;ncurses.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;ncurses.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;ncurses.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;ncurses.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;ncurses.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;ncurses.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;ncurses.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;ncurses.do_fetch;---
@@ -2465,6 +2610,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;nss.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;nss.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;nss.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;nss.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;nss.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;nss.do_fetch;236.47
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;nss.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;nss.do_fetch;---
@@ -2508,6 +2654,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;nss-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;nss-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;nss-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;nss-native.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;nss-native.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;nss-native.do_fetch;213.10
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;nss-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;nss-native.do_fetch;---
@@ -2551,6 +2698,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;perl.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;perl.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;perl.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;perl.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;perl.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;perl.do_fetch;339.64
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;perl.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;perl.do_fetch;---
@@ -2594,6 +2742,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;puzzles.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;puzzles.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;puzzles.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;puzzles.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;puzzles.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;puzzles.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;puzzles.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;puzzles.do_fetch;---
@@ -2637,6 +2786,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;python3.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;python3.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;python3.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;python3.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;python3.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;python3.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;python3.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;python3.do_fetch;---
@@ -2665,6 +2815,50 @@ threadripper-3990x-128gb-zeus;3-fetch;python3.do_fetch;---
 threadripper-3990x-256gb-zeus;3-fetch;python3.do_fetch;---
 vSphere-VM-28t-55G-zeus;3-fetch;python3.do_fetch;---
 xeon-e3-1275-v5-dunfell;3-fetch;python3.do_fetch;---
+VM-20t-157G-zeus;3-fetch;qemu-native.do_fetch;---
+VM-20t-98G-zeus;3-fetch;qemu-native.do_fetch;---
+core-i7-4790k-dunfell;3-fetch;qemu-native.do_fetch;---
+dual-Epyc-7763;3-fetch;qemu-native.do_fetch;---
+dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;3-fetch;qemu-native.do_fetch;---
+dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;3-fetch;qemu-native.do_fetch;---
+dual-Xeon-E5-2670-8-channels-zeus;3-fetch;qemu-native.do_fetch;---
+dual-Xeon-E5-2698-v3-4-channels-zeus;3-fetch;qemu-native.do_fetch;---
+dual-Xeon-E5-2698-v4-4-channels-no-journal-zeus;3-fetch;qemu-native.do_fetch;---
+dual-Xeon-E5-2698-v4-4-channels-tmpfs-zeus;3-fetch;qemu-native.do_fetch;---
+dual-Xeon-E5-2698-v4-4-channels-zeus;3-fetch;qemu-native.do_fetch;---
+dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;qemu-native.do_fetch;---
+dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;qemu-native.do_fetch;---
+dual-Xeon-Gold-6258R-zeus;3-fetch;qemu-native.do_fetch;---
+ryzen-5-1600AF-zeus;3-fetch;qemu-native.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;qemu-native.do_fetch;55.06
+ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;qemu-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-hardknott;3-fetch;qemu-native.do_fetch;---
+ryzen-9-5950x-128gb-docker-zeus;3-fetch;qemu-native.do_fetch;---
+ryzen-9-5950x-zeus;3-fetch;qemu-native.do_fetch;---
+threadripper-2990wx-128gb-zeus;3-fetch;qemu-native.do_fetch;---
+threadripper-3970x-128gb-gentoo-dunfell-2022-07;3-fetch;qemu-native.do_fetch;---
+threadripper-3970x-128gb-gentoo-honister-2021-09;3-fetch;qemu-native.do_fetch;---
+threadripper-3970x-128gb-gentoo-honister-2022-03;3-fetch;qemu-native.do_fetch;---
+threadripper-3970x-128gb-gentoo-kirkstone-2022-03;3-fetch;qemu-native.do_fetch;---
+threadripper-3970x-128gb-gentoo-kirkstone-2022-07;3-fetch;qemu-native.do_fetch;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;3-fetch;qemu-native.do_fetch;---
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;3-fetch;qemu-native.do_fetch;---
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-reg-cpu-pressure;3-fetch;qemu-native.do_fetch;---
+threadripper-3970x-128gb-gentoo-langdale-2022-07;3-fetch;qemu-native.do_fetch;---
+threadripper-3970x-128gb-optane-zeus;3-fetch;qemu-native.do_fetch;---
+threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;3-fetch;qemu-native.do_fetch;---
+threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;3-fetch;qemu-native.do_fetch;---
+threadripper-3970x-128gb-ubuntu-20.10-gatesgarth-2020-10;3-fetch;qemu-native.do_fetch;---
+threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;3-fetch;qemu-native.do_fetch;---
+threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;3-fetch;qemu-native.do_fetch;---
+threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;3-fetch;qemu-native.do_fetch;---
+threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;3-fetch;qemu-native.do_fetch;---
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;3-fetch;qemu-native.do_fetch;---
+threadripper-3970x-64gb-zeus;3-fetch;qemu-native.do_fetch;---
+threadripper-3990x-128gb-zeus;3-fetch;qemu-native.do_fetch;---
+threadripper-3990x-256gb-zeus;3-fetch;qemu-native.do_fetch;---
+vSphere-VM-28t-55G-zeus;3-fetch;qemu-native.do_fetch;---
+xeon-e3-1275-v5-dunfell;3-fetch;qemu-native.do_fetch;---
 VM-20t-157G-zeus;3-fetch;qemu-system-native.do_fetch;---
 VM-20t-98G-zeus;3-fetch;qemu-system-native.do_fetch;---
 core-i7-4790k-dunfell;3-fetch;qemu-system-native.do_fetch;---
@@ -2680,6 +2874,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;qemu-system-native.do_fetch;-
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;qemu-system-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;qemu-system-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;qemu-system-native.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;qemu-system-native.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;qemu-system-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;qemu-system-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;qemu-system-native.do_fetch;---
@@ -2723,6 +2918,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;qtbase.do_fetch;369.19
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;qtbase.do_fetch;529.85
 dual-Xeon-Gold-6258R-zeus;3-fetch;qtbase.do_fetch;187.16
 ryzen-5-1600AF-zeus;3-fetch;qtbase.do_fetch;96.09
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;qtbase.do_fetch;132.79
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;qtbase.do_fetch;196.75
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;qtbase.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;qtbase.do_fetch;---
@@ -2766,6 +2962,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;qtbase-native.do_fetch;369.61
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;qtbase-native.do_fetch;526.85
 dual-Xeon-Gold-6258R-zeus;3-fetch;qtbase-native.do_fetch;188.57
 ryzen-5-1600AF-zeus;3-fetch;qtbase-native.do_fetch;87.89
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;qtbase-native.do_fetch;100.48
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;qtbase-native.do_fetch;192.81
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;qtbase-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;qtbase-native.do_fetch;---
@@ -2809,6 +3006,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;qtdeclarative.do_fetch;263.30
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;qtdeclarative.do_fetch;346.17
 dual-Xeon-Gold-6258R-zeus;3-fetch;qtdeclarative.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;qtdeclarative.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;qtdeclarative.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;qtdeclarative.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;qtdeclarative.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;qtdeclarative.do_fetch;---
@@ -2852,6 +3050,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;qtdeclarative-native.do_fetch
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;qtdeclarative-native.do_fetch;377.94
 dual-Xeon-Gold-6258R-zeus;3-fetch;qtdeclarative-native.do_fetch;74.95
 ryzen-5-1600AF-zeus;3-fetch;qtdeclarative-native.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;qtdeclarative-native.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;qtdeclarative-native.do_fetch;110.32
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;qtdeclarative-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;qtdeclarative-native.do_fetch;---
@@ -2895,6 +3094,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;qtlocation.do_fetch;423.47
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;qtlocation.do_fetch;557.10
 dual-Xeon-Gold-6258R-zeus;3-fetch;qtlocation.do_fetch;209.03
 ryzen-5-1600AF-zeus;3-fetch;qtlocation.do_fetch;111.51
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;qtlocation.do_fetch;140.08
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;qtlocation.do_fetch;241.13
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;qtlocation.do_fetch;442.51
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;qtlocation.do_fetch;375.97
@@ -2938,6 +3138,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;qtmultimedia.do_fetch;202.16
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;qtmultimedia.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;qtmultimedia.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;qtmultimedia.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;qtmultimedia.do_fetch;48.75
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;qtmultimedia.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;qtmultimedia.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;qtmultimedia.do_fetch;---
@@ -2981,6 +3182,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;qtquickcontrols2.do_fetch;200
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;qtquickcontrols2.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;qtquickcontrols2.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;qtquickcontrols2.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;qtquickcontrols2.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;qtquickcontrols2.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;qtquickcontrols2.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;qtquickcontrols2.do_fetch;---
@@ -3024,6 +3226,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;qtwebengine.do_fetch;655.26
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;qtwebengine.do_fetch;798.87
 dual-Xeon-Gold-6258R-zeus;3-fetch;qtwebengine.do_fetch;1335.02
 ryzen-5-1600AF-zeus;3-fetch;qtwebengine.do_fetch;341.24
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;qtwebengine.do_fetch;369.84
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;qtwebengine.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;qtwebengine.do_fetch;872.38
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;qtwebengine.do_fetch;934.81
@@ -3067,6 +3270,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;qtwebkit.do_fetch;288.10
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;qtwebkit.do_fetch;401.57
 dual-Xeon-Gold-6258R-zeus;3-fetch;qtwebkit.do_fetch;102.66
 ryzen-5-1600AF-zeus;3-fetch;qtwebkit.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;qtwebkit.do_fetch;48.56
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;qtwebkit.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;qtwebkit.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;qtwebkit.do_fetch;---
@@ -3110,6 +3314,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;rpm.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;rpm.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;rpm.do_fetch;104.84
 ryzen-5-1600AF-zeus;3-fetch;rpm.do_fetch;166.94
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;rpm.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;rpm.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;rpm.do_fetch;497.96
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;rpm.do_fetch;493.30
@@ -3153,6 +3358,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;rpm-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;rpm-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;rpm-native.do_fetch;102.37
 ryzen-5-1600AF-zeus;3-fetch;rpm-native.do_fetch;93.00
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;rpm-native.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;rpm-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;rpm-native.do_fetch;432.52
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;rpm-native.do_fetch;416.18
@@ -3196,6 +3402,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;rust-llvm-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;rust-llvm-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;rust-llvm-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;rust-llvm-native.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;rust-llvm-native.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;rust-llvm-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;rust-llvm-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;rust-llvm-native.do_fetch;---
@@ -3239,6 +3446,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;rust-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;rust-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;rust-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;rust-native.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;rust-native.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;rust-native.do_fetch;873.58
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;rust-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;rust-native.do_fetch;---
@@ -3282,6 +3490,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;shared-mime-info.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;shared-mime-info.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;shared-mime-info.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;shared-mime-info.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;shared-mime-info.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;shared-mime-info.do_fetch;734.16
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;shared-mime-info.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;shared-mime-info.do_fetch;---
@@ -3325,6 +3534,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;shared-mime-info-native.do_fe
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;shared-mime-info-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;shared-mime-info-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;shared-mime-info-native.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;shared-mime-info-native.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;shared-mime-info-native.do_fetch;734.17
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;shared-mime-info-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;shared-mime-info-native.do_fetch;---
@@ -3368,6 +3578,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;spirv-tools-native.do_fetch;-
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;spirv-tools-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;spirv-tools-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;spirv-tools-native.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;spirv-tools-native.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;spirv-tools-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;spirv-tools-native.do_fetch;474.41
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;spirv-tools-native.do_fetch;---
@@ -3411,6 +3622,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;tcp-wrappers.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;tcp-wrappers.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;tcp-wrappers.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;tcp-wrappers.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;tcp-wrappers.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;tcp-wrappers.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;tcp-wrappers.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;tcp-wrappers.do_fetch;---
@@ -3454,6 +3666,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;virglrenderer-native.do_fetch
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;virglrenderer-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;virglrenderer-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;virglrenderer-native.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;virglrenderer-native.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;virglrenderer-native.do_fetch;128.30
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;virglrenderer-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;virglrenderer-native.do_fetch;---
@@ -3497,6 +3710,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;vulkan-loader.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;vulkan-loader.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;vulkan-loader.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;vulkan-loader.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;vulkan-loader.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;vulkan-loader.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;vulkan-loader.do_fetch;534.78
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;vulkan-loader.do_fetch;518.50
@@ -3540,6 +3754,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;webkitgtk.do_fetch;208.82
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;webkitgtk.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;webkitgtk.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;webkitgtk.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;webkitgtk.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;webkitgtk.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;webkitgtk.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;webkitgtk.do_fetch;---
@@ -3583,6 +3798,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;zstd.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;zstd.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;zstd.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;zstd.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;zstd.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;zstd.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;zstd.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;zstd.do_fetch;---
@@ -3626,6 +3842,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;zstd-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;zstd-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;3-fetch;zstd-native.do_fetch;---
 ryzen-5-1600AF-zeus;3-fetch;zstd-native.do_fetch;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;zstd-native.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;zstd-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;zstd-native.do_fetch;---
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;zstd-native.do_fetch;---
@@ -3669,6 +3886,7 @@ dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;3-fetch;Total;766.71
 dual-Xeon-E5-2699-v3-8-channels-zeus;3-fetch;Total;864.86
 dual-Xeon-Gold-6258R-zeus;3-fetch;Total;1781.53
 ryzen-5-1600AF-zeus;3-fetch;Total;1124.56
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;3-fetch;Total;2778.48
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;3-fetch;Total;4043.64
 ryzen-9-5950x-128gb-docker-hardknott;3-fetch;Total;2224.03
 ryzen-9-5950x-128gb-docker-zeus;3-fetch;Total;4624.87
