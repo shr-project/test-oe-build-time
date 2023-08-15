@@ -6,32 +6,32 @@
 
 git clone git://git.yoctoproject.org/poky
 cd poky
-git checkout -b mickledore 0a98281d37b0bd8dc1548c390216cb3978e36e0e
+git checkout -b nanbield 05affd7d0d143d6fa5c6aff0d40c5d9e046f4b0c
 git am ../0001-runqueue-show-more-pressure-data.patch
 
 git clone https://github.com/meta-qt5/meta-qt5.git
 cd meta-qt5
-git checkout -b mickledore d86e2e82c15d186141713515dfd1373013aaebd5
+git checkout -b nanbield c83b6529359fe21d6825f4fd4c9fdea2f8000a85
 cd ..
 
 git clone https://github.com/OSSystems/meta-browser.git
 cd meta-browser
-git checkout -b mickledore 1f3ccca5678d7cbb221645227ec403aa767c16dd
+git checkout -b nanbield 0f2de2d3ede1388b841642ad5454831db6bda315
 cd ..
 
 git clone https://github.com/openembedded/meta-openembedded.git
 cd meta-openembedded
-git checkout -b mickledore 75cf318cef3b4ee81fad2782cf063ecd69ba8842
+git checkout -b nanbield 491b7592f4408a1d7f32ddfb12b2c1613bcadfe1
 cd ..
 
 git clone https://github.com/kraj/meta-clang.git
 cd meta-clang
-git checkout -b mickledore af4dcba009ba98250315520f3003fde4ee164cce
+git checkout -b nanbield 6df9ffeac401b4074ce7baa0031bfd8bb4010374
 cd ..
 
 git clone git://git.openembedded.org/meta-python2
 cd meta-python2
-git checkout -b mickledore f02882e2aa9279ca7becca8d0cedbffe88b5a253
+git checkout -b nanbield f02882e2aa9279ca7becca8d0cedbffe88b5a253
 echo 'LAYERSERIES_COMPAT_meta-python2 = "mickledore"' >> conf/layer.conf
 cd ..
 
