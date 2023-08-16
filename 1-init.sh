@@ -6,12 +6,13 @@
 
 git clone git://git.yoctoproject.org/poky
 cd poky
-git checkout -b nanbield 05affd7d0d143d6fa5c6aff0d40c5d9e046f4b0c
+git checkout -b nanbield 13734bb520732882a95da7ee6efe1e5b98568acc
 git am ../0001-runqueue-show-more-pressure-data.patch
+git am ../0001-yocto-uninative-Update-to-4.2-for-glibc-2.38.patch
 
 git clone https://github.com/meta-qt5/meta-qt5.git
 cd meta-qt5
-git checkout -b nanbield c83b6529359fe21d6825f4fd4c9fdea2f8000a85
+git checkout -b nanbield 4c389047afdd368d44acc646ee3f22d93941466b
 cd ..
 
 git clone https://github.com/OSSystems/meta-browser.git
