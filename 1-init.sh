@@ -6,13 +6,15 @@
 
 git clone git://git.yoctoproject.org/poky
 cd poky
-git checkout -b kirkstone e4b5c35fd430e1aec8218b4ae4ab51b2b919eec6
+git checkout -b kirkstone e19a76951b61ef7403dd64af844a3cfe16fda118
 # add /proc/pressure collection in buildstats
-git cherry-pick ac162116b3 45f1e9d953 1125adc33b 4678581ea0 6958024ed2 48a6d84de1
+git cherry-pick ac162116b3 45f1e9d953 1125adc33b 4678581ea0 6958024ed2
+# pressure logic fixes and output
+git cherry-pick ba94f9a3b19 24fe236a102 653ff4d85cb 8087c261b06
 
 git clone https://github.com/meta-qt5/meta-qt5.git
 cd meta-qt5
-git checkout -b kirkstone 5b71df60e523423b9df6793de9387f87a149ac42
+git checkout -b kirkstone bff5bd937f0776166e81a63f3dd39ede348ef758
 cd ..
 git clone https://github.com/OSSystems/meta-browser.git
 cd meta-browser
@@ -20,11 +22,11 @@ git checkout -b kirkstone 1f3ccca5678d7cbb221645227ec403aa767c16dd
 cd ..
 git clone https://github.com/openembedded/meta-openembedded.git
 cd meta-openembedded
-git checkout -b kirkstone a47ef046619d639dfbd3be2a13ef6d5b40fd40a1
+git checkout -b kirkstone 529620141e773080a6a7be4615fb7993204af883
 cd ..
 git clone https://github.com/kraj/meta-clang.git
 cd meta-clang
-git checkout -b kirkstone d669d873edf68dc7440bb07096737203bb7ec505
+git checkout -b kirkstone 2d08d6bf376a1e06c53164fd6283b03ec2309da4
 cd ..
 git clone git://git.openembedded.org/meta-python2
 cd meta-python2
