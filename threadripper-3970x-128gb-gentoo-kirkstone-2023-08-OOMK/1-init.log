@@ -1,0 +1,94 @@
+1-init start: 2023-08-30T00:54:33+02:00
+Cloning into 'poky'...
+Switched to a new branch 'kirkstone'
+[kirkstone 205a63e328] buildstats.py: enable collection of /proc/pressure data
+ Author: Aryaman Gupta <aryaman.gupta@windriver.com>
+ Date: Wed Jun 22 15:21:03 2022 -0400
+ 1 file changed, 47 insertions(+), 10 deletions(-)
+Auto-merging scripts/pybootchartgui/pybootchartgui/draw.py
+Auto-merging scripts/pybootchartgui/pybootchartgui/parsing.py
+[kirkstone d240f61008] pybootchartgui: render cpu and io pressure
+ Author: Aryaman Gupta <aryaman.gupta@windriver.com>
+ Date: Wed Jun 22 15:21:04 2022 -0400
+ 3 files changed, 122 insertions(+)
+[kirkstone bad32ba435] buildstats.bbclass: correct sampling of system stats
+ Author: Aryaman Gupta <aryaman.gupta@windriver.com>
+ Date: Wed Jun 22 15:21:05 2022 -0400
+ 2 files changed, 21 insertions(+), 5 deletions(-)
+[kirkstone 29f26077b8] buildstats.py: close /proc/pressure/cpu file descriptor
+ Author: Aryaman Gupta <aryaman.gupta@windriver.com>
+ Date: Wed Jun 29 16:08:20 2022 -0400
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[kirkstone 9ef6927789] buildperf/base.py: skip reduced_proc_pressure directory
+ Author: Aryaman Gupta <aryaman.gupta@windriver.com>
+ Date: Thu Jun 30 14:35:17 2022 -0400
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Auto-merging bitbake/lib/bb/runqueue.py
+[kirkstone 102017007d] bitbake: runqueue: fix PSI check calculation
+ Author: Chen Qi <Qi.Chen@windriver.com>
+ Date: Thu Apr 6 20:07:14 2023 -0700
+ 1 file changed, 9 insertions(+), 4 deletions(-)
+Auto-merging bitbake/lib/bb/runqueue.py
+[kirkstone 2522ccd1d7] bitbake: runqueue: Add pressure change logging
+ Author: Richard Purdie <richard.purdie@linuxfoundation.org>
+ Date: Thu Jul 13 11:50:19 2023 +0100
+ 1 file changed, 4 insertions(+)
+Auto-merging bitbake/lib/bb/runqueue.py
+[kirkstone 0baebf208f] bitbake: runqueue.py: fix PSI check logic
+ Author: Chen Qi <Qi.Chen@windriver.com>
+ Date: Tue Aug 8 16:50:54 2023 +0800
+ 1 file changed, 5 insertions(+), 4 deletions(-)
+Auto-merging bitbake/lib/bb/runqueue.py
+[kirkstone e58acf3b74] bitbake: runqueue: show more pressure data
+ Date: Tue Aug 15 12:00:42 2023 +0200
+ 1 file changed, 10 insertions(+), 8 deletions(-)
+Cloning into 'meta-qt5'...
+Switched to a new branch 'kirkstone'
+Cloning into 'meta-browser'...
+Switched to a new branch 'kirkstone'
+Cloning into 'meta-openembedded'...
+Switched to a new branch 'kirkstone'
+Cloning into 'meta-clang'...
+Switched to a new branch 'kirkstone'
+Cloning into 'meta-python2'...
+Switched to a new branch 'kirkstone'
+You had no conf/local.conf file. This configuration file has therefore been
+created for you from /OE/build/test-oe-build-time/poky/meta-poky/conf/local.conf.sample
+You may wish to edit it to, for example, select a different MACHINE (target
+hardware). See conf/local.conf for more information as common configuration
+options are commented.
+
+You had no conf/bblayers.conf file. This configuration file has therefore been
+created for you from /OE/build/test-oe-build-time/poky/meta-poky/conf/bblayers.conf.sample
+To add additional metadata layers into your configuration please add entries
+to conf/bblayers.conf.
+
+The Yocto Project has extensive documentation about OE including a reference
+manual which can be found at:
+    https://docs.yoctoproject.org
+
+For more information about OpenEmbedded see the website:
+    https://www.openembedded.org/
+
+
+### Shell environment set up for builds. ###
+
+You can now run 'bitbake <target>'
+
+Common targets are:
+    core-image-minimal
+    core-image-full-cmdline
+    core-image-sato
+    core-image-weston
+    meta-toolchain
+    meta-ide-support
+
+You can also run generated qemu images with a command like 'runqemu qemux86'
+
+Other commonly useful commands are:
+ - 'devtool' and 'recipetool' handle common recipe tasks
+ - 'bitbake-layers' handles common layer tasks
+ - 'oe-pkgdata-util' handles common target package tasks
+38.09user 8.05system 0:38.57elapsed 119%CPU (0avgtext+0avgdata 341704maxresident)k
+125768inputs+948464outputs (100major+205367minor)pagefaults 0swaps
+1-init stop:  2023-08-30T00:55:12+02:00
