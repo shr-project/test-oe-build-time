@@ -14,7 +14,7 @@ git cherry-pick ba94f9a3b19 24fe236a102 653ff4d85cb 8087c261b06
 
 git clone https://github.com/meta-qt5/meta-qt5.git
 cd meta-qt5
-git checkout -b kirkstone bff5bd937f0776166e81a63f3dd39ede348ef758
+git checkout -b kirkstone 31930afca79b74e0c788452d71356c1f045e7979
 cd ..
 git clone https://github.com/OSSystems/meta-browser.git
 cd meta-browser
