@@ -1,0 +1,31 @@
+From 0cf9ad8b705d0721b1c8eac0827414627d6a3f7f Mon Sep 17 00:00:00 2001
+From: Richard Purdie <richard.purdie@linuxfoundation.org>
+Date: Thu, 13 Jul 2023 11:50:19 +0100
+Subject: [PATCH] bitbake: runqueue: Add pressure change logging
+
+It is currently hard to tell when bitbake is throttling task execution
+due to system pressure changes. Add notes to the console output to make
+this clearer, only generating output when the values change.
+
+(Bitbake rev: a6056599922fb2fe3f54c5c86ac7ea604f469adc)
+
+Signed-off-by: Richard Purdie <richard.purdie@linuxfoundation.org>
+---
+ bitbake/lib/bb/runqueue.py | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/bitbake/lib/bb/runqueue.py b/bitbake/lib/bb/runqueue.py
+index 569520707b..6672e6022d 100644
+--- a/bitbake/lib/bb/runqueue.py
++++ b/bitbake/lib/bb/runqueue.py
+@@ -207,6 +207,10 @@ class RunQueueScheduler(object):
+                     self.prev_io_pressure = curr_io_pressure
+                     self.prev_memory_pressure = curr_memory_pressure
+                     self.prev_pressure_time = now
++            pressure_state = (exceeds_cpu_pressure, exceeds_io_pressure, exceeds_memory_pressure)
++            if hasattr(self, "pressure_state") and pressure_state != self.pressure_state:
++                bb.note("Pressure status changed to CPU: %s, IO: %s, Mem: %s" % pressure_state)
++            self.pressure_state = pressure_state
+             return (exceeds_cpu_pressure or exceeds_io_pressure or exceeds_memory_pressure)
+         return False
+ 

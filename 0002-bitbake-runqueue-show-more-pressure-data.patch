@@ -1,0 +1,35 @@
+From 501a4ccdbe1e819243d8cf503e72d1083930d9b7 Mon Sep 17 00:00:00 2001
+From: Martin Jansa <Martin.Jansa@gmail.com>
+Date: Tue, 15 Aug 2023 12:00:42 +0200
+Subject: [PATCH] bitbake: runqueue: show more pressure data
+
+* with latest bitbake I'm seeing very low number of bitbake tasks
+  executed in parallel, probably due to pressure regulation
+  show the values this is based on in the note
+
+* also simplify a bit by counting the pressure and exceeds signs
+  only once
+
+(Bitbake rev: 21c17968f801e406ef7f328656587fadd9ef7f5d)
+
+Signed-off-by: Martin Jansa <Martin.Jansa@gmail.com>
+Signed-off-by: Richard Purdie <richard.purdie@linuxfoundation.org>
+---
+ bitbake/lib/bb/runqueue.py | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/bitbake/lib/bb/runqueue.py b/bitbake/lib/bb/runqueue.py
+index 6672e6022d..6038d49738 100644
+--- a/bitbake/lib/bb/runqueue.py
++++ b/bitbake/lib/bb/runqueue.py
+@@ -208,8 +208,9 @@ class RunQueueScheduler(object):
+                     self.prev_memory_pressure = curr_memory_pressure
+                     self.prev_pressure_time = now
+             pressure_state = (exceeds_cpu_pressure, exceeds_io_pressure, exceeds_memory_pressure)
++            pressure_values = (round(cpu_pressure,1), self.rq.max_cpu_pressure, round(io_pressure,1), self.rq.max_io_pressure, round(memory_pressure,1), self.rq.max_memory_pressure)
+             if hasattr(self, "pressure_state") and pressure_state != self.pressure_state:
+-                bb.note("Pressure status changed to CPU: %s, IO: %s, Mem: %s" % pressure_state)
++                bb.note("Pressure status changed to CPU: %s, IO: %s, Mem: %s (CPU: %s/%s, IO: %s/%s, Mem: %s/%s)" % (pressure_state + pressure_values))
+             self.pressure_state = pressure_state
+             return (exceeds_cpu_pressure or exceeds_io_pressure or exceeds_memory_pressure)
+         return False

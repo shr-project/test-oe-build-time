@@ -1,0 +1,104 @@
+From 6638aa749cc9a54adf7b5dde55f4b94d4b7e2fb7 Mon Sep 17 00:00:00 2001
+From: Martin Jansa <Martin.Jansa@gmail.com>
+Date: Wed, 30 Aug 2023 10:26:02 +0200
+Subject: [PATCH] libdnf: backport a fix to build with gcc-13
+
+* needed to build libdnf-native on hosts with gcc-13
+
+Signed-off-by: Martin Jansa <Martin.Jansa@gmail.com>
+---
+ ...ite3-Sqlite3.hpp-add-missing-cstdint.patch | 33 +++++++++++++++++++
+ ...onNumber.hpp-add-missing-cstdint-inc.patch | 30 +++++++++++++++++
+ meta/recipes-devtools/libdnf/libdnf_0.66.0.bb |  2 ++
+ 3 files changed, 65 insertions(+)
+ create mode 100644 meta/recipes-devtools/libdnf/libdnf/0001-libdnf-utils-sqlite3-Sqlite3.hpp-add-missing-cstdint.patch
+ create mode 100644 meta/recipes-devtools/libdnf/libdnf/0002-libdnf-conf-OptionNumber.hpp-add-missing-cstdint-inc.patch
+
+diff --git a/meta/recipes-devtools/libdnf/libdnf/0001-libdnf-utils-sqlite3-Sqlite3.hpp-add-missing-cstdint.patch b/meta/recipes-devtools/libdnf/libdnf/0001-libdnf-utils-sqlite3-Sqlite3.hpp-add-missing-cstdint.patch
+new file mode 100644
+index 0000000000..8bd63ebaae
+--- /dev/null
++++ b/meta/recipes-devtools/libdnf/libdnf/0001-libdnf-utils-sqlite3-Sqlite3.hpp-add-missing-cstdint.patch
+@@ -0,0 +1,33 @@
++From 4413d3f62f0abba02ba73de92025da50e37efad0 Mon Sep 17 00:00:00 2001
++From: Sergei Trofimovich <slyich@gmail.com>
++Date: Fri, 27 May 2022 22:12:07 +0100
++Subject: [PATCH] libdnf/utils/sqlite3/Sqlite3.hpp: add missing <cstdint>
++ include
++
++Without the change libdnf build fails on this week's gcc-13 snapshot as:
++
++    In file included from /build/libdnf/libdnf/sack/../transaction/Swdb.hpp:38,
++                     from /build/libdnf/libdnf/sack/query.hpp:32,
++                     from /build/libdnf/libdnf/dnf-sack-private.hpp:31,
++                     from /build/libdnf/libdnf/hy-iutil.cpp:60:
++    /build/libdnf/libdnf/sack/../transaction/../utils/sqlite3/Sqlite3.hpp:100:33: error: 'std::int64_t' has not been declared
++      100 |         void bind(int pos, std::int64_t val)
++          |                                 ^~~~~~~
++
++Upstream-Status: Backport [v0.68.0 https://github.com/rpm-software-management/libdnf/commit/24b5d7f154cac9e322dd3459f6d0a5016abbbb57]
++---
++ libdnf/utils/sqlite3/Sqlite3.hpp | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/libdnf/utils/sqlite3/Sqlite3.hpp b/libdnf/utils/sqlite3/Sqlite3.hpp
++index 3a7da23c..0403bb33 100644
++--- a/libdnf/utils/sqlite3/Sqlite3.hpp
+++++ b/libdnf/utils/sqlite3/Sqlite3.hpp
++@@ -27,6 +27,7 @@
++ 
++ #include <sqlite3.h>
++ 
+++#include <cstdint>
++ #include <map>
++ #include <memory>
++ #include <stdexcept>
+diff --git a/meta/recipes-devtools/libdnf/libdnf/0002-libdnf-conf-OptionNumber.hpp-add-missing-cstdint-inc.patch b/meta/recipes-devtools/libdnf/libdnf/0002-libdnf-conf-OptionNumber.hpp-add-missing-cstdint-inc.patch
+new file mode 100644
+index 0000000000..b2bd6877b5
+--- /dev/null
++++ b/meta/recipes-devtools/libdnf/libdnf/0002-libdnf-conf-OptionNumber.hpp-add-missing-cstdint-inc.patch
+@@ -0,0 +1,30 @@
++From 12582624bb5e25b84124dcd3b35b358ad56ba2ec Mon Sep 17 00:00:00 2001
++From: Sergei Trofimovich <slyich@gmail.com>
++Date: Fri, 27 May 2022 22:13:48 +0100
++Subject: [PATCH] libdnf/conf/OptionNumber.hpp: add missing <cstdint> include
++
++Without the change libdnf build fails on this week's gcc-13 snapshot as:
++
++    In file included from /build/libdnf/libdnf/conf/ConfigMain.hpp:29,
++                     from /build/libdnf/libdnf/conf/ConfigMain.cpp:21:
++    /build/libdnf/libdnf/conf/OptionNumber.hpp:94:41: error: 'int32_t' is not a member of 'std'; did you mean 'int32_t'?
++       94 | extern template class OptionNumber<std::int32_t>;
++          |                                         ^~~~~~~
++
++Upstream-Status: Backport [v0.68.0 https://github.com/rpm-software-management/libdnf/commit/f8af6399c4f6a65a35d33ecc191bb14094dc9e18]
++---
++ libdnf/conf/OptionNumber.hpp | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/libdnf/conf/OptionNumber.hpp b/libdnf/conf/OptionNumber.hpp
++index f7a7b3d6e..a3a4dea67 100644
++--- a/libdnf/conf/OptionNumber.hpp
+++++ b/libdnf/conf/OptionNumber.hpp
++@@ -25,6 +25,7 @@
++ 
++ #include "Option.hpp"
++ 
+++#include <cstdint>
++ #include <functional>
++ 
++ namespace libdnf {
+diff --git a/meta/recipes-devtools/libdnf/libdnf_0.66.0.bb b/meta/recipes-devtools/libdnf/libdnf_0.66.0.bb
+index 2558f96851..9154414212 100644
+--- a/meta/recipes-devtools/libdnf/libdnf_0.66.0.bb
++++ b/meta/recipes-devtools/libdnf/libdnf_0.66.0.bb
+@@ -11,6 +11,8 @@ SRC_URI = "git://github.com/rpm-software-management/libdnf;branch=dnf-4-master;p
+            file://enable_test_data_dir_set.patch \
+            file://0001-drop-FindPythonInstDir.cmake.patch \
+            file://0001-libdnf-dnf-context.cpp-do-not-try-to-access-BDB-data.patch \
++           file://0001-libdnf-utils-sqlite3-Sqlite3.hpp-add-missing-cstdint.patch \
++           file://0002-libdnf-conf-OptionNumber.hpp-add-missing-cstdint-inc.patch \
+            "
+ 
+ SRCREV = "add5d5418b140a86d08667dd2b14793093984875"
