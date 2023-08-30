@@ -6,8 +6,7 @@
 
 git clone git://git.yoctoproject.org/poky
 cd poky
-git checkout -b nanbield b08a06a5bb4a862c00d8273d5c57fa847fdedb00
-git am ../0001-runqueue-show-more-pressure-data.patch
+git checkout -b nanbield b6469ed7d6fbc9950f1719987102a432febc1cee
 
 git clone https://github.com/meta-qt5/meta-qt5.git
 cd meta-qt5
