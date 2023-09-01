@@ -1,4 +1,4 @@
-From 501a4ccdbe1e819243d8cf503e72d1083930d9b7 Mon Sep 17 00:00:00 2001
+From 837d015c7dbf241d79704d4ab992e9c698e073e8 Mon Sep 17 00:00:00 2001
 From: Martin Jansa <Martin.Jansa@gmail.com>
 Date: Tue, 15 Aug 2023 12:00:42 +0200
 Subject: [PATCH] bitbake: runqueue: show more pressure data
@@ -15,16 +15,41 @@ Subject: [PATCH] bitbake: runqueue: show more pressure data
 Signed-off-by: Martin Jansa <Martin.Jansa@gmail.com>
 Signed-off-by: Richard Purdie <richard.purdie@linuxfoundation.org>
 ---
- bitbake/lib/bb/runqueue.py | 3 ++-
- 1 file changed, 2 insertions(+), 1 deletion(-)
+ bitbake/lib/bb/runqueue.py | 27 +++++++++++++++++----------
+ 1 file changed, 17 insertions(+), 10 deletions(-)
 
 diff --git a/bitbake/lib/bb/runqueue.py b/bitbake/lib/bb/runqueue.py
-index 6672e6022d..6038d49738 100644
+index 6672e6022d..0beb50c049 100644
 --- a/bitbake/lib/bb/runqueue.py
 +++ b/bitbake/lib/bb/runqueue.py
-@@ -208,8 +208,9 @@ class RunQueueScheduler(object):
-                     self.prev_memory_pressure = curr_memory_pressure
-                     self.prev_pressure_time = now
+@@ -198,18 +198,25 @@ class RunQueueScheduler(object):
+                 curr_cpu_pressure = cpu_pressure_fds.readline().split()[4].split("=")[1]
+                 curr_io_pressure = io_pressure_fds.readline().split()[4].split("=")[1]
+                 curr_memory_pressure = memory_pressure_fds.readline().split()[4].split("=")[1]
+-                exceeds_cpu_pressure =  self.rq.max_cpu_pressure and (float(curr_cpu_pressure) - float(self.prev_cpu_pressure)) > self.rq.max_cpu_pressure
+-                exceeds_io_pressure =  self.rq.max_io_pressure and (float(curr_io_pressure) - float(self.prev_io_pressure)) > self.rq.max_io_pressure
+-                exceeds_memory_pressure = self.rq.max_memory_pressure and (float(curr_memory_pressure) - float(self.prev_memory_pressure)) > self.rq.max_memory_pressure
+-                now = time.time()
+-                if now - self.prev_pressure_time > 1.0:
+-                    self.prev_cpu_pressure = curr_cpu_pressure
+-                    self.prev_io_pressure = curr_io_pressure
+-                    self.prev_memory_pressure = curr_memory_pressure
+-                    self.prev_pressure_time = now
++
++            cpu_pressure = (float(curr_cpu_pressure) - float(self.prev_cpu_pressure))
++            io_pressure = (float(curr_io_pressure) - float(self.prev_io_pressure))
++            memory_pressure = (float(curr_memory_pressure) - float(self.prev_memory_pressure))
++
++            exceeds_cpu_pressure =  self.rq.max_cpu_pressure and cpu_pressure > self.rq.max_cpu_pressure
++            exceeds_io_pressure =  self.rq.max_io_pressure and io_pressure > self.rq.max_io_pressure
++            exceeds_memory_pressure =  self.rq.max_memory_pressure and memory_pressure > self.rq.max_memory_pressure
++
++            now = time.time()
++            if now - self.prev_pressure_time > 1.0:
++                self.prev_cpu_pressure = curr_cpu_pressure
++                self.prev_io_pressure = curr_io_pressure
++                self.prev_memory_pressure = curr_memory_pressure
++                self.prev_pressure_time = now
              pressure_state = (exceeds_cpu_pressure, exceeds_io_pressure, exceeds_memory_pressure)
 +            pressure_values = (round(cpu_pressure,1), self.rq.max_cpu_pressure, round(io_pressure,1), self.rq.max_io_pressure, round(memory_pressure,1), self.rq.max_memory_pressure)
              if hasattr(self, "pressure_state") and pressure_state != self.pressure_state:

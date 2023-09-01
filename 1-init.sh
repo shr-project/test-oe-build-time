@@ -12,6 +12,7 @@ git cherry-pick ac162116b3 45f1e9d953 1125adc33b 4678581ea0 6958024ed2
 # pressure changes in output
 git am ../0001-bitbake-runqueue-Add-pressure-change-logging.patch
 git am ../0002-bitbake-runqueue-show-more-pressure-data.patch
+git am ../0003-runqueue-show-number-of-currently-running-bitbake-th.patch
 # gcc-13 fix
 git am ../0003-libdnf-backport-a-fix-to-build-with-gcc-13.patch
 
