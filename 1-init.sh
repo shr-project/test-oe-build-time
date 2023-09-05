@@ -6,7 +6,7 @@
 
 git clone git://git.yoctoproject.org/poky
 cd poky
-git checkout -b nanbield b6469ed7d6fbc9950f1719987102a432febc1cee
+git checkout -b nanbield 733afeffd19a2ae3af34abe95e514cb4b99cd366
 
 git clone https://github.com/meta-qt5/meta-qt5.git
 cd meta-qt5
