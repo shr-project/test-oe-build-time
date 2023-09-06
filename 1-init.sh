@@ -20,7 +20,7 @@ cd ..
 
 git clone https://github.com/openembedded/meta-openembedded.git
 cd meta-openembedded
-git checkout -b nanbield 491b7592f4408a1d7f32ddfb12b2c1613bcadfe1
+git checkout -b nanbield b74b10e31620f90b92979e2f1516bfbc8d051ec2
 cd ..
 
 git clone https://github.com/kraj/meta-clang.git
