@@ -86,6 +86,8 @@ threadripper-3970x-128gb-gentoo-kirkstone-2023-08-with-reg-cpu-pressure-100K-chp
 threadripper-3970x-128gb-gentoo-kirkstone-2023-08-with-reg-cpu-pressure-100K-chp-logic-fixes;3-fetch;1.69;0.12;0:57.37;3;0;0;46080;0;504;0;18901;0
 threadripper-3970x-128gb-gentoo-kirkstone-2023-08-with-reg-cpu-pressure-100K;2-build-test;0.83;0.04;0:55.84;1;0;0;45568;52336;256;250;18912;0
 threadripper-3970x-128gb-gentoo-kirkstone-2023-08-with-reg-cpu-pressure-100K;3-fetch;2.13;0.58;4:49.09;0;0;0;45568;65128;75400;0;19126;0
+threadripper-3970x-128gb-gentoo-kirkstone-2023-08-with-reg-cpu-pressure-1K-chp-logic-fixes;2-build-test;0.78;0.06;0:52.28;1;0;0;48128;8760;264;5;19198;0
+threadripper-3970x-128gb-gentoo-kirkstone-2023-08-with-reg-cpu-pressure-1K-chp-logic-fixes;3-fetch;1.63;0.10;0:34.41;5;0;0;48640;0;472;0;19090;0
 threadripper-3970x-128gb-gentoo-kirkstone-2023-08-with-reg-cpu-pressure-1K;2-build-test;0.84;0.06;0:57.28;1;0;0;45056;65352;256;298;18903;0
 threadripper-3970x-128gb-gentoo-kirkstone-2023-08-with-reg-cpu-pressure-1K;3-fetch;1.84;0.55;3:06.80;1;0;0;45568;78472;76152;0;19103;0
 threadripper-3970x-128gb-gentoo-langdale-2022-05;1-init;17.06;9.56;1:36.99;27;0;0;351888;704;777264;7;187855;0
@@ -99,9 +101,13 @@ threadripper-3970x-128gb-gentoo-langdale-2022-07-with-reg-cpu-pressure;3-fetch;1
 threadripper-3970x-128gb-gentoo-langdale-2022-07;1-init;35.28;7.61;1:25.96;49;0;0;374436;7280;778952;13;195277;0
 threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;1.36;0.08;1:03.08;2;0;0;52692;11200;5192;55;22762;0
 threadripper-3970x-128gb-gentoo-langdale-2022-07;3-fetch;10.01;0.85;46:26.30;0;0;0;47200;8;976;0;19790;0
-threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff;1-init;38.10;5.34;0:42.26;102;0;0;350736;62824;845976;206;185181;0
-threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff;2-build-test;1.84;0.09;2:10.58;1;0;0;51712;39160;5984;177;22568;0
-threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff;3-fetch;4.94;0.28;11:27.57;0;0;0;50176;0;1680;0;20561;0
+threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-100K-disk;2-build-test;0.91;0.05;1:15.92;1;0;0;48128;0;280;0;19808;0
+threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-100K-disk;3-fetch;3.83;0.25;3:36.03;1;0;0;48128;0;840;0;19667;0
+threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-100K;2-build-test;0.92;0.08;1:19.45;1;0;0;48128;52576;304;243;19675;0
+threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-100K;3-fetch;3.74;0.18;4:03.74;1;0;0;48128;0;1016;0;19660;0
+threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K;1-init;38.10;5.34;0:42.26;102;0;0;350736;62824;845976;206;185181;0
+threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K;2-build-test;1.84;0.09;2:10.58;1;0;0;51712;39160;5984;177;22568;0
+threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K;3-fetch;4.94;0.28;11:27.57;0;0;0;50176;0;1680;0;20561;0
 threadripper-3970x-128gb-optane-zeus;1-init;14.61;2.73;0:37.71;46;0;0;139108;320;679776;0;123812;0
 threadripper-3970x-128gb-optane-zeus;2-build-test;0.36;0.04;0:29.73;1;0;0;32344;584;2688;0;20553;0
 threadripper-3970x-128gb-optane-zeus;3-fetch;1.95;0.26;3:12.13;1;0;0;29348;0;432;0;13916;0
