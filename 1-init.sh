@@ -9,15 +9,10 @@ cd poky
 git checkout -b kirkstone e19a76951b61ef7403dd64af844a3cfe16fda118
 # add /proc/pressure collection in buildstats
 git cherry-pick ac162116b3 45f1e9d953 1125adc33b 4678581ea0 6958024ed2
-# pressure changes in output
-git am ../0001-bitbake-runqueue-Add-pressure-change-logging.patch
-git am ../0002-bitbake-runqueue-show-more-pressure-data.patch
-git am ../0003-runqueue-show-number-of-currently-running-bitbake-th.patch
+# complete pressure logic fixes and output:
+git cherry-pick ba94f9a3b19 24fe236a102 653ff4d85cb 8087c261b06 7e6d7315f9
 # gcc-13 fix
 git am ../0003-libdnf-backport-a-fix-to-build-with-gcc-13.patch
-
-# complete pressure logic fixes and output:
-# git cherry-pick ba94f9a3b19 24fe236a102 653ff4d85cb 8087c261b06
 
 git clone https://github.com/meta-qt5/meta-qt5.git
 cd meta-qt5
