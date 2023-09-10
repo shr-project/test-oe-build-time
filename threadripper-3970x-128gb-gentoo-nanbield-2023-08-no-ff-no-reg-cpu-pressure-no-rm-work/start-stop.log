@@ -1,0 +1,24 @@
+0.00user 0.00system 0:00.00elapsed 87%CPU (0avgtext+0avgdata 1024maxresident)k
+0inputs+0outputs (0major+93minor)pagefaults 0swaps
+2-build-test start: 2023-09-10T03:25:16+02:00
+2-build-test stop:  2023-09-10T03:26:26+02:00
+0.00user 0.13system 0:00.13elapsed 97%CPU (0avgtext+0avgdata 1536maxresident)k
+0inputs+17016outputs (0major+143minor)pagefaults 0swaps
+3-fetch start: 2023-09-10T03:26:26+02:00
+3-fetch stop:  2023-09-10T03:27:24+02:00
+0.00user 0.22system 0:00.24elapsed 95%CPU (0avgtext+0avgdata 1536maxresident)k
+0inputs+424outputs (0major+154minor)pagefaults 0swaps
+4-build-all-cores start: 2023-09-10T03:27:24+02:00
+4-build-all-cores stop:  2023-09-10T06:00:13+02:00
+3.70user 115.98system 2:57.19elapsed 67%CPU (0avgtext+0avgdata 20444maxresident)k
+7799072inputs+16315136outputs (0major+6391minor)pagefaults 0swaps
+5-build-8-bb-threads start: 2023-09-10T06:03:12+02:00
+5-build-8-bb-threads stop:  2023-09-10T08:42:17+02:00
+3.85user 123.28system 3:26.00elapsed 61%CPU (0avgtext+0avgdata 20480maxresident)k
+10496624inputs+15148920outputs (0major+5409minor)pagefaults 0swaps
+6-build-16-bb-threads start: 2023-09-10T08:45:44+02:00
+6-build-16-bb-threads stop:  2023-09-10T11:16:58+02:00
+4.10user 126.12system 3:39.38elapsed 59%CPU (0avgtext+0avgdata 20876maxresident)k
+11823808inputs+16433792outputs (0major+7716minor)pagefaults 0swaps
+7-build-2-bb-threads start: 2023-09-10T11:20:39+02:00
+7-build-2-bb-threads stop:  2023-09-10T15:43:44+02:00
