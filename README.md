@@ -17,3 +17,5 @@ https://docs.google.com/spreadsheets/d/1qtpACcUO0T1bhHPZxDQFvtYEesNTTfxuvFYFdU8k
 
 and the html version:
 https://docs.google.com/spreadsheets/d/e/2PACX-1vSQmFvqik7MRumLafiZgwjE3IMLLcQY-71F3zNz9GuG8uzRb5FIp97uUqq6Qh3qWXQEWRK7Y9Hv2nXt/pubhtml#
+
+[Various load graphs can be found in this list](Graphs.md)
