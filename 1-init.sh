@@ -1,37 +1,37 @@
 #!/bin/sh
 
-# Clones the metadata (reference DISTRO poky + meta-qt5 for bigger components like qtwebengin)
+# Clones the metadata (reference DISTRO poky + meta-qt5 for bigger components like qtwebengine)
 # Adds extra package to be built and installed in core-image-sato image
 # And sets qemux86-64 target MACHINE
 
 git clone git://git.yoctoproject.org/poky
 cd poky
-git checkout -b nanbield 733afeffd19a2ae3af34abe95e514cb4b99cd366
+git checkout -b nanbield 7b8aa378d069ee31373f22caba3bd7fc7863f447
 
 git clone https://github.com/meta-qt5/meta-qt5.git
 cd meta-qt5
-git checkout -b nanbield 4c389047afdd368d44acc646ee3f22d93941466b
+git checkout -b nanbield b8e1ae8ce6140f6084388842751280b55d55988b
 cd ..
 
 git clone https://github.com/OSSystems/meta-browser.git
 cd meta-browser
-git checkout -b nanbield 0f2de2d3ede1388b841642ad5454831db6bda315
+git checkout -b nanbield 81d037b8650a73339dab97ceba9917b1f31ca652
 cd ..
 
 git clone https://github.com/openembedded/meta-openembedded.git
 cd meta-openembedded
-git checkout -b nanbield b74b10e31620f90b92979e2f1516bfbc8d051ec2
+git checkout -b nanbield da9063bdfbe130f424ba487f167da68e0ce90e7d
 cd ..
 
 git clone https://github.com/kraj/meta-clang.git
 cd meta-clang
-git checkout -b nanbield 6df9ffeac401b4074ce7baa0031bfd8bb4010374
+git checkout -b nanbield b71a45630d19f210079f42f6394cdde65195fb84
 cd ..
 
 git clone git://git.openembedded.org/meta-python2
 cd meta-python2
 git checkout -b nanbield f02882e2aa9279ca7becca8d0cedbffe88b5a253
-echo 'LAYERSERIES_COMPAT_meta-python2 = "mickledore"' >> conf/layer.conf
+echo 'LAYERSERIES_COMPAT_meta-python2 = "nanbield"' >> conf/layer.conf
 cd ..
 
 . ./oe-init-build-env
