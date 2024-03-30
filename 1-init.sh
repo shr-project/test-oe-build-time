@@ -6,32 +6,32 @@
 
 git clone git://git.yoctoproject.org/poky
 cd poky
-git checkout -b nanbield 7b8aa378d069ee31373f22caba3bd7fc7863f447
+git checkout -b scarthgap ae7056844aa05a239384335a66684394e10290a6
 
 git clone https://github.com/meta-qt5/meta-qt5.git
 cd meta-qt5
-git checkout -b nanbield b8e1ae8ce6140f6084388842751280b55d55988b
+git checkout -b scarthgap b8e1ae8ce6140f6084388842751280b55d55988b
 cd ..
 
 git clone https://github.com/OSSystems/meta-browser.git
 cd meta-browser
-git checkout -b nanbield 81d037b8650a73339dab97ceba9917b1f31ca652
+git checkout -b scarthgap 81d037b8650a73339dab97ceba9917b1f31ca652
 cd ..
 
 git clone https://github.com/openembedded/meta-openembedded.git
 cd meta-openembedded
-git checkout -b nanbield da9063bdfbe130f424ba487f167da68e0ce90e7d
+git checkout -b scarthgap b29e413d92135ba2d25ed53cea09e45a596f4bf1
 cd ..
 
 git clone https://github.com/kraj/meta-clang.git
 cd meta-clang
-git checkout -b nanbield b71a45630d19f210079f42f6394cdde65195fb84
+git checkout -b scarthgap 73c00a5a0bebc871854e43cc1f0fe5bd5e5ad1d7
 cd ..
 
 git clone git://git.openembedded.org/meta-python2
 cd meta-python2
-git checkout -b nanbield f02882e2aa9279ca7becca8d0cedbffe88b5a253
-echo 'LAYERSERIES_COMPAT_meta-python2 = "nanbield"' >> conf/layer.conf
+git checkout -b scarthgap f02882e2aa9279ca7becca8d0cedbffe88b5a253
+echo 'LAYERSERIES_COMPAT_meta-python2 = "scarthgap"' >> conf/layer.conf
 cd ..
 
 . ./oe-init-build-env
