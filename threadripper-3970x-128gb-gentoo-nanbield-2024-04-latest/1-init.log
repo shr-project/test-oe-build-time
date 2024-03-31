@@ -1,0 +1,52 @@
+1-init start: 2024-03-29T20:45:08+01:00
+Cloning into 'poky'...
+Switched to a new branch 'nanbield'
+Cloning into 'meta-qt5'...
+Switched to a new branch 'nanbield'
+Cloning into 'meta-browser'...
+Switched to a new branch 'nanbield'
+Cloning into 'meta-openembedded'...
+Switched to a new branch 'nanbield'
+Cloning into 'meta-clang'...
+Switched to a new branch 'nanbield'
+Cloning into 'meta-python2'...
+Switched to a new branch 'nanbield'
+You had no conf/local.conf file. This configuration file has therefore been
+created for you from /OE/build/test-oe-build-time/poky/meta-poky/conf/templates/default/local.conf.sample
+You may wish to edit it to, for example, select a different MACHINE (target
+hardware).
+
+You had no conf/bblayers.conf file. This configuration file has therefore been
+created for you from /OE/build/test-oe-build-time/poky/meta-poky/conf/templates/default/bblayers.conf.sample
+To add additional metadata layers into your configuration please add entries
+to conf/bblayers.conf.
+
+The Yocto Project has extensive documentation about OE including a reference
+manual which can be found at:
+    https://docs.yoctoproject.org
+
+For more information about OpenEmbedded see the website:
+    https://www.openembedded.org/
+
+
+### Shell environment set up for builds. ###
+
+You can now run 'bitbake <target>'
+
+Common targets are:
+    core-image-minimal
+    core-image-full-cmdline
+    core-image-sato
+    core-image-weston
+    meta-toolchain
+    meta-ide-support
+
+You can also run generated qemu images with a command like 'runqemu qemux86-64'.
+
+Other commonly useful commands are:
+ - 'devtool' and 'recipetool' handle common recipe tasks
+ - 'bitbake-layers' handles common layer tasks
+ - 'oe-pkgdata-util' handles common target package tasks
+42.06user 6.91system 0:38.93elapsed 125%CPU (0avgtext+0avgdata 342320maxresident)k
+25200inputs+954480outputs (63major+198369minor)pagefaults 0swaps
+1-init stop:  2024-03-29T20:45:47+01:00
