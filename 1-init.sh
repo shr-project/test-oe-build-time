@@ -6,26 +6,26 @@
 
 git clone git://git.yoctoproject.org/poky
 cd poky
-git checkout -b scarthgap ae7056844aa05a239384335a66684394e10290a6
+git checkout -b scarthgap 83793ccd865e3e72563e6d5733b6bd02943feb8a
 
 git clone https://github.com/meta-qt5/meta-qt5.git
 cd meta-qt5
-git checkout -b scarthgap b8e1ae8ce6140f6084388842751280b55d55988b
+git checkout -b scarthgap eb828418264a49b8d00035cb3d7b12fcea3be801
 cd ..
 
 git clone https://github.com/OSSystems/meta-browser.git
 cd meta-browser
-git checkout -b scarthgap 81d037b8650a73339dab97ceba9917b1f31ca652
+git checkout -b scarthgap 1ed2254d72a4c25879014c98be287a7e3e22904c
 cd ..
 
 git clone https://github.com/openembedded/meta-openembedded.git
 cd meta-openembedded
-git checkout -b scarthgap b29e413d92135ba2d25ed53cea09e45a596f4bf1
+git checkout -b scarthgap 4a7bb77f7ebe0ac8be5bab5103d8bd993e17e18d
 cd ..
 
 git clone https://github.com/kraj/meta-clang.git
 cd meta-clang
-git checkout -b scarthgap 73c00a5a0bebc871854e43cc1f0fe5bd5e5ad1d7
+git checkout -b scarthgap e7dceb1c92caf7f21ef1d7b49c85328c30cffd90
 cd ..
 
 git clone git://git.openembedded.org/meta-python2
