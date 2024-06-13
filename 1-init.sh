@@ -7,6 +7,8 @@
 git clone git://git.yoctoproject.org/poky
 cd poky
 git checkout -b scarthgap 83793ccd865e3e72563e6d5733b6bd02943feb8a
+# to fix build on host with gcc-14
+git cherry-pick 31b4ec9fd6 b77236fdeb
 
 git clone https://github.com/meta-qt5/meta-qt5.git
 cd meta-qt5
