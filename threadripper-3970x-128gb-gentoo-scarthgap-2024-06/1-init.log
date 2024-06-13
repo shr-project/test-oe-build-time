@@ -1,0 +1,57 @@
+1-init start: 2024-06-12T19:07:20+02:00
+Cloning into 'poky'...
+Updating files:  86% (4815/5536)Updating files:  87% (4817/5536)Updating files:  88% (4872/5536)Updating files:  89% (4928/5536)Updating files:  90% (4983/5536)Updating files:  91% (5038/5536)Updating files:  92% (5094/5536)Updating files:  93% (5149/5536)Updating files:  94% (5204/5536)Updating files:  95% (5260/5536)Updating files:  96% (5315/5536)Updating files:  97% (5370/5536)Updating files:  98% (5426/5536)Updating files:  99% (5481/5536)Updating files: 100% (5536/5536)Updating files: 100% (5536/5536), done.
+Switched to a new branch 'scarthgap'
+Cloning into 'meta-qt5'...
+Switched to a new branch 'scarthgap'
+Cloning into 'meta-browser'...
+Switched to a new branch 'scarthgap'
+Cloning into 'meta-openembedded'...
+Updating files:  52% (3461/6621)Updating files:  53% (3510/6621)Updating files:  54% (3576/6621)Updating files:  55% (3642/6621)Updating files:  56% (3708/6621)Updating files:  57% (3774/6621)Updating files:  58% (3841/6621)Updating files:  59% (3907/6621)Updating files:  60% (3973/6621)Updating files:  61% (4039/6621)Updating files:  62% (4106/6621)Updating files:  63% (4172/6621)Updating files:  64% (4238/6621)Updating files:  65% (4304/6621)Updating files:  66% (4370/6621)Updating files:  67% (4437/6621)Updating files:  68% (4503/6621)Updating files:  69% (4569/6621)Updating files:  70% (4635/6621)Updating files:  71% (4701/6621)Updating files:  72% (4768/6621)Updating files:  73% (4834/6621)Updating files:  74% (4900/6621)Updating files:  75% (4966/6621)Updating files:  76% (5032/6621)Updating files:  77% (5099/6621)Updating files:  78% (5165/6621)Updating files:  79% (5231/6621)Updating files:  80% (5297/6621)Updating files:  81% (5364/6621)Updating files:  82% (5430/6621)Updating files:  83% (5496/6621)Updating files:  84% (5562/6621)Updating files:  85% (5628/6621)Updating files:  86% (5695/6621)Updating files:  87% (5761/6621)Updating files:  88% (5827/6621)Updating files:  89% (5893/6621)Updating files:  90% (5959/6621)Updating files:  91% (6026/6621)Updating files:  92% (6092/6621)Updating files:  93% (6158/6621)Updating files:  94% (6224/6621)Updating files:  95% (6290/6621)Updating files:  96% (6357/6621)Updating files:  97% (6423/6621)Updating files:  98% (6489/6621)Updating files:  99% (6555/6621)Updating files: 100% (6621/6621)Updating files: 100% (6621/6621), done.
+Switched to a new branch 'scarthgap'
+Cloning into 'meta-clang'...
+Switched to a new branch 'scarthgap'
+Cloning into 'meta-python2'...
+Switched to a new branch 'scarthgap'
+You had no conf/local.conf file. This configuration file has therefore been
+created for you from /OE/build/test-oe-build-time/poky/meta-poky/conf/templates/default/local.conf.sample
+You may wish to edit it to, for example, select a different MACHINE (target
+hardware).
+
+You had no conf/bblayers.conf file. This configuration file has therefore been
+created for you from /OE/build/test-oe-build-time/poky/meta-poky/conf/templates/default/bblayers.conf.sample
+To add additional metadata layers into your configuration please add entries
+to conf/bblayers.conf.
+
+The Yocto Project has extensive documentation about OE including a reference
+manual which can be found at:
+    https://docs.yoctoproject.org
+
+For more information about OpenEmbedded see the website:
+    https://www.openembedded.org/
+
+This is the default build configuration for the Poky reference distribution.
+
+### Shell environment set up for builds. ###
+
+You can now run 'bitbake <target>'
+
+Common targets are:
+    core-image-minimal
+    core-image-full-cmdline
+    core-image-sato
+    core-image-weston
+    meta-toolchain
+    meta-ide-support
+
+You can also run generated qemu images with a command like 'runqemu qemux86-64'.
+
+Other commonly useful commands are:
+ - 'devtool' and 'recipetool' handle common recipe tasks
+ - 'bitbake-layers' handles common layer tasks
+ - 'oe-pkgdata-util' handles common target package tasks
+You had no /OE/build/test-oe-build-time/poky/.vscode configuration.
+These configuration files have therefore been created for you.
+43.17user 10.77system 0:51.86elapsed 104%CPU (0avgtext+0avgdata 334592maxresident)k
+12896inputs+931848outputs (0major+195181minor)pagefaults 0swaps
+1-init stop:  2024-06-12T19:08:12+02:00
