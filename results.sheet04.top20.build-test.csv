@@ -42,6 +42,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;gettext-minimal-native.do_deploy_source_date_epoch;0.26
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;gettext-minimal-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;gettext-minimal-native.do_deploy_source_date_epoch;0.26
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;gettext-minimal-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;gettext-minimal-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;gettext-minimal-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;gettext-minimal-native.do_deploy_source_date_epoch;---
@@ -99,6 +100,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;gettext-minimal-native.do_fetch;3.76
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;gettext-minimal-native.do_fetch;3.96
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;gettext-minimal-native.do_fetch;3.78
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;gettext-minimal-native.do_fetch;4.21
 threadripper-3970x-128gb-optane-zeus;2-build-test;gettext-minimal-native.do_fetch;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;gettext-minimal-native.do_fetch;---
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;gettext-minimal-native.do_fetch;---
@@ -156,6 +158,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;gettext-minimal-native.do_populate_sysroot;0.42
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;gettext-minimal-native.do_populate_sysroot;0.43
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;gettext-minimal-native.do_populate_sysroot;0.42
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;gettext-minimal-native.do_populate_sysroot;0.48
 threadripper-3970x-128gb-optane-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;gettext-minimal-native.do_populate_sysroot;---
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;gettext-minimal-native.do_populate_sysroot;---
@@ -213,6 +216,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;gettext-minimal-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;gettext-minimal-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;gettext-minimal-native.do_rm_work;---
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;gettext-minimal-native.do_rm_work;0.43
 threadripper-3970x-128gb-optane-zeus;2-build-test;gettext-minimal-native.do_rm_work;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;gettext-minimal-native.do_rm_work;---
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;gettext-minimal-native.do_rm_work;---
@@ -270,6 +274,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;gettext-minimal-native.do_unpack;1.08
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;gettext-minimal-native.do_unpack;1.04
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;gettext-minimal-native.do_unpack;1.03
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;gettext-minimal-native.do_unpack;1.49
 threadripper-3970x-128gb-optane-zeus;2-build-test;gettext-minimal-native.do_unpack;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;gettext-minimal-native.do_unpack;---
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;gettext-minimal-native.do_unpack;---
@@ -284,6 +289,64 @@ threadripper-3990x-128gb-zeus;2-build-test;gettext-minimal-native.do_unpack;---
 threadripper-3990x-256gb-zeus;2-build-test;gettext-minimal-native.do_unpack;---
 vSphere-VM-28t-55G-zeus;2-build-test;gettext-minimal-native.do_unpack;---
 xeon-e3-1275-v5-dunfell;2-build-test;gettext-minimal-native.do_unpack;---
+VM-20t-157G-zeus;2-build-test;gnu-config-native.do_create_spdx;---
+VM-20t-98G-zeus;2-build-test;gnu-config-native.do_create_spdx;---
+core-i7-4790k-dunfell;2-build-test;gnu-config-native.do_create_spdx;---
+dual-Epyc-7763;2-build-test;gnu-config-native.do_create_spdx;---
+dual-Xeon-E5-2630-v4-ubuntu-18.04-zeus;2-build-test;gnu-config-native.do_create_spdx;---
+dual-Xeon-E5-2630-v4-ubuntu-20.04-zeus;2-build-test;gnu-config-native.do_create_spdx;---
+dual-Xeon-E5-2670-8-channels-zeus;2-build-test;gnu-config-native.do_create_spdx;---
+dual-Xeon-E5-2698-v3-4-channels-zeus;2-build-test;gnu-config-native.do_create_spdx;---
+dual-Xeon-E5-2698-v4-4-channels-no-journal-zeus;2-build-test;gnu-config-native.do_create_spdx;---
+dual-Xeon-E5-2698-v4-4-channels-tmpfs-zeus;2-build-test;gnu-config-native.do_create_spdx;---
+dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;gnu-config-native.do_create_spdx;---
+dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;gnu-config-native.do_create_spdx;---
+dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;gnu-config-native.do_create_spdx;---
+dual-Xeon-Gold-6258R-zeus;2-build-test;gnu-config-native.do_create_spdx;---
+ryzen-5-1600AF-zeus;2-build-test;gnu-config-native.do_create_spdx;---
+ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;gnu-config-native.do_create_spdx;---
+ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;gnu-config-native.do_create_spdx;---
+ryzen-9-5950x-128gb-docker-hardknott;2-build-test;gnu-config-native.do_create_spdx;---
+ryzen-9-5950x-128gb-docker-zeus;2-build-test;gnu-config-native.do_create_spdx;---
+ryzen-9-5950x-zeus;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-2990wx-128gb-zeus;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-gentoo-dunfell-2022-07;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-gentoo-honister-2021-09;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-gentoo-honister-2022-03;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test.2022-03-12;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-gentoo-kirkstone-2022-03;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-gentoo-kirkstone-2022-07;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-gentoo-kirkstone-2023-08-OOMK;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-gentoo-kirkstone-2023-08-with-reg-cpu-pressure-100K-chp-logic-fixes;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-gentoo-kirkstone-2023-08-with-reg-cpu-pressure-100K;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-gentoo-kirkstone-2023-08-with-reg-cpu-pressure-1K-chp-logic-fixes;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-gentoo-kirkstone-2023-08-with-reg-cpu-pressure-1K;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-gentoo-langdale-2022-05;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-dash-l;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-gentoo-langdale-2022-07-with-reg-cpu-pressure;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-gentoo-langdale-2022-07;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-no-reg-cpu-pressure-no-rm-work;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-no-reg-cpu-pressure;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-100K;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-no-swap;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;gnu-config-native.do_create_spdx;0.37
+threadripper-3970x-128gb-optane-zeus;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-ubuntu-20.10-gatesgarth-2020-10;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-ubuntu-21.04-dunfell-2020-03;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-ubuntu-21.04-dunfell-2021-03;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03-qemuarm;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-ubuntu-21.04-hardknott-2021-03;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3970x-64gb-zeus;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3990x-128gb-zeus;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-3990x-256gb-zeus;2-build-test;gnu-config-native.do_create_spdx;---
+vSphere-VM-28t-55G-zeus;2-build-test;gnu-config-native.do_create_spdx;---
+xeon-e3-1275-v5-dunfell;2-build-test;gnu-config-native.do_create_spdx;---
 VM-20t-157G-zeus;2-build-test;gnu-config-native.do_deploy_source_date_epoch;---
 VM-20t-98G-zeus;2-build-test;gnu-config-native.do_deploy_source_date_epoch;---
 core-i7-4790k-dunfell;2-build-test;gnu-config-native.do_deploy_source_date_epoch;0.08
@@ -327,6 +390,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;gnu-config-native.do_deploy_source_date_epoch;0.27
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;gnu-config-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;gnu-config-native.do_deploy_source_date_epoch;0.26
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;gnu-config-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;gnu-config-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;gnu-config-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;gnu-config-native.do_deploy_source_date_epoch;---
@@ -384,6 +448,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;gnu-config-native.do_fetch;---
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;gnu-config-native.do_fetch;3.72
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;gnu-config-native.do_fetch;---
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;gnu-config-native.do_fetch;3.84
 threadripper-3970x-128gb-optane-zeus;2-build-test;gnu-config-native.do_fetch;0.63
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;gnu-config-native.do_fetch;2.13
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;gnu-config-native.do_fetch;1.60
@@ -441,6 +506,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;gnu-config-native.do_install;---
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;gnu-config-native.do_install;---
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;gnu-config-native.do_install;---
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;gnu-config-native.do_install;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;gnu-config-native.do_install;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;gnu-config-native.do_install;---
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;gnu-config-native.do_install;---
@@ -498,6 +564,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;gnu-config-native.do_populate_lic;---
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;gnu-config-native.do_populate_lic;---
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;gnu-config-native.do_populate_lic;---
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;gnu-config-native.do_populate_lic;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;gnu-config-native.do_populate_lic;0.09
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;gnu-config-native.do_populate_lic;---
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;gnu-config-native.do_populate_lic;---
@@ -555,6 +622,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;gnu-config-native.do_populate_sysroot;0.42
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;gnu-config-native.do_populate_sysroot;0.42
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;gnu-config-native.do_populate_sysroot;0.42
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;gnu-config-native.do_populate_sysroot;0.48
 threadripper-3970x-128gb-optane-zeus;2-build-test;gnu-config-native.do_populate_sysroot;0.18
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;gnu-config-native.do_populate_sysroot;0.18
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;gnu-config-native.do_populate_sysroot;0.21
@@ -612,6 +680,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;gnu-config-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;gnu-config-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;gnu-config-native.do_rm_work;---
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;gnu-config-native.do_rm_work;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;gnu-config-native.do_rm_work;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;gnu-config-native.do_rm_work;---
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;gnu-config-native.do_rm_work;---
@@ -669,6 +738,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;gnu-config-native.do_unpack;0.39
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;gnu-config-native.do_unpack;0.40
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;gnu-config-native.do_unpack;0.40
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;gnu-config-native.do_unpack;0.58
 threadripper-3970x-128gb-optane-zeus;2-build-test;gnu-config-native.do_unpack;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;gnu-config-native.do_unpack;---
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;gnu-config-native.do_unpack;0.09
@@ -726,6 +796,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;m4-native.do_compile;2.75
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;m4-native.do_compile;2.78
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;m4-native.do_compile;2.78
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;m4-native.do_compile;6.02
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_compile;0.81
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;m4-native.do_compile;0.85
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;m4-native.do_compile;0.93
@@ -783,6 +854,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;m4-native.do_configure;19.45
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;m4-native.do_configure;19.46
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;m4-native.do_configure;19.35
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;m4-native.do_configure;36.59
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_configure;15.78
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;m4-native.do_configure;15.99
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;m4-native.do_configure;16.89
@@ -840,6 +912,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;m4-native.do_create_spdx;---
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;m4-native.do_create_spdx;---
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;m4-native.do_create_spdx;---
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;m4-native.do_create_spdx;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_create_spdx;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;m4-native.do_create_spdx;---
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;m4-native.do_create_spdx;---
@@ -897,6 +970,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;m4-native.do_deploy_source_date_epoch;0.26
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;m4-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;m4-native.do_deploy_source_date_epoch;0.26
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;m4-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;m4-native.do_deploy_source_date_epoch;0.10
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;m4-native.do_deploy_source_date_epoch;---
@@ -954,6 +1028,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;m4-native.do_fetch;---
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;m4-native.do_fetch;1.67
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;m4-native.do_fetch;---
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;m4-native.do_fetch;2.86
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_fetch;0.47
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;m4-native.do_fetch;2.08
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;m4-native.do_fetch;1.89
@@ -1011,6 +1086,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;m4-native.do_install;0.63
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;m4-native.do_install;0.63
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;m4-native.do_install;0.64
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;m4-native.do_install;0.69
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_install;0.35
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;m4-native.do_install;0.35
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;m4-native.do_install;0.35
@@ -1068,6 +1144,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;m4-native.do_patch;---
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;m4-native.do_patch;---
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;m4-native.do_patch;---
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;m4-native.do_patch;0.39
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_patch;0.15
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;m4-native.do_patch;0.15
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;m4-native.do_patch;0.16
@@ -1125,6 +1202,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;m4-native.do_populate_lic;---
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;m4-native.do_populate_lic;---
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;m4-native.do_populate_lic;---
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;m4-native.do_populate_lic;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_populate_lic;0.10
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;m4-native.do_populate_lic;0.11
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;m4-native.do_populate_lic;0.10
@@ -1182,6 +1260,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;m4-native.do_populate_sysroot;0.47
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;m4-native.do_populate_sysroot;0.47
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;m4-native.do_populate_sysroot;0.47
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;m4-native.do_populate_sysroot;0.50
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_populate_sysroot;0.20
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;m4-native.do_populate_sysroot;0.20
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;m4-native.do_populate_sysroot;0.22
@@ -1239,6 +1318,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;m4-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;m4-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;m4-native.do_rm_work;---
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;m4-native.do_rm_work;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_rm_work;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;m4-native.do_rm_work;---
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;m4-native.do_rm_work;---
@@ -1296,6 +1376,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;m4-native.do_unpack;---
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;m4-native.do_unpack;---
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;m4-native.do_unpack;---
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;m4-native.do_unpack;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;m4-native.do_unpack;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;m4-native.do_unpack;0.16
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;m4-native.do_unpack;0.39
@@ -1353,6 +1434,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;quilt-native.do_compile;0.33
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;quilt-native.do_compile;0.32
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;quilt-native.do_compile;0.34
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;quilt-native.do_compile;0.57
 threadripper-3970x-128gb-optane-zeus;2-build-test;quilt-native.do_compile;0.51
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;quilt-native.do_compile;0.36
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;quilt-native.do_compile;0.43
@@ -1410,6 +1492,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;quilt-native.do_configure;0.72
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;quilt-native.do_configure;0.73
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;quilt-native.do_configure;0.72
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;quilt-native.do_configure;1.02
 threadripper-3970x-128gb-optane-zeus;2-build-test;quilt-native.do_configure;0.49
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;quilt-native.do_configure;0.46
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;quilt-native.do_configure;0.48
@@ -1467,6 +1550,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;quilt-native.do_create_spdx;---
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;quilt-native.do_create_spdx;---
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;quilt-native.do_create_spdx;---
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;quilt-native.do_create_spdx;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;quilt-native.do_create_spdx;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;quilt-native.do_create_spdx;---
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;quilt-native.do_create_spdx;---
@@ -1524,6 +1608,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;quilt-native.do_deploy_source_date_epoch;0.27
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;quilt-native.do_deploy_source_date_epoch;0.26
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;quilt-native.do_deploy_source_date_epoch;0.27
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;quilt-native.do_deploy_source_date_epoch;0.10
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;quilt-native.do_deploy_source_date_epoch;---
@@ -1581,6 +1666,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;quilt-native.do_fetch;---
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;quilt-native.do_fetch;1.05
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;quilt-native.do_fetch;---
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;quilt-native.do_fetch;1.12
 threadripper-3970x-128gb-optane-zeus;2-build-test;quilt-native.do_fetch;1.04
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;quilt-native.do_fetch;0.81
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;quilt-native.do_fetch;0.86
@@ -1638,6 +1724,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;quilt-native.do_install;0.27
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;quilt-native.do_install;0.26
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;quilt-native.do_install;0.28
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;quilt-native.do_install;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;quilt-native.do_install;0.13
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;quilt-native.do_install;0.12
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;quilt-native.do_install;0.19
@@ -1695,6 +1782,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;quilt-native.do_populate_lic;---
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;quilt-native.do_populate_lic;---
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;quilt-native.do_populate_lic;---
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;quilt-native.do_populate_lic;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;quilt-native.do_populate_lic;0.10
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;quilt-native.do_populate_lic;0.10
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;quilt-native.do_populate_lic;0.09
@@ -1752,6 +1840,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;quilt-native.do_populate_sysroot;0.50
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;quilt-native.do_populate_sysroot;0.51
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;quilt-native.do_populate_sysroot;0.51
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;quilt-native.do_populate_sysroot;0.61
 threadripper-3970x-128gb-optane-zeus;2-build-test;quilt-native.do_populate_sysroot;0.26
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;quilt-native.do_populate_sysroot;0.25
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;quilt-native.do_populate_sysroot;0.30
@@ -1809,6 +1898,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;quilt-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;quilt-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;quilt-native.do_rm_work;---
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;quilt-native.do_rm_work;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;quilt-native.do_rm_work;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;quilt-native.do_rm_work;---
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;quilt-native.do_rm_work;---
@@ -1866,6 +1956,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;0.26
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;0.26
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;0.26
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
@@ -1923,6 +2014,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;texinfo-dummy-native.do_install;---
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;texinfo-dummy-native.do_install;---
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;texinfo-dummy-native.do_install;---
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;texinfo-dummy-native.do_install;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;texinfo-dummy-native.do_install;0.08
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;texinfo-dummy-native.do_install;---
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;texinfo-dummy-native.do_install;---
@@ -1980,6 +2072,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;texinfo-dummy-native.do_patch;---
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;texinfo-dummy-native.do_patch;---
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;texinfo-dummy-native.do_patch;---
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;texinfo-dummy-native.do_patch;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;texinfo-dummy-native.do_patch;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;texinfo-dummy-native.do_patch;---
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;texinfo-dummy-native.do_patch;---
@@ -2037,6 +2130,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;texinfo-dummy-native.do_populate_lic;---
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;texinfo-dummy-native.do_populate_lic;---
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;texinfo-dummy-native.do_populate_lic;---
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;texinfo-dummy-native.do_populate_lic;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;texinfo-dummy-native.do_populate_lic;0.09
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;texinfo-dummy-native.do_populate_lic;---
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;texinfo-dummy-native.do_populate_lic;0.09
@@ -2094,6 +2188,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.42
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.42
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.43
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.51
 threadripper-3970x-128gb-optane-zeus;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.22
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.18
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.24
@@ -2151,6 +2246,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;texinfo-dummy-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;texinfo-dummy-native.do_rm_work;---
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;texinfo-dummy-native.do_rm_work;---
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;texinfo-dummy-native.do_rm_work;---
 threadripper-3970x-128gb-optane-zeus;2-build-test;texinfo-dummy-native.do_rm_work;---
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;texinfo-dummy-native.do_rm_work;---
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;texinfo-dummy-native.do_rm_work;---
@@ -2208,6 +2304,7 @@ threadripper-3970x-128gb-gentoo-nanbield-2023-08-no-ff-with-reg-cpu-pressure-1K-
 threadripper-3970x-128gb-gentoo-nanbield-2024-04-latest;2-build-test;Total;34.62
 threadripper-3970x-128gb-gentoo-nanbield-2024-04;2-build-test;Total;34.77
 threadripper-3970x-128gb-gentoo-scarthgap-2024-04;2-build-test;Total;34.87
+threadripper-3970x-128gb-gentoo-scarthgap-2024-06;2-build-test;Total;56.90
 threadripper-3970x-128gb-optane-zeus;2-build-test;Total;22.58
 threadripper-3970x-128gb-ubuntu-20.04-dunfell-2020-03;2-build-test;Total;22.74
 threadripper-3970x-128gb-ubuntu-20.04-zeus-2020-02;2-build-test;Total;23.71
