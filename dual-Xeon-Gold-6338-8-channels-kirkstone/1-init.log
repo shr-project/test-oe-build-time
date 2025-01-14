@@ -1,0 +1,112 @@
+1-init start: 2025-01-10T09:46:33+00:00
+Cloning into 'poky'...
+Switched to a new branch 'kirkstone'
+[kirkstone a838ff68c3] buildstats.py: enable collection of /proc/pressure data
+ Author: Aryaman Gupta <aryaman.gupta@windriver.com>
+ Date: Wed Jun 22 15:21:03 2022 -0400
+ 1 file changed, 47 insertions(+), 10 deletions(-)
+Auto-merging scripts/pybootchartgui/pybootchartgui/draw.py
+Auto-merging scripts/pybootchartgui/pybootchartgui/parsing.py
+[kirkstone ccfac6ba23] pybootchartgui: render cpu and io pressure
+ Author: Aryaman Gupta <aryaman.gupta@windriver.com>
+ Date: Wed Jun 22 15:21:04 2022 -0400
+ 3 files changed, 122 insertions(+)
+[kirkstone 0e927f34e9] buildstats.bbclass: correct sampling of system stats
+ Author: Aryaman Gupta <aryaman.gupta@windriver.com>
+ Date: Wed Jun 22 15:21:05 2022 -0400
+ 2 files changed, 21 insertions(+), 5 deletions(-)
+[kirkstone 80bb75bc47] buildstats.py: close /proc/pressure/cpu file descriptor
+ Author: Aryaman Gupta <aryaman.gupta@windriver.com>
+ Date: Wed Jun 29 16:08:20 2022 -0400
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[kirkstone 4d5ee93f6a] buildperf/base.py: skip reduced_proc_pressure directory
+ Author: Aryaman Gupta <aryaman.gupta@windriver.com>
+ Date: Thu Jun 30 14:35:17 2022 -0400
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Auto-merging bitbake/lib/bb/runqueue.py
+[kirkstone cc9dc147cc] bitbake: runqueue: fix PSI check calculation
+ Author: Chen Qi <Qi.Chen@windriver.com>
+ Date: Thu Apr 6 20:07:14 2023 -0700
+ 1 file changed, 9 insertions(+), 4 deletions(-)
+Auto-merging bitbake/lib/bb/runqueue.py
+[kirkstone 6b6f205037] bitbake: runqueue: Add pressure change logging
+ Author: Richard Purdie <richard.purdie@linuxfoundation.org>
+ Date: Thu Jul 13 11:50:19 2023 +0100
+ 1 file changed, 4 insertions(+)
+Auto-merging bitbake/lib/bb/runqueue.py
+[kirkstone 36eb829224] bitbake: runqueue.py: fix PSI check logic
+ Author: Chen Qi <Qi.Chen@windriver.com>
+ Date: Tue Aug 8 16:50:54 2023 +0800
+ 1 file changed, 5 insertions(+), 4 deletions(-)
+Auto-merging bitbake/lib/bb/runqueue.py
+[kirkstone e1832c7cc4] bitbake: runqueue: show more pressure data
+ Author: Martin Jansa <Martin.Jansa@gmail.com>
+ Date: Tue Aug 15 12:00:42 2023 +0200
+ 1 file changed, 10 insertions(+), 8 deletions(-)
+Auto-merging bitbake/lib/bb/runqueue.py
+[kirkstone cb099b472f] bitbake: runqueue: show number of currently running bitbake threads when pressure changes
+ Author: Martin Jansa <Martin.Jansa@gmail.com>
+ Date: Sat Sep 2 09:23:05 2023 +0200
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+.git/rebase-apply/patch:41: trailing whitespace.
+ 
+.git/rebase-apply/patch:43: trailing whitespace.
+ 
+.git/rebase-apply/patch:77: trailing whitespace.
+ 
+.git/rebase-apply/patch:79: trailing whitespace.
+ 
+.git/rebase-apply/patch:82: trailing whitespace.
+ 
+warning: 5 lines add whitespace errors.
+Applying: libdnf: backport a fix to build with gcc-13
+Cloning into 'meta-qt5'...
+Switched to a new branch 'kirkstone'
+Cloning into 'meta-browser'...
+Switched to a new branch 'kirkstone'
+Cloning into 'meta-openembedded'...
+Switched to a new branch 'kirkstone'
+Cloning into 'meta-clang'...
+Switched to a new branch 'kirkstone'
+Cloning into 'meta-python2'...
+Switched to a new branch 'kirkstone'
+You had no conf/local.conf file. This configuration file has therefore been
+created for you from /home/jenkins/test-oe-build-time/poky/meta-poky/conf/local.conf.sample
+You may wish to edit it to, for example, select a different MACHINE (target
+hardware). See conf/local.conf for more information as common configuration
+options are commented.
+
+You had no conf/bblayers.conf file. This configuration file has therefore been
+created for you from /home/jenkins/test-oe-build-time/poky/meta-poky/conf/bblayers.conf.sample
+To add additional metadata layers into your configuration please add entries
+to conf/bblayers.conf.
+
+The Yocto Project has extensive documentation about OE including a reference
+manual which can be found at:
+    https://docs.yoctoproject.org
+
+For more information about OpenEmbedded see the website:
+    https://www.openembedded.org/
+
+
+### Shell environment set up for builds. ###
+
+You can now run 'bitbake <target>'
+
+Common targets are:
+    core-image-minimal
+    core-image-full-cmdline
+    core-image-sato
+    core-image-weston
+    meta-toolchain
+    meta-ide-support
+
+You can also run generated qemu images with a command like 'runqemu qemux86'
+
+Other commonly useful commands are:
+ - 'devtool' and 'recipetool' handle common recipe tasks
+ - 'bitbake-layers' handles common layer tasks
+ - 'oe-pkgdata-util' handles common target package tasks
+67.61user 15.29system 3:27.85elapsed 39%CPU (0avgtext+0avgdata 411856maxresident)k
+0inputs+984936outputs (23major+282158minor)pagefaults 0swaps
+1-init stop:  2025-01-10T09:50:00+00:00

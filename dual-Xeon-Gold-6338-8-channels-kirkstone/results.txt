@@ -1,0 +1,65 @@
+SYS: PowerEdge R750xs
+CPU: 2 x Intel Xeon Gold 6338 (each 32 cores 64 threads)
+MB:
+RAM: 256GB (4x64GB) 1600MHz DDR4
+DISK: 3TB PERC H355 SSD
+FS: ext4 (rw,relatime,data=ordered)
+OS: Ubuntu 22.04.5 LTS
+SWAP: 512GB
+
+==> 1-init.log <==
+Other commonly useful commands are:
+ - 'devtool' and 'recipetool' handle common recipe tasks
+ - 'bitbake-layers' handles common layer tasks
+ - 'oe-pkgdata-util' handles common target package tasks
+67.61user 15.29system 3:27.85elapsed 39%CPU (0avgtext+0avgdata 411856maxresident)k
+0inputs+984936outputs (23major+282158minor)pagefaults 0swaps
+
+==> 2-build-test.log <==
+NOTE: recipe m4-native-1.4.19-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 56 of 57 (/home/jenkins/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.19.bb:do_rm_work_all)
+NOTE: Running noexec task 57 of 57 (/home/jenkins/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.19.bb:do_build)
+NOTE: Tasks Summary: Attempted 57 tasks of which 0 didn't need to be rerun and all succeeded.
+0.71user 0.09system 1:32.22elapsed 0%CPU (0avgtext+0avgdata 36268maxresident)k
+0inputs+2928outputs (0major+15963minor)pagefaults 0swaps
+
+==> 3-fetch.log <==
+NOTE: recipe cross-localedef-native-2.35-r0: task do_fetch: Succeeded
+NOTE: Tasks Summary: Attempted 585 tasks of which 0 didn't need to be rerun and all succeeded.
+
+Summary: There were 8 WARNING messages.
+5.72user 0.81system 51:18.05elapsed 0%CPU (0avgtext+0avgdata 31448maxresident)k
+0inputs+608outputs (0major+20615minor)pagefaults 0swaps
+
+==> 4-build-all-cores.log <==
+NOTE: recipe core-image-sato-1.0-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 8205 of 8206 (/home/jenkins/test-oe-build-time/poky/meta/recipes-sato/images/core-image-sato.bb:do_rm_work_all)
+NOTE: Running noexec task 8206 of 8206 (/home/jenkins/test-oe-build-time/poky/meta/recipes-sato/images/core-image-sato.bb:do_build)
+NOTE: Tasks Summary: Attempted 8206 tasks of which 0 didn't need to be rerun and all succeeded.
+55.13user 6.35system 2:06:35elapsed 0%CPU (0avgtext+0avgdata 31624maxresident)k
+0inputs+5560outputs (0major+59345minor)pagefaults 0swaps
+
+==> 5-build-8-bb-threads.log <==
+NOTE: recipe core-image-sato-1.0-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 8205 of 8206 (/home/jenkins/test-oe-build-time/poky/meta/recipes-sato/images/core-image-sato.bb:do_rm_work_all)
+NOTE: Running noexec task 8206 of 8206 (/home/jenkins/test-oe-build-time/poky/meta/recipes-sato/images/core-image-sato.bb:do_build)
+NOTE: Tasks Summary: Attempted 8206 tasks of which 0 didn't need to be rerun and all succeeded.
+56.18user 6.57system 2:10:01elapsed 0%CPU (0avgtext+0avgdata 31364maxresident)k
+32392inputs+5760outputs (2167major+56575minor)pagefaults 0swaps
+
+==> 6-build-16-bb-threads.log <==
+NOTE: recipe core-image-sato-1.0-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 8205 of 8206 (/home/jenkins/test-oe-build-time/poky/meta/recipes-sato/images/core-image-sato.bb:do_rm_work_all)
+NOTE: Running noexec task 8206 of 8206 (/home/jenkins/test-oe-build-time/poky/meta/recipes-sato/images/core-image-sato.bb:do_build)
+NOTE: Tasks Summary: Attempted 8206 tasks of which 0 didn't need to be rerun and all succeeded.
+56.83user 6.90system 2:03:51elapsed 0%CPU (0avgtext+0avgdata 31660maxresident)k
+600inputs+5440outputs (12major+61042minor)pagefaults 0swaps
+
+==> 7-build-2-bb-threads.log <==
+NOTE: recipe core-image-sato-1.0-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 8205 of 8206 (/home/jenkins/test-oe-build-time/poky/meta/recipes-sato/images/core-image-sato.bb:do_rm_work_all)
+NOTE: Running noexec task 8206 of 8206 (/home/jenkins/test-oe-build-time/poky/meta/recipes-sato/images/core-image-sato.bb:do_build)
+NOTE: Tasks Summary: Attempted 8206 tasks of which 0 didn't need to be rerun and all succeeded.
+82.39user 9.74system 12:35:24elapsed 0%CPU (0avgtext+0avgdata 31376maxresident)k
+38136inputs+12944outputs (2410major+73188minor)pagefaults 0swaps
+
