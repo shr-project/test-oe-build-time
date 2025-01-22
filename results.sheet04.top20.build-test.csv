@@ -13,6 +13,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;gettext-minimal-native.do_depl
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;gettext-minimal-native.do_deploy_source_date_epoch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;gettext-minimal-native.do_deploy_source_date_epoch;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;gettext-minimal-native.do_deploy_source_date_epoch;---
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;gettext-minimal-native.do_deploy_source_date_epoch;---
 ryzen-5-1600AF-zeus;2-build-test;gettext-minimal-native.do_deploy_source_date_epoch;---
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;gettext-minimal-native.do_deploy_source_date_epoch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;gettext-minimal-native.do_deploy_source_date_epoch;0.10
@@ -73,6 +74,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;gettext-minimal-native.do_fetc
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;gettext-minimal-native.do_fetch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;gettext-minimal-native.do_fetch;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;gettext-minimal-native.do_fetch;---
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;gettext-minimal-native.do_fetch;---
 ryzen-5-1600AF-zeus;2-build-test;gettext-minimal-native.do_fetch;---
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;gettext-minimal-native.do_fetch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;gettext-minimal-native.do_fetch;---
@@ -133,6 +135,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;gettext-minimal-native.do_popu
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;gettext-minimal-native.do_populate_sysroot;0.19
 ryzen-5-1600AF-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;gettext-minimal-native.do_populate_sysroot;0.12
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;gettext-minimal-native.do_populate_sysroot;0.12
@@ -193,6 +196,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;gettext-minimal-native.do_rm_w
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;gettext-minimal-native.do_rm_work;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;gettext-minimal-native.do_rm_work;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;gettext-minimal-native.do_rm_work;---
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;gettext-minimal-native.do_rm_work;---
 ryzen-5-1600AF-zeus;2-build-test;gettext-minimal-native.do_rm_work;---
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;gettext-minimal-native.do_rm_work;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;gettext-minimal-native.do_rm_work;---
@@ -253,6 +257,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;gettext-minimal-native.do_unpa
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;gettext-minimal-native.do_unpack;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;gettext-minimal-native.do_unpack;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;gettext-minimal-native.do_unpack;---
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;gettext-minimal-native.do_unpack;---
 ryzen-5-1600AF-zeus;2-build-test;gettext-minimal-native.do_unpack;---
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;gettext-minimal-native.do_unpack;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;gettext-minimal-native.do_unpack;---
@@ -313,6 +318,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;gnu-config-native.do_create_sp
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;gnu-config-native.do_create_spdx;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;gnu-config-native.do_create_spdx;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;gnu-config-native.do_create_spdx;---
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;gnu-config-native.do_create_spdx;---
 ryzen-5-1600AF-zeus;2-build-test;gnu-config-native.do_create_spdx;---
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;gnu-config-native.do_create_spdx;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;gnu-config-native.do_create_spdx;---
@@ -373,6 +379,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;gnu-config-native.do_deploy_so
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;gnu-config-native.do_deploy_source_date_epoch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;gnu-config-native.do_deploy_source_date_epoch;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;gnu-config-native.do_deploy_source_date_epoch;---
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;gnu-config-native.do_deploy_source_date_epoch;---
 ryzen-5-1600AF-zeus;2-build-test;gnu-config-native.do_deploy_source_date_epoch;---
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;gnu-config-native.do_deploy_source_date_epoch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;gnu-config-native.do_deploy_source_date_epoch;0.08
@@ -433,6 +440,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;gnu-config-native.do_fetch;0.4
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;gnu-config-native.do_fetch;1.17
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;gnu-config-native.do_fetch;0.49
 dual-Xeon-Gold-6258R-zeus;2-build-test;gnu-config-native.do_fetch;1.50
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;gnu-config-native.do_fetch;16.61
 ryzen-5-1600AF-zeus;2-build-test;gnu-config-native.do_fetch;1.42
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;gnu-config-native.do_fetch;1.83
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;gnu-config-native.do_fetch;---
@@ -493,6 +501,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;gnu-config-native.do_install;-
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;gnu-config-native.do_install;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;gnu-config-native.do_install;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;gnu-config-native.do_install;---
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;gnu-config-native.do_install;---
 ryzen-5-1600AF-zeus;2-build-test;gnu-config-native.do_install;---
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;gnu-config-native.do_install;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;gnu-config-native.do_install;---
@@ -553,6 +562,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;gnu-config-native.do_populate_
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;gnu-config-native.do_populate_lic;0.15
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;gnu-config-native.do_populate_lic;0.15
 dual-Xeon-Gold-6258R-zeus;2-build-test;gnu-config-native.do_populate_lic;0.07
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;gnu-config-native.do_populate_lic;---
 ryzen-5-1600AF-zeus;2-build-test;gnu-config-native.do_populate_lic;0.13
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;gnu-config-native.do_populate_lic;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;gnu-config-native.do_populate_lic;---
@@ -613,6 +623,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;gnu-config-native.do_populate_
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;gnu-config-native.do_populate_sysroot;0.30
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;gnu-config-native.do_populate_sysroot;0.30
 dual-Xeon-Gold-6258R-zeus;2-build-test;gnu-config-native.do_populate_sysroot;0.13
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;gnu-config-native.do_populate_sysroot;0.19
 ryzen-5-1600AF-zeus;2-build-test;gnu-config-native.do_populate_sysroot;0.25
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;gnu-config-native.do_populate_sysroot;0.12
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;gnu-config-native.do_populate_sysroot;0.12
@@ -673,6 +684,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;gnu-config-native.do_rm_work;-
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;gnu-config-native.do_rm_work;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;gnu-config-native.do_rm_work;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;gnu-config-native.do_rm_work;---
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;gnu-config-native.do_rm_work;---
 ryzen-5-1600AF-zeus;2-build-test;gnu-config-native.do_rm_work;---
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;gnu-config-native.do_rm_work;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;gnu-config-native.do_rm_work;---
@@ -733,6 +745,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;gnu-config-native.do_unpack;--
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;gnu-config-native.do_unpack;0.15
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;gnu-config-native.do_unpack;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;gnu-config-native.do_unpack;---
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;gnu-config-native.do_unpack;0.24
 ryzen-5-1600AF-zeus;2-build-test;gnu-config-native.do_unpack;---
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;gnu-config-native.do_unpack;0.13
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;gnu-config-native.do_unpack;0.16
@@ -793,6 +806,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;icecc-create-env-native.do_pop
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;icecc-create-env-native.do_populate_sysroot;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;icecc-create-env-native.do_populate_sysroot;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;icecc-create-env-native.do_populate_sysroot;---
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;icecc-create-env-native.do_populate_sysroot;---
 ryzen-5-1600AF-zeus;2-build-test;icecc-create-env-native.do_populate_sysroot;---
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;icecc-create-env-native.do_populate_sysroot;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;icecc-create-env-native.do_populate_sysroot;---
@@ -853,6 +867,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;m4-native.do_compile;1.76
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;m4-native.do_compile;1.32
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;m4-native.do_compile;1.31
 dual-Xeon-Gold-6258R-zeus;2-build-test;m4-native.do_compile;0.93
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;m4-native.do_compile;3.18
 ryzen-5-1600AF-zeus;2-build-test;m4-native.do_compile;1.37
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;m4-native.do_compile;2.07
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;m4-native.do_compile;2.13
@@ -913,6 +928,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;m4-native.do_configure;30.57
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;m4-native.do_configure;27.59
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;m4-native.do_configure;27.82
 dual-Xeon-Gold-6258R-zeus;2-build-test;m4-native.do_configure;12.85
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;m4-native.do_configure;20.66
 ryzen-5-1600AF-zeus;2-build-test;m4-native.do_configure;19.64
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;m4-native.do_configure;13.40
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;m4-native.do_configure;14.80
@@ -973,6 +989,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;m4-native.do_create_spdx;---
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;m4-native.do_create_spdx;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;m4-native.do_create_spdx;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;m4-native.do_create_spdx;---
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;m4-native.do_create_spdx;---
 ryzen-5-1600AF-zeus;2-build-test;m4-native.do_create_spdx;---
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;m4-native.do_create_spdx;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;m4-native.do_create_spdx;---
@@ -1033,6 +1050,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;m4-native.do_deploy_source_dat
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;m4-native.do_deploy_source_date_epoch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;m4-native.do_deploy_source_date_epoch;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;m4-native.do_deploy_source_date_epoch;---
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;m4-native.do_deploy_source_date_epoch;---
 ryzen-5-1600AF-zeus;2-build-test;m4-native.do_deploy_source_date_epoch;---
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;m4-native.do_deploy_source_date_epoch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;m4-native.do_deploy_source_date_epoch;0.08
@@ -1093,6 +1111,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;m4-native.do_fetch;2.74
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;m4-native.do_fetch;2.51
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;m4-native.do_fetch;1.70
 dual-Xeon-Gold-6258R-zeus;2-build-test;m4-native.do_fetch;0.51
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;m4-native.do_fetch;22.94
 ryzen-5-1600AF-zeus;2-build-test;m4-native.do_fetch;2.26
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;m4-native.do_fetch;6.23
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;m4-native.do_fetch;---
@@ -1153,6 +1172,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;m4-native.do_install;0.73
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;m4-native.do_install;0.63
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;m4-native.do_install;0.62
 dual-Xeon-Gold-6258R-zeus;2-build-test;m4-native.do_install;0.26
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;m4-native.do_install;0.47
 ryzen-5-1600AF-zeus;2-build-test;m4-native.do_install;0.47
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;m4-native.do_install;0.29
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;m4-native.do_install;0.26
@@ -1213,6 +1233,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;m4-native.do_patch;0.33
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;m4-native.do_patch;0.31
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;m4-native.do_patch;0.30
 dual-Xeon-Gold-6258R-zeus;2-build-test;m4-native.do_patch;0.12
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;m4-native.do_patch;0.14
 ryzen-5-1600AF-zeus;2-build-test;m4-native.do_patch;0.22
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;m4-native.do_patch;0.08
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;m4-native.do_patch;0.09
@@ -1273,6 +1294,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;m4-native.do_populate_lic;0.19
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;m4-native.do_populate_lic;0.16
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;m4-native.do_populate_lic;0.15
 dual-Xeon-Gold-6258R-zeus;2-build-test;m4-native.do_populate_lic;0.07
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;m4-native.do_populate_lic;---
 ryzen-5-1600AF-zeus;2-build-test;m4-native.do_populate_lic;0.13
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;m4-native.do_populate_lic;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;m4-native.do_populate_lic;---
@@ -1333,6 +1355,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;m4-native.do_populate_sysroot;
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;m4-native.do_populate_sysroot;0.39
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;m4-native.do_populate_sysroot;0.37
 dual-Xeon-Gold-6258R-zeus;2-build-test;m4-native.do_populate_sysroot;0.14
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;m4-native.do_populate_sysroot;0.21
 ryzen-5-1600AF-zeus;2-build-test;m4-native.do_populate_sysroot;0.28
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;m4-native.do_populate_sysroot;0.13
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;m4-native.do_populate_sysroot;0.13
@@ -1393,6 +1416,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;m4-native.do_rm_work;0.18
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;m4-native.do_rm_work;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;m4-native.do_rm_work;0.15
 dual-Xeon-Gold-6258R-zeus;2-build-test;m4-native.do_rm_work;---
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;m4-native.do_rm_work;---
 ryzen-5-1600AF-zeus;2-build-test;m4-native.do_rm_work;---
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;m4-native.do_rm_work;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;m4-native.do_rm_work;---
@@ -1453,6 +1477,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;m4-native.do_unpack;---
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;m4-native.do_unpack;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;m4-native.do_unpack;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;m4-native.do_unpack;0.08
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;m4-native.do_unpack;0.16
 ryzen-5-1600AF-zeus;2-build-test;m4-native.do_unpack;0.12
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;m4-native.do_unpack;0.12
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;m4-native.do_unpack;0.10
@@ -1513,6 +1538,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;quilt-native.do_compile;1.08
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;quilt-native.do_compile;0.93
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;quilt-native.do_compile;0.95
 dual-Xeon-Gold-6258R-zeus;2-build-test;quilt-native.do_compile;0.28
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;quilt-native.do_compile;0.24
 ryzen-5-1600AF-zeus;2-build-test;quilt-native.do_compile;0.65
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;quilt-native.do_compile;0.19
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;quilt-native.do_compile;0.16
@@ -1573,6 +1599,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;quilt-native.do_configure;1.17
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;quilt-native.do_configure;1.00
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;quilt-native.do_configure;1.06
 dual-Xeon-Gold-6258R-zeus;2-build-test;quilt-native.do_configure;0.36
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;quilt-native.do_configure;0.55
 ryzen-5-1600AF-zeus;2-build-test;quilt-native.do_configure;0.71
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;quilt-native.do_configure;0.34
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;quilt-native.do_configure;0.34
@@ -1633,6 +1660,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;quilt-native.do_create_spdx;--
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;quilt-native.do_create_spdx;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;quilt-native.do_create_spdx;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;quilt-native.do_create_spdx;---
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;quilt-native.do_create_spdx;---
 ryzen-5-1600AF-zeus;2-build-test;quilt-native.do_create_spdx;---
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;quilt-native.do_create_spdx;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;quilt-native.do_create_spdx;---
@@ -1693,6 +1721,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;quilt-native.do_deploy_source_
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;quilt-native.do_deploy_source_date_epoch;---
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;quilt-native.do_deploy_source_date_epoch;0.12
 ryzen-5-1600AF-zeus;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;quilt-native.do_deploy_source_date_epoch;0.08
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;quilt-native.do_deploy_source_date_epoch;0.07
@@ -1753,6 +1782,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;quilt-native.do_fetch;0.75
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;quilt-native.do_fetch;2.25
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;quilt-native.do_fetch;0.76
 dual-Xeon-Gold-6258R-zeus;2-build-test;quilt-native.do_fetch;1.01
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;quilt-native.do_fetch;3.97
 ryzen-5-1600AF-zeus;2-build-test;quilt-native.do_fetch;1.02
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;quilt-native.do_fetch;6.57
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;quilt-native.do_fetch;---
@@ -1813,6 +1843,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;quilt-native.do_install;0.30
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;quilt-native.do_install;0.27
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;quilt-native.do_install;0.28
 dual-Xeon-Gold-6258R-zeus;2-build-test;quilt-native.do_install;0.10
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;quilt-native.do_install;0.16
 ryzen-5-1600AF-zeus;2-build-test;quilt-native.do_install;0.19
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;quilt-native.do_install;0.10
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;quilt-native.do_install;0.08
@@ -1873,6 +1904,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;quilt-native.do_populate_lic;0
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;quilt-native.do_populate_lic;0.17
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;quilt-native.do_populate_lic;0.15
 dual-Xeon-Gold-6258R-zeus;2-build-test;quilt-native.do_populate_lic;0.07
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;quilt-native.do_populate_lic;---
 ryzen-5-1600AF-zeus;2-build-test;quilt-native.do_populate_lic;0.12
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;quilt-native.do_populate_lic;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;quilt-native.do_populate_lic;---
@@ -1933,6 +1965,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;quilt-native.do_populate_sysro
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;quilt-native.do_populate_sysroot;0.50
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;quilt-native.do_populate_sysroot;0.50
 dual-Xeon-Gold-6258R-zeus;2-build-test;quilt-native.do_populate_sysroot;0.20
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;quilt-native.do_populate_sysroot;0.29
 ryzen-5-1600AF-zeus;2-build-test;quilt-native.do_populate_sysroot;0.34
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;quilt-native.do_populate_sysroot;0.17
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;quilt-native.do_populate_sysroot;0.17
@@ -1993,6 +2026,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;quilt-native.do_rm_work;---
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;quilt-native.do_rm_work;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;quilt-native.do_rm_work;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;quilt-native.do_rm_work;---
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;quilt-native.do_rm_work;---
 ryzen-5-1600AF-zeus;2-build-test;quilt-native.do_rm_work;---
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;quilt-native.do_rm_work;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;quilt-native.do_rm_work;---
@@ -2053,6 +2087,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;texinfo-dummy-native.do_create
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;texinfo-dummy-native.do_create_spdx;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;texinfo-dummy-native.do_create_spdx;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;texinfo-dummy-native.do_create_spdx;---
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;texinfo-dummy-native.do_create_spdx;---
 ryzen-5-1600AF-zeus;2-build-test;texinfo-dummy-native.do_create_spdx;---
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;texinfo-dummy-native.do_create_spdx;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;texinfo-dummy-native.do_create_spdx;---
@@ -2113,6 +2148,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;texinfo-dummy-native.do_deploy
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;0.12
 ryzen-5-1600AF-zeus;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;0.09
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;0.08
@@ -2173,6 +2209,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;texinfo-dummy-native.do_instal
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;texinfo-dummy-native.do_install;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;texinfo-dummy-native.do_install;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;texinfo-dummy-native.do_install;---
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;texinfo-dummy-native.do_install;---
 ryzen-5-1600AF-zeus;2-build-test;texinfo-dummy-native.do_install;---
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;texinfo-dummy-native.do_install;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;texinfo-dummy-native.do_install;---
@@ -2233,6 +2270,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;texinfo-dummy-native.do_patch;
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;texinfo-dummy-native.do_patch;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;texinfo-dummy-native.do_patch;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;texinfo-dummy-native.do_patch;---
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;texinfo-dummy-native.do_patch;---
 ryzen-5-1600AF-zeus;2-build-test;texinfo-dummy-native.do_patch;---
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;texinfo-dummy-native.do_patch;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;texinfo-dummy-native.do_patch;---
@@ -2293,6 +2331,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;texinfo-dummy-native.do_popula
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;texinfo-dummy-native.do_populate_lic;0.15
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;texinfo-dummy-native.do_populate_lic;0.15
 dual-Xeon-Gold-6258R-zeus;2-build-test;texinfo-dummy-native.do_populate_lic;0.07
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;texinfo-dummy-native.do_populate_lic;---
 ryzen-5-1600AF-zeus;2-build-test;texinfo-dummy-native.do_populate_lic;0.13
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;texinfo-dummy-native.do_populate_lic;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;texinfo-dummy-native.do_populate_lic;---
@@ -2353,6 +2392,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;texinfo-dummy-native.do_popula
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.36
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.34
 dual-Xeon-Gold-6258R-zeus;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.16
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.20
 ryzen-5-1600AF-zeus;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.27
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.11
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.12
@@ -2413,6 +2453,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;texinfo-dummy-native.do_rm_wor
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;texinfo-dummy-native.do_rm_work;---
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;texinfo-dummy-native.do_rm_work;---
 dual-Xeon-Gold-6258R-zeus;2-build-test;texinfo-dummy-native.do_rm_work;---
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;texinfo-dummy-native.do_rm_work;---
 ryzen-5-1600AF-zeus;2-build-test;texinfo-dummy-native.do_rm_work;---
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;texinfo-dummy-native.do_rm_work;---
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;texinfo-dummy-native.do_rm_work;---
@@ -2473,6 +2514,7 @@ dual-Xeon-E5-2698-v4-4-channels-zeus;2-build-test;Total;43.09
 dual-Xeon-E5-2699-v3-8-channels-tmpfs-zeus;2-build-test;Total;39.25
 dual-Xeon-E5-2699-v3-8-channels-zeus;2-build-test;Total;38.01
 dual-Xeon-Gold-6258R-zeus;2-build-test;Total;19.04
+dual-Xeon-Gold-6338-8-channels-kirkstone;2-build-test;Total;50.86
 ryzen-5-1600AF-zeus;2-build-test;Total;28.56
 ryzen-7-5700X-64gb-Ubuntu-22.04-kirkstone-2022-07;2-build-test;Total;26.29
 ryzen-7-Pro-6850U-32gb-KUbuntu-22.04-kirkstone-2022-07;2-build-test;Total;22.04
