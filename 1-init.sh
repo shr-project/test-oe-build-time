@@ -6,34 +6,32 @@
 
 git clone git://git.yoctoproject.org/poky
 cd poky
-git checkout -b scarthgap 83793ccd865e3e72563e6d5733b6bd02943feb8a
-# to fix build on host with gcc-14
-git cherry-pick 31b4ec9fd6 b77236fdeb
+git checkout -b walnascar 39cbc37918d2673d97800b138d5d3ea4585e92f7
 
 git clone https://github.com/meta-qt5/meta-qt5.git
 cd meta-qt5
-git checkout -b scarthgap eb828418264a49b8d00035cb3d7b12fcea3be801
+git checkout -b walnascar 182b250bcece90f31c9ccec042f934d15088b2bd
 cd ..
 
 git clone https://github.com/OSSystems/meta-browser.git
 cd meta-browser
-git checkout -b scarthgap 1ed2254d72a4c25879014c98be287a7e3e22904c
+git checkout -b walnascar a5109f054f9269e88225fe15b02174026574712b
 cd ..
 
 git clone https://github.com/openembedded/meta-openembedded.git
 cd meta-openembedded
-git checkout -b scarthgap 4a7bb77f7ebe0ac8be5bab5103d8bd993e17e18d
+git checkout -b walnascar 0d2d2d193a1619b6dbebaf335f1ef785478049e3
 cd ..
 
 git clone https://github.com/kraj/meta-clang.git
 cd meta-clang
-git checkout -b scarthgap e7dceb1c92caf7f21ef1d7b49c85328c30cffd90
+git checkout -b walnascar 2c9678cce413fa6c6c84a8a631f4635a4f862f11
 cd ..
 
 git clone git://git.openembedded.org/meta-python2
 cd meta-python2
-git checkout -b scarthgap f02882e2aa9279ca7becca8d0cedbffe88b5a253
-echo 'LAYERSERIES_COMPAT_meta-python2 = "scarthgap"' >> conf/layer.conf
+git checkout -b walnascar f02882e2aa9279ca7becca8d0cedbffe88b5a253
+echo 'LAYERSERIES_COMPAT_meta-python2 = "walnascar"' >> conf/layer.conf
 cd ..
 
 . ./oe-init-build-env
