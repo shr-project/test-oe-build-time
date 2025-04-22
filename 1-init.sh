@@ -30,7 +30,7 @@ cd ..
 
 git clone git://git.openembedded.org/meta-python2
 cd meta-python2
-git checkout -b walnascar f02882e2aa9279ca7becca8d0cedbffe88b5a253
+git checkout -b walnascar 1358cdbd7fe760f3073ddd521672e8120b4f9fc5
 echo 'LAYERSERIES_COMPAT_meta-python2 = "walnascar"' >> conf/layer.conf
 cd ..
 
