@@ -10,7 +10,7 @@ git checkout -b walnascar 39cbc37918d2673d97800b138d5d3ea4585e92f7
 
 git clone https://github.com/meta-qt5/meta-qt5.git
 cd meta-qt5
-git checkout -b walnascar 182b250bcece90f31c9ccec042f934d15088b2bd
+git checkout -b walnascar c5cd0f5240bbddaa292aa3fee5e12576550c6710
 cd ..
 
 git clone https://github.com/OSSystems/meta-browser.git
@@ -28,12 +28,6 @@ cd meta-clang
 git checkout -b walnascar 2c9678cce413fa6c6c84a8a631f4635a4f862f11
 cd ..
 
-git clone git://git.openembedded.org/meta-python2
-cd meta-python2
-git checkout -b walnascar 1358cdbd7fe760f3073ddd521672e8120b4f9fc5
-echo 'LAYERSERIES_COMPAT_meta-python2 = "walnascar"' >> conf/layer.conf
-cd ..
-
 . ./oe-init-build-env
 if ! grep -q meta-qt5 conf/bblayers.conf ; then
   sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-qt5/g' conf/bblayers.conf
@@ -47,9 +41,6 @@ fi
 if ! grep -q meta-browser conf/bblayers.conf ; then
   sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-browser\/meta-firefox/g' conf/bblayers.conf
   sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-browser\/meta-chromium/g' conf/bblayers.conf
-fi
-if ! grep -q meta-python2 conf/bblayers.conf ; then
-  sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-python2/g' conf/bblayers.conf
 fi
 
 cat >> conf/local.conf << EOF
