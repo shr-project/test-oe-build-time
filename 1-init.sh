@@ -10,12 +10,13 @@ git checkout -b scarthgap bab0f9f62af9af580744948dd3240f648a99879a
 
 git clone https://github.com/meta-qt5/meta-qt5.git
 cd meta-qt5
-git checkout -b scarthgap eb828418264a49b8d00035cb3d7b12fcea3be801
+git checkout -b scarthgap c5cd0f5240bbddaa292aa3fee5e12576550c6710
+echo 'LAYERSERIES_COMPAT_qt5-layer = "scarthgap"' >> conf/layer.conf
 cd ..
 
 git clone https://github.com/OSSystems/meta-browser.git
 cd meta-browser
-git checkout -b scarthgap 1ed2254d72a4c25879014c98be287a7e3e22904c
+git checkout -b scarthgap a5109f054f9269e88225fe15b02174026574712b
 cd ..
 
 git clone https://github.com/openembedded/meta-openembedded.git
