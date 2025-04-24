@@ -29,12 +29,6 @@ cd meta-clang
 git checkout -b scarthgap eaa08939eaec9f620b14742ff3ac568553683034
 cd ..
 
-git clone git://git.openembedded.org/meta-python2
-cd meta-python2
-git checkout -b scarthgap f02882e2aa9279ca7becca8d0cedbffe88b5a253
-echo 'LAYERSERIES_COMPAT_meta-python2 = "scarthgap"' >> conf/layer.conf
-cd ..
-
 . ./oe-init-build-env
 if ! grep -q meta-qt5 conf/bblayers.conf ; then
   sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-qt5/g' conf/bblayers.conf
@@ -48,9 +42,6 @@ fi
 if ! grep -q meta-browser conf/bblayers.conf ; then
   sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-browser\/meta-firefox/g' conf/bblayers.conf
   sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-browser\/meta-chromium/g' conf/bblayers.conf
-fi
-if ! grep -q meta-python2 conf/bblayers.conf ; then
-  sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-python2/g' conf/bblayers.conf
 fi
 
 cat >> conf/local.conf << EOF
