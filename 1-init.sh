@@ -46,6 +46,7 @@ if ! grep -q meta-oe conf/bblayers.conf ; then
   sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-openembedded\/meta-oe/g' conf/bblayers.conf
 fi
 if ! grep -q meta-browser conf/bblayers.conf ; then
+  sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-browser\/meta-firefox/g' conf/bblayers.conf
   sed -i 's/^\(.*\)meta-yocto-bsp/\1meta-yocto-bsp \\\n\1meta-browser\/meta-chromium/g' conf/bblayers.conf
 fi
 if ! grep -q meta-python2 conf/bblayers.conf ; then
@@ -53,7 +54,7 @@ if ! grep -q meta-python2 conf/bblayers.conf ; then
 fi
 
 cat >> conf/local.conf << EOF
-IMAGE_INSTALL:append:pn-core-image-sato = " qtwebengine qtwebkit chromium-x11 epiphany"
+IMAGE_INSTALL:append:pn-core-image-sato = " qtwebengine qtwebkit chromium-x11 firefox epiphany"
 MACHINE = "qemux86-64"
 INHERIT += "rm_work"
 EOF
