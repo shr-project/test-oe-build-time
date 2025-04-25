@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745549740.30 
+alsa-topology-conf-1.2.5.1-r0: do_recipe_qa
+Elapsed time: 0.21 seconds
+utime: 32
+stime: 1
+cutime: 1
+cstime: 2
+IO rchar: 652345
+IO wchar: 107605
+IO syscr: 334
+IO syscw: 85
+IO read_bytes: 0
+IO write_bytes: 180224
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.329658
+rusage ru_stime: 0.018036
+rusage ru_maxrss: 74028
+rusage ru_minflt: 9864
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 312
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 12
+Child rusage ru_utime: 0.012764999999999999
+Child rusage ru_stime: 0.024135
+Child rusage ru_maxrss: 74028
+Child rusage ru_minflt: 4450
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 289
+Child rusage ru_nivcsw: 41
+Status: PASSED 
+Ended: 1745549740.51 

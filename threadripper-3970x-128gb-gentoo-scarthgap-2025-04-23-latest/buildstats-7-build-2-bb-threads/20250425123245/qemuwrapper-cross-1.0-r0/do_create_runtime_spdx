@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745601265.11 
+qemuwrapper-cross-1.0-r0: do_create_runtime_spdx
+Elapsed time: 0.27 seconds
+utime: 38
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 1046718
+IO wchar: 381149
+IO syscr: 443
+IO syscw: 108
+IO read_bytes: 131072
+IO write_bytes: 319488
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.38842499999999996
+rusage ru_stime: 0.021077
+rusage ru_maxrss: 71912
+rusage ru_minflt: 10614
+rusage ru_majflt: 1
+rusage ru_inblock: 256
+rusage ru_oublock: 472
+rusage ru_nvcsw: 21
+rusage ru_nivcsw: 8
+Child rusage ru_utime: 0.013267999999999999
+Child rusage ru_stime: 0.034651999999999995
+Child rusage ru_maxrss: 71912
+Child rusage ru_minflt: 5884
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 152
+Child rusage ru_nvcsw: 315
+Child rusage ru_nivcsw: 20
+Status: PASSED 
+Ended: 1745601265.38 

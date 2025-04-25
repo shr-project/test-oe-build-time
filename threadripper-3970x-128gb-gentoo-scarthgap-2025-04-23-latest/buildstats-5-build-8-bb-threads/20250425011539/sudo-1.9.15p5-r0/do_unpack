@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745549622.94 
+sudo-1.9.15p5-r0: do_unpack
+Elapsed time: 0.53 seconds
+utime: 34
+stime: 3
+cutime: 8
+cstime: 47
+IO rchar: 29069328
+IO wchar: 45530720
+IO syscr: 2719
+IO syscw: 4206
+IO read_bytes: 5308416
+IO write_bytes: 26722304
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.34653799999999996
+rusage ru_stime: 0.035848
+rusage ru_maxrss: 74432
+rusage ru_minflt: 7569
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 11
+Child rusage ru_utime: 0.087588
+Child rusage ru_stime: 0.474688
+Child rusage ru_maxrss: 74432
+Child rusage ru_minflt: 1468
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 10368
+Child rusage ru_oublock: 52080
+Child rusage ru_nvcsw: 3054
+Child rusage ru_nivcsw: 20
+Status: PASSED 
+Ended: 1745549623.47 

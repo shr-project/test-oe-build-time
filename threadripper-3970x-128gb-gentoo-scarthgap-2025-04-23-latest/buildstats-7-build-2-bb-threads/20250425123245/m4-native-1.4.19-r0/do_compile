@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745584485.96 
+m4-native-1.4.19-r0: do_compile
+Elapsed time: 3.26 seconds
+utime: 28
+stime: 2
+cutime: 1166
+cstime: 288
+IO rchar: 167916681
+IO wchar: 7169540
+IO syscr: 38633
+IO syscw: 4371
+IO read_bytes: 2347008
+IO write_bytes: 5505024
+IO cancelled_write_bytes: 1163264
+rusage ru_utime: 0.280566
+rusage ru_stime: 0.022951
+rusage ru_maxrss: 78832
+rusage ru_minflt: 7367
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 384
+rusage ru_nvcsw: 249
+rusage ru_nivcsw: 16
+Child rusage ru_utime: 11.665381
+Child rusage ru_stime: 2.88227
+Child rusage ru_maxrss: 90656
+Child rusage ru_minflt: 704730
+Child rusage ru_majflt: 12
+Child rusage ru_inblock: 4584
+Child rusage ru_oublock: 10368
+Child rusage ru_nvcsw: 2516
+Child rusage ru_nivcsw: 1496
+Status: PASSED 
+Ended: 1745584489.22 

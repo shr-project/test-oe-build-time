@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745560466.57 
+iproute2-6.7.0-r0: do_package_write_rpm
+Elapsed time: 1.58 seconds
+utime: 126
+stime: 10
+cutime: 53
+cstime: 37
+IO rchar: 98094278
+IO wchar: 15544092
+IO syscr: 11370
+IO syscw: 1920
+IO read_bytes: 69632
+IO write_bytes: 10264576
+IO cancelled_write_bytes: 0
+rusage ru_utime: 1.268054
+rusage ru_stime: 0.10908999999999999
+rusage ru_maxrss: 95828
+rusage ru_minflt: 28086
+rusage ru_majflt: 0
+rusage ru_inblock: 136
+rusage ru_oublock: 728
+rusage ru_nvcsw: 1878
+rusage ru_nivcsw: 99
+Child rusage ru_utime: 0.531274
+Child rusage ru_stime: 0.372952
+Child rusage ru_maxrss: 95828
+Child rusage ru_minflt: 35758
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 19320
+Child rusage ru_nvcsw: 6533
+Child rusage ru_nivcsw: 392
+Status: PASSED 
+Ended: 1745560468.15 

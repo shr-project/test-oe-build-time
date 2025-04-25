@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745585770.67 
+libedit-20230828-3.1-r1: do_install
+Elapsed time: 0.49 seconds
+utime: 47
+stime: 3
+cutime: 15
+cstime: 41
+IO rchar: 3672761
+IO wchar: 1008815
+IO syscr: 5580
+IO syscw: 432
+IO read_bytes: 0
+IO write_bytes: 1101824
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 0.47185499999999997
+rusage ru_stime: 0.038134999999999995
+rusage ru_maxrss: 80348
+rusage ru_minflt: 13357
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 256
+rusage ru_nvcsw: 659
+rusage ru_nivcsw: 23
+Child rusage ru_utime: 0.15056
+Child rusage ru_stime: 0.41341
+Child rusage ru_maxrss: 76968
+Child rusage ru_minflt: 64138
+Child rusage ru_majflt: 2
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1896
+Child rusage ru_nvcsw: 3162
+Child rusage ru_nivcsw: 1129
+Status: PASSED 
+Ended: 1745585771.16 

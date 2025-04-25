@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745531817.28 
+rpm-native-1_4.19.1.1-r0: do_fetch
+Elapsed time: 0.26 seconds
+utime: 42
+stime: 2
+cutime: 11
+cstime: 4
+IO rchar: 2295437
+IO wchar: 113594
+IO syscr: 542
+IO syscw: 123
+IO read_bytes: 0
+IO write_bytes: 102400
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.42028099999999996
+rusage ru_stime: 0.024957
+rusage ru_maxrss: 78764
+rusage ru_minflt: 8900
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 200
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 20
+Child rusage ru_utime: 0.113609
+Child rusage ru_stime: 0.042517
+Child rusage ru_maxrss: 75276
+Child rusage ru_minflt: 7733
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 18
+Child rusage ru_nivcsw: 30
+Status: PASSED 
+Ended: 1745531817.54 

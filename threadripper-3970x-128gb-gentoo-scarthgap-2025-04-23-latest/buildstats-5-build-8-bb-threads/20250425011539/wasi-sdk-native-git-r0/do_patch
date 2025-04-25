@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745547979.67 
+wasi-sdk-native-git-r0: do_patch
+Elapsed time: 0.18 seconds
+utime: 33
+stime: 2
+cutime: 3
+cstime: 4
+IO rchar: 739972
+IO wchar: 66049
+IO syscr: 473
+IO syscw: 104
+IO read_bytes: 0
+IO write_bytes: 188416
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.33236299999999996
+rusage ru_stime: 0.026787
+rusage ru_maxrss: 102400
+rusage ru_minflt: 5473
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 224
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 46
+Child rusage ru_utime: 0.038139
+Child rusage ru_stime: 0.047862999999999996
+Child rusage ru_maxrss: 102400
+Child rusage ru_minflt: 9389
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 144
+Child rusage ru_nvcsw: 114
+Child rusage ru_nivcsw: 9
+Status: PASSED 
+Ended: 1745547979.85 

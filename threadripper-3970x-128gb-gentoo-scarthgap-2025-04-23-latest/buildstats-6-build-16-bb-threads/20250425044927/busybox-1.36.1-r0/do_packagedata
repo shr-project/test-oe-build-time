@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745559749.47 
+busybox-1.36.1-r0: do_packagedata
+Elapsed time: 0.57 seconds
+utime: 89
+stime: 5
+cutime: 3
+cstime: 7
+IO rchar: 1642151
+IO wchar: 523646
+IO syscr: 1022
+IO syscw: 190
+IO read_bytes: 0
+IO write_bytes: 761856
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.8981279999999999
+rusage ru_stime: 0.050668
+rusage ru_maxrss: 106836
+rusage ru_minflt: 13224
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 456
+rusage ru_nvcsw: 23
+rusage ru_nivcsw: 71
+Child rusage ru_utime: 0.034481
+Child rusage ru_stime: 0.07612
+Child rusage ru_maxrss: 106836
+Child rusage ru_minflt: 8039
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1032
+Child rusage ru_nvcsw: 216
+Child rusage ru_nivcsw: 64
+Status: PASSED 
+Ended: 1745559750.04 

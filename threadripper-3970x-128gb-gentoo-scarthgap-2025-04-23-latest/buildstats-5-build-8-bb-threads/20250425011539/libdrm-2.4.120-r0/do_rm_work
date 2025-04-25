@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745545113.77 
+libdrm-2.4.120-r0: do_rm_work
+Elapsed time: 0.33 seconds
+utime: 33
+stime: 1
+cutime: 5
+cstime: 17
+IO rchar: 867629
+IO wchar: 32452
+IO syscr: 933
+IO syscw: 74
+IO read_bytes: 0
+IO write_bytes: 933888
+IO cancelled_write_bytes: 15769600
+rusage ru_utime: 0.33411399999999997
+rusage ru_stime: 0.012964999999999999
+rusage ru_maxrss: 96768
+rusage ru_minflt: 6762
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 64
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 20
+Child rusage ru_utime: 0.057148
+Child rusage ru_stime: 0.174924
+Child rusage ru_maxrss: 92556
+Child rusage ru_minflt: 20640
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1760
+Child rusage ru_nvcsw: 234
+Child rusage ru_nivcsw: 69
+Status: PASSED 
+Ended: 1745545114.10 

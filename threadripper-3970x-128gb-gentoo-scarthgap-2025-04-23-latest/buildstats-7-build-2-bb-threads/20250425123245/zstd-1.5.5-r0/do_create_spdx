@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745587361.88 
+zstd-1.5.5-r0: do_create_spdx
+Elapsed time: 1.16 seconds
+utime: 123
+stime: 5
+cutime: 2
+cstime: 4
+IO rchar: 1987536
+IO wchar: 1450659
+IO syscr: 680
+IO syscw: 1291
+IO read_bytes: 0
+IO write_bytes: 991232
+IO cancelled_write_bytes: 0
+rusage ru_utime: 1.23119
+rusage ru_stime: 0.052092
+rusage ru_maxrss: 91140
+rusage ru_minflt: 11860
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 1592
+rusage ru_nvcsw: 47
+rusage ru_nivcsw: 39
+Child rusage ru_utime: 0.026647999999999998
+Child rusage ru_stime: 0.044578
+Child rusage ru_maxrss: 91140
+Child rusage ru_minflt: 7197
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 344
+Child rusage ru_nvcsw: 395
+Child rusage ru_nivcsw: 28
+Status: PASSED 
+Ended: 1745587363.04 

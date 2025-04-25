@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745549678.20 
+pm-utils-1.4.1-r0: do_package
+Elapsed time: 2.39 seconds
+utime: 141
+stime: 95
+cutime: 44
+cstime: 123
+IO rchar: 11558906
+IO wchar: 2731548
+IO syscr: 18496
+IO syscw: 1187
+IO read_bytes: 0
+IO write_bytes: 12345344
+IO cancelled_write_bytes: 155648
+rusage ru_utime: 1.417683
+rusage ru_stime: 0.950128
+rusage ru_maxrss: 69252
+rusage ru_minflt: 55193
+rusage ru_majflt: 2
+rusage ru_inblock: 0
+rusage ru_oublock: 19760
+rusage ru_nvcsw: 3581
+rusage ru_nivcsw: 63
+Child rusage ru_utime: 0.443793
+Child rusage ru_stime: 1.238543
+Child rusage ru_maxrss: 108868
+Child rusage ru_minflt: 179565
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 4352
+Child rusage ru_nvcsw: 7209
+Child rusage ru_nivcsw: 376
+Status: PASSED 
+Ended: 1745549680.59 

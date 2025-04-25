@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745602432.28 
+dbus-wait-0.1+git-r0: do_unpack
+Elapsed time: 0.46 seconds
+utime: 22
+stime: 3
+cutime: 32
+cstime: 7
+IO rchar: 4809915
+IO wchar: 88403
+IO syscr: 1520
+IO syscw: 166
+IO read_bytes: 12288
+IO write_bytes: 262144
+IO cancelled_write_bytes: 8192
+rusage ru_utime: 0.22134099999999998
+rusage ru_stime: 0.03689
+rusage ru_maxrss: 70028
+rusage ru_minflt: 10075
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 32
+rusage ru_nivcsw: 7
+Child rusage ru_utime: 0.324019
+Child rusage ru_stime: 0.074378
+Child rusage ru_maxrss: 70028
+Child rusage ru_minflt: 17890
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 440
+Child rusage ru_nvcsw: 34
+Child rusage ru_nivcsw: 57
+Status: PASSED 
+Ended: 1745602432.73 

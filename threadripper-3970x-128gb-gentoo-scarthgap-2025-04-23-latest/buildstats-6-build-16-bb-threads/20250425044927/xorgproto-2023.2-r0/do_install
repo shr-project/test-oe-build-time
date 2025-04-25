@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745558384.97 
+xorgproto-2023.2-r0: do_install
+Elapsed time: 1.32 seconds
+utime: 83
+stime: 7
+cutime: 42
+cstime: 21
+IO rchar: 10088394
+IO wchar: 1639508
+IO syscr: 2793
+IO syscw: 583
+IO read_bytes: 1716224
+IO write_bytes: 2109440
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.835402
+rusage ru_stime: 0.075461
+rusage ru_maxrss: 82444
+rusage ru_minflt: 17189
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 248
+rusage ru_nvcsw: 51
+rusage ru_nivcsw: 261
+Child rusage ru_utime: 0.42950499999999997
+Child rusage ru_stime: 0.21811899999999998
+Child rusage ru_maxrss: 78672
+Child rusage ru_minflt: 8906
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 3352
+Child rusage ru_oublock: 3872
+Child rusage ru_nvcsw: 567
+Child rusage ru_nivcsw: 1072
+Status: PASSED 
+Ended: 1745558386.29 

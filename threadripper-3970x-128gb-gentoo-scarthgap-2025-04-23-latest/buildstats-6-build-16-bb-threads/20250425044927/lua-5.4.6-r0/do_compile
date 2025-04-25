@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745557853.27 
+lua-5.4.6-r0: do_compile
+Elapsed time: 12.74 seconds
+utime: 50
+stime: 2
+cutime: 1129
+cstime: 107
+IO rchar: 58333995
+IO wchar: 22427720
+IO syscr: 12610
+IO syscw: 5070
+IO read_bytes: 970752
+IO write_bytes: 12062720
+IO cancelled_write_bytes: 3764224
+rusage ru_utime: 0.504997
+rusage ru_stime: 0.028208999999999998
+rusage ru_maxrss: 89712
+rusage ru_minflt: 6734
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 256
+rusage ru_nvcsw: 46
+rusage ru_nivcsw: 34
+Child rusage ru_utime: 11.29339
+Child rusage ru_stime: 1.0773
+Child rusage ru_maxrss: 84720
+Child rusage ru_minflt: 196690
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 1896
+Child rusage ru_oublock: 23304
+Child rusage ru_nvcsw: 1338
+Child rusage ru_nivcsw: 1702
+Status: PASSED 
+Ended: 1745557866.01 

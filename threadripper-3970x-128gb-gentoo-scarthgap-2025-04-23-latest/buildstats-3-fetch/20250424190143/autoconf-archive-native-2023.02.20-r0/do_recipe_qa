@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745521393.84 
+autoconf-archive-native-2023.02.20-r0: do_recipe_qa
+Elapsed time: 0.20 seconds
+utime: 42
+stime: 1
+cutime: 1
+cstime: 2
+IO rchar: 947806
+IO wchar: 122971
+IO syscr: 355
+IO syscw: 103
+IO read_bytes: 0
+IO write_bytes: 147456
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.428915
+rusage ru_stime: 0.015959
+rusage ru_maxrss: 60620
+rusage ru_minflt: 9006
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 248
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 74
+Child rusage ru_utime: 0.014563999999999999
+Child rusage ru_stime: 0.024429
+Child rusage ru_maxrss: 60620
+Child rusage ru_minflt: 4552
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 274
+Child rusage ru_nivcsw: 25
+Status: PASSED 
+Ended: 1745521394.04 

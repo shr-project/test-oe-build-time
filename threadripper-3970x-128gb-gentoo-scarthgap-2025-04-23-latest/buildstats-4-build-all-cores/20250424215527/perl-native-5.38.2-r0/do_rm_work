@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745532035.92 
+perl-native-5.38.2-r0: do_rm_work
+Elapsed time: 1.83 seconds
+utime: 42
+stime: 1
+cutime: 6
+cstime: 45
+IO rchar: 1142325
+IO wchar: 30253
+IO syscr: 867
+IO syscw: 71
+IO read_bytes: 0
+IO write_bytes: 28164096
+IO cancelled_write_bytes: 51191808
+rusage ru_utime: 0.42546999999999996
+rusage ru_stime: 0.016017
+rusage ru_maxrss: 86180
+rusage ru_minflt: 8164
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 120
+rusage ru_nvcsw: 3
+rusage ru_nivcsw: 32
+Child rusage ru_utime: 0.067496
+Child rusage ru_stime: 0.45682399999999995
+Child rusage ru_maxrss: 82968
+Child rusage ru_minflt: 18372
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 54888
+Child rusage ru_nvcsw: 206
+Child rusage ru_nivcsw: 151
+Status: PASSED 
+Ended: 1745532037.75 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745531878.80 
+libassuan-native-2.5.6-r0: do_recipe_qa
+Elapsed time: 0.21 seconds
+utime: 44
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 1026089
+IO wchar: 122520
+IO syscr: 371
+IO syscw: 106
+IO read_bytes: 0
+IO write_bytes: 139264
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.44459
+rusage ru_stime: 0.022978
+rusage ru_maxrss: 84048
+rusage ru_minflt: 10531
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 240
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 33
+Child rusage ru_utime: 0.016689
+Child rusage ru_stime: 0.030050999999999998
+Child rusage ru_maxrss: 84048
+Child rusage ru_minflt: 4517
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 255
+Child rusage ru_nivcsw: 22
+Status: PASSED 
+Ended: 1745531879.01 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745557189.87 
+qemu-system-native-8.2.7-r0: do_populate_lic
+Elapsed time: 0.73 seconds
+utime: 63
+stime: 3
+cutime: 3
+cstime: 5
+IO rchar: 1270991
+IO wchar: 242375
+IO syscr: 576
+IO syscw: 132
+IO read_bytes: 0
+IO write_bytes: 258048
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.633555
+rusage ru_stime: 0.034137
+rusage ru_maxrss: 88640
+rusage ru_minflt: 10513
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 400
+rusage ru_nvcsw: 14
+rusage ru_nivcsw: 152
+Child rusage ru_utime: 0.038418999999999995
+Child rusage ru_stime: 0.050851999999999994
+Child rusage ru_maxrss: 88640
+Child rusage ru_minflt: 5868
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 104
+Child rusage ru_nvcsw: 281
+Child rusage ru_nivcsw: 46
+Status: PASSED 
+Ended: 1745557190.60 

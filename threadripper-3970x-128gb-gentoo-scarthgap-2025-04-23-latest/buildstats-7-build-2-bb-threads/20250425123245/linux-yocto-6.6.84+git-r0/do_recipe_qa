@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745589791.02 
+linux-yocto-6.6.84+git-r0: do_recipe_qa
+Elapsed time: 0.20 seconds
+utime: 61
+stime: 1
+cutime: 1
+cstime: 2
+IO rchar: 1076086
+IO wchar: 124559
+IO syscr: 403
+IO syscw: 103
+IO read_bytes: 0
+IO write_bytes: 151552
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.610682
+rusage ru_stime: 0.018019999999999998
+rusage ru_maxrss: 91236
+rusage ru_minflt: 11109
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 256
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 23
+Child rusage ru_utime: 0.010938999999999999
+Child rusage ru_stime: 0.028508
+Child rusage ru_maxrss: 91236
+Child rusage ru_minflt: 4542
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 315
+Child rusage ru_nivcsw: 32
+Status: PASSED 
+Ended: 1745589791.22 

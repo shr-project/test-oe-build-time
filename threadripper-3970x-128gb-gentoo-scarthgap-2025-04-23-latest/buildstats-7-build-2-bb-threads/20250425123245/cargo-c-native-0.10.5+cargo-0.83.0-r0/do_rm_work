@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745589454.94 
+cargo-c-native-0.10.5+cargo-0.83.0-r0: do_rm_work
+Elapsed time: 0.94 seconds
+utime: 111
+stime: 2
+cutime: 5
+cstime: 78
+IO rchar: 983529
+IO wchar: 439015
+IO syscr: 678
+IO syscw: 744
+IO read_bytes: 0
+IO write_bytes: 35545088
+IO cancelled_write_bytes: 302096384
+rusage ru_utime: 1.110667
+rusage ru_stime: 0.024992
+rusage ru_maxrss: 89376
+rusage ru_minflt: 7890
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 96
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 32
+Child rusage ru_utime: 0.057788
+Child rusage ru_stime: 0.784872
+Child rusage ru_maxrss: 84972
+Child rusage ru_minflt: 14726
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 69328
+Child rusage ru_nvcsw: 161
+Child rusage ru_nivcsw: 62
+Status: PASSED 
+Ended: 1745589455.88 

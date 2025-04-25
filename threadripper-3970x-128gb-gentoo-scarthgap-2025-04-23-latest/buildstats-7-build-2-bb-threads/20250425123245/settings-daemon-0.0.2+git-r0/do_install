@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745601206.71 
+settings-daemon-0.0.2+git-r0: do_install
+Elapsed time: 1.00 seconds
+utime: 111
+stime: 4
+cutime: 2
+cstime: 6
+IO rchar: 1001305
+IO wchar: 271253
+IO syscr: 1180
+IO syscw: 165
+IO read_bytes: 0
+IO write_bytes: 335872
+IO cancelled_write_bytes: 0
+rusage ru_utime: 1.111086
+rusage ru_stime: 0.049957999999999995
+rusage ru_maxrss: 69932
+rusage ru_minflt: 14538
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 216
+rusage ru_nvcsw: 497
+rusage ru_nivcsw: 40
+Child rusage ru_utime: 0.02572
+Child rusage ru_stime: 0.062941
+Child rusage ru_maxrss: 69116
+Child rusage ru_minflt: 8758
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 440
+Child rusage ru_nvcsw: 447
+Child rusage ru_nivcsw: 55
+Status: PASSED 
+Ended: 1745601207.71 

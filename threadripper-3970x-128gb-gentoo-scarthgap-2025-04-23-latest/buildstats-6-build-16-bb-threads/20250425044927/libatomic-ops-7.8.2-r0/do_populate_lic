@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745556798.99 
+libatomic-ops-7.8.2-r0: do_populate_lic
+Elapsed time: 0.34 seconds
+utime: 49
+stime: 4
+cutime: 2
+cstime: 5
+IO rchar: 988716
+IO wchar: 211565
+IO syscr: 510
+IO syscw: 115
+IO read_bytes: 0
+IO write_bytes: 237568
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.49332699999999996
+rusage ru_stime: 0.042768
+rusage ru_maxrss: 83852
+rusage ru_minflt: 10393
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 400
+rusage ru_nvcsw: 17
+rusage ru_nivcsw: 41
+Child rusage ru_utime: 0.024524999999999998
+Child rusage ru_stime: 0.052829
+Child rusage ru_maxrss: 83852
+Child rusage ru_minflt: 5835
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 64
+Child rusage ru_nvcsw: 285
+Child rusage ru_nivcsw: 64
+Status: PASSED 
+Ended: 1745556799.33 

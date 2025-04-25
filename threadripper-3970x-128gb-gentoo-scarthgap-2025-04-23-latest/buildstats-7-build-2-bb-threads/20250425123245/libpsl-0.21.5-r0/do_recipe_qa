@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745591530.77 
+libpsl-0.21.5-r0: do_recipe_qa
+Elapsed time: 0.21 seconds
+utime: 39
+stime: 1
+cutime: 1
+cstime: 2
+IO rchar: 730105
+IO wchar: 122978
+IO syscr: 358
+IO syscw: 98
+IO read_bytes: 4096
+IO write_bytes: 135168
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.390769
+rusage ru_stime: 0.017077
+rusage ru_maxrss: 89412
+rusage ru_minflt: 9144
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 224
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 20
+Child rusage ru_utime: 0.012256
+Child rusage ru_stime: 0.028924
+Child rusage ru_maxrss: 89412
+Child rusage ru_minflt: 4590
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 331
+Child rusage ru_nivcsw: 29
+Status: PASSED 
+Ended: 1745591530.99 

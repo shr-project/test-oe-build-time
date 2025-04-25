@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745556707.63 
+libatomic-ops-7.8.2-r0: do_recipe_qa
+Elapsed time: 0.21 seconds
+utime: 36
+stime: 3
+cutime: 1
+cstime: 2
+IO rchar: 712619
+IO wchar: 117118
+IO syscr: 342
+IO syscw: 89
+IO read_bytes: 0
+IO write_bytes: 131072
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.36271
+rusage ru_stime: 0.039858
+rusage ru_maxrss: 83460
+rusage ru_minflt: 10056
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 224
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 79
+Child rusage ru_utime: 0.011930999999999999
+Child rusage ru_stime: 0.027964
+Child rusage ru_maxrss: 83460
+Child rusage ru_minflt: 4537
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 254
+Child rusage ru_nivcsw: 38
+Status: PASSED 
+Ended: 1745556707.84 

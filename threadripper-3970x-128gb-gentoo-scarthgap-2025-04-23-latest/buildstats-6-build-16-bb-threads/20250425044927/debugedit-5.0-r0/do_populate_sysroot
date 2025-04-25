@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745560497.66 
+debugedit-5.0-r0: do_populate_sysroot
+Elapsed time: 1.45 seconds
+utime: 88
+stime: 4
+cutime: 3
+cstime: 4
+IO rchar: 910762
+IO wchar: 246889
+IO syscr: 555
+IO syscw: 153
+IO read_bytes: 0
+IO write_bytes: 278528
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.881273
+rusage ru_stime: 0.040919
+rusage ru_maxrss: 111840
+rusage ru_minflt: 13775
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 432
+rusage ru_nvcsw: 22
+rusage ru_nivcsw: 101
+Child rusage ru_utime: 0.038342999999999995
+Child rusage ru_stime: 0.044475999999999995
+Child rusage ru_maxrss: 111840
+Child rusage ru_minflt: 9249
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 112
+Child rusage ru_nvcsw: 330
+Child rusage ru_nivcsw: 63
+Status: PASSED 
+Ended: 1745560499.11 

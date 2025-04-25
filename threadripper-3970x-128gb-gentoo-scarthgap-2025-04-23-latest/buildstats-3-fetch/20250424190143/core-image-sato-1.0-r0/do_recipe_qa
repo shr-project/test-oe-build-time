@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745521403.55 
+core-image-sato-1.0-r0: do_recipe_qa
+Elapsed time: 0.22 seconds
+utime: 60
+stime: 1
+cutime: 0
+cstime: 3
+IO rchar: 972195
+IO wchar: 126022
+IO syscr: 414
+IO syscw: 105
+IO read_bytes: 0
+IO write_bytes: 204800
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.608314
+rusage ru_stime: 0.01698
+rusage ru_maxrss: 62180
+rusage ru_minflt: 9553
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 352
+rusage ru_nvcsw: 14
+rusage ru_nivcsw: 22
+Child rusage ru_utime: 0.009382
+Child rusage ru_stime: 0.036018999999999995
+Child rusage ru_maxrss: 62180
+Child rusage ru_minflt: 4894
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 48
+Child rusage ru_nvcsw: 288
+Child rusage ru_nivcsw: 39
+Status: PASSED 
+Ended: 1745521403.77 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745532991.55 
+init-system-helpers-1.66-r0: do_install
+Elapsed time: 0.75 seconds
+utime: 70
+stime: 5
+cutime: 2
+cstime: 3
+IO rchar: 447421
+IO wchar: 95151
+IO syscr: 419
+IO syscw: 43
+IO read_bytes: 32768
+IO write_bytes: 135168
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.702081
+rusage ru_stime: 0.054928
+rusage ru_maxrss: 79560
+rusage ru_minflt: 12691
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 176
+rusage ru_nvcsw: 41
+rusage ru_nivcsw: 316
+Child rusage ru_utime: 0.028487
+Child rusage ru_stime: 0.039043999999999995
+Child rusage ru_maxrss: 75444
+Child rusage ru_minflt: 2884
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 64
+Child rusage ru_oublock: 88
+Child rusage ru_nvcsw: 69
+Child rusage ru_nivcsw: 34
+Status: PASSED 
+Ended: 1745532992.30 

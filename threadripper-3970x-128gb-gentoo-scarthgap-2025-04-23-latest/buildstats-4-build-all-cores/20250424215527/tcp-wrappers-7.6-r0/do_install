@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745532972.95 
+tcp-wrappers-7.6-r0: do_install
+Elapsed time: 1.53 seconds
+utime: 81
+stime: 6
+cutime: 10
+cstime: 21
+IO rchar: 1630331
+IO wchar: 716511
+IO syscr: 1601
+IO syscw: 110
+IO read_bytes: 24576
+IO write_bytes: 811008
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.8150839999999999
+rusage ru_stime: 0.060634
+rusage ru_maxrss: 80796
+rusage ru_minflt: 13526
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 111
+rusage ru_nivcsw: 309
+Child rusage ru_utime: 0.102882
+Child rusage ru_stime: 0.217883
+Child rusage ru_maxrss: 77152
+Child rusage ru_minflt: 25350
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 48
+Child rusage ru_oublock: 1424
+Child rusage ru_nvcsw: 449
+Child rusage ru_nivcsw: 249
+Status: PASSED 
+Ended: 1745532974.49 

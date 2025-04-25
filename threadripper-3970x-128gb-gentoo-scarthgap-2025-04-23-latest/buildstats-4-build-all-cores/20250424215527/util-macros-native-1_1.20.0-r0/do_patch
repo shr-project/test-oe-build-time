@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745531827.84 
+util-macros-native-1_1.20.0-r0: do_patch
+Elapsed time: 0.11 seconds
+utime: 34
+stime: 1
+cutime: 2
+cstime: 3
+IO rchar: 1030052
+IO wchar: 132824
+IO syscr: 505
+IO syscw: 129
+IO read_bytes: 0
+IO write_bytes: 180224
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.344786
+rusage ru_stime: 0.01599
+rusage ru_maxrss: 80240
+rusage ru_minflt: 6569
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 168
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 22
+Child rusage ru_utime: 0.02528
+Child rusage ru_stime: 0.030143
+Child rusage ru_maxrss: 80240
+Child rusage ru_minflt: 9607
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 184
+Child rusage ru_nvcsw: 121
+Child rusage ru_nivcsw: 12
+Status: PASSED 
+Ended: 1745531827.94 

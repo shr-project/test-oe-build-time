@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745602640.16 
+python3-dbusmock-0.31.1-r0: do_populate_sysroot
+Elapsed time: 0.56 seconds
+utime: 66
+stime: 2
+cutime: 3
+cstime: 5
+IO rchar: 2549587
+IO wchar: 916774
+IO syscr: 1012
+IO syscw: 208
+IO read_bytes: 0
+IO write_bytes: 425984
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.6607379999999999
+rusage ru_stime: 0.024099
+rusage ru_maxrss: 72148
+rusage ru_minflt: 14356
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 400
+rusage ru_nvcsw: 21
+rusage ru_nivcsw: 26
+Child rusage ru_utime: 0.033547
+Child rusage ru_stime: 0.053211999999999995
+Child rusage ru_maxrss: 72148
+Child rusage ru_minflt: 9688
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 432
+Child rusage ru_nvcsw: 384
+Child rusage ru_nivcsw: 25
+Status: PASSED 
+Ended: 1745602640.71 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745602609.96 
+busybox-1.36.1-r0: do_create_runtime_spdx
+Elapsed time: 0.43 seconds
+utime: 61
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 3218854
+IO wchar: 435653
+IO syscr: 829
+IO syscw: 127
+IO read_bytes: 655360
+IO write_bytes: 327680
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.6199979999999999
+rusage ru_stime: 0.022926
+rusage ru_maxrss: 72056
+rusage ru_minflt: 11246
+rusage ru_majflt: 0
+rusage ru_inblock: 1280
+rusage ru_oublock: 416
+rusage ru_nvcsw: 38
+rusage ru_nivcsw: 7
+Child rusage ru_utime: 0.016193
+Child rusage ru_stime: 0.032096
+Child rusage ru_maxrss: 72056
+Child rusage ru_minflt: 5889
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 224
+Child rusage ru_nvcsw: 311
+Child rusage ru_nivcsw: 37
+Status: PASSED 
+Ended: 1745602610.39 

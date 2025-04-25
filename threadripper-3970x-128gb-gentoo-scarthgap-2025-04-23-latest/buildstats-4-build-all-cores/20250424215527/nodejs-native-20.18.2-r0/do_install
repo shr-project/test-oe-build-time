@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745533484.69 
+nodejs-native-20.18.2-r0: do_install
+Elapsed time: 38.20 seconds
+utime: 55
+stime: 3
+cutime: 4448
+cstime: 568
+IO rchar: 7075342663
+IO wchar: 316936245
+IO syscr: 1706072
+IO syscw: 435443
+IO read_bytes: 14835712
+IO write_bytes: 296337408
+IO cancelled_write_bytes: 20480
+rusage ru_utime: 0.55274
+rusage ru_stime: 0.035532999999999995
+rusage ru_maxrss: 92792
+rusage ru_minflt: 10473
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 2592
+rusage ru_nvcsw: 149
+rusage ru_nivcsw: 125
+Child rusage ru_utime: 44.484602
+Child rusage ru_stime: 5.680014
+Child rusage ru_maxrss: 356384
+Child rusage ru_minflt: 761021
+Child rusage ru_majflt: 2
+Child rusage ru_inblock: 28976
+Child rusage ru_oublock: 576192
+Child rusage ru_nvcsw: 3454
+Child rusage ru_nivcsw: 5626
+Status: PASSED 
+Ended: 1745533522.89 

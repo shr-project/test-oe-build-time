@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745556922.28 
+cargo-native-1.85.1-r0: do_collect_spdx_deps
+Elapsed time: 0.08 seconds
+utime: 42
+stime: 2
+cutime: 0
+cstime: 0
+IO rchar: 821129
+IO wchar: 112616
+IO syscr: 135
+IO syscw: 71
+IO read_bytes: 0
+IO write_bytes: 212992
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.426516
+rusage ru_stime: 0.020975999999999998
+rusage ru_maxrss: 86688
+rusage ru_minflt: 7084
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 280
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 16
+Child rusage ru_utime: 0.0016519999999999998
+Child rusage ru_stime: 0.004287
+Child rusage ru_maxrss: 86128
+Child rusage ru_minflt: 714
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 136
+Child rusage ru_nvcsw: 9
+Child rusage ru_nivcsw: 0
+Status: PASSED 
+Ended: 1745556922.36 

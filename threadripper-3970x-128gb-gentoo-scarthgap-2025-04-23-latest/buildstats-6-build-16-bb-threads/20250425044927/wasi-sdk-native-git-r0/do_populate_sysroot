@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745560475.89 
+wasi-sdk-native-git-r0: do_populate_sysroot
+Elapsed time: 5.96 seconds
+utime: 210
+stime: 134
+cutime: 2641
+cstime: 525
+IO rchar: 4138516572
+IO wchar: 2526021635
+IO syscr: 299451
+IO syscw: 80413
+IO read_bytes: 8192
+IO write_bytes: 1819234304
+IO cancelled_write_bytes: 0
+rusage ru_utime: 2.106015
+rusage ru_stime: 1.34801
+rusage ru_maxrss: 112936
+rusage ru_minflt: 35051
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 1795840
+rusage ru_nvcsw: 101
+rusage ru_nivcsw: 184
+Child rusage ru_utime: 26.418249
+Child rusage ru_stime: 5.257329
+Child rusage ru_maxrss: 593140
+Child rusage ru_minflt: 875921
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 1757352
+Child rusage ru_nvcsw: 34513
+Child rusage ru_nivcsw: 32477
+Status: PASSED 
+Ended: 1745560481.85 

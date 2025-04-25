@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745532038.10 
+opkg-utils-native-0.6.3-r0: do_install
+Elapsed time: 0.20 seconds
+utime: 42
+stime: 2
+cutime: 1
+cstime: 1
+IO rchar: 801326
+IO wchar: 125305
+IO syscr: 277
+IO syscw: 125
+IO read_bytes: 0
+IO write_bytes: 159744
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.42577
+rusage ru_stime: 0.026985
+rusage ru_maxrss: 87012
+rusage ru_minflt: 11246
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 31
+Child rusage ru_utime: 0.012693999999999999
+Child rusage ru_stime: 0.019181999999999998
+Child rusage ru_maxrss: 85188
+Child rusage ru_minflt: 2208
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 240
+Child rusage ru_nvcsw: 18
+Child rusage ru_nivcsw: 12
+Status: PASSED 
+Ended: 1745532038.30 

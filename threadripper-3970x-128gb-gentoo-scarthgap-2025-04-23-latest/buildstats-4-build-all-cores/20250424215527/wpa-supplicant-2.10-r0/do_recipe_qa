@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745531882.23 
+wpa-supplicant-2.10-r0: do_recipe_qa
+Elapsed time: 0.20 seconds
+utime: 35
+stime: 1
+cutime: 1
+cstime: 2
+IO rchar: 805371
+IO wchar: 114201
+IO syscr: 349
+IO syscw: 88
+IO read_bytes: 0
+IO write_bytes: 135168
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.35746
+rusage ru_stime: 0.018971
+rusage ru_maxrss: 82628
+rusage ru_minflt: 10236
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 232
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 17
+Child rusage ru_utime: 0.012548
+Child rusage ru_stime: 0.023719999999999998
+Child rusage ru_maxrss: 82628
+Child rusage ru_minflt: 4507
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 176
+Child rusage ru_nivcsw: 25
+Status: PASSED 
+Ended: 1745531882.42 

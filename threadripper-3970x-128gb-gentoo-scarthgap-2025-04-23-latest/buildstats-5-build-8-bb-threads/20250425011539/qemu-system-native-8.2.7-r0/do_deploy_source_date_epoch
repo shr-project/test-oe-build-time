@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745550440.93 
+qemu-system-native-8.2.7-r0: do_deploy_source_date_epoch
+Elapsed time: 0.30 seconds
+utime: 44
+stime: 2
+cutime: 2
+cstime: 3
+IO rchar: 905108
+IO wchar: 143111
+IO syscr: 443
+IO syscw: 109
+IO read_bytes: 0
+IO write_bytes: 167936
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.441967
+rusage ru_stime: 0.025054
+rusage ru_maxrss: 75420
+rusage ru_minflt: 13313
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 272
+rusage ru_nvcsw: 14
+rusage ru_nivcsw: 11
+Child rusage ru_utime: 0.02051
+Child rusage ru_stime: 0.030521
+Child rusage ru_maxrss: 75420
+Child rusage ru_minflt: 5396
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 56
+Child rusage ru_nvcsw: 212
+Child rusage ru_nivcsw: 18
+Status: PASSED 
+Ended: 1745550441.23 

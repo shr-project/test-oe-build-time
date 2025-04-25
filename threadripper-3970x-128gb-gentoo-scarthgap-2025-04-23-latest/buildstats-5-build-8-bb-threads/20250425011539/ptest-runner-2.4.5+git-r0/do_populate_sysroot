@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745546694.10 
+ptest-runner-2.4.5+git-r0: do_populate_sysroot
+Elapsed time: 0.99 seconds
+utime: 109
+stime: 5
+cutime: 4
+cstime: 7
+IO rchar: 1144034
+IO wchar: 397750
+IO syscr: 584
+IO syscw: 179
+IO read_bytes: 0
+IO write_bytes: 368640
+IO cancelled_write_bytes: 77824
+rusage ru_utime: 1.092461
+rusage ru_stime: 0.050789
+rusage ru_maxrss: 101972
+rusage ru_minflt: 13613
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 528
+rusage ru_nvcsw: 23
+rusage ru_nivcsw: 109
+Child rusage ru_utime: 0.042948
+Child rusage ru_stime: 0.079802
+Child rusage ru_maxrss: 101972
+Child rusage ru_minflt: 9662
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 192
+Child rusage ru_nvcsw: 219
+Child rusage ru_nivcsw: 37
+Status: PASSED 
+Ended: 1745546695.09 

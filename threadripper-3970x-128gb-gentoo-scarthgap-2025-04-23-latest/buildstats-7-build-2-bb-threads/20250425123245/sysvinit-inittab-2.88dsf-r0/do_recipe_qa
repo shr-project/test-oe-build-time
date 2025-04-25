@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745602593.01 
+sysvinit-inittab-2.88dsf-r0: do_recipe_qa
+Elapsed time: 0.21 seconds
+utime: 40
+stime: 3
+cutime: 1
+cstime: 2
+IO rchar: 818472
+IO wchar: 111728
+IO syscr: 352
+IO syscw: 85
+IO read_bytes: 8192
+IO write_bytes: 241664
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.40186099999999997
+rusage ru_stime: 0.032068
+rusage ru_maxrss: 71560
+rusage ru_minflt: 13257
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 416
+rusage ru_nvcsw: 13
+rusage ru_nivcsw: 12
+Child rusage ru_utime: 0.011247
+Child rusage ru_stime: 0.028124999999999997
+Child rusage ru_maxrss: 71560
+Child rusage ru_minflt: 4515
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 56
+Child rusage ru_nvcsw: 274
+Child rusage ru_nivcsw: 31
+Status: PASSED 
+Ended: 1745602593.23 

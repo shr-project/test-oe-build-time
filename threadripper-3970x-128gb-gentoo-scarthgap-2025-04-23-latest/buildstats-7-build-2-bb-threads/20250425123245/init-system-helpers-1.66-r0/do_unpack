@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745602612.80 
+init-system-helpers-1.66-r0: do_unpack
+Elapsed time: 0.48 seconds
+utime: 21
+stime: 2
+cutime: 31
+cstime: 8
+IO rchar: 4873951
+IO wchar: 293450
+IO syscr: 1670
+IO syscw: 195
+IO read_bytes: 753664
+IO write_bytes: 520192
+IO cancelled_write_bytes: 12288
+rusage ru_utime: 0.22005999999999998
+rusage ru_stime: 0.025006
+rusage ru_maxrss: 71552
+rusage ru_minflt: 9990
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 32
+rusage ru_nivcsw: 6
+Child rusage ru_utime: 0.318856
+Child rusage ru_stime: 0.086569
+Child rusage ru_maxrss: 71552
+Child rusage ru_minflt: 17966
+Child rusage ru_majflt: 23
+Child rusage ru_inblock: 1472
+Child rusage ru_oublock: 944
+Child rusage ru_nvcsw: 81
+Child rusage ru_nivcsw: 57
+Status: PASSED 
+Ended: 1745602613.28 

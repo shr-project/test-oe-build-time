@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745531890.48 
+c-ares-native-1.27.0-r0: do_create_runtime_spdx
+Elapsed time: 0.22 seconds
+utime: 48
+stime: 3
+cutime: 1
+cstime: 2
+IO rchar: 1252803
+IO wchar: 344742
+IO syscr: 397
+IO syscw: 112
+IO read_bytes: 0
+IO write_bytes: 155648
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.488218
+rusage ru_stime: 0.035015
+rusage ru_maxrss: 83692
+rusage ru_minflt: 10592
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 224
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 59
+Child rusage ru_utime: 0.017499
+Child rusage ru_stime: 0.025436
+Child rusage ru_maxrss: 83692
+Child rusage ru_minflt: 4787
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 80
+Child rusage ru_nvcsw: 274
+Child rusage ru_nivcsw: 23
+Status: PASSED 
+Ended: 1745531890.70 

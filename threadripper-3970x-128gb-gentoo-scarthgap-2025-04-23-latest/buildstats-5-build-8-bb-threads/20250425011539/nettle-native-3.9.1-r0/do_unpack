@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745543853.70 
+nettle-native-3.9.1-r0: do_unpack
+Elapsed time: 0.26 seconds
+utime: 35
+stime: 2
+cutime: 3
+cstime: 20
+IO rchar: 11295423
+IO wchar: 15607962
+IO syscr: 1129
+IO syscw: 1949
+IO read_bytes: 2183168
+IO write_bytes: 10248192
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.35057299999999997
+rusage ru_stime: 0.021973
+rusage ru_maxrss: 79428
+rusage ru_minflt: 8881
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 104
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 16
+Child rusage ru_utime: 0.038085
+Child rusage ru_stime: 0.200336
+Child rusage ru_maxrss: 79428
+Child rusage ru_minflt: 2566
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 4264
+Child rusage ru_oublock: 19912
+Child rusage ru_nvcsw: 1234
+Child rusage ru_nivcsw: 30
+Status: PASSED 
+Ended: 1745543853.96 

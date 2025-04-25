@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745559671.83 
+wpebackend-fdo-1.14.2-r0: do_install
+Elapsed time: 1.59 seconds
+utime: 132
+stime: 7
+cutime: 42
+cstime: 15
+IO rchar: 10211848
+IO wchar: 1798274
+IO syscr: 1473
+IO syscw: 132
+IO read_bytes: 24576
+IO write_bytes: 1921024
+IO cancelled_write_bytes: 0
+rusage ru_utime: 1.3248820000000001
+rusage ru_stime: 0.07271899999999999
+rusage ru_maxrss: 91088
+rusage ru_minflt: 13366
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 184
+rusage ru_nvcsw: 23
+rusage ru_nivcsw: 303
+Child rusage ru_utime: 0.428367
+Child rusage ru_stime: 0.15151599999999998
+Child rusage ru_maxrss: 87516
+Child rusage ru_minflt: 8872
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 48
+Child rusage ru_oublock: 3568
+Child rusage ru_nvcsw: 113
+Child rusage ru_nivcsw: 198
+Status: PASSED 
+Ended: 1745559673.41 

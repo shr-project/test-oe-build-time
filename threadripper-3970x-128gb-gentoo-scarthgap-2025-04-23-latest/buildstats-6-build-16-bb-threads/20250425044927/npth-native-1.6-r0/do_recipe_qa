@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745556962.14 
+npth-native-1.6-r0: do_recipe_qa
+Elapsed time: 0.20 seconds
+utime: 44
+stime: 1
+cutime: 1
+cstime: 2
+IO rchar: 1026868
+IO wchar: 120596
+IO syscr: 366
+IO syscw: 103
+IO read_bytes: 0
+IO write_bytes: 163840
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.44995399999999997
+rusage ru_stime: 0.019996999999999997
+rusage ru_maxrss: 86824
+rusage ru_minflt: 10500
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 288
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 31
+Child rusage ru_utime: 0.011196
+Child rusage ru_stime: 0.026875999999999997
+Child rusage ru_maxrss: 86824
+Child rusage ru_minflt: 4517
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 253
+Child rusage ru_nivcsw: 12
+Status: PASSED 
+Ended: 1745556962.33 

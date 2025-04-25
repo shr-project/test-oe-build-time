@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745587211.73 
+eudev-3.2.14-r0: do_populate_sysroot
+Elapsed time: 0.62 seconds
+utime: 69
+stime: 5
+cutime: 9
+cstime: 14
+IO rchar: 20360224
+IO wchar: 7657356
+IO syscr: 3356
+IO syscw: 681
+IO read_bytes: 4096
+IO write_bytes: 6840320
+IO cancelled_write_bytes: 1019904
+rusage ru_utime: 0.6950919999999999
+rusage ru_stime: 0.052080999999999995
+rusage ru_maxrss: 85256
+rusage ru_minflt: 18848
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 8712
+rusage ru_nvcsw: 26
+rusage ru_nivcsw: 15
+Child rusage ru_utime: 0.099674
+Child rusage ru_stime: 0.145569
+Child rusage ru_maxrss: 85256
+Child rusage ru_minflt: 32277
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 4648
+Child rusage ru_nvcsw: 465
+Child rusage ru_nivcsw: 98
+Status: PASSED 
+Ended: 1745587212.35 

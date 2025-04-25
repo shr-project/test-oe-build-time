@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745546678.11 
+libseccomp-2.5.5-r0: do_create_runtime_spdx
+Elapsed time: 1.20 seconds
+utime: 136
+stime: 5
+cutime: 3
+cstime: 4
+IO rchar: 9867889
+IO wchar: 423257
+IO syscr: 1790
+IO syscw: 124
+IO read_bytes: 0
+IO write_bytes: 344064
+IO cancelled_write_bytes: 0
+rusage ru_utime: 1.361139
+rusage ru_stime: 0.058962
+rusage ru_maxrss: 113248
+rusage ru_minflt: 17853
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 472
+rusage ru_nvcsw: 19
+rusage ru_nivcsw: 99
+Child rusage ru_utime: 0.031052
+Child rusage ru_stime: 0.045467
+Child rusage ru_maxrss: 113248
+Child rusage ru_minflt: 5890
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 200
+Child rusage ru_nvcsw: 151
+Child rusage ru_nivcsw: 38
+Status: PASSED 
+Ended: 1745546679.30 

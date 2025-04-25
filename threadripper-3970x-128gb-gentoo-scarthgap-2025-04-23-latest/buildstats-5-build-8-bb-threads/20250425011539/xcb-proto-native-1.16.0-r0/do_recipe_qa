@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745544309.83 
+xcb-proto-native-1.16.0-r0: do_recipe_qa
+Elapsed time: 0.43 seconds
+utime: 70
+stime: 3
+cutime: 3
+cstime: 3
+IO rchar: 1010530
+IO wchar: 123774
+IO syscr: 372
+IO syscw: 105
+IO read_bytes: 0
+IO write_bytes: 163840
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.704885
+rusage ru_stime: 0.037993
+rusage ru_maxrss: 85736
+rusage ru_minflt: 10360
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 280
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 115
+Child rusage ru_utime: 0.031668
+Child rusage ru_stime: 0.031136999999999998
+Child rusage ru_maxrss: 85736
+Child rusage ru_minflt: 4517
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 297
+Child rusage ru_nivcsw: 28
+Status: PASSED 
+Ended: 1745544310.26 

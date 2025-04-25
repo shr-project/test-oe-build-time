@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745591538.27 
+rpm-1_4.19.1.1-r0: do_compile
+Elapsed time: 3.16 seconds
+utime: 38
+stime: 1
+cutime: 2460
+cstime: 589
+IO rchar: 282178111
+IO wchar: 51759149
+IO syscr: 75443
+IO syscw: 17051
+IO read_bytes: 77824
+IO write_bytes: 20262912
+IO cancelled_write_bytes: 409600
+rusage ru_utime: 0.384276
+rusage ru_stime: 0.016264999999999998
+rusage ru_maxrss: 89556
+rusage ru_minflt: 7109
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 1032
+rusage ru_nvcsw: 177
+rusage ru_nivcsw: 33
+Child rusage ru_utime: 24.605707
+Child rusage ru_stime: 5.897393
+Child rusage ru_maxrss: 85232
+Child rusage ru_minflt: 1031488
+Child rusage ru_majflt: 14
+Child rusage ru_inblock: 152
+Child rusage ru_oublock: 38544
+Child rusage ru_nvcsw: 5217
+Child rusage ru_nivcsw: 1855
+Status: PASSED 
+Ended: 1745591541.43 

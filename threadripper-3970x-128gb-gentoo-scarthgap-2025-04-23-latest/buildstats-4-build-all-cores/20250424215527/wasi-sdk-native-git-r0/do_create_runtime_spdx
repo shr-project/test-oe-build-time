@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745532035.48 
+wasi-sdk-native-git-r0: do_create_runtime_spdx
+Elapsed time: 0.22 seconds
+utime: 32
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 1023605
+IO wchar: 339334
+IO syscr: 382
+IO syscw: 102
+IO read_bytes: 0
+IO write_bytes: 180224
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.32838999999999996
+rusage ru_stime: 0.020146
+rusage ru_maxrss: 86564
+rusage ru_minflt: 10581
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 272
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 36
+Child rusage ru_utime: 0.016156999999999998
+Child rusage ru_stime: 0.028088
+Child rusage ru_maxrss: 86564
+Child rusage ru_minflt: 4775
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 80
+Child rusage ru_nvcsw: 292
+Child rusage ru_nivcsw: 54
+Status: PASSED 
+Ended: 1745532035.70 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745586855.20 
+util-macros-native-1_1.20.0-r0: do_recipe_qa
+Elapsed time: 0.19 seconds
+utime: 40
+stime: 3
+cutime: 1
+cstime: 2
+IO rchar: 997664
+IO wchar: 122214
+IO syscr: 364
+IO syscw: 104
+IO read_bytes: 0
+IO write_bytes: 126976
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.40895
+rusage ru_stime: 0.034995
+rusage ru_maxrss: 83680
+rusage ru_minflt: 9333
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 200
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 16
+Child rusage ru_utime: 0.014152
+Child rusage ru_stime: 0.025155999999999998
+Child rusage ru_maxrss: 83680
+Child rusage ru_minflt: 4526
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 48
+Child rusage ru_nvcsw: 289
+Child rusage ru_nivcsw: 33
+Status: PASSED 
+Ended: 1745586855.40 

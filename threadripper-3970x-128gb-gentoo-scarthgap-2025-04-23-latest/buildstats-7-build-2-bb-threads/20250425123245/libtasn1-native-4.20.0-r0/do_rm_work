@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745585845.65 
+libtasn1-native-4.20.0-r0: do_rm_work
+Elapsed time: 0.24 seconds
+utime: 42
+stime: 2
+cutime: 4
+cstime: 10
+IO rchar: 994990
+IO wchar: 37589
+IO syscr: 670
+IO syscw: 70
+IO read_bytes: 0
+IO write_bytes: 4968448
+IO cancelled_write_bytes: 10297344
+rusage ru_utime: 0.42691799999999996
+rusage ru_stime: 0.022994999999999998
+rusage ru_maxrss: 82816
+rusage ru_minflt: 8113
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 64
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 12
+Child rusage ru_utime: 0.043292
+Child rusage ru_stime: 0.101727
+Child rusage ru_maxrss: 79076
+Child rusage ru_minflt: 14093
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 9640
+Child rusage ru_nvcsw: 163
+Child rusage ru_nivcsw: 32
+Status: PASSED 
+Ended: 1745585845.89 

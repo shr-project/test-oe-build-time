@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745556870.03 
+compiler-rt-native-18.1.6-r0: do_create_runtime_spdx
+Elapsed time: 0.38 seconds
+utime: 79
+stime: 4
+cutime: 2
+cstime: 3
+IO rchar: 1172626
+IO wchar: 347510
+IO syscr: 382
+IO syscw: 112
+IO read_bytes: 0
+IO write_bytes: 151552
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.790592
+rusage ru_stime: 0.046738999999999996
+rusage ru_maxrss: 87660
+rusage ru_minflt: 10897
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 216
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 154
+Child rusage ru_utime: 0.025734
+Child rusage ru_stime: 0.037189
+Child rusage ru_maxrss: 87660
+Child rusage ru_minflt: 4803
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 80
+Child rusage ru_nvcsw: 171
+Child rusage ru_nivcsw: 30
+Status: PASSED 
+Ended: 1745556870.41 

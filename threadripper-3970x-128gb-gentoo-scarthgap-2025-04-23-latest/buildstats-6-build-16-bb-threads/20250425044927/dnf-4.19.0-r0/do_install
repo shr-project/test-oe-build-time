@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745561373.26 
+dnf-4.19.0-r0: do_install
+Elapsed time: 2.51 seconds
+utime: 79
+stime: 6
+cutime: 5
+cstime: 32
+IO rchar: 4516741
+IO wchar: 3749346
+IO syscr: 4546
+IO syscw: 947
+IO read_bytes: 1200128
+IO write_bytes: 4771840
+IO cancelled_write_bytes: 40960
+rusage ru_utime: 0.798862
+rusage ru_stime: 0.065885
+rusage ru_maxrss: 96248
+rusage ru_minflt: 14210
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 256
+rusage ru_nvcsw: 978
+rusage ru_nivcsw: 51
+Child rusage ru_utime: 0.050533999999999996
+Child rusage ru_stime: 0.32059299999999996
+Child rusage ru_maxrss: 92540
+Child rusage ru_minflt: 3501
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 2344
+Child rusage ru_oublock: 9064
+Child rusage ru_nvcsw: 5360
+Child rusage ru_nivcsw: 176
+Status: PASSED 
+Ended: 1745561375.76 

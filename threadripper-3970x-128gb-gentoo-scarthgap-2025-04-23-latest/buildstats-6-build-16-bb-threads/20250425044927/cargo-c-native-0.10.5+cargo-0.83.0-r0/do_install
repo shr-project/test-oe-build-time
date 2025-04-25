@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745558729.63 
+cargo-c-native-0.10.5+cargo-0.83.0-r0: do_install
+Elapsed time: 0.70 seconds
+utime: 187
+stime: 5
+cutime: 3
+cstime: 14
+IO rchar: 128118665
+IO wchar: 127843618
+IO syscr: 208
+IO syscw: 726
+IO read_bytes: 0
+IO write_bytes: 127590400
+IO cancelled_write_bytes: 0
+rusage ru_utime: 1.874075
+rusage ru_stime: 0.056250999999999995
+rusage ru_maxrss: 108652
+rusage ru_minflt: 11561
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 136
+rusage ru_nvcsw: 6
+rusage ru_nivcsw: 1094
+Child rusage ru_utime: 0.030441
+Child rusage ru_stime: 0.148208
+Child rusage ru_maxrss: 106092
+Child rusage ru_minflt: 2686
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 249064
+Child rusage ru_nvcsw: 20
+Child rusage ru_nivcsw: 53
+Status: PASSED 
+Ended: 1745558730.33 

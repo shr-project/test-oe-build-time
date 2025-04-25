@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745543830.77 
+cmake-native-3.28.3-r0: do_recipe_qa
+Elapsed time: 0.19 seconds
+utime: 29
+stime: 1
+cutime: 1
+cstime: 2
+IO rchar: 751122
+IO wchar: 114459
+IO syscr: 349
+IO syscw: 94
+IO read_bytes: 0
+IO write_bytes: 114688
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.29982
+rusage ru_stime: 0.01599
+rusage ru_maxrss: 80088
+rusage ru_minflt: 9714
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 192
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 8
+Child rusage ru_utime: 0.015422
+Child rusage ru_stime: 0.022133999999999997
+Child rusage ru_maxrss: 80088
+Child rusage ru_minflt: 4502
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 311
+Child rusage ru_nivcsw: 29
+Status: PASSED 
+Ended: 1745543830.97 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745556670.00 
+qtbase-native-5.15.16+git-r0: do_recipe_qa
+Elapsed time: 0.20 seconds
+utime: 33
+stime: 3
+cutime: 1
+cstime: 2
+IO rchar: 789179
+IO wchar: 122291
+IO syscr: 361
+IO syscw: 99
+IO read_bytes: 0
+IO write_bytes: 131072
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.333048
+rusage ru_stime: 0.030969999999999998
+rusage ru_maxrss: 82264
+rusage ru_minflt: 9996
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 224
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 37
+Child rusage ru_utime: 0.015366
+Child rusage ru_stime: 0.022765999999999998
+Child rusage ru_maxrss: 82264
+Child rusage ru_minflt: 4536
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 275
+Child rusage ru_nivcsw: 22
+Status: PASSED 
+Ended: 1745556670.20 

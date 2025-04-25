@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745533060.57 
+acl-2.3.2-r0: do_install
+Elapsed time: 1.15 seconds
+utime: 78
+stime: 5
+cutime: 25
+cstime: 54
+IO rchar: 3466768
+IO wchar: 886732
+IO syscr: 9751
+IO syscw: 897
+IO read_bytes: 315392
+IO write_bytes: 1167360
+IO cancelled_write_bytes: 12288
+rusage ru_utime: 0.788168
+rusage ru_stime: 0.057303
+rusage ru_maxrss: 80896
+rusage ru_minflt: 13400
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 272
+rusage ru_nvcsw: 145
+rusage ru_nivcsw: 302
+Child rusage ru_utime: 0.250038
+Child rusage ru_stime: 0.540318
+Child rusage ru_maxrss: 77172
+Child rusage ru_minflt: 70949
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 616
+Child rusage ru_oublock: 2008
+Child rusage ru_nvcsw: 1135
+Child rusage ru_nivcsw: 973
+Status: PASSED 
+Ended: 1745533061.73 

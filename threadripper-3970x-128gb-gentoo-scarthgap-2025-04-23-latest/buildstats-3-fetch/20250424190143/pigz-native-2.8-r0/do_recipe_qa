@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745521399.90 
+pigz-native-2.8-r0: do_recipe_qa
+Elapsed time: 0.20 seconds
+utime: 42
+stime: 1
+cutime: 1
+cstime: 2
+IO rchar: 949550
+IO wchar: 115365
+IO syscr: 352
+IO syscw: 97
+IO read_bytes: 0
+IO write_bytes: 147456
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.428145
+rusage ru_stime: 0.018918
+rusage ru_maxrss: 60152
+rusage ru_minflt: 8720
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 256
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 72
+Child rusage ru_utime: 0.015702999999999998
+Child rusage ru_stime: 0.021973
+Child rusage ru_maxrss: 60152
+Child rusage ru_minflt: 4489
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 289
+Child rusage ru_nivcsw: 62
+Status: PASSED 
+Ended: 1745521400.09 

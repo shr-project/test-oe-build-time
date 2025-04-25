@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745532091.20 
+libcheck-native-0.15.2-r0: do_create_runtime_spdx
+Elapsed time: 0.81 seconds
+utime: 53
+stime: 2
+cutime: 2
+cstime: 3
+IO rchar: 1264753
+IO wchar: 347515
+IO syscr: 400
+IO syscw: 114
+IO read_bytes: 0
+IO write_bytes: 147456
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.539558
+rusage ru_stime: 0.027925
+rusage ru_maxrss: 87564
+rusage ru_minflt: 10937
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 208
+rusage ru_nvcsw: 18
+rusage ru_nivcsw: 58
+Child rusage ru_utime: 0.021228
+Child rusage ru_stime: 0.037724
+Child rusage ru_maxrss: 87564
+Child rusage ru_minflt: 4793
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 80
+Child rusage ru_nvcsw: 241
+Child rusage ru_nivcsw: 23
+Status: PASSED 
+Ended: 1745532092.01 

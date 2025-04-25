@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745549483.81 
+gi-docgen-2023.3-r0: do_rm_work
+Elapsed time: 0.52 seconds
+utime: 47
+stime: 2
+cutime: 8
+cstime: 26
+IO rchar: 784669
+IO wchar: 30147
+IO syscr: 828
+IO syscw: 65
+IO read_bytes: 4096
+IO write_bytes: 23064576
+IO cancelled_write_bytes: 274432
+rusage ru_utime: 0.47316199999999997
+rusage ru_stime: 0.028947999999999998
+rusage ru_maxrss: 74028
+rusage ru_minflt: 7412
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 17
+Child rusage ru_utime: 0.082843
+Child rusage ru_stime: 0.269106
+Child rusage ru_maxrss: 69328
+Child rusage ru_minflt: 18766
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 44920
+Child rusage ru_nvcsw: 195
+Child rusage ru_nivcsw: 32
+Status: PASSED 
+Ended: 1745549484.33 

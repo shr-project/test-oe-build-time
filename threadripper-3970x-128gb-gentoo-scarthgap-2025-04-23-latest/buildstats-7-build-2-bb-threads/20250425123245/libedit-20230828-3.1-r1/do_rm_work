@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745593993.92 
+libedit-20230828-3.1-r1: do_rm_work
+Elapsed time: 0.35 seconds
+utime: 32
+stime: 1
+cutime: 6
+cstime: 15
+IO rchar: 935134
+IO wchar: 30230
+IO syscr: 907
+IO syscw: 68
+IO read_bytes: 20480
+IO write_bytes: 4866048
+IO cancelled_write_bytes: 20480
+rusage ru_utime: 0.32887099999999997
+rusage ru_stime: 0.011958
+rusage ru_maxrss: 90464
+rusage ru_minflt: 6655
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 56
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 2
+Child rusage ru_utime: 0.062527
+Child rusage ru_stime: 0.15647
+Child rusage ru_maxrss: 85228
+Child rusage ru_minflt: 20094
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 40
+Child rusage ru_oublock: 9448
+Child rusage ru_nvcsw: 225
+Child rusage ru_nivcsw: 31
+Status: PASSED 
+Ended: 1745593994.27 

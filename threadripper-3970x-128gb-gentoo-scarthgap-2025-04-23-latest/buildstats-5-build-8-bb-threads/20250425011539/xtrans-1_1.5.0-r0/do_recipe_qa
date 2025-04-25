@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745543863.30 
+xtrans-1_1.5.0-r0: do_recipe_qa
+Elapsed time: 0.20 seconds
+utime: 35
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 762299
+IO wchar: 118698
+IO syscr: 356
+IO syscw: 94
+IO read_bytes: 0
+IO write_bytes: 102400
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.35329299999999997
+rusage ru_stime: 0.027021999999999997
+rusage ru_maxrss: 80940
+rusage ru_minflt: 10049
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 168
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 22
+Child rusage ru_utime: 0.011268
+Child rusage ru_stime: 0.026416
+Child rusage ru_maxrss: 80940
+Child rusage ru_minflt: 4541
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 258
+Child rusage ru_nivcsw: 25
+Status: PASSED 
+Ended: 1745543863.50 

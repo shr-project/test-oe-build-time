@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745602545.25 
+socat-1.8.0.0-r0: do_configure
+Elapsed time: 17.43 seconds
+utime: 65
+stime: 5
+cutime: 998
+cstime: 689
+IO rchar: 275573858
+IO wchar: 27656582
+IO syscr: 101694
+IO syscw: 24514
+IO read_bytes: 16384
+IO write_bytes: 15683584
+IO cancelled_write_bytes: 5853184
+rusage ru_utime: 0.655165
+rusage ru_stime: 0.051326
+rusage ru_maxrss: 72092
+rusage ru_minflt: 19545
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 336
+rusage ru_nvcsw: 590
+rusage ru_nivcsw: 32
+Child rusage ru_utime: 9.986084
+Child rusage ru_stime: 6.899782
+Child rusage ru_maxrss: 72092
+Child rusage ru_minflt: 1745985
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 32
+Child rusage ru_oublock: 30296
+Child rusage ru_nvcsw: 9608
+Child rusage ru_nivcsw: 1911
+Status: PASSED 
+Ended: 1745602562.68 

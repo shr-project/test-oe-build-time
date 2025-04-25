@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745593413.04 
+wpebackend-fdo-1.14.2-r0: do_recipe_qa
+Elapsed time: 0.19 seconds
+utime: 37
+stime: 2
+cutime: 0
+cstime: 3
+IO rchar: 736093
+IO wchar: 120256
+IO syscr: 351
+IO syscw: 96
+IO read_bytes: 16384
+IO write_bytes: 147456
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.372563
+rusage ru_stime: 0.024836999999999998
+rusage ru_maxrss: 90472
+rusage ru_minflt: 9117
+rusage ru_majflt: 0
+rusage ru_inblock: 32
+rusage ru_oublock: 256
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 11
+Child rusage ru_utime: 0.009349
+Child rusage ru_stime: 0.030400999999999997
+Child rusage ru_maxrss: 90472
+Child rusage ru_minflt: 4546
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 267
+Child rusage ru_nivcsw: 37
+Status: PASSED 
+Ended: 1745593413.23 

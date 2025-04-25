@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745557893.11 
+libcheck-0.15.2-r0: do_compile
+Elapsed time: 13.23 seconds
+utime: 51
+stime: 3
+cutime: 1207
+cstime: 352
+IO rchar: 98740385
+IO wchar: 14901374
+IO syscr: 28382
+IO syscw: 6913
+IO read_bytes: 577536
+IO write_bytes: 6164480
+IO cancelled_write_bytes: 589824
+rusage ru_utime: 0.515612
+rusage ru_stime: 0.030916
+rusage ru_maxrss: 89176
+rusage ru_minflt: 6655
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 448
+rusage ru_nvcsw: 179
+rusage ru_nivcsw: 62
+Child rusage ru_utime: 12.072549
+Child rusage ru_stime: 3.527934
+Child rusage ru_maxrss: 84204
+Child rusage ru_minflt: 560925
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 1128
+Child rusage ru_oublock: 11592
+Child rusage ru_nvcsw: 4395
+Child rusage ru_nivcsw: 1941
+Status: PASSED 
+Ended: 1745557906.34 

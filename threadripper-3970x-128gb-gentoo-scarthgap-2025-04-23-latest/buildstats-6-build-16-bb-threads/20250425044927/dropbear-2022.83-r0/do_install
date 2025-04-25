@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745561730.95 
+dropbear-2022.83-r0: do_install
+Elapsed time: 0.41 seconds
+utime: 53
+stime: 3
+cutime: 2
+cstime: 5
+IO rchar: 2432526
+IO wchar: 1875943
+IO syscr: 789
+IO syscw: 76
+IO read_bytes: 20480
+IO write_bytes: 1933312
+IO cancelled_write_bytes: 12288
+rusage ru_utime: 0.5388419999999999
+rusage ru_stime: 0.037848
+rusage ru_maxrss: 99240
+rusage ru_minflt: 13919
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 232
+rusage ru_nvcsw: 510
+rusage ru_nivcsw: 47
+Child rusage ru_utime: 0.025013999999999998
+Child rusage ru_stime: 0.059074999999999996
+Child rusage ru_maxrss: 94996
+Child rusage ru_minflt: 6485
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 40
+Child rusage ru_oublock: 3544
+Child rusage ru_nvcsw: 374
+Child rusage ru_nivcsw: 10
+Status: PASSED 
+Ended: 1745561731.36 

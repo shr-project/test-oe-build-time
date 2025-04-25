@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745543840.40 
+python3-pyproject-hooks-native-1.0.0-r0: do_recipe_qa
+Elapsed time: 0.20 seconds
+utime: 43
+stime: 3
+cutime: 1
+cstime: 2
+IO rchar: 895613
+IO wchar: 123147
+IO syscr: 353
+IO syscw: 104
+IO read_bytes: 0
+IO write_bytes: 131072
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.43252599999999997
+rusage ru_stime: 0.034041
+rusage ru_maxrss: 80508
+rusage ru_minflt: 10106
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 224
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 11
+Child rusage ru_utime: 0.011391
+Child rusage ru_stime: 0.027247
+Child rusage ru_maxrss: 80508
+Child rusage ru_minflt: 4541
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 263
+Child rusage ru_nivcsw: 32
+Status: PASSED 
+Ended: 1745543840.60 

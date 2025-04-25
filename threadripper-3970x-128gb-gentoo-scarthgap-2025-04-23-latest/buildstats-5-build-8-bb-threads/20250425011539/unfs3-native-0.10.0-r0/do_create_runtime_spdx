@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745550457.48 
+unfs3-native-0.10.0-r0: do_create_runtime_spdx
+Elapsed time: 0.22 seconds
+utime: 45
+stime: 3
+cutime: 1
+cstime: 2
+IO rchar: 1265616
+IO wchar: 345774
+IO syscr: 398
+IO syscw: 112
+IO read_bytes: 0
+IO write_bytes: 176128
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.45181299999999996
+rusage ru_stime: 0.032056999999999995
+rusage ru_maxrss: 75392
+rusage ru_minflt: 10316
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 264
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 23
+Child rusage ru_utime: 0.017272
+Child rusage ru_stime: 0.023745
+Child rusage ru_maxrss: 75392
+Child rusage ru_minflt: 4779
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 80
+Child rusage ru_nvcsw: 225
+Child rusage ru_nivcsw: 11
+Status: PASSED 
+Ended: 1745550457.70 

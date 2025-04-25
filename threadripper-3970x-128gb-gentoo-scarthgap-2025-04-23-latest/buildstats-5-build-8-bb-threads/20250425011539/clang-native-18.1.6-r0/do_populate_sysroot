@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745546709.74 
+clang-native-18.1.6-r0: do_populate_sysroot
+Elapsed time: 11.62 seconds
+utime: 574
+stime: 200
+cutime: 4563
+cstime: 609
+IO rchar: 6273520247
+IO wchar: 2713908263
+IO syscr: 762289
+IO syscw: 212475
+IO read_bytes: 20480
+IO write_bytes: 1099538432
+IO cancelled_write_bytes: 250675200
+rusage ru_utime: 5.745584
+rusage ru_stime: 2.009357
+rusage ru_maxrss: 102508
+rusage ru_minflt: 53687
+rusage ru_majflt: 0
+rusage ru_inblock: 24
+rusage ru_oublock: 597040
+rusage ru_nvcsw: 756
+rusage ru_nivcsw: 559
+Child rusage ru_utime: 45.638488
+Child rusage ru_stime: 6.091106
+Child rusage ru_maxrss: 600156
+Child rusage ru_minflt: 572451
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 1550496
+Child rusage ru_nvcsw: 119471
+Child rusage ru_nivcsw: 118533
+Status: PASSED 
+Ended: 1745546721.36 

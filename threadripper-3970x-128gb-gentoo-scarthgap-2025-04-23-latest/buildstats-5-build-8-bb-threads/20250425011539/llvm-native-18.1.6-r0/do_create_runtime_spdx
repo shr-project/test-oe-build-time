@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745550374.78 
+llvm-native-18.1.6-r0: do_create_runtime_spdx
+Elapsed time: 0.34 seconds
+utime: 71
+stime: 3
+cutime: 1
+cstime: 3
+IO rchar: 1150972
+IO wchar: 341838
+IO syscr: 288
+IO syscw: 108
+IO read_bytes: 0
+IO write_bytes: 200704
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.718649
+rusage ru_stime: 0.035932
+rusage ru_maxrss: 75824
+rusage ru_minflt: 10458
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 288
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 89
+Child rusage ru_utime: 0.018521
+Child rusage ru_stime: 0.037106
+Child rusage ru_maxrss: 75824
+Child rusage ru_minflt: 4705
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 104
+Child rusage ru_nvcsw: 140
+Child rusage ru_nivcsw: 16
+Status: PASSED 
+Ended: 1745550375.12 

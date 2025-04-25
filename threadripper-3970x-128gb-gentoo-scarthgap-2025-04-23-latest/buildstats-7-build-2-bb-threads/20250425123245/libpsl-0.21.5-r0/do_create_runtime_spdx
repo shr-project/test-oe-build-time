@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745591557.98 
+libpsl-0.21.5-r0: do_create_runtime_spdx
+Elapsed time: 0.34 seconds
+utime: 52
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 1129360
+IO wchar: 421858
+IO syscr: 496
+IO syscw: 126
+IO read_bytes: 131072
+IO write_bytes: 286720
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.528582
+rusage ru_stime: 0.022108
+rusage ru_maxrss: 90400
+rusage ru_minflt: 9717
+rusage ru_majflt: 0
+rusage ru_inblock: 256
+rusage ru_oublock: 400
+rusage ru_nvcsw: 21
+rusage ru_nivcsw: 2
+Child rusage ru_utime: 0.012768
+Child rusage ru_stime: 0.035932
+Child rusage ru_maxrss: 90400
+Child rusage ru_minflt: 5942
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 160
+Child rusage ru_nvcsw: 315
+Child rusage ru_nivcsw: 32
+Status: PASSED 
+Ended: 1745591558.32 

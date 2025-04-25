@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745591447.63 
+c-ares-native-1.27.0-r0: do_rm_work
+Elapsed time: 0.22 seconds
+utime: 39
+stime: 1
+cutime: 5
+cstime: 7
+IO rchar: 989786
+IO wchar: 31379
+IO syscr: 668
+IO syscw: 63
+IO read_bytes: 0
+IO write_bytes: 4366336
+IO cancelled_write_bytes: 11259904
+rusage ru_utime: 0.39818699999999996
+rusage ru_stime: 0.015967
+rusage ru_maxrss: 90040
+rusage ru_minflt: 6864
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 56
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 10
+Child rusage ru_utime: 0.051632
+Child rusage ru_stime: 0.076801
+Child rusage ru_maxrss: 85228
+Child rusage ru_minflt: 14087
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 8472
+Child rusage ru_nvcsw: 165
+Child rusage ru_nivcsw: 12
+Status: PASSED 
+Ended: 1745591447.85 

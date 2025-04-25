@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745603524.44 
+ldconfig-native-2.12.1-r0: do_recipe_qa
+Elapsed time: 0.19 seconds
+utime: 29
+stime: 1
+cutime: 1
+cstime: 2
+IO rchar: 798475
+IO wchar: 113750
+IO syscr: 359
+IO syscw: 93
+IO read_bytes: 4096
+IO write_bytes: 151552
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.29125799999999996
+rusage ru_stime: 0.014012
+rusage ru_maxrss: 73096
+rusage ru_minflt: 9728
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 264
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 10
+Child rusage ru_utime: 0.011446999999999999
+Child rusage ru_stime: 0.026562
+Child rusage ru_maxrss: 73096
+Child rusage ru_minflt: 4524
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 282
+Child rusage ru_nivcsw: 31
+Status: PASSED 
+Ended: 1745603524.62 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745585178.49 
+libedit-native-20230828-3.1-r1: do_recipe_qa
+Elapsed time: 0.20 seconds
+utime: 44
+stime: 1
+cutime: 1
+cstime: 3
+IO rchar: 998260
+IO wchar: 121700
+IO syscr: 360
+IO syscw: 103
+IO read_bytes: 0
+IO write_bytes: 155648
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.44381299999999996
+rusage ru_stime: 0.017991999999999998
+rusage ru_maxrss: 81636
+rusage ru_minflt: 10280
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 272
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 25
+Child rusage ru_utime: 0.01829
+Child rusage ru_stime: 0.035066
+Child rusage ru_maxrss: 81636
+Child rusage ru_minflt: 4525
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 353
+Child rusage ru_nivcsw: 40
+Status: PASSED 
+Ended: 1745585178.69 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745545772.93 
+e2fsprogs-1.47.0-r0: do_populate_sysroot
+Elapsed time: 0.78 seconds
+utime: 75
+stime: 6
+cutime: 12
+cstime: 18
+IO rchar: 22313695
+IO wchar: 9387826
+IO syscr: 3744
+IO syscw: 862
+IO read_bytes: 0
+IO write_bytes: 8638464
+IO cancelled_write_bytes: 565248
+rusage ru_utime: 0.7588389999999999
+rusage ru_stime: 0.062369999999999995
+rusage ru_maxrss: 97556
+rusage ru_minflt: 20666
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 4864
+rusage ru_nvcsw: 25
+rusage ru_nivcsw: 25
+Child rusage ru_utime: 0.12393599999999999
+Child rusage ru_stime: 0.18842199999999998
+Child rusage ru_maxrss: 97556
+Child rusage ru_minflt: 25248
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 12008
+Child rusage ru_nvcsw: 490
+Child rusage ru_nivcsw: 129
+Status: PASSED 
+Ended: 1745545773.71 

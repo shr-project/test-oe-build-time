@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745531792.12 
+quilt-native-0.67-r0: do_populate_sysroot
+Elapsed time: 0.61 seconds
+utime: 56
+stime: 12
+cutime: 14
+cstime: 25
+IO rchar: 2862909
+IO wchar: 617744
+IO syscr: 2022
+IO syscw: 318
+IO read_bytes: 0
+IO write_bytes: 528384
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 0.56921
+rusage ru_stime: 0.122614
+rusage ru_maxrss: 78292
+rusage ru_minflt: 26265
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 456
+rusage ru_nvcsw: 28
+rusage ru_nivcsw: 39
+Child rusage ru_utime: 0.14010699999999998
+Child rusage ru_stime: 0.257896
+Child rusage ru_maxrss: 78292
+Child rusage ru_minflt: 47665
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 576
+Child rusage ru_nvcsw: 589
+Child rusage ru_nivcsw: 201
+Status: PASSED 
+Ended: 1745531792.73 

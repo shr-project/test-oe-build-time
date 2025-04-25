@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745543819.95 
+zstd-native-1.5.5-r0: do_create_runtime_spdx
+Elapsed time: 0.21 seconds
+utime: 40
+stime: 3
+cutime: 1
+cstime: 2
+IO rchar: 1185471
+IO wchar: 339932
+IO syscr: 382
+IO syscw: 106
+IO read_bytes: 0
+IO write_bytes: 237568
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.40802
+rusage ru_stime: 0.03085
+rusage ru_maxrss: 80336
+rusage ru_minflt: 10371
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 360
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 18
+Child rusage ru_utime: 0.01609
+Child rusage ru_stime: 0.028999999999999998
+Child rusage ru_maxrss: 80336
+Child rusage ru_minflt: 4768
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 104
+Child rusage ru_nvcsw: 283
+Child rusage ru_nivcsw: 50
+Status: PASSED 
+Ended: 1745543820.15 

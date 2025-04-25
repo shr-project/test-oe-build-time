@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745557029.45 
+run-postinsts-1.0-r0: do_populate_sysroot
+Elapsed time: 0.56 seconds
+utime: 68
+stime: 3
+cutime: 3
+cstime: 7
+IO rchar: 955100
+IO wchar: 163633
+IO syscr: 819
+IO syscw: 118
+IO read_bytes: 0
+IO write_bytes: 184320
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.686546
+rusage ru_stime: 0.036975
+rusage ru_maxrss: 87976
+rusage ru_minflt: 13861
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 312
+rusage ru_nvcsw: 20
+rusage ru_nivcsw: 115
+Child rusage ru_utime: 0.038801999999999996
+Child rusage ru_stime: 0.075238
+Child rusage ru_maxrss: 87976
+Child rusage ru_minflt: 8225
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 48
+Child rusage ru_nvcsw: 348
+Child rusage ru_nivcsw: 60
+Status: PASSED 
+Ended: 1745557030.01 

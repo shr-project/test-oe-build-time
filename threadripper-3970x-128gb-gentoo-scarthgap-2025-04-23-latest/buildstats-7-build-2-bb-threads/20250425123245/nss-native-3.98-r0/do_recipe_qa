@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745591766.41 
+nss-native-3.98-r0: do_recipe_qa
+Elapsed time: 0.20 seconds
+utime: 43
+stime: 0
+cutime: 1
+cstime: 2
+IO rchar: 1016047
+IO wchar: 118089
+IO syscr: 358
+IO syscw: 101
+IO read_bytes: 12288
+IO write_bytes: 139264
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.432118
+rusage ru_stime: 0.009979
+rusage ru_maxrss: 89384
+rusage ru_minflt: 9340
+rusage ru_majflt: 0
+rusage ru_inblock: 24
+rusage ru_oublock: 240
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 23
+Child rusage ru_utime: 0.015408999999999999
+Child rusage ru_stime: 0.025835999999999998
+Child rusage ru_maxrss: 89384
+Child rusage ru_minflt: 4501
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 277
+Child rusage ru_nivcsw: 32
+Status: PASSED 
+Ended: 1745591766.61 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745596752.80 
+wasi-sdk-native-git-r0: do_install
+Elapsed time: 0.87 seconds
+utime: 45
+stime: 2
+cutime: 2
+cstime: 61
+IO rchar: 942528854
+IO wchar: 942046903
+IO syscr: 1573
+IO syscw: 1378
+IO read_bytes: 0
+IO write_bytes: 946180096
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.45230899999999996
+rusage ru_stime: 0.028954999999999998
+rusage ru_maxrss: 70544
+rusage ru_minflt: 9980
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 224
+rusage ru_nvcsw: 6
+rusage ru_nivcsw: 4
+Child rusage ru_utime: 0.026284
+Child rusage ru_stime: 0.617984
+Child rusage ru_maxrss: 70544
+Child rusage ru_minflt: 3331
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1847784
+Child rusage ru_nvcsw: 27
+Child rusage ru_nivcsw: 4
+Status: PASSED 
+Ended: 1745596753.67 

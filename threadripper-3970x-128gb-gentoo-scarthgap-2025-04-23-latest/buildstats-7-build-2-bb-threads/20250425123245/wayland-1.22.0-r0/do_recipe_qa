@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745586608.84 
+wayland-1.22.0-r0: do_recipe_qa
+Elapsed time: 0.23 seconds
+utime: 42
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 771537
+IO wchar: 120713
+IO syscr: 360
+IO syscw: 98
+IO read_bytes: 4096
+IO write_bytes: 135168
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.42800099999999996
+rusage ru_stime: 0.020999999999999998
+rusage ru_maxrss: 83512
+rusage ru_minflt: 12498
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 232
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 13
+Child rusage ru_utime: 0.012164
+Child rusage ru_stime: 0.026608
+Child rusage ru_maxrss: 83512
+Child rusage ru_minflt: 4524
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 278
+Child rusage ru_nivcsw: 38
+Status: PASSED 
+Ended: 1745586609.07 

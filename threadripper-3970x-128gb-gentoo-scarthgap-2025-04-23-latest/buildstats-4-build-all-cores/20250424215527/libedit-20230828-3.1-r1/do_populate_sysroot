@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745533198.75 
+libedit-20230828-3.1-r1: do_populate_sysroot
+Elapsed time: 0.82 seconds
+utime: 89
+stime: 5
+cutime: 7
+cstime: 10
+IO rchar: 4920172
+IO wchar: 1873344
+IO syscr: 983
+IO syscw: 253
+IO read_bytes: 110592
+IO write_bytes: 1736704
+IO cancelled_write_bytes: 229376
+rusage ru_utime: 0.892305
+rusage ru_stime: 0.056965999999999996
+rusage ru_maxrss: 87896
+rusage ru_minflt: 14837
+rusage ru_majflt: 0
+rusage ru_inblock: 216
+rusage ru_oublock: 2104
+rusage ru_nvcsw: 25
+rusage ru_nivcsw: 148
+Child rusage ru_utime: 0.071795
+Child rusage ru_stime: 0.106141
+Child rusage ru_maxrss: 87896
+Child rusage ru_minflt: 13398
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1288
+Child rusage ru_nvcsw: 225
+Child rusage ru_nivcsw: 66
+Status: PASSED 
+Ended: 1745533199.57 

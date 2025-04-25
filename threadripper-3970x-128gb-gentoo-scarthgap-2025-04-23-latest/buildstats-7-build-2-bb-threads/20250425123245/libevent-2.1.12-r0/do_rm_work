@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745592343.45 
+libevent-2.1.12-r0: do_rm_work
+Elapsed time: 0.34 seconds
+utime: 34
+stime: 2
+cutime: 6
+cstime: 16
+IO rchar: 1018411
+IO wchar: 31790
+IO syscr: 1051
+IO syscw: 76
+IO read_bytes: 12288
+IO write_bytes: 5382144
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.34640699999999996
+rusage ru_stime: 0.023027
+rusage ru_maxrss: 90052
+rusage ru_minflt: 6784
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 64
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 16
+Child rusage ru_utime: 0.063677
+Child rusage ru_stime: 0.164573
+Child rusage ru_maxrss: 84924
+Child rusage ru_minflt: 23244
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 10448
+Child rusage ru_nvcsw: 272
+Child rusage ru_nivcsw: 33
+Status: PASSED 
+Ended: 1745592343.79 

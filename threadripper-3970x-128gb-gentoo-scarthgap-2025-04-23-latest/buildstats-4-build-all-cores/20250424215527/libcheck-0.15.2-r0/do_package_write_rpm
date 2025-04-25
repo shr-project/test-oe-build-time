@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745533530.15 
+libcheck-0.15.2-r0: do_package_write_rpm
+Elapsed time: 1.37 seconds
+utime: 123
+stime: 9
+cutime: 31
+cstime: 25
+IO rchar: 6118902
+IO wchar: 1194795
+IO syscr: 2721
+IO syscw: 570
+IO read_bytes: 0
+IO write_bytes: 876544
+IO cancelled_write_bytes: 0
+rusage ru_utime: 1.230734
+rusage ru_stime: 0.09887299999999999
+rusage ru_maxrss: 84824
+rusage ru_minflt: 21413
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 624
+rusage ru_nvcsw: 151
+rusage ru_nivcsw: 614
+Child rusage ru_utime: 0.316982
+Child rusage ru_stime: 0.255415
+Child rusage ru_maxrss: 84824
+Child rusage ru_minflt: 23982
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1088
+Child rusage ru_nvcsw: 2066
+Child rusage ru_nivcsw: 490
+Status: PASSED 
+Ended: 1745533531.52 

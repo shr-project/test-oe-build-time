@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745546008.46 
+c-ares-native-1.27.0-r0: do_recipe_qa
+Elapsed time: 0.39 seconds
+utime: 75
+stime: 4
+cutime: 3
+cstime: 3
+IO rchar: 1016859
+IO wchar: 119843
+IO syscr: 368
+IO syscw: 103
+IO read_bytes: 0
+IO write_bytes: 204800
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.7535459999999999
+rusage ru_stime: 0.043569
+rusage ru_maxrss: 102476
+rusage ru_minflt: 9956
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 352
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 157
+Child rusage ru_utime: 0.030957
+Child rusage ru_stime: 0.032979999999999995
+Child rusage ru_maxrss: 102476
+Child rusage ru_minflt: 4515
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 48
+Child rusage ru_nvcsw: 308
+Child rusage ru_nivcsw: 18
+Status: PASSED 
+Ended: 1745546008.85 

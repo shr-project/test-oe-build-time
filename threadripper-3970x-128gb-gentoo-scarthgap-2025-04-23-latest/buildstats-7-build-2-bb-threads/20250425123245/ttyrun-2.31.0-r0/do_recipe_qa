@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745602308.98 
+ttyrun-2.31.0-r0: do_recipe_qa
+Elapsed time: 0.19 seconds
+utime: 31
+stime: 1
+cutime: 1
+cstime: 2
+IO rchar: 730942
+IO wchar: 110258
+IO syscr: 337
+IO syscw: 84
+IO read_bytes: 12288
+IO write_bytes: 114688
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.318774
+rusage ru_stime: 0.019046
+rusage ru_maxrss: 70968
+rusage ru_minflt: 9980
+rusage ru_majflt: 0
+rusage ru_inblock: 24
+rusage ru_oublock: 192
+rusage ru_nvcsw: 14
+rusage ru_nivcsw: 9
+Child rusage ru_utime: 0.013732999999999999
+Child rusage ru_stime: 0.024582999999999997
+Child rusage ru_maxrss: 70968
+Child rusage ru_minflt: 4485
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 271
+Child rusage ru_nivcsw: 34
+Status: PASSED 
+Ended: 1745602309.16 

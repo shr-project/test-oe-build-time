@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745544009.68 
+meson-native-1.3.1-r0: do_create_runtime_spdx
+Elapsed time: 0.22 seconds
+utime: 50
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 1225913
+IO wchar: 349735
+IO syscr: 403
+IO syscw: 118
+IO read_bytes: 0
+IO write_bytes: 196608
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.509845
+rusage ru_stime: 0.028149999999999998
+rusage ru_maxrss: 83580
+rusage ru_minflt: 10661
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 296
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 20
+Child rusage ru_utime: 0.01068
+Child rusage ru_stime: 0.033446
+Child rusage ru_maxrss: 83580
+Child rusage ru_minflt: 4813
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 88
+Child rusage ru_nvcsw: 285
+Child rusage ru_nivcsw: 43
+Status: PASSED 
+Ended: 1745544009.90 

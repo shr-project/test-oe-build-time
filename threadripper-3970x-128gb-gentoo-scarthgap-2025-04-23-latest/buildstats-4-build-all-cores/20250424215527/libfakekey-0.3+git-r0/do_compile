@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745535256.75 
+libfakekey-0.3+git-r0: do_compile
+Elapsed time: 0.60 seconds
+utime: 30
+stime: 1
+cutime: 35
+cstime: 17
+IO rchar: 8587918
+IO wchar: 745194
+IO syscr: 2603
+IO syscw: 690
+IO read_bytes: 20480
+IO write_bytes: 397312
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.306048
+rusage ru_stime: 0.010067
+rusage ru_maxrss: 94288
+rusage ru_minflt: 6696
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 184
+rusage ru_nvcsw: 37
+rusage ru_nivcsw: 7
+Child rusage ru_utime: 0.351495
+Child rusage ru_stime: 0.17809799999999998
+Child rusage ru_maxrss: 89752
+Child rusage ru_minflt: 50935
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 40
+Child rusage ru_oublock: 592
+Child rusage ru_nvcsw: 464
+Child rusage ru_nivcsw: 96
+Status: PASSED 
+Ended: 1745535257.36 

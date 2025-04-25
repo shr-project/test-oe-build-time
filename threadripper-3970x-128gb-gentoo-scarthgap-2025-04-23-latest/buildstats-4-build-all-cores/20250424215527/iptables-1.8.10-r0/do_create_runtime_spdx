@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745534743.73 
+iptables-1.8.10-r0: do_create_runtime_spdx
+Elapsed time: 2.98 seconds
+utime: 219
+stime: 6
+cutime: 1
+cstime: 4
+IO rchar: 6937174
+IO wchar: 1239618
+IO syscr: 4039
+IO syscw: 298
+IO read_bytes: 0
+IO write_bytes: 2232320
+IO cancelled_write_bytes: 0
+rusage ru_utime: 2.194069
+rusage ru_stime: 0.061413999999999996
+rusage ru_maxrss: 97464
+rusage ru_minflt: 11358
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 3256
+rusage ru_nvcsw: 19
+rusage ru_nivcsw: 402
+Child rusage ru_utime: 0.017675
+Child rusage ru_stime: 0.043699999999999996
+Child rusage ru_maxrss: 97464
+Child rusage ru_minflt: 6219
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1104
+Child rusage ru_nvcsw: 342
+Child rusage ru_nivcsw: 57
+Status: PASSED 
+Ended: 1745534746.71 

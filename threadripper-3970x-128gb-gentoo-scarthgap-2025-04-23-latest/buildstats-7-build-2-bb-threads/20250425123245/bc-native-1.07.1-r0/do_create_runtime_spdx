@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745590495.32 
+bc-native-1.07.1-r0: do_create_runtime_spdx
+Elapsed time: 0.23 seconds
+utime: 45
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 1268811
+IO wchar: 347443
+IO syscr: 401
+IO syscw: 115
+IO read_bytes: 0
+IO write_bytes: 184320
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.45824699999999996
+rusage ru_stime: 0.029078999999999997
+rusage ru_maxrss: 90852
+rusage ru_minflt: 13045
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 264
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 5
+Child rusage ru_utime: 0.015981
+Child rusage ru_stime: 0.029838999999999997
+Child rusage ru_maxrss: 90340
+Child rusage ru_minflt: 4807
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 96
+Child rusage ru_nvcsw: 344
+Child rusage ru_nivcsw: 38
+Status: PASSED 
+Ended: 1745590495.55 

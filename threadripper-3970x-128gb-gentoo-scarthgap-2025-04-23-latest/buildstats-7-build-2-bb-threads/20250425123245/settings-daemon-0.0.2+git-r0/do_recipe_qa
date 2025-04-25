@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745601194.33 
+settings-daemon-0.0.2+git-r0: do_recipe_qa
+Elapsed time: 0.19 seconds
+utime: 33
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 829681
+IO wchar: 118547
+IO syscr: 361
+IO syscw: 92
+IO read_bytes: 73728
+IO write_bytes: 172032
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.33943
+rusage ru_stime: 0.022026999999999998
+rusage ru_maxrss: 71412
+rusage ru_minflt: 10024
+rusage ru_majflt: 0
+rusage ru_inblock: 144
+rusage ru_oublock: 304
+rusage ru_nvcsw: 14
+rusage ru_nivcsw: 4
+Child rusage ru_utime: 0.010976999999999999
+Child rusage ru_stime: 0.028905999999999998
+Child rusage ru_maxrss: 71412
+Child rusage ru_minflt: 4574
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 308
+Child rusage ru_nivcsw: 21
+Status: PASSED 
+Ended: 1745601194.52 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745532234.12 
+spirv-tools-native-1_1.3.275.0-r0: do_compile
+Elapsed time: 37.05 seconds
+utime: 90
+stime: 4
+cutime: 147731
+cstime: 9053
+IO rchar: 6292415477
+IO wchar: 3533777057
+IO syscr: 413884
+IO syscw: 724682
+IO read_bytes: 180224
+IO write_bytes: 930226176
+IO cancelled_write_bytes: 7344128
+rusage ru_utime: 0.909855
+rusage ru_stime: 0.043585
+rusage ru_maxrss: 86468
+rusage ru_minflt: 8387
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 960
+rusage ru_nvcsw: 347
+rusage ru_nivcsw: 236
+Child rusage ru_utime: 1477.313811
+Child rusage ru_stime: 90.53514
+Child rusage ru_maxrss: 784880
+Child rusage ru_minflt: 26126938
+Child rusage ru_majflt: 31
+Child rusage ru_inblock: 352
+Child rusage ru_oublock: 1815888
+Child rusage ru_nvcsw: 105064
+Child rusage ru_nivcsw: 177763
+Status: PASSED 
+Ended: 1745532271.17 

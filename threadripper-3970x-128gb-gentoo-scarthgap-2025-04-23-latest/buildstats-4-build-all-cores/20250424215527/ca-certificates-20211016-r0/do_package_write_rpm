@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745533905.63 
+ca-certificates-20211016-r0: do_package_write_rpm
+Elapsed time: 1.98 seconds
+utime: 106
+stime: 11
+cutime: 40
+cstime: 25
+IO rchar: 3224272
+IO wchar: 932914
+IO syscr: 3486
+IO syscw: 367
+IO read_bytes: 4096
+IO write_bytes: 741376
+IO cancelled_write_bytes: 0
+rusage ru_utime: 1.067671
+rusage ru_stime: 0.11212
+rusage ru_maxrss: 85088
+rusage ru_minflt: 20833
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 728
+rusage ru_nvcsw: 210
+rusage ru_nivcsw: 517
+Child rusage ru_utime: 0.40985499999999997
+Child rusage ru_stime: 0.250623
+Child rusage ru_maxrss: 85088
+Child rusage ru_minflt: 20991
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 720
+Child rusage ru_nvcsw: 3459
+Child rusage ru_nivcsw: 328
+Status: PASSED 
+Ended: 1745533907.61 

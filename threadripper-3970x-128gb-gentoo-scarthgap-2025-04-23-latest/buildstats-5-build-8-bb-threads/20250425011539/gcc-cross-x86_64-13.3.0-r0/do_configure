@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745544047.89 
+gcc-cross-x86_64-13.3.0-r0: do_configure
+Elapsed time: 2.87 seconds
+utime: 72
+stime: 6
+cutime: 170
+cstime: 123
+IO rchar: 29550153
+IO wchar: 11723719
+IO syscr: 17009
+IO syscw: 10937
+IO read_bytes: 4096
+IO write_bytes: 4517888
+IO cancelled_write_bytes: 2826240
+rusage ru_utime: 0.7267
+rusage ru_stime: 0.060057
+rusage ru_maxrss: 83688
+rusage ru_minflt: 14693
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 1360
+rusage ru_nvcsw: 272
+rusage ru_nivcsw: 58
+Child rusage ru_utime: 1.7039710000000001
+Child rusage ru_stime: 1.239949
+Child rusage ru_maxrss: 83688
+Child rusage ru_minflt: 354729
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 7464
+Child rusage ru_nvcsw: 4951
+Child rusage ru_nivcsw: 831
+Status: PASSED 
+Ended: 1745544050.76 

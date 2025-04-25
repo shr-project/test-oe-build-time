@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745586701.92 
+libmd-native-1.1.0-r0: do_create_runtime_spdx
+Elapsed time: 0.20 seconds
+utime: 42
+stime: 1
+cutime: 1
+cstime: 2
+IO rchar: 1146521
+IO wchar: 344751
+IO syscr: 383
+IO syscw: 110
+IO read_bytes: 0
+IO write_bytes: 147456
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.42324799999999996
+rusage ru_stime: 0.019011
+rusage ru_maxrss: 83332
+rusage ru_minflt: 9423
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 208
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 23
+Child rusage ru_utime: 0.015723
+Child rusage ru_stime: 0.028221999999999997
+Child rusage ru_maxrss: 83332
+Child rusage ru_minflt: 4813
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 80
+Child rusage ru_nvcsw: 305
+Child rusage ru_nivcsw: 39
+Status: PASSED 
+Ended: 1745586702.12 

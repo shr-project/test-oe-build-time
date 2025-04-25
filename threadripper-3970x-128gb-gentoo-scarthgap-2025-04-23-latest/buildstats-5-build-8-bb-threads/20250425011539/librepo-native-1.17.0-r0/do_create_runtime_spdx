@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745550225.32 
+librepo-native-1.17.0-r0: do_create_runtime_spdx
+Elapsed time: 0.35 seconds
+utime: 78
+stime: 4
+cutime: 2
+cstime: 3
+IO rchar: 1248628
+IO wchar: 345792
+IO syscr: 398
+IO syscw: 112
+IO read_bytes: 0
+IO write_bytes: 151552
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.7826179999999999
+rusage ru_stime: 0.040770999999999995
+rusage ru_maxrss: 77096
+rusage ru_minflt: 10509
+rusage ru_majflt: 1
+rusage ru_inblock: 0
+rusage ru_oublock: 216
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 54
+Child rusage ru_utime: 0.024338
+Child rusage ru_stime: 0.035789999999999995
+Child rusage ru_maxrss: 77096
+Child rusage ru_minflt: 4783
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 80
+Child rusage ru_nvcsw: 175
+Child rusage ru_nivcsw: 17
+Status: PASSED 
+Ended: 1745550225.67 

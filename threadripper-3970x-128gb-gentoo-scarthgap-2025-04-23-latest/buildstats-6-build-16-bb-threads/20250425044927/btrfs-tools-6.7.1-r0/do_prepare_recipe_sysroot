@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745561294.25 
+btrfs-tools-6.7.1-r0: do_prepare_recipe_sysroot
+Elapsed time: 1.06 seconds
+utime: 112
+stime: 29
+cutime: 4
+cstime: 1
+IO rchar: 4110330
+IO wchar: 2454896
+IO syscr: 1037
+IO syscw: 657
+IO read_bytes: 12288
+IO write_bytes: 8224768
+IO cancelled_write_bytes: 0
+rusage ru_utime: 1.129925
+rusage ru_stime: 0.292721
+rusage ru_maxrss: 112420
+rusage ru_minflt: 10058
+rusage ru_majflt: 0
+rusage ru_inblock: 24
+rusage ru_oublock: 11200
+rusage ru_nvcsw: 6
+rusage ru_nivcsw: 33
+Child rusage ru_utime: 0.047625999999999995
+Child rusage ru_stime: 0.019287
+Child rusage ru_maxrss: 112420
+Child rusage ru_minflt: 1549
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 4864
+Child rusage ru_nvcsw: 13
+Child rusage ru_nivcsw: 8
+Status: PASSED 
+Ended: 1745561295.31 

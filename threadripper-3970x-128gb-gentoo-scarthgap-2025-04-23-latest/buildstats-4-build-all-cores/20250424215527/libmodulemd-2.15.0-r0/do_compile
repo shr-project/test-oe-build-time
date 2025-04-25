@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745535031.82 
+libmodulemd-2.15.0-r0: do_compile
+Elapsed time: 4.32 seconds
+utime: 42
+stime: 3
+cutime: 2588
+cstime: 399
+IO rchar: 300972537
+IO wchar: 49713026
+IO syscr: 48832
+IO syscw: 14207
+IO read_bytes: 1957888
+IO write_bytes: 18255872
+IO cancelled_write_bytes: 4452352
+rusage ru_utime: 0.428309
+rusage ru_stime: 0.031874
+rusage ru_maxrss: 94232
+rusage ru_minflt: 10564
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 424
+rusage ru_nvcsw: 62
+rusage ru_nivcsw: 46
+Child rusage ru_utime: 25.883972
+Child rusage ru_stime: 3.993846
+Child rusage ru_maxrss: 89656
+Child rusage ru_minflt: 741006
+Child rusage ru_majflt: 2
+Child rusage ru_inblock: 3824
+Child rusage ru_oublock: 35232
+Child rusage ru_nvcsw: 3344
+Child rusage ru_nivcsw: 2972
+Status: PASSED 
+Ended: 1745535036.14 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745590428.14 
+graphene-1.10.8-r0: do_patch
+Elapsed time: 0.13 seconds
+utime: 30
+stime: 1
+cutime: 2
+cstime: 3
+IO rchar: 872216
+IO wchar: 78528
+IO syscr: 481
+IO syscw: 121
+IO read_bytes: 0
+IO write_bytes: 151552
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.303209
+rusage ru_stime: 0.017251
+rusage ru_maxrss: 89760
+rusage ru_minflt: 5854
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 12
+Child rusage ru_utime: 0.022288
+Child rusage ru_stime: 0.03541
+Child rusage ru_maxrss: 89760
+Child rusage ru_minflt: 9588
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 136
+Child rusage ru_nvcsw: 131
+Child rusage ru_nivcsw: 7
+Status: PASSED 
+Ended: 1745590428.27 

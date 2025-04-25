@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745531850.31 
+libcheck-0.15.2-r0: do_recipe_qa
+Elapsed time: 0.20 seconds
+utime: 35
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 783344
+IO wchar: 117607
+IO syscr: 356
+IO syscw: 92
+IO read_bytes: 0
+IO write_bytes: 131072
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.35899
+rusage ru_stime: 0.020883
+rusage ru_maxrss: 81944
+rusage ru_minflt: 10060
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 224
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 8
+Child rusage ru_utime: 0.013191
+Child rusage ru_stime: 0.026189
+Child rusage ru_maxrss: 81944
+Child rusage ru_minflt: 4543
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 263
+Child rusage ru_nivcsw: 31
+Status: PASSED 
+Ended: 1745531850.51 

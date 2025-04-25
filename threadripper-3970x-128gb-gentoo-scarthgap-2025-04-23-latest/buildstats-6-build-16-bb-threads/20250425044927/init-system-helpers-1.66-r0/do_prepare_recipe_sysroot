@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745561321.88 
+init-system-helpers-1.66-r0: do_prepare_recipe_sysroot
+Elapsed time: 0.40 seconds
+utime: 48
+stime: 19
+cutime: 0
+cstime: 1
+IO rchar: 897212
+IO wchar: 165277
+IO syscr: 185
+IO syscw: 66
+IO read_bytes: 4096
+IO write_bytes: 1032192
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.48167
+rusage ru_stime: 0.190474
+rusage ru_maxrss: 112496
+rusage ru_minflt: 5807
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 1808
+rusage ru_nvcsw: 3
+rusage ru_nivcsw: 54
+Child rusage ru_utime: 0.0009209999999999999
+Child rusage ru_stime: 0.010938
+Child rusage ru_maxrss: 112496
+Child rusage ru_minflt: 745
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 208
+Child rusage ru_nvcsw: 6
+Child rusage ru_nivcsw: 2
+Status: PASSED 
+Ended: 1745561322.28 

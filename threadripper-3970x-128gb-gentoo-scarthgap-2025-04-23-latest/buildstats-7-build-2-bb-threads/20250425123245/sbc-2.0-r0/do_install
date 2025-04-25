@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745589932.29 
+sbc-2.0-r0: do_install
+Elapsed time: 0.50 seconds
+utime: 52
+stime: 3
+cutime: 9
+cstime: 12
+IO rchar: 2470137
+IO wchar: 1163746
+IO syscr: 1806
+IO syscw: 274
+IO read_bytes: 0
+IO write_bytes: 1200128
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 0.52537
+rusage ru_stime: 0.037096
+rusage ru_maxrss: 86496
+rusage ru_minflt: 12727
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 184
+rusage ru_nvcsw: 500
+rusage ru_nivcsw: 36
+Child rusage ru_utime: 0.09739099999999999
+Child rusage ru_stime: 0.120977
+Child rusage ru_maxrss: 82780
+Child rusage ru_minflt: 31094
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 2160
+Child rusage ru_nvcsw: 840
+Child rusage ru_nivcsw: 106
+Status: PASSED 
+Ended: 1745589932.79 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745596250.82 
+zip-native-3.0-r0: do_patch
+Elapsed time: 1.30 seconds
+utime: 60
+stime: 2
+cutime: 42
+cstime: 43
+IO rchar: 3086166
+IO wchar: 467531
+IO syscr: 3906
+IO syscw: 538
+IO read_bytes: 0
+IO write_bytes: 581632
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.6046619999999999
+rusage ru_stime: 0.028076999999999998
+rusage ru_maxrss: 70508
+rusage ru_minflt: 6797
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 224
+rusage ru_nvcsw: 40
+rusage ru_nivcsw: 88
+Child rusage ru_utime: 0.424193
+Child rusage ru_stime: 0.43616699999999997
+Child rusage ru_maxrss: 70508
+Child rusage ru_minflt: 86622
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 912
+Child rusage ru_nvcsw: 1224
+Child rusage ru_nivcsw: 218
+Status: PASSED 
+Ended: 1745596252.12 

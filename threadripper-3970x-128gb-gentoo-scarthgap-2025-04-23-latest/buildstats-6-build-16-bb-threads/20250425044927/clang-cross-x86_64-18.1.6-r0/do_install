@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745559375.44 
+clang-cross-x86_64-18.1.6-r0: do_install
+Elapsed time: 0.21 seconds
+utime: 32
+stime: 1
+cutime: 1
+cstime: 2
+IO rchar: 460068
+IO wchar: 36320
+IO syscr: 262
+IO syscw: 33
+IO read_bytes: 0
+IO write_bytes: 143360
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.323688
+rusage ru_stime: 0.019039999999999998
+rusage ru_maxrss: 103772
+rusage ru_minflt: 9044
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 104
+rusage ru_nvcsw: 6
+rusage ru_nivcsw: 13
+Child rusage ru_utime: 0.018421
+Child rusage ru_stime: 0.024222999999999998
+Child rusage ru_maxrss: 103772
+Child rusage ru_minflt: 4334
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 176
+Child rusage ru_nvcsw: 45
+Child rusage ru_nivcsw: 9
+Status: PASSED 
+Ended: 1745559375.65 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745592391.22 
+libxtst-native-1_1.2.4-r0: do_recipe_qa
+Elapsed time: 0.19 seconds
+utime: 42
+stime: 1
+cutime: 1
+cstime: 2
+IO rchar: 946136
+IO wchar: 121464
+IO syscr: 358
+IO syscw: 104
+IO read_bytes: 0
+IO write_bytes: 147456
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.428172
+rusage ru_stime: 0.015962999999999998
+rusage ru_maxrss: 89484
+rusage ru_minflt: 9350
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 256
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 4
+Child rusage ru_utime: 0.01261
+Child rusage ru_stime: 0.026271
+Child rusage ru_maxrss: 89484
+Child rusage ru_minflt: 4502
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 281
+Child rusage ru_nivcsw: 37
+Status: PASSED 
+Ended: 1745592391.41 

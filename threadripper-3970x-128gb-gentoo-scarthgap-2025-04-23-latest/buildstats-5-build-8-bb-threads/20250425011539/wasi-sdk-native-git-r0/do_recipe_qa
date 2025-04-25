@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745547900.19 
+wasi-sdk-native-git-r0: do_recipe_qa
+Elapsed time: 0.28 seconds
+utime: 41
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 792567
+IO wchar: 113211
+IO syscr: 350
+IO syscw: 93
+IO read_bytes: 0
+IO write_bytes: 180224
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.413612
+rusage ru_stime: 0.024796
+rusage ru_maxrss: 102908
+rusage ru_minflt: 9023
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 320
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 72
+Child rusage ru_utime: 0.019329
+Child rusage ru_stime: 0.025758
+Child rusage ru_maxrss: 102908
+Child rusage ru_minflt: 4464
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 259
+Child rusage ru_nivcsw: 28
+Status: PASSED 
+Ended: 1745547900.47 

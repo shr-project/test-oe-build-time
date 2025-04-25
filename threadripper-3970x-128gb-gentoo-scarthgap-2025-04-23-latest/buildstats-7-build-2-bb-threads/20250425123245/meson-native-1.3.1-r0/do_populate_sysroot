@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745585938.62 
+meson-native-1.3.1-r0: do_populate_sysroot
+Elapsed time: 0.79 seconds
+utime: 78
+stime: 7
+cutime: 19
+cstime: 10
+IO rchar: 35218319
+IO wchar: 11263316
+IO syscr: 7137
+IO syscw: 1292
+IO read_bytes: 0
+IO write_bytes: 2965504
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.780849
+rusage ru_stime: 0.073891
+rusage ru_maxrss: 82360
+rusage ru_minflt: 19308
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 728
+rusage ru_nvcsw: 25
+rusage ru_nivcsw: 33
+Child rusage ru_utime: 0.195239
+Child rusage ru_stime: 0.107502
+Child rusage ru_maxrss: 82360
+Child rusage ru_minflt: 19383
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 5064
+Child rusage ru_nvcsw: 660
+Child rusage ru_nivcsw: 63
+Status: PASSED 
+Ended: 1745585939.41 

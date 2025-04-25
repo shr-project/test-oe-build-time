@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745585064.35 
+ninja-native-1.11.1-r0: do_patch
+Elapsed time: 0.11 seconds
+utime: 29
+stime: 1
+cutime: 2
+cstime: 3
+IO rchar: 991978
+IO wchar: 106548
+IO syscr: 480
+IO syscw: 127
+IO read_bytes: 0
+IO write_bytes: 151552
+IO cancelled_write_bytes: 24576
+rusage ru_utime: 0.29231399999999996
+rusage ru_stime: 0.018019
+rusage ru_maxrss: 79132
+rusage ru_minflt: 6580
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 5
+Child rusage ru_utime: 0.025609
+Child rusage ru_stime: 0.032514999999999995
+Child rusage ru_maxrss: 79132
+Child rusage ru_minflt: 9508
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 168
+Child rusage ru_nvcsw: 129
+Child rusage ru_nivcsw: 9
+Status: PASSED 
+Ended: 1745585064.45 

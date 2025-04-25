@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745533084.55 
+libevent-2.1.12-r0: do_install_ptest_base
+Elapsed time: 0.27 seconds
+utime: 50
+stime: 3
+cutime: 2
+cstime: 6
+IO rchar: 4267808
+IO wchar: 3512384
+IO syscr: 726
+IO syscw: 43
+IO read_bytes: 4096
+IO write_bytes: 3551232
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 0.5078469999999999
+rusage ru_stime: 0.037988
+rusage ru_maxrss: 79932
+rusage ru_minflt: 9517
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 45
+rusage ru_nivcsw: 247
+Child rusage ru_utime: 0.027594
+Child rusage ru_stime: 0.060672
+Child rusage ru_maxrss: 75732
+Child rusage ru_minflt: 6111
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 6864
+Child rusage ru_nvcsw: 95
+Child rusage ru_nivcsw: 167
+Status: PASSED 
+Ended: 1745533084.82 

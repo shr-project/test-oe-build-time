@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745550419.02 
+dtc-native-1.7.0-r0: do_create_runtime_spdx
+Elapsed time: 0.21 seconds
+utime: 48
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 1161652
+IO wchar: 349131
+IO syscr: 298
+IO syscw: 119
+IO read_bytes: 0
+IO write_bytes: 163840
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.48358199999999996
+rusage ru_stime: 0.029973999999999997
+rusage ru_maxrss: 75464
+rusage ru_minflt: 10446
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 240
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 23
+Child rusage ru_utime: 0.012891
+Child rusage ru_stime: 0.024613
+Child rusage ru_maxrss: 75464
+Child rusage ru_minflt: 4733
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 80
+Child rusage ru_nvcsw: 295
+Child rusage ru_nivcsw: 22
+Status: PASSED 
+Ended: 1745550419.23 

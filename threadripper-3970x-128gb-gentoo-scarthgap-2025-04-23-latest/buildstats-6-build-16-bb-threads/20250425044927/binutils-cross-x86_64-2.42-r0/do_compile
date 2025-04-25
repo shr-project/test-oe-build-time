@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745556771.50 
+binutils-cross-x86_64-2.42-r0: do_compile
+Elapsed time: 39.61 seconds
+utime: 85
+stime: 11
+cutime: 30231
+cstime: 6182
+IO rchar: 3034071288
+IO wchar: 253246344
+IO syscr: 921470
+IO syscw: 249076
+IO read_bytes: 40960
+IO write_bytes: 206630912
+IO cancelled_write_bytes: 64856064
+rusage ru_utime: 0.859672
+rusage ru_stime: 0.112173
+rusage ru_maxrss: 85932
+rusage ru_minflt: 8192
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 1560
+rusage ru_nvcsw: 3722
+rusage ru_nivcsw: 294
+Child rusage ru_utime: 302.314707
+Child rusage ru_stime: 61.82463
+Child rusage ru_maxrss: 375128
+Child rusage ru_minflt: 14949764
+Child rusage ru_majflt: 208
+Child rusage ru_inblock: 80
+Child rusage ru_oublock: 402016
+Child rusage ru_nvcsw: 93952
+Child rusage ru_nivcsw: 34007
+Status: PASSED 
+Ended: 1745556811.11 

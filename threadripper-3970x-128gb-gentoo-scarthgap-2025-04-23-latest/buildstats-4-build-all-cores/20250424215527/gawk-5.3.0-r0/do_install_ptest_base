@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745533488.23 
+gawk-5.3.0-r0: do_install_ptest_base
+Elapsed time: 3.64 seconds
+utime: 34
+stime: 2
+cutime: 63
+cstime: 200
+IO rchar: 7912876
+IO wchar: 2071425
+IO syscr: 22868
+IO syscw: 1975
+IO read_bytes: 4857856
+IO write_bytes: 10260480
+IO cancelled_write_bytes: 2895872
+rusage ru_utime: 0.340311
+rusage ru_stime: 0.029026
+rusage ru_maxrss: 80160
+rusage ru_minflt: 9343
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 80
+rusage ru_nvcsw: 463
+rusage ru_nivcsw: 60
+Child rusage ru_utime: 0.630671
+Child rusage ru_stime: 2.005322
+Child rusage ru_maxrss: 79568
+Child rusage ru_minflt: 167620
+Child rusage ru_majflt: 2
+Child rusage ru_inblock: 9488
+Child rusage ru_oublock: 19960
+Child rusage ru_nvcsw: 12622
+Child rusage ru_nivcsw: 7784
+Status: PASSED 
+Ended: 1745533491.87 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745561826.69 
+settings-daemon-0.0.2+git-r0: do_package_write_rpm
+Elapsed time: 4.03 seconds
+utime: 280
+stime: 45
+cutime: 26
+cstime: 22
+IO rchar: 3855015
+IO wchar: 850851
+IO syscr: 2607
+IO syscw: 477
+IO read_bytes: 53248
+IO write_bytes: 1675264
+IO cancelled_write_bytes: 0
+rusage ru_utime: 2.809031
+rusage ru_stime: 0.45649199999999995
+rusage ru_maxrss: 101760
+rusage ru_minflt: 28429
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 2392
+rusage ru_nvcsw: 439
+rusage ru_nivcsw: 496
+Child rusage ru_utime: 0.26931
+Child rusage ru_stime: 0.225553
+Child rusage ru_maxrss: 101760
+Child rusage ru_minflt: 20849
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 88
+Child rusage ru_oublock: 880
+Child rusage ru_nvcsw: 1429
+Child rusage ru_nivcsw: 183
+Status: PASSED 
+Ended: 1745561830.72 

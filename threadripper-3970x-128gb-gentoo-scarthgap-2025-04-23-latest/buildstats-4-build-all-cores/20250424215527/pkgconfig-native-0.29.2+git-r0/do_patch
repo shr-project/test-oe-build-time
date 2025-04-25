@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745531793.51 
+pkgconfig-native-0.29.2+git-r0: do_patch
+Elapsed time: 0.13 seconds
+utime: 35
+stime: 1
+cutime: 3
+cstime: 3
+IO rchar: 1075402
+IO wchar: 146530
+IO syscr: 571
+IO syscw: 141
+IO read_bytes: 0
+IO write_bytes: 266240
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.358458
+rusage ru_stime: 0.01394
+rusage ru_maxrss: 77500
+rusage ru_minflt: 6379
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 224
+rusage ru_nvcsw: 13
+rusage ru_nivcsw: 23
+Child rusage ru_utime: 0.033652999999999995
+Child rusage ru_stime: 0.035521
+Child rusage ru_maxrss: 77500
+Child rusage ru_minflt: 10217
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 296
+Child rusage ru_nvcsw: 129
+Child rusage ru_nivcsw: 56
+Status: PASSED 
+Ended: 1745531793.64 

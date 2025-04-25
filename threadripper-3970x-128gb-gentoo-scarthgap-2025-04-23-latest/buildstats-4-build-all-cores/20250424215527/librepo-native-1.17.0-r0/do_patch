@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745532090.80 
+librepo-native-1.17.0-r0: do_patch
+Elapsed time: 1.23 seconds
+utime: 39
+stime: 2
+cutime: 8
+cstime: 17
+IO rchar: 1435299
+IO wchar: 102809
+IO syscr: 1393
+IO syscw: 203
+IO read_bytes: 0
+IO write_bytes: 159744
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.39893399999999996
+rusage ru_stime: 0.020891
+rusage ru_maxrss: 85508
+rusage ru_minflt: 7016
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 20
+rusage ru_nivcsw: 40
+Child rusage ru_utime: 0.088698
+Child rusage ru_stime: 0.172146
+Child rusage ru_maxrss: 85508
+Child rusage ru_minflt: 29339
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 152
+Child rusage ru_nvcsw: 366
+Child rusage ru_nivcsw: 75
+Status: PASSED 
+Ended: 1745532092.03 

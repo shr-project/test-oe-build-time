@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745556845.47 
+xtrans-native-1_1.5.0-r0: do_install
+Elapsed time: 0.23 seconds
+utime: 45
+stime: 2
+cutime: 3
+cstime: 4
+IO rchar: 1337085
+IO wchar: 279184
+IO syscr: 961
+IO syscw: 190
+IO read_bytes: 0
+IO write_bytes: 385024
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.45754
+rusage ru_stime: 0.022074
+rusage ru_maxrss: 85788
+rusage ru_minflt: 10943
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 24
+rusage ru_nivcsw: 46
+Child rusage ru_utime: 0.033226
+Child rusage ru_stime: 0.042644999999999995
+Child rusage ru_maxrss: 84252
+Child rusage ru_minflt: 8389
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 624
+Child rusage ru_nvcsw: 93
+Child rusage ru_nivcsw: 96
+Status: PASSED 
+Ended: 1745556845.70 

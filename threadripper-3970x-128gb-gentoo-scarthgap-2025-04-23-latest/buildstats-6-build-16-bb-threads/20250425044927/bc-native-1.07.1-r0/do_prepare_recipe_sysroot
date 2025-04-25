@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745556804.26 
+bc-native-1.07.1-r0: do_prepare_recipe_sysroot
+Elapsed time: 0.15 seconds
+utime: 42
+stime: 5
+cutime: 2
+cstime: 1
+IO rchar: 2000408
+IO wchar: 1345932
+IO syscr: 483
+IO syscw: 382
+IO read_bytes: 0
+IO write_bytes: 1748992
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.423517
+rusage ru_stime: 0.055936
+rusage ru_maxrss: 84360
+rusage ru_minflt: 6758
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 808
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 15
+Child rusage ru_utime: 0.026875999999999997
+Child rusage ru_stime: 0.014032
+Child rusage ru_maxrss: 84360
+Child rusage ru_minflt: 752
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 2608
+Child rusage ru_nvcsw: 9
+Child rusage ru_nivcsw: 2
+Status: PASSED 
+Ended: 1745556804.41 

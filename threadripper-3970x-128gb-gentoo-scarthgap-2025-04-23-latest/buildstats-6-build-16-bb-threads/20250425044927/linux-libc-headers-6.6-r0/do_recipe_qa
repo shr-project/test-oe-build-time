@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745556629.70 
+linux-libc-headers-6.6-r0: do_recipe_qa
+Elapsed time: 0.23 seconds
+utime: 36
+stime: 3
+cutime: 1
+cstime: 2
+IO rchar: 746833
+IO wchar: 116116
+IO syscr: 350
+IO syscw: 91
+IO read_bytes: 0
+IO write_bytes: 147456
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.365512
+rusage ru_stime: 0.030177
+rusage ru_maxrss: 78092
+rusage ru_minflt: 9825
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 256
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 28
+Child rusage ru_utime: 0.0161
+Child rusage ru_stime: 0.023018999999999998
+Child rusage ru_maxrss: 78092
+Child rusage ru_minflt: 4522
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 282
+Child rusage ru_nivcsw: 41
+Status: PASSED 
+Ended: 1745556629.93 

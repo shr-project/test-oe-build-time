@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745550362.82 
+dnf-native-4.19.0-r0: do_populate_sysroot
+Elapsed time: 1.00 seconds
+utime: 113
+stime: 8
+cutime: 11
+cstime: 17
+IO rchar: 5787216
+IO wchar: 1589817
+IO syscr: 2100
+IO syscw: 371
+IO read_bytes: 0
+IO write_bytes: 1269760
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 1.134465
+rusage ru_stime: 0.08495899999999999
+rusage ru_maxrss: 76336
+rusage ru_minflt: 19015
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 432
+rusage ru_nvcsw: 29
+rusage ru_nivcsw: 159
+Child rusage ru_utime: 0.11005899999999999
+Child rusage ru_stime: 0.175975
+Child rusage ru_maxrss: 76336
+Child rusage ru_minflt: 19366
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 2048
+Child rusage ru_nvcsw: 403
+Child rusage ru_nivcsw: 77
+Status: PASSED 
+Ended: 1745550363.82 

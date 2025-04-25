@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745531815.30 
+zstd-native-1.5.5-r0: do_install
+Elapsed time: 7.97 seconds
+utime: 47
+stime: 2
+cutime: 2381
+cstime: 123
+IO rchar: 79707607
+IO wchar: 12664690
+IO syscr: 17525
+IO syscw: 3094
+IO read_bytes: 352256
+IO write_bytes: 9351168
+IO cancelled_write_bytes: 1961984
+rusage ru_utime: 0.473913
+rusage ru_stime: 0.029116999999999997
+rusage ru_maxrss: 80244
+rusage ru_minflt: 10744
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 224
+rusage ru_nvcsw: 119
+rusage ru_nivcsw: 48
+Child rusage ru_utime: 23.811345
+Child rusage ru_stime: 1.236365
+Child rusage ru_maxrss: 178948
+Child rusage ru_minflt: 392208
+Child rusage ru_majflt: 2
+Child rusage ru_inblock: 688
+Child rusage ru_oublock: 18040
+Child rusage ru_nvcsw: 1851
+Child rusage ru_nivcsw: 904
+Status: PASSED 
+Ended: 1745531823.27 

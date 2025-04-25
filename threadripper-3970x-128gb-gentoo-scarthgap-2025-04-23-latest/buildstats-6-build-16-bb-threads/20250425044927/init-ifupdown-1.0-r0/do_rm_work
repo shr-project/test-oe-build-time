@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745561734.78 
+init-ifupdown-1.0-r0: do_rm_work
+Elapsed time: 0.29 seconds
+utime: 29
+stime: 1
+cutime: 6
+cstime: 12
+IO rchar: 917117
+IO wchar: 25426
+IO syscr: 921
+IO syscw: 65
+IO read_bytes: 0
+IO write_bytes: 196608
+IO cancelled_write_bytes: 135168
+rusage ru_utime: 0.292574
+rusage ru_stime: 0.018035
+rusage ru_maxrss: 112848
+rusage ru_minflt: 7177
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 64
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 16
+Child rusage ru_utime: 0.067704
+Child rusage ru_stime: 0.122641
+Child rusage ru_maxrss: 108108
+Child rusage ru_minflt: 20234
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 320
+Child rusage ru_nvcsw: 219
+Child rusage ru_nivcsw: 37
+Status: PASSED 
+Ended: 1745561735.07 

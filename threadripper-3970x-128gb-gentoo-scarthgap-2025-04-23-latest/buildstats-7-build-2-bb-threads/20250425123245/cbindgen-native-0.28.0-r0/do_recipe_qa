@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745594703.68 
+cbindgen-native-0.28.0-r0: do_recipe_qa
+Elapsed time: 0.32 seconds
+utime: 97
+stime: 5
+cutime: 2
+cstime: 3
+IO rchar: 987740
+IO wchar: 223232
+IO syscr: 364
+IO syscw: 240
+IO read_bytes: 12288
+IO write_bytes: 196608
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.979787
+rusage ru_stime: 0.058105
+rusage ru_maxrss: 46424
+rusage ru_minflt: 14920
+rusage ru_majflt: 53
+rusage ru_inblock: 24
+rusage ru_oublock: 344
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 355
+Child rusage ru_utime: 0.022045
+Child rusage ru_stime: 0.031376
+Child rusage ru_maxrss: 46424
+Child rusage ru_minflt: 4531
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 131
+Child rusage ru_nivcsw: 2
+Status: PASSED 
+Ended: 1745594704.00 

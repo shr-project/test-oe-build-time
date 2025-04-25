@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745521400.96 
+e2fsprogs-native-1.47.0-r0: do_fetch
+Elapsed time: 0.25 seconds
+utime: 42
+stime: 1
+cutime: 13
+cstime: 3
+IO rchar: 2405161
+IO wchar: 81334
+IO syscr: 559
+IO syscw: 97
+IO read_bytes: 0
+IO write_bytes: 94208
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.421305
+rusage ru_stime: 0.015009999999999999
+rusage ru_maxrss: 59664
+rusage ru_minflt: 7492
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 184
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 62
+Child rusage ru_utime: 0.13653099999999999
+Child rusage ru_stime: 0.033655
+Child rusage ru_maxrss: 55256
+Child rusage ru_minflt: 7796
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 20
+Child rusage ru_nivcsw: 66
+Status: PASSED 
+Ended: 1745521401.21 

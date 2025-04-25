@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745559386.33 
+libxtst-native-1_1.2.4-r0: do_install
+Elapsed time: 0.30 seconds
+utime: 45
+stime: 1
+cutime: 6
+cstime: 7
+IO rchar: 1577144
+IO wchar: 129346
+IO syscr: 1412
+IO syscw: 267
+IO read_bytes: 0
+IO write_bytes: 393216
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 0.45654799999999995
+rusage ru_stime: 0.018101
+rusage ru_maxrss: 104308
+rusage ru_minflt: 9853
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 120
+rusage ru_nvcsw: 39
+rusage ru_nivcsw: 20
+Child rusage ru_utime: 0.06744499999999999
+Child rusage ru_stime: 0.078192
+Child rusage ru_maxrss: 104308
+Child rusage ru_minflt: 17443
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 648
+Child rusage ru_nvcsw: 207
+Child rusage ru_nivcsw: 42
+Status: PASSED 
+Ended: 1745559386.63 

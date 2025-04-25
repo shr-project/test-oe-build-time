@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745534727.20 
+gcc-13.3.0-r0: do_install
+Elapsed time: 10.99 seconds
+utime: 95
+stime: 9
+cutime: 447
+cstime: 863
+IO rchar: 1286364602
+IO wchar: 1234321338
+IO syscr: 83227
+IO syscw: 5566
+IO read_bytes: 15982592
+IO write_bytes: 1233956864
+IO cancelled_write_bytes: 17162240
+rusage ru_utime: 0.9513469999999999
+rusage ru_stime: 0.097421
+rusage ru_maxrss: 85892
+rusage ru_minflt: 18032
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 896
+rusage ru_nvcsw: 2257
+rusage ru_nivcsw: 454
+Child rusage ru_utime: 4.475364
+Child rusage ru_stime: 8.635361
+Child rusage ru_maxrss: 81552
+Child rusage ru_minflt: 1124873
+Child rusage ru_majflt: 12
+Child rusage ru_inblock: 31216
+Child rusage ru_oublock: 2409176
+Child rusage ru_nvcsw: 40695
+Child rusage ru_nivcsw: 8335
+Status: PASSED 
+Ended: 1745534738.19 

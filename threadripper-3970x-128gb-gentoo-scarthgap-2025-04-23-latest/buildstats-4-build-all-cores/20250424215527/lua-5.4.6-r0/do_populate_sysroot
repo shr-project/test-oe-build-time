@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745533249.76 
+lua-5.4.6-r0: do_populate_sysroot
+Elapsed time: 1.00 seconds
+utime: 111
+stime: 5
+cutime: 11
+cstime: 9
+IO rchar: 6913213
+IO wchar: 2946191
+IO syscr: 1433
+IO syscw: 380
+IO read_bytes: 0
+IO write_bytes: 999424
+IO cancelled_write_bytes: 0
+rusage ru_utime: 1.113481
+rusage ru_stime: 0.056769
+rusage ru_maxrss: 89288
+rusage ru_minflt: 20354
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 440
+rusage ru_nvcsw: 24
+rusage ru_nivcsw: 227
+Child rusage ru_utime: 0.117753
+Child rusage ru_stime: 0.097341
+Child rusage ru_maxrss: 89288
+Child rusage ru_minflt: 13102
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1512
+Child rusage ru_nvcsw: 313
+Child rusage ru_nivcsw: 125
+Status: PASSED 
+Ended: 1745533250.76 

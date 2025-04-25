@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745585778.83 
+e2fsprogs-native-1.47.0-r0: do_recipe_qa
+Elapsed time: 0.19 seconds
+utime: 45
+stime: 3
+cutime: 1
+cstime: 2
+IO rchar: 1022087
+IO wchar: 125289
+IO syscr: 377
+IO syscw: 110
+IO read_bytes: 0
+IO write_bytes: 172032
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.459018
+rusage ru_stime: 0.033073
+rusage ru_maxrss: 82092
+rusage ru_minflt: 10530
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 288
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 14
+Child rusage ru_utime: 0.016016
+Child rusage ru_stime: 0.024897
+Child rusage ru_maxrss: 82092
+Child rusage ru_minflt: 4541
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 48
+Child rusage ru_nvcsw: 296
+Child rusage ru_nivcsw: 41
+Status: PASSED 
+Ended: 1745585779.01 

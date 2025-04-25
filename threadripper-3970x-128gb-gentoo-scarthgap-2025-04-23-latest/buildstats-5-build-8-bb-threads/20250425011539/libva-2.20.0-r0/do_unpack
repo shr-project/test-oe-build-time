@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745549243.27 
+libva-2.20.0-r0: do_unpack
+Elapsed time: 0.21 seconds
+utime: 40
+stime: 3
+cutime: 12
+cstime: 2
+IO rchar: 4046967
+IO wchar: 6267138
+IO syscr: 1016
+IO syscw: 1255
+IO read_bytes: 512000
+IO write_bytes: 3461120
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.404132
+rusage ru_stime: 0.035921999999999996
+rusage ru_maxrss: 74648
+rusage ru_minflt: 10648
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 80
+rusage ru_nvcsw: 4
+rusage ru_nivcsw: 24
+Child rusage ru_utime: 0.12522
+Child rusage ru_stime: 0.026428999999999998
+Child rusage ru_maxrss: 74136
+Child rusage ru_minflt: 1807
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 1000
+Child rusage ru_oublock: 6680
+Child rusage ru_nvcsw: 627
+Child rusage ru_nivcsw: 612
+Status: PASSED 
+Ended: 1745549243.47 

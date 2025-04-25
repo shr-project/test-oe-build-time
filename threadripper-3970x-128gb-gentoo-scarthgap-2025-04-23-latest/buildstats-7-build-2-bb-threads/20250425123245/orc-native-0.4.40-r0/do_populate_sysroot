@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745589826.05 
+orc-native-0.4.40-r0: do_populate_sysroot
+Elapsed time: 0.55 seconds
+utime: 68
+stime: 5
+cutime: 8
+cstime: 10
+IO rchar: 10146219
+IO wchar: 4332744
+IO syscr: 2416
+IO syscw: 537
+IO read_bytes: 0
+IO write_bytes: 3543040
+IO cancelled_write_bytes: 864256
+rusage ru_utime: 0.688371
+rusage ru_stime: 0.057947
+rusage ru_maxrss: 87120
+rusage ru_minflt: 19264
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 2416
+rusage ru_nvcsw: 51
+rusage ru_nivcsw: 31
+Child rusage ru_utime: 0.08348799999999999
+Child rusage ru_stime: 0.104087
+Child rusage ru_maxrss: 87120
+Child rusage ru_minflt: 21995
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 4504
+Child rusage ru_nvcsw: 479
+Child rusage ru_nivcsw: 56
+Status: PASSED 
+Ended: 1745589826.60 

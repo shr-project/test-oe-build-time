@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745533495.97 
+libstd-rs-1.85.1-r0: do_rust_create_wrappers
+Elapsed time: 0.24 seconds
+utime: 49
+stime: 3
+cutime: 2
+cstime: 2
+IO rchar: 531900
+IO wchar: 54645
+IO syscr: 223
+IO syscw: 46
+IO read_bytes: 0
+IO write_bytes: 94208
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.493089
+rusage ru_stime: 0.032005
+rusage ru_maxrss: 94392
+rusage ru_minflt: 7291
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 120
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 28
+Child rusage ru_utime: 0.025280999999999998
+Child rusage ru_stime: 0.029237
+Child rusage ru_maxrss: 89908
+Child rusage ru_minflt: 3573
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 64
+Child rusage ru_nvcsw: 33
+Child rusage ru_nivcsw: 64
+Status: PASSED 
+Ended: 1745533496.21 

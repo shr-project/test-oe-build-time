@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745586547.13 
+xcb-proto-1.16.0-r0: do_rm_work
+Elapsed time: 0.29 seconds
+utime: 30
+stime: 1
+cutime: 6
+cstime: 13
+IO rchar: 922691
+IO wchar: 32009
+IO syscr: 910
+IO syscw: 70
+IO read_bytes: 0
+IO write_bytes: 40960
+IO cancelled_write_bytes: 4419584
+rusage ru_utime: 0.30524399999999996
+rusage ru_stime: 0.015012
+rusage ru_maxrss: 85020
+rusage ru_minflt: 6643
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 64
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 13
+Child rusage ru_utime: 0.061348
+Child rusage ru_stime: 0.131187
+Child rusage ru_maxrss: 80840
+Child rusage ru_minflt: 20437
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 16
+Child rusage ru_nvcsw: 232
+Child rusage ru_nivcsw: 51
+Status: PASSED 
+Ended: 1745586547.42 

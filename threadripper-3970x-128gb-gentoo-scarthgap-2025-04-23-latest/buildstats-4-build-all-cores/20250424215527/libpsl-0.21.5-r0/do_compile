@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745533532.31 
+libpsl-0.21.5-r0: do_compile
+Elapsed time: 13.64 seconds
+utime: 54
+stime: 5
+cutime: 1199
+cstime: 69
+IO rchar: 14817452
+IO wchar: 2014058
+IO syscr: 4233
+IO syscw: 928
+IO read_bytes: 675840
+IO write_bytes: 1388544
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.54898
+rusage ru_stime: 0.052783
+rusage ru_maxrss: 93864
+rusage ru_minflt: 10381
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 64
+rusage ru_nivcsw: 62
+Child rusage ru_utime: 11.994202
+Child rusage ru_stime: 0.691361
+Child rusage ru_maxrss: 91460
+Child rusage ru_minflt: 153012
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 1320
+Child rusage ru_oublock: 2584
+Child rusage ru_nvcsw: 745
+Child rusage ru_nivcsw: 1124
+Status: PASSED 
+Ended: 1745533545.95 

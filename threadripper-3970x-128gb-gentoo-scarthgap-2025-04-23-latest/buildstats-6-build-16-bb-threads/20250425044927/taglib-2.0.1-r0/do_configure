@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745559846.52 
+taglib-2.0.1-r0: do_configure
+Elapsed time: 1.39 seconds
+utime: 42
+stime: 1
+cutime: 65
+cstime: 54
+IO rchar: 26731853
+IO wchar: 4126735
+IO syscr: 12761
+IO syscw: 3705
+IO read_bytes: 77824
+IO write_bytes: 4227072
+IO cancelled_write_bytes: 1847296
+rusage ru_utime: 0.42280799999999996
+rusage ru_stime: 0.018033999999999998
+rusage ru_maxrss: 106608
+rusage ru_minflt: 7780
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 144
+rusage ru_nvcsw: 45
+rusage ru_nivcsw: 30
+Child rusage ru_utime: 0.65096
+Child rusage ru_stime: 0.545215
+Child rusage ru_maxrss: 106608
+Child rusage ru_minflt: 120321
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 152
+Child rusage ru_oublock: 8112
+Child rusage ru_nvcsw: 721
+Child rusage ru_nivcsw: 296
+Status: PASSED 
+Ended: 1745559847.91 

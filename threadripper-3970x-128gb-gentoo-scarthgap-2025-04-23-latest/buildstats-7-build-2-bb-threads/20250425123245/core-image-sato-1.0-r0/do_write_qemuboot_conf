@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745603976.17 
+core-image-sato-1.0-r0: do_write_qemuboot_conf
+Elapsed time: 0.03 seconds
+utime: 43
+stime: 1
+cutime: 0
+cstime: 0
+IO rchar: 689358
+IO wchar: 23456
+IO syscr: 104
+IO syscw: 42
+IO read_bytes: 69632
+IO write_bytes: 36864
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.43226
+rusage ru_stime: 0.015009
+rusage ru_maxrss: 100824
+rusage ru_minflt: 6621
+rusage ru_majflt: 0
+rusage ru_inblock: 136
+rusage ru_oublock: 72
+rusage ru_nvcsw: 4
+rusage ru_nivcsw: 10
+Child rusage ru_utime: 0.0
+Child rusage ru_stime: 0.0021479999999999997
+Child rusage ru_maxrss: 99808
+Child rusage ru_minflt: 354
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 1
+Child rusage ru_nivcsw: 1
+Status: PASSED 
+Ended: 1745603976.20 

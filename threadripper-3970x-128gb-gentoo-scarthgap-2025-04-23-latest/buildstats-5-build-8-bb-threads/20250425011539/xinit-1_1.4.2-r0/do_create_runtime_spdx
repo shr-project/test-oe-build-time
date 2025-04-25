@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745549563.81 
+xinit-1_1.4.2-r0: do_create_runtime_spdx
+Elapsed time: 0.37 seconds
+utime: 51
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 1970324
+IO wchar: 404313
+IO syscr: 887
+IO syscw: 119
+IO read_bytes: 16384
+IO write_bytes: 229376
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.5194529999999999
+rusage ru_stime: 0.02797
+rusage ru_maxrss: 75916
+rusage ru_minflt: 11134
+rusage ru_majflt: 2
+rusage ru_inblock: 32
+rusage ru_oublock: 272
+rusage ru_nvcsw: 21
+rusage ru_nivcsw: 20
+Child rusage ru_utime: 0.013914
+Child rusage ru_stime: 0.035720999999999996
+Child rusage ru_maxrss: 75916
+Child rusage ru_minflt: 5878
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 176
+Child rusage ru_nvcsw: 305
+Child rusage ru_nivcsw: 18
+Status: PASSED 
+Ended: 1745549564.18 

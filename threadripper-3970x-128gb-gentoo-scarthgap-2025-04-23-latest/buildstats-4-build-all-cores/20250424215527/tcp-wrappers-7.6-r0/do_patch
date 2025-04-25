@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745531948.07 
+tcp-wrappers-7.6-r0: do_patch
+Elapsed time: 1.90 seconds
+utime: 42
+stime: 2
+cutime: 80
+cstime: 122
+IO rchar: 9076742
+IO wchar: 1781409
+IO syscr: 12697
+IO syscw: 2012
+IO read_bytes: 0
+IO write_bytes: 2203648
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.42455
+rusage ru_stime: 0.027084999999999998
+rusage ru_maxrss: 84372
+rusage ru_minflt: 6671
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 784
+rusage ru_nvcsw: 127
+rusage ru_nivcsw: 65
+Child rusage ru_utime: 0.809035
+Child rusage ru_stime: 1.225913
+Child rusage ru_maxrss: 84372
+Child rusage ru_minflt: 294046
+Child rusage ru_majflt: 7
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 3520
+Child rusage ru_nvcsw: 3948
+Child rusage ru_nivcsw: 887
+Status: PASSED 
+Ended: 1745531949.97 

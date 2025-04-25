@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745593531.01 
+cross-localedef-native-2.39+git-r0: do_recipe_qa
+Elapsed time: 0.18 seconds
+utime: 29
+stime: 1
+cutime: 1
+cstime: 2
+IO rchar: 814650
+IO wchar: 120251
+IO syscr: 363
+IO syscw: 99
+IO read_bytes: 4096
+IO write_bytes: 241664
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.29364599999999996
+rusage ru_stime: 0.01903
+rusage ru_maxrss: 90936
+rusage ru_minflt: 8948
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 432
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 4
+Child rusage ru_utime: 0.012291
+Child rusage ru_stime: 0.026357
+Child rusage ru_maxrss: 90424
+Child rusage ru_minflt: 4551
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 272
+Child rusage ru_nivcsw: 41
+Status: PASSED 
+Ended: 1745593531.19 

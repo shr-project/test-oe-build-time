@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745531895.54 
+kmod-native-31-r0: do_create_runtime_spdx
+Elapsed time: 0.21 seconds
+utime: 48
+stime: 3
+cutime: 1
+cstime: 2
+IO rchar: 1279830
+IO wchar: 350840
+IO syscr: 408
+IO syscw: 119
+IO read_bytes: 0
+IO write_bytes: 159744
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.48876699999999995
+rusage ru_stime: 0.031918999999999996
+rusage ru_maxrss: 83708
+rusage ru_minflt: 10762
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 232
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 45
+Child rusage ru_utime: 0.013895
+Child rusage ru_stime: 0.025018
+Child rusage ru_maxrss: 83708
+Child rusage ru_minflt: 4768
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 80
+Child rusage ru_nvcsw: 167
+Child rusage ru_nivcsw: 15
+Status: PASSED 
+Ended: 1745531895.75 

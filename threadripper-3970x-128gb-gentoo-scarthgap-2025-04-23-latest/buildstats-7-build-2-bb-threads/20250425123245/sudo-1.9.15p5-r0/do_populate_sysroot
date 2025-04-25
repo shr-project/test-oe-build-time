@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745602528.95 
+sudo-1.9.15p5-r0: do_populate_sysroot
+Elapsed time: 0.58 seconds
+utime: 59
+stime: 6
+cutime: 8
+cstime: 16
+IO rchar: 16291265
+IO wchar: 6574802
+IO syscr: 2481
+IO syscw: 560
+IO read_bytes: 81920
+IO write_bytes: 6324224
+IO cancelled_write_bytes: 966656
+rusage ru_utime: 0.596623
+rusage ru_stime: 0.061856999999999995
+rusage ru_maxrss: 71608
+rusage ru_minflt: 19057
+rusage ru_majflt: 0
+rusage ru_inblock: 160
+rusage ru_oublock: 6624
+rusage ru_nvcsw: 24
+rusage ru_nivcsw: 32
+Child rusage ru_utime: 0.081816
+Child rusage ru_stime: 0.16691
+Child rusage ru_maxrss: 71608
+Child rusage ru_minflt: 26256
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 5728
+Child rusage ru_nvcsw: 422
+Child rusage ru_nivcsw: 109
+Status: PASSED 
+Ended: 1745602529.53 

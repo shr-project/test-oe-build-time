@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745603438.17 
+createrepo-c-native-1.0.4-r0: do_fetch
+Elapsed time: 0.23 seconds
+utime: 42
+stime: 2
+cutime: 11
+cstime: 3
+IO rchar: 2347954
+IO wchar: 65483
+IO syscr: 545
+IO syscw: 75
+IO read_bytes: 368640
+IO write_bytes: 86016
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.423923
+rusage ru_stime: 0.028994
+rusage ru_maxrss: 73136
+rusage ru_minflt: 12811
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 168
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 17
+Child rusage ru_utime: 0.11969099999999999
+Child rusage ru_stime: 0.033978999999999995
+Child rusage ru_maxrss: 68984
+Child rusage ru_minflt: 7713
+Child rusage ru_majflt: 3
+Child rusage ru_inblock: 720
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 37
+Child rusage ru_nivcsw: 9
+Status: PASSED 
+Ended: 1745603438.40 

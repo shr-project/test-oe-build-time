@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745534764.20 
+compiler-rt-native-18.1.6-r0: do_rm_work
+Elapsed time: 0.76 seconds
+utime: 70
+stime: 3
+cutime: 8
+cstime: 30
+IO rchar: 881493
+IO wchar: 33980
+IO syscr: 606
+IO syscw: 63
+IO read_bytes: 0
+IO write_bytes: 9609216
+IO cancelled_write_bytes: 659456
+rusage ru_utime: 0.703019
+rusage ru_stime: 0.039887
+rusage ru_maxrss: 94912
+rusage ru_minflt: 7317
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 88
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 81
+Child rusage ru_utime: 0.085628
+Child rusage ru_stime: 0.30247999999999997
+Child rusage ru_maxrss: 89828
+Child rusage ru_minflt: 13570
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 18680
+Child rusage ru_nvcsw: 141
+Child rusage ru_nivcsw: 74
+Status: PASSED 
+Ended: 1745534764.95 

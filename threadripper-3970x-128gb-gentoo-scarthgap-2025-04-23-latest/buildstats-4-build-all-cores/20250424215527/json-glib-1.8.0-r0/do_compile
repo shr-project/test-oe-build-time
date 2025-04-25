@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745535051.83 
+json-glib-1.8.0-r0: do_compile
+Elapsed time: 4.26 seconds
+utime: 42
+stime: 2
+cutime: 1159
+cstime: 249
+IO rchar: 244679639
+IO wchar: 16742001
+IO syscr: 40765
+IO syscw: 6818
+IO read_bytes: 1310720
+IO write_bytes: 10014720
+IO cancelled_write_bytes: 4657152
+rusage ru_utime: 0.42019599999999996
+rusage ru_stime: 0.025071
+rusage ru_maxrss: 94740
+rusage ru_minflt: 6713
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 376
+rusage ru_nvcsw: 43
+rusage ru_nivcsw: 35
+Child rusage ru_utime: 11.595825
+Child rusage ru_stime: 2.497327
+Child rusage ru_maxrss: 90260
+Child rusage ru_minflt: 533834
+Child rusage ru_majflt: 7
+Child rusage ru_inblock: 2560
+Child rusage ru_oublock: 19184
+Child rusage ru_nvcsw: 1868
+Child rusage ru_nivcsw: 845
+Status: PASSED 
+Ended: 1745535056.09 

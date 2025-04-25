@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745556944.38 
+ruby-native-3.3.5-r0: do_recipe_qa
+Elapsed time: 0.20 seconds
+utime: 46
+stime: 1
+cutime: 1
+cstime: 2
+IO rchar: 1037177
+IO wchar: 122382
+IO syscr: 369
+IO syscw: 105
+IO read_bytes: 0
+IO write_bytes: 151552
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.46369
+rusage ru_stime: 0.019986
+rusage ru_maxrss: 87692
+rusage ru_minflt: 10558
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 264
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 17
+Child rusage ru_utime: 0.010631999999999999
+Child rusage ru_stime: 0.027177999999999997
+Child rusage ru_maxrss: 87692
+Child rusage ru_minflt: 4528
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 280
+Child rusage ru_nivcsw: 29
+Status: PASSED 
+Ended: 1745556944.57 

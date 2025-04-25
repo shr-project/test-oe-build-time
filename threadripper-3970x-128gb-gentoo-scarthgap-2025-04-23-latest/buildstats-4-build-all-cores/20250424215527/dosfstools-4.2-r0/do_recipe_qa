@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745532060.60 
+dosfstools-4.2-r0: do_recipe_qa
+Elapsed time: 0.65 seconds
+utime: 55
+stime: 3
+cutime: 2
+cstime: 5
+IO rchar: 780138
+IO wchar: 118904
+IO syscr: 357
+IO syscw: 93
+IO read_bytes: 0
+IO write_bytes: 131072
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.555925
+rusage ru_stime: 0.036927999999999996
+rusage ru_maxrss: 85200
+rusage ru_minflt: 10347
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 216
+rusage ru_nvcsw: 14
+rusage ru_nivcsw: 83
+Child rusage ru_utime: 0.023984
+Child rusage ru_stime: 0.051746
+Child rusage ru_maxrss: 85200
+Child rusage ru_minflt: 4541
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 192
+Child rusage ru_nivcsw: 27
+Status: PASSED 
+Ended: 1745532061.25 

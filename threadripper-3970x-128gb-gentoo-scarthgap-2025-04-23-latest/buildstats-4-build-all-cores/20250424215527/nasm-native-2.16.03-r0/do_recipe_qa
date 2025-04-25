@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745531829.91 
+nasm-native-2.16.03-r0: do_recipe_qa
+Elapsed time: 0.20 seconds
+utime: 43
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 999489
+IO wchar: 120162
+IO syscr: 361
+IO syscw: 103
+IO read_bytes: 0
+IO write_bytes: 122880
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.432861
+rusage ru_stime: 0.020895999999999998
+rusage ru_maxrss: 82460
+rusage ru_minflt: 10258
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 208
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 32
+Child rusage ru_utime: 0.012988
+Child rusage ru_stime: 0.024440999999999997
+Child rusage ru_maxrss: 82460
+Child rusage ru_minflt: 4503
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 261
+Child rusage ru_nivcsw: 32
+Status: PASSED 
+Ended: 1745531830.11 

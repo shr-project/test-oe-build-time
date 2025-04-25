@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745550342.65 
+makedevs-native-1.0.1-r0: do_recipe_qa
+Elapsed time: 0.21 seconds
+utime: 42
+stime: 1
+cutime: 0
+cstime: 2
+IO rchar: 1008522
+IO wchar: 114332
+IO syscr: 354
+IO syscw: 97
+IO read_bytes: 0
+IO write_bytes: 176128
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.42758199999999996
+rusage ru_stime: 0.019979999999999998
+rusage ru_maxrss: 74304
+rusage ru_minflt: 9934
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 304
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 19
+Child rusage ru_utime: 0.008999
+Child rusage ru_stime: 0.028055999999999998
+Child rusage ru_maxrss: 74304
+Child rusage ru_minflt: 4482
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 238
+Child rusage ru_nivcsw: 17
+Status: PASSED 
+Ended: 1745550342.86 

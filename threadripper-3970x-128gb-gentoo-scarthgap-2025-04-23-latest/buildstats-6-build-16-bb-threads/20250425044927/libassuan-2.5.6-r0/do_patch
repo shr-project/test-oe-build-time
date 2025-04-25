@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745556800.77 
+libassuan-2.5.6-r0: do_patch
+Elapsed time: 0.29 seconds
+utime: 49
+stime: 2
+cutime: 4
+cstime: 7
+IO rchar: 1610803
+IO wchar: 643322
+IO syscr: 719
+IO syscw: 255
+IO read_bytes: 0
+IO write_bytes: 962560
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.49861099999999997
+rusage ru_stime: 0.027032999999999998
+rusage ru_maxrss: 83884
+rusage ru_minflt: 6695
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 648
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 42
+Child rusage ru_utime: 0.042085
+Child rusage ru_stime: 0.075574
+Child rusage ru_maxrss: 83884
+Child rusage ru_minflt: 10347
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1232
+Child rusage ru_nvcsw: 128
+Child rusage ru_nivcsw: 33
+Status: PASSED 
+Ended: 1745556801.06 

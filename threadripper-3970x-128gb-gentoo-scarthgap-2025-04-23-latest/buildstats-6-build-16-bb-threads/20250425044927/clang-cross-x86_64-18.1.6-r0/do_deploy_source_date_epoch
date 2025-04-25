@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745556621.72 
+clang-cross-x86_64-18.1.6-r0: do_deploy_source_date_epoch
+Elapsed time: 0.31 seconds
+utime: 42
+stime: 1
+cutime: 2
+cstime: 3
+IO rchar: 716053
+IO wchar: 135701
+IO syscr: 390
+IO syscw: 95
+IO read_bytes: 0
+IO write_bytes: 196608
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.420817
+rusage ru_stime: 0.019991
+rusage ru_maxrss: 77552
+rusage ru_minflt: 12655
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 352
+rusage ru_nvcsw: 14
+rusage ru_nivcsw: 25
+Child rusage ru_utime: 0.021032
+Child rusage ru_stime: 0.030136
+Child rusage ru_maxrss: 77552
+Child rusage ru_minflt: 5268
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 290
+Child rusage ru_nivcsw: 30
+Status: PASSED 
+Ended: 1745556622.03 

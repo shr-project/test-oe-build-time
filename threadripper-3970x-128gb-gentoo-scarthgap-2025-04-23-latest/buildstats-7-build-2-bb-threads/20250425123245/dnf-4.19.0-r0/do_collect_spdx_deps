@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745601236.78 
+dnf-4.19.0-r0: do_collect_spdx_deps
+Elapsed time: 0.66 seconds
+utime: 85
+stime: 2
+cutime: 0
+cstime: 0
+IO rchar: 585823
+IO wchar: 108676
+IO syscr: 128
+IO syscw: 63
+IO read_bytes: 0
+IO write_bytes: 172032
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.8551449999999999
+rusage ru_stime: 0.020003
+rusage ru_maxrss: 70896
+rusage ru_minflt: 6896
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 200
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 5
+Child rusage ru_utime: 0.001462
+Child rusage ru_stime: 0.004627
+Child rusage ru_maxrss: 70372
+Child rusage ru_minflt: 728
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 136
+Child rusage ru_nvcsw: 9
+Child rusage ru_nivcsw: 2
+Status: PASSED 
+Ended: 1745601237.44 

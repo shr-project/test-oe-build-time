@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745521398.14 
+kern-tools-native-0.3+git-r0: do_recipe_qa
+Elapsed time: 0.19 seconds
+utime: 29
+stime: 1
+cutime: 1
+cstime: 2
+IO rchar: 719343
+IO wchar: 113294
+IO syscr: 343
+IO syscw: 92
+IO read_bytes: 0
+IO write_bytes: 143360
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.29389499999999996
+rusage ru_stime: 0.016048
+rusage ru_maxrss: 61200
+rusage ru_minflt: 8555
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 248
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 12
+Child rusage ru_utime: 0.014438999999999999
+Child rusage ru_stime: 0.021536
+Child rusage ru_maxrss: 61200
+Child rusage ru_minflt: 4506
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 266
+Child rusage ru_nivcsw: 17
+Status: PASSED 
+Ended: 1745521398.32 

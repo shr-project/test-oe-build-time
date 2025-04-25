@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745593438.73 
+p11-kit-0.25.3-r0: do_unpack
+Elapsed time: 0.85 seconds
+utime: 31
+stime: 5
+cutime: 44
+cstime: 27
+IO rchar: 11958993
+IO wchar: 6453543
+IO syscr: 4056
+IO syscw: 1171
+IO read_bytes: 2650112
+IO write_bytes: 8396800
+IO cancelled_write_bytes: 20480
+rusage ru_utime: 0.31096399999999996
+rusage ru_stime: 0.05681
+rusage ru_maxrss: 89384
+rusage ru_minflt: 17761
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 144
+rusage ru_nvcsw: 63
+rusage ru_nivcsw: 23
+Child rusage ru_utime: 0.44455
+Child rusage ru_stime: 0.270763
+Child rusage ru_maxrss: 89384
+Child rusage ru_minflt: 48076
+Child rusage ru_majflt: 21
+Child rusage ru_inblock: 5176
+Child rusage ru_oublock: 16256
+Child rusage ru_nvcsw: 166
+Child rusage ru_nivcsw: 86
+Status: PASSED 
+Ended: 1745593439.58 

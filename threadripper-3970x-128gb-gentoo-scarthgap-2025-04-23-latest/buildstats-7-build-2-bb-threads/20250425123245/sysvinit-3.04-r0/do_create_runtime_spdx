@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745603109.33 
+sysvinit-3.04-r0: do_create_runtime_spdx
+Elapsed time: 0.33 seconds
+utime: 45
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 1604289
+IO wchar: 414976
+IO syscr: 625
+IO syscw: 118
+IO read_bytes: 0
+IO write_bytes: 233472
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.45674099999999995
+rusage ru_stime: 0.027861999999999998
+rusage ru_maxrss: 74640
+rusage ru_minflt: 10811
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 272
+rusage ru_nvcsw: 20
+rusage ru_nivcsw: 5
+Child rusage ru_utime: 0.018108
+Child rusage ru_stime: 0.031156
+Child rusage ru_maxrss: 74640
+Child rusage ru_minflt: 5860
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 184
+Child rusage ru_nvcsw: 326
+Child rusage ru_nivcsw: 42
+Status: PASSED 
+Ended: 1745603109.66 

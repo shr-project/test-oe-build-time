@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745544856.11 
+glibc-2.39+git-r0: do_create_runtime_spdx
+Elapsed time: 1.00 seconds
+utime: 118
+stime: 5
+cutime: 1
+cstime: 3
+IO rchar: 12073905
+IO wchar: 512390
+IO syscr: 2011
+IO syscw: 150
+IO read_bytes: 0
+IO write_bytes: 417792
+IO cancelled_write_bytes: 0
+rusage ru_utime: 1.188936
+rusage ru_stime: 0.052908
+rusage ru_maxrss: 105244
+rusage ru_minflt: 17189
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 696
+rusage ru_nvcsw: 20
+rusage ru_nivcsw: 90
+Child rusage ru_utime: 0.016781
+Child rusage ru_stime: 0.037344999999999996
+Child rusage ru_maxrss: 105244
+Child rusage ru_minflt: 5952
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 120
+Child rusage ru_nvcsw: 321
+Child rusage ru_nivcsw: 83
+Status: PASSED 
+Ended: 1745544857.11 

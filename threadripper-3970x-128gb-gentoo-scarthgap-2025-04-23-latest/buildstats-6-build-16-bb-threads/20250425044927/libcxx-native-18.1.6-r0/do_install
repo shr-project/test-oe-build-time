@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745559404.73 
+libcxx-native-18.1.6-r0: do_install
+Elapsed time: 1.77 seconds
+utime: 53
+stime: 2
+cutime: 264
+cstime: 50
+IO rchar: 39002440
+IO wchar: 31531945
+IO syscr: 8547
+IO syscw: 5537
+IO read_bytes: 16384
+IO write_bytes: 34676736
+IO cancelled_write_bytes: 155648
+rusage ru_utime: 0.530276
+rusage ru_stime: 0.02196
+rusage ru_maxrss: 104300
+rusage ru_minflt: 10233
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 616
+rusage ru_nvcsw: 18
+rusage ru_nivcsw: 47
+Child rusage ru_utime: 2.649467
+Child rusage ru_stime: 0.502582
+Child rusage ru_maxrss: 165740
+Child rusage ru_minflt: 79341
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 32
+Child rusage ru_oublock: 67112
+Child rusage ru_nvcsw: 1085
+Child rusage ru_nivcsw: 227
+Status: PASSED 
+Ended: 1745559406.51 

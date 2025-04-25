@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745521403.08 
+quilt-native-0.67-r0: do_recipe_qa
+Elapsed time: 0.20 seconds
+utime: 33
+stime: 1
+cutime: 1
+cstime: 2
+IO rchar: 836877
+IO wchar: 120207
+IO syscr: 370
+IO syscw: 101
+IO read_bytes: 0
+IO write_bytes: 184320
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.33525299999999997
+rusage ru_stime: 0.017906
+rusage ru_maxrss: 62144
+rusage ru_minflt: 8646
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 328
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 5
+Child rusage ru_utime: 0.017341
+Child rusage ru_stime: 0.021352
+Child rusage ru_maxrss: 62144
+Child rusage ru_minflt: 4529
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 288
+Child rusage ru_nivcsw: 34
+Status: PASSED 
+Ended: 1745521403.28 

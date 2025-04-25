@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745532070.32 
+cargo-c-native-0.10.5+cargo-0.83.0-r0: do_create_runtime_spdx
+Elapsed time: 0.21 seconds
+utime: 123
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 1246371
+IO wchar: 752468
+IO syscr: 408
+IO syscw: 792
+IO read_bytes: 0
+IO write_bytes: 200704
+IO cancelled_write_bytes: 0
+rusage ru_utime: 1.231688
+rusage ru_stime: 0.025033999999999997
+rusage ru_maxrss: 87912
+rusage ru_minflt: 12092
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 312
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 115
+Child rusage ru_utime: 0.014483
+Child rusage ru_stime: 0.029027999999999998
+Child rusage ru_maxrss: 87912
+Child rusage ru_minflt: 4857
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 80
+Child rusage ru_nvcsw: 271
+Child rusage ru_nivcsw: 40
+Status: PASSED 
+Ended: 1745532070.54 

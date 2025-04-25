@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745591446.73 
+c-ares-native-1.27.0-r0: do_populate_sysroot
+Elapsed time: 0.55 seconds
+utime: 69
+stime: 5
+cutime: 6
+cstime: 9
+IO rchar: 4412700
+IO wchar: 1509608
+IO syscr: 1697
+IO syscw: 347
+IO read_bytes: 0
+IO write_bytes: 1339392
+IO cancelled_write_bytes: 253952
+rusage ru_utime: 0.6957099999999999
+rusage ru_stime: 0.058793
+rusage ru_maxrss: 91404
+rusage ru_minflt: 22906
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 1008
+rusage ru_nvcsw: 45
+rusage ru_nivcsw: 25
+Child rusage ru_utime: 0.068003
+Child rusage ru_stime: 0.099633
+Child rusage ru_maxrss: 91404
+Child rusage ru_minflt: 20065
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1608
+Child rusage ru_nvcsw: 442
+Child rusage ru_nivcsw: 55
+Status: PASSED 
+Ended: 1745591447.27 

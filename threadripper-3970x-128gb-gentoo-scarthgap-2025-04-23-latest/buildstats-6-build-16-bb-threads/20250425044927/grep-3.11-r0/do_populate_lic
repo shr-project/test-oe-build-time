@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745556991.86 
+grep-3.11-r0: do_populate_lic
+Elapsed time: 0.24 seconds
+utime: 41
+stime: 3
+cutime: 2
+cstime: 3
+IO rchar: 1137342
+IO wchar: 246794
+IO syscr: 521
+IO syscw: 119
+IO read_bytes: 0
+IO write_bytes: 176128
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.41900899999999996
+rusage ru_stime: 0.034222999999999996
+rusage ru_maxrss: 86924
+rusage ru_minflt: 10532
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 280
+rusage ru_nvcsw: 18
+rusage ru_nivcsw: 26
+Child rusage ru_utime: 0.021027999999999998
+Child rusage ru_stime: 0.035538
+Child rusage ru_maxrss: 86924
+Child rusage ru_minflt: 5873
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 64
+Child rusage ru_nvcsw: 290
+Child rusage ru_nivcsw: 22
+Status: PASSED 
+Ended: 1745556992.10 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745586591.89 
+xorgproto-native-2023.2-r0: do_configure
+Elapsed time: 1.37 seconds
+utime: 49
+stime: 2
+cutime: 99
+cstime: 14
+IO rchar: 13849833
+IO wchar: 4347197
+IO syscr: 2807
+IO syscw: 845
+IO read_bytes: 4096
+IO write_bytes: 5042176
+IO cancelled_write_bytes: 53248
+rusage ru_utime: 0.497365
+rusage ru_stime: 0.027964
+rusage ru_maxrss: 85132
+rusage ru_minflt: 10815
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 224
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 17
+Child rusage ru_utime: 0.9960129999999999
+Child rusage ru_stime: 0.149316
+Child rusage ru_maxrss: 83048
+Child rusage ru_minflt: 44604
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 9624
+Child rusage ru_nvcsw: 178
+Child rusage ru_nivcsw: 54
+Status: PASSED 
+Ended: 1745586593.26 

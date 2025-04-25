@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745602894.57 
+matchbox-session-sato-0.1-r0: do_recipe_qa
+Elapsed time: 0.19 seconds
+utime: 31
+stime: 1
+cutime: 1
+cstime: 2
+IO rchar: 825845
+IO wchar: 112621
+IO syscr: 350
+IO syscw: 86
+IO read_bytes: 8192
+IO write_bytes: 122880
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.313226
+rusage ru_stime: 0.017012
+rusage ru_maxrss: 73512
+rusage ru_minflt: 10181
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 208
+rusage ru_nvcsw: 13
+rusage ru_nivcsw: 6
+Child rusage ru_utime: 0.011698
+Child rusage ru_stime: 0.026326
+Child rusage ru_maxrss: 73512
+Child rusage ru_minflt: 4523
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 302
+Child rusage ru_nivcsw: 43
+Status: PASSED 
+Ended: 1745602894.75 

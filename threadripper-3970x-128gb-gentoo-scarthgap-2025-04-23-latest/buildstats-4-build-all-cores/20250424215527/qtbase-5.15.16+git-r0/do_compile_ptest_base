@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745535750.60 
+qtbase-5.15.16+git-r0: do_compile_ptest_base
+Elapsed time: 75.94 seconds
+utime: 93
+stime: 10
+cutime: 6386
+cstime: 990
+IO rchar: 139255243
+IO wchar: 1477207
+IO syscr: 70410
+IO syscw: 6649
+IO read_bytes: 4096
+IO write_bytes: 876544
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.9345089999999999
+rusage ru_stime: 0.106679
+rusage ru_maxrss: 96956
+rusage ru_minflt: 7881
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 1584
+rusage ru_nvcsw: 2494
+rusage ru_nivcsw: 73
+Child rusage ru_utime: 63.865616
+Child rusage ru_stime: 9.905625
+Child rusage ru_maxrss: 91984
+Child rusage ru_minflt: 1390622
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 128
+Child rusage ru_nvcsw: 5732
+Child rusage ru_nivcsw: 4385
+Status: PASSED 
+Ended: 1745535826.54 

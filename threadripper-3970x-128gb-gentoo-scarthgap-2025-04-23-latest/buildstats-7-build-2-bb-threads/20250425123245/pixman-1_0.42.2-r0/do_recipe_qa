@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745587297.84 
+pixman-1_0.42.2-r0: do_recipe_qa
+Elapsed time: 0.19 seconds
+utime: 35
+stime: 1
+cutime: 1
+cstime: 3
+IO rchar: 770620
+IO wchar: 119225
+IO syscr: 358
+IO syscw: 96
+IO read_bytes: 4096
+IO write_bytes: 143360
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.35196299999999997
+rusage ru_stime: 0.019996999999999997
+rusage ru_maxrss: 84932
+rusage ru_minflt: 9169
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 240
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 13
+Child rusage ru_utime: 0.013479999999999999
+Child rusage ru_stime: 0.031390999999999995
+Child rusage ru_maxrss: 84932
+Child rusage ru_minflt: 4532
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 271
+Child rusage ru_nivcsw: 31
+Status: PASSED 
+Ended: 1745587298.04 

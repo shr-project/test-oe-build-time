@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745559931.23 
+libdnf-0.73.2-r0: do_package_write_rpm
+Elapsed time: 3.55 seconds
+utime: 206
+stime: 18
+cutime: 231
+cstime: 94
+IO rchar: 439940155
+IO wchar: 64149837
+IO syscr: 23730
+IO syscw: 6344
+IO read_bytes: 0
+IO write_bytes: 42602496
+IO cancelled_write_bytes: 0
+rusage ru_utime: 2.067864
+rusage ru_stime: 0.18242899999999998
+rusage ru_maxrss: 94452
+rusage ru_minflt: 24306
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 1072
+rusage ru_nvcsw: 3466
+rusage ru_nivcsw: 274
+Child rusage ru_utime: 2.31386
+Child rusage ru_stime: 0.9477289999999999
+Child rusage ru_maxrss: 125052
+Child rusage ru_minflt: 85243
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 82136
+Child rusage ru_nvcsw: 18214
+Child rusage ru_nivcsw: 1982
+Status: PASSED 
+Ended: 1745559934.79 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745549818.42 
+run-postinsts-1.0-r0: do_recipe_qa
+Elapsed time: 0.19 seconds
+utime: 31
+stime: 3
+cutime: 0
+cstime: 2
+IO rchar: 742651
+IO wchar: 107646
+IO syscr: 345
+IO syscw: 88
+IO read_bytes: 0
+IO write_bytes: 249856
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.312917
+rusage ru_stime: 0.030185
+rusage ru_maxrss: 73640
+rusage ru_minflt: 9742
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 440
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 12
+Child rusage ru_utime: 0.008853999999999999
+Child rusage ru_stime: 0.028110999999999997
+Child rusage ru_maxrss: 73640
+Child rusage ru_minflt: 4465
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 48
+Child rusage ru_nvcsw: 276
+Child rusage ru_nivcsw: 23
+Status: PASSED 
+Ended: 1745549818.62 

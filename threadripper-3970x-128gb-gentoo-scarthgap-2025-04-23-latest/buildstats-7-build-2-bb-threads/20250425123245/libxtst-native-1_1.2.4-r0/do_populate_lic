@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745592394.42 
+libxtst-native-1_1.2.4-r0: do_populate_lic
+Elapsed time: 0.20 seconds
+utime: 42
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 1026081
+IO wchar: 179027
+IO syscr: 415
+IO syscw: 127
+IO read_bytes: 0
+IO write_bytes: 159744
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.421859
+rusage ru_stime: 0.02004
+rusage ru_maxrss: 90968
+rusage ru_minflt: 9435
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 272
+rusage ru_nvcsw: 18
+rusage ru_nivcsw: 10
+Child rusage ru_utime: 0.015728
+Child rusage ru_stime: 0.034471
+Child rusage ru_maxrss: 90968
+Child rusage ru_minflt: 5766
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 307
+Child rusage ru_nivcsw: 31
+Status: PASSED 
+Ended: 1745592394.62 

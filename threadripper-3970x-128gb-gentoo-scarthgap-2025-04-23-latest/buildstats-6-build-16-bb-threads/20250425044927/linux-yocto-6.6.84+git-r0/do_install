@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745559500.92 
+linux-yocto-6.6.84+git-r0: do_install
+Elapsed time: 1.76 seconds
+utime: 90
+stime: 7
+cutime: 205
+cstime: 440
+IO rchar: 1010449170
+IO wchar: 984807005
+IO syscr: 64210
+IO syscw: 2250
+IO read_bytes: 8192
+IO write_bytes: 986742784
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.906404
+rusage ru_stime: 0.07478499999999999
+rusage ru_maxrss: 92052
+rusage ru_minflt: 15902
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 472
+rusage ru_nvcsw: 1685
+rusage ru_nivcsw: 172
+Child rusage ru_utime: 2.056754
+Child rusage ru_stime: 4.401511
+Child rusage ru_maxrss: 90656
+Child rusage ru_minflt: 575090
+Child rusage ru_majflt: 5
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 1926760
+Child rusage ru_nvcsw: 43459
+Child rusage ru_nivcsw: 6107
+Status: PASSED 
+Ended: 1745559502.68 

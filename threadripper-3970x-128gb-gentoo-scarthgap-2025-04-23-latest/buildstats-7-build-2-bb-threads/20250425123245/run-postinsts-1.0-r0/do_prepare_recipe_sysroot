@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745602808.66 
+run-postinsts-1.0-r0: do_prepare_recipe_sysroot
+Elapsed time: 0.11 seconds
+utime: 23
+stime: 2
+cutime: 0
+cstime: 0
+IO rchar: 964511
+IO wchar: 584396
+IO syscr: 230
+IO syscw: 171
+IO read_bytes: 131072
+IO write_bytes: 888832
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.2377
+rusage ru_stime: 0.026966
+rusage ru_maxrss: 70732
+rusage ru_minflt: 6254
+rusage ru_majflt: 0
+rusage ru_inblock: 256
+rusage ru_oublock: 720
+rusage ru_nvcsw: 3
+rusage ru_nivcsw: 10
+Child rusage ru_utime: 0.008727
+Child rusage ru_stime: 0.002864
+Child rusage ru_maxrss: 70732
+Child rusage ru_minflt: 733
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1016
+Child rusage ru_nvcsw: 9
+Child rusage ru_nivcsw: 2
+Status: PASSED 
+Ended: 1745602808.77 

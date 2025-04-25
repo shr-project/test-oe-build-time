@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745594360.04 
+python-zstandard-0.21.0-r0: do_compile
+Elapsed time: 26.75 seconds
+utime: 27
+stime: 1
+cutime: 2705
+cstime: 50
+IO rchar: 92528391
+IO wchar: 80569679
+IO syscr: 5292
+IO syscw: 14670
+IO read_bytes: 65536
+IO write_bytes: 27291648
+IO cancelled_write_bytes: 6082560
+rusage ru_utime: 0.274981
+rusage ru_stime: 0.01112
+rusage ru_maxrss: 92972
+rusage ru_minflt: 6539
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 80
+rusage ru_nvcsw: 82
+rusage ru_nivcsw: 5
+Child rusage ru_utime: 27.058096
+Child rusage ru_stime: 0.507049
+Child rusage ru_maxrss: 377160
+Child rusage ru_minflt: 216697
+Child rusage ru_majflt: 2
+Child rusage ru_inblock: 128
+Child rusage ru_oublock: 53224
+Child rusage ru_nvcsw: 2700
+Child rusage ru_nivcsw: 300
+Status: PASSED 
+Ended: 1745594386.79 

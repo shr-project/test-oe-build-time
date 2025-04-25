@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745603978.23 
+core-image-sato-1.0-r0: do_flush_pseudodb
+Elapsed time: 0.12 seconds
+utime: 55
+stime: 2
+cutime: 0
+cstime: 0
+IO rchar: 658333
+IO wchar: 35820
+IO syscr: 141
+IO syscw: 42
+IO read_bytes: 0
+IO write_bytes: 28672
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.550686
+rusage ru_stime: 0.023018
+rusage ru_maxrss: 104192
+rusage ru_minflt: 13461
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 56
+rusage ru_nvcsw: 5
+rusage ru_nivcsw: 12
+Child rusage ru_utime: 0.0037979999999999997
+Child rusage ru_stime: 0.008962999999999999
+Child rusage ru_maxrss: 101068
+Child rusage ru_minflt: 1022
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 4
+Child rusage ru_nivcsw: 6
+Status: PASSED 
+Ended: 1745603978.34 

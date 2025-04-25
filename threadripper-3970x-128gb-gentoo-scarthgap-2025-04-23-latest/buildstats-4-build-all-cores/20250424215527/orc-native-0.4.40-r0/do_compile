@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745532585.13 
+orc-native-0.4.40-r0: do_compile
+Elapsed time: 9.33 seconds
+utime: 76
+stime: 3
+cutime: 3333
+cstime: 308
+IO rchar: 125392846
+IO wchar: 11920763
+IO syscr: 35751
+IO syscw: 5871
+IO read_bytes: 1851392
+IO write_bytes: 6823936
+IO cancelled_write_bytes: 348160
+rusage ru_utime: 0.763243
+rusage ru_stime: 0.033638999999999995
+rusage ru_maxrss: 87116
+rusage ru_minflt: 8032
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 256
+rusage ru_nvcsw: 89
+rusage ru_nivcsw: 101
+Child rusage ru_utime: 33.339251
+Child rusage ru_stime: 3.083895
+Child rusage ru_maxrss: 185644
+Child rusage ru_minflt: 694690
+Child rusage ru_majflt: 11
+Child rusage ru_inblock: 3616
+Child rusage ru_oublock: 13072
+Child rusage ru_nvcsw: 2420
+Child rusage ru_nivcsw: 7122
+Status: PASSED 
+Ended: 1745532594.46 

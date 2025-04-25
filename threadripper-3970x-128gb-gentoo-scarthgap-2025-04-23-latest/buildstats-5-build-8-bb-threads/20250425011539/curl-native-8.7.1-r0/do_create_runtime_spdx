@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745544014.88 
+curl-native-8.7.1-r0: do_create_runtime_spdx
+Elapsed time: 0.21 seconds
+utime: 48
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 1259078
+IO wchar: 349601
+IO syscr: 406
+IO syscw: 118
+IO read_bytes: 0
+IO write_bytes: 180224
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.48764599999999997
+rusage ru_stime: 0.022029
+rusage ru_maxrss: 84152
+rusage ru_minflt: 10693
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 272
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 18
+Child rusage ru_utime: 0.019143
+Child rusage ru_stime: 0.025477
+Child rusage ru_maxrss: 84152
+Child rusage ru_minflt: 4831
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 80
+Child rusage ru_nvcsw: 276
+Child rusage ru_nivcsw: 36
+Status: PASSED 
+Ended: 1745544015.09 

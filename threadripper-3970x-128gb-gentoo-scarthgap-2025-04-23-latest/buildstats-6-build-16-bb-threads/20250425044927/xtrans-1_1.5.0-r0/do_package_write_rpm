@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745558076.61 
+xtrans-1_1.5.0-r0: do_package_write_rpm
+Elapsed time: 1.60 seconds
+utime: 127
+stime: 11
+cutime: 20
+cstime: 17
+IO rchar: 2456753
+IO wchar: 569187
+IO syscr: 1710
+IO syscw: 304
+IO read_bytes: 0
+IO write_bytes: 512000
+IO cancelled_write_bytes: 0
+rusage ru_utime: 1.279104
+rusage ru_stime: 0.115918
+rusage ru_maxrss: 83452
+rusage ru_minflt: 25448
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 696
+rusage ru_nvcsw: 143
+rusage ru_nivcsw: 457
+Child rusage ru_utime: 0.207726
+Child rusage ru_stime: 0.17404999999999998
+Child rusage ru_maxrss: 83452
+Child rusage ru_minflt: 16743
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 304
+Child rusage ru_nvcsw: 1055
+Child rusage ru_nivcsw: 310
+Status: PASSED 
+Ended: 1745558078.21 

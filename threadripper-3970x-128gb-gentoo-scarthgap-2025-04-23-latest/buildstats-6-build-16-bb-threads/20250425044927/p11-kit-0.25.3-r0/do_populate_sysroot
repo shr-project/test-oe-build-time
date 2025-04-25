@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745559714.27 
+p11-kit-0.25.3-r0: do_populate_sysroot
+Elapsed time: 1.21 seconds
+utime: 123
+stime: 11
+cutime: 16
+cstime: 22
+IO rchar: 66491285
+IO wchar: 27214369
+IO syscr: 2923
+IO syscw: 1017
+IO read_bytes: 4096
+IO write_bytes: 24588288
+IO cancelled_write_bytes: 3194880
+rusage ru_utime: 1.23042
+rusage ru_stime: 0.11222
+rusage ru_maxrss: 107336
+rusage ru_minflt: 20183
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 32888
+rusage ru_nvcsw: 23
+rusage ru_nivcsw: 125
+Child rusage ru_utime: 0.161803
+Child rusage ru_stime: 0.22345299999999998
+Child rusage ru_maxrss: 107336
+Child rusage ru_minflt: 27348
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 15136
+Child rusage ru_nvcsw: 330
+Child rusage ru_nivcsw: 313
+Status: PASSED 
+Ended: 1745559715.48 

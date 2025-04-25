@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745561333.74 
+init-system-helpers-1.66-r0: do_package_write_rpm
+Elapsed time: 1.23 seconds
+utime: 117
+stime: 10
+cutime: 15
+cstime: 19
+IO rchar: 1705429
+IO wchar: 478653
+IO syscr: 1515
+IO syscw: 320
+IO read_bytes: 0
+IO write_bytes: 385024
+IO cancelled_write_bytes: 0
+rusage ru_utime: 1.175323
+rusage ru_stime: 0.10729899999999999
+rusage ru_maxrss: 94744
+rusage ru_minflt: 23005
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 528
+rusage ru_nvcsw: 124
+rusage ru_nivcsw: 379
+Child rusage ru_utime: 0.15595599999999998
+Child rusage ru_stime: 0.19927499999999998
+Child rusage ru_maxrss: 94744
+Child rusage ru_minflt: 17238
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 224
+Child rusage ru_nvcsw: 1508
+Child rusage ru_nivcsw: 207
+Status: PASSED 
+Ended: 1745561334.98 
