@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745384866.04 
+coreutils-native-9.6-r0: do_install
+Elapsed time: 2.44 seconds
+utime: 67
+stime: 3
+cutime: 102
+cstime: 28
+IO rchar: 27183523
+IO wchar: 9479689
+IO syscr: 14817
+IO syscw: 1455
+IO read_bytes: 61440
+IO write_bytes: 9916416
+IO cancelled_write_bytes: 53248
+rusage ru_utime: 0.676862
+rusage ru_stime: 0.030171999999999997
+rusage ru_maxrss: 109344
+rusage ru_minflt: 10777
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 144
+rusage ru_nvcsw: 44
+rusage ru_nivcsw: 40
+Child rusage ru_utime: 1.02976
+Child rusage ru_stime: 0.288141
+Child rusage ru_maxrss: 107296
+Child rusage ru_minflt: 46558
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 120
+Child rusage ru_oublock: 19224
+Child rusage ru_nvcsw: 399
+Child rusage ru_nivcsw: 248
+Status: PASSED 
+Ended: 1745384868.48 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745384774.86 
+tar-native-1.35-r0: do_recipe_qa
+Elapsed time: 0.55 seconds
+utime: 50
+stime: 4
+cutime: 0
+cstime: 3
+IO rchar: 437359
+IO wchar: 109610
+IO syscr: 306
+IO syscw: 112
+IO read_bytes: 290816
+IO write_bytes: 126976
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.504311
+rusage ru_stime: 0.047216
+rusage ru_maxrss: 105360
+rusage ru_minflt: 6503
+rusage ru_majflt: 0
+rusage ru_inblock: 568
+rusage ru_oublock: 224
+rusage ru_nvcsw: 19
+rusage ru_nivcsw: 127
+Child rusage ru_utime: 0.00971
+Child rusage ru_stime: 0.038887
+Child rusage ru_maxrss: 105360
+Child rusage ru_minflt: 3399
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 250
+Child rusage ru_nivcsw: 11
+Status: PASSED 
+Ended: 1745384775.40 

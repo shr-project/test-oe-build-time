@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745384428.33 
+make-native-4.4.1-r0: do_rm_work
+Elapsed time: 0.22 seconds
+utime: 37
+stime: 2
+cutime: 4
+cstime: 6
+IO rchar: 487104
+IO wchar: 40708
+IO syscr: 647
+IO syscw: 79
+IO read_bytes: 0
+IO write_bytes: 1327104
+IO cancelled_write_bytes: 5414912
+rusage ru_utime: 0.37206999999999996
+rusage ru_stime: 0.023066
+rusage ru_maxrss: 90916
+rusage ru_minflt: 8068
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 56
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 15
+Child rusage ru_utime: 0.043364
+Child rusage ru_stime: 0.06752
+Child rusage ru_maxrss: 87440
+Child rusage ru_minflt: 14240
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 2536
+Child rusage ru_nvcsw: 152
+Child rusage ru_nivcsw: 43
+Status: PASSED 
+Ended: 1745384428.55 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745357533.79 
+gmp-native-6.3.0-r0: do_unpack
+Elapsed time: 0.55 seconds
+utime: 32
+stime: 3
+cutime: 42
+cstime: 13
+IO rchar: 21691189
+IO wchar: 35816129
+IO syscr: 4607
+IO syscw: 8436
+IO read_bytes: 40960
+IO write_bytes: 23592960
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.32470899999999997
+rusage ru_stime: 0.036078
+rusage ru_maxrss: 78532
+rusage ru_minflt: 9055
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 18
+rusage ru_nivcsw: 32
+Child rusage ru_utime: 0.424199
+Child rusage ru_stime: 0.130142
+Child rusage ru_maxrss: 78532
+Child rusage ru_minflt: 4608
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 80
+Child rusage ru_oublock: 46008
+Child rusage ru_nvcsw: 2360
+Child rusage ru_nivcsw: 71
+Status: PASSED 
+Ended: 1745357534.34 

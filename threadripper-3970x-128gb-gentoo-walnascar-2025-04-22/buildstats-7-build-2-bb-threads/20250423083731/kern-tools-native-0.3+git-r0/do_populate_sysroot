@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745402480.25 
+kern-tools-native-0.3+git-r0: do_populate_sysroot
+Elapsed time: 0.46 seconds
+utime: 46
+stime: 6
+cutime: 8
+cstime: 16
+IO rchar: 3430732
+IO wchar: 737604
+IO syscr: 1338
+IO syscw: 244
+IO read_bytes: 0
+IO write_bytes: 442368
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.466584
+rusage ru_stime: 0.065221
+rusage ru_maxrss: 98380
+rusage ru_minflt: 16664
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 440
+rusage ru_nvcsw: 23
+rusage ru_nivcsw: 23
+Child rusage ru_utime: 0.08512499999999999
+Child rusage ru_stime: 0.167456
+Child rusage ru_maxrss: 98380
+Child rusage ru_minflt: 32685
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 424
+Child rusage ru_nvcsw: 470
+Child rusage ru_nivcsw: 91
+Status: PASSED 
+Ended: 1745402480.72 

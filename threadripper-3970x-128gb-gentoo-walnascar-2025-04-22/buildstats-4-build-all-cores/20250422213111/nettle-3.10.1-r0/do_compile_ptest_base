@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745359212.23 
+nettle-3.10.1-r0: do_compile_ptest_base
+Elapsed time: 24.90 seconds
+utime: 61
+stime: 4
+cutime: 1804
+cstime: 666
+IO rchar: 807368456
+IO wchar: 95146827
+IO syscr: 204685
+IO syscw: 35690
+IO read_bytes: 2084864
+IO write_bytes: 60149760
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.612899
+rusage ru_stime: 0.045398999999999995
+rusage ru_maxrss: 115384
+rusage ru_minflt: 10180
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 1176
+rusage ru_nvcsw: 241
+rusage ru_nivcsw: 202
+Child rusage ru_utime: 18.045357
+Child rusage ru_stime: 6.6620539999999995
+Child rusage ru_maxrss: 110452
+Child rusage ru_minflt: 979803
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 4072
+Child rusage ru_oublock: 116304
+Child rusage ru_nvcsw: 4689
+Child rusage ru_nivcsw: 6453
+Status: PASSED 
+Ended: 1745359237.13 

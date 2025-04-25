@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745358311.74 
+python3-pyproject-hooks-native-1.2.0-r0: do_compile
+Elapsed time: 0.55 seconds
+utime: 34
+stime: 1
+cutime: 42
+cstime: 3
+IO rchar: 2418106
+IO wchar: 2510946
+IO syscr: 305
+IO syscw: 151
+IO read_bytes: 45056
+IO write_bytes: 2699264
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.346325
+rusage ru_stime: 0.018963
+rusage ru_maxrss: 109364
+rusage ru_minflt: 5921
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 48
+rusage ru_nvcsw: 5
+rusage ru_nivcsw: 3
+Child rusage ru_utime: 0.423081
+Child rusage ru_stime: 0.030452999999999997
+Child rusage ru_maxrss: 108340
+Child rusage ru_minflt: 6093
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 88
+Child rusage ru_oublock: 5224
+Child rusage ru_nvcsw: 10
+Child rusage ru_nivcsw: 4
+Status: PASSED 
+Ended: 1745358312.29 

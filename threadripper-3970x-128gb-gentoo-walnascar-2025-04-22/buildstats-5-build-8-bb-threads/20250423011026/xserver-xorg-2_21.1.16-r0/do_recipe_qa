@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745373888.45 
+xserver-xorg-2_21.1.16-r0: do_recipe_qa
+Elapsed time: 0.22 seconds
+utime: 49
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 399657
+IO wchar: 115107
+IO syscr: 300
+IO syscw: 117
+IO read_bytes: 0
+IO write_bytes: 176128
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.493529
+rusage ru_stime: 0.029552
+rusage ru_maxrss: 115412
+rusage ru_minflt: 5340
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 312
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 153
+Child rusage ru_utime: 0.015491
+Child rusage ru_stime: 0.033746
+Child rusage ru_maxrss: 115412
+Child rusage ru_minflt: 3441
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 318
+Child rusage ru_nivcsw: 26
+Status: PASSED 
+Ended: 1745373888.66 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745384335.93 
+lzlib-native-1.15-r0: do_install
+Elapsed time: 0.23 seconds
+utime: 45
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 530610
+IO wchar: 191541
+IO syscr: 460
+IO syscw: 137
+IO read_bytes: 20480
+IO write_bytes: 274432
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.45428199999999996
+rusage ru_stime: 0.022913
+rusage ru_maxrss: 83412
+rusage ru_minflt: 10153
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 88
+rusage ru_nvcsw: 16
+rusage ru_nivcsw: 40
+Child rusage ru_utime: 0.01891
+Child rusage ru_stime: 0.033592
+Child rusage ru_maxrss: 81876
+Child rusage ru_minflt: 4882
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 40
+Child rusage ru_oublock: 448
+Child rusage ru_nvcsw: 51
+Child rusage ru_nivcsw: 16
+Status: PASSED 
+Ended: 1745384336.16 

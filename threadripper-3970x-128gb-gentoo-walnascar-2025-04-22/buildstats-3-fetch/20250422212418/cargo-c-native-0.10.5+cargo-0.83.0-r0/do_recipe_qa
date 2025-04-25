@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745357093.93 
+cargo-c-native-0.10.5+cargo-0.83.0-r0: do_recipe_qa
+Elapsed time: 0.10 seconds
+utime: 111
+stime: 1
+cutime: 0
+cstime: 1
+IO rchar: 524753
+IO wchar: 629655
+IO syscr: 325
+IO syscw: 809
+IO read_bytes: 0
+IO write_bytes: 135168
+IO cancelled_write_bytes: 0
+rusage ru_utime: 1.119171
+rusage ru_stime: 0.018016
+rusage ru_maxrss: 59220
+rusage ru_minflt: 6019
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 192
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 23
+Child rusage ru_utime: 0.009701999999999999
+Child rusage ru_stime: 0.017511
+Child rusage ru_maxrss: 59220
+Child rusage ru_minflt: 3512
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 72
+Child rusage ru_nvcsw: 295
+Child rusage ru_nivcsw: 33
+Status: PASSED 
+Ended: 1745357094.04 

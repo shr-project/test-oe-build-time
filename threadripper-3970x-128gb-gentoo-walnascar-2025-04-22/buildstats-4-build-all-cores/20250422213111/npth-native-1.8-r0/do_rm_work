@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745357794.64 
+npth-native-1.8-r0: do_rm_work
+Elapsed time: 1.51 seconds
+utime: 52
+stime: 2
+cutime: 3
+cstime: 6
+IO rchar: 486108
+IO wchar: 38566
+IO syscr: 641
+IO syscw: 76
+IO read_bytes: 0
+IO write_bytes: 36864
+IO cancelled_write_bytes: 2519040
+rusage ru_utime: 0.5293829999999999
+rusage ru_stime: 0.023826
+rusage ru_maxrss: 104700
+rusage ru_minflt: 8259
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 64
+rusage ru_nvcsw: 3
+rusage ru_nivcsw: 100
+Child rusage ru_utime: 0.039629
+Child rusage ru_stime: 0.068773
+Child rusage ru_maxrss: 101684
+Child rusage ru_minflt: 13813
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 147
+Child rusage ru_nivcsw: 73
+Status: PASSED 
+Ended: 1745357796.15 

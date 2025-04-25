@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745376756.33 
+l3afpad-0.8.18.1.11+git-r0: do_fetch
+Elapsed time: 0.41 seconds
+utime: 41
+stime: 4
+cutime: 19
+cstime: 6
+IO rchar: 1794110
+IO wchar: 56445
+IO syscr: 520
+IO syscw: 64
+IO read_bytes: 262144
+IO write_bytes: 69632
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.41606099999999996
+rusage ru_stime: 0.041978999999999995
+rusage ru_maxrss: 89768
+rusage ru_minflt: 7617
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 136
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 36
+Child rusage ru_utime: 0.19899599999999998
+Child rusage ru_stime: 0.067692
+Child rusage ru_maxrss: 84184
+Child rusage ru_minflt: 7741
+Child rusage ru_majflt: 2
+Child rusage ru_inblock: 512
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 32
+Child rusage ru_nivcsw: 21
+Status: PASSED 
+Ended: 1745376756.74 

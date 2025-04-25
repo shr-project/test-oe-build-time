@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745370715.04 
+opkg-utils-0.7.0-r0: do_fetch
+Elapsed time: 0.23 seconds
+utime: 23
+stime: 2
+cutime: 12
+cstime: 3
+IO rchar: 1772073
+IO wchar: 57455
+IO syscr: 505
+IO syscw: 62
+IO read_bytes: 90112
+IO write_bytes: 65536
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.231784
+rusage ru_stime: 0.023977
+rusage ru_maxrss: 80692
+rusage ru_minflt: 8065
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 19
+Child rusage ru_utime: 0.12301999999999999
+Child rusage ru_stime: 0.034133
+Child rusage ru_maxrss: 75900
+Child rusage ru_minflt: 7740
+Child rusage ru_majflt: 5
+Child rusage ru_inblock: 176
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 38
+Child rusage ru_nivcsw: 29
+Status: PASSED 
+Ended: 1745370715.27 

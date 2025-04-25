@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745387402.86 
+pciutils-3.13.0-r0: do_package
+Elapsed time: 5.39 seconds
+utime: 269
+stime: 119
+cutime: 127
+cstime: 97
+IO rchar: 28648033
+IO wchar: 11382727
+IO syscr: 13517
+IO syscw: 1877
+IO read_bytes: 0
+IO write_bytes: 13127680
+IO cancelled_write_bytes: 2314240
+rusage ru_utime: 2.696535
+rusage ru_stime: 1.190153
+rusage ru_maxrss: 94476
+rusage ru_minflt: 40421
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 10576
+rusage ru_nvcsw: 963
+rusage ru_nivcsw: 2393
+Child rusage ru_utime: 1.279672
+Child rusage ru_stime: 0.974692
+Child rusage ru_maxrss: 94476
+Child rusage ru_minflt: 82559
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 15064
+Child rusage ru_nvcsw: 3333
+Child rusage ru_nivcsw: 1511
+Status: PASSED 
+Ended: 1745387408.25 

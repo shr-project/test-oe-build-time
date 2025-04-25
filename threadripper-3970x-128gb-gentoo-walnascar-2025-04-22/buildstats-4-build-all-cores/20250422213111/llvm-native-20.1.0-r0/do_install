@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745362301.26 
+llvm-native-20.1.0-r0: do_install
+Elapsed time: 1.33 seconds
+utime: 56
+stime: 4
+cutime: 40
+cstime: 71
+IO rchar: 520635501
+IO wchar: 461584629
+IO syscr: 73135
+IO syscw: 62166
+IO read_bytes: 942080
+IO write_bytes: 468459520
+IO cancelled_write_bytes: 393216
+rusage ru_utime: 0.5653119999999999
+rusage ru_stime: 0.04333
+rusage ru_maxrss: 130756
+rusage ru_minflt: 9500
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 1384
+rusage ru_nvcsw: 2546
+rusage ru_nivcsw: 2
+Child rusage ru_utime: 0.402522
+Child rusage ru_stime: 0.716345
+Child rusage ru_maxrss: 130756
+Child rusage ru_minflt: 35404
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 1832
+Child rusage ru_oublock: 913576
+Child rusage ru_nvcsw: 202
+Child rusage ru_nivcsw: 20
+Status: PASSED 
+Ended: 1745362302.58 

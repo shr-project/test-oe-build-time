@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745377404.12 
+btrfs-tools-6.13-r0: do_populate_sysroot
+Elapsed time: 0.51 seconds
+utime: 61
+stime: 5
+cutime: 4
+cstime: 8
+IO rchar: 3297483
+IO wchar: 1141449
+IO syscr: 1411
+IO syscw: 269
+IO read_bytes: 0
+IO write_bytes: 905216
+IO cancelled_write_bytes: 122880
+rusage ru_utime: 0.611779
+rusage ru_stime: 0.052065999999999994
+rusage ru_maxrss: 94048
+rusage ru_minflt: 12842
+rusage ru_majflt: 1
+rusage ru_inblock: 0
+rusage ru_oublock: 936
+rusage ru_nvcsw: 22
+rusage ru_nivcsw: 28
+Child rusage ru_utime: 0.046144
+Child rusage ru_stime: 0.08084999999999999
+Child rusage ru_maxrss: 94048
+Child rusage ru_minflt: 15050
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 832
+Child rusage ru_nvcsw: 398
+Child rusage ru_nivcsw: 63
+Status: PASSED 
+Ended: 1745377404.63 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745370728.72 
+e2fsprogs-native-1.47.1-r0: do_patch
+Elapsed time: 0.36 seconds
+utime: 42
+stime: 2
+cutime: 15
+cstime: 18
+IO rchar: 1943232
+IO wchar: 462284
+IO syscr: 2610
+IO syscw: 461
+IO read_bytes: 0
+IO write_bytes: 610304
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.42141799999999996
+rusage ru_stime: 0.026142
+rusage ru_maxrss: 81416
+rusage ru_minflt: 6408
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 320
+rusage ru_nvcsw: 33
+rusage ru_nivcsw: 33
+Child rusage ru_utime: 0.154
+Child rusage ru_stime: 0.18576499999999999
+Child rusage ru_maxrss: 81416
+Child rusage ru_minflt: 59821
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 872
+Child rusage ru_nvcsw: 852
+Child rusage ru_nivcsw: 60
+Status: PASSED 
+Ended: 1745370729.07 

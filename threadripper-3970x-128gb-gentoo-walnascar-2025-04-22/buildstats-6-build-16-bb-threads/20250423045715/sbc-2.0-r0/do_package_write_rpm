@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745386055.31 
+sbc-2.0-r0: do_package_write_rpm
+Elapsed time: 1.36 seconds
+utime: 118
+stime: 10
+cutime: 25
+cstime: 21
+IO rchar: 9885298
+IO wchar: 1271201
+IO syscr: 3043
+IO syscw: 550
+IO read_bytes: 0
+IO write_bytes: 921600
+IO cancelled_write_bytes: 0
+rusage ru_utime: 1.182232
+rusage ru_stime: 0.109174
+rusage ru_maxrss: 87028
+rusage ru_minflt: 21494
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 576
+rusage ru_nvcsw: 173
+rusage ru_nivcsw: 646
+Child rusage ru_utime: 0.25193699999999997
+Child rusage ru_stime: 0.216547
+Child rusage ru_maxrss: 87028
+Child rusage ru_minflt: 17630
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1224
+Child rusage ru_nvcsw: 1471
+Child rusage ru_nivcsw: 844
+Status: PASSED 
+Ended: 1745386056.67 

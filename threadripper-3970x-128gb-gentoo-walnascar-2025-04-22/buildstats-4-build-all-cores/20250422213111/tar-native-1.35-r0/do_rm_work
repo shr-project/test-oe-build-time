@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745357930.31 
+tar-native-1.35-r0: do_rm_work
+Elapsed time: 0.42 seconds
+utime: 64
+stime: 3
+cutime: 6
+cstime: 14
+IO rchar: 512008
+IO wchar: 42958
+IO syscr: 650
+IO syscw: 83
+IO read_bytes: 0
+IO write_bytes: 36864
+IO cancelled_write_bytes: 6545408
+rusage ru_utime: 0.649933
+rusage ru_stime: 0.036712999999999996
+rusage ru_maxrss: 110604
+rusage ru_minflt: 8305
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 64
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 81
+Child rusage ru_utime: 0.06661
+Child rusage ru_stime: 0.145198
+Child rusage ru_maxrss: 105172
+Child rusage ru_minflt: 14169
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 149
+Child rusage ru_nivcsw: 40
+Status: PASSED 
+Ended: 1745357930.73 

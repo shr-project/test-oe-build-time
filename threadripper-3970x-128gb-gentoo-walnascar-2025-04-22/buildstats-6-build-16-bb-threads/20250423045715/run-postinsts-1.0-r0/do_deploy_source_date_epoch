@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745384745.25 
+run-postinsts-1.0-r0: do_deploy_source_date_epoch
+Elapsed time: 0.19 seconds
+utime: 32
+stime: 1
+cutime: 0
+cstime: 2
+IO rchar: 396619
+IO wchar: 112830
+IO syscr: 344
+IO syscw: 89
+IO read_bytes: 0
+IO write_bytes: 98304
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.32556599999999997
+rusage ru_stime: 0.019084
+rusage ru_maxrss: 105308
+rusage ru_minflt: 9549
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 152
+rusage ru_nvcsw: 14
+rusage ru_nivcsw: 30
+Child rusage ru_utime: 0.009854
+Child rusage ru_stime: 0.029085999999999997
+Child rusage ru_maxrss: 105308
+Child rusage ru_minflt: 4240
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 249
+Child rusage ru_nivcsw: 37
+Status: PASSED 
+Ended: 1745384745.44 

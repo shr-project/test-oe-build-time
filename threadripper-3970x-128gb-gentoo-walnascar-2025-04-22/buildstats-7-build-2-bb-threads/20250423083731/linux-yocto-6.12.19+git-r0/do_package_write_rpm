@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745417274.56 
+linux-yocto-6.12.19+git-r0: do_package_write_rpm
+Elapsed time: 38.65 seconds
+utime: 978
+stime: 102
+cutime: 4046
+cstime: 790
+IO rchar: 6410156257
+IO wchar: 1084001727
+IO syscr: 365573
+IO syscw: 84139
+IO read_bytes: 685494272
+IO write_bytes: 718684160
+IO cancelled_write_bytes: 0
+rusage ru_utime: 9.783331
+rusage ru_stime: 1.023186
+rusage ru_maxrss: 103072
+rusage ru_minflt: 31823
+rusage ru_majflt: 4
+rusage ru_inblock: 29728
+rusage ru_oublock: 5320
+rusage ru_nvcsw: 34778
+rusage ru_nivcsw: 607
+Child rusage ru_utime: 40.462299
+Child rusage ru_stime: 7.902317
+Child rusage ru_maxrss: 729784
+Child rusage ru_minflt: 575632
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 1309128
+Child rusage ru_oublock: 1398360
+Child rusage ru_nvcsw: 148956
+Child rusage ru_nivcsw: 41700
+Status: PASSED 
+Ended: 1745417313.21 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745416881.58 
+libcheck-native-0.15.2-r0: do_rm_work
+Elapsed time: 0.43 seconds
+utime: 57
+stime: 2
+cutime: 7
+cstime: 9
+IO rchar: 486935
+IO wchar: 41764
+IO syscr: 645
+IO syscw: 80
+IO read_bytes: 0
+IO write_bytes: 1220608
+IO cancelled_write_bytes: 3641344
+rusage ru_utime: 0.5777709999999999
+rusage ru_stime: 0.023743999999999998
+rusage ru_maxrss: 88952
+rusage ru_minflt: 7345
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 59
+Child rusage ru_utime: 0.079701
+Child rusage ru_stime: 0.098393
+Child rusage ru_maxrss: 84500
+Child rusage ru_minflt: 13674
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 2312
+Child rusage ru_nvcsw: 150
+Child rusage ru_nivcsw: 45
+Status: PASSED 
+Ended: 1745416882.02 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745399683.82 
+update-rc.d-0.8+git-r0: do_package_write_rpm
+Elapsed time: 0.52 seconds
+utime: 51
+stime: 5
+cutime: 7
+cstime: 10
+IO rchar: 1150848
+IO wchar: 370281
+IO syscr: 1404
+IO syscw: 252
+IO read_bytes: 0
+IO write_bytes: 323584
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.513367
+rusage ru_stime: 0.052446
+rusage ru_maxrss: 89852
+rusage ru_minflt: 16757
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 488
+rusage ru_nvcsw: 548
+rusage ru_nivcsw: 21
+Child rusage ru_utime: 0.079636
+Child rusage ru_stime: 0.100323
+Child rusage ru_maxrss: 89852
+Child rusage ru_minflt: 14210
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 144
+Child rusage ru_nvcsw: 1211
+Child rusage ru_nivcsw: 67
+Status: PASSED 
+Ended: 1745399684.34 

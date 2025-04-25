@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745407461.76 
+matchbox-wm-1.2.3-r0: do_install
+Elapsed time: 1.63 seconds
+utime: 123
+stime: 8
+cutime: 14
+cstime: 23
+IO rchar: 2012794
+IO wchar: 791229
+IO syscr: 4180
+IO syscw: 330
+IO read_bytes: 12288
+IO write_bytes: 970752
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 1.23603
+rusage ru_stime: 0.08742599999999999
+rusage ru_maxrss: 111828
+rusage ru_minflt: 12856
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 200
+rusage ru_nvcsw: 197
+rusage ru_nivcsw: 258
+Child rusage ru_utime: 0.14834799999999998
+Child rusage ru_stime: 0.23538499999999998
+Child rusage ru_maxrss: 108684
+Child rusage ru_minflt: 24694
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 1696
+Child rusage ru_nvcsw: 873
+Child rusage ru_nivcsw: 374
+Status: PASSED 
+Ended: 1745407463.39 

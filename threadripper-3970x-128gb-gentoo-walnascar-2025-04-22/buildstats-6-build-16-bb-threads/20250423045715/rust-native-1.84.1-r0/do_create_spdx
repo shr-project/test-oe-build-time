@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745388342.20 
+rust-native-1.84.1-r0: do_create_spdx
+Elapsed time: 0.27 seconds
+utime: 58
+stime: 1
+cutime: 0
+cstime: 2
+IO rchar: 1393509
+IO wchar: 290778
+IO syscr: 502
+IO syscw: 200
+IO read_bytes: 0
+IO write_bytes: 253952
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.5883459999999999
+rusage ru_stime: 0.018071999999999998
+rusage ru_maxrss: 122956
+rusage ru_minflt: 7668
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 400
+rusage ru_nvcsw: 20
+rusage ru_nivcsw: 7
+Child rusage ru_utime: 0.008072
+Child rusage ru_stime: 0.028089
+Child rusage ru_maxrss: 122956
+Child rusage ru_minflt: 4738
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 96
+Child rusage ru_nvcsw: 279
+Child rusage ru_nivcsw: 30
+Status: PASSED 
+Ended: 1745388342.47 

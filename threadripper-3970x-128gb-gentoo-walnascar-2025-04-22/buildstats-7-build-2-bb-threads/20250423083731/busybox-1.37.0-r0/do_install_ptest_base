@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745406213.96 
+busybox-1.37.0-r0: do_install_ptest_base
+Elapsed time: 0.20 seconds
+utime: 36
+stime: 1
+cutime: 1
+cstime: 6
+IO rchar: 936845
+IO wchar: 545279
+IO syscr: 2053
+IO syscw: 382
+IO read_bytes: 0
+IO write_bytes: 1933312
+IO cancelled_write_bytes: 16384
+rusage ru_utime: 0.36533899999999997
+rusage ru_stime: 0.017918
+rusage ru_maxrss: 103952
+rusage ru_minflt: 8876
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 88
+rusage ru_nvcsw: 469
+rusage ru_nivcsw: 10
+Child rusage ru_utime: 0.01898
+Child rusage ru_stime: 0.060842999999999994
+Child rusage ru_maxrss: 100092
+Child rusage ru_minflt: 3633
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 3688
+Child rusage ru_nvcsw: 2560
+Child rusage ru_nivcsw: 27
+Status: PASSED 
+Ended: 1745406214.16 

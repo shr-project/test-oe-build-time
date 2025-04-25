@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745413474.60 
+settings-daemon-0.0.2+git-r0: do_unpack
+Elapsed time: 1.20 seconds
+utime: 39
+stime: 6
+cutime: 54
+cstime: 22
+IO rchar: 4618235
+IO wchar: 154663
+IO syscr: 1554
+IO syscw: 188
+IO read_bytes: 24576
+IO write_bytes: 438272
+IO cancelled_write_bytes: 8192
+rusage ru_utime: 0.39972799999999997
+rusage ru_stime: 0.060958
+rusage ru_maxrss: 83512
+rusage ru_minflt: 9683
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 39
+rusage ru_nivcsw: 63
+Child rusage ru_utime: 0.5485169999999999
+Child rusage ru_stime: 0.221375
+Child rusage ru_maxrss: 83512
+Child rusage ru_minflt: 18474
+Child rusage ru_majflt: 2
+Child rusage ru_inblock: 48
+Child rusage ru_oublock: 744
+Child rusage ru_nvcsw: 44
+Child rusage ru_nivcsw: 125
+Status: PASSED 
+Ended: 1745413475.80 

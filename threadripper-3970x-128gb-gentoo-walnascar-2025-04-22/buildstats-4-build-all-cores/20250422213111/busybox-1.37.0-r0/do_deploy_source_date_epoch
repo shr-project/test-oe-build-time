@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745357736.60 
+busybox-1.37.0-r0: do_deploy_source_date_epoch
+Elapsed time: 0.30 seconds
+utime: 64
+stime: 3
+cutime: 1
+cstime: 3
+IO rchar: 507773
+IO wchar: 134949
+IO syscr: 366
+IO syscw: 104
+IO read_bytes: 0
+IO write_bytes: 122880
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.642127
+rusage ru_stime: 0.031054
+rusage ru_maxrss: 101140
+rusage ru_minflt: 9952
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 200
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 97
+Child rusage ru_utime: 0.013701
+Child rusage ru_stime: 0.038811
+Child rusage ru_maxrss: 101140
+Child rusage ru_minflt: 4316
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 179
+Child rusage ru_nivcsw: 26
+Status: PASSED 
+Ended: 1745357736.89 

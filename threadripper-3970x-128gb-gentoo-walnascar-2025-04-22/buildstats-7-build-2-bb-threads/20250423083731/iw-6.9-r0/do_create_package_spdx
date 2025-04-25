@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745416047.86 
+iw-6.9-r0: do_create_package_spdx
+Elapsed time: 0.31 seconds
+utime: 42
+stime: 3
+cutime: 1
+cstime: 2
+IO rchar: 905845
+IO wchar: 284463
+IO syscr: 512
+IO syscw: 125
+IO read_bytes: 0
+IO write_bytes: 303104
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.42527699999999996
+rusage ru_stime: 0.035105
+rusage ru_maxrss: 87904
+rusage ru_minflt: 5985
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 408
+rusage ru_nvcsw: 18
+rusage ru_nivcsw: 20
+Child rusage ru_utime: 0.01607
+Child rusage ru_stime: 0.022357
+Child rusage ru_maxrss: 87904
+Child rusage ru_minflt: 4666
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 184
+Child rusage ru_nvcsw: 307
+Child rusage ru_nivcsw: 33
+Status: PASSED 
+Ended: 1745416048.17 

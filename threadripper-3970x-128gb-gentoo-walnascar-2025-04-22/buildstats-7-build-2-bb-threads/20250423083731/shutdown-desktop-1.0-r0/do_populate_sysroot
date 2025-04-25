@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745415020.33 
+shutdown-desktop-1.0-r0: do_populate_sysroot
+Elapsed time: 0.25 seconds
+utime: 35
+stime: 1
+cutime: 2
+cstime: 3
+IO rchar: 554078
+IO wchar: 150642
+IO syscr: 577
+IO syscw: 117
+IO read_bytes: 0
+IO write_bytes: 200704
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.35677
+rusage ru_stime: 0.018987
+rusage ru_maxrss: 82936
+rusage ru_minflt: 8873
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 312
+rusage ru_nvcsw: 21
+rusage ru_nivcsw: 17
+Child rusage ru_utime: 0.026698
+Child rusage ru_stime: 0.036795999999999995
+Child rusage ru_maxrss: 82936
+Child rusage ru_minflt: 7945
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 80
+Child rusage ru_nvcsw: 327
+Child rusage ru_nivcsw: 26
+Status: PASSED 
+Ended: 1745415020.58 

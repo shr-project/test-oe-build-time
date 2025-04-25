@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745387140.13 
+clang-cross-x86_64-20.1.2-r0: do_install
+Elapsed time: 0.24 seconds
+utime: 32
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 586222
+IO wchar: 369363
+IO syscr: 266
+IO syscw: 35
+IO read_bytes: 0
+IO write_bytes: 389120
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.321215
+rusage ru_stime: 0.024016
+rusage ru_maxrss: 118752
+rusage ru_minflt: 8406
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 88
+rusage ru_nvcsw: 6
+rusage ru_nivcsw: 8
+Child rusage ru_utime: 0.014719
+Child rusage ru_stime: 0.031534
+Child rusage ru_maxrss: 117728
+Child rusage ru_minflt: 4392
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 672
+Child rusage ru_nvcsw: 39
+Child rusage ru_nivcsw: 6
+Status: PASSED 
+Ended: 1745387140.37 

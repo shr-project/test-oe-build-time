@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745357948.71 
+nss-native-3.110-r0: do_rm_work
+Elapsed time: 0.59 seconds
+utime: 39
+stime: 1
+cutime: 4
+cstime: 18
+IO rchar: 469499
+IO wchar: 37010
+IO syscr: 614
+IO syscw: 74
+IO read_bytes: 77824
+IO write_bytes: 8691712
+IO cancelled_write_bytes: 22585344
+rusage ru_utime: 0.39363299999999996
+rusage ru_stime: 0.015944
+rusage ru_maxrss: 108004
+rusage ru_minflt: 8213
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 48
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 19
+Child rusage ru_utime: 0.046264
+Child rusage ru_stime: 0.18509399999999998
+Child rusage ru_maxrss: 104984
+Child rusage ru_minflt: 13700
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 152
+Child rusage ru_oublock: 16928
+Child rusage ru_nvcsw: 172
+Child rusage ru_nivcsw: 24
+Status: PASSED 
+Ended: 1745357949.30 

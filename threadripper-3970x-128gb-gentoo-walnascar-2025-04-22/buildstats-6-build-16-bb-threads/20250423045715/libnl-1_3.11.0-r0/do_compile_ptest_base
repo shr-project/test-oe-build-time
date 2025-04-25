@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745385587.66 
+libnl-1_3.11.0-r0: do_compile_ptest_base
+Elapsed time: 3.98 seconds
+utime: 50
+stime: 2
+cutime: 294
+cstime: 83
+IO rchar: 21528416
+IO wchar: 4654028
+IO syscr: 5780
+IO syscw: 1461
+IO read_bytes: 98304
+IO write_bytes: 2187264
+IO cancelled_write_bytes: 520192
+rusage ru_utime: 0.500362
+rusage ru_stime: 0.029901999999999998
+rusage ru_maxrss: 111500
+rusage ru_minflt: 6024
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 18
+rusage ru_nivcsw: 67
+Child rusage ru_utime: 2.941156
+Child rusage ru_stime: 0.8341099999999999
+Child rusage ru_maxrss: 107552
+Child rusage ru_minflt: 117144
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 192
+Child rusage ru_oublock: 4112
+Child rusage ru_nvcsw: 924
+Child rusage ru_nivcsw: 477
+Status: PASSED 
+Ended: 1745385591.64 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745372641.84 
+cargo-native-1.84.1-r0: do_populate_sysroot
+Elapsed time: 1.81 seconds
+utime: 120
+stime: 11
+cutime: 107
+cstime: 28
+IO rchar: 210014534
+IO wchar: 123133348
+IO syscr: 13928
+IO syscw: 6531
+IO read_bytes: 0
+IO write_bytes: 96276480
+IO cancelled_write_bytes: 26873856
+rusage ru_utime: 1.2041789999999999
+rusage ru_stime: 0.116245
+rusage ru_maxrss: 106780
+rusage ru_minflt: 15110
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 65096
+rusage ru_nvcsw: 29
+rusage ru_nivcsw: 239
+Child rusage ru_utime: 1.073631
+Child rusage ru_stime: 0.28998399999999996
+Child rusage ru_maxrss: 106780
+Child rusage ru_minflt: 43978
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 122944
+Child rusage ru_nvcsw: 1025
+Child rusage ru_nivcsw: 591
+Status: PASSED 
+Ended: 1745372643.64 

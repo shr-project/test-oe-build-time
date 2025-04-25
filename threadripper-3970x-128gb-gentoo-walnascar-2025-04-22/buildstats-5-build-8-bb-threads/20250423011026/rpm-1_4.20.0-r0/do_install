@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745373555.18 
+rpm-1_4.20.0-r0: do_install
+Elapsed time: 3.12 seconds
+utime: 111
+stime: 7
+cutime: 63
+cstime: 171
+IO rchar: 29309664
+IO wchar: 9074193
+IO syscr: 17581
+IO syscw: 2326
+IO read_bytes: 0
+IO write_bytes: 9277440
+IO cancelled_write_bytes: 106496
+rusage ru_utime: 1.119404
+rusage ru_stime: 0.07355199999999999
+rusage ru_maxrss: 101880
+rusage ru_minflt: 12873
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 272
+rusage ru_nvcsw: 609
+rusage ru_nivcsw: 410
+Child rusage ru_utime: 0.6378809999999999
+Child rusage ru_stime: 1.7100529999999998
+Child rusage ru_maxrss: 98604
+Child rusage ru_minflt: 197433
+Child rusage ru_majflt: 2
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 17848
+Child rusage ru_nvcsw: 3122
+Child rusage ru_nivcsw: 3917
+Status: PASSED 
+Ended: 1745373558.30 

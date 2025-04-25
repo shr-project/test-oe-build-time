@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745372058.15 
+mesa-2_24.0.7-r0: do_rm_work
+Elapsed time: 0.99 seconds
+utime: 43
+stime: 1
+cutime: 7
+cstime: 78
+IO rchar: 687869
+IO wchar: 51475
+IO syscr: 960
+IO syscw: 110
+IO read_bytes: 0
+IO write_bytes: 24485888
+IO cancelled_write_bytes: 566026240
+rusage ru_utime: 0.43207599999999996
+rusage ru_stime: 0.016963
+rusage ru_maxrss: 105304
+rusage ru_minflt: 7025
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 64
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 56
+Child rusage ru_utime: 0.073971
+Child rusage ru_stime: 0.7855439999999999
+Child rusage ru_maxrss: 101484
+Child rusage ru_minflt: 21517
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 47760
+Child rusage ru_nvcsw: 234
+Child rusage ru_nivcsw: 100
+Status: PASSED 
+Ended: 1745372059.14 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745384311.47 
+openssl-native-3.4.1-r0: do_unpack
+Elapsed time: 1.24 seconds
+utime: 57
+stime: 4
+cutime: 30
+cstime: 104
+IO rchar: 88938317
+IO wchar: 136315622
+IO syscr: 8213
+IO syscw: 13962
+IO read_bytes: 18530304
+IO write_bytes: 84987904
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.579153
+rusage ru_stime: 0.045932
+rusage ru_maxrss: 80636
+rusage ru_minflt: 8818
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 96
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 145
+Child rusage ru_utime: 0.302931
+Child rusage ru_stime: 1.04026
+Child rusage ru_maxrss: 80636
+Child rusage ru_minflt: 3140
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 36192
+Child rusage ru_oublock: 165896
+Child rusage ru_nvcsw: 10603
+Child rusage ru_nivcsw: 2911
+Status: PASSED 
+Ended: 1745384312.72 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745371812.55 
+libpthread-stubs-0.5-r0: do_rm_work
+Elapsed time: 0.31 seconds
+utime: 30
+stime: 1
+cutime: 6
+cstime: 12
+IO rchar: 615827
+IO wchar: 32696
+IO syscr: 865
+IO syscw: 71
+IO read_bytes: 0
+IO write_bytes: 1261568
+IO cancelled_write_bytes: 90112
+rusage ru_utime: 0.301755
+rusage ru_stime: 0.014938
+rusage ru_maxrss: 99768
+rusage ru_minflt: 6716
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 56
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 14
+Child rusage ru_utime: 0.069404
+Child rusage ru_stime: 0.12249199999999999
+Child rusage ru_maxrss: 96376
+Child rusage ru_minflt: 19499
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 2408
+Child rusage ru_nvcsw: 218
+Child rusage ru_nivcsw: 51
+Status: PASSED 
+Ended: 1745371812.86 

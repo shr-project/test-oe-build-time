@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745384601.24 
+ca-certificates-native-20241223-r0: do_install
+Elapsed time: 3.18 seconds
+utime: 49
+stime: 2
+cutime: 52
+cstime: 94
+IO rchar: 6612959
+IO wchar: 685374
+IO syscr: 18347
+IO syscw: 1238
+IO read_bytes: 2269184
+IO write_bytes: 2236416
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.49230999999999997
+rusage ru_stime: 0.02188
+rusage ru_maxrss: 104336
+rusage ru_minflt: 10238
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 104
+rusage ru_nvcsw: 21
+rusage ru_nivcsw: 19
+Child rusage ru_utime: 0.528763
+Child rusage ru_stime: 0.940556
+Child rusage ru_maxrss: 102800
+Child rusage ru_minflt: 266682
+Child rusage ru_majflt: 2
+Child rusage ru_inblock: 4432
+Child rusage ru_oublock: 4264
+Child rusage ru_nvcsw: 3139
+Child rusage ru_nivcsw: 621
+Status: PASSED 
+Ended: 1745384604.42 

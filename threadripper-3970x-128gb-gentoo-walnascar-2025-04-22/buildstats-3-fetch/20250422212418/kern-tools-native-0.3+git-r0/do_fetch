@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745357155.30 
+kern-tools-native-0.3+git-r0: do_fetch
+Elapsed time: 0.54 seconds
+utime: 26
+stime: 2
+cutime: 21
+cstime: 19
+IO rchar: 6481923
+IO wchar: 3665711
+IO syscr: 1126
+IO syscw: 686
+IO read_bytes: 1568768
+IO write_bytes: 3616768
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.269816
+rusage ru_stime: 0.023069
+rusage ru_maxrss: 66768
+rusage ru_minflt: 8280
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 176
+rusage ru_nvcsw: 19
+rusage ru_nivcsw: 17
+Child rusage ru_utime: 0.219501
+Child rusage ru_stime: 0.196985
+Child rusage ru_maxrss: 61444
+Child rusage ru_minflt: 13227
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 3064
+Child rusage ru_oublock: 6888
+Child rusage ru_nvcsw: 373
+Child rusage ru_nivcsw: 116
+Status: PASSED 
+Ended: 1745357155.84 

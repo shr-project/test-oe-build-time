@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745409262.36 
+gnome-desktop-testing-2021.1-r0: do_recipe_qa
+Elapsed time: 0.29 seconds
+utime: 42
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 400609
+IO wchar: 96876
+IO syscr: 284
+IO syscw: 86
+IO read_bytes: 4096
+IO write_bytes: 225280
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.42136799999999996
+rusage ru_stime: 0.027826
+rusage ru_maxrss: 79332
+rusage ru_minflt: 5341
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 408
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 63
+Child rusage ru_utime: 0.015781
+Child rusage ru_stime: 0.024347999999999998
+Child rusage ru_maxrss: 79332
+Child rusage ru_minflt: 3477
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 305
+Child rusage ru_nivcsw: 13
+Status: PASSED 
+Ended: 1745409262.65 

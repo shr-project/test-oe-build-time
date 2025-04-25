@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745384438.25 
+bison-native-3.8.2-r0: do_install
+Elapsed time: 1.22 seconds
+utime: 74
+stime: 4
+cutime: 65
+cstime: 54
+IO rchar: 11392385
+IO wchar: 2701389
+IO syscr: 9355
+IO syscw: 837
+IO read_bytes: 0
+IO write_bytes: 3072000
+IO cancelled_write_bytes: 24576
+rusage ru_utime: 0.74351
+rusage ru_stime: 0.040483
+rusage ru_maxrss: 92484
+rusage ru_minflt: 10193
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 152
+rusage ru_nvcsw: 91
+rusage ru_nivcsw: 62
+Child rusage ru_utime: 0.6576219999999999
+Child rusage ru_stime: 0.54503
+Child rusage ru_maxrss: 90948
+Child rusage ru_minflt: 65962
+Child rusage ru_majflt: 2
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 5848
+Child rusage ru_nvcsw: 785
+Child rusage ru_nivcsw: 278
+Status: PASSED 
+Ended: 1745384439.47 

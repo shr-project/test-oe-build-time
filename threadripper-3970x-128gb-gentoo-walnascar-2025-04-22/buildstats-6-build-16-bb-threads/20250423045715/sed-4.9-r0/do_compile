@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745385628.24 
+sed-4.9-r0: do_compile
+Elapsed time: 14.88 seconds
+utime: 53
+stime: 4
+cutime: 1232
+cstime: 342
+IO rchar: 109947806
+IO wchar: 16382674
+IO syscr: 28498
+IO syscw: 5751
+IO read_bytes: 2686976
+IO write_bytes: 8941568
+IO cancelled_write_bytes: 2392064
+rusage ru_utime: 0.537195
+rusage ru_stime: 0.045439
+rusage ru_maxrss: 112320
+rusage ru_minflt: 6151
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 496
+rusage ru_nvcsw: 242
+rusage ru_nivcsw: 83
+Child rusage ru_utime: 12.323303
+Child rusage ru_stime: 3.426432
+Child rusage ru_maxrss: 107828
+Child rusage ru_minflt: 405327
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 5248
+Child rusage ru_oublock: 16968
+Child rusage ru_nvcsw: 2431
+Child rusage ru_nivcsw: 1947
+Status: PASSED 
+Ended: 1745385643.12 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745400185.18 
+libxshmfence-1.3.3-r0: do_rm_work
+Elapsed time: 0.34 seconds
+utime: 34
+stime: 1
+cutime: 4
+cstime: 15
+IO rchar: 633916
+IO wchar: 34492
+IO syscr: 894
+IO syscw: 75
+IO read_bytes: 0
+IO write_bytes: 1200128
+IO cancelled_write_bytes: 4567040
+rusage ru_utime: 0.347585
+rusage ru_stime: 0.017027999999999998
+rusage ru_maxrss: 93432
+rusage ru_minflt: 10641
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 64
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 6
+Child rusage ru_utime: 0.04817
+Child rusage ru_stime: 0.15325
+Child rusage ru_maxrss: 87836
+Child rusage ru_minflt: 20226
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 2280
+Child rusage ru_nvcsw: 232
+Child rusage ru_nivcsw: 27
+Status: PASSED 
+Ended: 1745400185.52 

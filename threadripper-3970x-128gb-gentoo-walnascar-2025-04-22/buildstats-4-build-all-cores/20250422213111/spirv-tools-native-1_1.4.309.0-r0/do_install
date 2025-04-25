@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745358039.78 
+spirv-tools-native-1_1.4.309.0-r0: do_install
+Elapsed time: 0.49 seconds
+utime: 45
+stime: 2
+cutime: 3
+cstime: 26
+IO rchar: 341224523
+IO wchar: 335043307
+IO syscr: 42511
+IO syscw: 41109
+IO read_bytes: 4096
+IO write_bytes: 335269888
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.459358
+rusage ru_stime: 0.025074
+rusage ru_maxrss: 109292
+rusage ru_minflt: 10297
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 64
+rusage ru_nivcsw: 11
+Child rusage ru_utime: 0.035537
+Child rusage ru_stime: 0.265621
+Child rusage ru_maxrss: 107756
+Child rusage ru_minflt: 1901
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 654696
+Child rusage ru_nvcsw: 8
+Child rusage ru_nivcsw: 25
+Status: PASSED 
+Ended: 1745358040.27 

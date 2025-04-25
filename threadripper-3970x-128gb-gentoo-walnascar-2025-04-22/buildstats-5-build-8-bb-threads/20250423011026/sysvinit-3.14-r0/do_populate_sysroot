@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745377038.84 
+sysvinit-3.14-r0: do_populate_sysroot
+Elapsed time: 0.36 seconds
+utime: 46
+stime: 2
+cutime: 2
+cstime: 5
+IO rchar: 689975
+IO wchar: 202297
+IO syscr: 641
+IO syscw: 139
+IO read_bytes: 53248
+IO write_bytes: 196608
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.46473
+rusage ru_stime: 0.029789999999999997
+rusage ru_maxrss: 91384
+rusage ru_minflt: 10066
+rusage ru_majflt: 1
+rusage ru_inblock: 0
+rusage ru_oublock: 296
+rusage ru_nvcsw: 22
+rusage ru_nivcsw: 26
+Child rusage ru_utime: 0.027142
+Child rusage ru_stime: 0.054208
+Child rusage ru_maxrss: 91384
+Child rusage ru_minflt: 9032
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 104
+Child rusage ru_oublock: 88
+Child rusage ru_nvcsw: 327
+Child rusage ru_nivcsw: 52
+Status: PASSED 
+Ended: 1745377039.20 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745384390.86 
+re2c-native-4.1-r0: do_unpack
+Elapsed time: 1.45 seconds
+utime: 43
+stime: 3
+cutime: 11
+cstime: 129
+IO rchar: 45068231
+IO wchar: 82988305
+IO syscr: 4564
+IO syscw: 17670
+IO read_bytes: 2072576
+IO write_bytes: 53194752
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.43445799999999996
+rusage ru_stime: 0.038596
+rusage ru_maxrss: 89032
+rusage ru_minflt: 7210
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 352
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 27
+Child rusage ru_utime: 0.11627499999999999
+Child rusage ru_stime: 1.297127
+Child rusage ru_maxrss: 89032
+Child rusage ru_minflt: 16081
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 4048
+Child rusage ru_oublock: 103544
+Child rusage ru_nvcsw: 3077
+Child rusage ru_nivcsw: 1754
+Status: PASSED 
+Ended: 1745384392.31 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745384462.87 
+libdaemon-0.14-r0: do_patch
+Elapsed time: 0.21 seconds
+utime: 41
+stime: 3
+cutime: 4
+cstime: 5
+IO rchar: 1033832
+IO wchar: 651054
+IO syscr: 648
+IO syscw: 256
+IO read_bytes: 0
+IO write_bytes: 983040
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.41226399999999996
+rusage ru_stime: 0.035676
+rusage ru_maxrss: 91260
+rusage ru_minflt: 6186
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 672
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 98
+Child rusage ru_utime: 0.045417
+Child rusage ru_stime: 0.058495
+Child rusage ru_maxrss: 91260
+Child rusage ru_minflt: 10427
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1248
+Child rusage ru_nvcsw: 117
+Child rusage ru_nivcsw: 15
+Status: PASSED 
+Ended: 1745384463.08 

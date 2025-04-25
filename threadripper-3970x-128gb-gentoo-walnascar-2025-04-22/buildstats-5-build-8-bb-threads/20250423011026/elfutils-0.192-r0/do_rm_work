@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745377985.00 
+elfutils-0.192-r0: do_rm_work
+Elapsed time: 1.00 seconds
+utime: 47
+stime: 2
+cutime: 10
+cstime: 48
+IO rchar: 660007
+IO wchar: 38224
+IO syscr: 921
+IO syscw: 82
+IO read_bytes: 6090752
+IO write_bytes: 25919488
+IO cancelled_write_bytes: 2707456
+rusage ru_utime: 0.47920799999999997
+rusage ru_stime: 0.029997
+rusage ru_maxrss: 98544
+rusage ru_minflt: 7777
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 136
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 48
+Child rusage ru_utime: 0.10022299999999999
+Child rusage ru_stime: 0.480981
+Child rusage ru_maxrss: 93908
+Child rusage ru_minflt: 21736
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 11896
+Child rusage ru_oublock: 50488
+Child rusage ru_nvcsw: 1023
+Child rusage ru_nivcsw: 92
+Status: PASSED 
+Ended: 1745377986.00 

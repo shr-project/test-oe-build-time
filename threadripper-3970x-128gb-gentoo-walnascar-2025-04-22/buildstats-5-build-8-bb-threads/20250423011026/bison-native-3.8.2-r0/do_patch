@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745370844.47 
+bison-native-3.8.2-r0: do_patch
+Elapsed time: 0.19 seconds
+utime: 33
+stime: 2
+cutime: 5
+cstime: 6
+IO rchar: 640600
+IO wchar: 83155
+IO syscr: 852
+IO syscw: 173
+IO read_bytes: 0
+IO write_bytes: 122880
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.339738
+rusage ru_stime: 0.021983
+rusage ru_maxrss: 85708
+rusage ru_minflt: 6262
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 144
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 46
+Child rusage ru_utime: 0.057172
+Child rusage ru_stime: 0.062481999999999996
+Child rusage ru_maxrss: 85708
+Child rusage ru_minflt: 19274
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 96
+Child rusage ru_nvcsw: 263
+Child rusage ru_nivcsw: 55
+Status: PASSED 
+Ended: 1745370844.65 

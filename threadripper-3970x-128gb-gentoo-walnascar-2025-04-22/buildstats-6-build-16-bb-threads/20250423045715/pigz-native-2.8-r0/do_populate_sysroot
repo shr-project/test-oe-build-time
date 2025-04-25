@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745384760.99 
+pigz-native-2.8-r0: do_populate_sysroot
+Elapsed time: 2.72 seconds
+utime: 165
+stime: 8
+cutime: 5
+cstime: 9
+IO rchar: 3739699
+IO wchar: 1396269
+IO syscr: 1310
+IO syscw: 292
+IO read_bytes: 4096
+IO write_bytes: 1204224
+IO cancelled_write_bytes: 278528
+rusage ru_utime: 1.655667
+rusage ru_stime: 0.08408399999999999
+rusage ru_maxrss: 107304
+rusage ru_minflt: 15077
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 920
+rusage ru_nvcsw: 38
+rusage ru_nivcsw: 65
+Child rusage ru_utime: 0.053697999999999996
+Child rusage ru_stime: 0.09279899999999999
+Child rusage ru_maxrss: 107304
+Child rusage ru_minflt: 14657
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 1432
+Child rusage ru_nvcsw: 345
+Child rusage ru_nivcsw: 59
+Status: PASSED 
+Ended: 1745384763.71 

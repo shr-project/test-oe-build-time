@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745384301.94 
+zstd-native-1.5.7-r0: do_recipe_qa
+Elapsed time: 0.08 seconds
+utime: 30
+stime: 1
+cutime: 0
+cstime: 1
+IO rchar: 335941
+IO wchar: 103050
+IO syscr: 279
+IO syscw: 102
+IO read_bytes: 0
+IO write_bytes: 143360
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.303982
+rusage ru_stime: 0.012955999999999999
+rusage ru_maxrss: 78384
+rusage ru_minflt: 6107
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 248
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 23
+Child rusage ru_utime: 0.007873999999999999
+Child rusage ru_stime: 0.017474999999999997
+Child rusage ru_maxrss: 78384
+Child rusage ru_minflt: 3404
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 257
+Child rusage ru_nivcsw: 37
+Status: PASSED 
+Ended: 1745384302.03 

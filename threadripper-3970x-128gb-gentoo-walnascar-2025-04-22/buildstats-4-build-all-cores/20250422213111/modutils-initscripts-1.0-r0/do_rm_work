@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745359195.13 
+modutils-initscripts-1.0-r0: do_rm_work
+Elapsed time: 0.51 seconds
+utime: 42
+stime: 2
+cutime: 7
+cstime: 23
+IO rchar: 570950
+IO wchar: 29964
+IO syscr: 816
+IO syscw: 67
+IO read_bytes: 8192
+IO write_bytes: 1064960
+IO cancelled_write_bytes: 81920
+rusage ru_utime: 0.42979999999999996
+rusage ru_stime: 0.026799999999999997
+rusage ru_maxrss: 114592
+rusage ru_minflt: 6816
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 56
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 24
+Child rusage ru_utime: 0.07217
+Child rusage ru_stime: 0.23258099999999998
+Child rusage ru_maxrss: 110008
+Child rusage ru_minflt: 18182
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 2024
+Child rusage ru_nvcsw: 195
+Child rusage ru_nivcsw: 66
+Status: PASSED 
+Ended: 1745359195.64 

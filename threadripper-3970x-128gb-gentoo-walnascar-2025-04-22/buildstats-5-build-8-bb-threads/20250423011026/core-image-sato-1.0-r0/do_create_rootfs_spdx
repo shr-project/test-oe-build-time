@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745384054.71 
+core-image-sato-1.0-r0: do_create_rootfs_spdx
+Elapsed time: 17.64 seconds
+utime: 1722
+stime: 46
+cutime: 1
+cstime: 3
+IO rchar: 43958416
+IO wchar: 3973335
+IO syscr: 26366
+IO syscw: 774
+IO read_bytes: 19070976
+IO write_bytes: 2207744
+IO cancelled_write_bytes: 0
+rusage ru_utime: 17.228888
+rusage ru_stime: 0.467808
+rusage ru_maxrss: 414080
+rusage ru_minflt: 60376
+rusage ru_majflt: 13
+rusage ru_inblock: 37248
+rusage ru_oublock: 3936
+rusage ru_nvcsw: 2237
+rusage ru_nivcsw: 217
+Child rusage ru_utime: 0.015701
+Child rusage ru_stime: 0.039288
+Child rusage ru_maxrss: 414080
+Child rusage ru_minflt: 6023
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 376
+Child rusage ru_nvcsw: 341
+Child rusage ru_nivcsw: 38
+Status: PASSED 
+Ended: 1745384072.35 

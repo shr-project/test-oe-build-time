@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745358342.31 
+meson-native-1.7.0-r0: do_install
+Elapsed time: 2.30 seconds
+utime: 70
+stime: 3
+cutime: 167
+cstime: 28
+IO rchar: 7824706
+IO wchar: 8814627
+IO syscr: 1215
+IO syscw: 573
+IO read_bytes: 8192
+IO write_bytes: 10018816
+IO cancelled_write_bytes: 36864
+rusage ru_utime: 0.707352
+rusage ru_stime: 0.038072
+rusage ru_maxrss: 109596
+rusage ru_minflt: 8973
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 88
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 100
+Child rusage ru_utime: 1.679605
+Child rusage ru_stime: 0.28174099999999996
+Child rusage ru_maxrss: 108060
+Child rusage ru_minflt: 12867
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 19480
+Child rusage ru_nvcsw: 29
+Child rusage ru_nivcsw: 65
+Status: PASSED 
+Ended: 1745358344.61 

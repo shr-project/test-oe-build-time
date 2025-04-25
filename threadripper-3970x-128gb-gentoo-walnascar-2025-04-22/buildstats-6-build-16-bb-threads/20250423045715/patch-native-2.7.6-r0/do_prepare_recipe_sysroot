@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745384380.92 
+patch-native-2.7.6-r0: do_prepare_recipe_sysroot
+Elapsed time: 0.14 seconds
+utime: 45
+stime: 3
+cutime: 2
+cstime: 1
+IO rchar: 1479284
+IO wchar: 1359551
+IO syscr: 440
+IO syscw: 388
+IO read_bytes: 0
+IO write_bytes: 2215936
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.45646
+rusage ru_stime: 0.031098999999999998
+rusage ru_maxrss: 87468
+rusage ru_minflt: 6239
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 1608
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 88
+Child rusage ru_utime: 0.026285
+Child rusage ru_stime: 0.010144
+Child rusage ru_maxrss: 87468
+Child rusage ru_minflt: 744
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 2720
+Child rusage ru_nvcsw: 9
+Child rusage ru_nivcsw: 2
+Status: PASSED 
+Ended: 1745384381.06 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745358349.42 
+meson-native-1.7.0-r0: do_rm_work
+Elapsed time: 0.71 seconds
+utime: 62
+stime: 3
+cutime: 7
+cstime: 29
+IO rchar: 473794
+IO wchar: 43080
+IO syscr: 630
+IO syscw: 82
+IO read_bytes: 12288
+IO write_bytes: 9850880
+IO cancelled_write_bytes: 10940416
+rusage ru_utime: 0.627261
+rusage ru_stime: 0.039762
+rusage ru_maxrss: 109784
+rusage ru_minflt: 6895
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 64
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 82
+Child rusage ru_utime: 0.07878099999999999
+Child rusage ru_stime: 0.290078
+Child rusage ru_maxrss: 105620
+Child rusage ru_minflt: 13928
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 19176
+Child rusage ru_nvcsw: 153
+Child rusage ru_nivcsw: 88
+Status: PASSED 
+Ended: 1745358350.13 

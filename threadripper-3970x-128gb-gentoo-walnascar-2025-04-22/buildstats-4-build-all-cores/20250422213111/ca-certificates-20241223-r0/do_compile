@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745357761.70 
+ca-certificates-20241223-r0: do_compile
+Elapsed time: 1.20 seconds
+utime: 25
+stime: 1
+cutime: 91
+cstime: 6
+IO rchar: 2073253
+IO wchar: 256641
+IO syscr: 544
+IO syscw: 333
+IO read_bytes: 4096
+IO write_bytes: 696320
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.25646599999999997
+rusage ru_stime: 0.01987
+rusage ru_maxrss: 101452
+rusage ru_minflt: 7088
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 48
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 23
+Child rusage ru_utime: 0.9141589999999999
+Child rusage ru_stime: 0.064521
+Child rusage ru_maxrss: 98264
+Child rusage ru_minflt: 3695
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 1312
+Child rusage ru_nvcsw: 21
+Child rusage ru_nivcsw: 108
+Status: PASSED 
+Ended: 1745357762.90 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745410698.26 
+wasi-sdk-native-git-r0: do_populate_lic
+Elapsed time: 0.26 seconds
+utime: 36
+stime: 2
+cutime: 2
+cstime: 3
+IO rchar: 610342
+IO wchar: 165573
+IO syscr: 430
+IO syscw: 112
+IO read_bytes: 0
+IO write_bytes: 217088
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.36618
+rusage ru_stime: 0.020215999999999998
+rusage ru_maxrss: 81784
+rusage ru_minflt: 5257
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 368
+rusage ru_nvcsw: 17
+rusage ru_nivcsw: 77
+Child rusage ru_utime: 0.024401
+Child rusage ru_stime: 0.037096
+Child rusage ru_maxrss: 81784
+Child rusage ru_minflt: 4598
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 56
+Child rusage ru_nvcsw: 278
+Child rusage ru_nivcsw: 40
+Status: PASSED 
+Ended: 1745410698.52 

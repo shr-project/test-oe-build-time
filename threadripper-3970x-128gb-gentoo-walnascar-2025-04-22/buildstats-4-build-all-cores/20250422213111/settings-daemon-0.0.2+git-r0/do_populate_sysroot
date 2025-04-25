@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745361499.90 
+settings-daemon-0.0.2+git-r0: do_populate_sysroot
+Elapsed time: 1.56 seconds
+utime: 173
+stime: 4
+cutime: 3
+cstime: 5
+IO rchar: 653830
+IO wchar: 215635
+IO syscr: 555
+IO syscw: 134
+IO read_bytes: 0
+IO write_bytes: 233472
+IO cancelled_write_bytes: 0
+rusage ru_utime: 1.736596
+rusage ru_stime: 0.044962999999999996
+rusage ru_maxrss: 128808
+rusage ru_minflt: 10143
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 400
+rusage ru_nvcsw: 16
+rusage ru_nivcsw: 158
+Child rusage ru_utime: 0.030837999999999997
+Child rusage ru_stime: 0.05756
+Child rusage ru_maxrss: 128808
+Child rusage ru_minflt: 7262
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 56
+Child rusage ru_nvcsw: 222
+Child rusage ru_nivcsw: 34
+Status: PASSED 
+Ended: 1745361501.46 

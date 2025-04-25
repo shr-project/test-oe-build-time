@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745373914.10 
+pciutils-3.13.0-r0: do_install
+Elapsed time: 0.95 seconds
+utime: 100
+stime: 7
+cutime: 6
+cstime: 9
+IO rchar: 2467948
+IO wchar: 1951444
+IO syscr: 1327
+IO syscw: 264
+IO read_bytes: 0
+IO write_bytes: 2048000
+IO cancelled_write_bytes: 352256
+rusage ru_utime: 1.009624
+rusage ru_stime: 0.073753
+rusage ru_maxrss: 107168
+rusage ru_minflt: 17949
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 200
+rusage ru_nvcsw: 86
+rusage ru_nivcsw: 263
+Child rusage ru_utime: 0.067018
+Child rusage ru_stime: 0.099504
+Child rusage ru_maxrss: 102008
+Child rusage ru_minflt: 8254
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 3800
+Child rusage ru_nvcsw: 168
+Child rusage ru_nivcsw: 367
+Status: PASSED 
+Ended: 1745373915.05 

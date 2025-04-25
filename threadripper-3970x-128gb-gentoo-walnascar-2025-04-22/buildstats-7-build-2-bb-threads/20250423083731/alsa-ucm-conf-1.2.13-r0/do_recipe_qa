@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745416578.04 
+alsa-ucm-conf-1.2.13-r0: do_recipe_qa
+Elapsed time: 0.08 seconds
+utime: 19
+stime: 1
+cutime: 0
+cstime: 2
+IO rchar: 323917
+IO wchar: 92093
+IO syscr: 271
+IO syscw: 77
+IO read_bytes: 4096
+IO write_bytes: 90112
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.198465
+rusage ru_stime: 0.010074
+rusage ru_maxrss: 86340
+rusage ru_minflt: 5236
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 152
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 8
+Child rusage ru_utime: 0.003045
+Child rusage ru_stime: 0.022324999999999998
+Child rusage ru_maxrss: 86340
+Child rusage ru_minflt: 3420
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 284
+Child rusage ru_nivcsw: 37
+Status: PASSED 
+Ended: 1745416578.12 

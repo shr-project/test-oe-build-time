@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745377173.93 
+sudo-1.9.16p2-r0: do_patch
+Elapsed time: 0.14 seconds
+utime: 27
+stime: 1
+cutime: 2
+cstime: 3
+IO rchar: 410304
+IO wchar: 67285
+IO syscr: 464
+IO syscw: 111
+IO read_bytes: 0
+IO write_bytes: 90112
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.274234
+rusage ru_stime: 0.016013
+rusage ru_maxrss: 92548
+rusage ru_minflt: 5723
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 120
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 28
+Child rusage ru_utime: 0.029702
+Child rusage ru_stime: 0.031964
+Child rusage ru_maxrss: 92548
+Child rusage ru_minflt: 9590
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 56
+Child rusage ru_nvcsw: 120
+Child rusage ru_nivcsw: 42
+Status: PASSED 
+Ended: 1745377174.06 

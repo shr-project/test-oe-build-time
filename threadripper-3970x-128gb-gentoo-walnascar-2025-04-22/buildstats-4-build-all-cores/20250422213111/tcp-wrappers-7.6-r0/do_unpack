@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745357732.29 
+tcp-wrappers-7.6-r0: do_unpack
+Elapsed time: 0.44 seconds
+utime: 39
+stime: 11
+cutime: 4
+cstime: 16
+IO rchar: 1361445
+IO wchar: 962680
+IO syscr: 1018
+IO syscw: 365
+IO read_bytes: 0
+IO write_bytes: 741376
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.39242099999999996
+rusage ru_stime: 0.113673
+rusage ru_maxrss: 99224
+rusage ru_minflt: 20916
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 192
+rusage ru_nvcsw: 72
+rusage ru_nivcsw: 18
+Child rusage ru_utime: 0.04652
+Child rusage ru_stime: 0.161583
+Child rusage ru_maxrss: 99224
+Child rusage ru_minflt: 17974
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1256
+Child rusage ru_nvcsw: 60
+Child rusage ru_nivcsw: 24
+Status: PASSED 
+Ended: 1745357732.73 

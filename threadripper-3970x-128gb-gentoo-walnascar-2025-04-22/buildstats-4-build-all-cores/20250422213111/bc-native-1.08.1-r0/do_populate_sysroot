@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745357735.01 
+bc-native-1.08.1-r0: do_populate_sysroot
+Elapsed time: 0.62 seconds
+utime: 71
+stime: 5
+cutime: 7
+cstime: 13
+IO rchar: 2600754
+IO wchar: 906759
+IO syscr: 1231
+IO syscw: 267
+IO read_bytes: 0
+IO write_bytes: 864256
+IO cancelled_write_bytes: 159744
+rusage ru_utime: 0.713966
+rusage ru_stime: 0.059746
+rusage ru_maxrss: 101056
+rusage ru_minflt: 15371
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 712
+rusage ru_nvcsw: 38
+rusage ru_nivcsw: 106
+Child rusage ru_utime: 0.075525
+Child rusage ru_stime: 0.134036
+Child rusage ru_maxrss: 101056
+Child rusage ru_minflt: 15035
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 976
+Child rusage ru_nvcsw: 296
+Child rusage ru_nivcsw: 50
+Status: PASSED 
+Ended: 1745357735.63 

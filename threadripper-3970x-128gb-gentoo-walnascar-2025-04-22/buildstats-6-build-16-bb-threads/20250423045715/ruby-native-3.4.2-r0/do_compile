@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745384681.13 
+ruby-native-3.4.2-r0: do_compile
+Elapsed time: 33.70 seconds
+utime: 49
+stime: 4
+cutime: 30030
+cstime: 4059
+IO rchar: 4273035713
+IO wchar: 348284527
+IO syscr: 886145
+IO syscw: 91046
+IO read_bytes: 131072
+IO write_bytes: 312336384
+IO cancelled_write_bytes: 231780352
+rusage ru_utime: 0.49049499999999996
+rusage ru_stime: 0.041391
+rusage ru_maxrss: 105016
+rusage ru_minflt: 7406
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 240
+rusage ru_nvcsw: 888
+rusage ru_nivcsw: 55
+Child rusage ru_utime: 300.303054
+Child rusage ru_stime: 40.59052
+Child rusage ru_maxrss: 316212
+Child rusage ru_minflt: 10707297
+Child rusage ru_majflt: 52
+Child rusage ru_inblock: 256
+Child rusage ru_oublock: 609792
+Child rusage ru_nvcsw: 24322
+Child rusage ru_nivcsw: 22232
+Status: PASSED 
+Ended: 1745384714.83 

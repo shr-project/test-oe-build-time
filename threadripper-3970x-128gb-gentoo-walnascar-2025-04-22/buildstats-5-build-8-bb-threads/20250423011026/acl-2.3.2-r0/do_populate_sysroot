@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745372020.67 
+acl-2.3.2-r0: do_populate_sysroot
+Elapsed time: 0.42 seconds
+utime: 50
+stime: 4
+cutime: 3
+cstime: 8
+IO rchar: 1669463
+IO wchar: 544442
+IO syscr: 907
+IO syscw: 181
+IO read_bytes: 0
+IO write_bytes: 888832
+IO cancelled_write_bytes: 40960
+rusage ru_utime: 0.50751
+rusage ru_stime: 0.044955999999999996
+rusage ru_maxrss: 100940
+rusage ru_minflt: 10764
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 832
+rusage ru_nvcsw: 23
+rusage ru_nivcsw: 40
+Child rusage ru_utime: 0.03269
+Child rusage ru_stime: 0.08458199999999999
+Child rusage ru_maxrss: 100940
+Child rusage ru_minflt: 11934
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 904
+Child rusage ru_nvcsw: 348
+Child rusage ru_nivcsw: 74
+Status: PASSED 
+Ended: 1745372021.09 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745357857.14 
+tar-native-1.35-r0: do_unpack
+Elapsed time: 2.26 seconds
+utime: 36
+stime: 4
+cutime: 61
+cstime: 14
+IO rchar: 24421317
+IO wchar: 40830322
+IO syscr: 5390
+IO syscw: 8340
+IO read_bytes: 385024
+IO write_bytes: 23252992
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.36647399999999997
+rusage ru_stime: 0.040941
+rusage ru_maxrss: 107184
+rusage ru_minflt: 9045
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 96
+rusage ru_nvcsw: 18
+rusage ru_nivcsw: 56
+Child rusage ru_utime: 0.617978
+Child rusage ru_stime: 0.143068
+Child rusage ru_maxrss: 107184
+Child rusage ru_minflt: 4089
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 752
+Child rusage ru_oublock: 45320
+Child rusage ru_nvcsw: 3018
+Child rusage ru_nivcsw: 587
+Status: PASSED 
+Ended: 1745357859.40 

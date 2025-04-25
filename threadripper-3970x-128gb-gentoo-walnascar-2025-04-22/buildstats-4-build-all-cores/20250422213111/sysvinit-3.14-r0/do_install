@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745359001.10 
+sysvinit-3.14-r0: do_install
+Elapsed time: 1.19 seconds
+utime: 71
+stime: 5
+cutime: 16
+cstime: 47
+IO rchar: 3528572
+IO wchar: 1207383
+IO syscr: 4534
+IO syscw: 333
+IO read_bytes: 57344
+IO write_bytes: 1933312
+IO cancelled_write_bytes: 176128
+rusage ru_utime: 0.720248
+rusage ru_stime: 0.058587
+rusage ru_maxrss: 81084
+rusage ru_minflt: 11695
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 176
+rusage ru_nvcsw: 90
+rusage ru_nivcsw: 271
+Child rusage ru_utime: 0.16455699999999998
+Child rusage ru_stime: 0.473186
+Child rusage ru_maxrss: 78084
+Child rusage ru_minflt: 51611
+Child rusage ru_majflt: 2
+Child rusage ru_inblock: 112
+Child rusage ru_oublock: 3600
+Child rusage ru_nvcsw: 1174
+Child rusage ru_nivcsw: 1184
+Status: PASSED 
+Ended: 1745359002.28 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745384480.03 
+mesa-2_24.0.7-r0: do_unpack
+Elapsed time: 3.21 seconds
+utime: 49
+stime: 9
+cutime: 96
+cstime: 261
+IO rchar: 259123828
+IO wchar: 458631797
+IO syscr: 33494
+IO syscw: 66792
+IO read_bytes: 0
+IO write_bytes: 250544128
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.490926
+rusage ru_stime: 0.091613
+rusage ru_maxrss: 93108
+rusage ru_minflt: 10384
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 640
+rusage ru_nvcsw: 22
+rusage ru_nivcsw: 27
+Child rusage ru_utime: 0.9666859999999999
+Child rusage ru_stime: 2.61854
+Child rusage ru_maxrss: 93108
+Child rusage ru_minflt: 7120
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 488704
+Child rusage ru_nvcsw: 12933
+Child rusage ru_nivcsw: 1268
+Status: PASSED 
+Ended: 1745384483.25 

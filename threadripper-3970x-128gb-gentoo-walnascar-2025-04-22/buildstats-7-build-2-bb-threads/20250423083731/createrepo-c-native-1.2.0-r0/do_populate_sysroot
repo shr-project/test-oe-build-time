@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745417323.78 
+createrepo-c-native-1.2.0-r0: do_populate_sysroot
+Elapsed time: 0.54 seconds
+utime: 66
+stime: 6
+cutime: 8
+cstime: 15
+IO rchar: 11978745
+IO wchar: 4379216
+IO syscr: 2908
+IO syscw: 539
+IO read_bytes: 4096
+IO write_bytes: 3850240
+IO cancelled_write_bytes: 585728
+rusage ru_utime: 0.662717
+rusage ru_stime: 0.062160999999999994
+rusage ru_maxrss: 90080
+rusage ru_minflt: 21056
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 4464
+rusage ru_nvcsw: 69
+rusage ru_nivcsw: 21
+Child rusage ru_utime: 0.08075099999999999
+Child rusage ru_stime: 0.15328799999999998
+Child rusage ru_maxrss: 90080
+Child rusage ru_minflt: 28592
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 3056
+Child rusage ru_nvcsw: 474
+Child rusage ru_nivcsw: 85
+Status: PASSED 
+Ended: 1745417324.33 

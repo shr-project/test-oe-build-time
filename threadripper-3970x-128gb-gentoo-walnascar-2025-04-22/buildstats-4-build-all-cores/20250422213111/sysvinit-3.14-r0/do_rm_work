@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745359195.39 
+sysvinit-3.14-r0: do_rm_work
+Elapsed time: 0.55 seconds
+utime: 45
+stime: 3
+cutime: 10
+cstime: 22
+IO rchar: 616430
+IO wchar: 31428
+IO syscr: 867
+IO syscw: 72
+IO read_bytes: 4096
+IO write_bytes: 1929216
+IO cancelled_write_bytes: 958464
+rusage ru_utime: 0.451289
+rusage ru_stime: 0.030813999999999998
+rusage ru_maxrss: 115132
+rusage ru_minflt: 6703
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 56
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 54
+Child rusage ru_utime: 0.108996
+Child rusage ru_stime: 0.228735
+Child rusage ru_maxrss: 110152
+Child rusage ru_minflt: 19724
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 3712
+Child rusage ru_nvcsw: 209
+Child rusage ru_nivcsw: 70
+Status: PASSED 
+Ended: 1745359195.93 

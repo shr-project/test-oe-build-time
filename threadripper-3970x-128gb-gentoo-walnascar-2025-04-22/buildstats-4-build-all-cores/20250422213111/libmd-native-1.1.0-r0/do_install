@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745357649.78 
+libmd-native-1.1.0-r0: do_install
+Elapsed time: 0.70 seconds
+utime: 69
+stime: 3
+cutime: 18
+cstime: 27
+IO rchar: 2869553
+IO wchar: 244426
+IO syscr: 4389
+IO syscw: 560
+IO read_bytes: 126976
+IO write_bytes: 282624
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 0.69736
+rusage ru_stime: 0.036005999999999996
+rusage ru_maxrss: 95372
+rusage ru_minflt: 10204
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 117
+rusage ru_nivcsw: 75
+Child rusage ru_utime: 0.18639899999999998
+Child rusage ru_stime: 0.27221999999999996
+Child rusage ru_maxrss: 93836
+Child rusage ru_minflt: 39808
+Child rusage ru_majflt: 3
+Child rusage ru_inblock: 248
+Child rusage ru_oublock: 424
+Child rusage ru_nvcsw: 429
+Child rusage ru_nivcsw: 164
+Status: PASSED 
+Ended: 1745357650.49 

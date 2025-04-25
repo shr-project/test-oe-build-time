@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745384576.43 
+wpebackend-fdo-1.16.0-r0: do_unpack
+Elapsed time: 0.19 seconds
+utime: 45
+stime: 3
+cutime: 1
+cstime: 2
+IO rchar: 1314141
+IO wchar: 1456701
+IO syscr: 357
+IO syscw: 433
+IO read_bytes: 40960
+IO write_bytes: 1441792
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.453381
+rusage ru_stime: 0.038946
+rusage ru_maxrss: 101136
+rusage ru_minflt: 7260
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 376
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 71
+Child rusage ru_utime: 0.019549
+Child rusage ru_stime: 0.023611
+Child rusage ru_maxrss: 101136
+Child rusage ru_minflt: 1942
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 80
+Child rusage ru_oublock: 2440
+Child rusage ru_nvcsw: 48
+Child rusage ru_nivcsw: 42
+Status: PASSED 
+Ended: 1745384576.62 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745403157.12 
+libdaemon-0.14-r0: do_install
+Elapsed time: 0.49 seconds
+utime: 52
+stime: 3
+cutime: 7
+cstime: 11
+IO rchar: 1271267
+IO wchar: 219847
+IO syscr: 2164
+IO syscw: 264
+IO read_bytes: 0
+IO write_bytes: 299008
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 0.5205839999999999
+rusage ru_stime: 0.038655999999999996
+rusage ru_maxrss: 96296
+rusage ru_minflt: 12419
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 208
+rusage ru_nvcsw: 490
+rusage ru_nivcsw: 18
+Child rusage ru_utime: 0.074332
+Child rusage ru_stime: 0.11834399999999999
+Child rusage ru_maxrss: 92936
+Child rusage ru_minflt: 24934
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 376
+Child rusage ru_nvcsw: 997
+Child rusage ru_nivcsw: 43
+Status: PASSED 
+Ended: 1745403157.61 

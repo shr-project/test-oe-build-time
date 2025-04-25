@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745416693.29 
+librepo-native-1.19.0-r0: do_recipe_qa
+Elapsed time: 0.09 seconds
+utime: 34
+stime: 1
+cutime: 0
+cstime: 2
+IO rchar: 396995
+IO wchar: 106730
+IO syscr: 298
+IO syscw: 107
+IO read_bytes: 143360
+IO write_bytes: 155648
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.345147
+rusage ru_stime: 0.013118999999999999
+rusage ru_maxrss: 87004
+rusage ru_minflt: 5750
+rusage ru_majflt: 0
+rusage ru_inblock: 280
+rusage ru_oublock: 280
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 7
+Child rusage ru_utime: 0.003898
+Child rusage ru_stime: 0.021553
+Child rusage ru_maxrss: 87004
+Child rusage ru_minflt: 3421
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 263
+Child rusage ru_nivcsw: 42
+Status: PASSED 
+Ended: 1745416693.38 

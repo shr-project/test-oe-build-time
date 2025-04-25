@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745387744.41 
+rpcbind-1.2.7-r0: do_install
+Elapsed time: 0.75 seconds
+utime: 84
+stime: 5
+cutime: 5
+cstime: 9
+IO rchar: 1064818
+IO wchar: 458120
+IO syscr: 1648
+IO syscw: 187
+IO read_bytes: 20480
+IO write_bytes: 544768
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 0.843719
+rusage ru_stime: 0.055381
+rusage ru_maxrss: 107268
+rusage ru_minflt: 16425
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 240
+rusage ru_nvcsw: 540
+rusage ru_nivcsw: 88
+Child rusage ru_utime: 0.056985999999999995
+Child rusage ru_stime: 0.09558799999999999
+Child rusage ru_maxrss: 104084
+Child rusage ru_minflt: 15625
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 40
+Child rusage ru_oublock: 824
+Child rusage ru_nvcsw: 622
+Child rusage ru_nivcsw: 71
+Status: PASSED 
+Ended: 1745387745.16 

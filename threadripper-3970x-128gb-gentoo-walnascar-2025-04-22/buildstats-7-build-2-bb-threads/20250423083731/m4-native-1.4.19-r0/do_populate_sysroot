@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745397572.99 
+m4-native-1.4.19-r0: do_populate_sysroot
+Elapsed time: 0.42 seconds
+utime: 46
+stime: 3
+cutime: 6
+cstime: 6
+IO rchar: 3515678
+IO wchar: 1473271
+IO syscr: 1081
+IO syscw: 262
+IO read_bytes: 24576
+IO write_bytes: 1499136
+IO cancelled_write_bytes: 274432
+rusage ru_utime: 0.46624099999999996
+rusage ru_stime: 0.031149
+rusage ru_maxrss: 80364
+rusage ru_minflt: 14291
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 1200
+rusage ru_nvcsw: 31
+rusage ru_nivcsw: 21
+Child rusage ru_utime: 0.066366
+Child rusage ru_stime: 0.064423
+Child rusage ru_maxrss: 80364
+Child rusage ru_minflt: 12606
+Child rusage ru_majflt: 4
+Child rusage ru_inblock: 48
+Child rusage ru_oublock: 1728
+Child rusage ru_nvcsw: 403
+Child rusage ru_nivcsw: 51
+Status: PASSED 
+Ended: 1745397573.40 

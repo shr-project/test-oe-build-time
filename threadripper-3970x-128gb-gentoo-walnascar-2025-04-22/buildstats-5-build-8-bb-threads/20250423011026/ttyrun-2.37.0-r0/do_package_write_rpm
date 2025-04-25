@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745377138.46 
+ttyrun-2.37.0-r0: do_package_write_rpm
+Elapsed time: 0.71 seconds
+utime: 71
+stime: 6
+cutime: 6
+cstime: 14
+IO rchar: 1562564
+IO wchar: 441455
+IO syscr: 1781
+IO syscw: 346
+IO read_bytes: 0
+IO write_bytes: 344064
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.717283
+rusage ru_stime: 0.064025
+rusage ru_maxrss: 76728
+rusage ru_minflt: 19846
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 472
+rusage ru_nvcsw: 617
+rusage ru_nivcsw: 44
+Child rusage ru_utime: 0.066983
+Child rusage ru_stime: 0.145443
+Child rusage ru_maxrss: 76216
+Child rusage ru_minflt: 15101
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 200
+Child rusage ru_nvcsw: 1691
+Child rusage ru_nivcsw: 83
+Status: PASSED 
+Ended: 1745377139.17 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745398102.60 
+libtirpc-native-1.3.6-r0: do_patch
+Elapsed time: 0.16 seconds
+utime: 30
+stime: 1
+cutime: 5
+cstime: 6
+IO rchar: 677155
+IO wchar: 111869
+IO syscr: 933
+IO syscw: 178
+IO read_bytes: 0
+IO write_bytes: 126976
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.30910499999999996
+rusage ru_stime: 0.012043
+rusage ru_maxrss: 82548
+rusage ru_minflt: 6089
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 120
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 16
+Child rusage ru_utime: 0.050134
+Child rusage ru_stime: 0.064526
+Child rusage ru_maxrss: 82548
+Child rusage ru_minflt: 19266
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 128
+Child rusage ru_nvcsw: 270
+Child rusage ru_nivcsw: 33
+Status: PASSED 
+Ended: 1745398102.76 

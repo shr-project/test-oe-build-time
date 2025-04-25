@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745359756.75 
+python-zstandard-0.21.0-r0: do_prepare_recipe_sysroot
+Elapsed time: 1.15 seconds
+utime: 98
+stime: 42
+cutime: 2
+cstime: 1
+IO rchar: 3072938
+IO wchar: 1702306
+IO syscr: 778
+IO syscw: 468
+IO read_bytes: 57344
+IO write_bytes: 7614464
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.9821599999999999
+rusage ru_stime: 0.42994499999999997
+rusage ru_maxrss: 119988
+rusage ru_minflt: 5708
+rusage ru_majflt: 0
+rusage ru_inblock: 104
+rusage ru_oublock: 11560
+rusage ru_nvcsw: 17
+rusage ru_nivcsw: 44
+Child rusage ru_utime: 0.023981
+Child rusage ru_stime: 0.017873
+Child rusage ru_maxrss: 119988
+Child rusage ru_minflt: 1544
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 3312
+Child rusage ru_nvcsw: 15
+Child rusage ru_nivcsw: 0
+Status: PASSED 
+Ended: 1745359757.90 

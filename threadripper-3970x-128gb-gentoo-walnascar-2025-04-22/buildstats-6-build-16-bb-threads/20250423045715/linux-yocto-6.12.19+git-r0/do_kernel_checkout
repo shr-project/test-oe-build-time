@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745384392.66 
+linux-yocto-6.12.19+git-r0: do_kernel_checkout
+Elapsed time: 72.78 seconds
+utime: 71
+stime: 2
+cutime: 5649
+cstime: 1215
+IO rchar: 763052042
+IO wchar: 41512278
+IO syscr: 198543
+IO syscw: 6730
+IO read_bytes: 70172672
+IO write_bytes: 51118080
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.719873
+rusage ru_stime: 0.02315
+rusage ru_maxrss: 95184
+rusage ru_minflt: 10546
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 96
+rusage ru_nvcsw: 76
+rusage ru_nivcsw: 44
+Child rusage ru_utime: 56.496575
+Child rusage ru_stime: 12.156698
+Child rusage ru_maxrss: 344324
+Child rusage ru_minflt: 2547428
+Child rusage ru_majflt: 586
+Child rusage ru_inblock: 137056
+Child rusage ru_oublock: 99744
+Child rusage ru_nvcsw: 6818
+Child rusage ru_nivcsw: 9698
+Status: PASSED 
+Ended: 1745384465.44 

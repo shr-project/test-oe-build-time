@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745384334.80 
+libbsd-native-0.12.2-r0: do_recipe_qa
+Elapsed time: 0.09 seconds
+utime: 33
+stime: 1
+cutime: 0
+cstime: 1
+IO rchar: 371149
+IO wchar: 106315
+IO syscr: 287
+IO syscw: 105
+IO read_bytes: 0
+IO write_bytes: 114688
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.336665
+rusage ru_stime: 0.012986999999999999
+rusage ru_maxrss: 82244
+rusage ru_minflt: 6355
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 200
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 24
+Child rusage ru_utime: 0.006297
+Child rusage ru_stime: 0.019132
+Child rusage ru_maxrss: 82244
+Child rusage ru_minflt: 3398
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 204
+Child rusage ru_nivcsw: 15
+Status: PASSED 
+Ended: 1745384334.89 

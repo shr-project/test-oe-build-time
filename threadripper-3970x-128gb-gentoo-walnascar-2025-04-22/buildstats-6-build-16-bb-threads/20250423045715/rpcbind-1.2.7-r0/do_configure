@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745387738.00 
+rpcbind-1.2.7-r0: do_configure
+Elapsed time: 5.02 seconds
+utime: 132
+stime: 5
+cutime: 202
+cstime: 94
+IO rchar: 25007644
+IO wchar: 2877508
+IO syscr: 10887
+IO syscw: 6632
+IO read_bytes: 8192
+IO write_bytes: 1978368
+IO cancelled_write_bytes: 360448
+rusage ru_utime: 1.323651
+rusage ru_stime: 0.053945
+rusage ru_maxrss: 122536
+rusage ru_minflt: 13804
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 352
+rusage ru_nvcsw: 104
+rusage ru_nivcsw: 190
+Child rusage ru_utime: 2.021725
+Child rusage ru_stime: 0.949599
+Child rusage ru_maxrss: 122536
+Child rusage ru_minflt: 191010
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 3512
+Child rusage ru_nvcsw: 1465
+Child rusage ru_nivcsw: 443
+Status: PASSED 
+Ended: 1745387743.02 

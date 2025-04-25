@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745359222.53 
+busybox-1.37.0-r0: do_populate_sysroot
+Elapsed time: 0.76 seconds
+utime: 88
+stime: 5
+cutime: 4
+cstime: 10
+IO rchar: 830410
+IO wchar: 237378
+IO syscr: 684
+IO syscw: 156
+IO read_bytes: 0
+IO write_bytes: 421888
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.8871279999999999
+rusage ru_stime: 0.054153
+rusage ru_maxrss: 115932
+rusage ru_minflt: 10622
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 312
+rusage ru_nvcsw: 21
+rusage ru_nivcsw: 162
+Child rusage ru_utime: 0.040139
+Child rusage ru_stime: 0.100923
+Child rusage ru_maxrss: 115932
+Child rusage ru_minflt: 10009
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 512
+Child rusage ru_nvcsw: 304
+Child rusage ru_nivcsw: 88
+Status: PASSED 
+Ended: 1745359223.29 

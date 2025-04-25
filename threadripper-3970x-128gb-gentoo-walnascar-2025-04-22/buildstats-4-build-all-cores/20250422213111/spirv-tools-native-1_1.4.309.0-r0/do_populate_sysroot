@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745358040.62 
+spirv-tools-native-1_1.4.309.0-r0: do_populate_sysroot
+Elapsed time: 3.11 seconds
+utime: 89
+stime: 72
+cutime: 50
+cstime: 73
+IO rchar: 543935320
+IO wchar: 364111134
+IO syscr: 9407
+IO syscw: 2814
+IO read_bytes: 32768
+IO write_bytes: 355561472
+IO cancelled_write_bytes: 8863744
+rusage ru_utime: 0.8922019999999999
+rusage ru_stime: 0.723217
+rusage ru_maxrss: 109860
+rusage ru_minflt: 21834
+rusage ru_majflt: 0
+rusage ru_inblock: 64
+rusage ru_oublock: 654608
+rusage ru_nvcsw: 112
+rusage ru_nivcsw: 210
+Child rusage ru_utime: 0.507348
+Child rusage ru_stime: 0.739663
+Child rusage ru_maxrss: 109860
+Child rusage ru_minflt: 91961
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 39848
+Child rusage ru_nvcsw: 998
+Child rusage ru_nivcsw: 586
+Status: PASSED 
+Ended: 1745358043.74 

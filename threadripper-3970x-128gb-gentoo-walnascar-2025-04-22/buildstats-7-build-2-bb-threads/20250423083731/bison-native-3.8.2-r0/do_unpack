@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745397710.26 
+bison-native-3.8.2-r0: do_unpack
+Elapsed time: 0.60 seconds
+utime: 39
+stime: 3
+cutime: 12
+cstime: 45
+IO rchar: 41809852
+IO wchar: 76571674
+IO syscr: 5421
+IO syscw: 11070
+IO read_bytes: 2514944
+IO write_bytes: 42377216
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.39864499999999997
+rusage ru_stime: 0.033884
+rusage ru_maxrss: 80884
+rusage ru_minflt: 8085
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 528
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 21
+Child rusage ru_utime: 0.12129799999999999
+Child rusage ru_stime: 0.45304
+Child rusage ru_maxrss: 80368
+Child rusage ru_minflt: 4126
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 4912
+Child rusage ru_oublock: 82240
+Child rusage ru_nvcsw: 2157
+Child rusage ru_nivcsw: 20
+Status: PASSED 
+Ended: 1745397710.86 

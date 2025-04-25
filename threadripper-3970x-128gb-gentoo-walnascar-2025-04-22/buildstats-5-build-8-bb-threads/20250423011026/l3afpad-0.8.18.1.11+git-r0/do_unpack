@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745376766.42 
+l3afpad-0.8.18.1.11+git-r0: do_unpack
+Elapsed time: 1.04 seconds
+utime: 41
+stime: 6
+cutime: 54
+cstime: 31
+IO rchar: 4599101
+IO wchar: 690887
+IO syscr: 1531
+IO syscw: 309
+IO read_bytes: 167936
+IO write_bytes: 1388544
+IO cancelled_write_bytes: 12288
+rusage ru_utime: 0.41299399999999997
+rusage ru_stime: 0.062148999999999996
+rusage ru_maxrss: 88720
+rusage ru_minflt: 9336
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 88
+rusage ru_nvcsw: 34
+rusage ru_nivcsw: 41
+Child rusage ru_utime: 0.549068
+Child rusage ru_stime: 0.315039
+Child rusage ru_maxrss: 88720
+Child rusage ru_minflt: 18025
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 328
+Child rusage ru_oublock: 2624
+Child rusage ru_nvcsw: 33
+Child rusage ru_nivcsw: 65
+Status: PASSED 
+Ended: 1745376767.46 

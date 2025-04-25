@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745388289.94 
+settings-daemon-0.0.2+git-r0: do_configure
+Elapsed time: 7.13 seconds
+utime: 188
+stime: 6
+cutime: 268
+cstime: 107
+IO rchar: 28967930
+IO wchar: 3727316
+IO syscr: 12563
+IO syscw: 6839
+IO read_bytes: 12288
+IO write_bytes: 2510848
+IO cancelled_write_bytes: 696320
+rusage ru_utime: 1.8813
+rusage ru_stime: 0.065661
+rusage ru_maxrss: 123140
+rusage ru_minflt: 13736
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 280
+rusage ru_nvcsw: 128
+rusage ru_nivcsw: 94
+Child rusage ru_utime: 2.681038
+Child rusage ru_stime: 1.072866
+Child rusage ru_maxrss: 123140
+Child rusage ru_minflt: 212767
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 4624
+Child rusage ru_nvcsw: 1519
+Child rusage ru_nivcsw: 514
+Status: PASSED 
+Ended: 1745388297.07 

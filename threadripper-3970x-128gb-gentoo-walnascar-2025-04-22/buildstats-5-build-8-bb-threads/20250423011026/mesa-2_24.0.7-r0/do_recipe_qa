@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745370976.62 
+mesa-2_24.0.7-r0: do_recipe_qa
+Elapsed time: 0.09 seconds
+utime: 38
+stime: 1
+cutime: 0
+cstime: 2
+IO rchar: 377651
+IO wchar: 116312
+IO syscr: 293
+IO syscw: 120
+IO read_bytes: 0
+IO write_bytes: 114688
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.38253
+rusage ru_stime: 0.019975
+rusage ru_maxrss: 89344
+rusage ru_minflt: 6637
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 200
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 37
+Child rusage ru_utime: 0.003787
+Child rusage ru_stime: 0.020359
+Child rusage ru_maxrss: 89344
+Child rusage ru_minflt: 3401
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 224
+Child rusage ru_nivcsw: 13
+Status: PASSED 
+Ended: 1745370976.71 

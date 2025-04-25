@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745384742.58 
+init-system-helpers-1.68-r0: do_patch
+Elapsed time: 0.28 seconds
+utime: 25
+stime: 2
+cutime: 0
+cstime: 0
+IO rchar: 756382
+IO wchar: 638597
+IO syscr: 270
+IO syscw: 200
+IO read_bytes: 131072
+IO write_bytes: 798720
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.250751
+rusage ru_stime: 0.020895
+rusage ru_maxrss: 103660
+rusage ru_minflt: 6042
+rusage ru_majflt: 0
+rusage ru_inblock: 256
+rusage ru_oublock: 408
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 41
+Child rusage ru_utime: 0.007528
+Child rusage ru_stime: 0.008827
+Child rusage ru_maxrss: 103660
+Child rusage ru_minflt: 1195
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1152
+Child rusage ru_nvcsw: 12
+Child rusage ru_nivcsw: 4
+Status: PASSED 
+Ended: 1745384742.86 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745417679.41 
+core-image-sato-1.0-r0: do_create_image_sbom_spdx
+Elapsed time: 50.53 seconds
+utime: 5038
+stime: 20
+cutime: 12
+cstime: 5
+IO rchar: 80901692
+IO wchar: 38219738
+IO syscr: 11042
+IO syscw: 9726
+IO read_bytes: 12161024
+IO write_bytes: 19394560
+IO cancelled_write_bytes: 0
+rusage ru_utime: 50.385846
+rusage ru_stime: 0.20297099999999998
+rusage ru_maxrss: 230476
+rusage ru_minflt: 47685
+rusage ru_majflt: 8
+rusage ru_inblock: 23752
+rusage ru_oublock: 35552
+rusage ru_nvcsw: 748
+rusage ru_nivcsw: 551
+Child rusage ru_utime: 0.125139
+Child rusage ru_stime: 0.057082999999999995
+Child rusage ru_maxrss: 230476
+Child rusage ru_minflt: 13487
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 2328
+Child rusage ru_nvcsw: 369
+Child rusage ru_nivcsw: 52
+Status: PASSED 
+Ended: 1745417729.95 

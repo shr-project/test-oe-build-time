@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745357752.33 
+matchbox-wm-1.2.3-r0: do_unpack
+Elapsed time: 10.43 seconds
+utime: 25
+stime: 3
+cutime: 33
+cstime: 9
+IO rchar: 4614602
+IO wchar: 755759
+IO syscr: 1551
+IO syscw: 314
+IO read_bytes: 131072
+IO write_bytes: 1433600
+IO cancelled_write_bytes: 12288
+rusage ru_utime: 0.250145
+rusage ru_stime: 0.034137
+rusage ru_maxrss: 100708
+rusage ru_minflt: 10561
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 104
+rusage ru_nvcsw: 35
+rusage ru_nivcsw: 26
+Child rusage ru_utime: 0.338543
+Child rusage ru_stime: 0.092058
+Child rusage ru_maxrss: 100708
+Child rusage ru_minflt: 18575
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 256
+Child rusage ru_oublock: 2696
+Child rusage ru_nvcsw: 56
+Child rusage ru_nivcsw: 102
+Status: PASSED 
+Ended: 1745357762.76 

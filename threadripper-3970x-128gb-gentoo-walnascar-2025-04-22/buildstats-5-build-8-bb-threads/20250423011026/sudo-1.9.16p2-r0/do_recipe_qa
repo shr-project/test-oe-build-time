@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745377169.05 
+sudo-1.9.16p2-r0: do_recipe_qa
+Elapsed time: 0.15 seconds
+utime: 39
+stime: 2
+cutime: 0
+cstime: 3
+IO rchar: 421378
+IO wchar: 97624
+IO syscr: 288
+IO syscw: 87
+IO read_bytes: 8192
+IO write_bytes: 98304
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.392785
+rusage ru_stime: 0.026052
+rusage ru_maxrss: 93084
+rusage ru_minflt: 5857
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 168
+rusage ru_nvcsw: 13
+rusage ru_nivcsw: 56
+Child rusage ru_utime: 0.006003
+Child rusage ru_stime: 0.031355
+Child rusage ru_maxrss: 93084
+Child rusage ru_minflt: 3405
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 230
+Child rusage ru_nivcsw: 20
+Status: PASSED 
+Ended: 1745377169.20 

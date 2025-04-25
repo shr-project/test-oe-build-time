@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745374442.28 
+kmod-34.1-r0: do_rm_work
+Elapsed time: 0.94 seconds
+utime: 36
+stime: 1
+cutime: 6
+cstime: 18
+IO rchar: 689112
+IO wchar: 40048
+IO syscr: 961
+IO syscw: 89
+IO read_bytes: 4096
+IO write_bytes: 10743808
+IO cancelled_write_bytes: 24576
+rusage ru_utime: 0.36718599999999996
+rusage ru_stime: 0.015964
+rusage ru_maxrss: 116536
+rusage ru_minflt: 7039
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 56
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 37
+Child rusage ru_utime: 0.065348
+Child rusage ru_stime: 0.186293
+Child rusage ru_maxrss: 112204
+Child rusage ru_minflt: 21328
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 20928
+Child rusage ru_nvcsw: 239
+Child rusage ru_nivcsw: 95
+Status: PASSED 
+Ended: 1745374443.22 

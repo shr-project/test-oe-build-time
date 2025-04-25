@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745358904.38 
+opkg-utils-0.7.0-r0: do_compile
+Elapsed time: 0.32 seconds
+utime: 43
+stime: 2
+cutime: 8
+cstime: 3
+IO rchar: 881213
+IO wchar: 34685
+IO syscr: 350
+IO syscw: 102
+IO read_bytes: 16384
+IO write_bytes: 65536
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.43359699999999995
+rusage ru_stime: 0.020073
+rusage ru_maxrss: 111812
+rusage ru_minflt: 5799
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 96
+rusage ru_nvcsw: 4
+rusage ru_nivcsw: 38
+Child rusage ru_utime: 0.089637
+Child rusage ru_stime: 0.030844999999999997
+Child rusage ru_maxrss: 106844
+Child rusage ru_minflt: 4122
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 32
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 19
+Child rusage ru_nivcsw: 36
+Status: PASSED 
+Ended: 1745358904.69 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745374432.98 
+opkg-utils-native-0.7.0-r0: do_rm_work
+Elapsed time: 0.23 seconds
+utime: 39
+stime: 2
+cutime: 4
+cstime: 6
+IO rchar: 452584
+IO wchar: 34330
+IO syscr: 613
+IO syscw: 69
+IO read_bytes: 0
+IO write_bytes: 32768
+IO cancelled_write_bytes: 352256
+rusage ru_utime: 0.39159499999999997
+rusage ru_stime: 0.021030999999999998
+rusage ru_maxrss: 116764
+rusage ru_minflt: 6702
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 56
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 13
+Child rusage ru_utime: 0.048357
+Child rusage ru_stime: 0.060828999999999994
+Child rusage ru_maxrss: 111888
+Child rusage ru_minflt: 13679
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 156
+Child rusage ru_nivcsw: 32
+Status: PASSED 
+Ended: 1745374433.22 

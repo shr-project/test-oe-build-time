@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745398234.26 
+cmake-native-3.31.6-r0: do_install
+Elapsed time: 1.46 seconds
+utime: 42
+stime: 4
+cutime: 91
+cstime: 104
+IO rchar: 130258653
+IO wchar: 121289998
+IO syscr: 41681
+IO syscw: 323829
+IO read_bytes: 73728
+IO write_bytes: 136081408
+IO cancelled_write_bytes: 10813440
+rusage ru_utime: 0.42811899999999997
+rusage ru_stime: 0.049756999999999996
+rusage ru_maxrss: 85548
+rusage ru_minflt: 10145
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 2296
+rusage ru_nvcsw: 4077
+rusage ru_nivcsw: 30
+Child rusage ru_utime: 0.9105759999999999
+Child rusage ru_stime: 1.04467
+Child rusage ru_maxrss: 82476
+Child rusage ru_minflt: 90393
+Child rusage ru_majflt: 4
+Child rusage ru_inblock: 144
+Child rusage ru_oublock: 263488
+Child rusage ru_nvcsw: 602
+Child rusage ru_nivcsw: 453
+Status: PASSED 
+Ended: 1745398235.72 

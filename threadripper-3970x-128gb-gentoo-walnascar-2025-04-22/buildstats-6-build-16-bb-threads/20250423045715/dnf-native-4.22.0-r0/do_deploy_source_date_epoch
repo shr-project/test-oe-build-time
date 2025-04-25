@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745384766.90 
+dnf-native-4.22.0-r0: do_deploy_source_date_epoch
+Elapsed time: 0.47 seconds
+utime: 48
+stime: 1
+cutime: 0
+cstime: 3
+IO rchar: 483668
+IO wchar: 137662
+IO syscr: 374
+IO syscw: 120
+IO read_bytes: 0
+IO write_bytes: 106496
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.48271699999999995
+rusage ru_stime: 0.019988
+rusage ru_maxrss: 106796
+rusage ru_minflt: 10151
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 168
+rusage ru_nvcsw: 16
+rusage ru_nivcsw: 29
+Child rusage ru_utime: 0.009419
+Child rusage ru_stime: 0.032866
+Child rusage ru_maxrss: 106796
+Child rusage ru_minflt: 4303
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 267
+Child rusage ru_nivcsw: 33
+Status: PASSED 
+Ended: 1745384767.37 

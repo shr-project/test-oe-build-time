@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745385224.77 
+util-macros-1_1.20.2-r0: do_configure
+Elapsed time: 4.22 seconds
+utime: 96
+stime: 6
+cutime: 160
+cstime: 66
+IO rchar: 14838512
+IO wchar: 1783993
+IO syscr: 6372
+IO syscw: 4444
+IO read_bytes: 86016
+IO write_bytes: 1179648
+IO cancelled_write_bytes: 65536
+rusage ru_utime: 0.9662719999999999
+rusage ru_stime: 0.062564
+rusage ru_maxrss: 109660
+rusage ru_minflt: 13210
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 280
+rusage ru_nvcsw: 54
+rusage ru_nivcsw: 100
+Child rusage ru_utime: 1.606335
+Child rusage ru_stime: 0.66643
+Child rusage ru_maxrss: 109660
+Child rusage ru_minflt: 108016
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 168
+Child rusage ru_oublock: 2024
+Child rusage ru_nvcsw: 1075
+Child rusage ru_nivcsw: 478
+Status: PASSED 
+Ended: 1745385228.98 

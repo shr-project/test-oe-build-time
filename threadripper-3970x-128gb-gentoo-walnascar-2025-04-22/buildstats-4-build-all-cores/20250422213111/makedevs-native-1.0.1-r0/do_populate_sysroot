@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745357853.53 
+makedevs-native-1.0.1-r0: do_populate_sysroot
+Elapsed time: 0.62 seconds
+utime: 66
+stime: 6
+cutime: 4
+cstime: 8
+IO rchar: 1057628
+IO wchar: 295146
+IO syscr: 875
+IO syscw: 192
+IO read_bytes: 8192
+IO write_bytes: 339968
+IO cancelled_write_bytes: 24576
+rusage ru_utime: 0.668986
+rusage ru_stime: 0.060906999999999996
+rusage ru_maxrss: 108656
+rusage ru_minflt: 14704
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 384
+rusage ru_nvcsw: 33
+rusage ru_nivcsw: 53
+Child rusage ru_utime: 0.042899
+Child rusage ru_stime: 0.082383
+Child rusage ru_maxrss: 108656
+Child rusage ru_minflt: 11219
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 280
+Child rusage ru_nvcsw: 340
+Child rusage ru_nivcsw: 53
+Status: PASSED 
+Ended: 1745357854.16 

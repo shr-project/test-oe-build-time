@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745374102.93 
+compiler-rt-native-20.1.2-r0: do_populate_sysroot
+Elapsed time: 0.92 seconds
+utime: 107
+stime: 5
+cutime: 9
+cstime: 9
+IO rchar: 5550888
+IO wchar: 2053902
+IO syscr: 1635
+IO syscw: 362
+IO read_bytes: 0
+IO write_bytes: 630784
+IO cancelled_write_bytes: 0
+rusage ru_utime: 1.075929
+rusage ru_stime: 0.057805999999999996
+rusage ru_maxrss: 115296
+rusage ru_minflt: 16387
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 384
+rusage ru_nvcsw: 26
+rusage ru_nivcsw: 126
+Child rusage ru_utime: 0.09346
+Child rusage ru_stime: 0.097665
+Child rusage ru_maxrss: 115296
+Child rusage ru_minflt: 10746
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 848
+Child rusage ru_nvcsw: 403
+Child rusage ru_nivcsw: 123
+Status: PASSED 
+Ended: 1745374103.85 

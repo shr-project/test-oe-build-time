@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745404770.90 
+clang-cross-x86_64-20.1.2-r0: do_populate_sysroot
+Elapsed time: 0.47 seconds
+utime: 51
+stime: 3
+cutime: 4
+cstime: 7
+IO rchar: 2561449
+IO wchar: 624551
+IO syscr: 1259
+IO syscw: 212
+IO read_bytes: 0
+IO write_bytes: 372736
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.520015
+rusage ru_stime: 0.033935
+rusage ru_maxrss: 102336
+rusage ru_minflt: 18125
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 392
+rusage ru_nvcsw: 58
+rusage ru_nivcsw: 18
+Child rusage ru_utime: 0.048528999999999996
+Child rusage ru_stime: 0.073022
+Child rusage ru_maxrss: 102336
+Child rusage ru_minflt: 14358
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 336
+Child rusage ru_nvcsw: 386
+Child rusage ru_nivcsw: 62
+Status: PASSED 
+Ended: 1745404771.38 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745357815.33 
+llvm-native-20.1.0-r0: do_recipe_qa
+Elapsed time: 0.80 seconds
+utime: 40
+stime: 2
+cutime: 0
+cstime: 2
+IO rchar: 400167
+IO wchar: 109351
+IO syscr: 291
+IO syscw: 112
+IO read_bytes: 0
+IO write_bytes: 114688
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.40581599999999995
+rusage ru_stime: 0.020139
+rusage ru_maxrss: 105164
+rusage ru_minflt: 6702
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 200
+rusage ru_nvcsw: 17
+rusage ru_nivcsw: 74
+Child rusage ru_utime: 0.004573
+Child rusage ru_stime: 0.021876
+Child rusage ru_maxrss: 105164
+Child rusage ru_minflt: 3430
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 251
+Child rusage ru_nivcsw: 44
+Status: PASSED 
+Ended: 1745357816.13 

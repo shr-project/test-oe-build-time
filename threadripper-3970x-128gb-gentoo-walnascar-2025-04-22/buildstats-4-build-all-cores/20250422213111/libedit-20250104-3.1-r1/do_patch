@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745357672.38 
+libedit-20250104-3.1-r1: do_patch
+Elapsed time: 0.26 seconds
+utime: 40
+stime: 2
+cutime: 4
+cstime: 6
+IO rchar: 1034369
+IO wchar: 649786
+IO syscr: 645
+IO syscw: 255
+IO read_bytes: 131072
+IO write_bytes: 921600
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.407047
+rusage ru_stime: 0.028141
+rusage ru_maxrss: 94860
+rusage ru_minflt: 6170
+rusage ru_majflt: 0
+rusage ru_inblock: 256
+rusage ru_oublock: 544
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 32
+Child rusage ru_utime: 0.045173
+Child rusage ru_stime: 0.069411
+Child rusage ru_maxrss: 94860
+Child rusage ru_minflt: 10462
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1256
+Child rusage ru_nvcsw: 128
+Child rusage ru_nivcsw: 501
+Status: PASSED 
+Ended: 1745357672.64 

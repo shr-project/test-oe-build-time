@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745398375.79 
+gcc-runtime-14.2.0-r0: do_install
+Elapsed time: 4.05 seconds
+utime: 51
+stime: 5
+cutime: 123
+cstime: 284
+IO rchar: 283634914
+IO wchar: 195451416
+IO syscr: 61940
+IO syscw: 10070
+IO read_bytes: 4096
+IO write_bytes: 197296128
+IO cancelled_write_bytes: 105435136
+rusage ru_utime: 0.5189159999999999
+rusage ru_stime: 0.050185
+rusage ru_maxrss: 83412
+rusage ru_minflt: 13918
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 632
+rusage ru_nvcsw: 1262
+rusage ru_nivcsw: 18
+Child rusage ru_utime: 1.2326679999999999
+Child rusage ru_stime: 2.8496129999999997
+Child rusage ru_maxrss: 79928
+Child rusage ru_minflt: 533159
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 384712
+Child rusage ru_nvcsw: 24254
+Child rusage ru_nivcsw: 679
+Status: PASSED 
+Ended: 1745398379.84 

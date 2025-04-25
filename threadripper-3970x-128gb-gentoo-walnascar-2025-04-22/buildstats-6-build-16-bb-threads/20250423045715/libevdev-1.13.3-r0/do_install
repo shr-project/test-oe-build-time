@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745385666.23 
+libevdev-1.13.3-r0: do_install
+Elapsed time: 1.13 seconds
+utime: 74
+stime: 6
+cutime: 20
+cstime: 40
+IO rchar: 2454168
+IO wchar: 581455
+IO syscr: 3613
+IO syscw: 559
+IO read_bytes: 12288
+IO write_bytes: 655360
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 0.748162
+rusage ru_stime: 0.061506
+rusage ru_maxrss: 81552
+rusage ru_minflt: 11612
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 216
+rusage ru_nvcsw: 110
+rusage ru_nivcsw: 283
+Child rusage ru_utime: 0.20751999999999998
+Child rusage ru_stime: 0.40808099999999997
+Child rusage ru_maxrss: 78152
+Child rusage ru_minflt: 53206
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 1064
+Child rusage ru_nvcsw: 680
+Child rusage ru_nivcsw: 712
+Status: PASSED 
+Ended: 1745385667.36 

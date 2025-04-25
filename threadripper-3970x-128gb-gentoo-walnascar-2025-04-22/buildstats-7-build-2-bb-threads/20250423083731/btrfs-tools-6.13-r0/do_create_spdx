@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745416492.04 
+btrfs-tools-6.13-r0: do_create_spdx
+Elapsed time: 0.89 seconds
+utime: 102
+stime: 3
+cutime: 1
+cstime: 2
+IO rchar: 2147634
+IO wchar: 747064
+IO syscr: 650
+IO syscw: 294
+IO read_bytes: 49152
+IO write_bytes: 573440
+IO cancelled_write_bytes: 0
+rusage ru_utime: 1.022147
+rusage ru_stime: 0.036962999999999996
+rusage ru_maxrss: 93192
+rusage ru_minflt: 11032
+rusage ru_majflt: 1
+rusage ru_inblock: 96
+rusage ru_oublock: 960
+rusage ru_nvcsw: 24
+rusage ru_nivcsw: 12
+Child rusage ru_utime: 0.01685
+Child rusage ru_stime: 0.023719999999999998
+Child rusage ru_maxrss: 93192
+Child rusage ru_minflt: 4912
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 160
+Child rusage ru_nvcsw: 317
+Child rusage ru_nivcsw: 41
+Status: PASSED 
+Ended: 1745416492.93 

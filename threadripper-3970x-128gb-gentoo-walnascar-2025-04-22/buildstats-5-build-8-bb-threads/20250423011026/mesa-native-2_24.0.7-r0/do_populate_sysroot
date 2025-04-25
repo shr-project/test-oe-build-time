@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745379170.21 
+mesa-native-2_24.0.7-r0: do_populate_sysroot
+Elapsed time: 2.56 seconds
+utime: 200
+stime: 35
+cutime: 113
+cstime: 70
+IO rchar: 702078275
+IO wchar: 148901251
+IO syscr: 99877
+IO syscw: 8572
+IO read_bytes: 40960
+IO write_bytes: 113692672
+IO cancelled_write_bytes: 33300480
+rusage ru_utime: 2.008415
+rusage ru_stime: 0.355719
+rusage ru_maxrss: 99540
+rusage ru_minflt: 20079
+rusage ru_majflt: 0
+rusage ru_inblock: 24
+rusage ru_oublock: 71816
+rusage ru_nvcsw: 49
+rusage ru_nivcsw: 274
+Child rusage ru_utime: 1.134736
+Child rusage ru_stime: 0.705977
+Child rusage ru_maxrss: 99540
+Child rusage ru_minflt: 103213
+Child rusage ru_majflt: 2
+Child rusage ru_inblock: 56
+Child rusage ru_oublock: 150240
+Child rusage ru_nvcsw: 1348
+Child rusage ru_nivcsw: 1146
+Status: PASSED 
+Ended: 1745379172.77 

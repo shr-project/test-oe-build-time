@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745377837.78 
+libslirp-native-4.9.0-r0: do_populate_sysroot
+Elapsed time: 0.42 seconds
+utime: 59
+stime: 4
+cutime: 4
+cstime: 6
+IO rchar: 2311245
+IO wchar: 939894
+IO syscr: 1032
+IO syscw: 256
+IO read_bytes: 4096
+IO write_bytes: 901120
+IO cancelled_write_bytes: 151552
+rusage ru_utime: 0.598197
+rusage ru_stime: 0.042003
+rusage ru_maxrss: 97372
+rusage ru_minflt: 14819
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 704
+rusage ru_nvcsw: 31
+rusage ru_nivcsw: 33
+Child rusage ru_utime: 0.046727
+Child rusage ru_stime: 0.068088
+Child rusage ru_maxrss: 97372
+Child rusage ru_minflt: 12747
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1056
+Child rusage ru_nvcsw: 348
+Child rusage ru_nivcsw: 32
+Status: PASSED 
+Ended: 1745377838.20 

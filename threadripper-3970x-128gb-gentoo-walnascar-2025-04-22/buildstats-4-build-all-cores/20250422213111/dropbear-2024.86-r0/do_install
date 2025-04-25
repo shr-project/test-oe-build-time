@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745359075.09 
+dropbear-2024.86-r0: do_install
+Elapsed time: 0.87 seconds
+utime: 93
+stime: 7
+cutime: 4
+cstime: 9
+IO rchar: 2187033
+IO wchar: 1876153
+IO syscr: 848
+IO syscw: 72
+IO read_bytes: 20480
+IO write_bytes: 2064384
+IO cancelled_write_bytes: 12288
+rusage ru_utime: 0.936618
+rusage ru_stime: 0.071588
+rusage ru_maxrss: 83516
+rusage ru_minflt: 20018
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 336
+rusage ru_nvcsw: 29
+rusage ru_nivcsw: 368
+Child rusage ru_utime: 0.049141
+Child rusage ru_stime: 0.090374
+Child rusage ru_maxrss: 79204
+Child rusage ru_minflt: 8130
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 40
+Child rusage ru_oublock: 3696
+Child rusage ru_nvcsw: 146
+Child rusage ru_nivcsw: 239
+Status: PASSED 
+Ended: 1745359075.96 

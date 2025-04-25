@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745385652.08 
+e2fsprogs-1.47.1-r0: do_compile_ptest_base
+Elapsed time: 0.25 seconds
+utime: 51
+stime: 3
+cutime: 4
+cstime: 3
+IO rchar: 490193
+IO wchar: 178048
+IO syscr: 493
+IO syscw: 196
+IO read_bytes: 16384
+IO write_bytes: 188416
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.51141
+rusage ru_stime: 0.03501
+rusage ru_maxrss: 112916
+rusage ru_minflt: 6172
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 80
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 36
+Child rusage ru_utime: 0.042946
+Child rusage ru_stime: 0.03995
+Child rusage ru_maxrss: 108376
+Child rusage ru_minflt: 4867
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 32
+Child rusage ru_oublock: 288
+Child rusage ru_nvcsw: 65
+Child rusage ru_nivcsw: 24
+Status: PASSED 
+Ended: 1745385652.33 

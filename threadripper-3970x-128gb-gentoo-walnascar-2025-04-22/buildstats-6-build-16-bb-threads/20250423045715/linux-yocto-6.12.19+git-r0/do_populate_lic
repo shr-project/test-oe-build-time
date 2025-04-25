@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745385135.32 
+linux-yocto-6.12.19+git-r0: do_populate_lic
+Elapsed time: 0.11 seconds
+utime: 62
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 841802
+IO wchar: 177974
+IO syscr: 486
+IO syscw: 120
+IO read_bytes: 4096
+IO write_bytes: 204800
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.6235919999999999
+rusage ru_stime: 0.025023
+rusage ru_maxrss: 111600
+rusage ru_minflt: 9912
+rusage ru_majflt: 1
+rusage ru_inblock: 8
+rusage ru_oublock: 304
+rusage ru_nvcsw: 19
+rusage ru_nivcsw: 27
+Child rusage ru_utime: 0.011684
+Child rusage ru_stime: 0.023629999999999998
+Child rusage ru_maxrss: 111600
+Child rusage ru_minflt: 4656
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 96
+Child rusage ru_nvcsw: 295
+Child rusage ru_nivcsw: 46
+Status: PASSED 
+Ended: 1745385135.44 

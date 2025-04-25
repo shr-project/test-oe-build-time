@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745406601.96 
+libcxx-native-20.1.2-r0: do_populate_sysroot
+Elapsed time: 1.12 seconds
+utime: 101
+stime: 11
+cutime: 50
+cstime: 24
+IO rchar: 150950507
+IO wchar: 52120046
+IO syscr: 30737
+IO syscw: 4397
+IO read_bytes: 0
+IO write_bytes: 17256448
+IO cancelled_write_bytes: 0
+rusage ru_utime: 1.012988
+rusage ru_stime: 0.11988
+rusage ru_maxrss: 102148
+rusage ru_minflt: 14064
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 17352
+rusage ru_nvcsw: 36
+rusage ru_nivcsw: 20
+Child rusage ru_utime: 0.507463
+Child rusage ru_stime: 0.24515199999999998
+Child rusage ru_maxrss: 102148
+Child rusage ru_minflt: 40300
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 16352
+Child rusage ru_nvcsw: 1257
+Child rusage ru_nivcsw: 79
+Status: PASSED 
+Ended: 1745406603.08 

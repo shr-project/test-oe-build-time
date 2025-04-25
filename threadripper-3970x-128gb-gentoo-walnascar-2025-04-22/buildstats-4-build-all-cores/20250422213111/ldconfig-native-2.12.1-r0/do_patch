@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745357850.24 
+ldconfig-native-2.12.1-r0: do_patch
+Elapsed time: 1.33 seconds
+utime: 24
+stime: 1
+cutime: 30
+cstime: 38
+IO rchar: 3353325
+IO wchar: 539081
+IO syscr: 5023
+IO syscw: 711
+IO read_bytes: 131072
+IO write_bytes: 671744
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.249854
+rusage ru_stime: 0.017127
+rusage ru_maxrss: 106372
+rusage ru_minflt: 5931
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 272
+rusage ru_nvcsw: 65
+rusage ru_nivcsw: 33
+Child rusage ru_utime: 0.309905
+Child rusage ru_stime: 0.382054
+Child rusage ru_maxrss: 106372
+Child rusage ru_minflt: 116080
+Child rusage ru_majflt: 4
+Child rusage ru_inblock: 256
+Child rusage ru_oublock: 1040
+Child rusage ru_nvcsw: 1555
+Child rusage ru_nivcsw: 282
+Status: PASSED 
+Ended: 1745357851.57 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745385243.03 
+xcb-proto-1.17.0-r0: do_compile
+Elapsed time: 0.20 seconds
+utime: 45
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 279115
+IO wchar: 32625
+IO syscr: 236
+IO syscw: 123
+IO read_bytes: 0
+IO write_bytes: 24576
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.45896099999999995
+rusage ru_stime: 0.023842
+rusage ru_maxrss: 110232
+rusage ru_minflt: 5881
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 48
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 38
+Child rusage ru_utime: 0.016673999999999998
+Child rusage ru_stime: 0.024194999999999998
+Child rusage ru_maxrss: 105452
+Child rusage ru_minflt: 2471
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 28
+Child rusage ru_nivcsw: 7
+Status: PASSED 
+Ended: 1745385243.23 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745387619.18 
+socat-1.8.0.3-r0: do_populate_sysroot
+Elapsed time: 1.35 seconds
+utime: 48
+stime: 2
+cutime: 2
+cstime: 4
+IO rchar: 670319
+IO wchar: 202656
+IO syscr: 593
+IO syscw: 133
+IO read_bytes: 0
+IO write_bytes: 217088
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.48621499999999995
+rusage ru_stime: 0.027783
+rusage ru_maxrss: 118776
+rusage ru_minflt: 9149
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 336
+rusage ru_nvcsw: 20
+rusage ru_nivcsw: 21
+Child rusage ru_utime: 0.022765999999999998
+Child rusage ru_stime: 0.048749999999999995
+Child rusage ru_maxrss: 118776
+Child rusage ru_minflt: 8188
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 88
+Child rusage ru_nvcsw: 322
+Child rusage ru_nivcsw: 60
+Status: PASSED 
+Ended: 1745387620.53 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745376162.41 
+settings-daemon-0.0.2+git-r0: do_create_spdx
+Elapsed time: 0.83 seconds
+utime: 101
+stime: 4
+cutime: 2
+cstime: 3
+IO rchar: 1297361
+IO wchar: 269912
+IO syscr: 529
+IO syscw: 190
+IO read_bytes: 20480
+IO write_bytes: 233472
+IO cancelled_write_bytes: 0
+rusage ru_utime: 1.014051
+rusage ru_stime: 0.04024
+rusage ru_maxrss: 83588
+rusage ru_minflt: 10711
+rusage ru_majflt: 0
+rusage ru_inblock: 40
+rusage ru_oublock: 360
+rusage ru_nvcsw: 19
+rusage ru_nivcsw: 132
+Child rusage ru_utime: 0.021979
+Child rusage ru_stime: 0.037152
+Child rusage ru_maxrss: 83588
+Child rusage ru_minflt: 4764
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 96
+Child rusage ru_nvcsw: 313
+Child rusage ru_nivcsw: 44
+Status: PASSED 
+Ended: 1745376163.24 

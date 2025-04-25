@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745403474.75 
+libatomic-ops-7.8.2-r0: do_create_spdx
+Elapsed time: 0.90 seconds
+utime: 99
+stime: 3
+cutime: 1
+cstime: 4
+IO rchar: 1431866
+IO wchar: 419109
+IO syscr: 556
+IO syscw: 215
+IO read_bytes: 0
+IO write_bytes: 372736
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.9977269999999999
+rusage ru_stime: 0.038141999999999995
+rusage ru_maxrss: 101712
+rusage ru_minflt: 5791
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 584
+rusage ru_nvcsw: 17
+rusage ru_nivcsw: 140
+Child rusage ru_utime: 0.017911
+Child rusage ru_stime: 0.046548
+Child rusage ru_maxrss: 101712
+Child rusage ru_minflt: 4783
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 144
+Child rusage ru_nvcsw: 307
+Child rusage ru_nivcsw: 47
+Status: PASSED 
+Ended: 1745403475.66 

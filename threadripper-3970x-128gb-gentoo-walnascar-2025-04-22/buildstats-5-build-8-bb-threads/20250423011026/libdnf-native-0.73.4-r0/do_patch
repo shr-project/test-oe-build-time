@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745377646.20 
+libdnf-native-0.73.4-r0: do_patch
+Elapsed time: 0.85 seconds
+utime: 60
+stime: 2
+cutime: 20
+cstime: 39
+IO rchar: 1819810
+IO wchar: 164384
+IO syscr: 3078
+IO syscw: 402
+IO read_bytes: 0
+IO write_bytes: 262144
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.6079829999999999
+rusage ru_stime: 0.021955
+rusage ru_maxrss: 97608
+rusage ru_minflt: 6278
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 200
+rusage ru_nvcsw: 34
+rusage ru_nivcsw: 52
+Child rusage ru_utime: 0.203544
+Child rusage ru_stime: 0.39979699999999996
+Child rusage ru_maxrss: 97608
+Child rusage ru_minflt: 68780
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 312
+Child rusage ru_nvcsw: 839
+Child rusage ru_nivcsw: 35
+Status: PASSED 
+Ended: 1745377647.05 

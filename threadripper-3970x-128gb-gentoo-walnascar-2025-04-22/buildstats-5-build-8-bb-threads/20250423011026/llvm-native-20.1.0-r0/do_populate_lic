@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745377612.45 
+llvm-native-20.1.0-r0: do_populate_lic
+Elapsed time: 0.11 seconds
+utime: 38
+stime: 2
+cutime: 0
+cstime: 3
+IO rchar: 652893
+IO wchar: 188805
+IO syscr: 440
+IO syscw: 134
+IO read_bytes: 12288
+IO write_bytes: 237568
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.38067999999999996
+rusage ru_stime: 0.02292
+rusage ru_maxrss: 96844
+rusage ru_minflt: 6405
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 384
+rusage ru_nvcsw: 18
+rusage ru_nivcsw: 2
+Child rusage ru_utime: 0.003169
+Child rusage ru_stime: 0.034626
+Child rusage ru_maxrss: 96844
+Child rusage ru_minflt: 4669
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 80
+Child rusage ru_nvcsw: 299
+Child rusage ru_nivcsw: 29
+Status: PASSED 
+Ended: 1745377612.56 

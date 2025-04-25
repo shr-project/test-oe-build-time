@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745385555.85 
+speexdsp-1.2.1-r0: do_install
+Elapsed time: 1.23 seconds
+utime: 74
+stime: 6
+cutime: 23
+cstime: 42
+IO rchar: 3535375
+IO wchar: 891057
+IO syscr: 4522
+IO syscw: 511
+IO read_bytes: 442368
+IO write_bytes: 946176
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 0.74856
+rusage ru_stime: 0.06733
+rusage ru_maxrss: 81364
+rusage ru_minflt: 11681
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 224
+rusage ru_nvcsw: 248
+rusage ru_nivcsw: 321
+Child rusage ru_utime: 0.23323
+Child rusage ru_stime: 0.42475199999999996
+Child rusage ru_maxrss: 78120
+Child rusage ru_minflt: 50678
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 864
+Child rusage ru_oublock: 1624
+Child rusage ru_nvcsw: 788
+Child rusage ru_nivcsw: 1216
+Status: PASSED 
+Ended: 1745385557.08 

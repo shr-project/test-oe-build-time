@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745387063.51 
+sysvinit-3.14-r0: do_compile
+Elapsed time: 1.93 seconds
+utime: 45
+stime: 3
+cutime: 470
+cstime: 127
+IO rchar: 43255133
+IO wchar: 5403469
+IO syscr: 13654
+IO syscw: 2998
+IO read_bytes: 335872
+IO write_bytes: 2076672
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.45966399999999996
+rusage ru_stime: 0.03574
+rusage ru_maxrss: 118868
+rusage ru_minflt: 5982
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 208
+rusage ru_nvcsw: 58
+rusage ru_nivcsw: 68
+Child rusage ru_utime: 4.703656
+Child rusage ru_stime: 1.2776779999999999
+Child rusage ru_maxrss: 114340
+Child rusage ru_minflt: 137171
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 656
+Child rusage ru_oublock: 3848
+Child rusage ru_nvcsw: 926
+Child rusage ru_nivcsw: 741
+Status: PASSED 
+Ended: 1745387065.43 

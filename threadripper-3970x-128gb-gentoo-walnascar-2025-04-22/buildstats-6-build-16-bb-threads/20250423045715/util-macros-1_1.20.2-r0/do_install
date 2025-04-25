@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745385230.07 
+util-macros-1_1.20.2-r0: do_install
+Elapsed time: 0.57 seconds
+utime: 68
+stime: 5
+cutime: 4
+cstime: 9
+IO rchar: 577861
+IO wchar: 175428
+IO syscr: 1033
+IO syscw: 159
+IO read_bytes: 16384
+IO write_bytes: 225280
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.686125
+rusage ru_stime: 0.058095
+rusage ru_maxrss: 80684
+rusage ru_minflt: 11957
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 208
+rusage ru_nvcsw: 47
+rusage ru_nivcsw: 254
+Child rusage ru_utime: 0.049201999999999996
+Child rusage ru_stime: 0.091622
+Child rusage ru_maxrss: 78092
+Child rusage ru_minflt: 8418
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 32
+Child rusage ru_oublock: 232
+Child rusage ru_nvcsw: 117
+Child rusage ru_nivcsw: 199
+Status: PASSED 
+Ended: 1745385230.64 

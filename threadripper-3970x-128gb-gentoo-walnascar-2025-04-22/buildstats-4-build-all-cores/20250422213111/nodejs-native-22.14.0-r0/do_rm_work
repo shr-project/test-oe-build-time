@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745360131.09 
+nodejs-native-22.14.0-r0: do_rm_work
+Elapsed time: 1.83 seconds
+utime: 57
+stime: 2
+cutime: 10
+cstime: 123
+IO rchar: 470634
+IO wchar: 44389
+IO syscr: 612
+IO syscw: 83
+IO read_bytes: 0
+IO write_bytes: 43749376
+IO cancelled_write_bytes: 205479936
+rusage ru_utime: 0.58017
+rusage ru_stime: 0.028697999999999998
+rusage ru_maxrss: 120248
+rusage ru_minflt: 6960
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 56
+rusage ru_nvcsw: 3
+rusage ru_nivcsw: 95
+Child rusage ru_utime: 0.109566
+Child rusage ru_stime: 1.235207
+Child rusage ru_maxrss: 114956
+Child rusage ru_minflt: 13432
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 85392
+Child rusage ru_nvcsw: 145
+Child rusage ru_nivcsw: 112
+Status: PASSED 
+Ended: 1745360132.93 

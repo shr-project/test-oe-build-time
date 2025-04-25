@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745384841.29 
+tar-native-1.35-r0: do_populate_sysroot
+Elapsed time: 0.62 seconds
+utime: 66
+stime: 4
+cutime: 8
+cstime: 9
+IO rchar: 5938874
+IO wchar: 2530251
+IO syscr: 1496
+IO syscw: 367
+IO read_bytes: 4096
+IO write_bytes: 2142208
+IO cancelled_write_bytes: 507904
+rusage ru_utime: 0.668983
+rusage ru_stime: 0.049987
+rusage ru_maxrss: 107436
+rusage ru_minflt: 15330
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 1488
+rusage ru_nvcsw: 41
+rusage ru_nivcsw: 76
+Child rusage ru_utime: 0.083622
+Child rusage ru_stime: 0.099969
+Child rusage ru_maxrss: 107436
+Child rusage ru_minflt: 16058
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 2696
+Child rusage ru_nvcsw: 383
+Child rusage ru_nivcsw: 192
+Status: PASSED 
+Ended: 1745384841.91 

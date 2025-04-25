@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745404382.55 
+sed-4.9-r0: do_unpack
+Elapsed time: 0.23 seconds
+utime: 30
+stime: 3
+cutime: 5
+cstime: 13
+IO rchar: 12931310
+IO wchar: 21934215
+IO syscr: 1717
+IO syscw: 4041
+IO read_bytes: 1232896
+IO write_bytes: 13287424
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.30267099999999997
+rusage ru_stime: 0.035944
+rusage ru_maxrss: 101496
+rusage ru_minflt: 10357
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 144
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 10
+Child rusage ru_utime: 0.055656
+Child rusage ru_stime: 0.13273
+Child rusage ru_maxrss: 101496
+Child rusage ru_minflt: 3590
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 2408
+Child rusage ru_oublock: 25808
+Child rusage ru_nvcsw: 771
+Child rusage ru_nivcsw: 19
+Status: PASSED 
+Ended: 1745404382.79 

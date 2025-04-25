@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745387564.16 
+wasi-sdk-native-git-r0: do_rm_work
+Elapsed time: 3.33 seconds
+utime: 24
+stime: 1
+cutime: 12
+cstime: 308
+IO rchar: 451421
+IO wchar: 29182
+IO syscr: 610
+IO syscw: 58
+IO read_bytes: 4096
+IO write_bytes: 181428224
+IO cancelled_write_bytes: 976052224
+rusage ru_utime: 0.250036
+rusage ru_stime: 0.014058
+rusage ru_maxrss: 118480
+rusage ru_minflt: 6683
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 48
+rusage ru_nvcsw: 5
+rusage ru_nivcsw: 9
+Child rusage ru_utime: 0.123218
+Child rusage ru_stime: 3.086915
+Child rusage ru_maxrss: 114904
+Child rusage ru_minflt: 13767
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 354304
+Child rusage ru_nvcsw: 152
+Child rusage ru_nivcsw: 184
+Status: PASSED 
+Ended: 1745387567.49 

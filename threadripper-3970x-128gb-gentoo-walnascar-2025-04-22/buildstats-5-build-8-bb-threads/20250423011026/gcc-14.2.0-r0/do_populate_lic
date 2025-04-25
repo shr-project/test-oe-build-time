@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745370873.95 
+gcc-14.2.0-r0: do_populate_lic
+Elapsed time: 0.13 seconds
+utime: 32
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 995843
+IO wchar: 309450
+IO syscr: 506
+IO syscw: 139
+IO read_bytes: 0
+IO write_bytes: 217088
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.326341
+rusage ru_stime: 0.026026999999999998
+rusage ru_maxrss: 87188
+rusage ru_minflt: 7140
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 328
+rusage ru_nvcsw: 18
+rusage ru_nivcsw: 5
+Child rusage ru_utime: 0.0123
+Child rusage ru_stime: 0.032949
+Child rusage ru_maxrss: 87188
+Child rusage ru_minflt: 4768
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 96
+Child rusage ru_nvcsw: 230
+Child rusage ru_nivcsw: 30
+Status: PASSED 
+Ended: 1745370874.08 

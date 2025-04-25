@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745404772.34 
+clang-cross-x86_64-20.1.2-r0: do_rm_work
+Elapsed time: 0.24 seconds
+utime: 26
+stime: 2
+cutime: 3
+cstime: 10
+IO rchar: 398946
+IO wchar: 28322
+IO syscr: 529
+IO syscw: 52
+IO read_bytes: 0
+IO write_bytes: 163840
+IO cancelled_write_bytes: 12288
+rusage ru_utime: 0.26761
+rusage ru_stime: 0.025962
+rusage ru_maxrss: 101804
+rusage ru_minflt: 10226
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 64
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 3
+Child rusage ru_utime: 0.034795
+Child rusage ru_stime: 0.107627
+Child rusage ru_maxrss: 96416
+Child rusage ru_minflt: 11730
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 256
+Child rusage ru_nvcsw: 142
+Child rusage ru_nivcsw: 15
+Status: PASSED 
+Ended: 1745404772.58 

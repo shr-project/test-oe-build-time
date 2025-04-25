@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745387117.11 
+iproute2-6.13.0-r0: do_create_spdx
+Elapsed time: 1.67 seconds
+utime: 190
+stime: 6
+cutime: 1
+cstime: 3
+IO rchar: 2619404
+IO wchar: 1187697
+IO syscr: 795
+IO syscw: 442
+IO read_bytes: 0
+IO write_bytes: 741376
+IO cancelled_write_bytes: 0
+rusage ru_utime: 1.90158
+rusage ru_stime: 0.06089
+rusage ru_maxrss: 122344
+rusage ru_minflt: 6695
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 1232
+rusage ru_nvcsw: 19
+rusage ru_nivcsw: 158
+Child rusage ru_utime: 0.016947
+Child rusage ru_stime: 0.038047
+Child rusage ru_maxrss: 122344
+Child rusage ru_minflt: 4949
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 216
+Child rusage ru_nvcsw: 193
+Child rusage ru_nivcsw: 53
+Status: PASSED 
+Ended: 1745387118.78 

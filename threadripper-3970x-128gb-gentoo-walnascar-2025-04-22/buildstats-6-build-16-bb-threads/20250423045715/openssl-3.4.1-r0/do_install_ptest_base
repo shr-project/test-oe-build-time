@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745385230.38 
+openssl-3.4.1-r0: do_install_ptest_base
+Elapsed time: 13.67 seconds
+utime: 57
+stime: 3
+cutime: 199
+cstime: 773
+IO rchar: 593122195
+IO wchar: 560003948
+IO syscr: 63608
+IO syscw: 3868
+IO read_bytes: 24657920
+IO write_bytes: 569544704
+IO cancelled_write_bytes: 5816320
+rusage ru_utime: 0.570549
+rusage ru_stime: 0.033031
+rusage ru_maxrss: 81828
+rusage ru_minflt: 8392
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 60
+rusage ru_nivcsw: 283
+Child rusage ru_utime: 1.995581
+Child rusage ru_stime: 7.739259
+Child rusage ru_maxrss: 77868
+Child rusage ru_minflt: 702156
+Child rusage ru_majflt: 4
+Child rusage ru_inblock: 48160
+Child rusage ru_oublock: 1112264
+Child rusage ru_nvcsw: 33379
+Child rusage ru_nivcsw: 12646
+Status: PASSED 
+Ended: 1745385244.05 

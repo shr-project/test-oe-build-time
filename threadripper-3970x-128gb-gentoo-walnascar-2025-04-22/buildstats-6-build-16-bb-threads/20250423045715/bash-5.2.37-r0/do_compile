@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745385543.00 
+bash-5.2.37-r0: do_compile
+Elapsed time: 59.71 seconds
+utime: 59
+stime: 3
+cutime: 5630
+cstime: 1000
+IO rchar: 299125280
+IO wchar: 61850736
+IO syscr: 74599
+IO syscw: 18504
+IO read_bytes: 4960256
+IO write_bytes: 28745728
+IO cancelled_write_bytes: 8093696
+rusage ru_utime: 0.591131
+rusage ru_stime: 0.034415
+rusage ru_maxrss: 111760
+rusage ru_minflt: 6349
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 744
+rusage ru_nvcsw: 505
+rusage ru_nivcsw: 117
+Child rusage ru_utime: 56.304827
+Child rusage ru_stime: 10.004144
+Child rusage ru_maxrss: 128136
+Child rusage ru_minflt: 1102340
+Child rusage ru_majflt: 3
+Child rusage ru_inblock: 9688
+Child rusage ru_oublock: 55400
+Child rusage ru_nvcsw: 6202
+Child rusage ru_nivcsw: 6507
+Status: PASSED 
+Ended: 1745385602.71 

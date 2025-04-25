@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745384540.07 
+pciutils-3.13.0-r0: do_recipe_qa
+Elapsed time: 0.09 seconds
+utime: 27
+stime: 1
+cutime: 0
+cstime: 1
+IO rchar: 393358
+IO wchar: 98042
+IO syscr: 286
+IO syscw: 88
+IO read_bytes: 135168
+IO write_bytes: 114688
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.279325
+rusage ru_stime: 0.012922
+rusage ru_maxrss: 98268
+rusage ru_minflt: 6240
+rusage ru_majflt: 0
+rusage ru_inblock: 264
+rusage ru_oublock: 200
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 27
+Child rusage ru_utime: 0.007241
+Child rusage ru_stime: 0.019177
+Child rusage ru_maxrss: 98268
+Child rusage ru_minflt: 3413
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 261
+Child rusage ru_nivcsw: 30
+Status: PASSED 
+Ended: 1745384540.16 

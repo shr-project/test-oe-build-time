@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745358338.05 
+meson-native-1.7.0-r0: do_compile
+Elapsed time: 3.67 seconds
+utime: 60
+stime: 4
+cutime: 278
+cstime: 51
+IO rchar: 25362411
+IO wchar: 14375454
+IO syscr: 5856
+IO syscw: 3260
+IO read_bytes: 4567040
+IO write_bytes: 16224256
+IO cancelled_write_bytes: 4608000
+rusage ru_utime: 0.604329
+rusage ru_stime: 0.044654
+rusage ru_maxrss: 110000
+rusage ru_minflt: 6024
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 152
+rusage ru_nvcsw: 795
+rusage ru_nivcsw: 121
+Child rusage ru_utime: 2.787124
+Child rusage ru_stime: 0.517328
+Child rusage ru_maxrss: 108976
+Child rusage ru_minflt: 20934
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8920
+Child rusage ru_oublock: 31536
+Child rusage ru_nvcsw: 285
+Child rusage ru_nivcsw: 846
+Status: PASSED 
+Ended: 1745358341.72 

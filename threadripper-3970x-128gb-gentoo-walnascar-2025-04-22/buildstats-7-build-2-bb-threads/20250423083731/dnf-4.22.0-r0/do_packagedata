@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745414832.52 
+dnf-4.22.0-r0: do_packagedata
+Elapsed time: 0.31 seconds
+utime: 43
+stime: 2
+cutime: 2
+cstime: 6
+IO rchar: 1493089
+IO wchar: 951008
+IO syscr: 1623
+IO syscw: 349
+IO read_bytes: 0
+IO write_bytes: 2461696
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.43598
+rusage ru_stime: 0.025200999999999998
+rusage ru_maxrss: 82980
+rusage ru_minflt: 9281
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 528
+rusage ru_nvcsw: 25
+rusage ru_nivcsw: 19
+Child rusage ru_utime: 0.02682
+Child rusage ru_stime: 0.06589099999999999
+Child rusage ru_maxrss: 82980
+Child rusage ru_minflt: 7069
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 4280
+Child rusage ru_nvcsw: 399
+Child rusage ru_nivcsw: 49
+Status: PASSED 
+Ended: 1745414832.82 

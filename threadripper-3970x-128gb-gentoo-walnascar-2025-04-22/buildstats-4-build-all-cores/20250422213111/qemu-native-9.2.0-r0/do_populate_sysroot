@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745360426.32 
+qemu-native-9.2.0-r0: do_populate_sysroot
+Elapsed time: 2.98 seconds
+utime: 103
+stime: 58
+cutime: 168
+cstime: 102
+IO rchar: 781574018
+IO wchar: 428399357
+IO syscr: 28839
+IO syscw: 11816
+IO read_bytes: 12288
+IO write_bytes: 381763584
+IO cancelled_write_bytes: 46497792
+rusage ru_utime: 1.031658
+rusage ru_stime: 0.589519
+rusage ru_maxrss: 119736
+rusage ru_minflt: 20370
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 536208
+rusage ru_nvcsw: 119
+rusage ru_nivcsw: 321
+Child rusage ru_utime: 1.68347
+Child rusage ru_stime: 1.023462
+Child rusage ru_maxrss: 119736
+Child rusage ru_minflt: 147890
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 209424
+Child rusage ru_nvcsw: 2366
+Child rusage ru_nivcsw: 1866
+Status: PASSED 
+Ended: 1745360429.30 

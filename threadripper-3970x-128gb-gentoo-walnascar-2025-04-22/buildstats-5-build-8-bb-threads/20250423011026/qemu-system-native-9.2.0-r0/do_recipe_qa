@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745377840.11 
+qemu-system-native-9.2.0-r0: do_recipe_qa
+Elapsed time: 0.09 seconds
+utime: 25
+stime: 1
+cutime: 0
+cstime: 1
+IO rchar: 432651
+IO wchar: 106410
+IO syscr: 308
+IO syscw: 102
+IO read_bytes: 28672
+IO write_bytes: 118784
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.26004
+rusage ru_stime: 0.018002
+rusage ru_maxrss: 98980
+rusage ru_minflt: 5982
+rusage ru_majflt: 0
+rusage ru_inblock: 56
+rusage ru_oublock: 208
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 1
+Child rusage ru_utime: 0.006135
+Child rusage ru_stime: 0.018678999999999998
+Child rusage ru_maxrss: 98980
+Child rusage ru_minflt: 3420
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 227
+Child rusage ru_nivcsw: 10
+Status: PASSED 
+Ended: 1745377840.20 

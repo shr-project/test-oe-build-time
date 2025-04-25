@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745404749.91 
+linux-yocto-6.12.19+git-r0: do_create_package_spdx
+Elapsed time: 32.06 seconds
+utime: 3218
+stime: 22
+cutime: 8
+cstime: 10
+IO rchar: 77885523
+IO wchar: 32795540
+IO syscr: 15404
+IO syscw: 6930
+IO read_bytes: 225280
+IO write_bytes: 22392832
+IO cancelled_write_bytes: 0
+rusage ru_utime: 32.188662
+rusage ru_stime: 0.22197599999999998
+rusage ru_maxrss: 108936
+rusage ru_minflt: 14457
+rusage ru_majflt: 0
+rusage ru_inblock: 440
+rusage ru_oublock: 40456
+rusage ru_nvcsw: 21
+rusage ru_nivcsw: 378
+Child rusage ru_utime: 0.08786
+Child rusage ru_stime: 0.10317499999999999
+Child rusage ru_maxrss: 108936
+Child rusage ru_minflt: 11345
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 3280
+Child rusage ru_nvcsw: 757
+Child rusage ru_nivcsw: 42
+Status: PASSED 
+Ended: 1745404781.98 

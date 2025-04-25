@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745385466.14 
+lua-5.4.7-r0: do_install
+Elapsed time: 0.62 seconds
+utime: 74
+stime: 5
+cutime: 4
+cstime: 8
+IO rchar: 4634090
+IO wchar: 4348026
+IO syscr: 976
+IO syscw: 148
+IO read_bytes: 16384
+IO write_bytes: 4370432
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.745865
+rusage ru_stime: 0.054280999999999996
+rusage ru_maxrss: 82176
+rusage ru_minflt: 11793
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 192
+rusage ru_nvcsw: 44
+rusage ru_nivcsw: 269
+Child rusage ru_utime: 0.043004
+Child rusage ru_stime: 0.08960699999999999
+Child rusage ru_maxrss: 78264
+Child rusage ru_minflt: 6212
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 32
+Child rusage ru_oublock: 8344
+Child rusage ru_nvcsw: 103
+Child rusage ru_nivcsw: 300
+Status: PASSED 
+Ended: 1745385466.75 

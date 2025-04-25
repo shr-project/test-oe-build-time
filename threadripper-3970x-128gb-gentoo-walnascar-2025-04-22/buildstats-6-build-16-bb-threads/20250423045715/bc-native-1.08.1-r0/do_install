@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745384489.40 
+bc-native-1.08.1-r0: do_install
+Elapsed time: 0.45 seconds
+utime: 47
+stime: 2
+cutime: 21
+cstime: 7
+IO rchar: 3332595
+IO wchar: 292396
+IO syscr: 1555
+IO syscw: 254
+IO read_bytes: 0
+IO write_bytes: 380928
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.47734
+rusage ru_stime: 0.029141999999999998
+rusage ru_maxrss: 94496
+rusage ru_minflt: 10240
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 152
+rusage ru_nvcsw: 41
+rusage ru_nivcsw: 79
+Child rusage ru_utime: 0.21712599999999999
+Child rusage ru_stime: 0.076417
+Child rusage ru_maxrss: 93472
+Child rusage ru_minflt: 19780
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 592
+Child rusage ru_nvcsw: 198
+Child rusage ru_nivcsw: 108
+Status: PASSED 
+Ended: 1745384489.85 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745371073.34 
+rust-native-1.84.1-r0: do_patch
+Elapsed time: 1.17 seconds
+utime: 51
+stime: 4
+cutime: 29
+cstime: 51
+IO rchar: 3363469
+IO wchar: 1089114
+IO syscr: 3667
+IO syscw: 813
+IO read_bytes: 0
+IO write_bytes: 2048000
+IO cancelled_write_bytes: 32768
+rusage ru_utime: 0.512119
+rusage ru_stime: 0.043078
+rusage ru_maxrss: 90976
+rusage ru_minflt: 7711
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 320
+rusage ru_nvcsw: 40
+rusage ru_nivcsw: 61
+Child rusage ru_utime: 0.295875
+Child rusage ru_stime: 0.518071
+Child rusage ru_maxrss: 90976
+Child rusage ru_minflt: 78595
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 3680
+Child rusage ru_nvcsw: 1089
+Child rusage ru_nivcsw: 266
+Status: PASSED 
+Ended: 1745371074.51 

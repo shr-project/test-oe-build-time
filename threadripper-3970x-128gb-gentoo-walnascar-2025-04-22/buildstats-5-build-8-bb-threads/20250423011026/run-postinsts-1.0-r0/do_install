@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745377532.71 
+run-postinsts-1.0-r0: do_install
+Elapsed time: 0.42 seconds
+utime: 49
+stime: 3
+cutime: 1
+cstime: 4
+IO rchar: 309127
+IO wchar: 82463
+IO syscr: 663
+IO syscw: 64
+IO read_bytes: 0
+IO write_bytes: 147456
+IO cancelled_write_bytes: 8192
+rusage ru_utime: 0.49604299999999996
+rusage ru_stime: 0.036074999999999996
+rusage ru_maxrss: 82756
+rusage ru_minflt: 16128
+rusage ru_majflt: 1
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 441
+rusage ru_nivcsw: 32
+Child rusage ru_utime: 0.01974
+Child rusage ru_stime: 0.049817
+Child rusage ru_maxrss: 79336
+Child rusage ru_minflt: 5769
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 128
+Child rusage ru_nvcsw: 301
+Child rusage ru_nivcsw: 13
+Status: PASSED 
+Ended: 1745377533.13 

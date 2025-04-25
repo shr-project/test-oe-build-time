@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745360591.35 
+iproute2-6.13.0-r0: do_populate_sysroot
+Elapsed time: 1.40 seconds
+utime: 73
+stime: 4
+cutime: 3
+cstime: 6
+IO rchar: 740428
+IO wchar: 236130
+IO syscr: 730
+IO syscw: 158
+IO read_bytes: 0
+IO write_bytes: 299008
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.739862
+rusage ru_stime: 0.041766
+rusage ru_maxrss: 120396
+rusage ru_minflt: 9619
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 416
+rusage ru_nvcsw: 23
+rusage ru_nivcsw: 122
+Child rusage ru_utime: 0.036038
+Child rusage ru_stime: 0.060288999999999995
+Child rusage ru_maxrss: 120396
+Child rusage ru_minflt: 9869
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 168
+Child rusage ru_nvcsw: 334
+Child rusage ru_nivcsw: 65
+Status: PASSED 
+Ended: 1745360592.75 

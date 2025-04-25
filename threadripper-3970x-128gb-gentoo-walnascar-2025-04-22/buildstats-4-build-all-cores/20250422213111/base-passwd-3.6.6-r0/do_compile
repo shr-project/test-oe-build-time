@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745358951.13 
+base-passwd-3.6.6-r0: do_compile
+Elapsed time: 0.91 seconds
+utime: 42
+stime: 2
+cutime: 61
+cstime: 10
+IO rchar: 3161002
+IO wchar: 740228
+IO syscr: 1093
+IO syscw: 356
+IO read_bytes: 45056
+IO write_bytes: 274432
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.42117699999999997
+rusage ru_stime: 0.026445999999999997
+rusage ru_maxrss: 111476
+rusage ru_minflt: 5912
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 88
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 110
+Child rusage ru_utime: 0.61036
+Child rusage ru_stime: 0.100796
+Child rusage ru_maxrss: 107252
+Child rusage ru_minflt: 12872
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 88
+Child rusage ru_oublock: 448
+Child rusage ru_nvcsw: 116
+Child rusage ru_nivcsw: 131
+Status: PASSED 
+Ended: 1745358952.05 

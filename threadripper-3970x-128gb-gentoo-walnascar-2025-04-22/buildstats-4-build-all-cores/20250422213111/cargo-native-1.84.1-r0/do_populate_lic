@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745357776.08 
+cargo-native-1.84.1-r0: do_populate_lic
+Elapsed time: 0.12 seconds
+utime: 42
+stime: 2
+cutime: 0
+cstime: 3
+IO rchar: 1016349
+IO wchar: 282011
+IO syscr: 507
+IO syscw: 145
+IO read_bytes: 0
+IO write_bytes: 233472
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.429124
+rusage ru_stime: 0.022005999999999998
+rusage ru_maxrss: 102112
+rusage ru_minflt: 8260
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 376
+rusage ru_nvcsw: 18
+rusage ru_nivcsw: 54
+Child rusage ru_utime: 0.008955
+Child rusage ru_stime: 0.030372999999999997
+Child rusage ru_maxrss: 102112
+Child rusage ru_minflt: 4778
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 80
+Child rusage ru_nvcsw: 154
+Child rusage ru_nivcsw: 18
+Status: PASSED 
+Ended: 1745357776.20 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745376877.11 
+dropbear-2024.86-r0: do_patch
+Elapsed time: 0.42 seconds
+utime: 50
+stime: 2
+cutime: 9
+cstime: 11
+IO rchar: 790296
+IO wchar: 181730
+IO syscr: 961
+IO syscw: 197
+IO read_bytes: 0
+IO write_bytes: 258048
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.5016039999999999
+rusage ru_stime: 0.023166
+rusage ru_maxrss: 91160
+rusage ru_minflt: 5838
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 240
+rusage ru_nvcsw: 18
+rusage ru_nivcsw: 41
+Child rusage ru_utime: 0.09154699999999999
+Child rusage ru_stime: 0.113649
+Child rusage ru_maxrss: 91160
+Child rusage ru_minflt: 20295
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 264
+Child rusage ru_nvcsw: 278
+Child rusage ru_nivcsw: 55
+Status: PASSED 
+Ended: 1745376877.53 

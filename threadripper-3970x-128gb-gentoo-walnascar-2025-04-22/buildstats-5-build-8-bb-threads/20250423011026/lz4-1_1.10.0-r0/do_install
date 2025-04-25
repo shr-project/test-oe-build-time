@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745372408.21 
+lz4-1_1.10.0-r0: do_install
+Elapsed time: 0.53 seconds
+utime: 47
+stime: 3
+cutime: 9
+cstime: 14
+IO rchar: 5520617
+IO wchar: 3033232
+IO syscr: 2399
+IO syscw: 277
+IO read_bytes: 393216
+IO write_bytes: 3235840
+IO cancelled_write_bytes: 24576
+rusage ru_utime: 0.477056
+rusage ru_stime: 0.036926
+rusage ru_maxrss: 95332
+rusage ru_minflt: 12115
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 256
+rusage ru_nvcsw: 461
+rusage ru_nivcsw: 16
+Child rusage ru_utime: 0.095333
+Child rusage ru_stime: 0.144478
+Child rusage ru_maxrss: 92456
+Child rusage ru_minflt: 22125
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 768
+Child rusage ru_oublock: 6064
+Child rusage ru_nvcsw: 693
+Child rusage ru_nivcsw: 73
+Status: PASSED 
+Ended: 1745372408.75 

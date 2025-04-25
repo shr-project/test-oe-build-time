@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745416802.53 
+libmodulemd-native-2.15.0-r0: do_unpack
+Elapsed time: 1.19 seconds
+utime: 56
+stime: 6
+cutime: 43
+cstime: 30
+IO rchar: 5059527
+IO wchar: 4396573
+IO syscr: 1728
+IO syscw: 801
+IO read_bytes: 2560000
+IO write_bytes: 6070272
+IO cancelled_write_bytes: 12288
+rusage ru_utime: 0.570197
+rusage ru_stime: 0.060444
+rusage ru_maxrss: 87904
+rusage ru_minflt: 9274
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 96
+rusage ru_nvcsw: 35
+rusage ru_nivcsw: 107
+Child rusage ru_utime: 0.432297
+Child rusage ru_stime: 0.307539
+Child rusage ru_maxrss: 87904
+Child rusage ru_minflt: 19776
+Child rusage ru_majflt: 22
+Child rusage ru_inblock: 5000
+Child rusage ru_oublock: 11760
+Child rusage ru_nvcsw: 54
+Child rusage ru_nivcsw: 126
+Status: PASSED 
+Ended: 1745416803.73 

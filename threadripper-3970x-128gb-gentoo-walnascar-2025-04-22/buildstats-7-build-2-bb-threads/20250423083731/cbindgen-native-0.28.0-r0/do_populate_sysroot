@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745407421.10 
+cbindgen-native-0.28.0-r0: do_populate_sysroot
+Elapsed time: 1.19 seconds
+utime: 125
+stime: 7
+cutime: 27
+cstime: 12
+IO rchar: 54980893
+IO wchar: 25756381
+IO syscr: 3796
+IO syscw: 1666
+IO read_bytes: 4096
+IO write_bytes: 20205568
+IO cancelled_write_bytes: 5636096
+rusage ru_utime: 1.255232
+rusage ru_stime: 0.079887
+rusage ru_maxrss: 103672
+rusage ru_minflt: 15105
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 13672
+rusage ru_nvcsw: 24
+rusage ru_nivcsw: 436
+Child rusage ru_utime: 0.275173
+Child rusage ru_stime: 0.12004799999999999
+Child rusage ru_maxrss: 103672
+Child rusage ru_minflt: 19932
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 25792
+Child rusage ru_nvcsw: 649
+Child rusage ru_nivcsw: 317
+Status: PASSED 
+Ended: 1745407422.29 

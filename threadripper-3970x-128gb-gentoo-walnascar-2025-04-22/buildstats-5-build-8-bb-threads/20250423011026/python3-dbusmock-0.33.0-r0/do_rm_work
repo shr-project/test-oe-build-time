@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745377460.40 
+python3-dbusmock-0.33.0-r0: do_rm_work
+Elapsed time: 0.56 seconds
+utime: 42
+stime: 3
+cutime: 8
+cstime: 26
+IO rchar: 591065
+IO wchar: 35898
+IO syscr: 851
+IO syscw: 74
+IO read_bytes: 0
+IO write_bytes: 21762048
+IO cancelled_write_bytes: 8663040
+rusage ru_utime: 0.42533
+rusage ru_stime: 0.037094999999999996
+rusage ru_maxrss: 95692
+rusage ru_minflt: 11775
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 56
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 4
+Child rusage ru_utime: 0.08405699999999999
+Child rusage ru_stime: 0.267384
+Child rusage ru_maxrss: 89932
+Child rusage ru_minflt: 18858
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 42448
+Child rusage ru_nvcsw: 173
+Child rusage ru_nivcsw: 41
+Status: PASSED 
+Ended: 1745377460.96 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745384560.71 
+opkg-utils-native-0.7.0-r0: do_unpack
+Elapsed time: 5.53 seconds
+utime: 48
+stime: 5
+cutime: 50
+cstime: 15
+IO rchar: 4616612
+IO wchar: 209921
+IO syscr: 1573
+IO syscw: 203
+IO read_bytes: 622592
+IO write_bytes: 614400
+IO cancelled_write_bytes: 8192
+rusage ru_utime: 0.485075
+rusage ru_stime: 0.05279
+rusage ru_maxrss: 100104
+rusage ru_minflt: 10661
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 104
+rusage ru_nvcsw: 36
+rusage ru_nivcsw: 186
+Child rusage ru_utime: 0.505481
+Child rusage ru_stime: 0.150361
+Child rusage ru_maxrss: 100104
+Child rusage ru_minflt: 18469
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 1216
+Child rusage ru_oublock: 1096
+Child rusage ru_nvcsw: 46
+Child rusage ru_nivcsw: 174
+Status: PASSED 
+Ended: 1745384566.24 

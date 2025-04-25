@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745370461.08 
+core-image-sato-1.0-r0: do_image_ext4
+Elapsed time: 18.46 seconds
+utime: 1379
+stime: 51
+cutime: 172
+cstime: 206
+IO rchar: 1430595325
+IO wchar: 1427645218
+IO syscr: 96323
+IO syscw: 348731
+IO read_bytes: 2076672
+IO write_bytes: 1408512000
+IO cancelled_write_bytes: 0
+rusage ru_utime: 13.798039
+rusage ru_stime: 0.517351
+rusage ru_maxrss: 121392
+rusage ru_minflt: 21097
+rusage ru_majflt: 1
+rusage ru_inblock: 840
+rusage ru_oublock: 616
+rusage ru_nvcsw: 27679
+rusage ru_nivcsw: 124
+Child rusage ru_utime: 1.7262629999999999
+Child rusage ru_stime: 2.06449
+Child rusage ru_maxrss: 121392
+Child rusage ru_minflt: 7755
+Child rusage ru_majflt: 14
+Child rusage ru_inblock: 3216
+Child rusage ru_oublock: 2750384
+Child rusage ru_nvcsw: 79518
+Child rusage ru_nivcsw: 1076
+Status: PASSED 
+Ended: 1745370479.55 

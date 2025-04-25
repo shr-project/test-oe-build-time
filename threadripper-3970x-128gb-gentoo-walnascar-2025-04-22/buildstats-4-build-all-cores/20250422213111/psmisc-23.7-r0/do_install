@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745359322.43 
+psmisc-23.7-r0: do_install
+Elapsed time: 1.80 seconds
+utime: 76
+stime: 5
+cutime: 29
+cstime: 57
+IO rchar: 3937081
+IO wchar: 1130279
+IO syscr: 6079
+IO syscw: 568
+IO read_bytes: 40960
+IO write_bytes: 1216512
+IO cancelled_write_bytes: 36864
+rusage ru_utime: 0.761423
+rusage ru_stime: 0.056928
+rusage ru_maxrss: 84788
+rusage ru_minflt: 12221
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 200
+rusage ru_nvcsw: 240
+rusage ru_nivcsw: 312
+Child rusage ru_utime: 0.293769
+Child rusage ru_stime: 0.579433
+Child rusage ru_maxrss: 82092
+Child rusage ru_minflt: 69953
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 80
+Child rusage ru_oublock: 2176
+Child rusage ru_nvcsw: 1492
+Child rusage ru_nivcsw: 999
+Status: PASSED 
+Ended: 1745359324.23 

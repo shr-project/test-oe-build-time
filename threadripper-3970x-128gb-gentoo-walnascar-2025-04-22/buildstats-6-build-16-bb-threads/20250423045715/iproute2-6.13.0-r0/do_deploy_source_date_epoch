@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745384665.81 
+iproute2-6.13.0-r0: do_deploy_source_date_epoch
+Elapsed time: 0.31 seconds
+utime: 38
+stime: 3
+cutime: 1
+cstime: 2
+IO rchar: 470383
+IO wchar: 132651
+IO syscr: 355
+IO syscw: 105
+IO read_bytes: 0
+IO write_bytes: 122880
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.38195399999999996
+rusage ru_stime: 0.032996
+rusage ru_maxrss: 103276
+rusage ru_minflt: 9835
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 200
+rusage ru_nvcsw: 17
+rusage ru_nivcsw: 58
+Child rusage ru_utime: 0.012858999999999999
+Child rusage ru_stime: 0.026128
+Child rusage ru_maxrss: 103276
+Child rusage ru_minflt: 4313
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 267
+Child rusage ru_nivcsw: 38
+Status: PASSED 
+Ended: 1745384666.11 

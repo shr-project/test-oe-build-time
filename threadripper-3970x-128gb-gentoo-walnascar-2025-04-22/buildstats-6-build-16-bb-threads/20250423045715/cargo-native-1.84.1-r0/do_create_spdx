@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745388522.20 
+cargo-native-1.84.1-r0: do_create_spdx
+Elapsed time: 0.55 seconds
+utime: 101
+stime: 4
+cutime: 1
+cstime: 3
+IO rchar: 1449245
+IO wchar: 286416
+IO syscr: 513
+IO syscw: 205
+IO read_bytes: 0
+IO write_bytes: 294912
+IO cancelled_write_bytes: 0
+rusage ru_utime: 1.014529
+rusage ru_stime: 0.046969
+rusage ru_maxrss: 124640
+rusage ru_minflt: 7665
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 448
+rusage ru_nvcsw: 19
+rusage ru_nivcsw: 172
+Child rusage ru_utime: 0.017076
+Child rusage ru_stime: 0.038183999999999996
+Child rusage ru_maxrss: 124640
+Child rusage ru_minflt: 4772
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 128
+Child rusage ru_nvcsw: 193
+Child rusage ru_nivcsw: 35
+Status: PASSED 
+Ended: 1745388522.75 
