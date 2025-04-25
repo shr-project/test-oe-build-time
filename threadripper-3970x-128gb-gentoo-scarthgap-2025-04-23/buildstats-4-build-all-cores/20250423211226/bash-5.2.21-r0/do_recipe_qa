@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442795.08 
+bash-5.2.21-r0: do_recipe_qa
+Elapsed time: 0.31 seconds
+utime: 56
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 816028
+IO wchar: 117794
+IO syscr: 364
+IO syscw: 91
+IO read_bytes: 0
+IO write_bytes: 118784
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.563488
+rusage ru_stime: 0.026965
+rusage ru_maxrss: 80812
+rusage ru_minflt: 10051
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 200
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 112
+Child rusage ru_utime: 0.01841
+Child rusage ru_stime: 0.033471
+Child rusage ru_maxrss: 80812
+Child rusage ru_minflt: 4519
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 239
+Child rusage ru_nivcsw: 35
+Status: PASSED 
+Ended: 1745442795.39 

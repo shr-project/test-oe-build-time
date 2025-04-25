@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442782.82 
+libcap-native-2.69-r0: do_recipe_qa
+Elapsed time: 0.25 seconds
+utime: 56
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 965705
+IO wchar: 113329
+IO syscr: 350
+IO syscw: 93
+IO read_bytes: 135168
+IO write_bytes: 151552
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.566004
+rusage ru_stime: 0.025862999999999997
+rusage ru_maxrss: 78688
+rusage ru_minflt: 9711
+rusage ru_majflt: 0
+rusage ru_inblock: 264
+rusage ru_oublock: 264
+rusage ru_nvcsw: 13
+rusage ru_nivcsw: 82
+Child rusage ru_utime: 0.01686
+Child rusage ru_stime: 0.030688
+Child rusage ru_maxrss: 78688
+Child rusage ru_minflt: 4485
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 146
+Child rusage ru_nivcsw: 46
+Status: PASSED 
+Ended: 1745442783.07 

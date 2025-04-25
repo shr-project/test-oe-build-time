@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442808.46 
+libmodulemd-native-2.15.0-r0: do_recipe_qa
+Elapsed time: 0.22 seconds
+utime: 59
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 957421
+IO wchar: 122998
+IO syscr: 358
+IO syscw: 106
+IO read_bytes: 0
+IO write_bytes: 131072
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.591649
+rusage ru_stime: 0.025897
+rusage ru_maxrss: 84464
+rusage ru_minflt: 10209
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 224
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 33
+Child rusage ru_utime: 0.013621
+Child rusage ru_stime: 0.033921
+Child rusage ru_maxrss: 84464
+Child rusage ru_minflt: 4488
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 136
+Child rusage ru_nivcsw: 19
+Status: PASSED 
+Ended: 1745442808.68 

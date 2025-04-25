@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745483532.18 
+cross-localedef-native-2.39+git-r0: do_unpack
+Elapsed time: 3.25 seconds
+utime: 19
+stime: 5
+cutime: 108
+cstime: 214
+IO rchar: 86178690
+IO wchar: 318920126
+IO syscr: 7889
+IO syscw: 36457
+IO read_bytes: 262144
+IO write_bytes: 341078016
+IO cancelled_write_bytes: 16384
+rusage ru_utime: 0.193104
+rusage ru_stime: 0.053474999999999995
+rusage ru_maxrss: 87992
+rusage ru_minflt: 14558
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 256
+rusage ru_nvcsw: 60
+rusage ru_nivcsw: 13
+Child rusage ru_utime: 1.086931
+Child rusage ru_stime: 2.146177
+Child rusage ru_maxrss: 100504
+Child rusage ru_minflt: 51041
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 512
+Child rusage ru_oublock: 665912
+Child rusage ru_nvcsw: 5614
+Child rusage ru_nivcsw: 128
+Status: PASSED 
+Ended: 1745483535.42 

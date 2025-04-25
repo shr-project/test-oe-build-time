@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745467602.66 
+llvm-native-18.1.5-r0: do_rm_work
+Elapsed time: 5.12 seconds
+utime: 60
+stime: 2
+cutime: 16
+cstime: 383
+IO rchar: 1010835
+IO wchar: 27765
+IO syscr: 706
+IO syscw: 61
+IO read_bytes: 65536
+IO write_bytes: 115986432
+IO cancelled_write_bytes: 195043328
+rusage ru_utime: 0.606074
+rusage ru_stime: 0.024879
+rusage ru_maxrss: 98544
+rusage ru_minflt: 7086
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 48
+rusage ru_nvcsw: 6
+rusage ru_nivcsw: 94
+Child rusage ru_utime: 0.16500199999999998
+Child rusage ru_stime: 3.832153
+Child rusage ru_maxrss: 92808
+Child rusage ru_minflt: 15441
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 128
+Child rusage ru_oublock: 226488
+Child rusage ru_nvcsw: 188
+Child rusage ru_nivcsw: 619
+Status: PASSED 
+Ended: 1745467607.78 

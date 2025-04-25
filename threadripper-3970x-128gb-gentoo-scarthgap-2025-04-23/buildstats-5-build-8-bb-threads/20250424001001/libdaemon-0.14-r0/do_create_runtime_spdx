@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745455110.50 
+libdaemon-0.14-r0: do_create_runtime_spdx
+Elapsed time: 0.30 seconds
+utime: 41
+stime: 3
+cutime: 1
+cstime: 3
+IO rchar: 1181492
+IO wchar: 399226
+IO syscr: 477
+IO syscw: 111
+IO read_bytes: 0
+IO write_bytes: 335872
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.41950899999999997
+rusage ru_stime: 0.037864999999999996
+rusage ru_maxrss: 93140
+rusage ru_minflt: 9781
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 488
+rusage ru_nvcsw: 20
+rusage ru_nivcsw: 21
+Child rusage ru_utime: 0.012832999999999999
+Child rusage ru_stime: 0.035845999999999996
+Child rusage ru_maxrss: 93140
+Child rusage ru_minflt: 5870
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 168
+Child rusage ru_nvcsw: 291
+Child rusage ru_nivcsw: 41
+Status: PASSED 
+Ended: 1745455110.80 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745445454.33 
+gnome-desktop-testing-2021.1-r0: do_populate_sysroot
+Elapsed time: 0.71 seconds
+utime: 87
+stime: 3
+cutime: 4
+cstime: 6
+IO rchar: 985772
+IO wchar: 244519
+IO syscr: 564
+IO syscw: 149
+IO read_bytes: 0
+IO write_bytes: 471040
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.8745769999999999
+rusage ru_stime: 0.033943999999999995
+rusage ru_maxrss: 92860
+rusage ru_minflt: 13472
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 744
+rusage ru_nvcsw: 21
+rusage ru_nivcsw: 22
+Child rusage ru_utime: 0.040664
+Child rusage ru_stime: 0.062287999999999996
+Child rusage ru_maxrss: 92860
+Child rusage ru_minflt: 9320
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 176
+Child rusage ru_nvcsw: 168
+Child rusage ru_nivcsw: 21
+Status: PASSED 
+Ended: 1745445455.04 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745456502.38 
+tcp-wrappers-7.6-r0: do_create_runtime_spdx
+Elapsed time: 0.30 seconds
+utime: 42
+stime: 3
+cutime: 1
+cstime: 2
+IO rchar: 1353725
+IO wchar: 420618
+IO syscr: 517
+IO syscw: 110
+IO read_bytes: 0
+IO write_bytes: 278528
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.424048
+rusage ru_stime: 0.031076
+rusage ru_maxrss: 95468
+rusage ru_minflt: 9732
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 384
+rusage ru_nvcsw: 20
+rusage ru_nivcsw: 9
+Child rusage ru_utime: 0.018667
+Child rusage ru_stime: 0.026463
+Child rusage ru_maxrss: 95468
+Child rusage ru_minflt: 5876
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 160
+Child rusage ru_nvcsw: 261
+Child rusage ru_nivcsw: 10
+Status: PASSED 
+Ended: 1745456502.68 

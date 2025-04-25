@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745458410.33 
+busybox-1.36.1-r0: do_package_write_rpm
+Elapsed time: 8.79 seconds
+utime: 116
+stime: 17
+cutime: 1555
+cstime: 148
+IO rchar: 56902214
+IO wchar: 10405745
+IO syscr: 15322
+IO syscw: 3070
+IO read_bytes: 4096
+IO write_bytes: 6606848
+IO cancelled_write_bytes: 0
+rusage ru_utime: 1.1608
+rusage ru_stime: 0.178584
+rusage ru_maxrss: 95408
+rusage ru_minflt: 28369
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 1200
+rusage ru_nvcsw: 2287
+rusage ru_nivcsw: 710
+Child rusage ru_utime: 15.554281
+Child rusage ru_stime: 1.486051
+Child rusage ru_maxrss: 791108
+Child rusage ru_minflt: 292461
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 11704
+Child rusage ru_nvcsw: 13524
+Child rusage ru_nivcsw: 5175
+Status: PASSED 
+Ended: 1745458419.11 

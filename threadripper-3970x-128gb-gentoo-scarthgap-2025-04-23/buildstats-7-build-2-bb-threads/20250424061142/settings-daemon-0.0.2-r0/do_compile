@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745488575.31 
+settings-daemon-0.0.2-r0: do_compile
+Elapsed time: 1.99 seconds
+utime: 46
+stime: 3
+cutime: 141
+cstime: 38
+IO rchar: 26243294
+IO wchar: 1276904
+IO syscr: 5187
+IO syscw: 707
+IO read_bytes: 208896
+IO write_bytes: 524288
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.46343799999999996
+rusage ru_stime: 0.032012
+rusage ru_maxrss: 92528
+rusage ru_minflt: 6671
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 208
+rusage ru_nvcsw: 34
+rusage ru_nivcsw: 33
+Child rusage ru_utime: 1.416811
+Child rusage ru_stime: 0.384612
+Child rusage ru_maxrss: 87656
+Child rusage ru_minflt: 57939
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 408
+Child rusage ru_oublock: 816
+Child rusage ru_nvcsw: 219
+Child rusage ru_nivcsw: 220
+Status: PASSED 
+Ended: 1745488577.30 

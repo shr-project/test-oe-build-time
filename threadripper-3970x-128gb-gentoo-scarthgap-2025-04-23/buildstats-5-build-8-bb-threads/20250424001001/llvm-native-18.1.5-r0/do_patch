@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745458920.58 
+llvm-native-18.1.5-r0: do_patch
+Elapsed time: 0.15 seconds
+utime: 35
+stime: 1
+cutime: 5
+cstime: 5
+IO rchar: 1362831
+IO wchar: 255169
+IO syscr: 924
+IO syscw: 198
+IO read_bytes: 0
+IO write_bytes: 319488
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.350225
+rusage ru_stime: 0.01701
+rusage ru_maxrss: 99828
+rusage ru_minflt: 6259
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 168
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 32
+Child rusage ru_utime: 0.057250999999999996
+Child rusage ru_stime: 0.054245999999999996
+Child rusage ru_maxrss: 99828
+Child rusage ru_minflt: 19130
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 456
+Child rusage ru_nvcsw: 251
+Child rusage ru_nivcsw: 57
+Status: PASSED 
+Ended: 1745458920.73 

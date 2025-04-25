@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745453483.76 
+util-linux-native-2.39.3-r0: do_recipe_qa
+Elapsed time: 0.18 seconds
+utime: 48
+stime: 1
+cutime: 1
+cstime: 2
+IO rchar: 1048989
+IO wchar: 127672
+IO syscr: 387
+IO syscw: 109
+IO read_bytes: 0
+IO write_bytes: 143360
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.483627
+rusage ru_stime: 0.014926
+rusage ru_maxrss: 81808
+rusage ru_minflt: 10410
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 240
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 23
+Child rusage ru_utime: 0.011909
+Child rusage ru_stime: 0.026546
+Child rusage ru_maxrss: 81808
+Child rusage ru_minflt: 4553
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 263
+Child rusage ru_nivcsw: 14
+Status: PASSED 
+Ended: 1745453483.94 

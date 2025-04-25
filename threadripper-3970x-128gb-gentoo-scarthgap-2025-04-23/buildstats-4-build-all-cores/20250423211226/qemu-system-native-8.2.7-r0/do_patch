@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442947.97 
+qemu-system-native-8.2.7-r0: do_patch
+Elapsed time: 1.66 seconds
+utime: 38
+stime: 2
+cutime: 59
+cstime: 109
+IO rchar: 8002421
+IO wchar: 3001187
+IO syscr: 8895
+IO syscw: 1753
+IO read_bytes: 131072
+IO write_bytes: 3362816
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.38844999999999996
+rusage ru_stime: 0.028648
+rusage ru_maxrss: 86032
+rusage ru_minflt: 6383
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 536
+rusage ru_nvcsw: 83
+rusage ru_nivcsw: 47
+Child rusage ru_utime: 0.599522
+Child rusage ru_stime: 1.0962399999999999
+Child rusage ru_maxrss: 86032
+Child rusage ru_minflt: 197991
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 256
+Child rusage ru_oublock: 6032
+Child rusage ru_nvcsw: 2568
+Child rusage ru_nivcsw: 613
+Status: PASSED 
+Ended: 1745442949.63 

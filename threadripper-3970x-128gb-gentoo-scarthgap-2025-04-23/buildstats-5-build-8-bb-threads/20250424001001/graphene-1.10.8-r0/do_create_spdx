@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745455172.14 
+graphene-1.10.8-r0: do_create_spdx
+Elapsed time: 1.02 seconds
+utime: 123
+stime: 6
+cutime: 3
+cstime: 4
+IO rchar: 1759801
+IO wchar: 732034
+IO syscr: 646
+IO syscw: 315
+IO read_bytes: 0
+IO write_bytes: 499712
+IO cancelled_write_bytes: 0
+rusage ru_utime: 1.237535
+rusage ru_stime: 0.062278
+rusage ru_maxrss: 97160
+rusage ru_minflt: 10740
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 728
+rusage ru_nvcsw: 26
+rusage ru_nivcsw: 217
+Child rusage ru_utime: 0.035407
+Child rusage ru_stime: 0.048958999999999996
+Child rusage ru_maxrss: 97160
+Child rusage ru_minflt: 6748
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 248
+Child rusage ru_nvcsw: 336
+Child rusage ru_nivcsw: 64
+Status: PASSED 
+Ended: 1745455173.16 

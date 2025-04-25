@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745489896.73 
+ttyrun-2.31.0-r0: do_create_spdx
+Elapsed time: 0.93 seconds
+utime: 86
+stime: 4
+cutime: 4
+cstime: 5
+IO rchar: 1373940
+IO wchar: 540780
+IO syscr: 535
+IO syscw: 203
+IO read_bytes: 0
+IO write_bytes: 425984
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.869443
+rusage ru_stime: 0.040111999999999995
+rusage ru_maxrss: 93564
+rusage ru_minflt: 10086
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 560
+rusage ru_nvcsw: 30
+rusage ru_nivcsw: 100
+Child rusage ru_utime: 0.043683
+Child rusage ru_stime: 0.05092
+Child rusage ru_maxrss: 93564
+Child rusage ru_minflt: 6666
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 272
+Child rusage ru_nvcsw: 368
+Child rusage ru_nivcsw: 49
+Status: PASSED 
+Ended: 1745489897.66 

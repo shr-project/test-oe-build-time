@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745467443.35 
+sed-4.9-r0: do_create_runtime_spdx
+Elapsed time: 1.41 seconds
+utime: 150
+stime: 8
+cutime: 1
+cstime: 3
+IO rchar: 5446294
+IO wchar: 691983
+IO syscr: 6612
+IO syscw: 187
+IO read_bytes: 0
+IO write_bytes: 638976
+IO cancelled_write_bytes: 0
+rusage ru_utime: 1.506589
+rusage ru_stime: 0.081923
+rusage ru_maxrss: 96800
+rusage ru_minflt: 11128
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 1080
+rusage ru_nvcsw: 18
+rusage ru_nivcsw: 63
+Child rusage ru_utime: 0.015938
+Child rusage ru_stime: 0.036941999999999996
+Child rusage ru_maxrss: 96800
+Child rusage ru_minflt: 6017
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 168
+Child rusage ru_nvcsw: 160
+Child rusage ru_nivcsw: 38
+Status: PASSED 
+Ended: 1745467444.76 

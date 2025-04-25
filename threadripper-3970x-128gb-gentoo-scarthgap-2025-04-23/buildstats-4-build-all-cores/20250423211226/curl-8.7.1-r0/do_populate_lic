@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442930.87 
+curl-8.7.1-r0: do_populate_lic
+Elapsed time: 0.75 seconds
+utime: 57
+stime: 3
+cutime: 2
+cstime: 4
+IO rchar: 1007706
+IO wchar: 161544
+IO syscr: 517
+IO syscw: 110
+IO read_bytes: 0
+IO write_bytes: 159744
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.574445
+rusage ru_stime: 0.036772
+rusage ru_maxrss: 86812
+rusage ru_minflt: 10399
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 256
+rusage ru_nvcsw: 17
+rusage ru_nivcsw: 100
+Child rusage ru_utime: 0.025906
+Child rusage ru_stime: 0.045944
+Child rusage ru_maxrss: 86812
+Child rusage ru_minflt: 5775
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 56
+Child rusage ru_nvcsw: 288
+Child rusage ru_nivcsw: 59
+Status: PASSED 
+Ended: 1745442931.62 

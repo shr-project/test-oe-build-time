@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745443486.33 
+rust-native-1.75.0-r0: do_install
+Elapsed time: 426.10 seconds
+utime: 110
+stime: 9
+cutime: 499608
+cstime: 15337
+IO rchar: 36996470156
+IO wchar: 6950093809
+IO syscr: 8423085
+IO syscw: 2702356
+IO read_bytes: 2588672
+IO write_bytes: 6216331264
+IO cancelled_write_bytes: 1495142400
+rusage ru_utime: 1.108344
+rusage ru_stime: 0.093083
+rusage ru_maxrss: 89788
+rusage ru_minflt: 11991
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 4736
+rusage ru_nvcsw: 2428
+rusage ru_nivcsw: 133
+Child rusage ru_utime: 4996.08827
+Child rusage ru_stime: 153.372508
+Child rusage ru_maxrss: 1635080
+Child rusage ru_minflt: 33144877
+Child rusage ru_majflt: 29
+Child rusage ru_inblock: 5056
+Child rusage ru_oublock: 12136536
+Child rusage ru_nvcsw: 897834
+Child rusage ru_nivcsw: 426470
+Status: PASSED 
+Ended: 1745443912.43 

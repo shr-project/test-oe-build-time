@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745464598.84 
+binutils-native-2.42-r0: do_recipe_qa
+Elapsed time: 0.19 seconds
+utime: 42
+stime: 3
+cutime: 1
+cstime: 2
+IO rchar: 1040146
+IO wchar: 122876
+IO syscr: 376
+IO syscw: 104
+IO read_bytes: 0
+IO write_bytes: 131072
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.42983899999999997
+rusage ru_stime: 0.039892
+rusage ru_maxrss: 81104
+rusage ru_minflt: 10320
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 224
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 43
+Child rusage ru_utime: 0.012404
+Child rusage ru_stime: 0.029713
+Child rusage ru_maxrss: 81104
+Child rusage ru_minflt: 4562
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 277
+Child rusage ru_nivcsw: 51
+Status: PASSED 
+Ended: 1745464599.03 

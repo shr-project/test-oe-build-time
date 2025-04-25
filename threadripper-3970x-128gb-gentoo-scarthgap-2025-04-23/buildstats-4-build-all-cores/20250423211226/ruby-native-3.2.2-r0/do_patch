@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442805.03 
+ruby-native-3.2.2-r0: do_patch
+Elapsed time: 0.94 seconds
+utime: 49
+stime: 2
+cutime: 32
+cstime: 56
+IO rchar: 4465566
+IO wchar: 1371772
+IO syscr: 4881
+IO syscw: 875
+IO read_bytes: 131072
+IO write_bytes: 1552384
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.49401599999999996
+rusage ru_stime: 0.025637
+rusage ru_maxrss: 82256
+rusage ru_minflt: 6559
+rusage ru_majflt: 0
+rusage ru_inblock: 256
+rusage ru_oublock: 272
+rusage ru_nvcsw: 50
+rusage ru_nivcsw: 42
+Child rusage ru_utime: 0.327277
+Child rusage ru_stime: 0.561561
+Child rusage ru_maxrss: 82256
+Child rusage ru_minflt: 107168
+Child rusage ru_majflt: 2
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 2760
+Child rusage ru_nvcsw: 1385
+Child rusage ru_nivcsw: 334
+Status: PASSED 
+Ended: 1745442805.97 

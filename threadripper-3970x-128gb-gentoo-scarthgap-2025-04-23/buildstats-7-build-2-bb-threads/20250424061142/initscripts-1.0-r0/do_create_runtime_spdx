@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745490286.50 
+initscripts-1.0-r0: do_create_runtime_spdx
+Elapsed time: 0.27 seconds
+utime: 38
+stime: 1
+cutime: 1
+cstime: 3
+IO rchar: 1216090
+IO wchar: 391264
+IO syscr: 503
+IO syscw: 105
+IO read_bytes: 28672
+IO write_bytes: 274432
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.38423199999999996
+rusage ru_stime: 0.014045
+rusage ru_maxrss: 93160
+rusage ru_minflt: 9709
+rusage ru_majflt: 0
+rusage ru_inblock: 56
+rusage ru_oublock: 392
+rusage ru_nvcsw: 24
+rusage ru_nivcsw: 14
+Child rusage ru_utime: 0.015111
+Child rusage ru_stime: 0.032857
+Child rusage ru_maxrss: 93160
+Child rusage ru_minflt: 5870
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 144
+Child rusage ru_nvcsw: 305
+Child rusage ru_nivcsw: 31
+Status: PASSED 
+Ended: 1745490286.77 

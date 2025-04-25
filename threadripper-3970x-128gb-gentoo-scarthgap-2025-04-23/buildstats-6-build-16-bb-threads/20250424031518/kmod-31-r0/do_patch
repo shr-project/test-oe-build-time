@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745464703.92 
+kmod-31-r0: do_patch
+Elapsed time: 0.28 seconds
+utime: 30
+stime: 3
+cutime: 9
+cstime: 11
+IO rchar: 2092540
+IO wchar: 824121
+IO syscr: 1545
+IO syscw: 399
+IO read_bytes: 0
+IO write_bytes: 1191936
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.306832
+rusage ru_stime: 0.032087
+rusage ru_maxrss: 83476
+rusage ru_minflt: 6620
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 600
+rusage ru_nvcsw: 21
+rusage ru_nivcsw: 30
+Child rusage ru_utime: 0.09039499999999999
+Child rusage ru_stime: 0.11566
+Child rusage ru_maxrss: 83476
+Child rusage ru_minflt: 29645
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1728
+Child rusage ru_nvcsw: 390
+Child rusage ru_nivcsw: 135
+Status: PASSED 
+Ended: 1745464704.20 

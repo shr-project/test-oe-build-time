@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745455387.61 
+mtdev-1.1.6-r0: do_rm_work
+Elapsed time: 0.61 seconds
+utime: 42
+stime: 2
+cutime: 11
+cstime: 19
+IO rchar: 828441
+IO wchar: 28655
+IO syscr: 872
+IO syscw: 66
+IO read_bytes: 0
+IO write_bytes: 13357056
+IO cancelled_write_bytes: 925696
+rusage ru_utime: 0.42693
+rusage ru_stime: 0.025873999999999998
+rusage ru_maxrss: 95000
+rusage ru_minflt: 6585
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 104
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 42
+Child rusage ru_utime: 0.110298
+Child rusage ru_stime: 0.199369
+Child rusage ru_maxrss: 89652
+Child rusage ru_minflt: 19469
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 25984
+Child rusage ru_nvcsw: 214
+Child rusage ru_nivcsw: 75
+Status: PASSED 
+Ended: 1745455388.22 

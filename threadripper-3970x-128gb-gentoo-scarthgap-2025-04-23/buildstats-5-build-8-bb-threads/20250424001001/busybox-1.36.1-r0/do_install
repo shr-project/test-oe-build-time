@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745456659.56 
+busybox-1.36.1-r0: do_install
+Elapsed time: 0.55 seconds
+utime: 65
+stime: 5
+cutime: 3
+cstime: 9
+IO rchar: 5984680
+IO wchar: 4640931
+IO syscr: 1265
+IO syscw: 95
+IO read_bytes: 0
+IO write_bytes: 4739072
+IO cancelled_write_bytes: 12288
+rusage ru_utime: 0.650863
+rusage ru_stime: 0.052294999999999994
+rusage ru_maxrss: 90716
+rusage ru_minflt: 15190
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 208
+rusage ru_nvcsw: 488
+rusage ru_nivcsw: 134
+Child rusage ru_utime: 0.037690999999999995
+Child rusage ru_stime: 0.092944
+Child rusage ru_maxrss: 87760
+Child rusage ru_minflt: 14786
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 9048
+Child rusage ru_nvcsw: 448
+Child rusage ru_nivcsw: 125
+Status: PASSED 
+Ended: 1745456660.11 

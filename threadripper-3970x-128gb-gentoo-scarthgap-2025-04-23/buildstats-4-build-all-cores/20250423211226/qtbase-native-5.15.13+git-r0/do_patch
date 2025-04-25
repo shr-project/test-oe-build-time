@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442791.46 
+qtbase-native-5.15.13+git-r0: do_patch
+Elapsed time: 2.36 seconds
+utime: 33
+stime: 2
+cutime: 75
+cstime: 123
+IO rchar: 7112135
+IO wchar: 1209512
+IO syscr: 10715
+IO syscw: 1383
+IO read_bytes: 262144
+IO write_bytes: 1777664
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.33611399999999997
+rusage ru_stime: 0.02677
+rusage ru_maxrss: 78828
+rusage ru_minflt: 6208
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 456
+rusage ru_nvcsw: 110
+rusage ru_nivcsw: 36
+Child rusage ru_utime: 0.752216
+Child rusage ru_stime: 1.230844
+Child rusage ru_maxrss: 78828
+Child rusage ru_minflt: 236252
+Child rusage ru_majflt: 6
+Child rusage ru_inblock: 512
+Child rusage ru_oublock: 3016
+Child rusage ru_nvcsw: 3163
+Child rusage ru_nivcsw: 895
+Status: PASSED 
+Ended: 1745442793.82 

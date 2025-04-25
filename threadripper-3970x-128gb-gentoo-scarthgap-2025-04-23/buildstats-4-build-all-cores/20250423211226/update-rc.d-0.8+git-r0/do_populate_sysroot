@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442965.50 
+update-rc.d-0.8+git-r0: do_populate_sysroot
+Elapsed time: 0.46 seconds
+utime: 45
+stime: 3
+cutime: 3
+cstime: 7
+IO rchar: 864619
+IO wchar: 158592
+IO syscr: 600
+IO syscw: 111
+IO read_bytes: 0
+IO write_bytes: 237568
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.45511799999999997
+rusage ru_stime: 0.03094
+rusage ru_maxrss: 87340
+rusage ru_minflt: 13603
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 416
+rusage ru_nvcsw: 21
+rusage ru_nivcsw: 52
+Child rusage ru_utime: 0.039902
+Child rusage ru_stime: 0.070293
+Child rusage ru_maxrss: 87340
+Child rusage ru_minflt: 8176
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 48
+Child rusage ru_nvcsw: 288
+Child rusage ru_nivcsw: 108
+Status: PASSED 
+Ended: 1745442965.96 

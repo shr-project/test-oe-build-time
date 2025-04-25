@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745454123.29 
+bc-native-1.07.1-r0: do_recipe_qa
+Elapsed time: 0.17 seconds
+utime: 41
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 1039591
+IO wchar: 120081
+IO syscr: 373
+IO syscw: 100
+IO read_bytes: 0
+IO write_bytes: 135168
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.419909
+rusage ru_stime: 0.028059999999999998
+rusage ru_maxrss: 84692
+rusage ru_minflt: 10270
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 232
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 24
+Child rusage ru_utime: 0.016794
+Child rusage ru_stime: 0.022112
+Child rusage ru_maxrss: 84692
+Child rusage ru_minflt: 4493
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 255
+Child rusage ru_nivcsw: 47
+Status: PASSED 
+Ended: 1745454123.46 

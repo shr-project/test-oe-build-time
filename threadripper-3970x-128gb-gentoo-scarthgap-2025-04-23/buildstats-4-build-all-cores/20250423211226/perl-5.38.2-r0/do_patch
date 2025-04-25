@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442934.71 
+perl-5.38.2-r0: do_patch
+Elapsed time: 0.82 seconds
+utime: 42
+stime: 3
+cutime: 24
+cstime: 51
+IO rchar: 3580535
+IO wchar: 1096456
+IO syscr: 4047
+IO syscw: 742
+IO read_bytes: 0
+IO write_bytes: 1622016
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.42222699999999996
+rusage ru_stime: 0.030796999999999998
+rusage ru_maxrss: 84252
+rusage ru_minflt: 6524
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 656
+rusage ru_nvcsw: 46
+rusage ru_nivcsw: 15
+Child rusage ru_utime: 0.24983899999999998
+Child rusage ru_stime: 0.511512
+Child rusage ru_maxrss: 84252
+Child rusage ru_minflt: 87105
+Child rusage ru_majflt: 5
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 2512
+Child rusage ru_nvcsw: 1185
+Child rusage ru_nivcsw: 301
+Status: PASSED 
+Ended: 1745442935.53 

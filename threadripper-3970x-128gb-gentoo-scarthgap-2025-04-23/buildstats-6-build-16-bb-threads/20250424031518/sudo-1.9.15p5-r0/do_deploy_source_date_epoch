@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745464873.90 
+sudo-1.9.15p5-r0: do_deploy_source_date_epoch
+Elapsed time: 0.28 seconds
+utime: 42
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 903103
+IO wchar: 142168
+IO syscr: 427
+IO syscw: 93
+IO read_bytes: 0
+IO write_bytes: 126976
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.423632
+rusage ru_stime: 0.025112
+rusage ru_maxrss: 86384
+rusage ru_minflt: 14000
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 208
+rusage ru_nvcsw: 14
+rusage ru_nivcsw: 35
+Child rusage ru_utime: 0.019072
+Child rusage ru_stime: 0.035533999999999996
+Child rusage ru_maxrss: 86384
+Child rusage ru_minflt: 5454
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 257
+Child rusage ru_nivcsw: 83
+Status: PASSED 
+Ended: 1745464874.19 

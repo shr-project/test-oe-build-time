@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745453445.31 
+sqlite3-native-3_3.45.1-r0: do_unpack
+Elapsed time: 0.06 seconds
+utime: 29
+stime: 1
+cutime: 3
+cstime: 2
+IO rchar: 16568024
+IO wchar: 25454928
+IO syscr: 1747
+IO syscw: 1720
+IO read_bytes: 3235840
+IO write_bytes: 12861440
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.293085
+rusage ru_stime: 0.014003999999999999
+rusage ru_maxrss: 75816
+rusage ru_minflt: 6875
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 96
+rusage ru_nvcsw: 6
+rusage ru_nivcsw: 11
+Child rusage ru_utime: 0.039855
+Child rusage ru_stime: 0.025369
+Child rusage ru_maxrss: 75816
+Child rusage ru_minflt: 943
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 6320
+Child rusage ru_oublock: 25024
+Child rusage ru_nvcsw: 1266
+Child rusage ru_nivcsw: 7
+Status: PASSED 
+Ended: 1745453445.37 

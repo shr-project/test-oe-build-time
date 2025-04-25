@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442793.51 
+orc-native-0.4.38-r0: do_recipe_qa
+Elapsed time: 0.27 seconds
+utime: 64
+stime: 2
+cutime: 2
+cstime: 3
+IO rchar: 939860
+IO wchar: 121370
+IO syscr: 359
+IO syscw: 105
+IO read_bytes: 0
+IO write_bytes: 98304
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.646612
+rusage ru_stime: 0.023874
+rusage ru_maxrss: 80844
+rusage ru_minflt: 10040
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 76
+Child rusage ru_utime: 0.020605
+Child rusage ru_stime: 0.031769
+Child rusage ru_maxrss: 80844
+Child rusage ru_minflt: 4508
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 250
+Child rusage ru_nivcsw: 24
+Status: PASSED 
+Ended: 1745442793.77 

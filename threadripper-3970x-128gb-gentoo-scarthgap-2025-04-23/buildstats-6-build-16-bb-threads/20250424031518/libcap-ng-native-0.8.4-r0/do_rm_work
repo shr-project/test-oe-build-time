@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745464632.41 
+libcap-ng-native-0.8.4-r0: do_rm_work
+Elapsed time: 0.21 seconds
+utime: 42
+stime: 2
+cutime: 3
+cstime: 7
+IO rchar: 985724
+IO wchar: 32769
+IO syscr: 660
+IO syscw: 65
+IO read_bytes: 0
+IO write_bytes: 135168
+IO cancelled_write_bytes: 4485120
+rusage ru_utime: 0.420359
+rusage ru_stime: 0.029883
+rusage ru_maxrss: 84484
+rusage ru_minflt: 7907
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 56
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 18
+Child rusage ru_utime: 0.036773
+Child rusage ru_stime: 0.071729
+Child rusage ru_maxrss: 80560
+Child rusage ru_minflt: 13870
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 208
+Child rusage ru_nvcsw: 144
+Child rusage ru_nivcsw: 12
+Status: PASSED 
+Ended: 1745464632.62 

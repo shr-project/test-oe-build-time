@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745467270.71 
+ppp-2.5.0-r0: do_install
+Elapsed time: 1.57 seconds
+utime: 82
+stime: 5
+cutime: 49
+cstime: 73
+IO rchar: 8768995
+IO wchar: 2586640
+IO syscr: 9460
+IO syscw: 1047
+IO read_bytes: 208896
+IO write_bytes: 2723840
+IO cancelled_write_bytes: 49152
+rusage ru_utime: 0.830055
+rusage ru_stime: 0.050551
+rusage ru_maxrss: 89676
+rusage ru_minflt: 17483
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 240
+rusage ru_nvcsw: 859
+rusage ru_nivcsw: 46
+Child rusage ru_utime: 0.494855
+Child rusage ru_stime: 0.736626
+Child rusage ru_maxrss: 87280
+Child rusage ru_minflt: 153789
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 408
+Child rusage ru_oublock: 5080
+Child rusage ru_nvcsw: 4514
+Child rusage ru_nivcsw: 298
+Status: PASSED 
+Ended: 1745467272.28 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745444018.46 
+nettle-3.9.1-r0: do_install_ptest_base
+Elapsed time: 0.97 seconds
+utime: 50
+stime: 4
+cutime: 37
+cstime: 31
+IO rchar: 119601969
+IO wchar: 118741740
+IO syscr: 24023
+IO syscw: 14284
+IO read_bytes: 65536
+IO write_bytes: 119857152
+IO cancelled_write_bytes: 39706624
+rusage ru_utime: 0.502302
+rusage ru_stime: 0.04054
+rusage ru_maxrss: 79416
+rusage ru_minflt: 9576
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 88
+rusage ru_nvcsw: 33
+rusage ru_nivcsw: 256
+Child rusage ru_utime: 0.374289
+Child rusage ru_stime: 0.313507
+Child rusage ru_maxrss: 75636
+Child rusage ru_minflt: 5365
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 128
+Child rusage ru_oublock: 234008
+Child rusage ru_nvcsw: 1414
+Child rusage ru_nivcsw: 2968
+Status: PASSED 
+Ended: 1745444019.43 

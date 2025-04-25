@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745458244.72 
+xinit-1_1.4.2-r0: do_patch
+Elapsed time: 0.13 seconds
+utime: 25
+stime: 1
+cutime: 2
+cstime: 3
+IO rchar: 1046939
+IO wchar: 124830
+IO syscr: 579
+IO syscw: 125
+IO read_bytes: 0
+IO write_bytes: 192512
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.257961
+rusage ru_stime: 0.016930999999999998
+rusage ru_maxrss: 96468
+rusage ru_minflt: 5546
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 184
+rusage ru_nvcsw: 13
+rusage ru_nivcsw: 12
+Child rusage ru_utime: 0.027295999999999997
+Child rusage ru_stime: 0.031657
+Child rusage ru_maxrss: 96468
+Child rusage ru_minflt: 10267
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 192
+Child rusage ru_nvcsw: 137
+Child rusage ru_nivcsw: 5
+Status: PASSED 
+Ended: 1745458244.85 

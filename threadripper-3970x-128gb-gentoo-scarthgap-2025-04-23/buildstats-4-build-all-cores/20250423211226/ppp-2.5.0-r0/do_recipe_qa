@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442802.16 
+ppp-2.5.0-r0: do_recipe_qa
+Elapsed time: 0.26 seconds
+utime: 50
+stime: 2
+cutime: 2
+cstime: 3
+IO rchar: 828192
+IO wchar: 113827
+IO syscr: 356
+IO syscw: 86
+IO read_bytes: 0
+IO write_bytes: 122880
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.5078239999999999
+rusage ru_stime: 0.023757
+rusage ru_maxrss: 83436
+rusage ru_minflt: 10127
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 208
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 86
+Child rusage ru_utime: 0.021325999999999998
+Child rusage ru_stime: 0.031899
+Child rusage ru_maxrss: 83436
+Child rusage ru_minflt: 4525
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 194
+Child rusage ru_nivcsw: 27
+Status: PASSED 
+Ended: 1745442802.42 

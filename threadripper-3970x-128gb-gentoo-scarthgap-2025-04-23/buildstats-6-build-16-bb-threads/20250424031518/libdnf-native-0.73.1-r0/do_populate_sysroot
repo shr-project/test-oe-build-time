@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745467865.92 
+libdnf-native-0.73.1-r0: do_populate_sysroot
+Elapsed time: 1.11 seconds
+utime: 96
+stime: 15
+cutime: 30
+cstime: 33
+IO rchar: 57819364
+IO wchar: 27579127
+IO syscr: 6394
+IO syscw: 2056
+IO read_bytes: 0
+IO write_bytes: 22425600
+IO cancelled_write_bytes: 6012928
+rusage ru_utime: 0.968088
+rusage ru_stime: 0.156852
+rusage ru_maxrss: 98032
+rusage ru_minflt: 23807
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 14832
+rusage ru_nvcsw: 68
+rusage ru_nivcsw: 143
+Child rusage ru_utime: 0.303064
+Child rusage ru_stime: 0.33604
+Child rusage ru_maxrss: 98032
+Child rusage ru_minflt: 40398
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 28968
+Child rusage ru_nvcsw: 554
+Child rusage ru_nivcsw: 248
+Status: PASSED 
+Ended: 1745467867.03 

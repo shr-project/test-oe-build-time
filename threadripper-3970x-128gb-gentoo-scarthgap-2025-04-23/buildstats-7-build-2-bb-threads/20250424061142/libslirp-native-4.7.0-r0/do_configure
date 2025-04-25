@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745492208.80 
+libslirp-native-4.7.0-r0: do_configure
+Elapsed time: 2.37 seconds
+utime: 68
+stime: 3
+cutime: 175
+cstime: 32
+IO rchar: 17405636
+IO wchar: 3872905
+IO syscr: 3859
+IO syscw: 978
+IO read_bytes: 4096
+IO write_bytes: 4624384
+IO cancelled_write_bytes: 77824
+rusage ru_utime: 0.68746
+rusage ru_stime: 0.033874
+rusage ru_maxrss: 97328
+rusage ru_minflt: 7174
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 152
+rusage ru_nvcsw: 6
+rusage ru_nivcsw: 71
+Child rusage ru_utime: 1.75229
+Child rusage ru_stime: 0.32836699999999996
+Child rusage ru_maxrss: 97328
+Child rusage ru_minflt: 51974
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 8880
+Child rusage ru_nvcsw: 283
+Child rusage ru_nivcsw: 94
+Status: PASSED 
+Ended: 1745492211.17 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745445850.53 
+mesa-2_24.0.3-r0: do_install
+Elapsed time: 1.13 seconds
+utime: 79
+stime: 5
+cutime: 24
+cstime: 29
+IO rchar: 316284761
+IO wchar: 306920023
+IO syscr: 2019
+IO syscw: 230
+IO read_bytes: 409600
+IO write_bytes: 307527680
+IO cancelled_write_bytes: 8192
+rusage ru_utime: 0.79929
+rusage ru_stime: 0.055158
+rusage ru_maxrss: 93276
+rusage ru_minflt: 14062
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 392
+rusage ru_nvcsw: 547
+rusage ru_nivcsw: 7
+Child rusage ru_utime: 0.249802
+Child rusage ru_stime: 0.290644
+Child rusage ru_maxrss: 89352
+Child rusage ru_minflt: 17988
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 800
+Child rusage ru_oublock: 600248
+Child rusage ru_nvcsw: 1008
+Child rusage ru_nivcsw: 16
+Status: PASSED 
+Ended: 1745445851.66 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442783.41 
+xorgproto-2023.2-r0: do_recipe_qa
+Elapsed time: 0.25 seconds
+utime: 50
+stime: 3
+cutime: 2
+cstime: 3
+IO rchar: 681621
+IO wchar: 115783
+IO syscr: 336
+IO syscw: 88
+IO read_bytes: 0
+IO write_bytes: 102400
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.500894
+rusage ru_stime: 0.035566
+rusage ru_maxrss: 77440
+rusage ru_minflt: 9590
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 168
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 96
+Child rusage ru_utime: 0.020555
+Child rusage ru_stime: 0.030219
+Child rusage ru_maxrss: 77440
+Child rusage ru_minflt: 4513
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 239
+Child rusage ru_nivcsw: 40
+Status: PASSED 
+Ended: 1745442783.66 

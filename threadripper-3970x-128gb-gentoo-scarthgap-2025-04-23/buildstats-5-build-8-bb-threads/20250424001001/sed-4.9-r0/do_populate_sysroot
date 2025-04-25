@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745455441.18 
+sed-4.9-r0: do_populate_sysroot
+Elapsed time: 1.03 seconds
+utime: 87
+stime: 4
+cutime: 5
+cstime: 8
+IO rchar: 990654
+IO wchar: 251120
+IO syscr: 606
+IO syscw: 158
+IO read_bytes: 0
+IO write_bytes: 458752
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.8778769999999999
+rusage ru_stime: 0.049103999999999995
+rusage ru_maxrss: 94468
+rusage ru_minflt: 13543
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 368
+rusage ru_nvcsw: 19
+rusage ru_nivcsw: 172
+Child rusage ru_utime: 0.057768
+Child rusage ru_stime: 0.087377
+Child rusage ru_maxrss: 94468
+Child rusage ru_minflt: 10103
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 528
+Child rusage ru_nvcsw: 292
+Child rusage ru_nivcsw: 62
+Status: PASSED 
+Ended: 1745455442.21 

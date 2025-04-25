@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745457004.47 
+libcxx-18.1.5-r0: do_rm_work
+Elapsed time: 0.74 seconds
+utime: 37
+stime: 1
+cutime: 7
+cstime: 30
+IO rchar: 815026
+IO wchar: 30182
+IO syscr: 852
+IO syscw: 67
+IO read_bytes: 0
+IO write_bytes: 15343616
+IO cancelled_write_bytes: 100966400
+rusage ru_utime: 0.377389
+rusage ru_stime: 0.019056999999999998
+rusage ru_maxrss: 95200
+rusage ru_minflt: 6785
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 88
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 11
+Child rusage ru_utime: 0.077663
+Child rusage ru_stime: 0.309151
+Child rusage ru_maxrss: 90408
+Child rusage ru_minflt: 18996
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 29880
+Child rusage ru_nvcsw: 189
+Child rusage ru_nivcsw: 81
+Status: PASSED 
+Ended: 1745457005.21 

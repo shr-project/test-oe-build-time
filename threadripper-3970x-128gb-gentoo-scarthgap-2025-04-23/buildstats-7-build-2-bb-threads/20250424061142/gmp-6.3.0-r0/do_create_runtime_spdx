@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745477519.16 
+gmp-6.3.0-r0: do_create_runtime_spdx
+Elapsed time: 0.31 seconds
+utime: 42
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 1975152
+IO wchar: 412387
+IO syscr: 592
+IO syscw: 116
+IO read_bytes: 0
+IO write_bytes: 262144
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.4279
+rusage ru_stime: 0.027992999999999997
+rusage ru_maxrss: 85356
+rusage ru_minflt: 9651
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 360
+rusage ru_nvcsw: 20
+rusage ru_nivcsw: 17
+Child rusage ru_utime: 0.012702
+Child rusage ru_stime: 0.037711
+Child rusage ru_maxrss: 85356
+Child rusage ru_minflt: 5915
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 152
+Child rusage ru_nvcsw: 310
+Child rusage ru_nivcsw: 39
+Status: PASSED 
+Ended: 1745477519.47 

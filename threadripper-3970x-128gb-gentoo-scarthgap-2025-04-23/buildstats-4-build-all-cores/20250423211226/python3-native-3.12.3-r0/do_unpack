@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442874.74 
+python3-native-3.12.3-r0: do_unpack
+Elapsed time: 5.00 seconds
+utime: 71
+stime: 22
+cutime: 135
+cstime: 80
+IO rchar: 127179757
+IO wchar: 206088535
+IO syscr: 20692
+IO syscw: 28214
+IO read_bytes: 364544
+IO write_bytes: 114675712
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.71243
+rusage ru_stime: 0.220823
+rusage ru_maxrss: 86080
+rusage ru_minflt: 18444
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 560
+rusage ru_nvcsw: 59
+rusage ru_nivcsw: 36
+Child rusage ru_utime: 1.358275
+Child rusage ru_stime: 0.8039989999999999
+Child rusage ru_maxrss: 86080
+Child rusage ru_minflt: 17034
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 712
+Child rusage ru_oublock: 223416
+Child rusage ru_nvcsw: 9305
+Child rusage ru_nivcsw: 7149
+Status: PASSED 
+Ended: 1745442879.74 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745458423.94 
+init-system-helpers-1.66-r0: do_deploy_source_date_epoch
+Elapsed time: 0.32 seconds
+utime: 42
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 696044
+IO wchar: 135500
+IO syscr: 304
+IO syscw: 85
+IO read_bytes: 0
+IO write_bytes: 114688
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.423042
+rusage ru_stime: 0.028002
+rusage ru_maxrss: 97684
+rusage ru_minflt: 16244
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 184
+rusage ru_nvcsw: 14
+rusage ru_nivcsw: 17
+Child rusage ru_utime: 0.015354
+Child rusage ru_stime: 0.033965999999999996
+Child rusage ru_maxrss: 97684
+Child rusage ru_minflt: 5363
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 284
+Child rusage ru_nivcsw: 43
+Status: PASSED 
+Ended: 1745458424.26 

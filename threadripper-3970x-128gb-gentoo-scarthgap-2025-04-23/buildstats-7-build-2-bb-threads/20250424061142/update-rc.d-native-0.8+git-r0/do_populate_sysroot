@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745477227.12 
+update-rc.d-native-0.8+git-r0: do_populate_sysroot
+Elapsed time: 0.40 seconds
+utime: 51
+stime: 2
+cutime: 4
+cstime: 5
+IO rchar: 1281055
+IO wchar: 221816
+IO syscr: 720
+IO syscw: 158
+IO read_bytes: 0
+IO write_bytes: 278528
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.5114759999999999
+rusage ru_stime: 0.02897
+rusage ru_maxrss: 82580
+rusage ru_minflt: 17145
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 376
+rusage ru_nvcsw: 23
+rusage ru_nivcsw: 7
+Child rusage ru_utime: 0.046299
+Child rusage ru_stime: 0.055085999999999996
+Child rusage ru_maxrss: 82580
+Child rusage ru_minflt: 11125
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 168
+Child rusage ru_nvcsw: 376
+Child rusage ru_nivcsw: 47
+Status: PASSED 
+Ended: 1745477227.52 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745465306.38 
+kmod-native-31-r0: do_populate_sysroot
+Elapsed time: 0.62 seconds
+utime: 73
+stime: 7
+cutime: 7
+cstime: 13
+IO rchar: 4217913
+IO wchar: 1508065
+IO syscr: 1580
+IO syscw: 355
+IO read_bytes: 0
+IO write_bytes: 1343488
+IO cancelled_write_bytes: 270336
+rusage ru_utime: 0.7328709999999999
+rusage ru_stime: 0.07027499999999999
+rusage ru_maxrss: 88556
+rusage ru_minflt: 19512
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 1000
+rusage ru_nvcsw: 42
+rusage ru_nivcsw: 24
+Child rusage ru_utime: 0.070418
+Child rusage ru_stime: 0.135883
+Child rusage ru_maxrss: 88556
+Child rusage ru_minflt: 21223
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1624
+Child rusage ru_nvcsw: 353
+Child rusage ru_nivcsw: 48
+Status: PASSED 
+Ended: 1745465307.00 

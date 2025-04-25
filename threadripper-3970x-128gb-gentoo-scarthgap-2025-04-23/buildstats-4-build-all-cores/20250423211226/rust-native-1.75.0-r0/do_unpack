@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442876.43 
+rust-native-1.75.0-r0: do_unpack
+Elapsed time: 83.88 seconds
+utime: 246
+stime: 85
+cutime: 1881
+cstime: 1026
+IO rchar: 2993090506
+IO wchar: 5309314115
+IO syscr: 439581
+IO syscw: 797893
+IO read_bytes: 123404288
+IO write_bytes: 3274002432
+IO cancelled_write_bytes: 0
+rusage ru_utime: 2.464671
+rusage ru_stime: 0.8561909999999999
+rusage ru_maxrss: 83080
+rusage ru_minflt: 14088
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 648
+rusage ru_nvcsw: 40
+rusage ru_nivcsw: 99
+Child rusage ru_utime: 18.815860999999998
+Child rusage ru_stime: 10.265839
+Child rusage ru_maxrss: 83080
+Child rusage ru_minflt: 69791
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 241024
+Child rusage ru_oublock: 6393888
+Child rusage ru_nvcsw: 209850
+Child rusage ru_nivcsw: 128030
+Status: PASSED 
+Ended: 1745442960.31 

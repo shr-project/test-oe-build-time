@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442788.80 
+acl-native-2.3.2-r0: do_populate_lic
+Elapsed time: 0.32 seconds
+utime: 61
+stime: 3
+cutime: 3
+cstime: 4
+IO rchar: 1550123
+IO wchar: 270628
+IO syscr: 553
+IO syscw: 131
+IO read_bytes: 131072
+IO write_bytes: 192512
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.614262
+rusage ru_stime: 0.031002
+rusage ru_maxrss: 79504
+rusage ru_minflt: 10166
+rusage ru_majflt: 0
+rusage ru_inblock: 256
+rusage ru_oublock: 304
+rusage ru_nvcsw: 17
+rusage ru_nivcsw: 63
+Child rusage ru_utime: 0.030122
+Child rusage ru_stime: 0.043684
+Child rusage ru_maxrss: 79504
+Child rusage ru_minflt: 5850
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 72
+Child rusage ru_nvcsw: 170
+Child rusage ru_nivcsw: 51
+Status: PASSED 
+Ended: 1745442789.11 

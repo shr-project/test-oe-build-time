@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745492049.20 
+libdrm-native-2.4.120-r0: do_recipe_qa
+Elapsed time: 0.16 seconds
+utime: 39
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 961222
+IO wchar: 122436
+IO syscr: 360
+IO syscw: 105
+IO read_bytes: 0
+IO write_bytes: 139264
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.39525699999999997
+rusage ru_stime: 0.020013
+rusage ru_maxrss: 97300
+rusage ru_minflt: 9233
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 240
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 6
+Child rusage ru_utime: 0.013198
+Child rusage ru_stime: 0.02486
+Child rusage ru_maxrss: 97300
+Child rusage ru_minflt: 4517
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 269
+Child rusage ru_nivcsw: 33
+Status: PASSED 
+Ended: 1745492049.36 

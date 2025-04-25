@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442934.40 
+bash-5.2.21-r0: do_patch
+Elapsed time: 0.69 seconds
+utime: 42
+stime: 3
+cutime: 22
+cstime: 35
+IO rchar: 3133690
+IO wchar: 1074039
+IO syscr: 3160
+IO syscw: 638
+IO read_bytes: 131072
+IO write_bytes: 1466368
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.42039899999999997
+rusage ru_stime: 0.038759999999999996
+rusage ru_maxrss: 84764
+rusage ru_minflt: 6583
+rusage ru_majflt: 0
+rusage ru_inblock: 256
+rusage ru_oublock: 632
+rusage ru_nvcsw: 34
+rusage ru_nivcsw: 55
+Child rusage ru_utime: 0.22960999999999998
+Child rusage ru_stime: 0.358562
+Child rusage ru_maxrss: 84764
+Child rusage ru_minflt: 67510
+Child rusage ru_majflt: 2
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 2232
+Child rusage ru_nvcsw: 937
+Child rusage ru_nivcsw: 224
+Status: PASSED 
+Ended: 1745442935.09 

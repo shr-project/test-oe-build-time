@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745475682.39 
+glibc-2.39+git-r0: do_install
+Elapsed time: 46.36 seconds
+utime: 72
+stime: 12
+cutime: 4044
+cstime: 4379
+IO rchar: 1166129717
+IO wchar: 220859779
+IO syscr: 679056
+IO syscw: 49179
+IO read_bytes: 36864
+IO write_bytes: 217305088
+IO cancelled_write_bytes: 105783296
+rusage ru_utime: 0.727259
+rusage ru_stime: 0.122901
+rusage ru_maxrss: 80232
+rusage ru_minflt: 14170
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 2008
+rusage ru_nvcsw: 7745
+rusage ru_nivcsw: 586
+Child rusage ru_utime: 40.44446
+Child rusage ru_stime: 43.790055
+Child rusage ru_maxrss: 76720
+Child rusage ru_minflt: 5834239
+Child rusage ru_majflt: 68
+Child rusage ru_inblock: 72
+Child rusage ru_oublock: 422416
+Child rusage ru_nvcsw: 100954
+Child rusage ru_nivcsw: 43018
+Status: PASSED 
+Ended: 1745475728.75 

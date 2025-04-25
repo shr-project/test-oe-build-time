@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745418479.41 
+make-native-4.4.1-r0: do_recipe_qa
+Elapsed time: 0.17 seconds
+utime: 39
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 1007316
+IO wchar: 119176
+IO syscr: 367
+IO syscw: 101
+IO read_bytes: 0
+IO write_bytes: 192512
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.395022
+rusage ru_stime: 0.02388
+rusage ru_maxrss: 59160
+rusage ru_minflt: 8921
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 336
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 39
+Child rusage ru_utime: 0.015986999999999998
+Child rusage ru_stime: 0.022726
+Child rusage ru_maxrss: 59160
+Child rusage ru_minflt: 4528
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 193
+Child rusage ru_nivcsw: 16
+Status: PASSED 
+Ended: 1745418479.59 

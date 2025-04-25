@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442782.57 
+libedit-native-20230828-3.1-r0: do_unpack
+Elapsed time: 0.07 seconds
+utime: 42
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 3515040
+IO wchar: 4489010
+IO syscr: 409
+IO syscw: 439
+IO read_bytes: 536576
+IO write_bytes: 2531328
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.42424599999999996
+rusage ru_stime: 0.024954999999999998
+rusage ru_maxrss: 76620
+rusage ru_minflt: 7528
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 11
+Child rusage ru_utime: 0.015177999999999999
+Child rusage ru_stime: 0.027094
+Child rusage ru_maxrss: 76620
+Child rusage ru_minflt: 1450
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 1048
+Child rusage ru_oublock: 4872
+Child rusage ru_nvcsw: 366
+Child rusage ru_nivcsw: 234
+Status: PASSED 
+Ended: 1745442782.64 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745481647.23 
+mtdev-1.1.6-r0: do_install
+Elapsed time: 0.46 seconds
+utime: 42
+stime: 3
+cutime: 10
+cstime: 13
+IO rchar: 1710670
+IO wchar: 237270
+IO syscr: 2066
+IO syscw: 349
+IO read_bytes: 0
+IO write_bytes: 266240
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 0.42386799999999997
+rusage ru_stime: 0.03908
+rusage ru_maxrss: 87888
+rusage ru_minflt: 12795
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 184
+rusage ru_nvcsw: 542
+rusage ru_nivcsw: 18
+Child rusage ru_utime: 0.101781
+Child rusage ru_stime: 0.131789
+Child rusage ru_maxrss: 84520
+Child rusage ru_minflt: 34405
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 336
+Child rusage ru_nvcsw: 1006
+Child rusage ru_nivcsw: 37
+Status: PASSED 
+Ended: 1745481647.69 

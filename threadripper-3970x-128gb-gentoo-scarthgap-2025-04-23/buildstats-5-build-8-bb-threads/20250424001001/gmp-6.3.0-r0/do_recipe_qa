@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745453502.65 
+gmp-6.3.0-r0: do_recipe_qa
+Elapsed time: 0.19 seconds
+utime: 35
+stime: 1
+cutime: 1
+cstime: 2
+IO rchar: 766616
+IO wchar: 115095
+IO syscr: 355
+IO syscw: 87
+IO read_bytes: 0
+IO write_bytes: 126976
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.350553
+rusage ru_stime: 0.018975
+rusage ru_maxrss: 80596
+rusage ru_minflt: 10029
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 216
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 31
+Child rusage ru_utime: 0.01205
+Child rusage ru_stime: 0.028418
+Child rusage ru_maxrss: 80596
+Child rusage ru_minflt: 4539
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 263
+Child rusage ru_nivcsw: 45
+Status: PASSED 
+Ended: 1745453502.83 

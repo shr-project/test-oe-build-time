@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745492198.29 
+libslirp-native-4.7.0-r0: do_recipe_qa
+Elapsed time: 0.39 seconds
+utime: 60
+stime: 3
+cutime: 2
+cstime: 3
+IO rchar: 958744
+IO wchar: 120923
+IO syscr: 366
+IO syscw: 104
+IO read_bytes: 4096
+IO write_bytes: 221184
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.603588
+rusage ru_stime: 0.034746
+rusage ru_maxrss: 97376
+rusage ru_minflt: 9187
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 384
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 71
+Child rusage ru_utime: 0.027718
+Child rusage ru_stime: 0.035766
+Child rusage ru_maxrss: 97376
+Child rusage ru_minflt: 4516
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 48
+Child rusage ru_nvcsw: 310
+Child rusage ru_nivcsw: 27
+Status: PASSED 
+Ended: 1745492198.68 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745491866.67 
+libdnf-native-0.73.1-r0: do_populate_lic
+Elapsed time: 0.22 seconds
+utime: 45
+stime: 3
+cutime: 1
+cstime: 3
+IO rchar: 1288607
+IO wchar: 226515
+IO syscr: 439
+IO syscw: 128
+IO read_bytes: 0
+IO write_bytes: 241664
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.455119
+rusage ru_stime: 0.038924
+rusage ru_maxrss: 94796
+rusage ru_minflt: 9219
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 336
+rusage ru_nvcsw: 18
+rusage ru_nivcsw: 12
+Child rusage ru_utime: 0.016634
+Child rusage ru_stime: 0.033901
+Child rusage ru_maxrss: 94796
+Child rusage ru_minflt: 5792
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 136
+Child rusage ru_nvcsw: 302
+Child rusage ru_nivcsw: 37
+Status: PASSED 
+Ended: 1745491866.89 

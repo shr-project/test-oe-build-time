@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745458358.00 
+btrfs-tools-6.7.1-r0: do_install
+Elapsed time: 2.93 seconds
+utime: 73
+stime: 8
+cutime: 565
+cstime: 1095
+IO rchar: 298012311
+IO wchar: 34495389
+IO syscr: 65845
+IO syscw: 2262
+IO read_bytes: 0
+IO write_bytes: 35459072
+IO cancelled_write_bytes: 1175552
+rusage ru_utime: 0.73185
+rusage ru_stime: 0.08669299999999999
+rusage ru_maxrss: 96004
+rusage ru_minflt: 14173
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 1144
+rusage ru_nvcsw: 1313
+rusage ru_nivcsw: 405
+Child rusage ru_utime: 5.659665
+Child rusage ru_stime: 10.951936
+Child rusage ru_maxrss: 92228
+Child rusage ru_minflt: 544309
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 68112
+Child rusage ru_nvcsw: 3391
+Child rusage ru_nivcsw: 1964
+Status: PASSED 
+Ended: 1745458360.94 

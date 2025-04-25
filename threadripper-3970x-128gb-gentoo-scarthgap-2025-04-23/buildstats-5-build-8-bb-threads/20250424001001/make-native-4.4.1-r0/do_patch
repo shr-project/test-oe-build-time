@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745453460.70 
+make-native-4.4.1-r0: do_patch
+Elapsed time: 0.10 seconds
+utime: 30
+stime: 1
+cutime: 2
+cstime: 2
+IO rchar: 968047
+IO wchar: 71623
+IO syscr: 504
+IO syscw: 119
+IO read_bytes: 0
+IO write_bytes: 114688
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.307563
+rusage ru_stime: 0.014978
+rusage ru_maxrss: 76160
+rusage ru_minflt: 6453
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 152
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 18
+Child rusage ru_utime: 0.028634
+Child rusage ru_stime: 0.029314999999999997
+Child rusage ru_maxrss: 76160
+Child rusage ru_minflt: 9388
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 72
+Child rusage ru_nvcsw: 121
+Child rusage ru_nivcsw: 16
+Status: PASSED 
+Ended: 1745453460.80 

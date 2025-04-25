@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745453562.58 
+util-macros-native-1_1.20.0-r0: do_install
+Elapsed time: 0.21 seconds
+utime: 43
+stime: 1
+cutime: 2
+cstime: 3
+IO rchar: 1035467
+IO wchar: 149217
+IO syscr: 561
+IO syscw: 153
+IO read_bytes: 0
+IO write_bytes: 151552
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.43972999999999995
+rusage ru_stime: 0.018987999999999998
+rusage ru_maxrss: 82192
+rusage ru_minflt: 10861
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 104
+rusage ru_nvcsw: 17
+rusage ru_nivcsw: 17
+Child rusage ru_utime: 0.02455
+Child rusage ru_stime: 0.030105
+Child rusage ru_maxrss: 80612
+Child rusage ru_minflt: 5331
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 192
+Child rusage ru_nvcsw: 56
+Child rusage ru_nivcsw: 35
+Status: PASSED 
+Ended: 1745453562.79 

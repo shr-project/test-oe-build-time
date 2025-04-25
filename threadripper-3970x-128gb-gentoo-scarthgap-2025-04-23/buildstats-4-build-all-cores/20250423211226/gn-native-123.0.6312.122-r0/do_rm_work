@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745445207.87 
+gn-native-123.0.6312.122-r0: do_rm_work
+Elapsed time: 21.39 seconds
+utime: 31
+stime: 1
+cutime: 69
+cstime: 2024
+IO rchar: 788840
+IO wchar: 29765
+IO syscr: 852
+IO syscw: 57
+IO read_bytes: 0
+IO write_bytes: 759869440
+IO cancelled_write_bytes: 14360576
+rusage ru_utime: 0.31884799999999996
+rusage ru_stime: 0.01911
+rusage ru_maxrss: 92256
+rusage ru_minflt: 6576
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 23
+rusage ru_nivcsw: 15
+Child rusage ru_utime: 0.6927559999999999
+Child rusage ru_stime: 20.246614
+Child rusage ru_maxrss: 87116
+Child rusage ru_minflt: 15472
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1483992
+Child rusage ru_nvcsw: 149
+Child rusage ru_nivcsw: 1185
+Status: PASSED 
+Ended: 1745445229.26 

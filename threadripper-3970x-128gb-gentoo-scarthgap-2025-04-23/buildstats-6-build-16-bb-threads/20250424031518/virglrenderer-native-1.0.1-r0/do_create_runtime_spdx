@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745464929.01 
+virglrenderer-native-1.0.1-r0: do_create_runtime_spdx
+Elapsed time: 0.18 seconds
+utime: 42
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 1268585
+IO wchar: 348252
+IO syscr: 404
+IO syscw: 114
+IO read_bytes: 0
+IO write_bytes: 172032
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.422635
+rusage ru_stime: 0.021030999999999998
+rusage ru_maxrss: 87756
+rusage ru_minflt: 10781
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 248
+rusage ru_nvcsw: 14
+rusage ru_nivcsw: 41
+Child rusage ru_utime: 0.015366
+Child rusage ru_stime: 0.027711999999999997
+Child rusage ru_maxrss: 87756
+Child rusage ru_minflt: 4805
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 88
+Child rusage ru_nvcsw: 255
+Child rusage ru_nivcsw: 50
+Status: PASSED 
+Ended: 1745464929.20 

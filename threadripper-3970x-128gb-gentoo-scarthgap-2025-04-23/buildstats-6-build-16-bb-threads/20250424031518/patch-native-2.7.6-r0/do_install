@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745464667.52 
+patch-native-2.7.6-r0: do_install
+Elapsed time: 0.34 seconds
+utime: 51
+stime: 3
+cutime: 8
+cstime: 8
+IO rchar: 3152914
+IO wchar: 366782
+IO syscr: 1838
+IO syscw: 407
+IO read_bytes: 0
+IO write_bytes: 450560
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.512258
+rusage ru_stime: 0.036198
+rusage ru_maxrss: 86388
+rusage ru_minflt: 10834
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 232
+rusage ru_nvcsw: 37
+rusage ru_nivcsw: 36
+Child rusage ru_utime: 0.08362
+Child rusage ru_stime: 0.089643
+Child rusage ru_maxrss: 84340
+Child rusage ru_minflt: 17818
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 648
+Child rusage ru_nvcsw: 228
+Child rusage ru_nivcsw: 33
+Status: PASSED 
+Ended: 1745464667.85 

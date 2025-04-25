@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745453460.66 
+make-native-4.4.1-r0: do_create_runtime_spdx
+Elapsed time: 0.19 seconds
+utime: 40
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 1210201
+IO wchar: 344554
+IO syscr: 398
+IO syscw: 108
+IO read_bytes: 0
+IO write_bytes: 147456
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.401812
+rusage ru_stime: 0.026986999999999997
+rusage ru_maxrss: 79032
+rusage ru_minflt: 10191
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 208
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 23
+Child rusage ru_utime: 0.016805999999999998
+Child rusage ru_stime: 0.027535
+Child rusage ru_maxrss: 79032
+Child rusage ru_minflt: 4817
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 80
+Child rusage ru_nvcsw: 254
+Child rusage ru_nivcsw: 63
+Status: PASSED 
+Ended: 1745453460.84 

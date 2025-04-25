@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442891.57 
+libmd-native-1.1.0-r0: do_populate_sysroot
+Elapsed time: 1.29 seconds
+utime: 101
+stime: 6
+cutime: 7
+cstime: 8
+IO rchar: 2192548
+IO wchar: 590244
+IO syscr: 1141
+IO syscw: 235
+IO read_bytes: 135168
+IO write_bytes: 573440
+IO cancelled_write_bytes: 69632
+rusage ru_utime: 1.012201
+rusage ru_stime: 0.062134999999999996
+rusage ru_maxrss: 83328
+rusage ru_minflt: 18847
+rusage ru_majflt: 0
+rusage ru_inblock: 264
+rusage ru_oublock: 488
+rusage ru_nvcsw: 32
+rusage ru_nivcsw: 138
+Child rusage ru_utime: 0.070926
+Child rusage ru_stime: 0.088933
+Child rusage ru_maxrss: 83328
+Child rusage ru_minflt: 14601
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 632
+Child rusage ru_nvcsw: 332
+Child rusage ru_nivcsw: 97
+Status: PASSED 
+Ended: 1745442892.86 

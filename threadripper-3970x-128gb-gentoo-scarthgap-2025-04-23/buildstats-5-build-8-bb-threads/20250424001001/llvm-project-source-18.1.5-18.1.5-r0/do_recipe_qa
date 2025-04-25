@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745454099.10 
+llvm-project-source-18.1.5-18.1.5-r0: do_recipe_qa
+Elapsed time: 0.17 seconds
+utime: 26
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 736102
+IO wchar: 114948
+IO syscr: 346
+IO syscw: 86
+IO read_bytes: 0
+IO write_bytes: 131072
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.26075699999999996
+rusage ru_stime: 0.023977
+rusage ru_maxrss: 83220
+rusage ru_minflt: 9715
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 224
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 25
+Child rusage ru_utime: 0.011049
+Child rusage ru_stime: 0.027431999999999998
+Child rusage ru_maxrss: 83220
+Child rusage ru_minflt: 4512
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 279
+Child rusage ru_nivcsw: 29
+Status: PASSED 
+Ended: 1745454099.27 

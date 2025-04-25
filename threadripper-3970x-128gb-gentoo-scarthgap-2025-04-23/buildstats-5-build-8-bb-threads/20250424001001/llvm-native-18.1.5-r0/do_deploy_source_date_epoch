@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745458921.51 
+llvm-native-18.1.5-r0: do_deploy_source_date_epoch
+Elapsed time: 1.01 seconds
+utime: 61
+stime: 2
+cutime: 3
+cstime: 4
+IO rchar: 979177
+IO wchar: 132869
+IO syscr: 511
+IO syscw: 99
+IO read_bytes: 0
+IO write_bytes: 131072
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.6114299999999999
+rusage ru_stime: 0.027972999999999998
+rusage ru_maxrss: 99888
+rusage ru_minflt: 13388
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 216
+rusage ru_nvcsw: 13
+rusage ru_nivcsw: 77
+Child rusage ru_utime: 0.038862
+Child rusage ru_stime: 0.042782
+Child rusage ru_maxrss: 99888
+Child rusage ru_minflt: 5380
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 199
+Child rusage ru_nivcsw: 33
+Status: PASSED 
+Ended: 1745458922.52 

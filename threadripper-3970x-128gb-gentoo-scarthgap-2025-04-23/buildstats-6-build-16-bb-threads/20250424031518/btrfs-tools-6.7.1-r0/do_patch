@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745464875.24 
+btrfs-tools-6.7.1-r0: do_patch
+Elapsed time: 0.15 seconds
+utime: 29
+stime: 2
+cutime: 3
+cstime: 3
+IO rchar: 1534270
+IO wchar: 677735
+IO syscr: 746
+IO syscw: 267
+IO read_bytes: 0
+IO write_bytes: 860160
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.293151
+rusage ru_stime: 0.024093999999999997
+rusage ru_maxrss: 84216
+rusage ru_minflt: 6756
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 400
+rusage ru_nvcsw: 13
+rusage ru_nivcsw: 39
+Child rusage ru_utime: 0.032067
+Child rusage ru_stime: 0.034418
+Child rusage ru_maxrss: 84216
+Child rusage ru_minflt: 10317
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1280
+Child rusage ru_nvcsw: 134
+Child rusage ru_nivcsw: 13
+Status: PASSED 
+Ended: 1745464875.39 

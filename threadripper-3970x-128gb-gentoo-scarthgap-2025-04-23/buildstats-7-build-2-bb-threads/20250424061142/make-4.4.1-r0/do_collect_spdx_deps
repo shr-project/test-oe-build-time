@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745483523.23 
+make-4.4.1-r0: do_collect_spdx_deps
+Elapsed time: 0.23 seconds
+utime: 42
+stime: 2
+cutime: 0
+cstime: 0
+IO rchar: 582251
+IO wchar: 108306
+IO syscr: 126
+IO syscw: 63
+IO read_bytes: 0
+IO write_bytes: 143360
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.42657399999999995
+rusage ru_stime: 0.021977999999999998
+rusage ru_maxrss: 88212
+rusage ru_minflt: 5446
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 144
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 8
+Child rusage ru_utime: 0.003649
+Child rusage ru_stime: 0.0053879999999999996
+Child rusage ru_maxrss: 88212
+Child rusage ru_minflt: 716
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 136
+Child rusage ru_nvcsw: 8
+Child rusage ru_nivcsw: 4
+Status: PASSED 
+Ended: 1745483523.46 

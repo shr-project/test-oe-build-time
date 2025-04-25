@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442795.09 
+libdaemon-0.14-r0: do_recipe_qa
+Elapsed time: 0.28 seconds
+utime: 49
+stime: 2
+cutime: 2
+cstime: 3
+IO rchar: 784594
+IO wchar: 113635
+IO syscr: 357
+IO syscw: 85
+IO read_bytes: 0
+IO write_bytes: 131072
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.49383
+rusage ru_stime: 0.029868
+rusage ru_maxrss: 81872
+rusage ru_minflt: 9930
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 224
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 124
+Child rusage ru_utime: 0.020385
+Child rusage ru_stime: 0.034041999999999996
+Child rusage ru_maxrss: 81872
+Child rusage ru_minflt: 4533
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 245
+Child rusage ru_nivcsw: 37
+Status: PASSED 
+Ended: 1745442795.36 

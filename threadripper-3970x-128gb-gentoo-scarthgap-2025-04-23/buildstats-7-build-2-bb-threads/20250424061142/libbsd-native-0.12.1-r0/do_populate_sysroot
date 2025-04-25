@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745477307.19 
+libbsd-native-0.12.1-r0: do_populate_sysroot
+Elapsed time: 0.49 seconds
+utime: 58
+stime: 4
+cutime: 6
+cstime: 9
+IO rchar: 2987552
+IO wchar: 860285
+IO syscr: 1457
+IO syscw: 284
+IO read_bytes: 0
+IO write_bytes: 634880
+IO cancelled_write_bytes: 90112
+rusage ru_utime: 0.585531
+rusage ru_stime: 0.044104
+rusage ru_maxrss: 84328
+rusage ru_minflt: 18017
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 608
+rusage ru_nvcsw: 33
+rusage ru_nivcsw: 23
+Child rusage ru_utime: 0.065283
+Child rusage ru_stime: 0.09652999999999999
+Child rusage ru_maxrss: 84328
+Child rusage ru_minflt: 17210
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 632
+Child rusage ru_nvcsw: 462
+Child rusage ru_nivcsw: 46
+Status: PASSED 
+Ended: 1745477307.68 

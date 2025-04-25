@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442806.85 
+python-native-2.7.18-r0: do_recipe_qa
+Elapsed time: 0.24 seconds
+utime: 42
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 884292
+IO wchar: 117259
+IO syscr: 364
+IO syscw: 94
+IO read_bytes: 0
+IO write_bytes: 131072
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.42507799999999996
+rusage ru_stime: 0.027939
+rusage ru_maxrss: 83368
+rusage ru_minflt: 9796
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 224
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 59
+Child rusage ru_utime: 0.015761
+Child rusage ru_stime: 0.034512999999999995
+Child rusage ru_maxrss: 83368
+Child rusage ru_minflt: 4531
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 246
+Child rusage ru_nivcsw: 31
+Status: PASSED 
+Ended: 1745442807.10 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745466976.39 
+openssl-3.2.1-r0: do_rm_work
+Elapsed time: 1.74 seconds
+utime: 45
+stime: 2
+cutime: 9
+cstime: 150
+IO rchar: 1049048
+IO wchar: 32456
+IO syscr: 1083
+IO syscw: 80
+IO read_bytes: 4096
+IO write_bytes: 24612864
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.45832199999999995
+rusage ru_stime: 0.026132
+rusage ru_maxrss: 92188
+rusage ru_minflt: 7049
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 80
+rusage ru_nvcsw: 3
+rusage ru_nivcsw: 29
+Child rusage ru_utime: 0.096469
+Child rusage ru_stime: 1.5014919999999998
+Child rusage ru_maxrss: 87572
+Child rusage ru_minflt: 23474
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 47992
+Child rusage ru_nvcsw: 238
+Child rusage ru_nivcsw: 106
+Status: PASSED 
+Ended: 1745466978.13 

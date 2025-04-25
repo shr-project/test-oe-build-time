@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745453486.33 
+libarchive-native-3.7.4-r0: do_recipe_qa
+Elapsed time: 0.17 seconds
+utime: 40
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 1005713
+IO wchar: 118532
+IO syscr: 362
+IO syscw: 98
+IO read_bytes: 0
+IO write_bytes: 131072
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.40267
+rusage ru_stime: 0.02114
+rusage ru_maxrss: 79776
+rusage ru_minflt: 10076
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 216
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 22
+Child rusage ru_utime: 0.012116
+Child rusage ru_stime: 0.026149
+Child rusage ru_maxrss: 79776
+Child rusage ru_minflt: 4517
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 252
+Child rusage ru_nivcsw: 42
+Status: PASSED 
+Ended: 1745453486.50 

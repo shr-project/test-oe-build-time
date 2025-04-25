@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745453624.24 
+re2c-native-3.1-r0: do_create_runtime_spdx
+Elapsed time: 0.22 seconds
+utime: 42
+stime: 1
+cutime: 2
+cstime: 3
+IO rchar: 1151607
+IO wchar: 342143
+IO syscr: 426
+IO syscw: 104
+IO read_bytes: 0
+IO write_bytes: 212992
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.423103
+rusage ru_stime: 0.019049
+rusage ru_maxrss: 83184
+rusage ru_minflt: 10388
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 336
+rusage ru_nvcsw: 16
+rusage ru_nivcsw: 21
+Child rusage ru_utime: 0.020683999999999998
+Child rusage ru_stime: 0.032976
+Child rusage ru_maxrss: 83184
+Child rusage ru_minflt: 4827
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 80
+Child rusage ru_nvcsw: 259
+Child rusage ru_nivcsw: 28
+Status: PASSED 
+Ended: 1745453624.46 

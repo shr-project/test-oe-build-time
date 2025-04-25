@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745455552.15 
+qtbase-5.15.13+git-r0: do_install_ptest_base
+Elapsed time: 24.00 seconds
+utime: 58
+stime: 5
+cutime: 379
+cstime: 917
+IO rchar: 835415958
+IO wchar: 799067039
+IO syscr: 54773
+IO syscw: 3769
+IO read_bytes: 0
+IO write_bytes: 800051200
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.58572
+rusage ru_stime: 0.051361
+rusage ru_maxrss: 89884
+rusage ru_minflt: 10868
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 152
+rusage ru_nvcsw: 265
+rusage ru_nivcsw: 394
+Child rusage ru_utime: 3.796153
+Child rusage ru_stime: 9.174852
+Child rusage ru_maxrss: 85944
+Child rusage ru_minflt: 1218058
+Child rusage ru_majflt: 5
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1562448
+Child rusage ru_nvcsw: 29048
+Child rusage ru_nivcsw: 5708
+Status: PASSED 
+Ended: 1745455576.15 

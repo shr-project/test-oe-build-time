@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745443907.53 
+libatomic-ops-7.8.2-r0: do_install
+Elapsed time: 0.88 seconds
+utime: 66
+stime: 5
+cutime: 15
+cstime: 29
+IO rchar: 2814823
+IO wchar: 1019872
+IO syscr: 6222
+IO syscw: 481
+IO read_bytes: 139264
+IO write_bytes: 1298432
+IO cancelled_write_bytes: 98304
+rusage ru_utime: 0.668621
+rusage ru_stime: 0.05289
+rusage ru_maxrss: 78496
+rusage ru_minflt: 12939
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 216
+rusage ru_nvcsw: 164
+rusage ru_nivcsw: 289
+Child rusage ru_utime: 0.154188
+Child rusage ru_stime: 0.290307
+Child rusage ru_maxrss: 75448
+Child rusage ru_minflt: 35807
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 272
+Child rusage ru_oublock: 2320
+Child rusage ru_nvcsw: 685
+Child rusage ru_nivcsw: 913
+Status: PASSED 
+Ended: 1745443908.41 

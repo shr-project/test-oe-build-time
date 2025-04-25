@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745456866.17 
+gnome-desktop-testing-2021.1-r0: do_unpack
+Elapsed time: 0.52 seconds
+utime: 23
+stime: 4
+cutime: 34
+cstime: 10
+IO rchar: 4914273
+IO wchar: 143335
+IO syscr: 1575
+IO syscw: 180
+IO read_bytes: 65536
+IO write_bytes: 417792
+IO cancelled_write_bytes: 12288
+rusage ru_utime: 0.232451
+rusage ru_stime: 0.041544
+rusage ru_maxrss: 94088
+rusage ru_minflt: 10011
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 34
+rusage ru_nivcsw: 50
+Child rusage ru_utime: 0.344238
+Child rusage ru_stime: 0.104057
+Child rusage ru_maxrss: 94088
+Child rusage ru_minflt: 18429
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 128
+Child rusage ru_oublock: 688
+Child rusage ru_nvcsw: 46
+Child rusage ru_nivcsw: 121
+Status: PASSED 
+Ended: 1745456866.68 

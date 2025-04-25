@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745466209.25 
+sed-4.9-r0: do_compile_ptest_base
+Elapsed time: 0.71 seconds
+utime: 49
+stime: 2
+cutime: 20
+cstime: 10
+IO rchar: 6346205
+IO wchar: 244737
+IO syscr: 2052
+IO syscw: 459
+IO read_bytes: 0
+IO write_bytes: 266240
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.49813999999999997
+rusage ru_stime: 0.027951
+rusage ru_maxrss: 90932
+rusage ru_minflt: 6488
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 152
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 137
+Child rusage ru_utime: 0.200046
+Child rusage ru_stime: 0.10097199999999999
+Child rusage ru_maxrss: 85656
+Child rusage ru_minflt: 14969
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 368
+Child rusage ru_nvcsw: 94
+Child rusage ru_nivcsw: 96
+Status: PASSED 
+Ended: 1745466209.95 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745445921.88 
+wpebackend-fdo-1.14.2-r0: do_populate_sysroot
+Elapsed time: 0.81 seconds
+utime: 91
+stime: 3
+cutime: 4
+cstime: 6
+IO rchar: 6764089
+IO wchar: 2280802
+IO syscr: 957
+IO syscw: 207
+IO read_bytes: 0
+IO write_bytes: 2220032
+IO cancelled_write_bytes: 94208
+rusage ru_utime: 0.91503
+rusage ru_stime: 0.035883
+rusage ru_maxrss: 93416
+rusage ru_minflt: 15646
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 3688
+rusage ru_nvcsw: 23
+rusage ru_nivcsw: 57
+Child rusage ru_utime: 0.040988
+Child rusage ru_stime: 0.060488
+Child rusage ru_maxrss: 93416
+Child rusage ru_minflt: 12925
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 648
+Child rusage ru_nvcsw: 389
+Child rusage ru_nivcsw: 58
+Status: PASSED 
+Ended: 1745445922.69 

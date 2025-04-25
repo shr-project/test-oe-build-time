@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745455123.31 
+bash-5.2.21-r0: do_compile_ptest_base
+Elapsed time: 2.84 seconds
+utime: 29
+stime: 2
+cutime: 314
+cstime: 30
+IO rchar: 44642225
+IO wchar: 8619168
+IO syscr: 10500
+IO syscw: 3627
+IO read_bytes: 0
+IO write_bytes: 5328896
+IO cancelled_write_bytes: 5185536
+rusage ru_utime: 0.300098
+rusage ru_stime: 0.020937
+rusage ru_maxrss: 92088
+rusage ru_minflt: 6730
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 29
+rusage ru_nivcsw: 15
+Child rusage ru_utime: 3.148505
+Child rusage ru_stime: 0.30710899999999997
+Child rusage ru_maxrss: 87444
+Child rusage ru_minflt: 78278
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 10336
+Child rusage ru_nvcsw: 433
+Child rusage ru_nivcsw: 85
+Status: PASSED 
+Ended: 1745455126.15 

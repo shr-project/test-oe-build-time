@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745446743.81 
+qtbase-5.15.13+git-r0: do_rm_work
+Elapsed time: 4.54 seconds
+utime: 57
+stime: 2
+cutime: 22
+cstime: 363
+IO rchar: 1465325
+IO wchar: 35836
+IO syscr: 1723
+IO syscw: 106
+IO read_bytes: 16384
+IO write_bytes: 125464576
+IO cancelled_write_bytes: 12009472
+rusage ru_utime: 0.576518
+rusage ru_stime: 0.024978999999999998
+rusage ru_maxrss: 99624
+rusage ru_minflt: 6723
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 80
+rusage ru_nvcsw: 6
+rusage ru_nivcsw: 70
+Child rusage ru_utime: 0.222464
+Child rusage ru_stime: 3.636529
+Child rusage ru_maxrss: 95208
+Child rusage ru_minflt: 39929
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 32
+Child rusage ru_oublock: 244968
+Child rusage ru_nvcsw: 428
+Child rusage ru_nivcsw: 372
+Status: PASSED 
+Ended: 1745446748.35 

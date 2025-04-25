@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745492043.56 
+libpciaccess-native-0.18-r0: do_configure
+Elapsed time: 1.66 seconds
+utime: 42
+stime: 2
+cutime: 110
+cstime: 46
+IO rchar: 16125985
+IO wchar: 4407627
+IO syscr: 4708
+IO syscw: 1291
+IO read_bytes: 8192
+IO write_bytes: 5173248
+IO cancelled_write_bytes: 319488
+rusage ru_utime: 0.425877
+rusage ru_stime: 0.022045
+rusage ru_maxrss: 97312
+rusage ru_minflt: 7281
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 144
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 9
+Child rusage ru_utime: 1.108018
+Child rusage ru_stime: 0.46262899999999996
+Child rusage ru_maxrss: 97312
+Child rusage ru_minflt: 110285
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 9960
+Child rusage ru_nvcsw: 505
+Child rusage ru_nivcsw: 146
+Status: PASSED 
+Ended: 1745492045.22 

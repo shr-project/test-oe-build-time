@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745464606.04 
+bc-native-1.07.1-r0: do_patch
+Elapsed time: 0.15 seconds
+utime: 34
+stime: 2
+cutime: 5
+cstime: 5
+IO rchar: 1228477
+IO wchar: 98087
+IO syscr: 887
+IO syscw: 170
+IO read_bytes: 0
+IO write_bytes: 143360
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.343561
+rusage ru_stime: 0.02504
+rusage ru_maxrss: 82796
+rusage ru_minflt: 6569
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 152
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 16
+Child rusage ru_utime: 0.057194999999999996
+Child rusage ru_stime: 0.057206
+Child rusage ru_maxrss: 82796
+Child rusage ru_minflt: 19271
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 128
+Child rusage ru_nvcsw: 253
+Child rusage ru_nivcsw: 46
+Status: PASSED 
+Ended: 1745464606.19 

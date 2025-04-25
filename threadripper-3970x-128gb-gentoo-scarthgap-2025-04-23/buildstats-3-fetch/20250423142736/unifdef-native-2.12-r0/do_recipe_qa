@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745418476.56 
+unifdef-native-2.12-r0: do_recipe_qa
+Elapsed time: 0.24 seconds
+utime: 46
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 893444
+IO wchar: 112646
+IO syscr: 342
+IO syscw: 91
+IO read_bytes: 0
+IO write_bytes: 131072
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.463972
+rusage ru_stime: 0.02886
+rusage ru_maxrss: 58980
+rusage ru_minflt: 8637
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 224
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 18
+Child rusage ru_utime: 0.017703
+Child rusage ru_stime: 0.031959
+Child rusage ru_maxrss: 58980
+Child rusage ru_minflt: 4525
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 263
+Child rusage ru_nivcsw: 32
+Status: PASSED 
+Ended: 1745418476.79 

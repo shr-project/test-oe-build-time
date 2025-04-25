@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745491939.27 
+createrepo-c-native-1.0.4-r0: do_recipe_qa
+Elapsed time: 0.20 seconds
+utime: 42
+stime: 1
+cutime: 1
+cstime: 2
+IO rchar: 1021788
+IO wchar: 118581
+IO syscr: 373
+IO syscw: 99
+IO read_bytes: 0
+IO write_bytes: 196608
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.42511699999999997
+rusage ru_stime: 0.019049999999999997
+rusage ru_maxrss: 96792
+rusage ru_minflt: 9097
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 344
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 7
+Child rusage ru_utime: 0.012457
+Child rusage ru_stime: 0.029273
+Child rusage ru_maxrss: 96792
+Child rusage ru_minflt: 4546
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 289
+Child rusage ru_nivcsw: 35
+Status: PASSED 
+Ended: 1745491939.47 

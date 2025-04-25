@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745418478.50 
+wayland-native-1.22.0-r0: do_recipe_qa
+Elapsed time: 0.17 seconds
+utime: 43
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 1011495
+IO wchar: 123640
+IO syscr: 369
+IO syscw: 107
+IO read_bytes: 0
+IO write_bytes: 155648
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.43063799999999997
+rusage ru_stime: 0.024978999999999998
+rusage ru_maxrss: 60376
+rusage ru_minflt: 8944
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 256
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 17
+Child rusage ru_utime: 0.013562999999999999
+Child rusage ru_stime: 0.022077
+Child rusage ru_maxrss: 60376
+Child rusage ru_minflt: 4504
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 48
+Child rusage ru_nvcsw: 136
+Child rusage ru_nivcsw: 16
+Status: PASSED 
+Ended: 1745418478.68 

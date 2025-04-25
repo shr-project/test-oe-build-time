@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745455331.19 
+mtdev-1.1.6-r0: do_unpack
+Elapsed time: 0.21 seconds
+utime: 33
+stime: 3
+cutime: 7
+cstime: 3
+IO rchar: 2162112
+IO wchar: 2989097
+IO syscr: 499
+IO syscw: 598
+IO read_bytes: 299008
+IO write_bytes: 1622016
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.334376
+rusage ru_stime: 0.031987999999999996
+rusage ru_maxrss: 94468
+rusage ru_minflt: 5957
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 80
+rusage ru_nvcsw: 5
+rusage ru_nivcsw: 73
+Child rusage ru_utime: 0.078385
+Child rusage ru_stime: 0.030968
+Child rusage ru_maxrss: 94468
+Child rusage ru_minflt: 1789
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 584
+Child rusage ru_oublock: 3088
+Child rusage ru_nvcsw: 267
+Child rusage ru_nivcsw: 228
+Status: PASSED 
+Ended: 1745455331.40 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745444190.09 
+sudo-1.9.15p5-r0: do_rm_work
+Elapsed time: 0.57 seconds
+utime: 42
+stime: 2
+cutime: 8
+cstime: 30
+IO rchar: 923649
+IO wchar: 29002
+IO syscr: 906
+IO syscw: 68
+IO read_bytes: 0
+IO write_bytes: 9252864
+IO cancelled_write_bytes: 1011712
+rusage ru_utime: 0.42580599999999996
+rusage ru_stime: 0.024045
+rusage ru_maxrss: 92912
+rusage ru_minflt: 7046
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 56
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 10
+Child rusage ru_utime: 0.083355
+Child rusage ru_stime: 0.30744299999999997
+Child rusage ru_maxrss: 87640
+Child rusage ru_minflt: 19334
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 18016
+Child rusage ru_nvcsw: 207
+Child rusage ru_nivcsw: 113
+Status: PASSED 
+Ended: 1745444190.67 

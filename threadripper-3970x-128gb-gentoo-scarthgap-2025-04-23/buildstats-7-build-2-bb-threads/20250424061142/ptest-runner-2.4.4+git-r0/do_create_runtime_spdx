@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745489994.11 
+ptest-runner-2.4.4+git-r0: do_create_runtime_spdx
+Elapsed time: 0.30 seconds
+utime: 42
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 1216520
+IO wchar: 395537
+IO syscr: 559
+IO syscw: 106
+IO read_bytes: 24576
+IO write_bytes: 299008
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.42738699999999996
+rusage ru_stime: 0.020065
+rusage ru_maxrss: 92024
+rusage ru_minflt: 9631
+rusage ru_majflt: 0
+rusage ru_inblock: 48
+rusage ru_oublock: 432
+rusage ru_nvcsw: 24
+rusage ru_nivcsw: 17
+Child rusage ru_utime: 0.017827
+Child rusage ru_stime: 0.028606
+Child rusage ru_maxrss: 92024
+Child rusage ru_minflt: 5905
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 152
+Child rusage ru_nvcsw: 211
+Child rusage ru_nivcsw: 12
+Status: PASSED 
+Ended: 1745489994.41 

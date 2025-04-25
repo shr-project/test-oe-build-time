@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745443529.83 
+dtc-native-1.7.0-r0: do_install
+Elapsed time: 0.45 seconds
+utime: 58
+stime: 2
+cutime: 23
+cstime: 3
+IO rchar: 9332451
+IO wchar: 589608
+IO syscr: 958
+IO syscw: 116
+IO read_bytes: 0
+IO write_bytes: 606208
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.5817709999999999
+rusage ru_stime: 0.026889999999999997
+rusage ru_maxrss: 86600
+rusage ru_minflt: 10717
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 57
+Child rusage ru_utime: 0.231311
+Child rusage ru_stime: 0.036377
+Child rusage ru_maxrss: 85064
+Child rusage ru_minflt: 7789
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1112
+Child rusage ru_nvcsw: 6
+Child rusage ru_nivcsw: 19
+Status: PASSED 
+Ended: 1745443530.27 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442785.26 
+spirv-tools-native-1_1.3.275.0-r0: do_recipe_qa
+Elapsed time: 0.25 seconds
+utime: 61
+stime: 1
+cutime: 1
+cstime: 3
+IO rchar: 910939
+IO wchar: 113035
+IO syscr: 340
+IO syscw: 92
+IO read_bytes: 0
+IO write_bytes: 122880
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.6178239999999999
+rusage ru_stime: 0.017907
+rusage ru_maxrss: 77904
+rusage ru_minflt: 9807
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 208
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 58
+Child rusage ru_utime: 0.016404
+Child rusage ru_stime: 0.030272999999999998
+Child rusage ru_maxrss: 77904
+Child rusage ru_minflt: 4512
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 142
+Child rusage ru_nivcsw: 14
+Status: PASSED 
+Ended: 1745442785.51 

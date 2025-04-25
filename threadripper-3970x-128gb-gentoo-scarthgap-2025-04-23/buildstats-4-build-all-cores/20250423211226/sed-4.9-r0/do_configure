@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745443893.41 
+sed-4.9-r0: do_configure
+Elapsed time: 41.92 seconds
+utime: 104
+stime: 6
+cutime: 2425
+cstime: 1000
+IO rchar: 280976923
+IO wchar: 49724263
+IO syscr: 108560
+IO syscw: 42081
+IO read_bytes: 1515520
+IO write_bytes: 23613440
+IO cancelled_write_bytes: 8544256
+rusage ru_utime: 1.044603
+rusage ru_stime: 0.067103
+rusage ru_maxrss: 89520
+rusage ru_minflt: 13662
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 352
+rusage ru_nvcsw: 763
+rusage ru_nivcsw: 52
+Child rusage ru_utime: 24.251118
+Child rusage ru_stime: 10.000966
+Child rusage ru_maxrss: 89520
+Child rusage ru_minflt: 1628836
+Child rusage ru_majflt: 47
+Child rusage ru_inblock: 2960
+Child rusage ru_oublock: 45768
+Child rusage ru_nvcsw: 11288
+Child rusage ru_nivcsw: 7346
+Status: PASSED 
+Ended: 1745443935.33 

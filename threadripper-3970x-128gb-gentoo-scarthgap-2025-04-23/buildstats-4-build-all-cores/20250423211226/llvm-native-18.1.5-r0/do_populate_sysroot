@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745445859.29 
+llvm-native-18.1.5-r0: do_populate_sysroot
+Elapsed time: 3.09 seconds
+utime: 182
+stime: 75
+cutime: 881
+cstime: 226
+IO rchar: 1887873914
+IO wchar: 1030338525
+IO syscr: 229034
+IO syscw: 68564
+IO read_bytes: 0
+IO write_bytes: 626294784
+IO cancelled_write_bytes: 166629376
+rusage ru_utime: 1.821594
+rusage ru_stime: 0.758247
+rusage ru_maxrss: 92600
+rusage ru_minflt: 50597
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 381776
+rusage ru_nvcsw: 440
+rusage ru_nivcsw: 137
+Child rusage ru_utime: 8.81446
+Child rusage ru_stime: 2.266371
+Child rusage ru_maxrss: 533404
+Child rusage ru_minflt: 392724
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 841456
+Child rusage ru_nvcsw: 3678
+Child rusage ru_nivcsw: 784
+Status: PASSED 
+Ended: 1745445862.38 

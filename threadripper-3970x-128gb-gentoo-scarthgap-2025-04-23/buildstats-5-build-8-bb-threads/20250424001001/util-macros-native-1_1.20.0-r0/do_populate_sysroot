@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745453563.12 
+util-macros-native-1_1.20.0-r0: do_populate_sysroot
+Elapsed time: 0.45 seconds
+utime: 60
+stime: 3
+cutime: 4
+cstime: 5
+IO rchar: 1664993
+IO wchar: 369954
+IO syscr: 794
+IO syscw: 191
+IO read_bytes: 0
+IO write_bytes: 262144
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.607348
+rusage ru_stime: 0.035019999999999996
+rusage ru_maxrss: 82584
+rusage ru_minflt: 17432
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 368
+rusage ru_nvcsw: 23
+rusage ru_nivcsw: 23
+Child rusage ru_utime: 0.047944
+Child rusage ru_stime: 0.057019999999999994
+Child rusage ru_maxrss: 82584
+Child rusage ru_minflt: 10702
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 144
+Child rusage ru_nvcsw: 390
+Child rusage ru_nivcsw: 51
+Status: PASSED 
+Ended: 1745453563.57 

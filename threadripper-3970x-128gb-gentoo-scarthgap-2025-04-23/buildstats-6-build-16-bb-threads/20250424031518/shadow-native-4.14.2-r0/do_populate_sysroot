@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745464810.89 
+shadow-native-4.14.2-r0: do_populate_sysroot
+Elapsed time: 1.62 seconds
+utime: 112
+stime: 42
+cutime: 54
+cstime: 92
+IO rchar: 32253658
+IO wchar: 12005208
+IO syscr: 10907
+IO syscw: 1958
+IO read_bytes: 0
+IO write_bytes: 9662464
+IO cancelled_write_bytes: 2682880
+rusage ru_utime: 1.125849
+rusage ru_stime: 0.425481
+rusage ru_maxrss: 88648
+rusage ru_minflt: 37631
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 6760
+rusage ru_nvcsw: 175
+rusage ru_nivcsw: 234
+Child rusage ru_utime: 0.5489809999999999
+Child rusage ru_stime: 0.9207909999999999
+Child rusage ru_maxrss: 88648
+Child rusage ru_minflt: 96798
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 12112
+Child rusage ru_nvcsw: 942
+Child rusage ru_nivcsw: 408
+Status: PASSED 
+Ended: 1745464812.51 

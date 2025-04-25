@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745443954.14 
+sed-4.9-r0: do_install_ptest_base
+Elapsed time: 0.37 seconds
+utime: 50
+stime: 3
+cutime: 5
+cstime: 8
+IO rchar: 6216522
+IO wchar: 3630517
+IO syscr: 2052
+IO syscw: 599
+IO read_bytes: 770048
+IO write_bytes: 4247552
+IO cancelled_write_bytes: 454656
+rusage ru_utime: 0.503524
+rusage ru_stime: 0.037814
+rusage ru_maxrss: 78328
+rusage ru_minflt: 9636
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 36
+rusage ru_nivcsw: 269
+Child rusage ru_utime: 0.052865999999999996
+Child rusage ru_stime: 0.088574
+Child rusage ru_maxrss: 75564
+Child rusage ru_minflt: 7567
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 1504
+Child rusage ru_oublock: 8224
+Child rusage ru_nvcsw: 447
+Child rusage ru_nivcsw: 527
+Status: PASSED 
+Ended: 1745443954.51 

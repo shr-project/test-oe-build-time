@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442913.24 
+gcc-source-13.2.0-13.2.0-r0: do_patch
+Elapsed time: 9.55 seconds
+utime: 56
+stime: 14
+cutime: 76
+cstime: 125
+IO rchar: 39212507
+IO wchar: 31260818
+IO syscr: 13016
+IO syscw: 9009
+IO read_bytes: 131072
+IO write_bytes: 31940608
+IO cancelled_write_bytes: 933888
+rusage ru_utime: 0.5681919999999999
+rusage ru_stime: 0.14504899999999998
+rusage ru_maxrss: 84548
+rusage ru_minflt: 6811
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 544
+rusage ru_nvcsw: 122
+rusage ru_nivcsw: 46
+Child rusage ru_utime: 0.7687609999999999
+Child rusage ru_stime: 1.250121
+Child rusage ru_maxrss: 83524
+Child rusage ru_minflt: 286618
+Child rusage ru_majflt: 7
+Child rusage ru_inblock: 256
+Child rusage ru_oublock: 61840
+Child rusage ru_nvcsw: 3786
+Child rusage ru_nivcsw: 1025
+Status: PASSED 
+Ended: 1745442922.79 

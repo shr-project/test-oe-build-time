@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745445655.45 
+ppp-2.5.0-r0: do_configure
+Elapsed time: 10.84 seconds
+utime: 95
+stime: 4
+cutime: 728
+cstime: 212
+IO rchar: 130740161
+IO wchar: 20302220
+IO syscr: 46585
+IO syscw: 17484
+IO read_bytes: 319488
+IO write_bytes: 13430784
+IO cancelled_write_bytes: 6172672
+rusage ru_utime: 0.950402
+rusage ru_stime: 0.046960999999999996
+rusage ru_maxrss: 93392
+rusage ru_minflt: 17412
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 368
+rusage ru_nvcsw: 264
+rusage ru_nivcsw: 64
+Child rusage ru_utime: 7.281314
+Child rusage ru_stime: 2.129501
+Child rusage ru_maxrss: 93392
+Child rusage ru_minflt: 629695
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 624
+Child rusage ru_oublock: 25864
+Child rusage ru_nvcsw: 5713
+Child rusage ru_nivcsw: 1457
+Status: PASSED 
+Ended: 1745445666.29 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442785.32 
+update-rc.d-0.8+git-r0: do_unpack
+Elapsed time: 0.63 seconds
+utime: 25
+stime: 4
+cutime: 45
+cstime: 10
+IO rchar: 4787952
+IO wchar: 69085
+IO syscr: 1512
+IO syscw: 155
+IO read_bytes: 147456
+IO write_bytes: 327680
+IO cancelled_write_bytes: 8192
+rusage ru_utime: 0.251514
+rusage ru_stime: 0.042412
+rusage ru_maxrss: 77104
+rusage ru_minflt: 10116
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 80
+rusage ru_nvcsw: 31
+rusage ru_nivcsw: 38
+Child rusage ru_utime: 0.45145599999999997
+Child rusage ru_stime: 0.10285699999999999
+Child rusage ru_maxrss: 77104
+Child rusage ru_minflt: 17711
+Child rusage ru_majflt: 2
+Child rusage ru_inblock: 288
+Child rusage ru_oublock: 560
+Child rusage ru_nvcsw: 32
+Child rusage ru_nivcsw: 41
+Status: PASSED 
+Ended: 1745442785.95 

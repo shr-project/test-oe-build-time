@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745418485.68 
+libstd-rs-1.75.0-r0: do_recipe_qa
+Elapsed time: 0.19 seconds
+utime: 36
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 842127
+IO wchar: 116069
+IO syscr: 363
+IO syscw: 88
+IO read_bytes: 57344
+IO write_bytes: 126976
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.36322699999999997
+rusage ru_stime: 0.020005
+rusage ru_maxrss: 60104
+rusage ru_minflt: 8948
+rusage ru_majflt: 0
+rusage ru_inblock: 112
+rusage ru_oublock: 216
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 54
+Child rusage ru_utime: 0.012667
+Child rusage ru_stime: 0.028939
+Child rusage ru_maxrss: 60104
+Child rusage ru_minflt: 4529
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 304
+Child rusage ru_nivcsw: 47
+Status: PASSED 
+Ended: 1745418485.87 

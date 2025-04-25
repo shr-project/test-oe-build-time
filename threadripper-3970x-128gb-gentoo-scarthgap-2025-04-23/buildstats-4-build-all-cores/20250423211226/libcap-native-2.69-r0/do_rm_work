@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442884.47 
+libcap-native-2.69-r0: do_rm_work
+Elapsed time: 0.31 seconds
+utime: 50
+stime: 2
+cutime: 5
+cstime: 9
+IO rchar: 963990
+IO wchar: 27023
+IO syscr: 649
+IO syscw: 58
+IO read_bytes: 0
+IO write_bytes: 49152
+IO cancelled_write_bytes: 2760704
+rusage ru_utime: 0.501531
+rusage ru_stime: 0.022022999999999997
+rusage ru_maxrss: 85784
+rusage ru_minflt: 7813
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 48
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 15
+Child rusage ru_utime: 0.059565
+Child rusage ru_stime: 0.093071
+Child rusage ru_maxrss: 81364
+Child rusage ru_minflt: 13715
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 48
+Child rusage ru_nvcsw: 151
+Child rusage ru_nivcsw: 60
+Status: PASSED 
+Ended: 1745442884.78 

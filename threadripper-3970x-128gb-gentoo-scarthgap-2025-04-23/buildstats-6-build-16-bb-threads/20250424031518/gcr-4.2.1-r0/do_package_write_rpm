@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745468052.16 
+gcr-4.2.1-r0: do_package_write_rpm
+Elapsed time: 12.23 seconds
+utime: 552
+stime: 27
+cutime: 7459
+cstime: 1155
+IO rchar: 51582785
+IO wchar: 8508893
+IO syscr: 13190
+IO syscw: 6337
+IO read_bytes: 0
+IO write_bytes: 5300224
+IO cancelled_write_bytes: 0
+rusage ru_utime: 5.528546
+rusage ru_stime: 0.27258299999999996
+rusage ru_maxrss: 103000
+rusage ru_minflt: 29436
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 1072
+rusage ru_nvcsw: 2233
+rusage ru_nivcsw: 2031
+Child rusage ru_utime: 74.595042
+Child rusage ru_stime: 11.55363
+Child rusage ru_maxrss: 4630632
+Child rusage ru_minflt: 1997967
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 9280
+Child rusage ru_nvcsw: 83561
+Child rusage ru_nivcsw: 15306
+Status: PASSED 
+Ended: 1745468064.38 

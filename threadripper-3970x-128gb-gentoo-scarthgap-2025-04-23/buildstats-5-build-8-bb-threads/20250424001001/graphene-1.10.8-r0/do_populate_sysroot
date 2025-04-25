@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745455165.67 
+graphene-1.10.8-r0: do_populate_sysroot
+Elapsed time: 0.89 seconds
+utime: 101
+stime: 6
+cutime: 6
+cstime: 11
+IO rchar: 6373192
+IO wchar: 2237029
+IO syscr: 1387
+IO syscw: 316
+IO read_bytes: 131072
+IO write_bytes: 1396736
+IO cancelled_write_bytes: 118784
+rusage ru_utime: 1.0195940000000001
+rusage ru_stime: 0.068922
+rusage ru_maxrss: 94544
+rusage ru_minflt: 15263
+rusage ru_majflt: 0
+rusage ru_inblock: 256
+rusage ru_oublock: 1768
+rusage ru_nvcsw: 24
+rusage ru_nivcsw: 101
+Child rusage ru_utime: 0.066485
+Child rusage ru_stime: 0.113686
+Child rusage ru_maxrss: 94544
+Child rusage ru_minflt: 13736
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 960
+Child rusage ru_nvcsw: 315
+Child rusage ru_nivcsw: 89
+Status: PASSED 
+Ended: 1745455166.56 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745464843.92 
+tzcode-native-2024a-r0: do_populate_sysroot
+Elapsed time: 0.51 seconds
+utime: 52
+stime: 4
+cutime: 5
+cstime: 8
+IO rchar: 2449151
+IO wchar: 761479
+IO syscr: 1218
+IO syscw: 236
+IO read_bytes: 0
+IO write_bytes: 643072
+IO cancelled_write_bytes: 118784
+rusage ru_utime: 0.5212359999999999
+rusage ru_stime: 0.045932
+rusage ru_maxrss: 86860
+rusage ru_minflt: 18986
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 560
+rusage ru_nvcsw: 34
+rusage ru_nivcsw: 34
+Child rusage ru_utime: 0.058079
+Child rusage ru_stime: 0.083411
+Child rusage ru_maxrss: 86860
+Child rusage ru_minflt: 15280
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 696
+Child rusage ru_nvcsw: 377
+Child rusage ru_nivcsw: 42
+Status: PASSED 
+Ended: 1745464844.43 

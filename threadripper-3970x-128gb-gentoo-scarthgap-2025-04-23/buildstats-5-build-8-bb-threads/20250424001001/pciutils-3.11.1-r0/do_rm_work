@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745456813.64 
+pciutils-3.11.1-r0: do_rm_work
+Elapsed time: 0.35 seconds
+utime: 36
+stime: 2
+cutime: 5
+cstime: 13
+IO rchar: 895602
+IO wchar: 27793
+IO syscr: 860
+IO syscw: 66
+IO read_bytes: 0
+IO write_bytes: 5087232
+IO cancelled_write_bytes: 20480
+rusage ru_utime: 0.36037199999999997
+rusage ru_stime: 0.022022
+rusage ru_maxrss: 95968
+rusage ru_minflt: 10265
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 6
+Child rusage ru_utime: 0.052653
+Child rusage ru_stime: 0.13737
+Child rusage ru_maxrss: 90092
+Child rusage ru_minflt: 18989
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 9864
+Child rusage ru_nvcsw: 206
+Child rusage ru_nivcsw: 35
+Status: PASSED 
+Ended: 1745456813.99 

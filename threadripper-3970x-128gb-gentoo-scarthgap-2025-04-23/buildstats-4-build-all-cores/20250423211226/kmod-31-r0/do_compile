@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745444023.62 
+kmod-31-r0: do_compile
+Elapsed time: 5.68 seconds
+utime: 42
+stime: 2
+cutime: 666
+cstime: 164
+IO rchar: 61175464
+IO wchar: 11894746
+IO syscr: 17369
+IO syscw: 5315
+IO read_bytes: 249856
+IO write_bytes: 6627328
+IO cancelled_write_bytes: 1769472
+rusage ru_utime: 0.421542
+rusage ru_stime: 0.025359999999999997
+rusage ru_maxrss: 88820
+rusage ru_minflt: 6643
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 288
+rusage ru_nvcsw: 65
+rusage ru_nivcsw: 22
+Child rusage ru_utime: 6.664569
+Child rusage ru_stime: 1.647936
+Child rusage ru_maxrss: 84440
+Child rusage ru_minflt: 315727
+Child rusage ru_majflt: 2
+Child rusage ru_inblock: 488
+Child rusage ru_oublock: 12656
+Child rusage ru_nvcsw: 2502
+Child rusage ru_nivcsw: 1595
+Status: PASSED 
+Ended: 1745444029.30 

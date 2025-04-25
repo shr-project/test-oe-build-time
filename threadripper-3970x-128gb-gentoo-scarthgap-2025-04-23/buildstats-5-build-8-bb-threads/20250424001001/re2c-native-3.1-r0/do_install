@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745453652.14 
+re2c-native-3.1-r0: do_install
+Elapsed time: 0.30 seconds
+utime: 42
+stime: 2
+cutime: 9
+cstime: 6
+IO rchar: 6018892
+IO wchar: 2947626
+IO syscr: 1596
+IO syscw: 251
+IO read_bytes: 0
+IO write_bytes: 3022848
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.42777099999999996
+rusage ru_stime: 0.022934
+rusage ru_maxrss: 81076
+rusage ru_minflt: 10579
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 26
+rusage ru_nivcsw: 43
+Child rusage ru_utime: 0.09269999999999999
+Child rusage ru_stime: 0.06405899999999999
+Child rusage ru_maxrss: 79540
+Child rusage ru_minflt: 16865
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 5792
+Child rusage ru_nvcsw: 205
+Child rusage ru_nivcsw: 61
+Status: PASSED 
+Ended: 1745453652.44 

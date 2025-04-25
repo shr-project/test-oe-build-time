@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745443072.07 
+ca-certificates-native-20211016-r0: do_populate_sysroot
+Elapsed time: 0.67 seconds
+utime: 64
+stime: 6
+cutime: 7
+cstime: 16
+IO rchar: 3524545
+IO wchar: 1146730
+IO syscr: 1878
+IO syscw: 265
+IO read_bytes: 0
+IO write_bytes: 856064
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.649712
+rusage ru_stime: 0.061161
+rusage ru_maxrss: 87844
+rusage ru_minflt: 18768
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 624
+rusage ru_nvcsw: 24
+rusage ru_nivcsw: 70
+Child rusage ru_utime: 0.071269
+Child rusage ru_stime: 0.16550099999999998
+Child rusage ru_maxrss: 87844
+Child rusage ru_minflt: 13368
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1048
+Child rusage ru_nvcsw: 438
+Child rusage ru_nivcsw: 87
+Status: PASSED 
+Ended: 1745443072.74 

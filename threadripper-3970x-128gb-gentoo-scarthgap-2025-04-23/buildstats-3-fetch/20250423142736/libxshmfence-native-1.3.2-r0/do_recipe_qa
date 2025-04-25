@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745418473.58 
+libxshmfence-native-1.3.2-r0: do_recipe_qa
+Elapsed time: 0.27 seconds
+utime: 58
+stime: 3
+cutime: 1
+cstime: 2
+IO rchar: 983758
+IO wchar: 120228
+IO syscr: 359
+IO syscw: 100
+IO read_bytes: 0
+IO write_bytes: 139264
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.58211
+rusage ru_stime: 0.032837
+rusage ru_maxrss: 56680
+rusage ru_minflt: 8575
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 240
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 42
+Child rusage ru_utime: 0.016686
+Child rusage ru_stime: 0.029459
+Child rusage ru_maxrss: 56680
+Child rusage ru_minflt: 4512
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 215
+Child rusage ru_nivcsw: 28
+Status: PASSED 
+Ended: 1745418473.85 

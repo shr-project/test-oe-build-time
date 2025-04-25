@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745418477.51 
+libyaml-native-0.2.5-r0: do_recipe_qa
+Elapsed time: 0.20 seconds
+utime: 42
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 919993
+IO wchar: 116797
+IO syscr: 348
+IO syscw: 96
+IO read_bytes: 0
+IO write_bytes: 135168
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.421934
+rusage ru_stime: 0.021984999999999998
+rusage ru_maxrss: 58444
+rusage ru_minflt: 8754
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 216
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 31
+Child rusage ru_utime: 0.016413
+Child rusage ru_stime: 0.033832
+Child rusage ru_maxrss: 58444
+Child rusage ru_minflt: 4516
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 48
+Child rusage ru_nvcsw: 259
+Child rusage ru_nivcsw: 18
+Status: PASSED 
+Ended: 1745418477.71 

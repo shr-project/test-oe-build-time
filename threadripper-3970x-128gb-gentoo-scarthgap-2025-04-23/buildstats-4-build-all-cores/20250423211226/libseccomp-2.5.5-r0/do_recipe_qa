@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442784.99 
+libseccomp-2.5.5-r0: do_recipe_qa
+Elapsed time: 0.27 seconds
+utime: 49
+stime: 2
+cutime: 2
+cstime: 2
+IO rchar: 775889
+IO wchar: 115889
+IO syscr: 351
+IO syscw: 89
+IO read_bytes: 0
+IO write_bytes: 131072
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.493448
+rusage ru_stime: 0.029904999999999998
+rusage ru_maxrss: 78480
+rusage ru_minflt: 9769
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 224
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 33
+Child rusage ru_utime: 0.020883
+Child rusage ru_stime: 0.029182
+Child rusage ru_maxrss: 78480
+Child rusage ru_minflt: 4524
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 120
+Child rusage ru_nivcsw: 21
+Status: PASSED 
+Ended: 1745442785.26 

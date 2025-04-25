@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745456075.04 
+nodejs-native-20.12.2-r0: do_create_runtime_spdx
+Elapsed time: 0.18 seconds
+utime: 43
+stime: 1
+cutime: 1
+cstime: 2
+IO rchar: 1139211
+IO wchar: 343446
+IO syscr: 289
+IO syscw: 105
+IO read_bytes: 0
+IO write_bytes: 180224
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.43389
+rusage ru_stime: 0.019948
+rusage ru_maxrss: 93892
+rusage ru_minflt: 9885
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 272
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 42
+Child rusage ru_utime: 0.01228
+Child rusage ru_stime: 0.023615
+Child rusage ru_maxrss: 93892
+Child rusage ru_minflt: 4754
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 80
+Child rusage ru_nvcsw: 242
+Child rusage ru_nivcsw: 11
+Status: PASSED 
+Ended: 1745456075.22 

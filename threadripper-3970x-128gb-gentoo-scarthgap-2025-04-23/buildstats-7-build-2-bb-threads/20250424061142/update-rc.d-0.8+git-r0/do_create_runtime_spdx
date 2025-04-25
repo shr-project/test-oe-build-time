@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745477236.20 
+update-rc.d-0.8+git-r0: do_create_runtime_spdx
+Elapsed time: 0.22 seconds
+utime: 30
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 966328
+IO wchar: 372656
+IO syscr: 430
+IO syscw: 101
+IO read_bytes: 0
+IO write_bytes: 245760
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.30805
+rusage ru_stime: 0.020132999999999998
+rusage ru_maxrss: 84196
+rusage ru_minflt: 9263
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 368
+rusage ru_nvcsw: 20
+rusage ru_nivcsw: 9
+Child rusage ru_utime: 0.012392
+Child rusage ru_stime: 0.033576999999999996
+Child rusage ru_maxrss: 84196
+Child rusage ru_minflt: 5802
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 112
+Child rusage ru_nvcsw: 325
+Child rusage ru_nivcsw: 46
+Status: PASSED 
+Ended: 1745477236.41 

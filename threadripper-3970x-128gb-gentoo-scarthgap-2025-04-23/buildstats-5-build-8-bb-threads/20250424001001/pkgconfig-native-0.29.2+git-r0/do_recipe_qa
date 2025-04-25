@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745453443.36 
+pkgconfig-native-0.29.2+git-r0: do_recipe_qa
+Elapsed time: 0.27 seconds
+utime: 46
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 1004693
+IO wchar: 132133
+IO syscr: 385
+IO syscw: 102
+IO read_bytes: 0
+IO write_bytes: 184320
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.46943799999999997
+rusage ru_stime: 0.024021999999999998
+rusage ru_maxrss: 77512
+rusage ru_minflt: 12536
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 320
+rusage ru_nvcsw: 14
+rusage ru_nivcsw: 40
+Child rusage ru_utime: 0.018053
+Child rusage ru_stime: 0.030115999999999997
+Child rusage ru_maxrss: 77512
+Child rusage ru_minflt: 5011
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 259
+Child rusage ru_nivcsw: 60
+Status: PASSED 
+Ended: 1745453443.62 

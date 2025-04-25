@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745445442.42 
+gnome-desktop-testing-2021.1-r0: do_install
+Elapsed time: 1.22 seconds
+utime: 62
+stime: 5
+cutime: 13
+cstime: 17
+IO rchar: 1643274
+IO wchar: 217913
+IO syscr: 2186
+IO syscw: 228
+IO read_bytes: 8192
+IO write_bytes: 245760
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.626599
+rusage ru_stime: 0.051047999999999996
+rusage ru_maxrss: 86752
+rusage ru_minflt: 13096
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 200
+rusage ru_nvcsw: 490
+rusage ru_nivcsw: 143
+Child rusage ru_utime: 0.13305999999999998
+Child rusage ru_stime: 0.179943
+Child rusage ru_maxrss: 83572
+Child rusage ru_minflt: 25331
+Child rusage ru_majflt: 2
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 280
+Child rusage ru_nvcsw: 482
+Child rusage ru_nivcsw: 311
+Status: PASSED 
+Ended: 1745445443.64 

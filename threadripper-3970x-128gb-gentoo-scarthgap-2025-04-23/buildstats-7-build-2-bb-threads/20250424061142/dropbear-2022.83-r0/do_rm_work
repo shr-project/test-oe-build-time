@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745491354.77 
+dropbear-2022.83-r0: do_rm_work
+Elapsed time: 0.50 seconds
+utime: 56
+stime: 3
+cutime: 8
+cstime: 26
+IO rchar: 1056392
+IO wchar: 30720
+IO syscr: 1073
+IO syscw: 77
+IO read_bytes: 0
+IO write_bytes: 12161024
+IO cancelled_write_bytes: 8843264
+rusage ru_utime: 0.5631659999999999
+rusage ru_stime: 0.03401
+rusage ru_maxrss: 96344
+rusage ru_minflt: 10117
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 56
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 1
+Child rusage ru_utime: 0.085349
+Child rusage ru_stime: 0.261164
+Child rusage ru_maxrss: 90048
+Child rusage ru_minflt: 23264
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 23696
+Child rusage ru_nvcsw: 235
+Child rusage ru_nivcsw: 18
+Status: PASSED 
+Ended: 1745491355.28 

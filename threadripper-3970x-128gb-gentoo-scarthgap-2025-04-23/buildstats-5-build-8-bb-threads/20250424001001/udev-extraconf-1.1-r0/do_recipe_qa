@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745458523.58 
+udev-extraconf-1.1-r0: do_recipe_qa
+Elapsed time: 0.41 seconds
+utime: 49
+stime: 4
+cutime: 2
+cstime: 3
+IO rchar: 814132
+IO wchar: 108529
+IO syscr: 353
+IO syscw: 79
+IO read_bytes: 0
+IO write_bytes: 126976
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.49932499999999996
+rusage ru_stime: 0.044
+rusage ru_maxrss: 97856
+rusage ru_minflt: 9141
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 216
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 79
+Child rusage ru_utime: 0.024596
+Child rusage ru_stime: 0.039347
+Child rusage ru_maxrss: 97856
+Child rusage ru_minflt: 4511
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 230
+Child rusage ru_nivcsw: 22
+Status: PASSED 
+Ended: 1745458523.99 

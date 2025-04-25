@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745418478.45 
+db-native-1_5.3.28-r0: do_recipe_qa
+Elapsed time: 0.18 seconds
+utime: 41
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 1003497
+IO wchar: 118128
+IO syscr: 362
+IO syscw: 98
+IO read_bytes: 0
+IO write_bytes: 151552
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.41533899999999996
+rusage ru_stime: 0.020966
+rusage ru_maxrss: 60932
+rusage ru_minflt: 8903
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 248
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 12
+Child rusage ru_utime: 0.011934
+Child rusage ru_stime: 0.028183999999999997
+Child rusage ru_maxrss: 60932
+Child rusage ru_minflt: 4534
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 48
+Child rusage ru_nvcsw: 255
+Child rusage ru_nivcsw: 26
+Status: PASSED 
+Ended: 1745418478.63 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745418489.71 
+meson-native-1.3.1-r0: do_recipe_qa
+Elapsed time: 0.17 seconds
+utime: 40
+stime: 1
+cutime: 1
+cstime: 2
+IO rchar: 1021043
+IO wchar: 121408
+IO syscr: 375
+IO syscw: 104
+IO read_bytes: 0
+IO write_bytes: 155648
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.40104999999999996
+rusage ru_stime: 0.019042999999999997
+rusage ru_maxrss: 60852
+rusage ru_minflt: 9048
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 272
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 60
+Child rusage ru_utime: 0.012133999999999999
+Child rusage ru_stime: 0.028998999999999997
+Child rusage ru_maxrss: 60852
+Child rusage ru_minflt: 4549
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 298
+Child rusage ru_nivcsw: 80
+Status: PASSED 
+Ended: 1745418489.88 

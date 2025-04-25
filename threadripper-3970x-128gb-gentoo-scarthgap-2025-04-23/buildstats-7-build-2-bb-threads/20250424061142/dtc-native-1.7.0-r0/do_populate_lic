@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745492232.16 
+dtc-native-1.7.0-r0: do_populate_lic
+Elapsed time: 0.45 seconds
+utime: 71
+stime: 3
+cutime: 3
+cstime: 5
+IO rchar: 1246522
+IO wchar: 216908
+IO syscr: 455
+IO syscw: 134
+IO read_bytes: 131072
+IO write_bytes: 262144
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.7202109999999999
+rusage ru_stime: 0.031701
+rusage ru_maxrss: 97376
+rusage ru_minflt: 9318
+rusage ru_majflt: 0
+rusage ru_inblock: 256
+rusage ru_oublock: 376
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 79
+Child rusage ru_utime: 0.034151
+Child rusage ru_stime: 0.054979
+Child rusage ru_maxrss: 97376
+Child rusage ru_minflt: 5802
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 136
+Child rusage ru_nvcsw: 353
+Child rusage ru_nivcsw: 41
+Status: PASSED 
+Ended: 1745492232.61 

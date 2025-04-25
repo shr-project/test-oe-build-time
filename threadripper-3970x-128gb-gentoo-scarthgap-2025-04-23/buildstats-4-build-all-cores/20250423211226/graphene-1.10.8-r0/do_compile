@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745445505.93 
+graphene-1.10.8-r0: do_compile
+Elapsed time: 11.77 seconds
+utime: 34
+stime: 2
+cutime: 970
+cstime: 204
+IO rchar: 202116205
+IO wchar: 17738221
+IO syscr: 42150
+IO syscw: 9270
+IO read_bytes: 1073152
+IO write_bytes: 10166272
+IO cancelled_write_bytes: 3088384
+rusage ru_utime: 0.349916
+rusage ru_stime: 0.024482999999999998
+rusage ru_maxrss: 92344
+rusage ru_minflt: 10369
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 408
+rusage ru_nvcsw: 80
+rusage ru_nivcsw: 24
+Child rusage ru_utime: 9.708231
+Child rusage ru_stime: 2.04549
+Child rusage ru_maxrss: 87460
+Child rusage ru_minflt: 472575
+Child rusage ru_majflt: 2
+Child rusage ru_inblock: 2096
+Child rusage ru_oublock: 19448
+Child rusage ru_nvcsw: 1825
+Child rusage ru_nivcsw: 1400
+Status: PASSED 
+Ended: 1745445517.70 

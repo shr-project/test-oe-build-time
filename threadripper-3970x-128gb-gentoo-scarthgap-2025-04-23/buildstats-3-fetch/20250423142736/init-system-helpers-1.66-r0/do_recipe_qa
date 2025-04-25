@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745418479.88 
+init-system-helpers-1.66-r0: do_recipe_qa
+Elapsed time: 0.17 seconds
+utime: 29
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 704473
+IO wchar: 108887
+IO syscr: 334
+IO syscw: 79
+IO read_bytes: 0
+IO write_bytes: 122880
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.294151
+rusage ru_stime: 0.02309
+rusage ru_maxrss: 58840
+rusage ru_minflt: 8595
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 208
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 17
+Child rusage ru_utime: 0.012147999999999999
+Child rusage ru_stime: 0.023979999999999998
+Child rusage ru_maxrss: 58840
+Child rusage ru_minflt: 4527
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 258
+Child rusage ru_nivcsw: 19
+Status: PASSED 
+Ended: 1745418480.05 

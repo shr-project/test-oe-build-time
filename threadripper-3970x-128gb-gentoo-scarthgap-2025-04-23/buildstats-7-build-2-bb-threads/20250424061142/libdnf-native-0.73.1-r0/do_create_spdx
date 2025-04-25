@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745491864.70 
+libdnf-native-0.73.1-r0: do_create_spdx
+Elapsed time: 0.38 seconds
+utime: 59
+stime: 4
+cutime: 1
+cstime: 3
+IO rchar: 1641918
+IO wchar: 513536
+IO syscr: 552
+IO syscw: 183
+IO read_bytes: 0
+IO write_bytes: 352256
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.594367
+rusage ru_stime: 0.048272999999999996
+rusage ru_maxrss: 96448
+rusage ru_minflt: 13115
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 512
+rusage ru_nvcsw: 22
+rusage ru_nivcsw: 17
+Child rusage ru_utime: 0.015264
+Child rusage ru_stime: 0.035594
+Child rusage ru_maxrss: 96448
+Child rusage ru_minflt: 5959
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 176
+Child rusage ru_nvcsw: 323
+Child rusage ru_nivcsw: 46
+Status: PASSED 
+Ended: 1745491865.08 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745475755.90 
+re2c-native-3.1-r0: do_populate_sysroot
+Elapsed time: 0.53 seconds
+utime: 58
+stime: 3
+cutime: 13
+cstime: 9
+IO rchar: 19649425
+IO wchar: 9213908
+IO syscr: 2615
+IO syscw: 754
+IO read_bytes: 4096
+IO write_bytes: 7147520
+IO cancelled_write_bytes: 2076672
+rusage ru_utime: 0.5890299999999999
+rusage ru_stime: 0.039001999999999995
+rusage ru_maxrss: 80272
+rusage ru_minflt: 19256
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 4992
+rusage ru_nvcsw: 40
+rusage ru_nivcsw: 25
+Child rusage ru_utime: 0.13161399999999998
+Child rusage ru_stime: 0.09269
+Child rusage ru_maxrss: 80272
+Child rusage ru_minflt: 19893
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 8968
+Child rusage ru_nvcsw: 394
+Child rusage ru_nivcsw: 48
+Status: PASSED 
+Ended: 1745475756.43 

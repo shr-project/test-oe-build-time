@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442810.86 
+dtc-native-1.7.0-r0: do_unpack
+Elapsed time: 0.61 seconds
+utime: 41
+stime: 5
+cutime: 39
+cstime: 14
+IO rchar: 5175895
+IO wchar: 966827
+IO syscr: 1687
+IO syscw: 528
+IO read_bytes: 2453504
+IO write_bytes: 2732032
+IO cancelled_write_bytes: 8192
+rusage ru_utime: 0.417875
+rusage ru_stime: 0.056233
+rusage ru_maxrss: 82120
+rusage ru_minflt: 11298
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 96
+rusage ru_nvcsw: 35
+rusage ru_nivcsw: 29
+Child rusage ru_utime: 0.393376
+Child rusage ru_stime: 0.145223
+Child rusage ru_maxrss: 82120
+Child rusage ru_minflt: 19094
+Child rusage ru_majflt: 24
+Child rusage ru_inblock: 4792
+Child rusage ru_oublock: 5240
+Child rusage ru_nvcsw: 71
+Child rusage ru_nivcsw: 45
+Status: PASSED 
+Ended: 1745442811.47 

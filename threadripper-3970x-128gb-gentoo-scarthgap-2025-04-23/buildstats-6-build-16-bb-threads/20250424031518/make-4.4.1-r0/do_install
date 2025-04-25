@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745467152.48 
+make-4.4.1-r0: do_install
+Elapsed time: 1.26 seconds
+utime: 65
+stime: 5
+cutime: 33
+cstime: 45
+IO rchar: 6740408
+IO wchar: 3016143
+IO syscr: 4533
+IO syscw: 423
+IO read_bytes: 2002944
+IO write_bytes: 3457024
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.655705
+rusage ru_stime: 0.051288999999999994
+rusage ru_maxrss: 86008
+rusage ru_minflt: 13158
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 288
+rusage ru_nvcsw: 258
+rusage ru_nivcsw: 242
+Child rusage ru_utime: 0.339625
+Child rusage ru_stime: 0.45264
+Child rusage ru_maxrss: 83052
+Child rusage ru_minflt: 64578
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 3912
+Child rusage ru_oublock: 6464
+Child rusage ru_nvcsw: 1336
+Child rusage ru_nivcsw: 636
+Status: PASSED 
+Ended: 1745467153.74 

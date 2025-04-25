@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745464579.04 
+lua-native-5.4.6-r0: do_populate_lic
+Elapsed time: 0.19 seconds
+utime: 42
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 1154193
+IO wchar: 162251
+IO syscr: 518
+IO syscw: 119
+IO read_bytes: 0
+IO write_bytes: 151552
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.42846199999999995
+rusage ru_stime: 0.025136
+rusage ru_maxrss: 81372
+rusage ru_minflt: 10167
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 248
+rusage ru_nvcsw: 18
+rusage ru_nivcsw: 27
+Child rusage ru_utime: 0.017728999999999998
+Child rusage ru_stime: 0.032653999999999996
+Child rusage ru_maxrss: 81372
+Child rusage ru_minflt: 5765
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 48
+Child rusage ru_nvcsw: 291
+Child rusage ru_nivcsw: 19
+Status: PASSED 
+Ended: 1745464579.24 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745464893.73 
+db-native-1_5.3.28-r0: do_populate_sysroot
+Elapsed time: 1.44 seconds
+utime: 101
+stime: 13
+cutime: 46
+cstime: 34
+IO rchar: 29161041
+IO wchar: 13820726
+IO syscr: 5613
+IO syscw: 1367
+IO read_bytes: 0
+IO write_bytes: 11124736
+IO cancelled_write_bytes: 3047424
+rusage ru_utime: 1.014966
+rusage ru_stime: 0.134597
+rusage ru_maxrss: 85716
+rusage ru_minflt: 25528
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 6832
+rusage ru_nvcsw: 114
+rusage ru_nivcsw: 130
+Child rusage ru_utime: 0.460987
+Child rusage ru_stime: 0.347526
+Child rusage ru_maxrss: 85716
+Child rusage ru_minflt: 46547
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 14896
+Child rusage ru_nvcsw: 601
+Child rusage ru_nivcsw: 277
+Status: PASSED 
+Ended: 1745464895.18 

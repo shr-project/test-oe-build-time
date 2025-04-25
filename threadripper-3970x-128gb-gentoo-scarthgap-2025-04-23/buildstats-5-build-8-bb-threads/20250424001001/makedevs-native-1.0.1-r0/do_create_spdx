@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745458900.15 
+makedevs-native-1.0.1-r0: do_create_spdx
+Elapsed time: 0.24 seconds
+utime: 42
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 1499499
+IO wchar: 462749
+IO syscr: 531
+IO syscw: 137
+IO read_bytes: 0
+IO write_bytes: 307200
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.426376
+rusage ru_stime: 0.021018
+rusage ru_maxrss: 100384
+rusage ru_minflt: 10298
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 440
+rusage ru_nvcsw: 22
+rusage ru_nivcsw: 14
+Child rusage ru_utime: 0.019747
+Child rusage ru_stime: 0.034693
+Child rusage ru_maxrss: 100384
+Child rusage ru_minflt: 5995
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 160
+Child rusage ru_nvcsw: 318
+Child rusage ru_nivcsw: 26
+Status: PASSED 
+Ended: 1745458900.39 

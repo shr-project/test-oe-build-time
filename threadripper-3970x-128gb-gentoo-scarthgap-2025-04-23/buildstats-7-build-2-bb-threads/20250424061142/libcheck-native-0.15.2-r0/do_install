@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745491835.54 
+libcheck-native-0.15.2-r0: do_install
+Elapsed time: 0.56 seconds
+utime: 49
+stime: 3
+cutime: 24
+cstime: 16
+IO rchar: 4301670
+IO wchar: 542258
+IO syscr: 3458
+IO syscw: 418
+IO read_bytes: 0
+IO write_bytes: 1044480
+IO cancelled_write_bytes: 20480
+rusage ru_utime: 0.49610899999999997
+rusage ru_stime: 0.035924
+rusage ru_maxrss: 95828
+rusage ru_minflt: 13911
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 280
+rusage ru_nvcsw: 66
+rusage ru_nivcsw: 3
+Child rusage ru_utime: 0.249127
+Child rusage ru_stime: 0.165217
+Child rusage ru_maxrss: 95304
+Child rusage ru_minflt: 35121
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1760
+Child rusage ru_nvcsw: 400
+Child rusage ru_nivcsw: 48
+Status: PASSED 
+Ended: 1745491836.10 

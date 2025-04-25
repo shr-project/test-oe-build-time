@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745453823.73 
+cargo-native-1.75.0-r0: do_unpack
+Elapsed time: 16.60 seconds
+utime: 40
+stime: 8
+cutime: 1490
+cstime: 666
+IO rchar: 2993080082
+IO wchar: 5309305997
+IO syscr: 448891
+IO syscw: 783115
+IO read_bytes: 335872
+IO write_bytes: 3244924928
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.40968899999999997
+rusage ru_stime: 0.080938
+rusage ru_maxrss: 82224
+rusage ru_minflt: 13883
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 456
+rusage ru_nvcsw: 38
+rusage ru_nivcsw: 22
+Child rusage ru_utime: 14.907828
+Child rusage ru_stime: 6.662644
+Child rusage ru_maxrss: 82224
+Child rusage ru_minflt: 69760
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 656
+Child rusage ru_oublock: 6337288
+Child rusage ru_nvcsw: 203077
+Child rusage ru_nivcsw: 2926
+Status: PASSED 
+Ended: 1745453840.33 

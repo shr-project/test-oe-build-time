@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745467151.31 
+busybox-1.36.1-r0: do_compile_ptest_base
+Elapsed time: 0.10 seconds
+utime: 43
+stime: 2
+cutime: 0
+cstime: 0
+IO rchar: 526229
+IO wchar: 25743
+IO syscr: 78
+IO syscw: 31
+IO read_bytes: 0
+IO write_bytes: 45056
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.430368
+rusage ru_stime: 0.029023999999999998
+rusage ru_maxrss: 93044
+rusage ru_minflt: 9981
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 88
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 12
+Child rusage ru_utime: 0.00597
+Child rusage ru_stime: 0.00398
+Child rusage ru_maxrss: 87784
+Child rusage ru_minflt: 475
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 1
+Child rusage ru_nivcsw: 2
+Status: PASSED 
+Ended: 1745467151.41 

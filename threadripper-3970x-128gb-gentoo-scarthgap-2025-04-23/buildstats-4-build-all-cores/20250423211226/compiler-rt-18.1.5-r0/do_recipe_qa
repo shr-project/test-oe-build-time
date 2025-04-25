@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442800.02 
+compiler-rt-18.1.5-r0: do_recipe_qa
+Elapsed time: 0.29 seconds
+utime: 55
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 730349
+IO wchar: 116748
+IO syscr: 348
+IO syscw: 90
+IO read_bytes: 0
+IO write_bytes: 126976
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.552978
+rusage ru_stime: 0.02511
+rusage ru_maxrss: 81840
+rusage ru_minflt: 9915
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 216
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 50
+Child rusage ru_utime: 0.016255
+Child rusage ru_stime: 0.037115999999999996
+Child rusage ru_maxrss: 81840
+Child rusage ru_minflt: 4550
+Child rusage ru_majflt: 2
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 243
+Child rusage ru_nivcsw: 46
+Status: PASSED 
+Ended: 1745442800.32 

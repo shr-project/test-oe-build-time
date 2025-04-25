@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745418485.11 
+libcxx-18.1.5-r0: do_recipe_qa
+Elapsed time: 0.17 seconds
+utime: 35
+stime: 1
+cutime: 1
+cstime: 2
+IO rchar: 749856
+IO wchar: 115805
+IO syscr: 349
+IO syscw: 90
+IO read_bytes: 0
+IO write_bytes: 131072
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.35426799999999997
+rusage ru_stime: 0.01409
+rusage ru_maxrss: 59976
+rusage ru_minflt: 8786
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 224
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 18
+Child rusage ru_utime: 0.0121
+Child rusage ru_stime: 0.022503
+Child rusage ru_maxrss: 59976
+Child rusage ru_minflt: 4527
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 144
+Child rusage ru_nivcsw: 15
+Status: PASSED 
+Ended: 1745418485.29 

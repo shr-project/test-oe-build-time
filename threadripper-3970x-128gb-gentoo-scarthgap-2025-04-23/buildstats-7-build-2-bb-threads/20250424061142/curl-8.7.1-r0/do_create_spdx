@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745478706.79 
+curl-8.7.1-r0: do_create_spdx
+Elapsed time: 6.54 seconds
+utime: 625
+stime: 43
+cutime: 6
+cstime: 5
+IO rchar: 15728140
+IO wchar: 19144432
+IO syscr: 2725
+IO syscw: 21572
+IO read_bytes: 0
+IO write_bytes: 7122944
+IO cancelled_write_bytes: 0
+rusage ru_utime: 6.253942
+rusage ru_stime: 0.430927
+rusage ru_maxrss: 95132
+rusage ru_minflt: 31503
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 13016
+rusage ru_nvcsw: 47
+rusage ru_nivcsw: 182
+Child rusage ru_utime: 0.061651
+Child rusage ru_stime: 0.050043
+Child rusage ru_maxrss: 95132
+Child rusage ru_minflt: 9228
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 896
+Child rusage ru_nvcsw: 496
+Child rusage ru_nivcsw: 60
+Status: PASSED 
+Ended: 1745478713.33 

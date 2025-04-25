@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745418475.00 
+dbus-wait-0.1+git-r0: do_fetch
+Elapsed time: 1.38 seconds
+utime: 37
+stime: 5
+cutime: 68
+cstime: 19
+IO rchar: 7503046
+IO wchar: 229932
+IO syscr: 2324
+IO syscw: 219
+IO read_bytes: 167936
+IO write_bytes: 311296
+IO cancelled_write_bytes: 12288
+rusage ru_utime: 0.378442
+rusage ru_stime: 0.051195
+rusage ru_maxrss: 54948
+rusage ru_minflt: 12250
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 192
+rusage ru_nvcsw: 39
+rusage ru_nivcsw: 38
+Child rusage ru_utime: 0.685994
+Child rusage ru_stime: 0.19036499999999998
+Child rusage ru_maxrss: 50700
+Child rusage ru_minflt: 30329
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 328
+Child rusage ru_oublock: 416
+Child rusage ru_nvcsw: 104
+Child rusage ru_nivcsw: 124
+Status: PASSED 
+Ended: 1745418476.38 

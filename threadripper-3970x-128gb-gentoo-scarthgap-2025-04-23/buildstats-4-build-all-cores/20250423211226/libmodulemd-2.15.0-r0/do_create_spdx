@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745445538.02 
+libmodulemd-2.15.0-r0: do_create_spdx
+Elapsed time: 1.03 seconds
+utime: 113
+stime: 4
+cutime: 2
+cstime: 6
+IO rchar: 1916331
+IO wchar: 965584
+IO syscr: 666
+IO syscw: 566
+IO read_bytes: 131072
+IO write_bytes: 565248
+IO cancelled_write_bytes: 0
+rusage ru_utime: 1.135985
+rusage ru_stime: 0.049649
+rusage ru_maxrss: 92908
+rusage ru_minflt: 10873
+rusage ru_majflt: 0
+rusage ru_inblock: 256
+rusage ru_oublock: 872
+rusage ru_nvcsw: 37
+rusage ru_nivcsw: 173
+Child rusage ru_utime: 0.02482
+Child rusage ru_stime: 0.06777
+Child rusage ru_maxrss: 92908
+Child rusage ru_minflt: 7266
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 232
+Child rusage ru_nvcsw: 882
+Child rusage ru_nivcsw: 65
+Status: PASSED 
+Ended: 1745445539.05 

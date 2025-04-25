@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745484966.78 
+libcxx-18.1.5-r0: do_install
+Elapsed time: 2.05 seconds
+utime: 56
+stime: 4
+cutime: 280
+cstime: 115
+IO rchar: 40792581
+IO wchar: 31696197
+IO syscr: 23633
+IO syscw: 5599
+IO read_bytes: 16384
+IO write_bytes: 34193408
+IO cancelled_write_bytes: 180224
+rusage ru_utime: 0.56502
+rusage ru_stime: 0.046065999999999996
+rusage ru_maxrss: 95064
+rusage ru_minflt: 18342
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 552
+rusage ru_nvcsw: 497
+rusage ru_nivcsw: 16
+Child rusage ru_utime: 2.807049
+Child rusage ru_stime: 1.156871
+Child rusage ru_maxrss: 171260
+Child rusage ru_minflt: 66515
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 32
+Child rusage ru_oublock: 66232
+Child rusage ru_nvcsw: 30125
+Child rusage ru_nivcsw: 146
+Status: PASSED 
+Ended: 1745484968.83 

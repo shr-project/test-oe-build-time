@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745418472.00 
+libptytty-2.0-r0: do_recipe_qa
+Elapsed time: 0.30 seconds
+utime: 42
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 736887
+IO wchar: 109244
+IO syscr: 340
+IO syscw: 81
+IO read_bytes: 0
+IO write_bytes: 192512
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.42072899999999996
+rusage ru_stime: 0.021984999999999998
+rusage ru_maxrss: 55992
+rusage ru_minflt: 8140
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 328
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 40
+Child rusage ru_utime: 0.018795
+Child rusage ru_stime: 0.030265
+Child rusage ru_maxrss: 55992
+Child rusage ru_minflt: 4491
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 48
+Child rusage ru_nvcsw: 144
+Child rusage ru_nivcsw: 35
+Status: PASSED 
+Ended: 1745418472.29 

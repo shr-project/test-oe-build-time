@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745443250.03 
+git-native-2.44.0-r0: do_compile
+Elapsed time: 190.75 seconds
+utime: 74
+stime: 4
+cutime: 19996
+cstime: 2600
+IO rchar: 2551011269
+IO wchar: 85894770
+IO syscr: 467577
+IO syscw: 43395
+IO read_bytes: 131072
+IO write_bytes: 70053888
+IO cancelled_write_bytes: 5804032
+rusage ru_utime: 0.741166
+rusage ru_stime: 0.049082999999999995
+rusage ru_maxrss: 88884
+rusage ru_minflt: 8134
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 232
+rusage ru_nvcsw: 714
+rusage ru_nivcsw: 74
+Child rusage ru_utime: 199.963137
+Child rusage ru_stime: 26.00102
+Child rusage ru_maxrss: 127716
+Child rusage ru_minflt: 5546164
+Child rusage ru_majflt: 12
+Child rusage ru_inblock: 256
+Child rusage ru_oublock: 136592
+Child rusage ru_nvcsw: 11117
+Child rusage ru_nivcsw: 19762
+Status: PASSED 
+Ended: 1745443440.78 

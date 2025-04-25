@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745467251.56 
+libdnf-0.73.1-r0: do_prepare_recipe_sysroot
+Elapsed time: 1.25 seconds
+utime: 87
+stime: 54
+cutime: 1
+cstime: 3
+IO rchar: 3839922
+IO wchar: 1720148
+IO syscr: 1098
+IO syscw: 496
+IO read_bytes: 0
+IO write_bytes: 10817536
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.875602
+rusage ru_stime: 0.540138
+rusage ru_maxrss: 94592
+rusage ru_minflt: 6750
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 17608
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 58
+Child rusage ru_utime: 0.016694
+Child rusage ru_stime: 0.030802999999999997
+Child rusage ru_maxrss: 94592
+Child rusage ru_minflt: 2588
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 3520
+Child rusage ru_nvcsw: 22
+Child rusage ru_nivcsw: 23
+Status: PASSED 
+Ended: 1745467252.82 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745445278.18 
+debugedit-5.0-r0: do_install
+Elapsed time: 0.49 seconds
+utime: 56
+stime: 3
+cutime: 4
+cstime: 8
+IO rchar: 1340576
+IO wchar: 435636
+IO syscr: 1924
+IO syscw: 201
+IO read_bytes: 12288
+IO write_bytes: 520192
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.56635
+rusage ru_stime: 0.037889
+rusage ru_maxrss: 84656
+rusage ru_minflt: 12923
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 224
+rusage ru_nvcsw: 490
+rusage ru_nivcsw: 100
+Child rusage ru_utime: 0.047896
+Child rusage ru_stime: 0.08678699999999999
+Child rusage ru_maxrss: 82548
+Child rusage ru_minflt: 14798
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 792
+Child rusage ru_nvcsw: 698
+Child rusage ru_nivcsw: 98
+Status: PASSED 
+Ended: 1745445278.67 

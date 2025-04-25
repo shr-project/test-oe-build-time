@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745453489.25 
+rpm-native-1_4.19.1.1-r0: do_recipe_qa
+Elapsed time: 0.18 seconds
+utime: 43
+stime: 3
+cutime: 1
+cstime: 2
+IO rchar: 989363
+IO wchar: 118791
+IO syscr: 369
+IO syscw: 98
+IO read_bytes: 0
+IO write_bytes: 126976
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.439106
+rusage ru_stime: 0.031007
+rusage ru_maxrss: 81532
+rusage ru_minflt: 10301
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 216
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 19
+Child rusage ru_utime: 0.012818
+Child rusage ru_stime: 0.026423
+Child rusage ru_maxrss: 81532
+Child rusage ru_minflt: 4534
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 297
+Child rusage ru_nivcsw: 52
+Status: PASSED 
+Ended: 1745453489.43 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442882.34 
+diffutils-3.10-r0: do_unpack
+Elapsed time: 0.32 seconds
+utime: 42
+stime: 3
+cutime: 12
+cstime: 12
+IO rchar: 16954975
+IO wchar: 28244553
+IO syscr: 2532
+IO syscw: 4613
+IO read_bytes: 1626112
+IO write_bytes: 17141760
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.42061299999999996
+rusage ru_stime: 0.035949
+rusage ru_maxrss: 84584
+rusage ru_minflt: 8485
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 416
+rusage ru_nvcsw: 13
+rusage ru_nivcsw: 15
+Child rusage ru_utime: 0.126878
+Child rusage ru_stime: 0.129348
+Child rusage ru_maxrss: 84584
+Child rusage ru_minflt: 4773
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 3176
+Child rusage ru_oublock: 33064
+Child rusage ru_nvcsw: 900
+Child rusage ru_nivcsw: 203
+Status: PASSED 
+Ended: 1745442882.66 

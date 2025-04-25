@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745445416.87 
+p11-kit-0.25.3-r0: do_install
+Elapsed time: 0.88 seconds
+utime: 64
+stime: 5
+cutime: 27
+cstime: 19
+IO rchar: 27667866
+IO wchar: 19041123
+IO syscr: 2653
+IO syscw: 507
+IO read_bytes: 16384
+IO write_bytes: 20127744
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.641694
+rusage ru_stime: 0.055886
+rusage ru_maxrss: 86276
+rusage ru_minflt: 13050
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 304
+rusage ru_nvcsw: 194
+rusage ru_nivcsw: 208
+Child rusage ru_utime: 0.274464
+Child rusage ru_stime: 0.192797
+Child rusage ru_maxrss: 83444
+Child rusage ru_minflt: 15429
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 32
+Child rusage ru_oublock: 39008
+Child rusage ru_nvcsw: 1453
+Child rusage ru_nivcsw: 454
+Status: PASSED 
+Ended: 1745445417.75 

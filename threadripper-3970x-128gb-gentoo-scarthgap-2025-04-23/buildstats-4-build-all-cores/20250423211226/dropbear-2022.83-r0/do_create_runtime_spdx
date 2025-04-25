@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745444207.65 
+dropbear-2022.83-r0: do_create_runtime_spdx
+Elapsed time: 0.47 seconds
+utime: 70
+stime: 4
+cutime: 2
+cstime: 4
+IO rchar: 1764942
+IO wchar: 398854
+IO syscr: 545
+IO syscw: 112
+IO read_bytes: 131072
+IO write_bytes: 237568
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.704788
+rusage ru_stime: 0.041867999999999995
+rusage ru_maxrss: 92928
+rusage ru_minflt: 10273
+rusage ru_majflt: 0
+rusage ru_inblock: 256
+rusage ru_oublock: 360
+rusage ru_nvcsw: 19
+rusage ru_nivcsw: 65
+Child rusage ru_utime: 0.023035
+Child rusage ru_stime: 0.048357
+Child rusage ru_maxrss: 92928
+Child rusage ru_minflt: 5895
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 104
+Child rusage ru_nvcsw: 257
+Child rusage ru_nivcsw: 38
+Status: PASSED 
+Ended: 1745444208.12 

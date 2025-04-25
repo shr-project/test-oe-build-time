@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745454484.28 
+sqlite3-3_3.45.1-r0: do_create_runtime_spdx
+Elapsed time: 0.31 seconds
+utime: 42
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 1116900
+IO wchar: 412692
+IO syscr: 478
+IO syscw: 113
+IO read_bytes: 0
+IO write_bytes: 217088
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.42558199999999996
+rusage ru_stime: 0.02983
+rusage ru_maxrss: 86184
+rusage ru_minflt: 9632
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 336
+rusage ru_nvcsw: 20
+rusage ru_nivcsw: 42
+Child rusage ru_utime: 0.016257
+Child rusage ru_stime: 0.034928
+Child rusage ru_maxrss: 86184
+Child rusage ru_minflt: 5901
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 88
+Child rusage ru_nvcsw: 313
+Child rusage ru_nivcsw: 66
+Status: PASSED 
+Ended: 1745454484.59 

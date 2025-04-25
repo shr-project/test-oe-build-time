@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745453453.51 
+acl-native-2.3.2-r0: do_create_runtime_spdx
+Elapsed time: 0.19 seconds
+utime: 42
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 1217962
+IO wchar: 343856
+IO syscr: 393
+IO syscw: 107
+IO read_bytes: 0
+IO write_bytes: 172032
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.423135
+rusage ru_stime: 0.022007
+rusage ru_maxrss: 78260
+rusage ru_minflt: 10232
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 256
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 37
+Child rusage ru_utime: 0.015764
+Child rusage ru_stime: 0.025325
+Child rusage ru_maxrss: 78260
+Child rusage ru_minflt: 4794
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 80
+Child rusage ru_nvcsw: 256
+Child rusage ru_nivcsw: 46
+Status: PASSED 
+Ended: 1745453453.69 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745466922.97 
+libseccomp-2.5.5-r0: do_rm_work
+Elapsed time: 0.50 seconds
+utime: 43
+stime: 2
+cutime: 9
+cstime: 25
+IO rchar: 929779
+IO wchar: 32008
+IO syscr: 915
+IO syscw: 71
+IO read_bytes: 0
+IO write_bytes: 9637888
+IO cancelled_write_bytes: 602112
+rusage ru_utime: 0.43690799999999996
+rusage ru_stime: 0.020852
+rusage ru_maxrss: 91648
+rusage ru_minflt: 6908
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 64
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 28
+Child rusage ru_utime: 0.09347
+Child rusage ru_stime: 0.257253
+Child rusage ru_maxrss: 87280
+Child rusage ru_minflt: 19938
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 18760
+Child rusage ru_nvcsw: 173
+Child rusage ru_nivcsw: 65
+Status: PASSED 
+Ended: 1745466923.47 

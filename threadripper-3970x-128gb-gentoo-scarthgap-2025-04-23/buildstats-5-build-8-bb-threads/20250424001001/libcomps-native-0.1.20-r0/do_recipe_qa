@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745458824.75 
+libcomps-native-0.1.20-r0: do_recipe_qa
+Elapsed time: 0.19 seconds
+utime: 42
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 1019601
+IO wchar: 116856
+IO syscr: 365
+IO syscw: 96
+IO read_bytes: 53248
+IO write_bytes: 135168
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.42274799999999996
+rusage ru_stime: 0.026046
+rusage ru_maxrss: 99332
+rusage ru_minflt: 9537
+rusage ru_majflt: 0
+rusage ru_inblock: 104
+rusage ru_oublock: 232
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 39
+Child rusage ru_utime: 0.015489
+Child rusage ru_stime: 0.025795
+Child rusage ru_maxrss: 99332
+Child rusage ru_minflt: 4498
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 228
+Child rusage ru_nivcsw: 42
+Status: PASSED 
+Ended: 1745458824.94 

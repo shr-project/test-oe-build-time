@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745443972.79 
+ptest-runner-2.4.4+git-r0: do_prepare_recipe_sysroot
+Elapsed time: 1.16 seconds
+utime: 115
+stime: 13
+cutime: 6
+cstime: 8
+IO rchar: 1304833
+IO wchar: 319535
+IO syscr: 750
+IO syscw: 152
+IO read_bytes: 45056
+IO write_bytes: 1466368
+IO cancelled_write_bytes: 16384
+rusage ru_utime: 1.157538
+rusage ru_stime: 0.131606
+rusage ru_maxrss: 88396
+rusage ru_minflt: 13543
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 2552
+rusage ru_nvcsw: 17
+rusage ru_nivcsw: 63
+Child rusage ru_utime: 0.060072
+Child rusage ru_stime: 0.08979
+Child rusage ru_maxrss: 86860
+Child rusage ru_minflt: 11587
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 88
+Child rusage ru_oublock: 312
+Child rusage ru_nvcsw: 110
+Child rusage ru_nivcsw: 30
+Status: PASSED 
+Ended: 1745443973.95 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745443855.14 
+ttyrun-2.31.0-r0: do_configure
+Elapsed time: 0.30 seconds
+utime: 36
+stime: 1
+cutime: 4
+cstime: 6
+IO rchar: 1195847
+IO wchar: 77147
+IO syscr: 1144
+IO syscw: 105
+IO read_bytes: 24576
+IO write_bytes: 98304
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.362516
+rusage ru_stime: 0.015934
+rusage ru_maxrss: 87348
+rusage ru_minflt: 7975
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 192
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 5
+Child rusage ru_utime: 0.046071
+Child rusage ru_stime: 0.06347699999999999
+Child rusage ru_maxrss: 82536
+Child rusage ru_minflt: 11356
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 48
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 158
+Child rusage ru_nivcsw: 16
+Status: PASSED 
+Ended: 1745443855.44 

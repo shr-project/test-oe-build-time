@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442790.49 
+nasm-native-2.16.01-r0: do_patch
+Elapsed time: 0.26 seconds
+utime: 47
+stime: 3
+cutime: 7
+cstime: 10
+IO rchar: 1802398
+IO wchar: 626512
+IO syscr: 986
+IO syscw: 315
+IO read_bytes: 131072
+IO write_bytes: 798720
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.471746
+rusage ru_stime: 0.034981
+rusage ru_maxrss: 78864
+rusage ru_minflt: 6507
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 224
+rusage ru_nvcsw: 20
+rusage ru_nivcsw: 48
+Child rusage ru_utime: 0.070787
+Child rusage ru_stime: 0.10549399999999999
+Child rusage ru_maxrss: 78864
+Child rusage ru_minflt: 19837
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 256
+Child rusage ru_oublock: 1336
+Child rusage ru_nvcsw: 280
+Child rusage ru_nivcsw: 98
+Status: PASSED 
+Ended: 1745442790.75 

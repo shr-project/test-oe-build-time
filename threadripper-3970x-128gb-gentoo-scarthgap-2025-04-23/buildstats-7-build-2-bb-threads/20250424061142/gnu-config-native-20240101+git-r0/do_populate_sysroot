@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745475168.26 
+gnu-config-native-20240101+git-r0: do_populate_sysroot
+Elapsed time: 0.45 seconds
+utime: 55
+stime: 3
+cutime: 4
+cstime: 6
+IO rchar: 1758381
+IO wchar: 350413
+IO syscr: 865
+IO syscw: 185
+IO read_bytes: 0
+IO write_bytes: 327680
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 0.5564009999999999
+rusage ru_stime: 0.036893999999999996
+rusage ru_maxrss: 78040
+rusage ru_minflt: 17409
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 352
+rusage ru_nvcsw: 27
+rusage ru_nivcsw: 16
+Child rusage ru_utime: 0.048014999999999995
+Child rusage ru_stime: 0.063035
+Child rusage ru_maxrss: 78040
+Child rusage ru_minflt: 12495
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 288
+Child rusage ru_nvcsw: 384
+Child rusage ru_nivcsw: 35
+Status: PASSED 
+Ended: 1745475168.71 

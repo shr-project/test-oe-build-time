@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745464894.90 
+dropbear-2022.83-r0: do_recipe_qa
+Elapsed time: 0.28 seconds
+utime: 53
+stime: 2
+cutime: 2
+cstime: 3
+IO rchar: 870555
+IO wchar: 115864
+IO syscr: 372
+IO syscw: 88
+IO read_bytes: 0
+IO write_bytes: 114688
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.537206
+rusage ru_stime: 0.02701
+rusage ru_maxrss: 86852
+rusage ru_minflt: 10243
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 192
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 57
+Child rusage ru_utime: 0.023405
+Child rusage ru_stime: 0.035175
+Child rusage ru_maxrss: 86852
+Child rusage ru_minflt: 4536
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 260
+Child rusage ru_nivcsw: 16
+Status: PASSED 
+Ended: 1745464895.18 

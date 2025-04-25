@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745464567.29 
+perl-native-5.38.2-r0: do_create_runtime_spdx
+Elapsed time: 0.26 seconds
+utime: 60
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 1235405
+IO wchar: 340951
+IO syscr: 392
+IO syscw: 105
+IO read_bytes: 0
+IO write_bytes: 151552
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.609942
+rusage ru_stime: 0.026952999999999998
+rusage ru_maxrss: 80120
+rusage ru_minflt: 10344
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 216
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 36
+Child rusage ru_utime: 0.014532
+Child rusage ru_stime: 0.035627
+Child rusage ru_maxrss: 80120
+Child rusage ru_minflt: 4770
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 80
+Child rusage ru_nvcsw: 230
+Child rusage ru_nivcsw: 22
+Status: PASSED 
+Ended: 1745464567.54 

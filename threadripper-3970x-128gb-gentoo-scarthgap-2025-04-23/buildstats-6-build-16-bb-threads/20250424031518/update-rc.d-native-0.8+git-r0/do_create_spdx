@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745464582.55 
+update-rc.d-native-0.8+git-r0: do_create_spdx
+Elapsed time: 0.25 seconds
+utime: 41
+stime: 3
+cutime: 2
+cstime: 3
+IO rchar: 1405065
+IO wchar: 472048
+IO syscr: 519
+IO syscw: 135
+IO read_bytes: 0
+IO write_bytes: 237568
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.41503399999999996
+rusage ru_stime: 0.034083999999999996
+rusage ru_maxrss: 82780
+rusage ru_minflt: 10506
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 336
+rusage ru_nvcsw: 23
+rusage ru_nivcsw: 12
+Child rusage ru_utime: 0.020324
+Child rusage ru_stime: 0.03299
+Child rusage ru_maxrss: 82780
+Child rusage ru_minflt: 6027
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 128
+Child rusage ru_nvcsw: 295
+Child rusage ru_nivcsw: 42
+Status: PASSED 
+Ended: 1745464582.80 

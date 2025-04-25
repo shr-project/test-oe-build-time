@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745477690.65 
+kmod-31-r0: do_recipe_qa
+Elapsed time: 0.18 seconds
+utime: 34
+stime: 1
+cutime: 1
+cstime: 2
+IO rchar: 792210
+IO wchar: 118177
+IO syscr: 363
+IO syscw: 92
+IO read_bytes: 0
+IO write_bytes: 184320
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.343531
+rusage ru_stime: 0.017026
+rusage ru_maxrss: 84128
+rusage ru_minflt: 9012
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 328
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 24
+Child rusage ru_utime: 0.013713
+Child rusage ru_stime: 0.02178
+Child rusage ru_maxrss: 84128
+Child rusage ru_minflt: 4498
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 125
+Child rusage ru_nivcsw: 15
+Status: PASSED 
+Ended: 1745477690.83 

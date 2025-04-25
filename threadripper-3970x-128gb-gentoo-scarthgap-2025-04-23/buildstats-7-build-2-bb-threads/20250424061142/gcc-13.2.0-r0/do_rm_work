@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745492009.39 
+gcc-13.2.0-r0: do_rm_work
+Elapsed time: 1.10 seconds
+utime: 35
+stime: 1
+cutime: 5
+cstime: 92
+IO rchar: 846611
+IO wchar: 38312
+IO syscr: 849
+IO syscw: 72
+IO read_bytes: 0
+IO write_bytes: 19329024
+IO cancelled_write_bytes: 2043904
+rusage ru_utime: 0.35964999999999997
+rusage ru_stime: 0.019034
+rusage ru_maxrss: 96752
+rusage ru_minflt: 6751
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 1
+Child rusage ru_utime: 0.058446
+Child rusage ru_stime: 0.923288
+Child rusage ru_maxrss: 92068
+Child rusage ru_minflt: 19101
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 37680
+Child rusage ru_nvcsw: 217
+Child rusage ru_nivcsw: 67
+Status: PASSED 
+Ended: 1745492010.49 

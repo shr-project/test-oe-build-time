@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745443532.15 
+util-linux-native-2.39.3-r0: do_populate_sysroot
+Elapsed time: 1.45 seconds
+utime: 94
+stime: 55
+cutime: 61
+cstime: 131
+IO rchar: 86123059
+IO wchar: 34951336
+IO syscr: 29418
+IO syscw: 5204
+IO read_bytes: 0
+IO write_bytes: 28676096
+IO cancelled_write_bytes: 8142848
+rusage ru_utime: 0.940676
+rusage ru_stime: 0.559667
+rusage ru_maxrss: 89216
+rusage ru_minflt: 71718
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 19336
+rusage ru_nvcsw: 679
+rusage ru_nivcsw: 104
+Child rusage ru_utime: 0.612672
+Child rusage ru_stime: 1.318519
+Child rusage ru_maxrss: 89216
+Child rusage ru_minflt: 243210
+Child rusage ru_majflt: 2
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 36672
+Child rusage ru_nvcsw: 1780
+Child rusage ru_nivcsw: 576
+Status: PASSED 
+Ended: 1745443533.60 

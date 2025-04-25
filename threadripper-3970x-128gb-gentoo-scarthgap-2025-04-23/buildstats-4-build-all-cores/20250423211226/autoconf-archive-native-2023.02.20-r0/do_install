@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442882.93 
+autoconf-archive-native-2023.02.20-r0: do_install
+Elapsed time: 0.84 seconds
+utime: 57
+stime: 2
+cutime: 42
+cstime: 17
+IO rchar: 6537043
+IO wchar: 2418383
+IO syscr: 35185
+IO syscw: 1387
+IO read_bytes: 262144
+IO write_bytes: 3829760
+IO cancelled_write_bytes: 1159168
+rusage ru_utime: 0.571781
+rusage ru_stime: 0.027084
+rusage ru_maxrss: 86272
+rusage ru_minflt: 10726
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 192
+rusage ru_nvcsw: 38
+rusage ru_nivcsw: 22
+Child rusage ru_utime: 0.42677
+Child rusage ru_stime: 0.173151
+Child rusage ru_maxrss: 83712
+Child rusage ru_minflt: 20054
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 512
+Child rusage ru_oublock: 7288
+Child rusage ru_nvcsw: 426
+Child rusage ru_nivcsw: 133
+Status: PASSED 
+Ended: 1745442883.77 

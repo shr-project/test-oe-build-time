@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745483488.61 
+busybox-1.36.1-r0: do_collect_spdx_deps
+Elapsed time: 0.23 seconds
+utime: 47
+stime: 1
+cutime: 0
+cstime: 0
+IO rchar: 676919
+IO wchar: 109095
+IO syscr: 134
+IO syscw: 64
+IO read_bytes: 0
+IO write_bytes: 176128
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.47863999999999995
+rusage ru_stime: 0.017986
+rusage ru_maxrss: 88016
+rusage ru_minflt: 5779
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 216
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 8
+Child rusage ru_utime: 0.001875
+Child rusage ru_stime: 0.005317
+Child rusage ru_maxrss: 88016
+Child rusage ru_minflt: 728
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 128
+Child rusage ru_nvcsw: 8
+Child rusage ru_nivcsw: 3
+Status: PASSED 
+Ended: 1745483488.84 

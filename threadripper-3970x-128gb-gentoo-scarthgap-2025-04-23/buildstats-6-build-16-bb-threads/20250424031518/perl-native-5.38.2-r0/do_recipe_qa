@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745464556.79 
+perl-native-5.38.2-r0: do_recipe_qa
+Elapsed time: 0.17 seconds
+utime: 40
+stime: 3
+cutime: 1
+cstime: 2
+IO rchar: 1003265
+IO wchar: 116136
+IO syscr: 363
+IO syscw: 97
+IO read_bytes: 0
+IO write_bytes: 143360
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.409527
+rusage ru_stime: 0.032881
+rusage ru_maxrss: 76992
+rusage ru_minflt: 9859
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 240
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 27
+Child rusage ru_utime: 0.012836
+Child rusage ru_stime: 0.025058
+Child rusage ru_maxrss: 76992
+Child rusage ru_minflt: 4513
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 254
+Child rusage ru_nivcsw: 36
+Status: PASSED 
+Ended: 1745464556.96 

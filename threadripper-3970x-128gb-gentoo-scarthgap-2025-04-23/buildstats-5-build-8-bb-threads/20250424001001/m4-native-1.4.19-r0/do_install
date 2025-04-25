@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745453478.32 
+m4-native-1.4.19-r0: do_install
+Elapsed time: 0.67 seconds
+utime: 32
+stime: 1
+cutime: 41
+cstime: 11
+IO rchar: 6558952
+IO wchar: 756254
+IO syscr: 2348
+IO syscw: 279
+IO read_bytes: 0
+IO write_bytes: 765952
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.32909099999999997
+rusage ru_stime: 0.019063
+rusage ru_maxrss: 80428
+rusage ru_minflt: 10339
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 120
+rusage ru_nvcsw: 58
+rusage ru_nivcsw: 12
+Child rusage ru_utime: 0.41186
+Child rusage ru_stime: 0.116494
+Child rusage ru_maxrss: 78380
+Child rusage ru_minflt: 23939
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1376
+Child rusage ru_nvcsw: 209
+Child rusage ru_nivcsw: 117
+Status: PASSED 
+Ended: 1745453478.99 

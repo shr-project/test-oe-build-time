@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745465713.91 
+kmod-31-r0: do_install
+Elapsed time: 1.17 seconds
+utime: 74
+stime: 5
+cutime: 30
+cstime: 34
+IO rchar: 7795179
+IO wchar: 1298622
+IO syscr: 3611
+IO syscw: 300
+IO read_bytes: 8192
+IO write_bytes: 1486848
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 0.742586
+rusage ru_stime: 0.059045999999999994
+rusage ru_maxrss: 78892
+rusage ru_minflt: 13748
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 272
+rusage ru_nvcsw: 249
+rusage ru_nivcsw: 239
+Child rusage ru_utime: 0.307025
+Child rusage ru_stime: 0.344261
+Child rusage ru_maxrss: 77088
+Child rusage ru_minflt: 54618
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 2632
+Child rusage ru_nvcsw: 1312
+Child rusage ru_nivcsw: 244
+Status: PASSED 
+Ended: 1745465715.08 

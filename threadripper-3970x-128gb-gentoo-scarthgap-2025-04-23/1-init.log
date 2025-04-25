@@ -1,0 +1,64 @@
+1-init start: 2025-04-23T16:22:25+02:00
+Cloning into 'poky'...
+Updating files:  94% (5519/5825)Updating files:  95% (5534/5825)Updating files:  96% (5592/5825)Updating files:  97% (5651/5825)Updating files:  98% (5709/5825)Updating files:  99% (5767/5825)Updating files: 100% (5825/5825)Updating files: 100% (5825/5825), done.
+Switched to a new branch 'scarthgap'
+[scarthgap 06a5186114] db: ignore implicit-int and implicit-function-declaration issues fatal with gcc-14
+ Date: Wed May 29 09:44:01 2024 +0200
+ 1 file changed, 4 insertions(+)
+[scarthgap 22d8d61b8e] yocto-uninative: Update to 4.5 for gcc 14
+ Author: Michael Halstead <mhalstead@linuxfoundation.org>
+ Date: Tue May 21 21:39:30 2024 -0700
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+Cloning into 'meta-qt5'...
+Switched to a new branch 'scarthgap'
+Cloning into 'meta-browser'...
+Switched to a new branch 'scarthgap'
+Cloning into 'meta-openembedded'...
+Updating files:  60% (4116/6776)Updating files:  61% (4134/6776)Updating files:  62% (4202/6776)Updating files:  63% (4269/6776)Updating files:  64% (4337/6776)Updating files:  65% (4405/6776)Updating files:  66% (4473/6776)Updating files:  67% (4540/6776)Updating files:  68% (4608/6776)Updating files:  69% (4676/6776)Updating files:  70% (4744/6776)Updating files:  71% (4811/6776)Updating files:  72% (4879/6776)Updating files:  73% (4947/6776)Updating files:  74% (5015/6776)Updating files:  75% (5082/6776)Updating files:  76% (5150/6776)Updating files:  77% (5218/6776)Updating files:  78% (5286/6776)Updating files:  79% (5354/6776)Updating files:  80% (5421/6776)Updating files:  81% (5489/6776)Updating files:  82% (5557/6776)Updating files:  83% (5625/6776)Updating files:  84% (5692/6776)Updating files:  85% (5760/6776)Updating files:  86% (5828/6776)Updating files:  87% (5896/6776)Updating files:  88% (5963/6776)Updating files:  89% (6031/6776)Updating files:  90% (6099/6776)Updating files:  91% (6167/6776)Updating files:  92% (6234/6776)Updating files:  93% (6302/6776)Updating files:  94% (6370/6776)Updating files:  95% (6438/6776)Updating files:  96% (6505/6776)Updating files:  97% (6573/6776)Updating files:  98% (6641/6776)Updating files:  99% (6709/6776)Updating files: 100% (6776/6776)Updating files: 100% (6776/6776), done.
+Switched to a new branch 'scarthgap'
+Cloning into 'meta-clang'...
+Switched to a new branch 'scarthgap'
+Cloning into 'meta-python2'...
+Switched to a new branch 'scarthgap'
+You had no conf/local.conf file. This configuration file has therefore been
+created for you from /OE/build/test-oe-build-time/poky/meta-poky/conf/templates/default/local.conf.sample
+You may wish to edit it to, for example, select a different MACHINE (target
+hardware).
+
+You had no conf/bblayers.conf file. This configuration file has therefore been
+created for you from /OE/build/test-oe-build-time/poky/meta-poky/conf/templates/default/bblayers.conf.sample
+To add additional metadata layers into your configuration please add entries
+to conf/bblayers.conf.
+
+The Yocto Project has extensive documentation about OE including a reference
+manual which can be found at:
+    https://docs.yoctoproject.org
+
+For more information about OpenEmbedded see the website:
+    https://www.openembedded.org/
+
+This is the default build configuration for the Poky reference distribution.
+
+### Shell environment set up for builds. ###
+
+You can now run 'bitbake <target>'
+
+Common targets are:
+    core-image-minimal
+    core-image-full-cmdline
+    core-image-sato
+    core-image-weston
+    meta-toolchain
+    meta-ide-support
+
+You can also run generated qemu images with a command like 'runqemu qemux86-64'.
+
+Other commonly useful commands are:
+ - 'devtool' and 'recipetool' handle common recipe tasks
+ - 'bitbake-layers' handles common layer tasks
+ - 'oe-pkgdata-util' handles common target package tasks
+You had no /OE/build/test-oe-build-time/poky/.vscode configuration.
+These configuration files have therefore been created for you.
+52.87user 10.86system 0:42.39elapsed 150%CPU (0avgtext+0avgdata 336000maxresident)k
+24inputs+1037712outputs (0major+209898minor)pagefaults 0swaps
+1-init stop:  2025-04-23T16:23:07+02:00

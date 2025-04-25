@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745464889.46 
+db-native-1_5.3.28-r0: do_install
+Elapsed time: 3.95 seconds
+utime: 46
+stime: 2
+cutime: 50
+cstime: 58
+IO rchar: 95905429
+IO wchar: 90225757
+IO syscr: 9275
+IO syscw: 6921
+IO read_bytes: 532480
+IO write_bytes: 102834176
+IO cancelled_write_bytes: 28672
+rusage ru_utime: 0.46626599999999996
+rusage ru_stime: 0.021057
+rusage ru_maxrss: 87340
+rusage ru_minflt: 11006
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 48
+rusage ru_nivcsw: 16
+Child rusage ru_utime: 0.503992
+Child rusage ru_stime: 0.580013
+Child rusage ru_maxrss: 85292
+Child rusage ru_minflt: 135888
+Child rusage ru_majflt: 2
+Child rusage ru_inblock: 1040
+Child rusage ru_oublock: 200688
+Child rusage ru_nvcsw: 1796
+Child rusage ru_nivcsw: 314
+Status: PASSED 
+Ended: 1745464893.40 

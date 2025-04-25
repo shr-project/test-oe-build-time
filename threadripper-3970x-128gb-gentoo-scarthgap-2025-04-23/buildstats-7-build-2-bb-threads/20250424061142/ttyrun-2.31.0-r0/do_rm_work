@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745489900.56 
+ttyrun-2.31.0-r0: do_rm_work
+Elapsed time: 0.71 seconds
+utime: 42
+stime: 3
+cutime: 9
+cstime: 23
+IO rchar: 776311
+IO wchar: 23907
+IO syscr: 815
+IO syscw: 58
+IO read_bytes: 0
+IO write_bytes: 11214848
+IO cancelled_write_bytes: 12464128
+rusage ru_utime: 0.425232
+rusage ru_stime: 0.034855
+rusage ru_maxrss: 92552
+rusage ru_minflt: 6385
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 56
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 34
+Child rusage ru_utime: 0.097152
+Child rusage ru_stime: 0.231423
+Child rusage ru_maxrss: 87272
+Child rusage ru_minflt: 18689
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 21848
+Child rusage ru_nvcsw: 218
+Child rusage ru_nivcsw: 100
+Status: PASSED 
+Ended: 1745489901.27 

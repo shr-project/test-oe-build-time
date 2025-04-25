@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745484391.41 
+lua-5.4.6-r0: do_rm_work
+Elapsed time: 0.72 seconds
+utime: 48
+stime: 2
+cutime: 10
+cstime: 26
+IO rchar: 971878
+IO wchar: 32805
+IO syscr: 979
+IO syscw: 71
+IO read_bytes: 368640
+IO write_bytes: 5001216
+IO cancelled_write_bytes: 16384
+rusage ru_utime: 0.483527
+rusage ru_stime: 0.029030999999999998
+rusage ru_maxrss: 91652
+rusage ru_minflt: 6694
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 64
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 27
+Child rusage ru_utime: 0.10281
+Child rusage ru_stime: 0.262115
+Child rusage ru_maxrss: 86396
+Child rusage ru_minflt: 21348
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 720
+Child rusage ru_oublock: 9704
+Child rusage ru_nvcsw: 337
+Child rusage ru_nivcsw: 83
+Status: PASSED 
+Ended: 1745484392.13 

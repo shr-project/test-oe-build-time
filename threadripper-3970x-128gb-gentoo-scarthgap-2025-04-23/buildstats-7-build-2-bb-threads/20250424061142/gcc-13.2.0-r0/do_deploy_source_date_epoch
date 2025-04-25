@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745475464.72 
+gcc-13.2.0-r0: do_deploy_source_date_epoch
+Elapsed time: 0.28 seconds
+utime: 42
+stime: 2
+cutime: 2
+cstime: 2
+IO rchar: 805214
+IO wchar: 157049
+IO syscr: 465
+IO syscw: 103
+IO read_bytes: 0
+IO write_bytes: 241664
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.42638
+rusage ru_stime: 0.028822
+rusage ru_maxrss: 81196
+rusage ru_minflt: 13434
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 400
+rusage ru_nvcsw: 13
+rusage ru_nivcsw: 7
+Child rusage ru_utime: 0.028769
+Child rusage ru_stime: 0.026046999999999997
+Child rusage ru_maxrss: 81196
+Child rusage ru_minflt: 6256
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 72
+Child rusage ru_nvcsw: 276
+Child rusage ru_nivcsw: 39
+Status: PASSED 
+Ended: 1745475465.00 

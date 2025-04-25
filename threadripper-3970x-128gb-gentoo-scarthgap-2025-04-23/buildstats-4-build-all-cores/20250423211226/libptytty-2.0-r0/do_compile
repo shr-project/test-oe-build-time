@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745443870.27 
+libptytty-2.0-r0: do_compile
+Elapsed time: 1.00 seconds
+utime: 41
+stime: 2
+cutime: 100
+cstime: 30
+IO rchar: 10931223
+IO wchar: 1176029
+IO syscr: 2654
+IO syscw: 859
+IO read_bytes: 110592
+IO write_bytes: 536576
+IO cancelled_write_bytes: 106496
+rusage ru_utime: 0.41963599999999995
+rusage ru_stime: 0.029973999999999997
+rusage ru_maxrss: 87332
+rusage ru_minflt: 7566
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 104
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 20
+Child rusage ru_utime: 1.002801
+Child rusage ru_stime: 0.302697
+Child rusage ru_maxrss: 82888
+Child rusage ru_minflt: 44142
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 216
+Child rusage ru_oublock: 944
+Child rusage ru_nvcsw: 185
+Child rusage ru_nivcsw: 359
+Status: PASSED 
+Ended: 1745443871.27 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745456792.80 
+bc-1.07.1-r0: do_rm_work
+Elapsed time: 0.54 seconds
+utime: 41
+stime: 2
+cutime: 9
+cstime: 22
+IO rchar: 1000533
+IO wchar: 30682
+IO syscr: 1006
+IO syscw: 74
+IO read_bytes: 0
+IO write_bytes: 5152768
+IO cancelled_write_bytes: 16384
+rusage ru_utime: 0.41642599999999996
+rusage ru_stime: 0.027894
+rusage ru_maxrss: 93936
+rusage ru_minflt: 6892
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 104
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 23
+Child rusage ru_utime: 0.09905599999999999
+Child rusage ru_stime: 0.227451
+Child rusage ru_maxrss: 90088
+Child rusage ru_minflt: 22281
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 9960
+Child rusage ru_nvcsw: 213
+Child rusage ru_nivcsw: 92
+Status: PASSED 
+Ended: 1745456793.34 

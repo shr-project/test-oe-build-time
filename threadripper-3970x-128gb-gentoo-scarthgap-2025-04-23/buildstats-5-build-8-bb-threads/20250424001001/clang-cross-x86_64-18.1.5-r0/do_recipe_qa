@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745455887.49 
+clang-cross-x86_64-18.1.5-r0: do_recipe_qa
+Elapsed time: 0.56 seconds
+utime: 57
+stime: 3
+cutime: 2
+cstime: 3
+IO rchar: 708667
+IO wchar: 115020
+IO syscr: 353
+IO syscw: 87
+IO read_bytes: 0
+IO write_bytes: 155648
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.577593
+rusage ru_stime: 0.037842
+rusage ru_maxrss: 94940
+rusage ru_minflt: 11933
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 256
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 111
+Child rusage ru_utime: 0.029865
+Child rusage ru_stime: 0.037454999999999995
+Child rusage ru_maxrss: 94940
+Child rusage ru_minflt: 4539
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 48
+Child rusage ru_nvcsw: 331
+Child rusage ru_nivcsw: 26
+Status: PASSED 
+Ended: 1745455888.05 

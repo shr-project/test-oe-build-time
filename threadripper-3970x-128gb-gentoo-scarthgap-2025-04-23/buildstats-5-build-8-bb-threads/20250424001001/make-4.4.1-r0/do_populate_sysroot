@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745456644.33 
+make-4.4.1-r0: do_populate_sysroot
+Elapsed time: 0.42 seconds
+utime: 52
+stime: 2
+cutime: 2
+cstime: 5
+IO rchar: 987205
+IO wchar: 246947
+IO syscr: 618
+IO syscw: 157
+IO read_bytes: 0
+IO write_bytes: 552960
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.5250239999999999
+rusage ru_stime: 0.020038999999999998
+rusage ru_maxrss: 94488
+rusage ru_minflt: 13458
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 432
+rusage ru_nvcsw: 22
+rusage ru_nivcsw: 66
+Child rusage ru_utime: 0.024783
+Child rusage ru_stime: 0.059503
+Child rusage ru_maxrss: 94488
+Child rusage ru_minflt: 10078
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 648
+Child rusage ru_nvcsw: 320
+Child rusage ru_nivcsw: 60
+Status: PASSED 
+Ended: 1745456644.75 

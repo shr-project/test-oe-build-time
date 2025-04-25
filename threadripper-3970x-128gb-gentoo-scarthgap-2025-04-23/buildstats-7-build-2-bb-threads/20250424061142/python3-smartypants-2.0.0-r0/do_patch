@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745489424.44 
+python3-smartypants-2.0.0-r0: do_patch
+Elapsed time: 0.29 seconds
+utime: 42
+stime: 3
+cutime: 4
+cstime: 5
+IO rchar: 893457
+IO wchar: 91001
+IO syscr: 496
+IO syscw: 115
+IO read_bytes: 0
+IO write_bytes: 110592
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.42175199999999996
+rusage ru_stime: 0.036802999999999995
+rusage ru_maxrss: 92528
+rusage ru_minflt: 5429
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 120
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 59
+Child rusage ru_utime: 0.045134
+Child rusage ru_stime: 0.052350999999999995
+Child rusage ru_maxrss: 92528
+Child rusage ru_minflt: 9617
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 96
+Child rusage ru_nvcsw: 123
+Child rusage ru_nivcsw: 28
+Status: PASSED 
+Ended: 1745489424.73 

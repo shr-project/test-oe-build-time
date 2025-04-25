@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745464631.40 
+attr-native-2.5.1-r0: do_rm_work
+Elapsed time: 0.22 seconds
+utime: 42
+stime: 2
+cutime: 5
+cstime: 6
+IO rchar: 1025430
+IO wchar: 34252
+IO syscr: 690
+IO syscw: 69
+IO read_bytes: 0
+IO write_bytes: 512000
+IO cancelled_write_bytes: 4513792
+rusage ru_utime: 0.426485
+rusage ru_stime: 0.020021999999999998
+rusage ru_maxrss: 85508
+rusage ru_minflt: 7933
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 104
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 5
+Child rusage ru_utime: 0.050544
+Child rusage ru_stime: 0.06418499999999999
+Child rusage ru_maxrss: 80744
+Child rusage ru_minflt: 14457
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 896
+Child rusage ru_nvcsw: 147
+Child rusage ru_nivcsw: 41
+Status: PASSED 
+Ended: 1745464631.62 

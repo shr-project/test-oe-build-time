@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745476680.55 
+file-native-5.45-r0: do_install
+Elapsed time: 0.39 seconds
+utime: 42
+stime: 2
+cutime: 14
+cstime: 13
+IO rchar: 11224177
+IO wchar: 8903426
+IO syscr: 2053
+IO syscw: 455
+IO read_bytes: 0
+IO write_bytes: 8921088
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 0.42472899999999997
+rusage ru_stime: 0.023148
+rusage ru_maxrss: 82800
+rusage ru_minflt: 10703
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 120
+rusage ru_nvcsw: 61
+rusage ru_nivcsw: 9
+Child rusage ru_utime: 0.147839
+Child rusage ru_stime: 0.13546
+Child rusage ru_maxrss: 81264
+Child rusage ru_minflt: 37527
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 17304
+Child rusage ru_nvcsw: 492
+Child rusage ru_nivcsw: 126
+Status: PASSED 
+Ended: 1745476680.94 

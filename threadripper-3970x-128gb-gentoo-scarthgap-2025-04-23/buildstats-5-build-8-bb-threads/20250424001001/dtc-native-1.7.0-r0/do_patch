@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745458958.95 
+dtc-native-1.7.0-r0: do_patch
+Elapsed time: 0.25 seconds
+utime: 53
+stime: 2
+cutime: 6
+cstime: 12
+IO rchar: 1185921
+IO wchar: 77781
+IO syscr: 916
+IO syscw: 161
+IO read_bytes: 0
+IO write_bytes: 167936
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.538575
+rusage ru_stime: 0.02887
+rusage ru_maxrss: 100420
+rusage ru_minflt: 6259
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 216
+rusage ru_nvcsw: 21
+rusage ru_nivcsw: 75
+Child rusage ru_utime: 0.06519799999999999
+Child rusage ru_stime: 0.121736
+Child rusage ru_maxrss: 100420
+Child rusage ru_minflt: 19231
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 112
+Child rusage ru_nvcsw: 220
+Child rusage ru_nivcsw: 37
+Status: PASSED 
+Ended: 1745458959.20 

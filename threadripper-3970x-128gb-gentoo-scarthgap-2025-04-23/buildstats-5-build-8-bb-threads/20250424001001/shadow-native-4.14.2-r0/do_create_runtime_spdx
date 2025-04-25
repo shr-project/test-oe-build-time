@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745453726.64 
+shadow-native-4.14.2-r0: do_create_runtime_spdx
+Elapsed time: 0.19 seconds
+utime: 43
+stime: 2
+cutime: 1
+cstime: 2
+IO rchar: 1250849
+IO wchar: 345704
+IO syscr: 401
+IO syscw: 109
+IO read_bytes: 0
+IO write_bytes: 172032
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.43316
+rusage ru_stime: 0.024064
+rusage ru_maxrss: 84028
+rusage ru_minflt: 10624
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 256
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 28
+Child rusage ru_utime: 0.016789
+Child rusage ru_stime: 0.027874
+Child rusage ru_maxrss: 84028
+Child rusage ru_minflt: 4780
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 80
+Child rusage ru_nvcsw: 268
+Child rusage ru_nivcsw: 38
+Status: PASSED 
+Ended: 1745453726.83 

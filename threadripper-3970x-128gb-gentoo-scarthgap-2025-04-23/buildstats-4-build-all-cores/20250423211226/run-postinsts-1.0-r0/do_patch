@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1745442945.55 
+run-postinsts-1.0-r0: do_patch
+Elapsed time: 0.12 seconds
+utime: 31
+stime: 2
+cutime: 1
+cstime: 0
+IO rchar: 1112451
+IO wchar: 643510
+IO syscr: 292
+IO syscw: 208
+IO read_bytes: 0
+IO write_bytes: 843776
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.31888
+rusage ru_stime: 0.027815
+rusage ru_maxrss: 84584
+rusage ru_minflt: 6255
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 488
+rusage ru_nvcsw: 6
+rusage ru_nivcsw: 62
+Child rusage ru_utime: 0.017461
+Child rusage ru_stime: 0.006999
+Child rusage ru_maxrss: 84584
+Child rusage ru_minflt: 1168
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1160
+Child rusage ru_nvcsw: 9
+Child rusage ru_nivcsw: 4
+Status: PASSED 
+Ended: 1745442945.67 
