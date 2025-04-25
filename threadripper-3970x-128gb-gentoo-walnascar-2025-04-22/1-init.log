@@ -1,0 +1,53 @@
+1-init start: 2025-04-23T16:18:46+02:00
+Cloning into 'poky'...
+Switched to a new branch 'walnascar'
+Cloning into 'meta-qt5'...
+Switched to a new branch 'walnascar'
+Cloning into 'meta-browser'...
+Switched to a new branch 'walnascar'
+Cloning into 'meta-openembedded'...
+Switched to a new branch 'walnascar'
+Cloning into 'meta-clang'...
+Switched to a new branch 'walnascar'
+You had no conf/local.conf file. This configuration file has therefore been
+created for you from /OE/build/test-oe-build-time/poky/meta-poky/conf/templates/default/local.conf.sample
+You may wish to edit it to, for example, select a different MACHINE (target
+hardware).
+
+You had no conf/bblayers.conf file. This configuration file has therefore been
+created for you from /OE/build/test-oe-build-time/poky/meta-poky/conf/templates/default/bblayers.conf.sample
+To add additional metadata layers into your configuration please add entries
+to conf/bblayers.conf.
+
+The Yocto Project has extensive documentation about OE including a reference
+manual which can be found at:
+    https://docs.yoctoproject.org
+
+For more information about OpenEmbedded see the website:
+    https://www.openembedded.org/
+
+This is the default build configuration for the Poky reference distribution.
+
+### Shell environment set up for builds. ###
+
+You can now run 'bitbake <target>'
+
+Common targets are:
+    core-image-minimal
+    core-image-full-cmdline
+    core-image-sato
+    core-image-weston
+    meta-toolchain
+    meta-ide-support
+
+You can also run generated qemu images with a command like 'runqemu qemux86-64'.
+
+Other commonly useful commands are:
+ - 'devtool' and 'recipetool' handle common recipe tasks
+ - 'bitbake-layers' handles common layer tasks
+ - 'oe-pkgdata-util' handles common target package tasks
+You had no /OE/build/test-oe-build-time/poky/.vscode configuration.
+These configuration files have therefore been created for you.
+52.68user 8.56system 0:41.17elapsed 148%CPU (0avgtext+0avgdata 357888maxresident)k
+10208inputs+961408outputs (39major+187563minor)pagefaults 0swaps
+1-init stop:  2025-04-23T16:19:27+02:00
