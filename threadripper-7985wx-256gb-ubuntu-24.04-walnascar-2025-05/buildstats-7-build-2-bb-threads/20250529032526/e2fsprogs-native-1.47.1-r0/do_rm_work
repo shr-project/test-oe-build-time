@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748489898.02 
+e2fsprogs-native-1.47.1-r0: do_rm_work
+Elapsed time: 0.17 seconds
+utime: 7
+stime: 2
+cutime: 3
+cstime: 12
+IO rchar: 488133
+IO wchar: 59036
+IO syscr: 688
+IO syscw: 106
+IO read_bytes: 0
+IO write_bytes: 28672
+IO cancelled_write_bytes: 45875200
+rusage ru_utime: 0.07978099999999999
+rusage ru_stime: 0.025928
+rusage ru_maxrss: 86040
+rusage ru_minflt: 9958
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 56
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 0
+Child rusage ru_utime: 0.031314
+Child rusage ru_stime: 0.12016099999999999
+Child rusage ru_maxrss: 82536
+Child rusage ru_minflt: 7155
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 195
+Child rusage ru_nivcsw: 9
+Status: PASSED 
+Ended: 1748489898.19 

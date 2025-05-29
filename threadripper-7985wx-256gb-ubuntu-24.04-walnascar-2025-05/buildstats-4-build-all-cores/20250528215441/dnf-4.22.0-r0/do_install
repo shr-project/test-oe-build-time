@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748470601.76 
+dnf-4.22.0-r0: do_install
+Elapsed time: 0.73 seconds
+utime: 33
+stime: 11
+cutime: 5
+cstime: 36
+IO rchar: 4242137
+IO wchar: 3780500
+IO syscr: 4554
+IO syscw: 952
+IO read_bytes: 0
+IO write_bytes: 4136960
+IO cancelled_write_bytes: 40960
+rusage ru_utime: 0.334163
+rusage ru_stime: 0.117057
+rusage ru_maxrss: 102240
+rusage ru_minflt: 19167
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 256
+rusage ru_nvcsw: 924
+rusage ru_nivcsw: 11
+Child rusage ru_utime: 0.054976
+Child rusage ru_stime: 0.360827
+Child rusage ru_maxrss: 100184
+Child rusage ru_minflt: 3938
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 7824
+Child rusage ru_nvcsw: 3621
+Child rusage ru_nivcsw: 797
+Status: PASSED 
+Ended: 1748470602.49 

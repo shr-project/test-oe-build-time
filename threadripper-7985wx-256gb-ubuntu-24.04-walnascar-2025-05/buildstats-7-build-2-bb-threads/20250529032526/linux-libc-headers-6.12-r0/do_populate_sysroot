@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748489298.69 
+linux-libc-headers-6.12-r0: do_populate_sysroot
+Elapsed time: 0.25 seconds
+utime: 10
+stime: 4
+cutime: 9
+cstime: 9
+IO rchar: 23958975
+IO wchar: 9759433
+IO syscr: 8089
+IO syscw: 1059
+IO read_bytes: 0
+IO write_bytes: 2048000
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.10625699999999999
+rusage ru_stime: 0.040097
+rusage ru_maxrss: 80592
+rusage ru_minflt: 8187
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 840
+rusage ru_nvcsw: 20
+rusage ru_nivcsw: 0
+Child rusage ru_utime: 0.095803
+Child rusage ru_stime: 0.093649
+Child rusage ru_maxrss: 80592
+Child rusage ru_minflt: 8630
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 3160
+Child rusage ru_nvcsw: 693
+Child rusage ru_nivcsw: 6
+Status: PASSED 
+Ended: 1748489298.95 

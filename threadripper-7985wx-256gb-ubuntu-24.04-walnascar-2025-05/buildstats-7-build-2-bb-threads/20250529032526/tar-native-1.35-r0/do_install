@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748499223.21 
+tar-native-1.35-r0: do_install
+Elapsed time: 0.24 seconds
+utime: 8
+stime: 2
+cutime: 11
+cstime: 14
+IO rchar: 8048464
+IO wchar: 1378519
+IO syscr: 3036
+IO syscw: 330
+IO read_bytes: 0
+IO write_bytes: 1372160
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.08047
+rusage ru_stime: 0.023135
+rusage ru_maxrss: 122384
+rusage ru_minflt: 8619
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 96
+rusage ru_nvcsw: 63
+rusage ru_nivcsw: 2
+Child rusage ru_utime: 0.114934
+Child rusage ru_stime: 0.141354
+Child rusage ru_maxrss: 122384
+Child rusage ru_minflt: 26078
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 2584
+Child rusage ru_nvcsw: 304
+Child rusage ru_nivcsw: 19
+Status: PASSED 
+Ended: 1748499223.45 

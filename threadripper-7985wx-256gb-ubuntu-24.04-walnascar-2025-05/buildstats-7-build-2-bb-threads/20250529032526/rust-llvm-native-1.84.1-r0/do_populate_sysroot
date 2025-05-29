@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748490787.83 
+rust-llvm-native-1.84.1-r0: do_populate_sysroot
+Elapsed time: 7.14 seconds
+utime: 254
+stime: 251
+cutime: 2535
+cstime: 710
+IO rchar: 11063002962
+IO wchar: 6133288150
+IO syscr: 866783
+IO syscw: 338439
+IO read_bytes: 0
+IO write_bytes: 4575645696
+IO cancelled_write_bytes: 1306550272
+rusage ru_utime: 2.549137
+rusage ru_stime: 2.519124
+rusage ru_maxrss: 91864
+rusage ru_minflt: 50565
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 2920168
+rusage ru_nvcsw: 739
+rusage ru_nivcsw: 43
+Child rusage ru_utime: 25.359084
+Child rusage ru_stime: 7.107401
+Child rusage ru_maxrss: 903920
+Child rusage ru_minflt: 1326718
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 6016640
+Child rusage ru_nvcsw: 30205
+Child rusage ru_nivcsw: 294
+Status: PASSED 
+Ended: 1748490794.97 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748478146.78 
+init-system-helpers-1.68-r0: do_populate_sysroot
+Elapsed time: 1.08 seconds
+utime: 20
+stime: 4
+cutime: 2
+cstime: 5
+IO rchar: 658017
+IO wchar: 198622
+IO syscr: 617
+IO syscw: 130
+IO read_bytes: 0
+IO write_bytes: 151552
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.206257
+rusage ru_stime: 0.043475
+rusage ru_maxrss: 116492
+rusage ru_minflt: 11895
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 256
+rusage ru_nvcsw: 18
+rusage ru_nivcsw: 52
+Child rusage ru_utime: 0.020277
+Child rusage ru_stime: 0.051739999999999994
+Child rusage ru_maxrss: 116492
+Child rusage ru_minflt: 5066
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 298
+Child rusage ru_nivcsw: 31
+Status: PASSED 
+Ended: 1748478147.86 

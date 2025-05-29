@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748499199.40 
+tar-native-1.35-r0: do_patch
+Elapsed time: 0.15 seconds
+utime: 6
+stime: 1
+cutime: 6
+cstime: 10
+IO rchar: 1000806
+IO wchar: 99347
+IO syscr: 1415
+IO syscw: 222
+IO read_bytes: 0
+IO write_bytes: 102400
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 0.061121999999999996
+rusage ru_stime: 0.014027999999999999
+rusage ru_maxrss: 108204
+rusage ru_minflt: 4831
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 136
+rusage ru_nvcsw: 19
+rusage ru_nivcsw: 1
+Child rusage ru_utime: 0.065995
+Child rusage ru_stime: 0.103253
+Child rusage ru_maxrss: 108204
+Child rusage ru_minflt: 28008
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 64
+Child rusage ru_nvcsw: 428
+Child rusage ru_nivcsw: 7
+Status: PASSED 
+Ended: 1748499199.55 

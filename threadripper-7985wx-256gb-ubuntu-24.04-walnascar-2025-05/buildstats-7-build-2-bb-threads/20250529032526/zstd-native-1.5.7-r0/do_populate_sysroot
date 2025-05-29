@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748489175.04 
+zstd-native-1.5.7-r0: do_populate_sysroot
+Elapsed time: 0.20 seconds
+utime: 12
+stime: 4
+cutime: 4
+cstime: 10
+IO rchar: 29159382
+IO wchar: 12993301
+IO syscr: 3512
+IO syscw: 1040
+IO read_bytes: 0
+IO write_bytes: 9023488
+IO cancelled_write_bytes: 2670592
+rusage ru_utime: 0.12343
+rusage ru_stime: 0.044229
+rusage ru_maxrss: 79076
+rusage ru_minflt: 13515
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 5832
+rusage ru_nvcsw: 47
+rusage ru_nivcsw: 5
+Child rusage ru_utime: 0.048215
+Child rusage ru_stime: 0.106819
+Child rusage ru_maxrss: 79076
+Child rusage ru_minflt: 19273
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 11792
+Child rusage ru_nvcsw: 479
+Child rusage ru_nivcsw: 13
+Status: PASSED 
+Ended: 1748489175.24 

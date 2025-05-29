@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748469355.27 
+make-native-4.4.1-r0: do_configure
+Elapsed time: 10.50 seconds
+utime: 27
+stime: 5
+cutime: 363
+cstime: 524
+IO rchar: 111135222
+IO wchar: 11887456
+IO syscr: 49990
+IO syscw: 15946
+IO read_bytes: 4096
+IO write_bytes: 12206080
+IO cancelled_write_bytes: 5877760
+rusage ru_utime: 0.27466999999999997
+rusage ru_stime: 0.059711
+rusage ru_maxrss: 88036
+rusage ru_minflt: 17416
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 272
+rusage ru_nvcsw: 422
+rusage ru_nivcsw: 9
+Child rusage ru_utime: 3.63642
+Child rusage ru_stime: 5.243455
+Child rusage ru_maxrss: 88036
+Child rusage ru_minflt: 796075
+Child rusage ru_majflt: 14
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 23568
+Child rusage ru_nvcsw: 4888
+Child rusage ru_nivcsw: 1361
+Status: PASSED 
+Ended: 1748469365.77 

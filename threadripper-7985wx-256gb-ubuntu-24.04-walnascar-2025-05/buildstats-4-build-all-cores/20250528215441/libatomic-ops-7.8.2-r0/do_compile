@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748469842.24 
+libatomic-ops-7.8.2-r0: do_compile
+Elapsed time: 1.01 seconds
+utime: 8
+stime: 2
+cutime: 56
+cstime: 48
+IO rchar: 9484627
+IO wchar: 1363586
+IO syscr: 2754
+IO syscw: 769
+IO read_bytes: 0
+IO write_bytes: 630784
+IO cancelled_write_bytes: 98304
+rusage ru_utime: 0.086058
+rusage ru_stime: 0.022014
+rusage ru_maxrss: 95720
+rusage ru_minflt: 5558
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 96
+rusage ru_nvcsw: 30
+rusage ru_nivcsw: 10
+Child rusage ru_utime: 0.561325
+Child rusage ru_stime: 0.489728
+Child rusage ru_maxrss: 93272
+Child rusage ru_minflt: 68979
+Child rusage ru_majflt: 3
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1136
+Child rusage ru_nvcsw: 651
+Child rusage ru_nivcsw: 209
+Status: PASSED 
+Ended: 1748469843.25 

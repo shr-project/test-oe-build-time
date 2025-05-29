@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748472279.04 
+virglrenderer-native-1.1.0-r0: do_compile
+Elapsed time: 8.03 seconds
+utime: 19
+stime: 3
+cutime: 868
+cstime: 165
+IO rchar: 104805976
+IO wchar: 6111680
+IO syscr: 18951
+IO syscw: 2619
+IO read_bytes: 8192
+IO write_bytes: 3145728
+IO cancelled_write_bytes: 499712
+rusage ru_utime: 0.195566
+rusage ru_stime: 0.036668
+rusage ru_maxrss: 112968
+rusage ru_minflt: 9387
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 192
+rusage ru_nvcsw: 61
+rusage ru_nivcsw: 5
+Child rusage ru_utime: 8.683119
+Child rusage ru_stime: 1.6572879999999999
+Child rusage ru_maxrss: 126976
+Child rusage ru_minflt: 339600
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 5952
+Child rusage ru_nvcsw: 1178
+Child rusage ru_nivcsw: 171
+Status: PASSED 
+Ended: 1748472287.07 

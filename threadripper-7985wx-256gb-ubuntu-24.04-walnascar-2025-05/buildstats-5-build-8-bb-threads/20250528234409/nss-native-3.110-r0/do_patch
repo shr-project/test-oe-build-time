@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748475889.57 
+nss-native-3.110-r0: do_patch
+Elapsed time: 0.31 seconds
+utime: 6
+stime: 1
+cutime: 13
+cstime: 24
+IO rchar: 2508459
+IO wchar: 425380
+IO syscr: 3422
+IO syscw: 487
+IO read_bytes: 0
+IO write_bytes: 430080
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 0.063091
+rusage ru_stime: 0.014787
+rusage ru_maxrss: 85596
+rusage ru_minflt: 4714
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 37
+rusage ru_nivcsw: 7
+Child rusage ru_utime: 0.130487
+Child rusage ru_stime: 0.24675599999999998
+Child rusage ru_maxrss: 85596
+Child rusage ru_minflt: 66952
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 680
+Child rusage ru_nvcsw: 997
+Child rusage ru_nivcsw: 59
+Status: PASSED 
+Ended: 1748475889.89 

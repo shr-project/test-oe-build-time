@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748483388.96 
+acl-2.3.2-r0: do_install_ptest_base
+Elapsed time: 0.22 seconds
+utime: 8
+stime: 2
+cutime: 4
+cstime: 13
+IO rchar: 1007871
+IO wchar: 117763
+IO syscr: 1508
+IO syscw: 118
+IO read_bytes: 0
+IO write_bytes: 188416
+IO cancelled_write_bytes: 40960
+rusage ru_utime: 0.089887
+rusage ru_stime: 0.028645
+rusage ru_maxrss: 80956
+rusage ru_minflt: 7718
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 64
+rusage ru_nvcsw: 519
+rusage ru_nivcsw: 3
+Child rusage ru_utime: 0.040875
+Child rusage ru_stime: 0.13376
+Child rusage ru_maxrss: 79804
+Child rusage ru_minflt: 18280
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 304
+Child rusage ru_nvcsw: 819
+Child rusage ru_nivcsw: 36
+Status: PASSED 
+Ended: 1748483389.17 

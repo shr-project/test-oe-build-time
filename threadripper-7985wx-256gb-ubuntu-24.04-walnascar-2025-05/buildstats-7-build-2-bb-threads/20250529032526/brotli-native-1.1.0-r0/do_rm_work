@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748492642.34 
+brotli-native-1.1.0-r0: do_rm_work
+Elapsed time: 0.12 seconds
+utime: 6
+stime: 1
+cutime: 2
+cstime: 8
+IO rchar: 448409
+IO wchar: 38694
+IO syscr: 679
+IO syscw: 75
+IO read_bytes: 0
+IO write_bytes: 28672
+IO cancelled_write_bytes: 69185536
+rusage ru_utime: 0.065715
+rusage ru_stime: 0.01593
+rusage ru_maxrss: 98172
+rusage ru_minflt: 6336
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 56
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 1
+Child rusage ru_utime: 0.026216
+Child rusage ru_stime: 0.080105
+Child rusage ru_maxrss: 94092
+Child rusage ru_minflt: 7131
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 195
+Child rusage ru_nivcsw: 10
+Status: PASSED 
+Ended: 1748492642.46 

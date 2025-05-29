@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748498807.42 
+run-postinsts-1.0-r0: do_populate_lic
+Elapsed time: 0.04 seconds
+utime: 4
+stime: 1
+cutime: 0
+cstime: 2
+IO rchar: 267098
+IO wchar: 140897
+IO syscr: 277
+IO syscw: 104
+IO read_bytes: 0
+IO write_bytes: 102400
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.042506999999999996
+rusage ru_stime: 0.010872999999999999
+rusage ru_maxrss: 105188
+rusage ru_minflt: 4596
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 168
+rusage ru_nvcsw: 17
+rusage ru_nivcsw: 1
+Child rusage ru_utime: 0.005634999999999999
+Child rusage ru_stime: 0.027187
+Child rusage ru_maxrss: 105188
+Child rusage ru_minflt: 3755
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 293
+Child rusage ru_nivcsw: 11
+Status: PASSED 
+Ended: 1748498807.46 

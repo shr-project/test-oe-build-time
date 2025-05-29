@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748471945.60 
+llvm-native-20.1.0-r0: do_create_spdx
+Elapsed time: 0.11 seconds
+utime: 16
+stime: 2
+cutime: 0
+cstime: 4
+IO rchar: 1133786
+IO wchar: 236495
+IO syscr: 558
+IO syscw: 169
+IO read_bytes: 0
+IO write_bytes: 126976
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.163356
+rusage ru_stime: 0.028234
+rusage ru_maxrss: 112452
+rusage ru_minflt: 5701
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 200
+rusage ru_nvcsw: 19
+rusage ru_nivcsw: 43
+Child rusage ru_utime: 0.00678
+Child rusage ru_stime: 0.041062999999999995
+Child rusage ru_maxrss: 112452
+Child rusage ru_minflt: 3882
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 48
+Child rusage ru_nvcsw: 155
+Child rusage ru_nivcsw: 3
+Status: PASSED 
+Ended: 1748471945.72 

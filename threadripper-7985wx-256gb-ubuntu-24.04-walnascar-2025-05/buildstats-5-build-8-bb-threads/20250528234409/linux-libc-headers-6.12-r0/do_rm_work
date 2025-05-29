@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748476329.54 
+linux-libc-headers-6.12-r0: do_rm_work
+Elapsed time: 2.66 seconds
+utime: 7
+stime: 1
+cutime: 7
+cstime: 247
+IO rchar: 562676
+IO wchar: 34748
+IO syscr: 871
+IO syscw: 72
+IO read_bytes: 0
+IO write_bytes: 28672
+IO cancelled_write_bytes: 9478144
+rusage ru_utime: 0.073667
+rusage ru_stime: 0.015927999999999998
+rusage ru_maxrss: 103960
+rusage ru_minflt: 6317
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 56
+rusage ru_nvcsw: 4
+rusage ru_nivcsw: 0
+Child rusage ru_utime: 0.072438
+Child rusage ru_stime: 2.473074
+Child rusage ru_maxrss: 100716
+Child rusage ru_minflt: 9618
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 255
+Child rusage ru_nivcsw: 236
+Status: PASSED 
+Ended: 1748476332.20 

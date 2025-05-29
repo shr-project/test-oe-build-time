@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748469843.99 
+libatomic-ops-7.8.2-r0: do_populate_sysroot
+Elapsed time: 0.19 seconds
+utime: 14
+stime: 4
+cutime: 2
+cstime: 6
+IO rchar: 3192195
+IO wchar: 1118114
+IO syscr: 1411
+IO syscw: 241
+IO read_bytes: 0
+IO write_bytes: 266240
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.143725
+rusage ru_stime: 0.040921
+rusage ru_maxrss: 94696
+rusage ru_minflt: 12039
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 320
+rusage ru_nvcsw: 22
+rusage ru_nivcsw: 21
+Child rusage ru_utime: 0.023014999999999997
+Child rusage ru_stime: 0.062689
+Child rusage ru_maxrss: 94696
+Child rusage ru_minflt: 7005
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 200
+Child rusage ru_nvcsw: 308
+Child rusage ru_nivcsw: 45
+Status: PASSED 
+Ended: 1748469844.17 

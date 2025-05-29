@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748489289.25 
+unifdef-native-2.12-r0: do_populate_sysroot
+Elapsed time: 0.12 seconds
+utime: 9
+stime: 3
+cutime: 2
+cstime: 4
+IO rchar: 1048390
+IO wchar: 413103
+IO syscr: 810
+IO syscw: 211
+IO read_bytes: 0
+IO write_bytes: 311296
+IO cancelled_write_bytes: 45056
+rusage ru_utime: 0.096497
+rusage ru_stime: 0.035089999999999996
+rusage ru_maxrss: 80544
+rusage ru_minflt: 12422
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 352
+rusage ru_nvcsw: 31
+rusage ru_nivcsw: 2
+Child rusage ru_utime: 0.023885999999999998
+Child rusage ru_stime: 0.049596999999999995
+Child rusage ru_maxrss: 80544
+Child rusage ru_minflt: 9291
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 256
+Child rusage ru_nvcsw: 352
+Child rusage ru_nivcsw: 12
+Status: PASSED 
+Ended: 1748489289.37 

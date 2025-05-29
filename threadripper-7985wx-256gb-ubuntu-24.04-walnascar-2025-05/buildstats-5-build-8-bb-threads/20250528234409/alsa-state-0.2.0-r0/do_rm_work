@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748477661.63 
+alsa-state-0.2.0-r0: do_rm_work
+Elapsed time: 0.29 seconds
+utime: 11
+stime: 2
+cutime: 3
+cstime: 20
+IO rchar: 549091
+IO wchar: 31010
+IO syscr: 862
+IO syscw: 68
+IO read_bytes: 0
+IO write_bytes: 28672
+IO cancelled_write_bytes: 139264
+rusage ru_utime: 0.111132
+rusage ru_stime: 0.029033999999999997
+rusage ru_maxrss: 111496
+rusage ru_minflt: 6196
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 56
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 11
+Child rusage ru_utime: 0.034615
+Child rusage ru_stime: 0.209275
+Child rusage ru_maxrss: 107680
+Child rusage ru_minflt: 9374
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 217
+Child rusage ru_nivcsw: 26
+Status: PASSED 
+Ended: 1748477661.92 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748498661.21 
+sudo-1.9.16p2-r0: do_install
+Elapsed time: 4.61 seconds
+utime: 10
+stime: 6
+cutime: 115
+cstime: 384
+IO rchar: 46051043
+IO wchar: 14908349
+IO syscr: 45894
+IO syscw: 2410
+IO read_bytes: 0
+IO write_bytes: 15040512
+IO cancelled_write_bytes: 28672
+rusage ru_utime: 0.102432
+rusage ru_stime: 0.062752
+rusage ru_maxrss: 121700
+rusage ru_minflt: 16778
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 248
+rusage ru_nvcsw: 1114
+rusage ru_nivcsw: 7
+Child rusage ru_utime: 1.157915
+Child rusage ru_stime: 3.843692
+Child rusage ru_maxrss: 118676
+Child rusage ru_minflt: 685927
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 29128
+Child rusage ru_nvcsw: 25096
+Child rusage ru_nivcsw: 366
+Status: PASSED 
+Ended: 1748498665.83 

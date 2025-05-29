@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748482719.53 
+make-4.4.1-r0: do_patch
+Elapsed time: 0.12 seconds
+utime: 5
+stime: 1
+cutime: 3
+cstime: 8
+IO rchar: 1340426
+IO wchar: 711043
+IO syscr: 1171
+IO syscw: 319
+IO read_bytes: 0
+IO write_bytes: 741376
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 0.052733999999999996
+rusage ru_stime: 0.015210999999999999
+rusage ru_maxrss: 94636
+rusage ru_minflt: 4610
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 144
+rusage ru_nvcsw: 17
+rusage ru_nivcsw: 3
+Child rusage ru_utime: 0.033651
+Child rusage ru_stime: 0.08687099999999999
+Child rusage ru_maxrss: 94636
+Child rusage ru_minflt: 19044
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1304
+Child rusage ru_nvcsw: 270
+Child rusage ru_nivcsw: 52
+Status: PASSED 
+Ended: 1748482719.65 

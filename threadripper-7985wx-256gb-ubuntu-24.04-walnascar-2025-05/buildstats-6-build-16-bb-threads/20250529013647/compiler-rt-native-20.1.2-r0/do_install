@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748483924.51 
+compiler-rt-native-20.1.2-r0: do_install
+Elapsed time: 0.17 seconds
+utime: 13
+stime: 3
+cutime: 4
+cstime: 8
+IO rchar: 3625086
+IO wchar: 2161226
+IO syscr: 1106
+IO syscw: 384
+IO read_bytes: 0
+IO write_bytes: 2170880
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.130963
+rusage ru_stime: 0.031229
+rusage ru_maxrss: 110060
+rusage ru_minflt: 8876
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 96
+rusage ru_nvcsw: 21
+rusage ru_nivcsw: 13
+Child rusage ru_utime: 0.045069
+Child rusage ru_stime: 0.08156
+Child rusage ru_maxrss: 108012
+Child rusage ru_minflt: 6439
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 4144
+Child rusage ru_nvcsw: 54
+Child rusage ru_nivcsw: 31
+Status: PASSED 
+Ended: 1748483924.68 

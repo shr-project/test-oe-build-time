@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748493604.53 
+wpebackend-fdo-1.16.0-r0: do_configure
+Elapsed time: 1.15 seconds
+utime: 11
+stime: 2
+cutime: 76
+cstime: 31
+IO rchar: 17642513
+IO wchar: 5273962
+IO syscr: 5362
+IO syscw: 2200
+IO read_bytes: 0
+IO write_bytes: 5562368
+IO cancelled_write_bytes: 155648
+rusage ru_utime: 0.11692899999999999
+rusage ru_stime: 0.020159999999999997
+rusage ru_maxrss: 99884
+rusage ru_minflt: 6881
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 0
+Child rusage ru_utime: 0.768486
+Child rusage ru_stime: 0.317164
+Child rusage ru_maxrss: 99884
+Child rusage ru_minflt: 75357
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 10704
+Child rusage ru_nvcsw: 625
+Child rusage ru_nivcsw: 40
+Status: PASSED 
+Ended: 1748493605.69 

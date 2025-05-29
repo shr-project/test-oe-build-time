@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748469294.62 
+openssl-native-3.4.1-r0: do_patch
+Elapsed time: 0.16 seconds
+utime: 7
+stime: 1
+cutime: 6
+cstime: 11
+IO rchar: 1439422
+IO wchar: 492541
+IO syscr: 1545
+IO syscw: 338
+IO read_bytes: 0
+IO write_bytes: 491520
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 0.074103
+rusage ru_stime: 0.018012999999999998
+rusage ru_maxrss: 78320
+rusage ru_minflt: 4644
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 144
+rusage ru_nvcsw: 21
+rusage ru_nivcsw: 7
+Child rusage ru_utime: 0.063539
+Child rusage ru_stime: 0.11392
+Child rusage ru_maxrss: 78320
+Child rusage ru_minflt: 28413
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 816
+Child rusage ru_nvcsw: 396
+Child rusage ru_nivcsw: 93
+Status: PASSED 
+Ended: 1748469294.78 

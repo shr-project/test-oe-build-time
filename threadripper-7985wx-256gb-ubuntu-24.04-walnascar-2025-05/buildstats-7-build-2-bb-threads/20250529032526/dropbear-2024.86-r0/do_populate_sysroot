@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748498230.37 
+dropbear-2024.86-r0: do_populate_sysroot
+Elapsed time: 0.10 seconds
+utime: 9
+stime: 2
+cutime: 0
+cstime: 4
+IO rchar: 699456
+IO wchar: 207650
+IO syscr: 634
+IO syscw: 134
+IO read_bytes: 0
+IO write_bytes: 151552
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.090932
+rusage ru_stime: 0.02598
+rusage ru_maxrss: 105188
+rusage ru_minflt: 11956
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 256
+rusage ru_nvcsw: 22
+rusage ru_nivcsw: 0
+Child rusage ru_utime: 0.007692
+Child rusage ru_stime: 0.041305
+Child rusage ru_maxrss: 105188
+Child rusage ru_minflt: 5093
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 331
+Child rusage ru_nivcsw: 1
+Status: PASSED 
+Ended: 1748498230.47 

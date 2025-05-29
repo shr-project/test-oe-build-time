@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748483526.33 
+linux-yocto-6.12.19+git-r0: do_transform_kernel
+Elapsed time: 0.08 seconds
+utime: 17
+stime: 3
+cutime: 0
+cstime: 0
+IO rchar: 412403
+IO wchar: 37075
+IO syscr: 114
+IO syscw: 47
+IO read_bytes: 0
+IO write_bytes: 28672
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.17616099999999998
+rusage ru_stime: 0.035032
+rusage ru_maxrss: 111392
+rusage ru_minflt: 12975
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 56
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 2
+Child rusage ru_utime: 0.001774
+Child rusage ru_stime: 0.00577
+Child rusage ru_maxrss: 107580
+Child rusage ru_minflt: 547
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 5
+Child rusage ru_nivcsw: 1
+Status: PASSED 
+Ended: 1748483526.40 

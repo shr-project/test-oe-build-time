@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748498402.87 
+sysvinit-3.14-r0: do_patch
+Elapsed time: 0.06 seconds
+utime: 4
+stime: 1
+cutime: 2
+cstime: 3
+IO rchar: 367066
+IO wchar: 90444
+IO syscr: 428
+IO syscw: 131
+IO read_bytes: 0
+IO write_bytes: 98304
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 0.044289999999999996
+rusage ru_stime: 0.013779
+rusage ru_maxrss: 104164
+rusage ru_minflt: 4478
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 144
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 4
+Child rusage ru_utime: 0.0234
+Child rusage ru_stime: 0.031101
+Child rusage ru_maxrss: 104164
+Child rusage ru_minflt: 8807
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 48
+Child rusage ru_nvcsw: 131
+Child rusage ru_nivcsw: 3
+Status: PASSED 
+Ended: 1748498402.93 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748482726.38 
+xcb-proto-native-1.17.0-r0: do_patch
+Elapsed time: 0.10 seconds
+utime: 5
+stime: 2
+cutime: 3
+cstime: 6
+IO rchar: 754776
+IO wchar: 144951
+IO syscr: 1018
+IO syscw: 189
+IO read_bytes: 0
+IO write_bytes: 159744
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 0.055888999999999994
+rusage ru_stime: 0.02059
+rusage ru_maxrss: 96060
+rusage ru_minflt: 4804
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 136
+rusage ru_nvcsw: 17
+rusage ru_nivcsw: 3
+Child rusage ru_utime: 0.039191
+Child rusage ru_stime: 0.067982
+Child rusage ru_maxrss: 96060
+Child rusage ru_minflt: 19140
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 176
+Child rusage ru_nvcsw: 266
+Child rusage ru_nivcsw: 38
+Status: PASSED 
+Ended: 1748482726.48 

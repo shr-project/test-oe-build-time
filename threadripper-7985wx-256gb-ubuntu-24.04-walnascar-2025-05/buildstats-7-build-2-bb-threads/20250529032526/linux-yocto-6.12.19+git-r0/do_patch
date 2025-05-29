@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748491841.12 
+linux-yocto-6.12.19+git-r0: do_patch
+Elapsed time: 0.09 seconds
+utime: 11
+stime: 2
+cutime: 2
+cstime: 2
+IO rchar: 2124408
+IO wchar: 145539
+IO syscr: 707
+IO syscw: 102
+IO read_bytes: 0
+IO write_bytes: 135168
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.11580299999999999
+rusage ru_stime: 0.025734
+rusage ru_maxrss: 97928
+rusage ru_minflt: 12606
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 136
+rusage ru_nvcsw: 6
+rusage ru_nivcsw: 1
+Child rusage ru_utime: 0.029751
+Child rusage ru_stime: 0.027991
+Child rusage ru_maxrss: 97928
+Child rusage ru_minflt: 6900
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 128
+Child rusage ru_nvcsw: 60
+Child rusage ru_nivcsw: 9
+Status: PASSED 
+Ended: 1748491841.21 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748482754.20 
+openssl-native-3.4.1-r0: do_install
+Elapsed time: 1.31 seconds
+utime: 11
+stime: 3
+cutime: 145
+cstime: 75
+IO rchar: 158607896
+IO wchar: 64067030
+IO syscr: 47957
+IO syscw: 5862
+IO read_bytes: 0
+IO write_bytes: 64344064
+IO cancelled_write_bytes: 35737600
+rusage ru_utime: 0.111135
+rusage ru_stime: 0.031319
+rusage ru_maxrss: 100400
+rusage ru_minflt: 13727
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 200
+rusage ru_nvcsw: 200
+rusage ru_nivcsw: 7
+Child rusage ru_utime: 1.4581469999999999
+Child rusage ru_stime: 0.756371
+Child rusage ru_maxrss: 99376
+Child rusage ru_minflt: 112050
+Child rusage ru_majflt: 3
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 125472
+Child rusage ru_nvcsw: 1702
+Child rusage ru_nivcsw: 248
+Status: PASSED 
+Ended: 1748482755.52 
