@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748482644.24 
+dnf-native-4.22.0-r0: do_generate_toolchain_file
+Elapsed time: 0.02 seconds
+utime: 7
+stime: 1
+cutime: 0
+cstime: 0
+IO rchar: 118118
+IO wchar: 58193
+IO syscr: 64
+IO syscw: 59
+IO read_bytes: 0
+IO write_bytes: 36864
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.073255
+rusage ru_stime: 0.011038
+rusage ru_maxrss: 90888
+rusage ru_minflt: 6010
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 56
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 2
+Child rusage ru_utime: 6.4e-05
+Child rusage ru_stime: 0.003993
+Child rusage ru_maxrss: 86960
+Child rusage ru_minflt: 449
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 16
+Child rusage ru_nvcsw: 5
+Child rusage ru_nivcsw: 0
+Status: PASSED 
+Ended: 1748482644.26 

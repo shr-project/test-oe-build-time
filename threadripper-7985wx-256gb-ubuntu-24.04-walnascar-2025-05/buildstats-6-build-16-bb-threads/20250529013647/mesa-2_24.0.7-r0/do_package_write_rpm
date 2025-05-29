@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748484241.60 
+mesa-2_24.0.7-r0: do_package_write_rpm
+Elapsed time: 4.21 seconds
+utime: 42
+stime: 31
+cutime: 468
+cstime: 155
+IO rchar: 2071485175
+IO wchar: 357418782
+IO syscr: 96116
+IO syscw: 18800
+IO read_bytes: 0
+IO write_bytes: 237219840
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.425502
+rusage ru_stime: 0.31759899999999996
+rusage ru_maxrss: 110636
+rusage ru_minflt: 23027
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 1024
+rusage ru_nvcsw: 6253
+rusage ru_nivcsw: 36
+Child rusage ru_utime: 4.6889769999999995
+Child rusage ru_stime: 1.5528499999999998
+Child rusage ru_maxrss: 392436
+Child rusage ru_minflt: 222538
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 462296
+Child rusage ru_nvcsw: 18067
+Child rusage ru_nivcsw: 559
+Status: PASSED 
+Ended: 1748484245.81 

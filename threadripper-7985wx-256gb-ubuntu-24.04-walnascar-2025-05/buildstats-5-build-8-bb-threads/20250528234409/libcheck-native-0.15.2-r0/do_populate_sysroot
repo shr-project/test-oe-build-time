@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748478365.84 
+libcheck-native-0.15.2-r0: do_populate_sysroot
+Elapsed time: 0.16 seconds
+utime: 12
+stime: 3
+cutime: 2
+cstime: 7
+IO rchar: 1681916
+IO wchar: 587984
+IO syscr: 1090
+IO syscw: 258
+IO read_bytes: 0
+IO write_bytes: 385024
+IO cancelled_write_bytes: 57344
+rusage ru_utime: 0.128629
+rusage ru_stime: 0.036892999999999995
+rusage ru_maxrss: 116492
+rusage ru_minflt: 16845
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 392
+rusage ru_nvcsw: 33
+rusage ru_nivcsw: 10
+Child rusage ru_utime: 0.023417999999999998
+Child rusage ru_stime: 0.07566099999999999
+Child rusage ru_maxrss: 116492
+Child rusage ru_minflt: 12768
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 360
+Child rusage ru_nvcsw: 439
+Child rusage ru_nivcsw: 33
+Status: PASSED 
+Ended: 1748478366.00 

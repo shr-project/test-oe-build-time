@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748476088.95 
+ca-certificates-native-20241223-r0: do_patch
+Elapsed time: 0.29 seconds
+utime: 5
+stime: 1
+cutime: 10
+cstime: 24
+IO rchar: 1665277
+IO wchar: 185786
+IO syscr: 2396
+IO syscw: 316
+IO read_bytes: 0
+IO write_bytes: 192512
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 0.05796
+rusage ru_stime: 0.014466999999999999
+rusage ru_maxrss: 94480
+rusage ru_minflt: 4627
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 144
+rusage ru_nvcsw: 29
+rusage ru_nivcsw: 1
+Child rusage ru_utime: 0.103224
+Child rusage ru_stime: 0.240555
+Child rusage ru_maxrss: 94480
+Child rusage ru_minflt: 47593
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 232
+Child rusage ru_nvcsw: 680
+Child rusage ru_nivcsw: 68
+Status: PASSED 
+Ended: 1748476089.24 

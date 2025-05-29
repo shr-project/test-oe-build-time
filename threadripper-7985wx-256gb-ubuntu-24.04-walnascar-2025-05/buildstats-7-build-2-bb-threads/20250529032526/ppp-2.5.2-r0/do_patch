@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748494748.38 
+ppp-2.5.2-r0: do_patch
+Elapsed time: 0.17 seconds
+utime: 11
+stime: 2
+cutime: 5
+cstime: 12
+IO rchar: 1023464
+IO wchar: 152244
+IO syscr: 1435
+IO syscw: 252
+IO read_bytes: 0
+IO write_bytes: 131072
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 0.111388
+rusage ru_stime: 0.026327999999999997
+rusage ru_maxrss: 101452
+rusage ru_minflt: 8005
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 168
+rusage ru_nvcsw: 19
+rusage ru_nivcsw: 4
+Child rusage ru_utime: 0.057401999999999995
+Child rusage ru_stime: 0.12144999999999999
+Child rusage ru_maxrss: 101452
+Child rusage ru_minflt: 27808
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 88
+Child rusage ru_nvcsw: 400
+Child rusage ru_nivcsw: 22
+Status: PASSED 
+Ended: 1748494748.55 

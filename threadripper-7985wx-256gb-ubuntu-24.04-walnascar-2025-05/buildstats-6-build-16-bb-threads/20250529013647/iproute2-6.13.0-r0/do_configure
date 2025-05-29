@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748484165.84 
+iproute2-6.13.0-r0: do_configure
+Elapsed time: 0.53 seconds
+utime: 16
+stime: 3
+cutime: 16
+cstime: 25
+IO rchar: 5803842
+IO wchar: 147739
+IO syscr: 2659
+IO syscw: 515
+IO read_bytes: 0
+IO write_bytes: 253952
+IO cancelled_write_bytes: 131072
+rusage ru_utime: 0.16165
+rusage ru_stime: 0.035484
+rusage ru_maxrss: 110140
+rusage ru_minflt: 6894
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 136
+rusage ru_nvcsw: 26
+rusage ru_nivcsw: 6
+Child rusage ru_utime: 0.169589
+Child rusage ru_stime: 0.25403
+Child rusage ru_maxrss: 107332
+Child rusage ru_minflt: 25343
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 360
+Child rusage ru_nvcsw: 178
+Child rusage ru_nivcsw: 32
+Status: PASSED 
+Ended: 1748484166.37 

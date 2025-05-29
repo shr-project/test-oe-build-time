@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748490829.25 
+rust-native-1.84.1-r0: do_install
+Elapsed time: 230.51 seconds
+utime: 27
+stime: 10
+cutime: 270547
+cstime: 15547
+IO rchar: 23797506863
+IO wchar: 7524289856
+IO syscr: 4753660
+IO syscw: 3843412
+IO read_bytes: 0
+IO write_bytes: 7550353408
+IO cancelled_write_bytes: 2388471808
+rusage ru_utime: 0.27097
+rusage ru_stime: 0.10649
+rusage ru_maxrss: 90840
+rusage ru_minflt: 14741
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 7624
+rusage ru_nvcsw: 3260
+rusage ru_nivcsw: 39
+Child rusage ru_utime: 2705.471558
+Child rusage ru_stime: 155.470257
+Child rusage ru_maxrss: 1811132
+Child rusage ru_minflt: 39842174
+Child rusage ru_majflt: 5
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 14739160
+Child rusage ru_nvcsw: 2099519
+Child rusage ru_nivcsw: 16802
+Status: PASSED 
+Ended: 1748491059.76 

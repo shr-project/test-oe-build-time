@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748469308.11 
+ldconfig-native-2.12.1-r0: do_compile
+Elapsed time: 0.21 seconds
+utime: 4
+stime: 1
+cutime: 12
+cstime: 6
+IO rchar: 5225968
+IO wchar: 360628
+IO syscr: 1479
+IO syscw: 233
+IO read_bytes: 12288
+IO write_bytes: 393216
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.040952999999999996
+rusage ru_stime: 0.010237999999999999
+rusage ru_maxrss: 83476
+rusage ru_minflt: 4950
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 48
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 3
+Child rusage ru_utime: 0.12895399999999999
+Child rusage ru_stime: 0.069157
+Child rusage ru_maxrss: 80696
+Child rusage ru_minflt: 20224
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 720
+Child rusage ru_nvcsw: 54
+Child rusage ru_nivcsw: 19
+Status: PASSED 
+Ended: 1748469308.33 

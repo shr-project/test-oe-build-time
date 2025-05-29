@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748484062.58 
+linux-yocto-6.12.19+git-r0: do_deploy
+Elapsed time: 4.39 seconds
+utime: 69
+stime: 16
+cutime: 20802
+cstime: 328
+IO rchar: 2249472761
+IO wchar: 1483618887
+IO syscr: 231097
+IO syscw: 108969
+IO read_bytes: 0
+IO write_bytes: 488509440
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.696
+rusage ru_stime: 0.162872
+rusage ru_maxrss: 125420
+rusage ru_minflt: 21579
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 360
+rusage ru_nvcsw: 855
+rusage ru_nivcsw: 67
+Child rusage ru_utime: 208.025688
+Child rusage ru_stime: 3.282709
+Child rusage ru_maxrss: 282876
+Child rusage ru_minflt: 112889
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 953760
+Child rusage ru_nvcsw: 181401
+Child rusage ru_nivcsw: 71900
+Status: PASSED 
+Ended: 1748484066.98 

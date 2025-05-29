@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748469924.63 
+grep-3.11-r0: do_configure
+Elapsed time: 23.45 seconds
+utime: 20
+stime: 6
+cutime: 1135
+cstime: 1201
+IO rchar: 281758405
+IO wchar: 47164168
+IO syscr: 118332
+IO syscw: 45280
+IO read_bytes: 0
+IO write_bytes: 42471424
+IO cancelled_write_bytes: 21032960
+rusage ru_utime: 0.20149499999999998
+rusage ru_stime: 0.069865
+rusage ru_maxrss: 101396
+rusage ru_minflt: 15955
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 304
+rusage ru_nvcsw: 919
+rusage ru_nivcsw: 29
+Child rusage ru_utime: 11.358371
+Child rusage ru_stime: 12.018682
+Child rusage ru_maxrss: 101396
+Child rusage ru_minflt: 1831676
+Child rusage ru_majflt: 18
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 82648
+Child rusage ru_nvcsw: 12914
+Child rusage ru_nivcsw: 2855
+Status: PASSED 
+Ended: 1748469948.08 

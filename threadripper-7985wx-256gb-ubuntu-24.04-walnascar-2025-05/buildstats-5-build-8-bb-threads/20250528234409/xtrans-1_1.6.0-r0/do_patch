@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748476022.98 
+xtrans-1_1.6.0-r0: do_patch
+Elapsed time: 0.06 seconds
+utime: 5
+stime: 1
+cutime: 2
+cstime: 3
+IO rchar: 449278
+IO wchar: 129608
+IO syscr: 514
+IO syscw: 131
+IO read_bytes: 0
+IO write_bytes: 151552
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 0.050533999999999996
+rusage ru_stime: 0.012128
+rusage ru_maxrss: 91980
+rusage ru_minflt: 4573
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 13
+rusage ru_nivcsw: 1
+Child rusage ru_utime: 0.022779999999999998
+Child rusage ru_stime: 0.032806
+Child rusage ru_maxrss: 91980
+Child rusage ru_minflt: 9386
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 168
+Child rusage ru_nvcsw: 143
+Child rusage ru_nivcsw: 9
+Status: PASSED 
+Ended: 1748476023.05 

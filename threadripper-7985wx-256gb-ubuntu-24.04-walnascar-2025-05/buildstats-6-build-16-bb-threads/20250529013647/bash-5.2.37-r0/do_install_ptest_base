@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748483518.11 
+bash-5.2.37-r0: do_install_ptest_base
+Elapsed time: 3.29 seconds
+utime: 9
+stime: 3
+cutime: 263
+cstime: 65
+IO rchar: 48252780
+IO wchar: 10376406
+IO syscr: 16022
+IO syscw: 3913
+IO read_bytes: 0
+IO write_bytes: 9138176
+IO cancelled_write_bytes: 5337088
+rusage ru_utime: 0.09468299999999999
+rusage ru_stime: 0.035879999999999995
+rusage ru_maxrss: 82340
+rusage ru_minflt: 12509
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 104
+rusage ru_nvcsw: 489
+rusage ru_nivcsw: 13
+Child rusage ru_utime: 2.634213
+Child rusage ru_stime: 0.658221
+Child rusage ru_maxrss: 85584
+Child rusage ru_minflt: 68742
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 17744
+Child rusage ru_nvcsw: 5458
+Child rusage ru_nivcsw: 54
+Status: PASSED 
+Ended: 1748483521.40 

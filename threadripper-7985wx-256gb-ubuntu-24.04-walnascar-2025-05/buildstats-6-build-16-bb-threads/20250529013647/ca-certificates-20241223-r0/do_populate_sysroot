@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748482738.75 
+ca-certificates-20241223-r0: do_populate_sysroot
+Elapsed time: 0.09 seconds
+utime: 6
+stime: 1
+cutime: 1
+cstime: 3
+IO rchar: 1388020
+IO wchar: 682848
+IO syscr: 1255
+IO syscw: 167
+IO read_bytes: 0
+IO write_bytes: 286720
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.064635
+rusage ru_stime: 0.018893
+rusage ru_maxrss: 99892
+rusage ru_minflt: 8117
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 272
+rusage ru_nvcsw: 20
+rusage ru_nivcsw: 3
+Child rusage ru_utime: 0.011517999999999999
+Child rusage ru_stime: 0.039463
+Child rusage ru_maxrss: 99892
+Child rusage ru_minflt: 5772
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 288
+Child rusage ru_nvcsw: 358
+Child rusage ru_nivcsw: 22
+Status: PASSED 
+Ended: 1748482738.84 

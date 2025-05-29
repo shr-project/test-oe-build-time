@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748469293.14 
+rpm-native-1_4.20.0-r0: do_unpack
+Elapsed time: 0.29 seconds
+utime: 6
+stime: 5
+cutime: 10
+cstime: 13
+IO rchar: 5504854
+IO wchar: 4030166
+IO syscr: 2035
+IO syscw: 1010
+IO read_bytes: 0
+IO write_bytes: 5738496
+IO cancelled_write_bytes: 8192
+rusage ru_utime: 0.069475
+rusage ru_stime: 0.05284
+rusage ru_maxrss: 77540
+rusage ru_minflt: 13519
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 59
+rusage ru_nivcsw: 2
+Child rusage ru_utime: 0.103933
+Child rusage ru_stime: 0.137993
+Child rusage ru_maxrss: 77540
+Child rusage ru_minflt: 23426
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 11080
+Child rusage ru_nvcsw: 99
+Child rusage ru_nivcsw: 31
+Status: PASSED 
+Ended: 1748469293.43 

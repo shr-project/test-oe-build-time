@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748495604.53 
+procps-4.0.5-r0: do_populate_sysroot
+Elapsed time: 0.13 seconds
+utime: 9
+stime: 3
+cutime: 1
+cstime: 6
+IO rchar: 4222631
+IO wchar: 1652334
+IO syscr: 1183
+IO syscw: 244
+IO read_bytes: 0
+IO write_bytes: 1290240
+IO cancelled_write_bytes: 212992
+rusage ru_utime: 0.096602
+rusage ru_stime: 0.033913
+rusage ru_maxrss: 102876
+rusage ru_minflt: 9943
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 1512
+rusage ru_nvcsw: 22
+rusage ru_nivcsw: 2
+Child rusage ru_utime: 0.017544
+Child rusage ru_stime: 0.061876999999999995
+Child rusage ru_maxrss: 102876
+Child rusage ru_minflt: 8831
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1008
+Child rusage ru_nvcsw: 378
+Child rusage ru_nivcsw: 11
+Status: PASSED 
+Ended: 1748495604.66 

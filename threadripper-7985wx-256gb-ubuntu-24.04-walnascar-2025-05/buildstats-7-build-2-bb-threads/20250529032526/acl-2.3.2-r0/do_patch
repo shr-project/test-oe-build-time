@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748491135.57 
+acl-2.3.2-r0: do_patch
+Elapsed time: 0.11 seconds
+utime: 4
+stime: 1
+cutime: 4
+cstime: 6
+IO rchar: 678561
+IO wchar: 88174
+IO syscr: 957
+IO syscw: 161
+IO read_bytes: 0
+IO write_bytes: 102400
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 0.04876
+rusage ru_stime: 0.011941
+rusage ru_maxrss: 91936
+rusage ru_minflt: 4469
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 136
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 0
+Child rusage ru_utime: 0.048679
+Child rusage ru_stime: 0.069632
+Child rusage ru_maxrss: 91936
+Child rusage ru_minflt: 18545
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 64
+Child rusage ru_nvcsw: 281
+Child rusage ru_nivcsw: 3
+Status: PASSED 
+Ended: 1748491135.68 

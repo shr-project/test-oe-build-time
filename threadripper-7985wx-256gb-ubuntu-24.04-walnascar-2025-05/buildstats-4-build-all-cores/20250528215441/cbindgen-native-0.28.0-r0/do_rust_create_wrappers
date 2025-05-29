@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748470050.17 
+cbindgen-native-0.28.0-r0: do_rust_create_wrappers
+Elapsed time: 0.08 seconds
+utime: 14
+stime: 2
+cutime: 0
+cstime: 1
+IO rchar: 203939
+IO wchar: 142103
+IO syscr: 208
+IO syscw: 198
+IO read_bytes: 0
+IO write_bytes: 65536
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.146558
+rusage ru_stime: 0.02821
+rusage ru_maxrss: 105352
+rusage ru_minflt: 10697
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 64
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 6
+Child rusage ru_utime: 0.004258
+Child rusage ru_stime: 0.013203
+Child rusage ru_maxrss: 101488
+Child rusage ru_minflt: 1604
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 64
+Child rusage ru_nvcsw: 44
+Child rusage ru_nivcsw: 6
+Status: PASSED 
+Ended: 1748470050.25 

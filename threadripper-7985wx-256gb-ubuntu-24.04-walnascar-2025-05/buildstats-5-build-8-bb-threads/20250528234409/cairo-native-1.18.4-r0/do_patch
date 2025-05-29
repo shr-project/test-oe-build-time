@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748476114.72 
+cairo-native-1.18.4-r0: do_patch
+Elapsed time: 0.09 seconds
+utime: 9
+stime: 1
+cutime: 2
+cstime: 5
+IO rchar: 615415
+IO wchar: 285903
+IO syscr: 563
+IO syscw: 195
+IO read_bytes: 0
+IO write_bytes: 290816
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 0.09193599999999999
+rusage ru_stime: 0.013838999999999999
+rusage ru_maxrss: 95572
+rusage ru_minflt: 5007
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 13
+rusage ru_nivcsw: 1
+Child rusage ru_utime: 0.026843
+Child rusage ru_stime: 0.053751
+Child rusage ru_maxrss: 95572
+Child rusage ru_minflt: 9469
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 440
+Child rusage ru_nvcsw: 142
+Child rusage ru_nivcsw: 15
+Status: PASSED 
+Ended: 1748476114.81 

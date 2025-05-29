@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748482623.90 
+update-rc.d-native-0.8+git-r0: do_unpack
+Elapsed time: 0.16 seconds
+utime: 4
+stime: 2
+cutime: 7
+cstime: 6
+IO rchar: 5200172
+IO wchar: 87242
+IO syscr: 1428
+IO syscw: 176
+IO read_bytes: 0
+IO write_bytes: 221184
+IO cancelled_write_bytes: 8192
+rusage ru_utime: 0.047591999999999995
+rusage ru_stime: 0.025865
+rusage ru_maxrss: 79812
+rusage ru_minflt: 7730
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 32
+rusage ru_nivcsw: 2
+Child rusage ru_utime: 0.077361
+Child rusage ru_stime: 0.06997099999999999
+Child rusage ru_maxrss: 79812
+Child rusage ru_minflt: 15559
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 360
+Child rusage ru_nvcsw: 44
+Child rusage ru_nivcsw: 18
+Status: PASSED 
+Ended: 1748482624.07 

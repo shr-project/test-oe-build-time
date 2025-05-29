@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748470050.70 
+libstd-rs-1.84.1-r0: do_compile
+Elapsed time: 32.05 seconds
+utime: 10
+stime: 3
+cutime: 6844
+cstime: 503
+IO rchar: 268777071
+IO wchar: 309780194
+IO syscr: 64045
+IO syscw: 37479
+IO read_bytes: 0
+IO write_bytes: 311050240
+IO cancelled_write_bytes: 117911552
+rusage ru_utime: 0.104977
+rusage ru_stime: 0.037347
+rusage ru_maxrss: 104328
+rusage ru_minflt: 10538
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 232
+rusage ru_nvcsw: 87
+rusage ru_nivcsw: 15
+Child rusage ru_utime: 68.448949
+Child rusage ru_stime: 5.036645
+Child rusage ru_maxrss: 1052580
+Child rusage ru_minflt: 1032866
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 607288
+Child rusage ru_nvcsw: 35381
+Child rusage ru_nivcsw: 2219
+Status: PASSED 
+Ended: 1748470082.75 

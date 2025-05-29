@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748477678.92 
+cbindgen-native-0.28.0-r0: do_compile
+Elapsed time: 26.37 seconds
+utime: 12
+stime: 3
+cutime: 16633
+cstime: 764
+IO rchar: 508073196
+IO wchar: 195590865
+IO syscr: 114305
+IO syscw: 92498
+IO read_bytes: 0
+IO write_bytes: 197181440
+IO cancelled_write_bytes: 75538432
+rusage ru_utime: 0.12378
+rusage ru_stime: 0.033939
+rusage ru_maxrss: 111496
+rusage ru_minflt: 7592
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 304
+rusage ru_nvcsw: 120
+rusage ru_nivcsw: 7
+Child rusage ru_utime: 166.337934
+Child rusage ru_stime: 7.645289
+Child rusage ru_maxrss: 728008
+Child rusage ru_minflt: 1436441
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 384816
+Child rusage ru_nvcsw: 111640
+Child rusage ru_nivcsw: 2272
+Status: PASSED 
+Ended: 1748477705.29 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748482644.70 
+unfs3-native-0.10.0-r0: do_unpack
+Elapsed time: 0.20 seconds
+utime: 6
+stime: 2
+cutime: 7
+cstime: 9
+IO rchar: 5300843
+IO wchar: 537436
+IO syscr: 1593
+IO syscw: 297
+IO read_bytes: 0
+IO write_bytes: 843776
+IO cancelled_write_bytes: 12288
+rusage ru_utime: 0.060434999999999996
+rusage ru_stime: 0.029722
+rusage ru_maxrss: 88984
+rusage ru_minflt: 10053
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 88
+rusage ru_nvcsw: 42
+rusage ru_nivcsw: 4
+Child rusage ru_utime: 0.076913
+Child rusage ru_stime: 0.093203
+Child rusage ru_maxrss: 88984
+Child rusage ru_minflt: 17944
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 1560
+Child rusage ru_nvcsw: 64
+Child rusage ru_nivcsw: 12
+Status: PASSED 
+Ended: 1748482644.90 

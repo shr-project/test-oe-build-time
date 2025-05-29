@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748478563.58 
+diffutils-native-3.11-r0: do_patch
+Elapsed time: 0.06 seconds
+utime: 6
+stime: 1
+cutime: 2
+cstime: 3
+IO rchar: 389266
+IO wchar: 81278
+IO syscr: 475
+IO syscw: 137
+IO read_bytes: 0
+IO write_bytes: 86016
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 0.063514
+rusage ru_stime: 0.015122
+rusage ru_maxrss: 117944
+rusage ru_minflt: 4887
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 1
+Child rusage ru_utime: 0.020265
+Child rusage ru_stime: 0.031811
+Child rusage ru_maxrss: 117944
+Child rusage ru_minflt: 8932
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 136
+Child rusage ru_nivcsw: 3
+Status: PASSED 
+Ended: 1748478563.64 

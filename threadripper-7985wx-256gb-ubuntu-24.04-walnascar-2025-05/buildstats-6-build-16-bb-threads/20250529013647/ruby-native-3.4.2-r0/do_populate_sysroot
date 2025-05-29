@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1748482818.50 
+ruby-native-3.4.2-r0: do_populate_sysroot
+Elapsed time: 1.07 seconds
+utime: 33
+stime: 32
+cutime: 39
+cstime: 53
+IO rchar: 186103352
+IO wchar: 80927651
+IO syscr: 36684
+IO syscw: 7463
+IO read_bytes: 0
+IO write_bytes: 42352640
+IO cancelled_write_bytes: 9883648
+rusage ru_utime: 0.338786
+rusage ru_stime: 0.325794
+rusage ru_maxrss: 101868
+rusage ru_minflt: 27973
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 23776
+rusage ru_nvcsw: 76
+rusage ru_nivcsw: 21
+Child rusage ru_utime: 0.39919899999999997
+Child rusage ru_stime: 0.5323479999999999
+Child rusage ru_maxrss: 101868
+Child rusage ru_minflt: 72121
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 58944
+Child rusage ru_nvcsw: 1840
+Child rusage ru_nivcsw: 76
+Status: PASSED 
+Ended: 1748482819.57 
