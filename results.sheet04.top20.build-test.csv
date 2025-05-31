@@ -61,6 +61,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;gettext-mini
 threadripper-3970x-64gb-zeus;2-build-test;gettext-minimal-native.do_deploy_source_date_epoch;---
 threadripper-3990x-128gb-zeus;2-build-test;gettext-minimal-native.do_deploy_source_date_epoch;---
 threadripper-3990x-256gb-zeus;2-build-test;gettext-minimal-native.do_deploy_source_date_epoch;---
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;gettext-minimal-native.do_deploy_source_date_epoch;---
 vSphere-VM-28t-55G-zeus;2-build-test;gettext-minimal-native.do_deploy_source_date_epoch;---
 xeon-e3-1275-v5-dunfell;2-build-test;gettext-minimal-native.do_deploy_source_date_epoch;---
 VM-20t-157G-zeus;2-build-test;gettext-minimal-native.do_fetch;---
@@ -125,6 +126,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;gettext-mini
 threadripper-3970x-64gb-zeus;2-build-test;gettext-minimal-native.do_fetch;---
 threadripper-3990x-128gb-zeus;2-build-test;gettext-minimal-native.do_fetch;---
 threadripper-3990x-256gb-zeus;2-build-test;gettext-minimal-native.do_fetch;---
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;gettext-minimal-native.do_fetch;492.74
 vSphere-VM-28t-55G-zeus;2-build-test;gettext-minimal-native.do_fetch;---
 xeon-e3-1275-v5-dunfell;2-build-test;gettext-minimal-native.do_fetch;---
 VM-20t-157G-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
@@ -189,6 +191,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;gettext-mini
 threadripper-3970x-64gb-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
 threadripper-3990x-128gb-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
 threadripper-3990x-256gb-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;gettext-minimal-native.do_populate_sysroot;0.11
 vSphere-VM-28t-55G-zeus;2-build-test;gettext-minimal-native.do_populate_sysroot;---
 xeon-e3-1275-v5-dunfell;2-build-test;gettext-minimal-native.do_populate_sysroot;---
 VM-20t-157G-zeus;2-build-test;gettext-minimal-native.do_rm_work;---
@@ -253,6 +256,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;gettext-mini
 threadripper-3970x-64gb-zeus;2-build-test;gettext-minimal-native.do_rm_work;---
 threadripper-3990x-128gb-zeus;2-build-test;gettext-minimal-native.do_rm_work;---
 threadripper-3990x-256gb-zeus;2-build-test;gettext-minimal-native.do_rm_work;---
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;gettext-minimal-native.do_rm_work;0.19
 vSphere-VM-28t-55G-zeus;2-build-test;gettext-minimal-native.do_rm_work;---
 xeon-e3-1275-v5-dunfell;2-build-test;gettext-minimal-native.do_rm_work;---
 VM-20t-157G-zeus;2-build-test;gettext-minimal-native.do_unpack;---
@@ -317,6 +321,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;gettext-mini
 threadripper-3970x-64gb-zeus;2-build-test;gettext-minimal-native.do_unpack;---
 threadripper-3990x-128gb-zeus;2-build-test;gettext-minimal-native.do_unpack;---
 threadripper-3990x-256gb-zeus;2-build-test;gettext-minimal-native.do_unpack;---
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;gettext-minimal-native.do_unpack;0.61
 vSphere-VM-28t-55G-zeus;2-build-test;gettext-minimal-native.do_unpack;---
 xeon-e3-1275-v5-dunfell;2-build-test;gettext-minimal-native.do_unpack;---
 VM-20t-157G-zeus;2-build-test;gnu-config-native.do_create_spdx;---
@@ -381,6 +386,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;gnu-config-n
 threadripper-3970x-64gb-zeus;2-build-test;gnu-config-native.do_create_spdx;---
 threadripper-3990x-128gb-zeus;2-build-test;gnu-config-native.do_create_spdx;---
 threadripper-3990x-256gb-zeus;2-build-test;gnu-config-native.do_create_spdx;---
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;gnu-config-native.do_create_spdx;---
 vSphere-VM-28t-55G-zeus;2-build-test;gnu-config-native.do_create_spdx;---
 xeon-e3-1275-v5-dunfell;2-build-test;gnu-config-native.do_create_spdx;---
 VM-20t-157G-zeus;2-build-test;gnu-config-native.do_deploy_source_date_epoch;---
@@ -445,6 +451,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;gnu-config-n
 threadripper-3970x-64gb-zeus;2-build-test;gnu-config-native.do_deploy_source_date_epoch;---
 threadripper-3990x-128gb-zeus;2-build-test;gnu-config-native.do_deploy_source_date_epoch;---
 threadripper-3990x-256gb-zeus;2-build-test;gnu-config-native.do_deploy_source_date_epoch;---
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;gnu-config-native.do_deploy_source_date_epoch;---
 vSphere-VM-28t-55G-zeus;2-build-test;gnu-config-native.do_deploy_source_date_epoch;---
 xeon-e3-1275-v5-dunfell;2-build-test;gnu-config-native.do_deploy_source_date_epoch;0.14
 VM-20t-157G-zeus;2-build-test;gnu-config-native.do_fetch;5.01
@@ -509,6 +516,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;gnu-config-n
 threadripper-3970x-64gb-zeus;2-build-test;gnu-config-native.do_fetch;0.71
 threadripper-3990x-128gb-zeus;2-build-test;gnu-config-native.do_fetch;2.20
 threadripper-3990x-256gb-zeus;2-build-test;gnu-config-native.do_fetch;0.65
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;gnu-config-native.do_fetch;23.01
 vSphere-VM-28t-55G-zeus;2-build-test;gnu-config-native.do_fetch;0.69
 xeon-e3-1275-v5-dunfell;2-build-test;gnu-config-native.do_fetch;27.88
 VM-20t-157G-zeus;2-build-test;gnu-config-native.do_install;0.22
@@ -573,6 +581,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;gnu-config-n
 threadripper-3970x-64gb-zeus;2-build-test;gnu-config-native.do_install;---
 threadripper-3990x-128gb-zeus;2-build-test;gnu-config-native.do_install;---
 threadripper-3990x-256gb-zeus;2-build-test;gnu-config-native.do_install;---
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;gnu-config-native.do_install;---
 vSphere-VM-28t-55G-zeus;2-build-test;gnu-config-native.do_install;---
 xeon-e3-1275-v5-dunfell;2-build-test;gnu-config-native.do_install;---
 VM-20t-157G-zeus;2-build-test;gnu-config-native.do_populate_lic;---
@@ -637,6 +646,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;gnu-config-n
 threadripper-3970x-64gb-zeus;2-build-test;gnu-config-native.do_populate_lic;0.10
 threadripper-3990x-128gb-zeus;2-build-test;gnu-config-native.do_populate_lic;0.10
 threadripper-3990x-256gb-zeus;2-build-test;gnu-config-native.do_populate_lic;0.09
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;gnu-config-native.do_populate_lic;---
 vSphere-VM-28t-55G-zeus;2-build-test;gnu-config-native.do_populate_lic;0.27
 xeon-e3-1275-v5-dunfell;2-build-test;gnu-config-native.do_populate_lic;---
 VM-20t-157G-zeus;2-build-test;gnu-config-native.do_populate_sysroot;0.47
@@ -701,6 +711,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;gnu-config-n
 threadripper-3970x-64gb-zeus;2-build-test;gnu-config-native.do_populate_sysroot;0.19
 threadripper-3990x-128gb-zeus;2-build-test;gnu-config-native.do_populate_sysroot;0.20
 threadripper-3990x-256gb-zeus;2-build-test;gnu-config-native.do_populate_sysroot;0.19
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;gnu-config-native.do_populate_sysroot;0.11
 vSphere-VM-28t-55G-zeus;2-build-test;gnu-config-native.do_populate_sysroot;0.58
 xeon-e3-1275-v5-dunfell;2-build-test;gnu-config-native.do_populate_sysroot;0.15
 VM-20t-157G-zeus;2-build-test;gnu-config-native.do_rm_work;---
@@ -765,6 +776,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;gnu-config-n
 threadripper-3970x-64gb-zeus;2-build-test;gnu-config-native.do_rm_work;---
 threadripper-3990x-128gb-zeus;2-build-test;gnu-config-native.do_rm_work;---
 threadripper-3990x-256gb-zeus;2-build-test;gnu-config-native.do_rm_work;---
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;gnu-config-native.do_rm_work;---
 vSphere-VM-28t-55G-zeus;2-build-test;gnu-config-native.do_rm_work;---
 xeon-e3-1275-v5-dunfell;2-build-test;gnu-config-native.do_rm_work;---
 VM-20t-157G-zeus;2-build-test;gnu-config-native.do_unpack;---
@@ -829,6 +841,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;gnu-config-n
 threadripper-3970x-64gb-zeus;2-build-test;gnu-config-native.do_unpack;---
 threadripper-3990x-128gb-zeus;2-build-test;gnu-config-native.do_unpack;---
 threadripper-3990x-256gb-zeus;2-build-test;gnu-config-native.do_unpack;---
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;gnu-config-native.do_unpack;0.19
 vSphere-VM-28t-55G-zeus;2-build-test;gnu-config-native.do_unpack;---
 xeon-e3-1275-v5-dunfell;2-build-test;gnu-config-native.do_unpack;---
 VM-20t-157G-zeus;2-build-test;icecc-create-env-native.do_populate_sysroot;---
@@ -893,6 +906,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;icecc-create
 threadripper-3970x-64gb-zeus;2-build-test;icecc-create-env-native.do_populate_sysroot;---
 threadripper-3990x-128gb-zeus;2-build-test;icecc-create-env-native.do_populate_sysroot;---
 threadripper-3990x-256gb-zeus;2-build-test;icecc-create-env-native.do_populate_sysroot;---
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;icecc-create-env-native.do_populate_sysroot;---
 vSphere-VM-28t-55G-zeus;2-build-test;icecc-create-env-native.do_populate_sysroot;---
 xeon-e3-1275-v5-dunfell;2-build-test;icecc-create-env-native.do_populate_sysroot;---
 VM-20t-157G-zeus;2-build-test;m4-native.do_compile;2.56
@@ -957,6 +971,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;m4-native.do
 threadripper-3970x-64gb-zeus;2-build-test;m4-native.do_compile;0.80
 threadripper-3990x-128gb-zeus;2-build-test;m4-native.do_compile;0.81
 threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_compile;0.77
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;m4-native.do_compile;1.61
 vSphere-VM-28t-55G-zeus;2-build-test;m4-native.do_compile;2.15
 xeon-e3-1275-v5-dunfell;2-build-test;m4-native.do_compile;1.47
 VM-20t-157G-zeus;2-build-test;m4-native.do_configure;57.03
@@ -1021,6 +1036,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;m4-native.do
 threadripper-3970x-64gb-zeus;2-build-test;m4-native.do_configure;15.77
 threadripper-3990x-128gb-zeus;2-build-test;m4-native.do_configure;15.85
 threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_configure;15.82
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;m4-native.do_configure;15.39
 vSphere-VM-28t-55G-zeus;2-build-test;m4-native.do_configure;41.77
 xeon-e3-1275-v5-dunfell;2-build-test;m4-native.do_configure;12.42
 VM-20t-157G-zeus;2-build-test;m4-native.do_create_spdx;---
@@ -1085,6 +1101,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;m4-native.do
 threadripper-3970x-64gb-zeus;2-build-test;m4-native.do_create_spdx;---
 threadripper-3990x-128gb-zeus;2-build-test;m4-native.do_create_spdx;---
 threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_create_spdx;---
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;m4-native.do_create_spdx;---
 vSphere-VM-28t-55G-zeus;2-build-test;m4-native.do_create_spdx;---
 xeon-e3-1275-v5-dunfell;2-build-test;m4-native.do_create_spdx;---
 VM-20t-157G-zeus;2-build-test;m4-native.do_deploy_source_date_epoch;---
@@ -1149,6 +1166,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;m4-native.do
 threadripper-3970x-64gb-zeus;2-build-test;m4-native.do_deploy_source_date_epoch;---
 threadripper-3990x-128gb-zeus;2-build-test;m4-native.do_deploy_source_date_epoch;---
 threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_deploy_source_date_epoch;---
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;m4-native.do_deploy_source_date_epoch;---
 vSphere-VM-28t-55G-zeus;2-build-test;m4-native.do_deploy_source_date_epoch;---
 xeon-e3-1275-v5-dunfell;2-build-test;m4-native.do_deploy_source_date_epoch;0.11
 VM-20t-157G-zeus;2-build-test;m4-native.do_fetch;1.02
@@ -1213,6 +1231,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;m4-native.do
 threadripper-3970x-64gb-zeus;2-build-test;m4-native.do_fetch;0.95
 threadripper-3990x-128gb-zeus;2-build-test;m4-native.do_fetch;0.48
 threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_fetch;0.46
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;m4-native.do_fetch;45.08
 vSphere-VM-28t-55G-zeus;2-build-test;m4-native.do_fetch;2.43
 xeon-e3-1275-v5-dunfell;2-build-test;m4-native.do_fetch;2.99
 VM-20t-157G-zeus;2-build-test;m4-native.do_install;1.05
@@ -1277,6 +1296,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;m4-native.do
 threadripper-3970x-64gb-zeus;2-build-test;m4-native.do_install;0.35
 threadripper-3990x-128gb-zeus;2-build-test;m4-native.do_install;0.36
 threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_install;0.34
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;m4-native.do_install;0.28
 vSphere-VM-28t-55G-zeus;2-build-test;m4-native.do_install;0.99
 xeon-e3-1275-v5-dunfell;2-build-test;m4-native.do_install;0.26
 VM-20t-157G-zeus;2-build-test;m4-native.do_patch;0.38
@@ -1341,6 +1361,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;m4-native.do
 threadripper-3970x-64gb-zeus;2-build-test;m4-native.do_patch;0.15
 threadripper-3990x-128gb-zeus;2-build-test;m4-native.do_patch;0.16
 threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_patch;0.15
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;m4-native.do_patch;0.16
 vSphere-VM-28t-55G-zeus;2-build-test;m4-native.do_patch;0.40
 xeon-e3-1275-v5-dunfell;2-build-test;m4-native.do_patch;0.26
 VM-20t-157G-zeus;2-build-test;m4-native.do_populate_lic;0.24
@@ -1405,6 +1426,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;m4-native.do
 threadripper-3970x-64gb-zeus;2-build-test;m4-native.do_populate_lic;0.09
 threadripper-3990x-128gb-zeus;2-build-test;m4-native.do_populate_lic;0.10
 threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_populate_lic;0.10
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;m4-native.do_populate_lic;---
 vSphere-VM-28t-55G-zeus;2-build-test;m4-native.do_populate_lic;0.31
 xeon-e3-1275-v5-dunfell;2-build-test;m4-native.do_populate_lic;---
 VM-20t-157G-zeus;2-build-test;m4-native.do_populate_sysroot;0.50
@@ -1469,6 +1491,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;m4-native.do
 threadripper-3970x-64gb-zeus;2-build-test;m4-native.do_populate_sysroot;0.20
 threadripper-3990x-128gb-zeus;2-build-test;m4-native.do_populate_sysroot;0.21
 threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_populate_sysroot;0.21
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;m4-native.do_populate_sysroot;0.13
 vSphere-VM-28t-55G-zeus;2-build-test;m4-native.do_populate_sysroot;0.58
 xeon-e3-1275-v5-dunfell;2-build-test;m4-native.do_populate_sysroot;0.15
 VM-20t-157G-zeus;2-build-test;m4-native.do_rm_work;---
@@ -1533,6 +1556,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;m4-native.do
 threadripper-3970x-64gb-zeus;2-build-test;m4-native.do_rm_work;---
 threadripper-3990x-128gb-zeus;2-build-test;m4-native.do_rm_work;---
 threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_rm_work;---
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;m4-native.do_rm_work;0.11
 vSphere-VM-28t-55G-zeus;2-build-test;m4-native.do_rm_work;---
 xeon-e3-1275-v5-dunfell;2-build-test;m4-native.do_rm_work;0.10
 VM-20t-157G-zeus;2-build-test;m4-native.do_unpack;0.26
@@ -1597,6 +1621,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;m4-native.do
 threadripper-3970x-64gb-zeus;2-build-test;m4-native.do_unpack;---
 threadripper-3990x-128gb-zeus;2-build-test;m4-native.do_unpack;0.09
 threadripper-3990x-256gb-zeus;2-build-test;m4-native.do_unpack;0.09
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;m4-native.do_unpack;---
 vSphere-VM-28t-55G-zeus;2-build-test;m4-native.do_unpack;0.27
 xeon-e3-1275-v5-dunfell;2-build-test;m4-native.do_unpack;---
 VM-20t-157G-zeus;2-build-test;quilt-native.do_compile;1.14
@@ -1661,6 +1686,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;quilt-native
 threadripper-3970x-64gb-zeus;2-build-test;quilt-native.do_compile;0.52
 threadripper-3990x-128gb-zeus;2-build-test;quilt-native.do_compile;0.52
 threadripper-3990x-256gb-zeus;2-build-test;quilt-native.do_compile;0.43
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;quilt-native.do_compile;0.20
 vSphere-VM-28t-55G-zeus;2-build-test;quilt-native.do_compile;1.24
 xeon-e3-1275-v5-dunfell;2-build-test;quilt-native.do_compile;0.33
 VM-20t-157G-zeus;2-build-test;quilt-native.do_configure;1.72
@@ -1725,6 +1751,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;quilt-native
 threadripper-3970x-64gb-zeus;2-build-test;quilt-native.do_configure;0.50
 threadripper-3990x-128gb-zeus;2-build-test;quilt-native.do_configure;0.49
 threadripper-3990x-256gb-zeus;2-build-test;quilt-native.do_configure;0.48
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;quilt-native.do_configure;0.45
 vSphere-VM-28t-55G-zeus;2-build-test;quilt-native.do_configure;1.37
 xeon-e3-1275-v5-dunfell;2-build-test;quilt-native.do_configure;0.35
 VM-20t-157G-zeus;2-build-test;quilt-native.do_create_spdx;---
@@ -1789,6 +1816,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;quilt-native
 threadripper-3970x-64gb-zeus;2-build-test;quilt-native.do_create_spdx;---
 threadripper-3990x-128gb-zeus;2-build-test;quilt-native.do_create_spdx;---
 threadripper-3990x-256gb-zeus;2-build-test;quilt-native.do_create_spdx;---
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;quilt-native.do_create_spdx;---
 vSphere-VM-28t-55G-zeus;2-build-test;quilt-native.do_create_spdx;---
 xeon-e3-1275-v5-dunfell;2-build-test;quilt-native.do_create_spdx;---
 VM-20t-157G-zeus;2-build-test;quilt-native.do_deploy_source_date_epoch;---
@@ -1853,6 +1881,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;quilt-native
 threadripper-3970x-64gb-zeus;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 threadripper-3990x-128gb-zeus;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 threadripper-3990x-256gb-zeus;2-build-test;quilt-native.do_deploy_source_date_epoch;---
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 vSphere-VM-28t-55G-zeus;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 xeon-e3-1275-v5-dunfell;2-build-test;quilt-native.do_deploy_source_date_epoch;---
 VM-20t-157G-zeus;2-build-test;quilt-native.do_fetch;5.71
@@ -1917,6 +1946,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;quilt-native
 threadripper-3970x-64gb-zeus;2-build-test;quilt-native.do_fetch;2.84
 threadripper-3990x-128gb-zeus;2-build-test;quilt-native.do_fetch;1.31
 threadripper-3990x-256gb-zeus;2-build-test;quilt-native.do_fetch;1.55
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;quilt-native.do_fetch;1.52
 vSphere-VM-28t-55G-zeus;2-build-test;quilt-native.do_fetch;0.87
 xeon-e3-1275-v5-dunfell;2-build-test;quilt-native.do_fetch;2.18
 VM-20t-157G-zeus;2-build-test;quilt-native.do_install;0.32
@@ -1981,6 +2011,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;quilt-native
 threadripper-3970x-64gb-zeus;2-build-test;quilt-native.do_install;0.12
 threadripper-3990x-128gb-zeus;2-build-test;quilt-native.do_install;0.12
 threadripper-3990x-256gb-zeus;2-build-test;quilt-native.do_install;0.12
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;quilt-native.do_install;---
 vSphere-VM-28t-55G-zeus;2-build-test;quilt-native.do_install;0.42
 xeon-e3-1275-v5-dunfell;2-build-test;quilt-native.do_install;---
 VM-20t-157G-zeus;2-build-test;quilt-native.do_populate_lic;0.23
@@ -2045,6 +2076,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;quilt-native
 threadripper-3970x-64gb-zeus;2-build-test;quilt-native.do_populate_lic;0.09
 threadripper-3990x-128gb-zeus;2-build-test;quilt-native.do_populate_lic;0.10
 threadripper-3990x-256gb-zeus;2-build-test;quilt-native.do_populate_lic;0.09
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;quilt-native.do_populate_lic;---
 vSphere-VM-28t-55G-zeus;2-build-test;quilt-native.do_populate_lic;0.28
 xeon-e3-1275-v5-dunfell;2-build-test;quilt-native.do_populate_lic;---
 VM-20t-157G-zeus;2-build-test;quilt-native.do_populate_sysroot;0.73
@@ -2109,6 +2141,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;quilt-native
 threadripper-3970x-64gb-zeus;2-build-test;quilt-native.do_populate_sysroot;0.27
 threadripper-3990x-128gb-zeus;2-build-test;quilt-native.do_populate_sysroot;0.29
 threadripper-3990x-256gb-zeus;2-build-test;quilt-native.do_populate_sysroot;0.31
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;quilt-native.do_populate_sysroot;0.18
 vSphere-VM-28t-55G-zeus;2-build-test;quilt-native.do_populate_sysroot;0.82
 xeon-e3-1275-v5-dunfell;2-build-test;quilt-native.do_populate_sysroot;0.20
 VM-20t-157G-zeus;2-build-test;quilt-native.do_rm_work;---
@@ -2173,6 +2206,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;quilt-native
 threadripper-3970x-64gb-zeus;2-build-test;quilt-native.do_rm_work;---
 threadripper-3990x-128gb-zeus;2-build-test;quilt-native.do_rm_work;---
 threadripper-3990x-256gb-zeus;2-build-test;quilt-native.do_rm_work;---
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;quilt-native.do_rm_work;---
 vSphere-VM-28t-55G-zeus;2-build-test;quilt-native.do_rm_work;---
 xeon-e3-1275-v5-dunfell;2-build-test;quilt-native.do_rm_work;0.20
 VM-20t-157G-zeus;2-build-test;texinfo-dummy-native.do_create_spdx;---
@@ -2237,6 +2271,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;texinfo-dumm
 threadripper-3970x-64gb-zeus;2-build-test;texinfo-dummy-native.do_create_spdx;---
 threadripper-3990x-128gb-zeus;2-build-test;texinfo-dummy-native.do_create_spdx;---
 threadripper-3990x-256gb-zeus;2-build-test;texinfo-dummy-native.do_create_spdx;---
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;texinfo-dummy-native.do_create_spdx;---
 vSphere-VM-28t-55G-zeus;2-build-test;texinfo-dummy-native.do_create_spdx;---
 xeon-e3-1275-v5-dunfell;2-build-test;texinfo-dummy-native.do_create_spdx;---
 VM-20t-157G-zeus;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
@@ -2301,6 +2336,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;texinfo-dumm
 threadripper-3970x-64gb-zeus;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 threadripper-3990x-128gb-zeus;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 threadripper-3990x-256gb-zeus;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 vSphere-VM-28t-55G-zeus;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;---
 xeon-e3-1275-v5-dunfell;2-build-test;texinfo-dummy-native.do_deploy_source_date_epoch;0.12
 VM-20t-157G-zeus;2-build-test;texinfo-dummy-native.do_install;0.27
@@ -2365,6 +2401,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;texinfo-dumm
 threadripper-3970x-64gb-zeus;2-build-test;texinfo-dummy-native.do_install;0.08
 threadripper-3990x-128gb-zeus;2-build-test;texinfo-dummy-native.do_install;---
 threadripper-3990x-256gb-zeus;2-build-test;texinfo-dummy-native.do_install;---
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;texinfo-dummy-native.do_install;---
 vSphere-VM-28t-55G-zeus;2-build-test;texinfo-dummy-native.do_install;---
 xeon-e3-1275-v5-dunfell;2-build-test;texinfo-dummy-native.do_install;---
 VM-20t-157G-zeus;2-build-test;texinfo-dummy-native.do_patch;---
@@ -2429,6 +2466,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;texinfo-dumm
 threadripper-3970x-64gb-zeus;2-build-test;texinfo-dummy-native.do_patch;---
 threadripper-3990x-128gb-zeus;2-build-test;texinfo-dummy-native.do_patch;---
 threadripper-3990x-256gb-zeus;2-build-test;texinfo-dummy-native.do_patch;---
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;texinfo-dummy-native.do_patch;---
 vSphere-VM-28t-55G-zeus;2-build-test;texinfo-dummy-native.do_patch;---
 xeon-e3-1275-v5-dunfell;2-build-test;texinfo-dummy-native.do_patch;0.15
 VM-20t-157G-zeus;2-build-test;texinfo-dummy-native.do_populate_lic;---
@@ -2493,6 +2531,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;texinfo-dumm
 threadripper-3970x-64gb-zeus;2-build-test;texinfo-dummy-native.do_populate_lic;0.09
 threadripper-3990x-128gb-zeus;2-build-test;texinfo-dummy-native.do_populate_lic;0.10
 threadripper-3990x-256gb-zeus;2-build-test;texinfo-dummy-native.do_populate_lic;0.09
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;texinfo-dummy-native.do_populate_lic;---
 vSphere-VM-28t-55G-zeus;2-build-test;texinfo-dummy-native.do_populate_lic;0.26
 xeon-e3-1275-v5-dunfell;2-build-test;texinfo-dummy-native.do_populate_lic;---
 VM-20t-157G-zeus;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.52
@@ -2557,6 +2596,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;texinfo-dumm
 threadripper-3970x-64gb-zeus;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.21
 threadripper-3990x-128gb-zeus;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.24
 threadripper-3990x-256gb-zeus;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.23
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.12
 vSphere-VM-28t-55G-zeus;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.66
 xeon-e3-1275-v5-dunfell;2-build-test;texinfo-dummy-native.do_populate_sysroot;0.14
 VM-20t-157G-zeus;2-build-test;texinfo-dummy-native.do_rm_work;---
@@ -2621,6 +2661,7 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;texinfo-dumm
 threadripper-3970x-64gb-zeus;2-build-test;texinfo-dummy-native.do_rm_work;---
 threadripper-3990x-128gb-zeus;2-build-test;texinfo-dummy-native.do_rm_work;---
 threadripper-3990x-256gb-zeus;2-build-test;texinfo-dummy-native.do_rm_work;---
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;texinfo-dummy-native.do_rm_work;---
 vSphere-VM-28t-55G-zeus;2-build-test;texinfo-dummy-native.do_rm_work;---
 xeon-e3-1275-v5-dunfell;2-build-test;texinfo-dummy-native.do_rm_work;---
 VM-20t-157G-zeus;2-build-test;Total;78.42
@@ -2685,5 +2726,6 @@ threadripper-3970x-128gb-ubuntu-21.10-honister-2021-09;2-build-test;Total;26.21
 threadripper-3970x-64gb-zeus;2-build-test;Total;24.39
 threadripper-3990x-128gb-zeus;2-build-test;Total;23.33
 threadripper-3990x-256gb-zeus;2-build-test;Total;23.26
+threadripper-7985wx-256gb-ubuntu-24.04-walnascar-2025-05;2-build-test;Total;513.44
 vSphere-VM-28t-55G-zeus;2-build-test;Total;58.14
 xeon-e3-1275-v5-dunfell;2-build-test;Total;45.33
